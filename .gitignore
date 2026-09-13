@@ -1,6 +1,9 @@
 node_modules/
 .astro/
 dist/
+.env
+.env.*
+!.env.example
 test-results/
 playwright-report/
 .catalog-cache/

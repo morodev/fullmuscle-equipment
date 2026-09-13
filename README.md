@@ -48,3 +48,5 @@ Il dominio canonical previsto è `https://fullmuscle-equipment.com`. In produzio
 Il catalogo espone 24 prodotti per pagina attraverso link HTML e URL paginati. Tutte le 744 schede italiane e le 744 inglesi sono raggiungibili senza JavaScript e incluse nella sitemap insieme alle immagini. Ogni pagina localizzata ha title, description, canonical, `hreflang`, Open Graph, breadcrumb e dati strutturati pertinenti. Le pagine richiesta, conferma e privacy restano escluse dalla sitemap e usano `noindex`.
 
 Finché `PUBLIC_SITE_READY=false`, tutte le pagine usano `noindex,nofollow` e `robots.txt` blocca la scansione. Questa protezione va rimossa solo nella build di pubblicazione, dopo aver inserito i dati reali. Le attività esterne necessarie sono elencate in [Checklist lancio SEO](docs/checklist-lancio-seo.md).
+
+Per collegare il repository GitHub al piano Hostinger Business e svolgere anteprima e rilascio in sicurezza, seguire [Deploy su Hostinger](docs/deploy-hostinger.md).
