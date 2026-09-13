@@ -13,9 +13,8 @@ Usare queste impostazioni:
 | Runtime | Node.js 24.x |
 | Directory progetto | radice del repository |
 | Build di anteprima | `npm run build` |
-| Comando di avvio | `npm start` |
 | Output directory | `dist` |
-| Entry file, se richiesto | `server.mjs` |
+| Entry file | `server/entry.mjs` |
 
 Hostinger installa le dipendenze dal `package-lock.json`. Non caricare `node_modules` o `dist` nel repository.
 
@@ -59,6 +58,8 @@ Il primo deploy usa `npm run build` e `PUBLIC_SITE_READY=false`. Verificare sul 
 - canonical sempre sul dominio `.com` senza `www`;
 - risposta `301` da HTTP e `www` verso HTTPS senza `www`;
 - log runtime e deploy privi di errori.
+
+Configurare in Hostinger i redirect permanenti da HTTP a HTTPS e da `www.fullmuscle-equipment.com` al dominio senza `www`. Se verrà collegato `fullmuscle-equipment.it`, configurare anche il relativo redirect permanente verso il dominio `.com`.
 
 La presenza delle credenziali SMTP e Turnstile consente di collaudare il form anche mentre il sito è in `noindex`.
 

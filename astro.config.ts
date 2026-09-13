@@ -8,7 +8,7 @@ const site = process.env.PUBLIC_SITE_URL || 'https://fullmuscle.invalid';
 export default defineConfig({
   site,
   output: 'server',
-  adapter: node({ mode: 'middleware' }),
+  adapter: node({ mode: 'standalone' }),
   integrations: [
     react(),
   ],

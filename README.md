@@ -39,7 +39,7 @@ Copiare `.env.example` in `.env` e completare dominio, dati legali, recapiti, SM
 npm run build:release
 ```
 
-Il comando si interrompe se manca un valore obbligatorio o se `PUBLIC_SITE_READY` non è impostato a `true`. Il server si avvia con `npm start`; questo entrypoint applica i redirect di dominio prima di servire sia le pagine prerenderizzate sia le route dinamiche.
+Il comando si interrompe se manca un valore obbligatorio o se `PUBLIC_SITE_READY` non è impostato a `true`. Il server standalone generato da Astro si avvia con `npm start` e serve sia le pagine prerenderizzate sia le route dinamiche. I redirect HTTPS e dei domini secondari devono essere configurati in Hostinger.
 
 ## SEO e indicizzazione
 
