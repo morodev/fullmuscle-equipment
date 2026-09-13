@@ -13,6 +13,7 @@ Usare queste impostazioni:
 | Runtime | Node.js 24.x |
 | Directory progetto | radice del repository |
 | Build di anteprima | `npm run build` |
+| Comando di avvio, se presente | `npm start` |
 | Output directory | `dist` |
 | Entry file | `server/entry.mjs` |
 

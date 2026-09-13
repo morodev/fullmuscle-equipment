@@ -5,7 +5,7 @@ Queste attività completano la parte esterna al codice. Il sito resta intenziona
 ## Dominio e pubblicazione
 
 - collegare `fullmuscle-equipment.com` all’hosting;
-- collegare `www.fullmuscle-equipment.com` alla stessa applicazione e verificare il redirect 301 verso il dominio senza `www`;
+- collegare `www.fullmuscle-equipment.com` in Hostinger e configurare il redirect 301 verso il dominio senza `www`;
 - configurare il certificato HTTPS per `.com` e `www`;
 - se in futuro verrà acquistato `fullmuscle-equipment.it`, collegarlo in Hostinger e configurare un redirect 301 verso `https://fullmuscle-equipment.com`;
 - compilare `.env` con ragione sociale, partita IVA, indirizzo completo, città, email, telefono e orari showroom;
