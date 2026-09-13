@@ -10,7 +10,7 @@ Usare queste impostazioni:
 
 | Impostazione | Valore |
 | --- | --- |
-| Runtime | Node.js 22.x |
+| Runtime | Node.js 24.x |
 | Directory progetto | radice del repository |
 | Build di anteprima | `npm run build` |
 | Comando di avvio | `npm start` |

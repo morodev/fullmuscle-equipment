@@ -4,7 +4,7 @@ Sito corporate e catalogo B2B per attrezzature fitness professionali. Il catalog
 
 ## Avvio locale
 
-Richiede Node.js 22 o successivo.
+Richiede Node.js 24.x. Il requisito evita versioni Node 22 precedenti alla `22.19.0`, incompatibili con `undici 8` usato dalla toolchain Astro.
 
 ```bash
 npm install
