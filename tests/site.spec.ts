@@ -17,16 +17,21 @@ test('homepage e navigazione bilingue sono disponibili', async ({ page }) => {
   expect(consoleErrors).toEqual([]);
 });
 
-test('il catalogo filtra senza caricare più di 24 card', async ({ page }) => {
+test('il catalogo pagina 24 prodotti e mantiene la ricerca globale', async ({ page }) => {
   await page.goto('/it/catalogo/');
   await expect(page.locator('.product-card')).toHaveCount(24);
+  const firstSku = await page.locator('.product-card .product-meta span').nth(1).textContent();
   const lastImage = page.locator('.product-card img').last();
   await lastImage.scrollIntoViewIfNeeded();
   await expect.poll(() => lastImage.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
   await expect(lastImage).not.toHaveAttribute('src', /placeholder/);
-  await page.getByPlaceholder('Cerca per nome o codice').fill('FM-2000B');
-  await expect(page.locator('.product-card')).toHaveCount(1);
-  await expect(page.locator('.product-card')).toContainText('FM-2000B');
+  await page.getByRole('link', { name: /Successiva/ }).click();
+  await expect(page).toHaveURL(/\/it\/catalogo\/pagina\/2\/$/);
+  await expect(page.locator('.product-card')).toHaveCount(24);
+  await expect(page.locator('.product-card').first()).not.toContainText(firstSku ?? '');
+  await page.getByRole('button', { name: 'Cerca per nome o codice' }).click();
+  await page.getByPlaceholder('Es. chest press, tapis roulant…').fill('FM-2000B');
+  await expect(page.locator('[data-search-results] a').filter({ hasText: 'FM-2000B' }).first()).toBeVisible();
 });
 
 test('la selezione persiste e il preventivo viene inviato in modalità di sviluppo', async ({ page }) => {

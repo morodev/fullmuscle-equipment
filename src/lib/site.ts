@@ -12,7 +12,7 @@ export const SITE = {
   email: import.meta.env.COMPANY_EMAIL || '',
   phone: import.meta.env.COMPANY_PHONE || '',
   showroomHours: import.meta.env.COMPANY_SHOWROOM_HOURS || '',
-  socialUrls: (import.meta.env.COMPANY_SOCIAL_URLS || '').split(',').map((value) => value.trim()).filter(Boolean),
+  socialUrls: String(import.meta.env.COMPANY_SOCIAL_URLS || '').split(',').map((value: string) => value.trim()).filter(Boolean),
   turnstileSiteKey: import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '',
 } as const;
 

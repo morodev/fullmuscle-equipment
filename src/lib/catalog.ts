@@ -2,7 +2,7 @@ import draftsDocument from '../../data/catalog-public/products.json';
 import { categoryUrl, lineUrl, productUrl } from './site';
 import type { CatalogListItem, CatalogProduct, CatalogTaxonomy, Locale, LocalizedValue, ProductSpecification } from './types';
 
-type DraftAsset = { role: 'primary' | 'gallery'; reviewStatus: string; localPath?: string };
+type DraftAsset = { role: 'primary' | 'gallery'; reviewStatus: string; localPath?: string; width: number; height: number };
 type DraftProduct = {
   publicSku: string;
   categoryId: string;
@@ -373,8 +373,8 @@ function buildProduct(draft: DraftProduct): CatalogProduct {
     .filter((asset) => APPROVED_ASSETS.has(asset.reviewStatus))
     .map((asset) => ({ ...asset, url: resolveImage(asset.localPath) }))
     .filter((asset): asset is DraftAsset & { url: string } => Boolean(asset.url));
-  const primary = approvedImages.find((asset) => asset.role === 'primary')?.url;
-  if (!primary) throw new Error(`${draft.publicSku}: immagine principale approvata assente dalla build.`);
+  const primaryAsset = approvedImages.find((asset) => asset.role === 'primary');
+  if (!primaryAsset) throw new Error(`${draft.publicSku}: immagine principale approvata assente dalla build.`);
   const detailIt = specifications.it.slice(0, 3).map((item) => `${item.label.toLowerCase()} ${item.value}`).join(', ');
   const detailEn = specifications.en.slice(0, 3).map((item) => `${item.label.toLowerCase()} ${item.value}`).join(', ');
   const primaryIt = specifications.it[0];
@@ -420,7 +420,9 @@ function buildProduct(draft: DraftProduct): CatalogProduct {
     features,
     selectionNotes: selectionNotes(draft.categoryId),
     specifications,
-    primaryImage: primary,
+    primaryImage: primaryAsset.url,
+    primaryImageWidth: primaryAsset.width,
+    primaryImageHeight: primaryAsset.height,
     gallery: approvedImages.filter((asset) => asset.role === 'gallery').map((asset) => asset.url),
     availableForQuote: true,
   };
@@ -469,6 +471,8 @@ export function listItem(product: CatalogProduct, locale: Locale): CatalogListIt
     summary: product.summary[locale],
     href: productUrl(locale, product.slug[locale]),
     image: product.primaryImage,
+    imageWidth: product.primaryImageWidth,
+    imageHeight: product.primaryImageHeight,
     categoryId: product.categoryId,
     categoryName: category.name[locale],
     ...(line ? { lineId: line.id, lineName: line.name[locale] } : {}),

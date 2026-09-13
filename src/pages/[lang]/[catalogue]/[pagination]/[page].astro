@@ -9,7 +9,7 @@ import type { Locale } from '../../../../lib/types';
 export const prerender = true;
 const pageSize = 24;
 export function getStaticPaths() {
-  const pageCount = Math.ceil(PRODUCTS.length / pageSize);
+  const pageCount = Math.ceil(PRODUCTS.length / 24);
   return (['it', 'en'] as const).flatMap((locale) => Array.from({ length: pageCount - 1 }, (_, index) => index + 2).map((page) => ({
     params: { lang: locale, catalogue: locale === 'it' ? 'catalogo' : 'catalogue', pagination: locale === 'it' ? 'pagina' : 'page', page: String(page) },
     props: { locale, currentPage: page },

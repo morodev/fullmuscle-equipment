@@ -15,9 +15,9 @@ export default defineConfig({
     { name: 'mobile', use: { ...devices['iPhone 13'], browserName: 'chromium', channel: 'chrome' } },
   ],
   webServer: {
-    command: 'node dist/server/entry.mjs',
+    command: 'node server.mjs',
     url: 'http://127.0.0.1:4321/it/',
-    env: { ...process.env, HOST: '127.0.0.1' },
+    env: { ...process.env, HOST: '127.0.0.1', PUBLIC_SITE_READY: 'false' },
     reuseExistingServer: false,
     timeout: 120_000,
   },

@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import { GUIDES } from '../../../lib/guides';
+import { guideUrl, route } from '../../../lib/site';
+import type { Locale } from '../../../lib/types';
+
+export const prerender = true;
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'it', guides: 'guide' }, props: { locale: 'it' as const } },
+    { params: { lang: 'en', guides: 'guides' }, props: { locale: 'en' as const } },
+  ];
+}
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const isIt = locale === 'it';
+const other: Locale = isIt ? 'en' : 'it';
+const r = route(locale);
+const canonicalPath = `${r.guides}/`;
+const alternateUrl = `${route(other).guides}/`;
+const title = isIt ? 'Guide per progettare e attrezzare una palestra | FullMuscle' : 'Guides to planning and equipping a gym | FullMuscle';
+const description = isIt ? 'Guide tecniche su scelta delle attrezzature, organizzazione della sala pesi e apertura di una palestra professionale.' : 'Technical guides to choosing equipment, planning a strength floor and opening a professional gym.';
+const structuredData = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'CollectionPage', name: title, description, url: new URL(canonicalPath, Astro.site) },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: new URL(r.home, Astro.site) },
+      { '@type': 'ListItem', position: 2, name: isIt ? 'Guide' : 'Guides', item: new URL(canonicalPath, Astro.site) },
+    ] },
+  ],
+};
+---
+<BaseLayout locale={locale} title={title} description={description} canonicalPath={canonicalPath} alternateUrl={alternateUrl} structuredData={structuredData}>
+  <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{ label: 'Home', href: r.home }, { label: isIt ? 'Guide' : 'Guides' }]} /><p class="eyebrow">FullMuscle Journal</p><h1>{isIt ? 'Decisioni più chiare per il tuo spazio fitness.' : 'Clearer decisions for your fitness space.'}</h1><p>{isIt ? 'Criteri tecnici e progettuali per costruire una dotazione coerente con utenti, spazi e obiettivi.' : 'Technical and planning criteria for an equipment mix aligned with users, space and business goals.'}</p></div></section>
+  <section class="section"><div class="shell guide-grid">{GUIDES.map((guide, index) => <article><span>0{index + 1} · {guide.readingTime} min</span><h2><a href={guideUrl(locale, guide.slug[locale])}>{guide.title[locale]}</a></h2><p>{guide.description[locale]}</p><a class="text-link" href={guideUrl(locale, guide.slug[locale])}>{isIt ? 'Leggi la guida' : 'Read the guide'} →</a></article>)}</div></section>
+</BaseLayout>
+
+<style>
+  .guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.guide-grid article{display:flex;min-height:24rem;flex-direction:column;border:1px solid var(--line);border-radius:1.4rem;padding:1.6rem;background:#fff}.guide-grid span{color:var(--green-dark);font-size:.72rem;font-weight:850;letter-spacing:.1em;text-transform:uppercase}.guide-grid h2{margin:3rem 0 1rem;font-size:clamp(1.6rem,2.6vw,2.25rem);letter-spacing:-.04em;line-height:1.05}.guide-grid p{color:var(--muted)}.guide-grid .text-link{margin-top:auto;padding-top:2rem}@media(max-width:900px){.guide-grid{grid-template-columns:1fr}}
+</style>

@@ -2,7 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import { CATEGORIES, taxonomyUrl } from '../../../lib/catalog';
-import { route } from '../../../lib/site';
+import { guideUrl, route } from '../../../lib/site';
 import type { Locale, LocalizedValue } from '../../../lib/types';
 
 export const prerender = true;
@@ -65,6 +65,24 @@ const solutions: Solution[] = [
     ],
   },
 ];
+const solutionChecks: Record<string, { it: string[]; en: string[] }> = {
+  'new-gym': {
+    it: ['Quanti utenti devono allenarsi contemporaneamente?', 'Quali aree definiscono il posizionamento della palestra?', 'Quali vincoli presentano planimetria, accessi e impianti?', 'Quale dotazione è essenziale per l’apertura e cosa può essere aggiunto dopo?'],
+    en: ['How many users need to train at the same time?', 'Which areas define the positioning of the gym?', 'What constraints come from the floor plan, access and building services?', 'Which equipment is essential for opening and what can be added later?'],
+  },
+  renovation: {
+    it: ['Quali stazioni generano attese nelle ore di punta?', 'Quali zone risultano poco utilizzate?', 'Quali modelli possono restare e quali limitano il servizio?', 'Come intervenire per fasi senza perdere coerenza?'],
+    en: ['Which stations create queues at peak times?', 'Which areas are underused?', 'Which models can remain and which limit the service?', 'How can the upgrade be phased without losing consistency?'],
+  },
+  hospitality: {
+    it: ['Qual è il profilo degli ospiti e quanto è lunga la permanenza media?', 'Quanti metri quadrati sono realmente utilizzabili?', 'Quali attrezzature offrono un’esperienza intuitiva senza supervisione continua?', 'Come integrare finiture, rumore e manutenzione con il livello della struttura?'],
+    en: ['Who are the guests and how long is the typical stay?', 'How much floor area is genuinely usable?', 'Which equipment is intuitive without constant supervision?', 'How should finishes, noise and maintenance match the property standard?'],
+  },
+  studio: {
+    it: ['Quali protocolli e servizi vengono svolti ogni giorno?', 'Quante persone utilizzano lo spazio nello stesso momento?', 'Quali regolazioni rendono una stazione adatta a clienti diversi?', 'Come mantenere libero lo spazio necessario al lavoro assistito?'],
+    en: ['Which protocols and services are delivered each day?', 'How many people use the space at the same time?', 'Which adjustments make a station suitable for different clients?', 'How can enough room be retained for coached work?'],
+  },
+};
 export function getStaticPaths() {
   const routeValues = [
     { id: 'new-gym', it: 'apertura-nuova-palestra', en: 'new-gym-opening' },
@@ -82,14 +100,25 @@ const other: Locale = isIt ? 'en' : 'it';
 const r = route(locale);
 const canonicalPath = `${r.solutions}/${solution.slug[locale]}/`;
 const selectedCategories = CATEGORIES.slice(0, 6);
+const relatedGuideSlug = solution.id === 'new-gym' ? { it: 'attrezzature-apertura-nuova-palestra', en: 'choosing-equipment-for-a-new-gym' } : { it: 'come-organizzare-sala-pesi-professionale', en: 'how-to-plan-a-professional-gym-floor' };
+const structuredData = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'WebPage', name: solution.eyebrow[locale], description: solution.intro[locale], url: new URL(canonicalPath, Astro.site) },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: new URL(r.home, Astro.site) },
+      { '@type': 'ListItem', position: 2, name: solution.eyebrow[locale], item: new URL(canonicalPath, Astro.site) },
+    ] },
+  ],
+};
 ---
-<BaseLayout locale={locale} title={`${solution.eyebrow[locale]} | FullMuscle Equipment`} description={solution.intro[locale]} canonicalPath={canonicalPath} alternateUrl={`${route(other).solutions}/${solution.slug[other]}/`}>
+<BaseLayout locale={locale} title={`${solution.eyebrow[locale]} | FullMuscle Equipment`} description={solution.intro[locale]} canonicalPath={canonicalPath} alternateUrl={`${route(other).solutions}/${solution.slug[other]}/`} structuredData={structuredData}>
   <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{label:'Home',href:r.home},{label:isIt?'Soluzioni':'Solutions'},{label:solution.eyebrow[locale]}]} /><p class="eyebrow">{solution.eyebrow[locale]}</p><h1>{solution.title[locale]}</h1><p>{solution.intro[locale]}</p><div class="hero-actions"><a class="button" href={r.quote}>{isIt ? 'Parliamo del progetto' : 'Discuss your project'} →</a><a class="button button-secondary" href={r.catalog}>{isIt ? 'Esplora il catalogo' : 'Explore catalogue'}</a></div></div></section>
   <section class="section"><div class="shell solution-intro"><div><p class="eyebrow">{isIt ? 'Il punto di partenza' : 'Where we start'}</p><h2 class="section-title">{isIt ? 'Prima il progetto. Poi le macchine.' : 'The project comes before the equipment.'}</h2></div><p>{solution.challenge[locale]}</p></div></section>
   <section class="section-tight surface-white"><div class="shell"><p class="eyebrow">{isIt ? 'Come lavoriamo' : 'How we work'}</p><div class="grid grid-3 steps">{solution.steps.map((step,index)=><article><span>0{index+1}</span><h2>{step.title[locale]}</h2><p>{step.text[locale]}</p></article>)}</div></div></section>
+  <section class="section solution-checks"><div class="shell solution-intro"><div><p class="eyebrow">{isIt ? 'Le domande del progetto' : 'Project questions'}</p><h2 class="section-title">{isIt ? 'Prima di scegliere i modelli, definiamo i criteri.' : 'Define the criteria before choosing models.'}</h2><a class="text-link" href={guideUrl(locale, relatedGuideSlug[locale])}>{isIt ? 'Approfondisci nella guida tecnica' : 'Read the technical guide'} →</a></div><ol>{solutionChecks[solution.id]![locale].map((check, index) => <li><span>0{index + 1}</span><p>{check}</p></li>)}</ol></div></section>
   <section class="section"><div class="shell"><div class="solution-intro"><div><p class="eyebrow">{isIt ? 'Costruisci la dotazione' : 'Build your equipment mix'}</p><h2 class="section-title">{isIt ? 'Esplora le aree del catalogo.' : 'Explore catalogue areas.'}</h2></div></div><div class="grid grid-3">{selectedCategories.map((category)=><a class="taxonomy-card" href={taxonomyUrl(locale,category,'category')}><strong>{category.name[locale]}</strong><p>{category.description[locale]}</p><span class="link-label">{isIt?'Vedi i prodotti →':'View products →'}</span><span class="count">{category.count}</span></a>)}</div></div></section>
   <section class="section-tight final"><div class="shell final-inner"><div><p class="eyebrow">FullMuscle Equipment</p><h2>{isIt ? 'Raccontaci lo spazio che vuoi costruire.' : 'Tell us about the space you want to build.'}</h2></div><a class="button button-dark" href={r.quote}>{isIt ? 'Richiedi un confronto' : 'Request a consultation'} →</a></div></section>
 </BaseLayout>
 <style>
-  .hero-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem}.solution-intro{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,8vw,8rem);align-items:end}.solution-intro>p{margin:0;color:#475149;font-size:clamp(1.1rem,2vw,1.4rem)}.steps article{min-height:15rem;padding:1.5rem;border-left:2px solid var(--green);background:var(--paper)}.steps span{color:var(--green-dark);font-size:.75rem;font-weight:850}.steps h2{margin:2.5rem 0 .75rem;font-size:1.45rem}.steps p{color:var(--muted)}.final{background:var(--green)}.final .eyebrow{color:var(--ink)}.final-inner{display:flex;align-items:center;justify-content:space-between;gap:2rem}.final h2{max-width:17ch;margin:0;font-size:clamp(2rem,5vw,4rem);letter-spacing:-.05em;line-height:1}@media(max-width:700px){.solution-intro{grid-template-columns:1fr}.final-inner{align-items:flex-start;flex-direction:column}.final .button{width:auto}}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem}.solution-intro{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,8vw,8rem);align-items:end}.solution-intro>p{margin:0;color:#475149;font-size:clamp(1.1rem,2vw,1.4rem)}.steps article{min-height:15rem;padding:1.5rem;border-left:2px solid var(--green);background:var(--paper)}.steps span{color:var(--green-dark);font-size:.75rem;font-weight:850}.steps h2{margin:2.5rem 0 .75rem;font-size:1.45rem}.steps p{color:var(--muted)}.solution-checks{background:#e9ede9}.solution-checks .text-link{display:inline-block;margin-top:1.5rem}.solution-checks ol{margin:0;padding:0;list-style:none}.solution-checks li{display:grid;grid-template-columns:3rem 1fr;gap:1rem;padding:1rem 0;border-top:1px solid #cbd3cc}.solution-checks li>span{color:var(--green-dark);font-size:.75rem;font-weight:850}.solution-checks li p{margin:0;color:#39443b}.final{background:var(--green)}.final .eyebrow{color:var(--ink)}.final-inner{display:flex;align-items:center;justify-content:space-between;gap:2rem}.final h2{max-width:17ch;margin:0;font-size:clamp(2rem,5vw,4rem);letter-spacing:-.05em;line-height:1}@media(max-width:700px){.solution-intro{grid-template-columns:1fr}.final-inner{align-items:flex-start;flex-direction:column}.final .button{width:auto}}
 </style>

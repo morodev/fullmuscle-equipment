@@ -18,9 +18,10 @@ const other = alternateLocale(locale);
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-toggle>
       <span></span><span></span><span></span><span class="sr-only">Menu</span>
     </button>
-    <nav id="primary-nav" class="primary-nav" aria-label="Navigazione principale" data-menu>
+    <nav id="primary-nav" class="primary-nav" aria-label={locale === 'it' ? 'Navigazione principale' : 'Main navigation'} data-menu>
       <a href={routes.catalog}>{t.catalog}</a>
       <a href={`${routes.solutions}/${locale === 'it' ? 'apertura-nuova-palestra' : 'new-gym-opening'}/`}>{t.solutions}</a>
+      <a href={`${routes.guides}/`}>{locale === 'it' ? 'Guide' : 'Guides'}</a>
       <a href={routes.company}>{t.company}</a>
       <a href={routes.contact}>{t.contact}</a>
       <a class="language" href={alternateUrl ?? route(other).home} lang={other}>{other.toUpperCase()}</a>

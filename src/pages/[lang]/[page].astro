@@ -7,11 +7,11 @@ import { SITE, route } from '../../lib/site';
 import type { Locale } from '../../lib/types';
 
 export const prerender = true;
-type PageId = 'company' | 'contact' | 'privacy' | 'quote' | 'confirmation';
+type PageId = 'company' | 'contact' | 'showroom' | 'privacy' | 'quote' | 'confirmation';
 export function getStaticPaths() {
   const values = {
-    it: { company: 'azienda', contact: 'contatti', privacy: 'privacy', quote: 'richiesta', confirmation: 'conferma' },
-    en: { company: 'company', contact: 'contact', privacy: 'privacy', quote: 'quote-request', confirmation: 'confirmation' },
+    it: { company: 'azienda', contact: 'contatti', showroom: 'showroom', privacy: 'privacy', quote: 'richiesta', confirmation: 'conferma' },
+    en: { company: 'company', contact: 'contact', showroom: 'showroom', privacy: 'privacy', quote: 'quote-request', confirmation: 'confirmation' },
   } as const;
   return (['it', 'en'] as const).flatMap((locale) => (Object.entries(values[locale]) as Array<[PageId, string]>).map(([pageId, page]) => ({ params: { lang: locale, page }, props: { locale, pageId } })));
 }
@@ -20,12 +20,13 @@ const { locale, pageId } = Astro.props;
 const isIt = locale === 'it';
 const other: Locale = isIt ? 'en' : 'it';
 const r = route(locale);
-const routeByPage = { company: r.company, contact: r.contact, privacy: r.privacy, quote: r.quote, confirmation: r.confirmation };
+const routeByPage = { company: r.company, contact: r.contact, showroom: r.showroom, privacy: r.privacy, quote: r.quote, confirmation: r.confirmation };
 const otherRoutes = route(other);
-const otherRouteByPage = { company: otherRoutes.company, contact: otherRoutes.contact, privacy: otherRoutes.privacy, quote: otherRoutes.quote, confirmation: otherRoutes.confirmation };
+const otherRouteByPage = { company: otherRoutes.company, contact: otherRoutes.contact, showroom: otherRoutes.showroom, privacy: otherRoutes.privacy, quote: otherRoutes.quote, confirmation: otherRoutes.confirmation };
 const titles = {
   company: isIt ? 'FullMuscle Equipment | Attrezzature e progetti fitness' : 'FullMuscle Equipment | Professional fitness projects',
   contact: isIt ? 'Contatti | FullMuscle Equipment' : 'Contact | FullMuscle Equipment',
+  showroom: isIt ? `Showroom attrezzature palestra${SITE.city ? ` a ${SITE.city}` : ''} | FullMuscle` : `Professional gym equipment showroom${SITE.city ? ` in ${SITE.city}` : ''} | FullMuscle`,
   privacy: isIt ? 'Informativa privacy | FullMuscle Equipment' : 'Privacy notice | FullMuscle Equipment',
   quote: isIt ? 'Richiedi un preventivo | FullMuscle Equipment' : 'Request a quote | FullMuscle Equipment',
   confirmation: isIt ? 'Richiesta inviata | FullMuscle Equipment' : 'Request sent | FullMuscle Equipment',
@@ -33,16 +34,26 @@ const titles = {
 const descriptions = {
   company: isIt ? 'Scopri l’approccio FullMuscle alla selezione di attrezzature e alla progettazione di spazi fitness professionali.' : 'Discover the FullMuscle approach to professional equipment selection and fitness space planning.',
   contact: isIt ? 'Contatta FullMuscle Equipment per informazioni su catalogo e progetti palestra.' : 'Contact FullMuscle Equipment about our catalogue and gym projects.',
+  showroom: isIt ? `Visita lo showroom FullMuscle${SITE.city ? ` a ${SITE.city}` : ''} e valuta dal vivo le attrezzature professionali per la tua palestra.` : `Visit the FullMuscle showroom${SITE.city ? ` in ${SITE.city}` : ''} and explore professional equipment for your gym.`,
   privacy: isIt ? 'Informazioni sul trattamento dei dati personali inviati a FullMuscle Equipment.' : 'Information about personal data submitted to FullMuscle Equipment.',
   quote: isIt ? 'Invia un’unica richiesta per le attrezzature selezionate e raccontaci il tuo progetto.' : 'Send one request for your selected equipment and tell us about your project.',
   confirmation: isIt ? 'La richiesta è stata inviata.' : 'Your request has been sent.',
 };
+const pageStructuredData = pageId === 'showroom' && SITE.address && SITE.city && SITE.phone && SITE.showroomHours ? {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'LocalBusiness', name: 'FullMuscle Equipment Showroom', url: new URL(r.showroom, Astro.site), telephone: SITE.phone, email: SITE.email, openingHours: SITE.showroomHours, areaServed: ['IT', 'Europe'], address: { '@type': 'PostalAddress', streetAddress: SITE.address, addressLocality: SITE.city, addressCountry: 'IT' }, ...(SITE.socialUrls.length ? { sameAs: SITE.socialUrls } : {}) },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: new URL(r.home, Astro.site) },
+      { '@type': 'ListItem', position: 2, name: 'Showroom', item: new URL(r.showroom, Astro.site) },
+    ] },
+  ],
+} : undefined;
 const quoteProducts = PRODUCTS.map((product) => {
   const { sku, name, href, image } = listItem(product, locale);
   return { sku, name, href, image };
 });
 ---
-<BaseLayout locale={locale} title={titles[pageId]} description={descriptions[pageId]} canonicalPath={routeByPage[pageId]} alternateUrl={otherRouteByPage[pageId]} noindex={pageId === 'confirmation'}>
+<BaseLayout locale={locale} title={titles[pageId]} description={descriptions[pageId]} canonicalPath={routeByPage[pageId]} alternateUrl={otherRouteByPage[pageId]} noindex={pageId === 'confirmation' || pageId === 'quote' || pageId === 'privacy'} {...(pageStructuredData ? { structuredData: pageStructuredData } : {})}>
   {pageId === 'company' && <>
     <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{label:'Home',href:r.home},{label:isIt?'Azienda':'Company'}]} /><p class="eyebrow">FullMuscle Equipment</p><h1>{isIt ? 'Attrezzature scelte intorno al tuo progetto.' : 'Equipment selected around your project.'}</h1><p>{isIt ? 'Aiutiamo strutture professionali a costruire spazi fitness completi, leggibili e coerenti con il pubblico che vogliono servire.' : 'We help professional facilities create complete, intuitive fitness spaces aligned with the people they want to serve.'}</p></div></section>
     <section class="section"><div class="shell story-grid"><div><p class="eyebrow">{isIt?'Il nostro approccio':'Our approach'}</p><h2 class="section-title">{isIt?'Prima comprendiamo lo spazio. Poi scegliamo le attrezzature.':'We understand the space before selecting equipment.'}</h2></div><div class="prose"><p>{isIt?'FullMuscle Equipment nasce con un obiettivo preciso: rendere più chiaro il percorso che porta dall’idea di una palestra alla sua dotazione. Il catalogo è il punto di partenza; la selezione finale dipende da dimensioni, utenti, metodo di allenamento e priorità del progetto.':'FullMuscle Equipment has a clear purpose: to make the path from a gym concept to its equipment easier to understand. The catalogue is the starting point; the final selection depends on space, users, training model and project priorities.'}</p><p>{isIt?'Lavoriamo con palestre, strutture ricettive e studi professionali. Ogni richiesta raccoglie modelli e quantità in un unico riepilogo, così il confronto può partire da esigenze concrete.':'We work with gyms, hospitality venues and professional studios. Each request brings models and quantities into one clear summary, so the conversation starts from practical needs.'}</p></div></div></section>
@@ -53,6 +64,11 @@ const quoteProducts = PRODUCTS.map((product) => {
   {pageId === 'contact' && <>
     <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{label:'Home',href:r.home},{label:isIt?'Contatti':'Contact'}]} /><p class="eyebrow">{isIt?'Parliamo del progetto':'Discuss your project'}</p><h1>{isIt?'Partiamo dalle tue esigenze.':'Let’s start with what you need.'}</h1><p>{isIt?'Seleziona le attrezzature oppure inviaci una richiesta generale: organizzeremo il confronto partendo dal tipo di struttura, dagli spazi e dai tempi.' : 'Select equipment or send a general enquiry. We will start from your facility, available space and timeline.'}</p></div></section>
     <section class="section"><div class="shell contact-grid"><div><p class="eyebrow">{isIt?'Contatto commerciale':'Sales contact'}</p><h2 class="section-title">{isIt?'Un unico punto di partenza.':'One clear starting point.'}</h2><p class="contact-copy">{isIt?'Il modo più rapido è costruire la lista dal catalogo. Potrai indicare quantità, azienda e informazioni sul progetto in un solo modulo.':'The quickest route is to build a list from the catalogue, then send quantities, company details and project information in one form.'}</p>{SITE.email && <p><strong>Email</strong><br><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>}{SITE.phone && <p><strong>{isIt?'Telefono':'Phone'}</strong><br><a href={`tel:${SITE.phone}`}>{SITE.phone}</a></p>}</div><div class="contact-card"><span>FullMuscle Equipment</span><h2>{isIt?'Crea la tua selezione.':'Build your selection.'}</h2><p>{isIt?'Esplora 744 modelli e invia una richiesta completa, senza acquisto online e senza impegno.':'Explore 744 models and send a complete request, with no online checkout.'}</p><a class="button" href={r.catalog}>{isIt?'Apri il catalogo':'Open catalogue'} →</a><a class="text-contact" href={r.quote}>{isIt?'Ho già una lista':'I already have a list'} →</a></div></div></section>
+  </>}
+
+  {pageId === 'showroom' && <>
+    <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{label:'Home',href:r.home},{label:'Showroom'}]} /><p class="eyebrow">FullMuscle Equipment</p><h1>{isIt ? 'Valuta le attrezzature nel nostro showroom.' : 'Explore the equipment in our showroom.'}</h1><p>{isIt ? 'Una palestra attrezzata per osservare da vicino ingombri, regolazioni e qualità percepita prima di costruire la tua selezione.' : 'A fitted gym where you can assess footprint, adjustments and product feel before building your equipment selection.'}</p></div></section>
+    <section class="section"><div class="shell showroom-grid"><div><p class="eyebrow">{isIt ? 'Visita su appuntamento' : 'Visit by appointment'}</p><h2 class="section-title">{isIt ? 'Dalla scheda tecnica alla prova nello spazio reale.' : 'From technical data to a real training environment.'}</h2><p class="contact-copy">{isIt ? 'Lo showroom permette di confrontare le famiglie di prodotto e discutere il progetto partendo da spazi, pubblico e priorità. Contattaci prima della visita per verificare i modelli disponibili.' : 'The showroom lets you compare equipment families and discuss the project around space, audience and priorities. Contact us before visiting to confirm which models are available.'}</p><a class="button button-dark" href={r.contact}>{isIt ? 'Prenota una visita' : 'Book a visit'} →</a></div><div class="showroom-card"><span>Showroom FullMuscle</span>{SITE.address && <p><strong>{isIt ? 'Indirizzo' : 'Address'}</strong><br />{SITE.address}{SITE.city ? ` · ${SITE.city}` : ''}</p>}{SITE.showroomHours && <p><strong>{isIt ? 'Orari' : 'Opening hours'}</strong><br />{SITE.showroomHours}</p>}{SITE.phone && <p><strong>{isIt ? 'Telefono' : 'Phone'}</strong><br /><a href={`tel:${SITE.phone}`}>{SITE.phone}</a></p>}{SITE.email && <p><strong>Email</strong><br /><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>}<a class="text-link" href={r.catalog}>{isIt ? 'Esplora prima il catalogo' : 'Explore the catalogue first'} →</a></div></div></section>
   </>}
 
   {pageId === 'quote' && <>
@@ -69,5 +85,5 @@ const quoteProducts = PRODUCTS.map((product) => {
 </BaseLayout>
 
 <style>
-  .story-grid,.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(3rem,8vw,8rem)}.values article{padding:2rem;border-top:2px solid var(--green)}.values span{color:var(--green-dark);font-size:.72rem;font-weight:850}.values h2{margin:2rem 0 .5rem;font-size:1.6rem}.values p,.contact-copy{color:var(--muted)}.cta-green{background:var(--green)}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:2rem}.cta-inner h2{max-width:18ch;margin:0;font-size:clamp(2rem,5vw,4rem);letter-spacing:-.05em;line-height:1}.contact-card{align-self:start;padding:clamp(1.5rem,4vw,3rem);border-radius:1.5rem;background:var(--ink);color:#fff}.contact-card>span{color:var(--green);font-size:.72rem;font-weight:850;letter-spacing:.12em}.contact-card h2{margin:2rem 0 .75rem;font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.05em;line-height:1}.contact-card p{color:#aeb7b0}.contact-card .button{margin-top:1rem}.text-contact{display:inline-block;margin:1rem;color:var(--green);font-size:.8rem;font-weight:800}.confirmation{min-height:calc(100vh - 5rem);display:grid;place-items:center}.confirmation-inner{max-width:760px;padding-block:6rem;text-align:center}.confirmation img{margin:0 auto 2rem}.confirmation .eyebrow{justify-content:center}.confirmation h1{margin:0;font-size:clamp(2.7rem,7vw,6rem);letter-spacing:-.06em;line-height:.95}.confirmation p{max-width:55ch;margin:1.5rem auto;color:#aeb7b0}.legal h2:first-child{margin-top:0}@media(max-width:720px){.story-grid,.contact-grid{grid-template-columns:1fr}.cta-inner{align-items:flex-start;flex-direction:column}.cta-inner .button{width:auto}}
+  .story-grid,.contact-grid,.showroom-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(3rem,8vw,8rem)}.values article{padding:2rem;border-top:2px solid var(--green)}.values span{color:var(--green-dark);font-size:.72rem;font-weight:850}.values h2{margin:2rem 0 .5rem;font-size:1.6rem}.values p,.contact-copy{color:var(--muted)}.cta-green{background:var(--green)}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:2rem}.cta-inner h2{max-width:18ch;margin:0;font-size:clamp(2rem,5vw,4rem);letter-spacing:-.05em;line-height:1}.contact-card,.showroom-card{align-self:start;padding:clamp(1.5rem,4vw,3rem);border-radius:1.5rem;background:var(--ink);color:#fff}.contact-card>span,.showroom-card>span{color:var(--green);font-size:.72rem;font-weight:850;letter-spacing:.12em}.contact-card h2{margin:2rem 0 .75rem;font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.05em;line-height:1}.contact-card p,.showroom-card p{color:#aeb7b0}.contact-card .button{margin-top:1rem}.showroom-grid .button{margin-top:1rem}.showroom-card .text-link{display:inline-block;margin-top:1rem;color:var(--green)}.text-contact{display:inline-block;margin:1rem;color:var(--green);font-size:.8rem;font-weight:800}.confirmation{min-height:calc(100vh - 5rem);display:grid;place-items:center}.confirmation-inner{max-width:760px;padding-block:6rem;text-align:center}.confirmation img{margin:0 auto 2rem}.confirmation .eyebrow{justify-content:center}.confirmation h1{margin:0;font-size:clamp(2.7rem,7vw,6rem);letter-spacing:-.06em;line-height:.95}.confirmation p{max-width:55ch;margin:1.5rem auto;color:#aeb7b0}.legal h2:first-child{margin-top:0}@media(max-width:720px){.story-grid,.contact-grid,.showroom-grid{grid-template-columns:1fr}.cta-inner{align-items:flex-start;flex-direction:column}.cta-inner .button{width:auto}}
 </style>

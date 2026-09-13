@@ -14,11 +14,11 @@ export function getStaticPaths() {
     const pagination = locale === 'it' ? 'pagina' : 'page';
     return [
       ...CATEGORIES.flatMap((taxonomy) => {
-        const pageCount = Math.ceil(productsForCategory(taxonomy.id).length / pageSize);
+        const pageCount = Math.ceil(productsForCategory(taxonomy.id).length / 24);
         return Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => index + 2).map((page) => ({ params: { lang: locale, catalogue, kind: locale === 'it' ? 'categorie' : 'categories', slug: taxonomy.slug[locale], pagination, page: String(page) }, props: { locale, taxonomy, taxonomyKind: 'category' as const, currentPage: page } }));
       }),
       ...LINES.flatMap((taxonomy) => {
-        const pageCount = Math.ceil(productsForLine(taxonomy.id).length / pageSize);
+        const pageCount = Math.ceil(productsForLine(taxonomy.id).length / 24);
         return Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => index + 2).map((page) => ({ params: { lang: locale, catalogue, kind: locale === 'it' ? 'linee' : 'lines', slug: taxonomy.slug[locale], pagination, page: String(page) }, props: { locale, taxonomy, taxonomyKind: 'line' as const, currentPage: page } }));
       }),
     ];

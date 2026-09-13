@@ -2,7 +2,9 @@
 
 **Stato:** decisione approvata  
 **Data:** 12 settembre 2026  
-**Obiettivo:** sito aziendale B2B bilingue con catalogo, prezzi indicativi “a partire da” e richiesta di preventivo, senza acquisto online.
+**Obiettivo:** sito aziendale B2B bilingue con catalogo e richiesta di preventivo, senza acquisto online e senza prezzi nella prima pubblicazione.
+
+**Stato implementazione:** 744 prodotti in italiano e inglese, paginazione HTML, ricerca Pagefind, pagine categoria e linea, tre guide tecniche bilingue, pagina showroom, sitemap con immagini e protezione `noindex` fino alla build di pubblicazione. Il dominio canonical approvato è `fullmuscle-equipment.com`; il server Node applica i redirect permanenti da HTTP, `www` e `.it` prima di servire anche le pagine prerenderizzate.
 
 ## 1. Sintesi della decisione
 
@@ -13,7 +15,7 @@ L’architettura scelta è:
 - **Astro** per routing, rendering, pagine e componenti;
 - **TypeScript in modalità strict** per ridurre errori nei dati del catalogo;
 - **Astro Content Collections** per prodotti, linee, categorie e contenuti localizzati;
-- **pipeline di importazione validata** da sito sorgente, cataloghi e CSV per gestire 500 prodotti e crescere oltre senza inserimenti ripetitivi;
+- **pipeline di importazione validata** da sito sorgente, cataloghi e CSV per gestire i 744 prodotti iniziali e crescere oltre senza inserimenti ripetitivi;
 - **Pagefind** per ricerca statica bilingue e filtri del catalogo;
 - **Tailwind CSS** e variabili CSS per il design system responsive;
 - **React islands** per filtri, selettore lingua e lista “Aggiungi alla richiesta”;
@@ -32,8 +34,8 @@ La tecnologia crea una base SEO molto forte, ma non può garantire la prima posi
 | Area | Decisione |
 | --- | --- |
 | Modello commerciale | Catalogo consultabile con richiesta di preventivo; nessun pagamento o checkout |
-| Catalogo iniziale | Circa 500 prodotti o più, organizzati per categorie e linee/serie |
-| Prezzi | Prezzo base in euro mostrato come “A partire da”, quando disponibile |
+| Catalogo iniziale | 744 prodotti, organizzati per categorie e linee/serie |
+| Prezzi | Non pubblicati nella prima versione; configurazioni e quotazioni vengono gestite nel preventivo |
 | Pubblico | Palestre, hotel, resort, studi personal trainer, fisioterapisti e altre strutture professionali |
 | Mercato | Europa |
 | Lingue iniziali | Italiano e inglese |
@@ -59,7 +61,7 @@ I punteggi da 1 a 5 sono una valutazione progettuale relativa a questo sito, non
 
 Astro è pensato per siti ricchi di contenuti e genera pagine statiche per impostazione predefinita. Il browser riceve poco JavaScript, mentre i componenti interattivi vengono attivati solo dove servono. Le Content Collections possono leggere Markdown, MDX, YAML o JSON e validare i dati con uno schema tipizzato ([documentazione Astro](https://docs.astro.build/en/guides/content-collections/)).
 
-Questo coincide con la natura del progetto: circa 1.000 schede localizzate prerenderizzabili, aggiornamenti a lotti e poche funzioni applicative. Le Content Collections supportano sorgenti locali o remote, validazione dello schema e collezioni di decine di migliaia di elementi ([Astro Content Collections](https://docs.astro.build/en/guides/content-collections/)).
+Questo coincide con la natura del progetto: 1.488 schede prodotto localizzate prerenderizzabili, aggiornamenti a lotti e poche funzioni applicative. Le Content Collections supportano sorgenti locali o remote, validazione dello schema e collezioni di decine di migliaia di elementi ([Astro Content Collections](https://docs.astro.build/en/guides/content-collections/)).
 
 ### Perché non Next.js come prima scelta
 
@@ -236,7 +238,7 @@ Astro permette al loader `file()` di leggere un CSV tramite parser personalizzat
 
 ### Ricerca, filtri e paginazione
 
-Con 500 prodotti la ricerca fa parte della prima versione. **Pagefind** creerà dopo ogni build un indice statico del contenuto pubblicato, senza database o servizio di ricerca esterno. Rileva l’attributo `lang` e mantiene indici distinti per italiano e inglese ([Pagefind](https://pagefind.app/docs/), [ricerca multilingue](https://pagefind.app/docs/multilingual/)).
+Con 744 prodotti la ricerca fa parte della prima versione. **Pagefind** crea dopo ogni build un indice statico del contenuto pubblicato, senza database o servizio di ricerca esterno. Rileva l’attributo `lang` e mantiene indici distinti per italiano e inglese ([Pagefind](https://pagefind.app/docs/), [ricerca multilingue](https://pagefind.app/docs/multilingual/)).
 
 L’indice includerà nome, modello, SKU, testo descrittivo e specifiche ricercabili. Categoria, linea, gruppo muscolare e destinazione d’uso saranno metadati filtrabili. Le pagine di ricerca interna avranno `noindex` e non genereranno combinazioni di filtri indicizzabili.
 
@@ -498,10 +500,10 @@ Valutare un CMS headless soltanto quando gli aggiornamenti diventeranno quotidia
 
 ## 13. Assunzioni confermate
 
-- Il catalogo iniziale può contenere circa 500 prodotti o più; la pipeline non assume un limite fisso a 500.
+- Il catalogo iniziale contiene 744 prodotti; la pipeline non assume un limite fisso.
 - I prodotti seguono la gerarchia categoria, linea/serie e singolo modello.
 - Il sito non consente ordini o pagamenti.
-- I prezzi sono valori base in euro e possono essere omessi per prodotti completamente configurabili.
+- I prezzi non vengono pubblicati nella prima versione e non compaiono nei dati strutturati.
 - Italiano e inglese sono le sole lingue del lancio.
 - Il mercato è europeo e il pubblico è prevalentemente professionale.
 - Il catalogo pubblico TZFIT è la sorgente iniziale autorizzata; cataloghi tecnici, CSV e pacchetti distributore hanno priorità quando disponibili.
@@ -512,8 +514,8 @@ Valutare un CMS headless soltanto quando gli aggiornamenti diventeranno quotidia
 - Un CMS non è incluso nella prima versione; gli aggiornamenti restano sotto controllo Git e deploy revisionato.
 - La disponibilità dei prodotti resta interna e non compare nel sito o nei dati strutturati.
 - Le richieste vengono consegnate via email e non archiviate in un database.
-- Le pagine Soluzioni fanno parte del lancio; blog e Progetti arriveranno successivamente.
-- Google Search Console è incluso; GA4 è escluso dalla prima versione.
+- Le pagine Soluzioni e le guide tecniche fanno parte del lancio; la sezione Progetti arriverà quando saranno disponibili installazioni documentate.
+- Il sito è predisposto per Google Search Console; la proprietà e la sitemap devono essere attivate sull’account dopo il deploy. GA4 è escluso dalla prima versione.
 - L’upgrade Hostinger Business è accettato quando viene avviata l’implementazione.
 
 ## 14. Riferimenti ufficiali

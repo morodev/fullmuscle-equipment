@@ -33,6 +33,8 @@ export interface CatalogProduct {
   selectionNotes: { it: string[]; en: string[] };
   specifications: { it: ProductSpecification[]; en: ProductSpecification[] };
   primaryImage: string;
+  primaryImageWidth: number;
+  primaryImageHeight: number;
   gallery: string[];
   availableForQuote: true;
 }
@@ -43,6 +45,8 @@ export interface CatalogListItem {
   summary: string;
   href: string;
   image: string;
+  imageWidth: number;
+  imageHeight: number;
   categoryId: string;
   categoryName: string;
   lineId?: string;

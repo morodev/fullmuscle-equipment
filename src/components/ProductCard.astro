@@ -10,7 +10,7 @@ const t = ui(locale);
 ---
 <article class="product-card">
   <a class="product-card-media" href={product.href}>
-    <img src={product.image} alt={product.name} width="600" height="600" loading={eager ? 'eager' : 'lazy'} />
+    <img src={product.image} alt={product.name} width={product.imageWidth} height={product.imageHeight} loading={eager ? 'eager' : 'lazy'} decoding="async" />
   </a>
   <div class="product-card-body">
     <div class="product-meta"><span>{product.categoryName}</span><span>{product.sku}</span></div>

@@ -52,7 +52,7 @@ const productTypeName = product.name[locale].endsWith(product.sku)
     <section class="shell product-intro">
       <div class="product-gallery">
         <div class="primary-image">
-          <img src={product.primaryImage} alt={product.imageAlt[locale]} width="900" height="900" fetchpriority="high" />
+          <img src={product.primaryImage} alt={product.imageAlt[locale]} width={product.primaryImageWidth} height={product.primaryImageHeight} fetchpriority="high" decoding="async" />
         </div>
         {product.gallery.length > 0 && <div class="gallery-strip">{product.gallery.map((image, index) => <img src={image} alt={`${product.name[locale]} · ${index + 2}`} width="240" height="240" loading="lazy" />)}</div>}
       </div>

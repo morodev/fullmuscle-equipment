@@ -2,7 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ProductCard from '../../components/ProductCard.astro';
 import { CATEGORIES, PRODUCTS, listItem, taxonomyUrl } from '../../lib/catalog';
-import { route } from '../../lib/site';
+import { GUIDES } from '../../lib/guides';
+import { guideUrl, SITE, route } from '../../lib/site';
 import type { Locale } from '../../lib/types';
 
 export const prerender = true;
@@ -18,10 +19,13 @@ const heroProducts = featured.slice(0, 3);
 const title = isIt ? 'Attrezzature professionali per palestre | FullMuscle' : 'Professional gym equipment | FullMuscle';
 const description = isIt ? 'Progetta e attrezza la tua palestra con un catalogo completo di macchine professionali, cardio, pesi liberi e soluzioni su preventivo.' : 'Plan and equip your gym with professional strength, cardio and free-weight equipment supplied through a tailored quotation.';
 const organization = {
-  '@context': 'https://schema.org', '@type': 'Organization', name: 'FullMuscle Equipment', url: new URL(r.home, Astro.site), logo: new URL('/brand/fullmuscle-mark.svg', Astro.site),
+  '@context': 'https://schema.org', '@type': 'Organization', name: 'FullMuscle Equipment', legalName: SITE.legalName || 'FullMuscle Equipment', url: new URL('/', Astro.site), logo: new URL('/brand/fullmuscle-mark.svg', Astro.site),
+  ...(SITE.email ? { email: SITE.email } : {}), ...(SITE.phone ? { telephone: SITE.phone } : {}),
+  ...(SITE.address ? { address: { '@type': 'PostalAddress', streetAddress: SITE.address, addressLocality: SITE.city, addressCountry: 'IT' } } : {}),
+  ...(SITE.socialUrls.length ? { sameAs: SITE.socialUrls } : {}),
 };
 ---
-<BaseLayout locale={locale} title={title} description={description} canonicalPath={r.home} alternateUrl={route(isIt ? 'en' : 'it').home} structuredData={organization}>
+<BaseLayout locale={locale} title={title} description={description} canonicalPath={r.home} alternateUrl={route(isIt ? 'en' : 'it').home} xDefaultUrl="/" structuredData={organization}>
   <section class="home-hero surface-dark">
     <div class="shell hero-grid">
       <div class="hero-copy">
@@ -35,7 +39,7 @@ const organization = {
       </div>
       <div class="hero-stage" aria-label={isIt ? 'Selezione di attrezzature FullMuscle' : 'FullMuscle equipment selection'}>
         <div class="hero-orbit"></div>
-        {heroProducts.map((product, index) => <a href={`${r.products}/${product.slug[locale]}/`} class={`hero-machine machine-${index + 1}`}><img src={product.primaryImage} alt={product.name[locale]} width="520" height="520" /></a>)}
+        {heroProducts.map((product, index) => <a href={`${r.products}/${product.slug[locale]}/`} class={`hero-machine machine-${index + 1}`}><img src={product.primaryImage} alt={product.imageAlt[locale]} width={product.primaryImageWidth} height={product.primaryImageHeight} decoding="async" /></a>)}
         <div class="hero-note"><strong>744</strong><span>{isIt ? 'modelli a catalogo' : 'catalogue models'}</span></div>
       </div>
     </div>
@@ -60,6 +64,13 @@ const organization = {
         {CATEGORIES.slice(0, 8).map((category) => <a class="taxonomy-card" href={taxonomyUrl(locale, category, 'category')}><strong>{category.name[locale]}</strong><p>{category.description[locale]}</p><span class="link-label">{isIt ? 'Scopri la categoria →' : 'Explore category →'}</span><span class="count">{category.count}</span></a>)}
       </div>
       <div class="center-action"><a class="button button-dark" href={r.catalog}>{isIt ? 'Vedi tutti i 744 prodotti' : 'View all 744 products'}</a></div>
+    </div>
+  </section>
+
+  <section class="section-tight home-guides">
+    <div class="shell">
+      <div class="section-heading"><div><p class="eyebrow">{isIt ? 'Guide tecniche' : 'Technical guides'}</p><h2 class="section-title">{isIt ? 'Prima della macchina, viene la scelta.' : 'Make the right choices before selecting models.'}</h2></div><a class="text-link" href={`${r.guides}/`}>{isIt ? 'Tutte le guide' : 'All guides'} →</a></div>
+      <div class="grid grid-3">{GUIDES.map((guide, index) => <a class="home-guide" href={guideUrl(locale, guide.slug[locale])}><span>0{index + 1} · {guide.readingTime} min</span><strong>{guide.title[locale]}</strong><p>{guide.description[locale]}</p></a>)}</div>
     </div>
   </section>
 
@@ -130,6 +141,12 @@ const organization = {
   .process-list strong { font-size: 1.2rem; }
   .process-list p { margin: .25rem 0 0; color: #9da69f; }
   .final-cta { background: var(--green); }
+  .home-guides { background: #e9ede9; }
+  .home-guide { display: grid;align-content:start;min-height:19rem;border-top:2px solid var(--green);padding:1.5rem;background:#fff;transition:transform .2s ease,box-shadow .2s ease; }
+  .home-guide:hover { transform:translateY(-4px);box-shadow:var(--shadow); }
+  .home-guide span { color:var(--green-dark);font-size:.72rem;font-weight:850;letter-spacing:.08em;text-transform:uppercase; }
+  .home-guide strong { margin-top:2.5rem;font-size:1.55rem;letter-spacing:-.035em;line-height:1.08; }
+  .home-guide p { color:var(--muted);font-size:.9rem; }
   .final-cta .eyebrow { color: var(--ink); }
   .final-cta-inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
   .final-cta h2 { max-width: 19ch; margin: 0; font-size: clamp(2rem,5vw,4.2rem); letter-spacing: -.05em; line-height: 1; }

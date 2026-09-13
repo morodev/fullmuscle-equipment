@@ -17,11 +17,13 @@ const r = route(locale);
       <strong>{locale === 'it' ? 'Esplora' : 'Explore'}</strong>
       <a href={r.catalog}>{locale === 'it' ? 'Catalogo' : 'Catalogue'}</a>
       <a href={`${r.solutions}/${locale === 'it' ? 'apertura-nuova-palestra' : 'new-gym-opening'}/`}>{locale === 'it' ? 'Apri una palestra' : 'Open a gym'}</a>
+      <a href={`${r.guides}/`}>{locale === 'it' ? 'Guide tecniche' : 'Technical guides'}</a>
       <a href={r.quote}>{locale === 'it' ? 'Richiedi preventivo' : 'Request a quote'}</a>
     </nav>
     <nav aria-label="Azienda">
       <strong>{locale === 'it' ? 'FullMuscle' : 'FullMuscle'}</strong>
       <a href={r.company}>{locale === 'it' ? 'Azienda' : 'Company'}</a>
+      <a href={r.showroom}>Showroom</a>
       <a href={r.contact}>{locale === 'it' ? 'Contatti' : 'Contact'}</a>
       <a href={r.privacy}>Privacy</a>
     </nav>

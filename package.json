@@ -12,6 +12,7 @@
     "prebuild:release": "tsx scripts/site/release-check.ts",
     "build:release": "astro build",
     "postbuild:release": "pagefind --site dist/client",
+    "start": "node --env-file-if-exists=.env server.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "catalog:crawl": "tsx scripts/catalog/cli.ts crawl",

@@ -19,6 +19,7 @@ const isIt = locale === 'it';
   const input = document.querySelector('[data-search-input]');
   const results = document.querySelector('[data-search-results]');
   let timer;
+  if (dialog instanceof HTMLDialogElement) document.body.append(dialog);
   document.addEventListener('click', (event) => {
     if (!(event.target instanceof Element) || !event.target.closest('[data-search-open]')) return;
     dialog?.showModal();
@@ -34,8 +35,8 @@ const isIt = locale === 'it';
       try {
         const pagefind = await import(/* @vite-ignore */ '/pagefind/pagefind.js');
         const search = await pagefind.search(query);
-        const resolved = await Promise.all(search.results.slice(0, 8).map((item) => item.data()));
-        const localized = resolved.filter((item) => item.url.startsWith(`/${locale}/`));
+        const resolved = await Promise.all(search.results.slice(0, 24).map((item) => item.data()));
+        const localized = resolved.filter((item) => item.url.startsWith(`/${locale}/`)).slice(0, 8);
         results.innerHTML = localized.length ? localized.map((item) => `<a href="${item.url}"><strong>${item.meta.title}</strong><span>${item.excerpt}</span></a>`).join('') : `<p>${emptyLabel}</p>`;
       } catch { results.innerHTML = `<p>${errorLabel}</p>`; }
     }, 180);
