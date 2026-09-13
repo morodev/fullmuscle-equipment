@@ -1,0 +1,45 @@
+---
+import type { Locale } from '../lib/types';
+import { route } from '../lib/site';
+import Logo from './Logo.astro';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const r = route(locale);
+---
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div class="footer-brand">
+      <a href={r.home}><Logo /></a>
+      <p>{locale === 'it' ? 'Attrezzature professionali e supporto alla progettazione di spazi fitness.' : 'Professional equipment and support for planning fitness spaces.'}</p>
+    </div>
+    <nav aria-label="Catalogo">
+      <strong>{locale === 'it' ? 'Esplora' : 'Explore'}</strong>
+      <a href={r.catalog}>{locale === 'it' ? 'Catalogo' : 'Catalogue'}</a>
+      <a href={`${r.solutions}/${locale === 'it' ? 'apertura-nuova-palestra' : 'new-gym-opening'}/`}>{locale === 'it' ? 'Apri una palestra' : 'Open a gym'}</a>
+      <a href={r.quote}>{locale === 'it' ? 'Richiedi preventivo' : 'Request a quote'}</a>
+    </nav>
+    <nav aria-label="Azienda">
+      <strong>{locale === 'it' ? 'FullMuscle' : 'FullMuscle'}</strong>
+      <a href={r.company}>{locale === 'it' ? 'Azienda' : 'Company'}</a>
+      <a href={r.contact}>{locale === 'it' ? 'Contatti' : 'Contact'}</a>
+      <a href={r.privacy}>Privacy</a>
+    </nav>
+  </div>
+  <div class="shell footer-bottom">
+    <span>© {new Date().getFullYear()} FullMuscle Equipment</span>
+    <span>{locale === 'it' ? 'Catalogo B2B · Preventivo su richiesta' : 'B2B catalogue · Quotation on request'}</span>
+  </div>
+</footer>
+
+<style>
+  .site-footer { padding: 4.5rem 0 1.5rem; border-top: 1px solid #283029; background: var(--ink); color: #fff; }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 3rem; }
+  .footer-brand p { max-width: 34ch; color: #99a39b; }
+  nav { display: flex; align-items: flex-start; flex-direction: column; gap: .65rem; }
+  nav strong { margin-bottom: .45rem; color: var(--green); font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; }
+  nav a { color: #bdc5bf; font-size: .88rem; }
+  nav a:hover { color: #fff; }
+  .footer-bottom { display: flex; justify-content: space-between; gap: 1rem; margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid #252c26; color: #7e8980; font-size: .74rem; }
+  @media (max-width: 680px) { .footer-grid { grid-template-columns: 1fr; } .footer-bottom { align-items: flex-start; flex-direction: column; } }
+</style>

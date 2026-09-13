@@ -1,0 +1,24 @@
+---
+import type { CatalogListItem, Locale } from '../lib/types';
+import { ui } from '../lib/i18n';
+import AddToQuote from './react/AddToQuote';
+
+interface Props { product: CatalogListItem; locale: Locale; headingLevel?: 'h2' | 'h3'; eager?: boolean }
+const { product, locale, headingLevel = 'h3', eager = false } = Astro.props;
+const Heading = headingLevel;
+const t = ui(locale);
+---
+<article class="product-card">
+  <a class="product-card-media" href={product.href}>
+    <img src={product.image} alt={product.name} width="600" height="600" loading={eager ? 'eager' : 'lazy'} />
+  </a>
+  <div class="product-card-body">
+    <div class="product-meta"><span>{product.categoryName}</span><span>{product.sku}</span></div>
+    <Heading><a href={product.href}>{product.name}</a></Heading>
+    <p>{product.summary}</p>
+    <div class="product-card-actions">
+      <a class="text-link" href={product.href}>{t.viewProduct} →</a>
+      <AddToQuote client:idle sku={product.sku} label={t.add} addedLabel={t.added} />
+    </div>
+  </div>
+</article>

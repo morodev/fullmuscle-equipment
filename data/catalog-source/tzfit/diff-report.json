@@ -1,0 +1,91 @@
+{
+  "createdAt": "2026-09-13T09:00:02.239Z",
+  "new": [],
+  "changed": [],
+  "removed": [],
+  "unchanged": 759,
+  "duplicateSourceSkus": [
+    "GC-5058",
+    "GC-5063",
+    "GC-5067-1",
+    "GF-005",
+    "GT-5005",
+    "GT-5095",
+    "TZ-2010A",
+    "TZ-5054",
+    "TZ-6000B",
+    "TZ-8027",
+    "TZ-8203",
+    "TZ-Q1032",
+    "TZ-Q1081",
+    "TZ-X6002",
+    "TZ-X6004"
+  ],
+  "missingImages": [],
+  "missingSpecifications": [
+    "GM-5053-1",
+    "MP-8138",
+    "MP-8142",
+    "TZ-3013",
+    "TZ-3020",
+    "TZ-3031",
+    "TZ-3031B",
+    "TZ-3031C",
+    "TZ-5000A",
+    "TZ-5000B",
+    "TZ-7010A",
+    "TZ-7015",
+    "TZ-7026",
+    "TZ-7036",
+    "TZ-N2040A",
+    "TZ-N2040B",
+    "TZ-N8002",
+    "TZ-Q1113",
+    "TZ-Q1114"
+  ],
+  "missingDescriptions": [
+    "GF-004"
+  ],
+  "specificationConflicts": [
+    {
+      "sourceSku": "GT-5005",
+      "key": "Machine Size(L*W*H)mm",
+      "values": [
+        "1540*1000*1560",
+        "1450*880*1950"
+      ]
+    },
+    {
+      "sourceSku": "GT-5005",
+      "key": "Machine Weight",
+      "values": [
+        "189kg",
+        "196kg"
+      ]
+    },
+    {
+      "sourceSku": "GT-5095",
+      "key": "Machine Size(L*W*H)mm",
+      "values": [
+        "996*787*1558",
+        "792*1339*1763"
+      ]
+    },
+    {
+      "sourceSku": "GT-5095",
+      "key": "Machine Weight",
+      "values": [
+        "156kg",
+        "204kg"
+      ]
+    },
+    {
+      "sourceSku": "GT-5095",
+      "key": "Weight Stack",
+      "values": [
+        "80kg",
+        "100kg"
+      ]
+    }
+  ]
+}

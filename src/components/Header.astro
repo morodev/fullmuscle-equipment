@@ -1,0 +1,62 @@
+---
+import type { Locale } from '../lib/types';
+import { alternateLocale, ui } from '../lib/i18n';
+import { route } from '../lib/site';
+import Logo from './Logo.astro';
+import SearchOverlay from './SearchOverlay.astro';
+import QuoteIndicator from './react/QuoteIndicator';
+
+interface Props { locale: Locale; alternateUrl?: string }
+const { locale, alternateUrl } = Astro.props;
+const t = ui(locale);
+const routes = route(locale);
+const other = alternateLocale(locale);
+---
+<header class="site-header" data-header>
+  <div class="shell header-inner">
+    <a href={routes.home} class="logo-link"><Logo /></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-toggle>
+      <span></span><span></span><span></span><span class="sr-only">Menu</span>
+    </button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Navigazione principale" data-menu>
+      <a href={routes.catalog}>{t.catalog}</a>
+      <a href={`${routes.solutions}/${locale === 'it' ? 'apertura-nuova-palestra' : 'new-gym-opening'}/`}>{t.solutions}</a>
+      <a href={routes.company}>{t.company}</a>
+      <a href={routes.contact}>{t.contact}</a>
+      <a class="language" href={alternateUrl ?? route(other).home} lang={other}>{other.toUpperCase()}</a>
+      <SearchOverlay locale={locale} />
+      <QuoteIndicator client:load locale={locale} compact />
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector<HTMLElement>('[data-menu-toggle]');
+  const menu = document.querySelector<HTMLElement>('[data-menu]');
+  toggle?.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!open));
+    menu?.classList.toggle('open', !open);
+    document.body.classList.toggle('menu-open', !open);
+  });
+</script>
+
+<style>
+  .site-header { position: sticky; z-index: 50; top: 0; border-bottom: 1px solid rgba(255,255,255,.08); background: rgba(9,12,10,.92); color: #fff; backdrop-filter: blur(18px); }
+  .header-inner { display: flex; min-height: 5rem; align-items: center; justify-content: space-between; gap: 1.5rem; }
+  .logo-link { flex: none; }
+  .primary-nav { display: flex; align-items: center; gap: clamp(1rem, 2.5vw, 2rem); }
+  .primary-nav > a { color: #dce2dc; font-size: .82rem; font-weight: 750; }
+  .primary-nav > a:hover { color: var(--green); }
+  .language { display: grid; width: 2.4rem; height: 2.4rem; place-items: center; border: 1px solid #3a433b; border-radius: 50%; }
+  .menu-toggle { display: none; width: 2.8rem; height: 2.8rem; border: 0; background: transparent; }
+  .menu-toggle span:not(.sr-only) { display: block; width: 1.55rem; height: 2px; margin: 5px auto; background: #fff; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+  @media (max-width: 860px) {
+    .menu-toggle { display: block; }
+    .primary-nav { position: fixed; inset: 5rem 0 auto; display: none; min-height: calc(100vh - 5rem); align-items: stretch; flex-direction: column; padding: 2rem 1.25rem; background: var(--ink); }
+    .primary-nav.open { display: flex; }
+    .primary-nav > a { padding: .6rem 0; font-size: 1.3rem; }
+    .primary-nav .language { width: 3rem; height: 3rem; padding: 0; font-size: .85rem; }
+  }
+</style>

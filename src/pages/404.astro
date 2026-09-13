@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+export const prerender = true;
+---
+<BaseLayout locale="it" title="Pagina non trovata | FullMuscle Equipment" description="La pagina richiesta non è disponibile." canonicalPath="/404/" noindex>
+  <section class="not-found surface-dark"><div class="shell"><span>404</span><p class="eyebrow">Pagina non trovata</p><h1>Questa strada non porta in palestra.</h1><p>Il contenuto potrebbe essere stato spostato. Riparti dalla homepage o consulta il catalogo.</p><div><a class="button" href="/it/">Torna alla home</a><a class="button button-secondary" href="/it/catalogo/">Apri il catalogo</a></div></div></section>
+</BaseLayout>
+<style>.not-found{min-height:70vh;display:grid;place-items:center;padding:5rem 0}.not-found .shell{max-width:800px}.not-found span{color:var(--green);font-size:clamp(5rem,18vw,13rem);font-weight:900;letter-spacing:-.1em;line-height:.8;opacity:.22}.not-found h1{max-width:13ch;margin:.5rem 0;font-size:clamp(2.5rem,7vw,5rem);letter-spacing:-.06em;line-height:.95}.not-found>div>p:not(.eyebrow){max-width:54ch;color:#aeb7b0}.not-found div div{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem}</style>

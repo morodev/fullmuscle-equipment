@@ -1,0 +1,54 @@
+{
+  "name": "fullmuscle-equipment",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "tsx scripts/site/generate-public-catalog.ts",
+    "dev": "astro dev",
+    "prebuild": "tsx scripts/site/generate-public-catalog.ts",
+    "build": "astro build",
+    "postbuild": "pagefind --site dist/client",
+    "prebuild:release": "tsx scripts/site/release-check.ts",
+    "build:release": "astro build",
+    "postbuild:release": "pagefind --site dist/client",
+    "preview": "astro preview",
+    "check": "astro check",
+    "catalog:crawl": "tsx scripts/catalog/cli.ts crawl",
+    "catalog:normalize": "tsx scripts/catalog/cli.ts normalize",
+    "catalog:diff": "tsx scripts/catalog/cli.ts diff",
+    "catalog:assets": "tsx scripts/catalog/assets-cli.ts",
+    "typecheck": "astro check",
+    "test": "tsx --test scripts/catalog/**/*.test.ts",
+    "test:output": "tsx --test scripts/site/output.test.ts",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@astrojs/node": "^11.1.5",
+    "@astrojs/react": "^6.0.5",
+    "@astrojs/sitemap": "^3.7.4",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.3.2",
+    "cheerio": "^1.1.2",
+    "nodemailer": "^10.0.9",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sharp": "^0.35.4",
+    "tailwindcss": "^4.3.3",
+    "zod": "^4.1.8"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^24.3.1",
+    "@types/nodemailer": "^8.0.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "pagefind": "^1.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import CatalogListing from '../../../../components/CatalogListing.astro';
+import { CATEGORIES, LINES, PRODUCTS, listItem, taxonomyUrl } from '../../../../lib/catalog';
+import { paginatedUrl, route } from '../../../../lib/site';
+import type { Locale } from '../../../../lib/types';
+
+export const prerender = true;
+const pageSize = 24;
+export function getStaticPaths() {
+  const pageCount = Math.ceil(PRODUCTS.length / pageSize);
+  return (['it', 'en'] as const).flatMap((locale) => Array.from({ length: pageCount - 1 }, (_, index) => index + 2).map((page) => ({
+    params: { lang: locale, catalogue: locale === 'it' ? 'catalogo' : 'catalogue', pagination: locale === 'it' ? 'pagina' : 'page', page: String(page) },
+    props: { locale, currentPage: page },
+  })));
+}
+interface Props { locale: Locale; currentPage: number }
+const { locale, currentPage } = Astro.props;
+const isIt = locale === 'it';
+const other: Locale = isIt ? 'en' : 'it';
+const r = route(locale);
+const pageCount = Math.ceil(PRODUCTS.length / pageSize);
+const canonicalPath = paginatedUrl(r.catalog, locale, currentPage);
+const alternateUrl = paginatedUrl(route(other).catalog, other, currentPage);
+const products = PRODUCTS.slice((currentPage - 1) * pageSize, currentPage * pageSize).map((product) => listItem(product, locale));
+const categories = CATEGORIES.map((category) => ({ id: category.id, name: category.name[locale], href: taxonomyUrl(locale, category, 'category') }));
+const lines = LINES.map((line) => ({ id: line.id, name: line.name[locale], href: taxonomyUrl(locale, line, 'line') }));
+const title = isIt ? `Catalogo attrezzature palestra · Pagina ${currentPage} | FullMuscle` : `Professional gym equipment · Page ${currentPage} | FullMuscle`;
+const description = isIt ? `Pagina ${currentPage} del catalogo FullMuscle: attrezzature professionali per sala pesi, cardio e functional training.` : `Page ${currentPage} of the FullMuscle catalogue: professional strength, cardio and functional training equipment.`;
+const structuredData = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'CollectionPage', name: title, description, url: new URL(canonicalPath, Astro.site) },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: new URL(r.home, Astro.site) },
+      { '@type': 'ListItem', position: 2, name: isIt ? 'Catalogo' : 'Catalogue', item: new URL(r.catalog, Astro.site) },
+      { '@type': 'ListItem', position: 3, name: `${isIt ? 'Pagina' : 'Page'} ${currentPage}`, item: new URL(canonicalPath, Astro.site) },
+    ] },
+  ],
+};
+---
+<BaseLayout locale={locale} title={title} description={description} canonicalPath={canonicalPath} alternateUrl={alternateUrl} previousUrl={paginatedUrl(r.catalog, locale, currentPage - 1)} structuredData={structuredData} {...(currentPage < pageCount ? { nextUrl: paginatedUrl(r.catalog, locale, currentPage + 1) } : {})}>
+  <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{ label: 'Home', href: r.home }, { label: isIt ? 'Catalogo' : 'Catalogue', href: r.catalog }, { label: `${isIt ? 'Pagina' : 'Page'} ${currentPage}` }]} /><p class="eyebrow">744 {isIt ? 'modelli' : 'models'}</p><h1>{isIt ? `Catalogo attrezzature · Pagina ${currentPage}` : `Equipment catalogue · Page ${currentPage}`}</h1><p>{isIt ? 'Continua a esplorare le attrezzature per forza, cardio e allenamento funzionale.' : 'Continue exploring equipment for strength, cardio and functional training.'}</p></div></section>
+  <section class="section"><div class="shell"><CatalogListing products={products} categories={categories} lines={lines} locale={locale} total={PRODUCTS.length} currentPage={currentPage} pageCount={pageCount} baseUrl={r.catalog} /></div></section>
+</BaseLayout>

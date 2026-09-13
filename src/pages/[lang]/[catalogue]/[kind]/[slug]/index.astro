@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../../components/Breadcrumbs.astro';
+import CatalogListing from '../../../../../components/CatalogListing.astro';
+import { CATEGORIES, LINES, listItem, productsForCategory, productsForLine, taxonomyUrl } from '../../../../../lib/catalog';
+import { paginatedUrl, route } from '../../../../../lib/site';
+import type { CatalogTaxonomy, Locale } from '../../../../../lib/types';
+
+export const prerender = true;
+export function getStaticPaths() {
+  return (['it', 'en'] as const).flatMap((locale) => {
+    const catalogue = locale === 'it' ? 'catalogo' : 'catalogue';
+    return [
+      ...CATEGORIES.map((taxonomy) => ({ params: { lang: locale, catalogue, kind: locale === 'it' ? 'categorie' : 'categories', slug: taxonomy.slug[locale] }, props: { locale, taxonomy, taxonomyKind: 'category' as const } })),
+      ...LINES.map((taxonomy) => ({ params: { lang: locale, catalogue, kind: locale === 'it' ? 'linee' : 'lines', slug: taxonomy.slug[locale] }, props: { locale, taxonomy, taxonomyKind: 'line' as const } })),
+    ];
+  });
+}
+interface Props { locale: Locale; taxonomy: CatalogTaxonomy; taxonomyKind: 'category' | 'line' }
+const { locale, taxonomy, taxonomyKind } = Astro.props;
+const isIt = locale === 'it';
+const other: Locale = isIt ? 'en' : 'it';
+const r = route(locale);
+const source = taxonomyKind === 'category' ? productsForCategory(taxonomy.id) : productsForLine(taxonomy.id);
+const pageSize = 24;
+const pageCount = Math.ceil(source.length / pageSize);
+const products = source.slice(0, pageSize).map((product) => listItem(product, locale));
+const alternateUrl = taxonomyUrl(other, taxonomy, taxonomyKind);
+const title = `${taxonomy.name[locale]} | FullMuscle Equipment`;
+const description = `${taxonomy.description[locale]} ${isIt ? `Consulta ${taxonomy.count} modelli e richiedi un preventivo.` : `Explore ${taxonomy.count} models and request a quotation.`}`;
+const canonicalPath = taxonomyUrl(locale, taxonomy, taxonomyKind);
+const categoryLinks = CATEGORIES.map((item) => ({ id: item.id, name: item.name[locale], href: taxonomyUrl(locale, item, 'category') }));
+const lineLinks = LINES.map((item) => ({ id: item.id, name: item.name[locale], href: taxonomyUrl(locale, item, 'line') }));
+const structuredData = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'CollectionPage', name: taxonomy.name[locale], description, url: new URL(canonicalPath, Astro.site) },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: new URL(r.home, Astro.site) },
+      { '@type': 'ListItem', position: 2, name: isIt ? 'Catalogo' : 'Catalogue', item: new URL(r.catalog, Astro.site) },
+      { '@type': 'ListItem', position: 3, name: taxonomy.name[locale], item: new URL(canonicalPath, Astro.site) },
+    ] },
+  ],
+};
+---
+<BaseLayout locale={locale} title={title} description={description} canonicalPath={canonicalPath} alternateUrl={alternateUrl} structuredData={structuredData} {...(pageCount > 1 ? { nextUrl: paginatedUrl(canonicalPath, locale, 2) } : {})}>
+  <section class="page-hero surface-dark">
+    <div class="shell page-hero-inner">
+      <Breadcrumbs items={[{ label: 'Home', href: r.home }, { label: isIt ? 'Catalogo' : 'Catalogue', href: r.catalog }, { label: taxonomy.name[locale] }]} />
+      <p class="eyebrow">{taxonomy.count} {isIt ? 'modelli disponibili' : 'available models'}</p>
+      <h1>{taxonomy.name[locale]}</h1>
+      <p>{taxonomy.description[locale]}</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="shell">
+      <CatalogListing
+        products={products}
+        categories={categoryLinks}
+        lines={lineLinks}
+        locale={locale}
+        total={source.length}
+        currentPage={1}
+        pageCount={pageCount}
+        baseUrl={canonicalPath}
+        {...(taxonomyKind === 'category' ? { activeCategory: taxonomy.id } : { activeLine: taxonomy.id })}
+      />
+    </div>
+  </section>
+</BaseLayout>

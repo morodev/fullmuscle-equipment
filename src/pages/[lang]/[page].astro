@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import QuoteForm from '../../components/react/QuoteForm';
+import { PRODUCTS, listItem } from '../../lib/catalog';
+import { SITE, route } from '../../lib/site';
+import type { Locale } from '../../lib/types';
+
+export const prerender = true;
+type PageId = 'company' | 'contact' | 'privacy' | 'quote' | 'confirmation';
+export function getStaticPaths() {
+  const values = {
+    it: { company: 'azienda', contact: 'contatti', privacy: 'privacy', quote: 'richiesta', confirmation: 'conferma' },
+    en: { company: 'company', contact: 'contact', privacy: 'privacy', quote: 'quote-request', confirmation: 'confirmation' },
+  } as const;
+  return (['it', 'en'] as const).flatMap((locale) => (Object.entries(values[locale]) as Array<[PageId, string]>).map(([pageId, page]) => ({ params: { lang: locale, page }, props: { locale, pageId } })));
+}
+interface Props { locale: Locale; pageId: PageId }
+const { locale, pageId } = Astro.props;
+const isIt = locale === 'it';
+const other: Locale = isIt ? 'en' : 'it';
+const r = route(locale);
+const routeByPage = { company: r.company, contact: r.contact, privacy: r.privacy, quote: r.quote, confirmation: r.confirmation };
+const otherRoutes = route(other);
+const otherRouteByPage = { company: otherRoutes.company, contact: otherRoutes.contact, privacy: otherRoutes.privacy, quote: otherRoutes.quote, confirmation: otherRoutes.confirmation };
+const titles = {
+  company: isIt ? 'FullMuscle Equipment | Attrezzature e progetti fitness' : 'FullMuscle Equipment | Professional fitness projects',
+  contact: isIt ? 'Contatti | FullMuscle Equipment' : 'Contact | FullMuscle Equipment',
+  privacy: isIt ? 'Informativa privacy | FullMuscle Equipment' : 'Privacy notice | FullMuscle Equipment',
+  quote: isIt ? 'Richiedi un preventivo | FullMuscle Equipment' : 'Request a quote | FullMuscle Equipment',
+  confirmation: isIt ? 'Richiesta inviata | FullMuscle Equipment' : 'Request sent | FullMuscle Equipment',
+};
+const descriptions = {
+  company: isIt ? 'Scopri l’approccio FullMuscle alla selezione di attrezzature e alla progettazione di spazi fitness professionali.' : 'Discover the FullMuscle approach to professional equipment selection and fitness space planning.',
+  contact: isIt ? 'Contatta FullMuscle Equipment per informazioni su catalogo e progetti palestra.' : 'Contact FullMuscle Equipment about our catalogue and gym projects.',
+  privacy: isIt ? 'Informazioni sul trattamento dei dati personali inviati a FullMuscle Equipment.' : 'Information about personal data submitted to FullMuscle Equipment.',
+  quote: isIt ? 'Invia un’unica richiesta per le attrezzature selezionate e raccontaci il tuo progetto.' : 'Send one request for your selected equipment and tell us about your project.',
+  confirmation: isIt ? 'La richiesta è stata inviata.' : 'Your request has been sent.',
+};
+const quoteProducts = PRODUCTS.map((product) => {
+  const { sku, name, href, image } = listItem(product, locale);
+  return { sku, name, href, image };
+});
+---
+<BaseLayout locale={locale} title={titles[pageId]} description={descriptions[pageId]} canonicalPath={routeByPage[pageId]} alternateUrl={otherRouteByPage[pageId]} noindex={pageId === 'confirmation'}>
+  {pageId === 'company' && <>
+    <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{label:'Home',href:r.home},{label:isIt?'Azienda':'Company'}]} /><p class="eyebrow">FullMuscle Equipment</p><h1>{isIt ? 'Attrezzature scelte intorno al tuo progetto.' : 'Equipment selected around your project.'}</h1><p>{isIt ? 'Aiutiamo strutture professionali a costruire spazi fitness completi, leggibili e coerenti con il pubblico che vogliono servire.' : 'We help professional facilities create complete, intuitive fitness spaces aligned with the people they want to serve.'}</p></div></section>
+    <section class="section"><div class="shell story-grid"><div><p class="eyebrow">{isIt?'Il nostro approccio':'Our approach'}</p><h2 class="section-title">{isIt?'Prima comprendiamo lo spazio. Poi scegliamo le attrezzature.':'We understand the space before selecting equipment.'}</h2></div><div class="prose"><p>{isIt?'FullMuscle Equipment nasce con un obiettivo preciso: rendere più chiaro il percorso che porta dall’idea di una palestra alla sua dotazione. Il catalogo è il punto di partenza; la selezione finale dipende da dimensioni, utenti, metodo di allenamento e priorità del progetto.':'FullMuscle Equipment has a clear purpose: to make the path from a gym concept to its equipment easier to understand. The catalogue is the starting point; the final selection depends on space, users, training model and project priorities.'}</p><p>{isIt?'Lavoriamo con palestre, strutture ricettive e studi professionali. Ogni richiesta raccoglie modelli e quantità in un unico riepilogo, così il confronto può partire da esigenze concrete.':'We work with gyms, hospitality venues and professional studios. Each request brings models and quantities into one clear summary, so the conversation starts from practical needs.'}</p></div></div></section>
+    <section class="section-tight surface-white"><div class="shell values grid grid-3"><article><span>01</span><h2>{isIt?'Chiarezza':'Clarity'}</h2><p>{isIt?'Categorie, linee e dati tecnici organizzati per confrontare le alternative.':'Categories, lines and technical data organised for comparison.'}</p></article><article><span>02</span><h2>{isIt?'Progetto':'Project'}</h2><p>{isIt?'Una selezione collegata allo spazio e al modello della struttura.':'A selection connected to the space and facility model.'}</p></article><article><span>03</span><h2>{isIt?'Continuità':'Continuity'}</h2><p>{isIt?'SKU stabili e un catalogo predisposto per crescere nel tempo.':'Stable SKUs and a catalogue designed to grow over time.'}</p></article></div></section>
+    <section class="section-tight cta-green"><div class="shell cta-inner"><h2>{isIt?'Hai un progetto da costruire?':'Planning a new fitness space?'}</h2><a class="button button-dark" href={r.quote}>{isIt?'Inizia la richiesta':'Start your request'} →</a></div></section>
+  </>}
+
+  {pageId === 'contact' && <>
+    <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{label:'Home',href:r.home},{label:isIt?'Contatti':'Contact'}]} /><p class="eyebrow">{isIt?'Parliamo del progetto':'Discuss your project'}</p><h1>{isIt?'Partiamo dalle tue esigenze.':'Let’s start with what you need.'}</h1><p>{isIt?'Seleziona le attrezzature oppure inviaci una richiesta generale: organizzeremo il confronto partendo dal tipo di struttura, dagli spazi e dai tempi.' : 'Select equipment or send a general enquiry. We will start from your facility, available space and timeline.'}</p></div></section>
+    <section class="section"><div class="shell contact-grid"><div><p class="eyebrow">{isIt?'Contatto commerciale':'Sales contact'}</p><h2 class="section-title">{isIt?'Un unico punto di partenza.':'One clear starting point.'}</h2><p class="contact-copy">{isIt?'Il modo più rapido è costruire la lista dal catalogo. Potrai indicare quantità, azienda e informazioni sul progetto in un solo modulo.':'The quickest route is to build a list from the catalogue, then send quantities, company details and project information in one form.'}</p>{SITE.email && <p><strong>Email</strong><br><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>}{SITE.phone && <p><strong>{isIt?'Telefono':'Phone'}</strong><br><a href={`tel:${SITE.phone}`}>{SITE.phone}</a></p>}</div><div class="contact-card"><span>FullMuscle Equipment</span><h2>{isIt?'Crea la tua selezione.':'Build your selection.'}</h2><p>{isIt?'Esplora 744 modelli e invia una richiesta completa, senza acquisto online e senza impegno.':'Explore 744 models and send a complete request, with no online checkout.'}</p><a class="button" href={r.catalog}>{isIt?'Apri il catalogo':'Open catalogue'} →</a><a class="text-contact" href={r.quote}>{isIt?'Ho già una lista':'I already have a list'} →</a></div></div></section>
+  </>}
+
+  {pageId === 'quote' && <>
+    <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{label:'Home',href:r.home},{label:isIt?'Richiesta preventivo':'Quote request'}]} /><p class="eyebrow">{isIt?'Preventivo dedicato':'Tailored quotation'}</p><h1>{isIt?'La tua selezione, in un’unica richiesta.':'Your selection, in one request.'}</h1><p>{isIt?'Controlla prodotti e quantità, poi raccontaci il progetto. Non è un ordine e non comporta alcun pagamento online.':'Review products and quantities, then tell us about the project. This is not an order and no online payment is involved.'}</p></div></section>
+    <section class="section"><div class="shell"><QuoteForm client:load locale={locale} products={quoteProducts} turnstileSiteKey={SITE.turnstileSiteKey} /></div></section>
+  </>}
+
+  {pageId === 'confirmation' && <section class="confirmation surface-dark"><div class="shell confirmation-inner"><img src="/brand/fullmuscle-mark.svg" width="70" height="70" alt=""/><p class="eyebrow">{isIt?'Richiesta ricevuta':'Request received'}</p><h1>{isIt?'Grazie. Il progetto parte da qui.':'Thank you. Your project starts here.'}</h1><p>{isIt?'La richiesta è stata inviata correttamente. Useremo i recapiti indicati per risponderti.' : 'Your request was sent successfully. We will use the contact details you provided to reply.'}</p><a class="button" href={r.home}>{isIt?'Torna alla home':'Back to home'}</a></div></section>}
+
+  {pageId === 'privacy' && <>
+    <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{label:'Home',href:r.home},{label:'Privacy'}]} /><p class="eyebrow">Privacy</p><h1>{isIt?'Informativa sul trattamento dei dati.':'Information about personal data processing.'}</h1><p>{isIt?'Questa pagina descrive i dati utilizzati per rispondere alle richieste inviate dal sito.' : 'This page describes the data used to respond to enquiries submitted through the website.'}</p></div></section>
+    <section class="section"><div class="shell prose legal"><h2>{isIt?'Titolare del trattamento':'Data controller'}</h2><p>{SITE.legalName || 'FullMuscle Equipment'}{SITE.address ? ` · ${SITE.address}` : ''}{SITE.email ? ` · ${SITE.email}` : ''}</p><h2>{isIt?'Dati raccolti e finalità':'Data collected and purpose'}</h2><p>{isIt?'Il modulo raccoglie dati di contatto, informazioni sulla struttura, il messaggio e gli SKU selezionati. I dati sono utilizzati esclusivamente per esaminare la richiesta e rispondere con informazioni o una proposta commerciale.':'The form collects contact details, facility information, your message and selected SKUs. Data is used solely to review the request and respond with information or a commercial proposal.'}</p><h2>{isIt?'Conservazione e destinatari':'Retention and recipients'}</h2><p>{isIt?'I dati sono conservati per il tempo necessario a gestire il contatto e gli eventuali rapporti successivi. Possono essere trattati dai fornitori tecnici necessari alla gestione del sito e della posta elettronica, secondo gli accordi applicabili.':'Data is retained for the time required to handle the enquiry and any subsequent relationship. It may be processed by technical providers required to operate the website and email service under the applicable agreements.'}</p><h2>{isIt?'Diritti e contatti':'Rights and contact'}</h2><p>{isIt?'Puoi richiedere accesso, rettifica, cancellazione, limitazione o opposizione usando i contatti indicati sul sito. Il testo definitivo sarà verificato e completato con i dati legali dell’azienda prima della pubblicazione.':'You may request access, correction, erasure, restriction or objection using the contact details shown on the website. The final text will be reviewed and completed with the company’s legal details before publication.'}</p></div></section>
+  </>}
+</BaseLayout>
+
+<style>
+  .story-grid,.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(3rem,8vw,8rem)}.values article{padding:2rem;border-top:2px solid var(--green)}.values span{color:var(--green-dark);font-size:.72rem;font-weight:850}.values h2{margin:2rem 0 .5rem;font-size:1.6rem}.values p,.contact-copy{color:var(--muted)}.cta-green{background:var(--green)}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:2rem}.cta-inner h2{max-width:18ch;margin:0;font-size:clamp(2rem,5vw,4rem);letter-spacing:-.05em;line-height:1}.contact-card{align-self:start;padding:clamp(1.5rem,4vw,3rem);border-radius:1.5rem;background:var(--ink);color:#fff}.contact-card>span{color:var(--green);font-size:.72rem;font-weight:850;letter-spacing:.12em}.contact-card h2{margin:2rem 0 .75rem;font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.05em;line-height:1}.contact-card p{color:#aeb7b0}.contact-card .button{margin-top:1rem}.text-contact{display:inline-block;margin:1rem;color:var(--green);font-size:.8rem;font-weight:800}.confirmation{min-height:calc(100vh - 5rem);display:grid;place-items:center}.confirmation-inner{max-width:760px;padding-block:6rem;text-align:center}.confirmation img{margin:0 auto 2rem}.confirmation .eyebrow{justify-content:center}.confirmation h1{margin:0;font-size:clamp(2.7rem,7vw,6rem);letter-spacing:-.06em;line-height:.95}.confirmation p{max-width:55ch;margin:1.5rem auto;color:#aeb7b0}.legal h2:first-child{margin-top:0}@media(max-width:720px){.story-grid,.contact-grid{grid-template-columns:1fr}.cta-inner{align-items:flex-start;flex-direction:column}.cta-inner .button{width:auto}}
+</style>

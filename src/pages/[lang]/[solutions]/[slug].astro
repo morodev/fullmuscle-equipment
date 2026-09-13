@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import { CATEGORIES, taxonomyUrl } from '../../../lib/catalog';
+import { route } from '../../../lib/site';
+import type { Locale, LocalizedValue } from '../../../lib/types';
+
+export const prerender = true;
+interface Solution {
+  id: string;
+  slug: LocalizedValue;
+  title: LocalizedValue;
+  eyebrow: LocalizedValue;
+  intro: LocalizedValue;
+  challenge: LocalizedValue;
+  steps: Array<{ title: LocalizedValue; text: LocalizedValue }>;
+}
+const solutions: Solution[] = [
+  {
+    id: 'new-gym', slug: { it: 'apertura-nuova-palestra', en: 'new-gym-opening' },
+    eyebrow: { it: 'Apertura nuova palestra', en: 'New gym opening' },
+    title: { it: 'Dallo spazio vuoto a una palestra pronta ad accogliere.', en: 'From an empty space to a gym ready to perform.' },
+    intro: { it: 'Costruiamo una selezione di attrezzature coerente con metratura, pubblico, posizionamento e budget del nuovo centro fitness.', en: 'We build an equipment mix around the space, audience, positioning and budget of your new fitness facility.' },
+    challenge: { it: 'Aprire una palestra richiede equilibrio: abbastanza varietà per il pubblico, flussi chiari e investimenti concentrati sulle attrezzature che generano valore.', en: 'Opening a gym requires balance: enough variety for members, clear flows and investment focused on equipment that creates value.' },
+    steps: [
+      { title: { it: 'Analisi del progetto', en: 'Project review' }, text: { it: 'Metratura, bacino di utenza, modello di palestra e obiettivi di apertura.', en: 'Floor area, target audience, gym model and launch goals.' } },
+      { title: { it: 'Mix delle aree', en: 'Training area mix' }, text: { it: 'Cardio, isotonico, carico libero, functional e spazi di servizio.', en: 'Cardio, selectorised strength, plate loaded, functional and service areas.' } },
+      { title: { it: 'Selezione e preventivo', en: 'Selection and quotation' }, text: { it: 'Una proposta organizzata per priorità, quantità e configurazioni.', en: 'A proposal organised by priority, quantities and configurations.' } },
+    ],
+  },
+  {
+    id: 'renovation', slug: { it: 'rinnovo-palestra', en: 'gym-renovation' },
+    eyebrow: { it: 'Rinnovo e ampliamento', en: 'Renovation and expansion' },
+    title: { it: 'Rinnova la sala senza perdere ciò che funziona.', en: 'Upgrade your gym without losing what already works.' },
+    intro: { it: 'Valutiamo le aree esistenti e costruiamo un aggiornamento mirato per migliorare esperienza, capacità e identità dello spazio.', en: 'We assess your current training areas and create a targeted upgrade to improve experience, capacity and identity.' },
+    challenge: { it: 'Un rinnovo efficace parte dai colli di bottiglia reali: attrezzature sovraccariche, percorsi confusi, zone poco utilizzate o un’offerta non più allineata ai clienti.', en: 'An effective renovation starts from real bottlenecks: overloaded equipment, unclear circulation, underused areas or an offer that no longer fits members.' },
+    steps: [
+      { title: { it: 'Audit della dotazione', en: 'Equipment audit' }, text: { it: 'Mappiamo cosa mantenere, sostituire e integrare.', en: 'We map what to keep, replace and add.' } },
+      { title: { it: 'Priorità di intervento', en: 'Upgrade priorities' }, text: { it: 'Ordiniamo le scelte per impatto, spazio e budget.', en: 'We rank choices by impact, space and budget.' } },
+      { title: { it: 'Nuovo equilibrio', en: 'A better balance' }, text: { it: 'Completiamo le aree con modelli coerenti tra loro.', en: 'We complete training areas with a coherent equipment mix.' } },
+    ],
+  },
+  {
+    id: 'hospitality', slug: { it: 'hotel-resort', en: 'hotels-resorts' },
+    eyebrow: { it: 'Hotel e resort', en: 'Hotels and resorts' },
+    title: { it: 'Una fitness room all’altezza dell’esperienza ospite.', en: 'A fitness room that matches the guest experience.' },
+    intro: { it: 'Selezioniamo attrezzature versatili e leggibili, adatte a spazi compatti e a utenti con livelli di esperienza diversi.', en: 'We select versatile, intuitive equipment suited to compact spaces and guests with different training experience.' },
+    challenge: { it: 'In una struttura ricettiva ogni metro conta. La dotazione deve offrire allenamenti completi senza rendere lo spazio affollato o complesso da usare.', en: 'Every square metre matters in hospitality. Equipment should support complete workouts without making the room crowded or difficult to use.' },
+    steps: [
+      { title: { it: 'Profilo della struttura', en: 'Property profile' }, text: { it: 'Categoria, ospiti, dimensione della sala e livello di servizio.', en: 'Property category, guests, room size and service level.' } },
+      { title: { it: 'Dotazione essenziale', en: 'Essential equipment' }, text: { it: 'Cardio, forza e mobilità in un insieme compatto.', en: 'Cardio, strength and mobility in a compact mix.' } },
+      { title: { it: 'Scelta coordinata', en: 'Coordinated selection' }, text: { it: 'Finiture e attrezzature coerenti con lo spazio.', en: 'Finishes and equipment aligned with the environment.' } },
+    ],
+  },
+  {
+    id: 'studio', slug: { it: 'personal-trainer-fisioterapia', en: 'personal-training-physiotherapy' },
+    eyebrow: { it: 'Studi professionali', en: 'Professional studios' },
+    title: { it: 'Più possibilità di lavoro, in meno spazio.', en: 'More training possibilities in less space.' },
+    intro: { it: 'Per personal trainer e studi professionali privilegiamo versatilità, regolazioni rapide e una selezione costruita sul metodo di lavoro.', en: 'For personal trainers and professional studios, we prioritise versatility, quick adjustment and a selection built around your working method.' },
+    challenge: { it: 'Uno studio deve adattarsi a persone e sessioni diverse durante la giornata. Servono attrezzature flessibili, accessibili e semplici da riposizionare.', en: 'A studio must adapt to different clients and sessions throughout the day. Equipment needs to be flexible, approachable and easy to adjust.' },
+    steps: [
+      { title: { it: 'Metodo di lavoro', en: 'Training method' }, text: { it: 'Partiamo dai servizi e dai protocolli realmente offerti.', en: 'We start from the services and protocols you actually offer.' } },
+      { title: { it: 'Versatilità', en: 'Versatility' }, text: { it: 'Selezioniamo stazioni con più possibilità di utilizzo.', en: 'We select stations that support more training options.' } },
+      { title: { it: 'Spazio efficiente', en: 'Efficient footprint' }, text: { it: 'Organizziamo ingombri e passaggi per lavorare meglio.', en: 'We organise footprints and circulation for better sessions.' } },
+    ],
+  },
+];
+export function getStaticPaths() {
+  const routeValues = [
+    { id: 'new-gym', it: 'apertura-nuova-palestra', en: 'new-gym-opening' },
+    { id: 'renovation', it: 'rinnovo-palestra', en: 'gym-renovation' },
+    { id: 'hospitality', it: 'hotel-resort', en: 'hotels-resorts' },
+    { id: 'studio', it: 'personal-trainer-fisioterapia', en: 'personal-training-physiotherapy' },
+  ];
+  return (['it', 'en'] as const).flatMap((locale) => routeValues.map((value) => ({ params: { lang: locale, solutions: locale === 'it' ? 'soluzioni' : 'solutions', slug: value[locale] }, props: { locale, solutionId: value.id } })));
+}
+interface Props { locale: Locale; solutionId: string }
+const { locale, solutionId } = Astro.props;
+const solution = solutions.find((item) => item.id === solutionId)!;
+const isIt = locale === 'it';
+const other: Locale = isIt ? 'en' : 'it';
+const r = route(locale);
+const canonicalPath = `${r.solutions}/${solution.slug[locale]}/`;
+const selectedCategories = CATEGORIES.slice(0, 6);
+---
+<BaseLayout locale={locale} title={`${solution.eyebrow[locale]} | FullMuscle Equipment`} description={solution.intro[locale]} canonicalPath={canonicalPath} alternateUrl={`${route(other).solutions}/${solution.slug[other]}/`}>
+  <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{label:'Home',href:r.home},{label:isIt?'Soluzioni':'Solutions'},{label:solution.eyebrow[locale]}]} /><p class="eyebrow">{solution.eyebrow[locale]}</p><h1>{solution.title[locale]}</h1><p>{solution.intro[locale]}</p><div class="hero-actions"><a class="button" href={r.quote}>{isIt ? 'Parliamo del progetto' : 'Discuss your project'} →</a><a class="button button-secondary" href={r.catalog}>{isIt ? 'Esplora il catalogo' : 'Explore catalogue'}</a></div></div></section>
+  <section class="section"><div class="shell solution-intro"><div><p class="eyebrow">{isIt ? 'Il punto di partenza' : 'Where we start'}</p><h2 class="section-title">{isIt ? 'Prima il progetto. Poi le macchine.' : 'The project comes before the equipment.'}</h2></div><p>{solution.challenge[locale]}</p></div></section>
+  <section class="section-tight surface-white"><div class="shell"><p class="eyebrow">{isIt ? 'Come lavoriamo' : 'How we work'}</p><div class="grid grid-3 steps">{solution.steps.map((step,index)=><article><span>0{index+1}</span><h2>{step.title[locale]}</h2><p>{step.text[locale]}</p></article>)}</div></div></section>
+  <section class="section"><div class="shell"><div class="solution-intro"><div><p class="eyebrow">{isIt ? 'Costruisci la dotazione' : 'Build your equipment mix'}</p><h2 class="section-title">{isIt ? 'Esplora le aree del catalogo.' : 'Explore catalogue areas.'}</h2></div></div><div class="grid grid-3">{selectedCategories.map((category)=><a class="taxonomy-card" href={taxonomyUrl(locale,category,'category')}><strong>{category.name[locale]}</strong><p>{category.description[locale]}</p><span class="link-label">{isIt?'Vedi i prodotti →':'View products →'}</span><span class="count">{category.count}</span></a>)}</div></div></section>
+  <section class="section-tight final"><div class="shell final-inner"><div><p class="eyebrow">FullMuscle Equipment</p><h2>{isIt ? 'Raccontaci lo spazio che vuoi costruire.' : 'Tell us about the space you want to build.'}</h2></div><a class="button button-dark" href={r.quote}>{isIt ? 'Richiedi un confronto' : 'Request a consultation'} →</a></div></section>
+</BaseLayout>
+<style>
+  .hero-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem}.solution-intro{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,8vw,8rem);align-items:end}.solution-intro>p{margin:0;color:#475149;font-size:clamp(1.1rem,2vw,1.4rem)}.steps article{min-height:15rem;padding:1.5rem;border-left:2px solid var(--green);background:var(--paper)}.steps span{color:var(--green-dark);font-size:.75rem;font-weight:850}.steps h2{margin:2.5rem 0 .75rem;font-size:1.45rem}.steps p{color:var(--muted)}.final{background:var(--green)}.final .eyebrow{color:var(--ink)}.final-inner{display:flex;align-items:center;justify-content:space-between;gap:2rem}.final h2{max-width:17ch;margin:0;font-size:clamp(2rem,5vw,4rem);letter-spacing:-.05em;line-height:1}@media(max-width:700px){.solution-intro{grid-template-columns:1fr}.final-inner{align-items:flex-start;flex-direction:column}.final .button{width:auto}}
+</style>

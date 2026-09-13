@@ -1,0 +1,138 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import { CATEGORIES, PRODUCTS, listItem, taxonomyUrl } from '../../lib/catalog';
+import { route } from '../../lib/site';
+import type { Locale } from '../../lib/types';
+
+export const prerender = true;
+export function getStaticPaths() {
+  return (['it', 'en'] as const).map((locale) => ({ params: { lang: locale }, props: { locale } }));
+}
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const isIt = locale === 'it';
+const r = route(locale);
+const featured = PRODUCTS.slice(0, 6);
+const heroProducts = featured.slice(0, 3);
+const title = isIt ? 'Attrezzature professionali per palestre | FullMuscle' : 'Professional gym equipment | FullMuscle';
+const description = isIt ? 'Progetta e attrezza la tua palestra con un catalogo completo di macchine professionali, cardio, pesi liberi e soluzioni su preventivo.' : 'Plan and equip your gym with professional strength, cardio and free-weight equipment supplied through a tailored quotation.';
+const organization = {
+  '@context': 'https://schema.org', '@type': 'Organization', name: 'FullMuscle Equipment', url: new URL(r.home, Astro.site), logo: new URL('/brand/fullmuscle-mark.svg', Astro.site),
+};
+---
+<BaseLayout locale={locale} title={title} description={description} canonicalPath={r.home} alternateUrl={route(isIt ? 'en' : 'it').home} structuredData={organization}>
+  <section class="home-hero surface-dark">
+    <div class="shell hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">FullMuscle Equipment</p>
+        <h1 class="display">{isIt ? <>Costruiamo spazi per diventare <em>più forti.</em></> : <>We build spaces made to grow <em>stronger.</em></>}</h1>
+        <p class="lead">{isIt ? 'Attrezzature professionali, selezione completa e supporto concreto per nuove palestre, rinnovi e progetti fitness su misura.' : 'Professional equipment, a complete selection and practical support for new gyms, renovations and tailored fitness projects.'}</p>
+        <div class="hero-actions cluster">
+          <a class="button" href={r.catalog}>{isIt ? 'Esplora il catalogo' : 'Explore catalogue'} <span>→</span></a>
+          <a class="button button-secondary" href={`${r.solutions}/${isIt ? 'apertura-nuova-palestra' : 'new-gym-opening'}/`}>{isIt ? 'Devo aprire una palestra' : 'I am opening a gym'}</a>
+        </div>
+      </div>
+      <div class="hero-stage" aria-label={isIt ? 'Selezione di attrezzature FullMuscle' : 'FullMuscle equipment selection'}>
+        <div class="hero-orbit"></div>
+        {heroProducts.map((product, index) => <a href={`${r.products}/${product.slug[locale]}/`} class={`hero-machine machine-${index + 1}`}><img src={product.primaryImage} alt={product.name[locale]} width="520" height="520" /></a>)}
+        <div class="hero-note"><strong>744</strong><span>{isIt ? 'modelli a catalogo' : 'catalogue models'}</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust-strip surface-carbon">
+    <div class="shell trust-grid">
+      <div><strong>13</strong><span>{isIt ? 'categorie professionali' : 'professional categories'}</span></div>
+      <div><strong>27</strong><span>{isIt ? 'linee di prodotto' : 'product lines'}</span></div>
+      <div><strong>EU</strong><span>{isIt ? 'progetti in tutta Europa' : 'projects across Europe'}</span></div>
+      <div><strong>B2B</strong><span>{isIt ? 'preventivo dedicato' : 'tailored quotations'}</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section-heading">
+        <div><p class="eyebrow">{isIt ? 'Il catalogo' : 'The catalogue'}</p><h2 class="section-title">{isIt ? 'Ogni area della palestra, una soluzione precisa.' : 'The right solution for every area of your gym.'}</h2></div>
+        <p>{isIt ? 'Dalla sala pesi al cardio, organizza la ricerca per tipologia di attrezzatura e costruisci la tua richiesta.' : 'From strength to cardio, browse by equipment type and build a tailored request.'}</p>
+      </div>
+      <div class="grid grid-4 category-grid">
+        {CATEGORIES.slice(0, 8).map((category) => <a class="taxonomy-card" href={taxonomyUrl(locale, category, 'category')}><strong>{category.name[locale]}</strong><p>{category.description[locale]}</p><span class="link-label">{isIt ? 'Scopri la categoria →' : 'Explore category →'}</span><span class="count">{category.count}</span></a>)}
+      </div>
+      <div class="center-action"><a class="button button-dark" href={r.catalog}>{isIt ? 'Vedi tutti i 744 prodotti' : 'View all 744 products'}</a></div>
+    </div>
+  </section>
+
+  <section class="section surface-dark solution-section">
+    <div class="shell solution-grid">
+      <div class="solution-copy">
+        <p class="eyebrow">{isIt ? 'Dall’idea all’apertura' : 'From idea to opening'}</p>
+        <h2 class="section-title">{isIt ? 'Una palestra non è una lista di macchine.' : 'A gym is more than a list of machines.'}</h2>
+        <p class="lead">{isIt ? 'È flusso, spazio, equilibrio tra aree e una scelta coerente con il pubblico che vuoi servire. Partiamo dal progetto, poi costruiamo la dotazione.' : 'It is about flow, space, balanced training areas and equipment that fits your audience. We start with the project, then build the equipment mix.'}</p>
+        <a class="button" href={`${r.solutions}/${isIt ? 'apertura-nuova-palestra' : 'new-gym-opening'}/`}>{isIt ? 'Progetta la nuova palestra' : 'Plan your new gym'} →</a>
+      </div>
+      <ol class="process-list">
+        <li><span>01</span><div><strong>{isIt ? 'Obiettivi e spazi' : 'Goals and space'}</strong><p>{isIt ? 'Raccogliamo metratura, pubblico, budget e tempi.' : 'We gather space, audience, budget and timeline.'}</p></div></li>
+        <li><span>02</span><div><strong>{isIt ? 'Selezione attrezzature' : 'Equipment selection'}</strong><p>{isIt ? 'Bilanciamo cardio, forza, pesi liberi e servizi.' : 'We balance cardio, strength, free weights and services.'}</p></div></li>
+        <li><span>03</span><div><strong>{isIt ? 'Preventivo dedicato' : 'Tailored quotation'}</strong><p>{isIt ? 'Una proposta leggibile, costruita sul progetto reale.' : 'A clear proposal built around the actual project.'}</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section-heading"><div><p class="eyebrow">{isIt ? 'In evidenza' : 'Featured'}</p><h2 class="section-title">{isIt ? 'Una selezione dal catalogo.' : 'A selection from the catalogue.'}</h2></div></div>
+      <div class="grid grid-3">{featured.slice(0, 6).map((product) => <ProductCard product={listItem(product, locale)} locale={locale} />)}</div>
+    </div>
+  </section>
+
+  <section class="section-tight final-cta">
+    <div class="shell final-cta-inner">
+      <div><p class="eyebrow">{isIt ? 'Il tuo progetto' : 'Your project'}</p><h2>{isIt ? 'Partiamo dalle attrezzature che ti servono.' : 'Start with the equipment you need.'}</h2></div>
+      <a class="button button-dark" href={r.catalog}>{isIt ? 'Crea la tua richiesta' : 'Build your request'} →</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .home-hero { min-height: min(860px, calc(100vh - 5rem)); overflow: hidden; }
+  .hero-grid { display: grid; min-height: min(780px, calc(100vh - 5rem)); grid-template-columns: 1.05fr .95fr; align-items: center; gap: 2rem; }
+  .hero-copy { position: relative; z-index: 2; padding: 5rem 0; }
+  h1 em { color: var(--green); font-style: normal; }
+  .hero-actions { gap: .75rem; margin-top: 2rem; }
+  .hero-stage { position: relative; min-height: 660px; }
+  .hero-orbit { position: absolute; width: 570px; height: 570px; top: 6%; left: 2%; border: 1px solid rgba(105,190,40,.25); border-radius: 50%; box-shadow: 0 0 0 75px rgba(105,190,40,.025), 0 0 0 150px rgba(105,190,40,.018); }
+  .hero-machine { position: absolute; filter: drop-shadow(0 28px 30px rgba(0,0,0,.45)); transition: transform .35s ease; }
+  .hero-machine:hover { transform: translateY(-7px); }
+  .hero-machine img { width: 100%; height: 100%; object-fit: contain; }
+  .machine-1 { z-index: 3; width: 74%; height: 74%; right: 0; bottom: 3%; }
+  .machine-2 { z-index: 2; width: 47%; height: 47%; left: -5%; top: 2%; opacity: .82; }
+  .machine-3 { z-index: 1; width: 38%; height: 38%; right: -8%; top: 1%; opacity: .68; }
+  .hero-note { position: absolute; z-index: 4; right: 0; bottom: 7%; display: grid; padding: 1rem 1.15rem; border: 1px solid rgba(255,255,255,.14); border-radius: 1rem; background: rgba(9,12,10,.74); backdrop-filter: blur(16px); }
+  .hero-note strong { color: var(--green); font-size: 2rem; line-height: 1; }
+  .hero-note span { color: #aeb7b0; font-size: .7rem; }
+  .trust-strip { border-top: 1px solid #242b25; }
+  .trust-grid { display: grid; grid-template-columns: repeat(4,1fr); }
+  .trust-grid div { display: grid; gap: .3rem; padding: 1.5rem; border-left: 1px solid #2c342e; }
+  .trust-grid div:last-child { border-right: 1px solid #2c342e; }
+  .trust-grid strong { color: var(--green); font-size: 1.35rem; }
+  .trust-grid span { color: #9da69f; font-size: .74rem; }
+  .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin-bottom: 2.5rem; }
+  .section-heading > p { max-width: 42ch; color: var(--muted); }
+  .category-grid { gap: .75rem; }
+  .center-action { display: flex; justify-content: center; margin-top: 2.5rem; }
+  .solution-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(3rem,8vw,8rem); align-items: center; }
+  .solution-copy .button { margin-top: 1rem; }
+  .process-list { margin: 0; padding: 0; list-style: none; }
+  .process-list li { display: grid; grid-template-columns: 3rem 1fr; gap: 1rem; padding: 1.5rem 0; border-top: 1px solid #303732; }
+  .process-list li:last-child { border-bottom: 1px solid #303732; }
+  .process-list > li > span { color: var(--green); font-size: .75rem; font-weight: 800; }
+  .process-list strong { font-size: 1.2rem; }
+  .process-list p { margin: .25rem 0 0; color: #9da69f; }
+  .final-cta { background: var(--green); }
+  .final-cta .eyebrow { color: var(--ink); }
+  .final-cta-inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
+  .final-cta h2 { max-width: 19ch; margin: 0; font-size: clamp(2rem,5vw,4.2rem); letter-spacing: -.05em; line-height: 1; }
+  @media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } .hero-copy { padding-bottom: 0; } .hero-stage { min-height: 520px; } .solution-grid { grid-template-columns: 1fr; } }
+  @media (max-width: 680px) { .home-hero { min-height: auto; } .hero-grid { min-height: auto; } .hero-stage { min-height: 390px; } .hero-orbit { width: 370px; height: 370px; } .trust-grid { grid-template-columns: 1fr 1fr; } .section-heading, .final-cta-inner { align-items: flex-start; flex-direction: column; } .final-cta .button { width: auto; } }
+</style>

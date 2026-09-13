@@ -1,0 +1,17 @@
+---
+interface Props { compact?: boolean }
+const { compact = false } = Astro.props;
+---
+<span class:list={['brand-logo', { compact }]} aria-label="FullMuscle Equipment">
+  <img src="/brand/fullmuscle-mark.svg" width="48" height="48" alt="" />
+  {!compact && <span><strong>FULLMUSCLE</strong><small>EQUIPMENT</small></span>}
+</span>
+
+<style>
+  .brand-logo { display: inline-flex; align-items: center; gap: .75rem; line-height: 1; }
+  img { width: 2.8rem; height: 2.8rem; }
+  span span { display: grid; gap: .3rem; }
+  strong { color: #fff; font-size: 1rem; font-weight: 850; letter-spacing: .03em; }
+  small { color: var(--green); font-size: .58rem; font-weight: 800; letter-spacing: .24em; }
+  .compact img { width: 2.35rem; height: 2.35rem; }
+</style>

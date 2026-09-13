@@ -1,0 +1,12 @@
+node_modules/
+.astro/
+dist/
+test-results/
+playwright-report/
+.catalog-cache/
+data/catalog-source/tzfit/assets/
+data/catalog-source/tzfit/inventory.previous.json
+data/catalog-assets/originals/
+data/catalog-assets/edited/
+data/catalog-assets/review/
+*.tmp

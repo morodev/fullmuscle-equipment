@@ -1,0 +1,67 @@
+---
+import '../styles/global.css';
+import type { Locale } from '../lib/types';
+import { SITE } from '../lib/site';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import QuoteIndicator from '../components/react/QuoteIndicator';
+
+interface Props {
+  locale: Locale;
+  title: string;
+  description: string;
+  canonicalPath: string;
+  alternateUrl?: string;
+  image?: string;
+  imageAlt?: string;
+  xDefaultUrl?: string;
+  previousUrl?: string;
+  nextUrl?: string;
+  structuredData?: Record<string, unknown> | Array<Record<string, unknown>>;
+  noindex?: boolean;
+}
+const { locale, title, description, canonicalPath, alternateUrl, image = '/brand/fullmuscle-mark.svg', imageAlt = title, xDefaultUrl, previousUrl, nextUrl, structuredData, noindex = false } = Astro.props;
+const canonical = new URL(canonicalPath, SITE.url).toString();
+const socialImage = new URL(image, SITE.url).toString();
+const robots = !SITE.ready ? 'noindex,nofollow' : noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large';
+const localeCode = locale === 'it' ? 'it-IT' : 'en';
+const alternateLocaleCode = locale === 'it' ? 'en' : 'it-IT';
+---
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#090c0a" />
+    <meta name="robots" content={robots} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/brand/fullmuscle-mark.svg" />
+    <link rel="alternate" hreflang={localeCode} href={canonical} />
+    {alternateUrl && <link rel="alternate" hreflang={alternateLocaleCode} href={new URL(alternateUrl, SITE.url)} />}
+    {xDefaultUrl && <link rel="alternate" hreflang="x-default" href={new URL(xDefaultUrl, SITE.url)} />}
+    {previousUrl && <link rel="prev" href={new URL(previousUrl, SITE.url)} />}
+    {nextUrl && <link rel="next" href={new URL(nextUrl, SITE.url)} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:locale" content={locale === 'it' ? 'it_IT' : 'en_GB'} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:alt" content={imageAlt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+    {structuredData && <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{locale === 'it' ? 'Vai al contenuto' : 'Skip to content'}</a>
+    <Header locale={locale} {...(alternateUrl ? { alternateUrl } : {})} />
+    <main id="main" data-pagefind-body><slot /></main>
+    <Footer locale={locale} />
+    <QuoteIndicator client:load locale={locale} floating />
+  </body>
+</html>

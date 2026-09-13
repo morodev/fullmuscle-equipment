@@ -1,0 +1,39 @@
+---
+import { SITE } from '../lib/site';
+
+export const prerender = true;
+const canonical = new URL('/', SITE.url).toString();
+const italian = new URL('/it/', SITE.url).toString();
+const english = new URL('/en/', SITE.url).toString();
+const robots = SITE.ready ? 'index,follow,max-image-preview:large' : 'noindex,nofollow';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#090c0a" />
+    <meta name="robots" content={robots} />
+    <title>FullMuscle Equipment | Professional gym equipment</title>
+    <meta name="description" content="Professional gym equipment and tailored support for fitness facilities in Italy and across Europe." />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={canonical} />
+    <link rel="alternate" hreflang="it-IT" href={italian} />
+    <link rel="alternate" hreflang="en" href={english} />
+    <link rel="icon" type="image/svg+xml" href="/brand/fullmuscle-mark.svg" />
+  </head>
+  <body>
+    <main>
+      <img src="/brand/fullmuscle-wordmark.svg" width="310" height="64" alt="FullMuscle Equipment" />
+      <p>Professional gym equipment · Attrezzature professionali per palestre</p>
+      <nav aria-label="Choose language">
+        <a href="/it/" lang="it"><strong>Italiano</strong><span>Italia</span></a>
+        <a href="/en/" lang="en"><strong>English</strong><span>Europe</span></a>
+      </nav>
+    </main>
+  </body>
+</html>
+
+<style>
+  :global(*){box-sizing:border-box}:global(html){background:#090c0a;color:#fff;font-family:"Aptos","Segoe UI",Arial,sans-serif}:global(body){display:grid;min-width:320px;min-height:100vh;place-items:center;margin:0;padding:1.5rem;background:radial-gradient(circle at 50% 15%,#1d2a1e 0,#090c0a 46%)}main{width:min(100%,720px);text-align:center}img{width:min(78vw,310px);height:auto;margin:0 auto 1.5rem}p{margin:0 auto 2.5rem;color:#aeb7b0;font-size:clamp(1rem,2.2vw,1.25rem)}nav{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}a{display:grid;gap:.2rem;border:1px solid #394139;border-radius:1rem;padding:1.25rem;color:#fff;text-decoration:none;transition:border-color .2s,transform .2s}a:hover{transform:translateY(-2px);border-color:#69be28}strong{font-size:1.1rem}span{color:#91a094;font-size:.8rem}@media(max-width:520px){nav{grid-template-columns:1fr}}
+</style>
