@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../../../components/Breadcrumbs.astro';
+import CatalogListing from '../../../../../../components/CatalogListing.astro';
+import { CATEGORIES, LINES, listItem, productsForCategory, productsForLine, taxonomyUrl } from '../../../../../../lib/catalog';
+import { paginatedUrl, route } from '../../../../../../lib/site';
+import type { CatalogTaxonomy, Locale } from '../../../../../../lib/types';
+
+export const prerender = true;
+const pageSize = 24;
+export function getStaticPaths() {
+  return (['it', 'en'] as const).flatMap((locale) => {
+    const catalogue = locale === 'it' ? 'catalogo' : 'catalogue';
+    const pagination = locale === 'it' ? 'pagina' : 'page';
+    return [
+      ...CATEGORIES.flatMap((taxonomy) => {
+        const pageCount = Math.ceil(productsForCategory(taxonomy.id).length / pageSize);
+        return Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => index + 2).map((page) => ({ params: { lang: locale, catalogue, kind: locale === 'it' ? 'categorie' : 'categories', slug: taxonomy.slug[locale], pagination, page: String(page) }, props: { locale, taxonomy, taxonomyKind: 'category' as const, currentPage: page } }));
+      }),
+      ...LINES.flatMap((taxonomy) => {
+        const pageCount = Math.ceil(productsForLine(taxonomy.id).length / pageSize);
+        return Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => index + 2).map((page) => ({ params: { lang: locale, catalogue, kind: locale === 'it' ? 'linee' : 'lines', slug: taxonomy.slug[locale], pagination, page: String(page) }, props: { locale, taxonomy, taxonomyKind: 'line' as const, currentPage: page } }));
+      }),
+    ];
+  });
+}
+interface Props { locale: Locale; taxonomy: CatalogTaxonomy; taxonomyKind: 'category' | 'line'; currentPage: number }
+const { locale, taxonomy, taxonomyKind, currentPage } = Astro.props;
+const isIt = locale === 'it';
+const other: Locale = isIt ? 'en' : 'it';
+const r = route(locale);
+const source = taxonomyKind === 'category' ? productsForCategory(taxonomy.id) : productsForLine(taxonomy.id);
+const pageCount = Math.ceil(source.length / pageSize);
+const baseUrl = taxonomyUrl(locale, taxonomy, taxonomyKind);
+const canonicalPath = paginatedUrl(baseUrl, locale, currentPage);
+const alternateUrl = paginatedUrl(taxonomyUrl(other, taxonomy, taxonomyKind), other, currentPage);
+const products = source.slice((currentPage - 1) * pageSize, currentPage * pageSize).map((product) => listItem(product, locale));
+const categoryLinks = CATEGORIES.map((item) => ({ id: item.id, name: item.name[locale], href: taxonomyUrl(locale, item, 'category') }));
+const lineLinks = LINES.map((item) => ({ id: item.id, name: item.name[locale], href: taxonomyUrl(locale, item, 'line') }));
+const title = `${taxonomy.name[locale]} · ${isIt ? 'Pagina' : 'Page'} ${currentPage} | FullMuscle`;
+const description = isIt ? `Pagina ${currentPage}: scopri altri modelli ${taxonomy.name.it.toLowerCase()} e richiedi una proposta per la tua palestra.` : `Page ${currentPage}: explore more ${taxonomy.name.en.toLowerCase()} and request a tailored proposal for your gym.`;
+const structuredData = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'CollectionPage', name: title, description, url: new URL(canonicalPath, Astro.site) },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: new URL(r.home, Astro.site) },
+      { '@type': 'ListItem', position: 2, name: isIt ? 'Catalogo' : 'Catalogue', item: new URL(r.catalog, Astro.site) },
+      { '@type': 'ListItem', position: 3, name: taxonomy.name[locale], item: new URL(baseUrl, Astro.site) },
+      { '@type': 'ListItem', position: 4, name: `${isIt ? 'Pagina' : 'Page'} ${currentPage}`, item: new URL(canonicalPath, Astro.site) },
+    ] },
+  ],
+};
+---
+<BaseLayout locale={locale} title={title} description={description} canonicalPath={canonicalPath} alternateUrl={alternateUrl} previousUrl={paginatedUrl(baseUrl, locale, currentPage - 1)} structuredData={structuredData} {...(currentPage < pageCount ? { nextUrl: paginatedUrl(baseUrl, locale, currentPage + 1) } : {})}>
+  <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{ label: 'Home', href: r.home }, { label: isIt ? 'Catalogo' : 'Catalogue', href: r.catalog }, { label: taxonomy.name[locale], href: baseUrl }, { label: `${isIt ? 'Pagina' : 'Page'} ${currentPage}` }]} /><p class="eyebrow">{source.length} {isIt ? 'modelli' : 'models'}</p><h1>{taxonomy.name[locale]} · {isIt ? 'Pagina' : 'Page'} {currentPage}</h1><p>{taxonomy.description[locale]}</p></div></section>
+  <section class="section"><div class="shell"><CatalogListing products={products} categories={categoryLinks} lines={lineLinks} locale={locale} total={source.length} currentPage={currentPage} pageCount={pageCount} baseUrl={baseUrl} {...(taxonomyKind === 'category' ? { activeCategory: taxonomy.id } : { activeLine: taxonomy.id })} /></div></section>
+</BaseLayout>
