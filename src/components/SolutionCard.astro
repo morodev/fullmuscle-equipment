@@ -1,0 +1,36 @@
+---
+import { Image } from 'astro:assets';
+import { solutionUrl } from '../lib/solutions';
+import type { Solution } from '../lib/solutions';
+import type { Locale } from '../lib/types';
+
+interface Props {
+  solution: Solution;
+  locale: Locale;
+  prominent?: boolean;
+  eager?: boolean;
+}
+
+const { solution, locale, prominent = false, eager = false } = Astro.props;
+const isIt = locale === 'it';
+---
+<a class:list={['solution-card', { prominent }]} href={solutionUrl(locale, solution)}>
+  <Image
+    src={solution.image}
+    alt={solution.imageAlt[locale]}
+    widths={[480, 720, 960, 1280]}
+    sizes={prominent ? '(max-width: 760px) 100vw, 66vw' : '(max-width: 760px) 100vw, 40vw'}
+    loading={eager ? 'eager' : 'lazy'}
+    fetchpriority={eager ? 'high' : 'auto'}
+  />
+  <span class="solution-shade" aria-hidden="true"></span>
+  <span class="solution-content">
+    <small>{solution.eyebrow[locale]}</small>
+    <strong>{solution.name[locale]}</strong>
+    <span>{isIt ? 'Scopri la soluzione' : 'Explore the solution'} <b aria-hidden="true">→</b></span>
+  </span>
+</a>
+
+<style>
+  .solution-card{position:relative;display:block;min-height:clamp(20rem,34vw,31rem);overflow:hidden;border-radius:1.35rem;background:#151a16;color:#fff;isolation:isolate}.solution-card :global(img){position:absolute;z-index:0;width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.7,.2,1)}.solution-shade{position:absolute;z-index:1;inset:0;background:linear-gradient(180deg,rgba(4,7,5,.05) 30%,rgba(4,7,5,.9) 100%)}.solution-content{position:absolute;z-index:2;right:0;bottom:0;left:0;display:grid;gap:.45rem;padding:clamp(1.25rem,3vw,2.25rem)}.solution-content small{color:var(--green);font-size:.68rem;font-weight:850;letter-spacing:.12em;text-transform:uppercase}.solution-content strong{max-width:18ch;font-size:clamp(1.7rem,3.2vw,3.2rem);letter-spacing:-.045em;line-height:1}.solution-content>span{display:flex;align-items:center;gap:.55rem;margin-top:.6rem;font-size:.76rem;font-weight:800}.solution-content b{color:var(--green);font-size:1rem}.solution-card:hover :global(img){transform:scale(1.035)}.solution-card:focus-visible{outline:3px solid var(--green);outline-offset:3px}.solution-card.prominent{min-height:clamp(24rem,42vw,40rem)}@media(max-width:700px){.solution-card,.solution-card.prominent{min-height:24rem}.solution-content strong{font-size:2.15rem}}
+</style>

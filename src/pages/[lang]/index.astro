@@ -1,9 +1,11 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ProductCard from '../../components/ProductCard.astro';
-import { CATEGORIES, PRODUCTS, listItem, taxonomyUrl } from '../../lib/catalog';
+import SolutionCard from '../../components/SolutionCard.astro';
+import { CATEGORIES, HOME_FEATURED_PRODUCTS, HOME_HERO_PRODUCTS, listItem, taxonomyUrl } from '../../lib/catalog';
 import { GUIDES } from '../../lib/guides';
 import { guideUrl, SITE, route } from '../../lib/site';
+import { HOME_SOLUTIONS, SOLUTION_BY_ID, solutionUrl, solutionsHubUrl } from '../../lib/solutions';
 import type { Locale } from '../../lib/types';
 
 export const prerender = true;
@@ -14,8 +16,9 @@ interface Props { locale: Locale }
 const { locale } = Astro.props;
 const isIt = locale === 'it';
 const r = route(locale);
-const featured = PRODUCTS.slice(0, 6);
-const heroProducts = featured.slice(0, 3);
+const featured = HOME_FEATURED_PRODUCTS;
+const heroProducts = HOME_HERO_PRODUCTS;
+const newGymUrl = solutionUrl(locale, SOLUTION_BY_ID.get('new-gym')!);
 const title = isIt ? 'Attrezzature professionali per palestre | FullMuscle' : 'Professional gym equipment | FullMuscle';
 const description = isIt ? 'Progetta e attrezza la tua palestra con un catalogo completo di macchine professionali, cardio, pesi liberi e soluzioni su preventivo.' : 'Plan and equip your gym with professional strength, cardio and free-weight equipment supplied through a tailored quotation.';
 const organization = {
@@ -34,7 +37,7 @@ const organization = {
         <p class="lead">{isIt ? 'Attrezzature professionali, selezione completa e supporto concreto per nuove palestre, rinnovi e progetti fitness su misura.' : 'Professional equipment, a complete selection and practical support for new gyms, renovations and tailored fitness projects.'}</p>
         <div class="hero-actions cluster">
           <a class="button" href={r.catalog}>{isIt ? 'Esplora il catalogo' : 'Explore catalogue'} <span>→</span></a>
-          <a class="button button-secondary" href={`${r.solutions}/${isIt ? 'apertura-nuova-palestra' : 'new-gym-opening'}/`}>{isIt ? 'Devo aprire una palestra' : 'I am opening a gym'}</a>
+          <a class="button button-secondary" href={newGymUrl}>{isIt ? 'Devo aprire una palestra' : 'I am opening a gym'}</a>
         </div>
       </div>
       <div class="hero-stage" aria-label={isIt ? 'Selezione di attrezzature FullMuscle' : 'FullMuscle equipment selection'}>
@@ -67,6 +70,16 @@ const organization = {
     </div>
   </section>
 
+  <section class="section surface-carbon home-solutions">
+    <div class="shell">
+      <div class="section-heading">
+        <div><p class="eyebrow">{isIt ? 'Nuovi settori' : 'More sectors'}</p><h2 class="section-title">{isIt ? 'Il fitness professionale entra in spazi diversi.' : 'Professional fitness belongs in many different spaces.'}</h2></div>
+        <div><p>{isIt ? 'Soluzioni costruite sulle esigenze di ospiti, pazienti, dipendenti, soci e studenti.' : 'Solutions shaped around the needs of guests, patients, employees, members and students.'}</p><a class="text-link" href={solutionsHubUrl(locale)}>{isIt ? 'Tutte le soluzioni' : 'All solutions'} →</a></div>
+      </div>
+      <div class="home-solutions-grid">{HOME_SOLUTIONS.map((solution) => <SolutionCard solution={solution} locale={locale} />)}</div>
+    </div>
+  </section>
+
   <section class="section-tight home-guides">
     <div class="shell">
       <div class="section-heading"><div><p class="eyebrow">{isIt ? 'Guide tecniche' : 'Technical guides'}</p><h2 class="section-title">{isIt ? 'Prima della macchina, viene la scelta.' : 'Make the right choices before selecting models.'}</h2></div><a class="text-link" href={`${r.guides}/`}>{isIt ? 'Tutte le guide' : 'All guides'} →</a></div>
@@ -80,7 +93,7 @@ const organization = {
         <p class="eyebrow">{isIt ? 'Dall’idea all’apertura' : 'From idea to opening'}</p>
         <h2 class="section-title">{isIt ? 'Una palestra non è una lista di macchine.' : 'A gym is more than a list of machines.'}</h2>
         <p class="lead">{isIt ? 'È flusso, spazio, equilibrio tra aree e una scelta coerente con il pubblico che vuoi servire. Partiamo dal progetto, poi costruiamo la dotazione.' : 'It is about flow, space, balanced training areas and equipment that fits your audience. We start with the project, then build the equipment mix.'}</p>
-        <a class="button" href={`${r.solutions}/${isIt ? 'apertura-nuova-palestra' : 'new-gym-opening'}/`}>{isIt ? 'Progetta la nuova palestra' : 'Plan your new gym'} →</a>
+        <a class="button" href={newGymUrl}>{isIt ? 'Progetta la nuova palestra' : 'Plan your new gym'} →</a>
       </div>
       <ol class="process-list">
         <li><span>01</span><div><strong>{isIt ? 'Obiettivi e spazi' : 'Goals and space'}</strong><p>{isIt ? 'Raccogliamo metratura, pubblico, budget e tempi.' : 'We gather space, audience, budget and timeline.'}</p></div></li>
@@ -132,6 +145,13 @@ const organization = {
   .section-heading > p { max-width: 42ch; color: var(--muted); }
   .category-grid { gap: .75rem; }
   .center-action { display: flex; justify-content: center; margin-top: 2.5rem; }
+  .home-solutions .section-heading>div:last-child { max-width: 42ch; }
+  .home-solutions .section-heading p { color: #aeb7b0; }
+  .home-solutions .text-link { display: inline-block; margin-top: .75rem; color: var(--green); }
+  .home-solutions-grid { display: grid; grid-template-columns: repeat(12,minmax(0,1fr)); gap: 1rem; }
+  .home-solutions-grid > :global(.solution-card:nth-child(1)) { grid-column: span 7; }
+  .home-solutions-grid > :global(.solution-card:nth-child(2)) { grid-column: span 5; }
+  .home-solutions-grid > :global(.solution-card:nth-child(n+3)) { grid-column: span 4; }
   .solution-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(3rem,8vw,8rem); align-items: center; }
   .solution-copy .button { margin-top: 1rem; }
   .process-list { margin: 0; padding: 0; list-style: none; }
@@ -150,6 +170,6 @@ const organization = {
   .final-cta .eyebrow { color: var(--ink); }
   .final-cta-inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
   .final-cta h2 { max-width: 19ch; margin: 0; font-size: clamp(2rem,5vw,4.2rem); letter-spacing: -.05em; line-height: 1; }
-  @media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } .hero-copy { padding-bottom: 0; } .hero-stage { min-height: 520px; } .solution-grid { grid-template-columns: 1fr; } }
-  @media (max-width: 680px) { .home-hero { min-height: auto; } .hero-grid { min-height: auto; } .hero-stage { min-height: 390px; } .hero-orbit { width: 370px; height: 370px; } .trust-grid { grid-template-columns: 1fr 1fr; } .section-heading, .final-cta-inner { align-items: flex-start; flex-direction: column; } .final-cta .button { width: auto; } }
+  @media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } .hero-copy { padding-bottom: 0; } .hero-stage { min-height: 520px; } .solution-grid { grid-template-columns: 1fr; } .home-solutions-grid > :global(.solution-card) { grid-column: span 6!important; } }
+  @media (max-width: 680px) { .home-hero { min-height: auto; } .hero-grid { min-height: auto; } .hero-stage { min-height: 390px; } .hero-orbit { width: 370px; height: 370px; } .trust-grid { grid-template-columns: 1fr 1fr; } .section-heading, .final-cta-inner { align-items: flex-start; flex-direction: column; } .home-solutions-grid { grid-template-columns: 1fr; } .home-solutions-grid > :global(.solution-card) { grid-column: auto!important; } .final-cta .button { width: auto; } }
 </style>

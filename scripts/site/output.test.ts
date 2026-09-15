@@ -121,6 +121,52 @@ test('sitemap e immagini locali referenziate esistono', async () => {
   }
 });
 
+test('le landing delle tipologie strength sono indicizzabili e complete', async () => {
+  const pages = [
+    { slug: 'back-extension-machine', title: 'Back Extension Machine', count: 14, cards: 14 },
+    { slug: 'leg-press-machine', title: 'Leg Press Machine', count: 25, cards: 24 },
+    { slug: 'chest-press-machine', title: 'Chest Press Machine', count: 51, cards: 24 },
+  ];
+  const sitemap = await readFile(join(clientRoot, 'sitemap.xml'), 'utf8');
+  for (const page of pages) {
+    const html = await readFile(join(clientRoot, 'it', 'catalogo', 'tipologie', page.slug, 'index.html'), 'utf8');
+    assert.match(html, new RegExp(`<h1>${page.title}</h1>`));
+    assert.match(html, new RegExp(`${page.count} modelli disponibili`));
+    assert.equal([...html.matchAll(/class="product-card"/g)].length, page.cards);
+    assert.match(html, /<link rel="canonical" href="[^"]+">/);
+    assert.match(html, /hreflang="it-IT"/);
+    assert.match(html, /hreflang="en"/);
+    assert.match(html, /"@type":"CollectionPage"/);
+    assert.match(html, /"@type":"ItemList"/);
+    assert.match(sitemap, new RegExp(`/it/catalogo/tipologie/${page.slug}/`));
+  }
+});
+
+test('hub e landing delle soluzioni business sono completi e indicizzabili', async () => {
+  const italianSlugs = ['apertura-nuova-palestra', 'rinnovo-palestra', 'hotel-resort', 'personal-trainer-fisioterapia', 'navi-da-crociera', 'centri-medicali-riabilitazione', 'circoli-privati', 'wellness-aziendale', 'scuole-universita'];
+  const englishSlugs = ['new-gym-opening', 'gym-renovation', 'hotels-resorts', 'personal-training-physiotherapy', 'cruise-ships', 'medical-rehabilitation-centres', 'private-clubs', 'corporate-wellness', 'schools-universities'];
+  const sitemap = await readFile(join(clientRoot, 'sitemap.xml'), 'utf8');
+  const italianHub = await readFile(join(clientRoot, 'it', 'soluzioni', 'index.html'), 'utf8');
+  const englishHub = await readFile(join(clientRoot, 'en', 'solutions', 'index.html'), 'utf8');
+  assert.match(italianHub, /"@type":"CollectionPage"/);
+  assert.match(italianHub, /"numberOfItems":9/);
+  assert.match(englishHub, /hreflang="it-IT"/);
+  for (const slug of italianSlugs) {
+    const html = await readFile(join(clientRoot, 'it', 'soluzioni', slug, 'index.html'), 'utf8');
+    assert.match(html, /<link rel="canonical" href="[^"]+">/);
+    assert.match(html, /hreflang="en"/);
+    assert.match(html, /"@type":"Service"/);
+    assert.match(html, /<img[^>]+width="\d+"[^>]+height="\d+"/);
+    assert.match(sitemap, new RegExp(`/it/soluzioni/${slug}/`));
+  }
+  for (const slug of englishSlugs) assert.ok((await stat(join(clientRoot, 'en', 'solutions', slug, 'index.html'))).isFile());
+
+  const imageRoot = join(process.cwd(), 'src', 'assets', 'solutions');
+  const images = (await readdir(imageRoot)).filter((name) => name.endsWith('.webp'));
+  assert.equal(images.length, 9);
+  for (const image of images) assert.ok((await stat(join(imageRoot, image))).size < 350 * 1024, `${image} supera 350 KB`);
+});
+
 test('la radice è una pagina lingua x-default e non esegue meta refresh', async () => {
   const html = await readFile(join(clientRoot, 'index.html'), 'utf8');
   assert.match(html, /hreflang="x-default"/);

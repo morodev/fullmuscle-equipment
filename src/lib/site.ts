@@ -18,12 +18,12 @@ export const SITE = {
 
 export const ROUTES = {
   it: {
-    home: '/it/', catalog: '/it/catalogo/', categories: '/it/catalogo/categorie', lines: '/it/catalogo/linee',
+    home: '/it/', catalog: '/it/catalogo/', categories: '/it/catalogo/categorie', lines: '/it/catalogo/linee', types: '/it/catalogo/tipologie',
     products: '/it/prodotti', solutions: '/it/soluzioni', company: '/it/azienda/', contact: '/it/contatti/',
     guides: '/it/guide', showroom: '/it/showroom/', quote: '/it/richiesta/', privacy: '/it/privacy/', confirmation: '/it/conferma/',
   },
   en: {
-    home: '/en/', catalog: '/en/catalogue/', categories: '/en/catalogue/categories', lines: '/en/catalogue/lines',
+    home: '/en/', catalog: '/en/catalogue/', categories: '/en/catalogue/categories', lines: '/en/catalogue/lines', types: '/en/catalogue/types',
     products: '/en/products', solutions: '/en/solutions', company: '/en/company/', contact: '/en/contact/',
     guides: '/en/guides', showroom: '/en/showroom/', quote: '/en/quote-request/', privacy: '/en/privacy/', confirmation: '/en/confirmation/',
   },
@@ -43,6 +43,10 @@ export function categoryUrl(locale: Locale, slug: string): string {
 
 export function lineUrl(locale: Locale, slug: string): string {
   return `${ROUTES[locale].lines}/${slug}/`;
+}
+
+export function typeUrl(locale: Locale, slug: string): string {
+  return `${ROUTES[locale].types}/${slug}/`;
 }
 
 export function guideUrl(locale: Locale, slug: string): string {

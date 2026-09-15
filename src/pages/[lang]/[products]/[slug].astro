@@ -5,6 +5,7 @@ import ProductCard from '../../../components/ProductCard.astro';
 import AddToQuote from '../../../components/react/AddToQuote';
 import { CATEGORY_BY_ID, LINE_BY_ID, PRODUCTS, listItem, productsForCategory, taxonomyUrl } from '../../../lib/catalog';
 import { guideUrl, productUrl, route } from '../../../lib/site';
+import { SOLUTION_BY_ID, solutionUrl } from '../../../lib/solutions';
 import { ui } from '../../../lib/i18n';
 import type { CatalogProduct, Locale } from '../../../lib/types';
 
@@ -21,6 +22,7 @@ const isIt = locale === 'it';
 const other: Locale = isIt ? 'en' : 'it';
 const t = ui(locale);
 const r = route(locale);
+const newGymUrl = solutionUrl(locale, SOLUTION_BY_ID.get('new-gym')!);
 const category = CATEGORY_BY_ID.get(product.categoryId)!;
 const line = product.lineId ? LINE_BY_ID.get(product.lineId) : undefined;
 const related = productsForCategory(product.categoryId).filter((candidate) => candidate.sku !== product.sku).slice(0, 3);
@@ -81,7 +83,7 @@ const productTypeName = product.name[locale].endsWith(product.sku)
     <section class="section-tight project-fit">
       <div class="shell details-grid">
         <div><p class="eyebrow">{isIt ? 'Prima del preventivo' : 'Before the quotation'}</p><h2>{isIt ? 'Valuta il modello nel progetto completo.' : 'Evaluate the model within the complete project.'}</h2><p>{isIt ? 'Ingombri, percorsi e combinazione tra le aree incidono quanto la scelta della singola macchina.' : 'Footprint, circulation and the balance between training areas matter as much as the individual machine.'}</p></div>
-        <div><ul>{product.selectionNotes[locale].map((note) => <li>{note}</li>)}</ul><div class="project-links"><a class="text-link" href={guideUrl(locale, isIt ? 'attrezzature-apertura-nuova-palestra' : 'choosing-equipment-for-a-new-gym')}>{isIt ? 'Guida alla scelta delle attrezzature' : 'Guide to choosing gym equipment'} →</a><a class="text-link" href={`${r.solutions}/${isIt ? 'apertura-nuova-palestra' : 'new-gym-opening'}/`}>{isIt ? 'Supporto per una nuova palestra' : 'Support for a new gym'} →</a></div></div>
+        <div><ul>{product.selectionNotes[locale].map((note) => <li>{note}</li>)}</ul><div class="project-links"><a class="text-link" href={guideUrl(locale, isIt ? 'attrezzature-apertura-nuova-palestra' : 'choosing-equipment-for-a-new-gym')}>{isIt ? 'Guida alla scelta delle attrezzature' : 'Guide to choosing gym equipment'} →</a><a class="text-link" href={newGymUrl}>{isIt ? 'Supporto per una nuova palestra' : 'Support for a new gym'} →</a></div></div>
       </div>
     </section>
 

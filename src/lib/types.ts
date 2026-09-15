@@ -1,4 +1,5 @@
 export type Locale = 'it' | 'en';
+export type TaxonomyKind = 'category' | 'line' | 'type';
 
 export interface LocalizedValue {
   it: string;
@@ -22,6 +23,7 @@ export interface CatalogProduct {
   sku: string;
   categoryId: string;
   lineId?: string;
+  featuredTypeIds: string[];
   slug: LocalizedValue;
   name: LocalizedValue;
   summary: LocalizedValue;

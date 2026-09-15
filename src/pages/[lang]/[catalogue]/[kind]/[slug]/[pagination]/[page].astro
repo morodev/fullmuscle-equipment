@@ -2,9 +2,9 @@
 import BaseLayout from '../../../../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../../../../components/Breadcrumbs.astro';
 import CatalogListing from '../../../../../../components/CatalogListing.astro';
-import { CATEGORIES, LINES, listItem, productsForCategory, productsForLine, taxonomyUrl } from '../../../../../../lib/catalog';
+import { CATEGORIES, FEATURED_TYPES, LINES, listItem, productsForCategory, productsForLine, productsForType, taxonomyUrl } from '../../../../../../lib/catalog';
 import { paginatedUrl, route } from '../../../../../../lib/site';
-import type { CatalogTaxonomy, Locale } from '../../../../../../lib/types';
+import type { CatalogTaxonomy, Locale, TaxonomyKind } from '../../../../../../lib/types';
 
 export const prerender = true;
 const pageSize = 24;
@@ -21,15 +21,23 @@ export function getStaticPaths() {
         const pageCount = Math.ceil(productsForLine(taxonomy.id).length / 24);
         return Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => index + 2).map((page) => ({ params: { lang: locale, catalogue, kind: locale === 'it' ? 'linee' : 'lines', slug: taxonomy.slug[locale], pagination, page: String(page) }, props: { locale, taxonomy, taxonomyKind: 'line' as const, currentPage: page } }));
       }),
+      ...FEATURED_TYPES.flatMap((taxonomy) => {
+        const pageCount = Math.ceil(productsForType(taxonomy.id).length / 24);
+        return Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => index + 2).map((page) => ({ params: { lang: locale, catalogue, kind: locale === 'it' ? 'tipologie' : 'types', slug: taxonomy.slug[locale], pagination, page: String(page) }, props: { locale, taxonomy, taxonomyKind: 'type' as const, currentPage: page } }));
+      }),
     ];
   });
 }
-interface Props { locale: Locale; taxonomy: CatalogTaxonomy; taxonomyKind: 'category' | 'line'; currentPage: number }
+interface Props { locale: Locale; taxonomy: CatalogTaxonomy; taxonomyKind: TaxonomyKind; currentPage: number }
 const { locale, taxonomy, taxonomyKind, currentPage } = Astro.props;
 const isIt = locale === 'it';
 const other: Locale = isIt ? 'en' : 'it';
 const r = route(locale);
-const source = taxonomyKind === 'category' ? productsForCategory(taxonomy.id) : productsForLine(taxonomy.id);
+const source = taxonomyKind === 'category'
+  ? productsForCategory(taxonomy.id)
+  : taxonomyKind === 'line'
+    ? productsForLine(taxonomy.id)
+    : productsForType(taxonomy.id);
 const pageCount = Math.ceil(source.length / pageSize);
 const baseUrl = taxonomyUrl(locale, taxonomy, taxonomyKind);
 const canonicalPath = paginatedUrl(baseUrl, locale, currentPage);
@@ -42,6 +50,7 @@ const description = isIt ? `Pagina ${currentPage}: scopri altri modelli ${taxono
 const structuredData = {
   '@context': 'https://schema.org', '@graph': [
     { '@type': 'CollectionPage', name: title, description, url: new URL(canonicalPath, Astro.site) },
+    { '@type': 'ItemList', numberOfItems: source.length, itemListElement: products.map((product, index) => ({ '@type': 'ListItem', position: ((currentPage - 1) * pageSize) + index + 1, name: product.name, url: new URL(product.href, Astro.site) })) },
     { '@type': 'BreadcrumbList', itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: new URL(r.home, Astro.site) },
       { '@type': 'ListItem', position: 2, name: isIt ? 'Catalogo' : 'Catalogue', item: new URL(r.catalog, Astro.site) },

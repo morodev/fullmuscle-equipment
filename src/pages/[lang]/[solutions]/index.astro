@@ -1,0 +1,55 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import SolutionCard from '../../../components/SolutionCard.astro';
+import { route } from '../../../lib/site';
+import { SOLUTIONS, solutionUrl, solutionsHubUrl } from '../../../lib/solutions';
+import type { Locale } from '../../../lib/types';
+
+export const prerender = true;
+export function getStaticPaths() {
+  return (['it', 'en'] as const).map((locale) => ({ params: { lang: locale, solutions: locale === 'it' ? 'soluzioni' : 'solutions' }, props: { locale } }));
+}
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const isIt = locale === 'it';
+const other: Locale = isIt ? 'en' : 'it';
+const r = route(locale);
+const canonicalPath = solutionsHubUrl(locale);
+const hero = SOLUTIONS[0]!;
+const title = isIt ? 'Soluzioni fitness professionali per ogni settore | FullMuscle' : 'Professional fitness solutions for every sector | FullMuscle';
+const description = isIt ? 'Attrezzature e selezioni dedicate per palestre, hotel, navi da crociera, centri medicali, aziende, circoli privati e università.' : 'Tailored professional equipment for gyms, hotels, cruise ships, medical centres, workplaces, private clubs and universities.';
+const structuredData = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'CollectionPage', name: title, description, url: new URL(canonicalPath, Astro.site) },
+    { '@type': 'ItemList', numberOfItems: SOLUTIONS.length, itemListElement: SOLUTIONS.map((solution, index) => ({ '@type': 'ListItem', position: index + 1, name: solution.name[locale], url: new URL(solutionUrl(locale, solution), Astro.site) })) },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: new URL(r.home, Astro.site) },
+      { '@type': 'ListItem', position: 2, name: isIt ? 'Soluzioni' : 'Solutions', item: new URL(canonicalPath, Astro.site) },
+    ] },
+  ],
+};
+---
+<BaseLayout locale={locale} title={title} description={description} canonicalPath={canonicalPath} alternateUrl={solutionsHubUrl(other)} image={hero.image.src} imageAlt={hero.imageAlt[locale]} structuredData={structuredData}>
+  <header class="solutions-hero surface-dark">
+    <div class="hero-media"><Image src={hero.image} alt={hero.imageAlt[locale]} widths={[720, 1080, 1440, 1920]} sizes="100vw" loading="eager" fetchpriority="high" /><span aria-hidden="true"></span></div>
+    <div class="shell hero-inner">
+      <Breadcrumbs items={[{ label: 'Home', href: r.home }, { label: isIt ? 'Soluzioni' : 'Solutions' }]} />
+      <div class="hero-copy"><p class="eyebrow">FullMuscle Business</p><h1>{isIt ? 'Ogni spazio fitness nasce da esigenze diverse.' : 'Every fitness space starts with different needs.'}</h1><p>{isIt ? 'Dal club indipendente al campus, costruiamo la selezione delle attrezzature intorno agli utenti, agli spazi e agli obiettivi del progetto.' : 'From independent clubs to campuses, we build the equipment mix around users, space and project goals.'}</p><a class="button" href="#settori">{isIt ? 'Esplora le soluzioni' : 'Explore solutions'} ↓</a></div>
+    </div>
+  </header>
+
+  <section class="section solutions-intro"><div class="shell intro-grid"><div><p class="eyebrow">{isIt ? 'Soluzioni professionali' : 'Professional solutions'}</p><h2 class="section-title">{isIt ? 'Il catalogo diventa un progetto coerente.' : 'The catalogue becomes a coherent project.'}</h2></div><p>{isIt ? 'Non esiste una dotazione valida per ogni struttura. Capacità, pubblico, tempi di utilizzo e caratteristiche dello spazio guidano la scelta delle famiglie e dei modelli.' : 'No single equipment mix works for every facility. Capacity, audience, usage patterns and the space itself guide the choice of ranges and models.'}</p></div></section>
+
+  <section id="settori" class="section-tight sector-section"><div class="shell"><div class="section-heading"><div><p class="eyebrow">{isIt ? 'Progetti e settori' : 'Projects and sectors'}</p><h2 class="section-title">{isIt ? 'Trova il punto di partenza per la tua struttura.' : 'Find the right starting point for your facility.'}</h2></div></div><div class="solutions-grid">{SOLUTIONS.map((solution, index) => <SolutionCard solution={solution} locale={locale} prominent={index === 0 || index === 5 || index === 8} eager={index === 0} />)}</div></div></section>
+
+  <section class="section surface-dark"><div class="shell process-grid"><div><p class="eyebrow">{isIt ? 'Dal bisogno alla selezione' : 'From need to selection'}</p><h2 class="section-title">{isIt ? 'Tre passaggi per rendere concreta la richiesta.' : 'Three steps to make your request concrete.'}</h2></div><ol><li><span>01</span><div><strong>{isIt ? 'Definiamo il contesto' : 'Define the context'}</strong><p>{isIt ? 'Utenti, metratura, obiettivi e tempi.' : 'Users, floor area, goals and timeline.'}</p></div></li><li><span>02</span><div><strong>{isIt ? 'Costruiamo il mix' : 'Build the mix'}</strong><p>{isIt ? 'Aree, famiglie di prodotto e quantità.' : 'Training zones, product families and quantities.'}</p></div></li><li><span>03</span><div><strong>{isIt ? 'Prepariamo il preventivo' : 'Prepare the quotation'}</strong><p>{isIt ? 'Una proposta leggibile da confrontare insieme.' : 'A clear proposal to review together.'}</p></div></li></ol></div></section>
+
+  <section class="section-tight final"><div class="shell final-inner"><div><p class="eyebrow">FullMuscle Equipment</p><h2>{isIt ? 'Raccontaci che spazio vuoi creare.' : 'Tell us about the space you want to create.'}</h2></div><a class="button button-dark" href={`${r.quote}?project=gym`}>{isIt ? 'Inizia la richiesta' : 'Start your request'} →</a></div></section>
+</BaseLayout>
+
+<style>
+  .solutions-hero{position:relative;min-height:min(860px,calc(100vh - 5rem));overflow:hidden}.hero-media{position:absolute;inset:0}.hero-media :global(img){width:100%;height:100%;object-fit:cover}.hero-media span{position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,10,8,.96) 0%,rgba(7,10,8,.75) 45%,rgba(7,10,8,.16) 82%),linear-gradient(0deg,rgba(7,10,8,.55),transparent 55%)}.hero-inner{position:relative;z-index:1;display:flex;min-height:min(860px,calc(100vh - 5rem));flex-direction:column;padding-block:1.25rem 5rem}.hero-copy{max-width:820px;margin-top:auto}.hero-copy h1{max-width:13ch;margin:.5rem 0 1.25rem;font-size:clamp(3.2rem,7.5vw,7.5rem);letter-spacing:-.07em;line-height:.88}.hero-copy>p:not(.eyebrow){max-width:58ch;color:#d1d8d2;font-size:clamp(1.05rem,1.8vw,1.3rem)}.hero-copy .button{margin-top:1.5rem}.intro-grid,.process-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,8vw,8rem);align-items:end}.intro-grid>p{margin:0;color:#475149;font-size:clamp(1.1rem,2vw,1.4rem)}.sector-section{background:#e9ede9}.section-heading{margin-bottom:2.5rem}.solutions-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.solutions-grid :global(.solution-card.prominent){grid-column:1/-1}.process-grid ol{margin:0;padding:0;list-style:none}.process-grid li{display:grid;grid-template-columns:3rem 1fr;gap:1rem;padding:1.35rem 0;border-top:1px solid #303732}.process-grid li:last-child{border-bottom:1px solid #303732}.process-grid li>span{color:var(--green);font-size:.75rem;font-weight:850}.process-grid strong{font-size:1.2rem}.process-grid p{margin:.25rem 0 0;color:#9da69f}.final{background:var(--green)}.final .eyebrow{color:var(--ink)}.final-inner{display:flex;align-items:center;justify-content:space-between;gap:2rem}.final h2{max-width:18ch;margin:0;font-size:clamp(2rem,5vw,4.2rem);letter-spacing:-.05em;line-height:1}@media(max-width:760px){.solutions-hero,.hero-inner{min-height:700px}.hero-media span{background:linear-gradient(0deg,rgba(7,10,8,.96) 0%,rgba(7,10,8,.58) 76%,rgba(7,10,8,.18) 100%)}.hero-copy h1{font-size:clamp(3rem,14vw,4.7rem)}.intro-grid,.process-grid,.solutions-grid{grid-template-columns:1fr}.solutions-grid :global(.solution-card.prominent){grid-column:auto}.final-inner{align-items:flex-start;flex-direction:column}.final .button{width:auto}}
+</style>

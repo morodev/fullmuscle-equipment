@@ -1,7 +1,8 @@
 import type { APIRoute } from 'astro';
-import { CATEGORIES, LINES, PRODUCTS, productsForCategory, productsForLine, taxonomyUrl } from '../lib/catalog';
+import { CATEGORIES, FEATURED_TYPES, LINES, PRODUCTS, productsForCategory, productsForLine, productsForType, taxonomyUrl } from '../lib/catalog';
 import { GUIDES } from '../lib/guides';
 import { guideUrl, paginatedUrl, productUrl, route, SITE } from '../lib/site';
+import { SOLUTIONS, solutionUrl, solutionsHubUrl } from '../lib/solutions';
 
 export const prerender = true;
 const pageSize = 24;
@@ -40,12 +41,11 @@ export const GET: APIRoute = () => {
     { it: it.showroom, en: en.showroom },
     { it: `${it.guides}/`, en: `${en.guides}/` },
     ...GUIDES.map((guide) => ({ it: guideUrl('it', guide.slug.it), en: guideUrl('en', guide.slug.en) })),
-    { it: `${it.solutions}/apertura-nuova-palestra/`, en: `${en.solutions}/new-gym-opening/` },
-    { it: `${it.solutions}/rinnovo-palestra/`, en: `${en.solutions}/gym-renovation/` },
-    { it: `${it.solutions}/hotel-resort/`, en: `${en.solutions}/hotels-resorts/` },
-    { it: `${it.solutions}/personal-trainer-fisioterapia/`, en: `${en.solutions}/personal-training-physiotherapy/` },
+    { it: solutionsHubUrl('it'), en: solutionsHubUrl('en'), imageIt: SOLUTIONS[0]!.image.src, imageEn: SOLUTIONS[0]!.image.src, imageTitleIt: SOLUTIONS[0]!.imageAlt.it, imageTitleEn: SOLUTIONS[0]!.imageAlt.en },
+    ...SOLUTIONS.map((solution) => ({ it: solutionUrl('it', solution), en: solutionUrl('en', solution), imageIt: solution.image.src, imageEn: solution.image.src, imageTitleIt: solution.imageAlt.it, imageTitleEn: solution.imageAlt.en })),
     ...CATEGORIES.flatMap((category) => pagePairs(taxonomyUrl('it', category, 'category'), taxonomyUrl('en', category, 'category'), productsForCategory(category.id).length)),
     ...LINES.flatMap((line) => pagePairs(taxonomyUrl('it', line, 'line'), taxonomyUrl('en', line, 'line'), productsForLine(line.id).length)),
+    ...FEATURED_TYPES.flatMap((type) => pagePairs(taxonomyUrl('it', type, 'type'), taxonomyUrl('en', type, 'type'), productsForType(type.id).length)),
     ...PRODUCTS.map((product) => ({ it: productUrl('it', product.slug.it), en: productUrl('en', product.slug.en), imageIt: product.primaryImage, imageEn: product.primaryImage, imageTitleIt: product.imageAlt.it, imageTitleEn: product.imageAlt.en })),
   ];
   const root = absolute('/');

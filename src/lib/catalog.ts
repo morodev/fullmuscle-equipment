@@ -1,6 +1,6 @@
 import draftsDocument from '../../data/catalog-public/products.json';
-import { categoryUrl, lineUrl, productUrl } from './site';
-import type { CatalogListItem, CatalogProduct, CatalogTaxonomy, Locale, LocalizedValue, ProductSpecification } from './types';
+import { categoryUrl, lineUrl, productUrl, typeUrl } from './site';
+import type { CatalogListItem, CatalogProduct, CatalogTaxonomy, Locale, LocalizedValue, ProductSpecification, TaxonomyKind } from './types';
 
 type DraftAsset = { role: 'primary' | 'gallery'; reviewStatus: string; localPath?: string; width: number; height: number };
 type DraftProduct = {
@@ -113,6 +113,24 @@ const CATEGORY_DEFINITIONS: Record<string, CategoryDefinition> = {
     use: { it: 'equilibrio e preparazione funzionale', en: 'balance and functional preparation' },
   },
 };
+
+const CATEGORY_ORDER = [
+  'pin-loaded-machine',
+  'plate-loaded-machine',
+  'multi-functional-smith-machine-trainer',
+  'treadmill',
+  'stair-climber',
+  'exercise-bike',
+  'elliptical',
+  'crossfit-multi-station',
+  'rowing-machine',
+  'ski-machine',
+  'surfing-machine',
+  'ab-coaster',
+  'free-weight',
+] as const;
+
+const CATEGORY_RANK = new Map<string, number>(CATEGORY_ORDER.map((id, index) => [id, index]));
 
 const TYPE_RULES: Array<{ pattern: RegExp; name: LocalizedValue }> = [
   { pattern: /recumbent.*bike|bike.*recumbent/, name: { it: 'Bike reclinata', en: 'Recumbent bike' } },
@@ -233,6 +251,48 @@ const TYPE_RULES: Array<{ pattern: RegExp; name: LocalizedValue }> = [
   { pattern: /support feet/, name: { it: 'Piedi di supporto', en: 'Support feet' } },
   { pattern: /single pulley/, name: { it: 'Puleggia singola', en: 'Single pulley' } },
 ];
+
+const FEATURED_TYPE_DEFINITIONS: Array<Omit<CatalogTaxonomy, 'count'>> = [
+  {
+    id: 'back-extension',
+    name: { it: 'Back Extension Machine', en: 'Back Extension Machines' },
+    slug: { it: 'back-extension-machine', en: 'back-extension-machines' },
+    description: {
+      it: 'Back extension machine professionali per allenare la catena posteriore e integrare il lavoro lombare nella sala pesi.',
+      en: 'Professional back extension machines for posterior-chain training and focused lower-back work in the strength area.',
+    },
+  },
+  {
+    id: 'leg-press',
+    name: { it: 'Leg Press Machine', en: 'Leg Press Machines' },
+    slug: { it: 'leg-press-machine', en: 'leg-press-machines' },
+    description: {
+      it: 'Leg press machine professionali, orizzontali e combinate per progettare un reparto gambe completo e performante.',
+      en: 'Professional leg press machines, including horizontal and combination models for a complete lower-body area.',
+    },
+  },
+  {
+    id: 'chest-press',
+    name: { it: 'Chest Press Machine', en: 'Chest Press Machines' },
+    slug: { it: 'chest-press-machine', en: 'chest-press-machines' },
+    description: {
+      it: 'Chest press machine professionali piane, inclinate e declinate per l’allenamento guidato della parte superiore del corpo.',
+      en: 'Professional flat, incline and decline chest press machines for guided upper-body strength training.',
+    },
+  },
+];
+
+const FEATURED_TYPE_PATTERNS: Record<string, RegExp> = {
+  'back-extension': /back extension/i,
+  'leg-press': /leg press/i,
+  'chest-press': /chest press|bench press|incline press|decline press/i,
+};
+
+function featuredTypeIds(rawName: string): string[] {
+  return FEATURED_TYPE_DEFINITIONS
+    .filter((definition) => FEATURED_TYPE_PATTERNS[definition.id]?.test(rawName))
+    .map((definition) => definition.id);
+}
 
 const SPEC_LABELS: Record<string, string> = {
   dimension: 'Dimensioni', dimensions: 'Dimensioni', 'product size': 'Dimensioni prodotto', size: 'Dimensioni',
@@ -410,6 +470,7 @@ function buildProduct(draft: DraftProduct): CatalogProduct {
     sku: draft.publicSku,
     categoryId: draft.categoryId,
     ...(draft.lineId ? { lineId: draft.lineId } : {}),
+    featuredTypeIds: featuredTypeIds(rawName),
     slug: { it: slugify(name.it), en: slugify(name.en) },
     name,
     summary,
@@ -430,7 +491,42 @@ function buildProduct(draft: DraftProduct): CatalogProduct {
 
 export const PRODUCTS: CatalogProduct[] = (draftsDocument.products as DraftProduct[]).map(buildProduct);
 
-function taxonomy(): { categories: CatalogTaxonomy[]; lines: CatalogTaxonomy[] } {
+const CATALOG_LEAD_SKUS = new Map([
+  ['FM-X6053', 0],
+  ['FM-X8202', 1],
+]);
+const PROMOTED_LINES = new Set(['fm-x6-series', 'fm-x82-series']);
+
+function catalogPriority(product: CatalogProduct): number {
+  const lead = CATALOG_LEAD_SKUS.get(product.sku);
+  if (lead !== undefined) return lead;
+  if (product.lineId && PROMOTED_LINES.has(product.lineId)) return 2;
+  if (product.categoryId === 'treadmill') return 3;
+  if (product.categoryId === 'free-weight') return 5;
+  return 4;
+}
+
+const PRODUCT_SOURCE_INDEX = new Map(PRODUCTS.map((product, index) => [product.sku, index]));
+
+export const CATALOG_PRODUCTS: CatalogProduct[] = [...PRODUCTS].sort((a, b) =>
+  catalogPriority(a) - catalogPriority(b)
+  || (PRODUCT_SOURCE_INDEX.get(a.sku) ?? 0) - (PRODUCT_SOURCE_INDEX.get(b.sku) ?? 0));
+
+function productsBySku(skus: string[], placement: string): CatalogProduct[] {
+  return skus.map((sku) => {
+    const product = PRODUCTS.find((item) => item.sku === sku);
+    if (!product) throw new Error(`Prodotto ${placement} non trovato: ${sku}`);
+    return product;
+  });
+}
+
+const HOME_HERO_SKUS = ['FM-X6053', 'FM-X8202', 'FM-2000B'];
+const HOME_FEATURED_SKUS = ['FM-X6053', 'FM-X8202', 'FM-X6005', 'FM-X8204', 'FM-2000B', 'FM-3000A'];
+
+export const HOME_HERO_PRODUCTS = productsBySku(HOME_HERO_SKUS, 'hero');
+export const HOME_FEATURED_PRODUCTS = productsBySku(HOME_FEATURED_SKUS, 'in evidenza');
+
+function taxonomy(): { categories: CatalogTaxonomy[]; lines: CatalogTaxonomy[]; types: CatalogTaxonomy[] } {
   const categoryCounts = new Map<string, number>();
   const lineCounts = new Map<string, number>();
   for (const product of PRODUCTS) {
@@ -440,7 +536,7 @@ function taxonomy(): { categories: CatalogTaxonomy[]; lines: CatalogTaxonomy[] }
   const categories = [...categoryCounts.entries()].map(([id, count]) => {
     const definition = CATEGORY_DEFINITIONS[id] ?? CATEGORY_DEFINITIONS['pin-loaded-machine']!;
     return { id, count, name: definition.name, slug: definition.slug, description: definition.description };
-  }).sort((a, b) => b.count - a.count);
+  }).sort((a, b) => (CATEGORY_RANK.get(a.id) ?? CATEGORY_ORDER.length) - (CATEGORY_RANK.get(b.id) ?? CATEGORY_ORDER.length));
   const lines = [...lineCounts.entries()].map(([id, count]) => {
     const series = id.replace(/^fm-/, '').replace(/-series$/, '').replaceAll('-', ' ').toUpperCase();
     return {
@@ -451,12 +547,17 @@ function taxonomy(): { categories: CatalogTaxonomy[]; lines: CatalogTaxonomy[] }
       description: { it: `Scopri i ${count} modelli della Serie FM ${series}.`, en: `Explore ${count} models in the FM ${series} Series.` },
     };
   }).sort((a, b) => a.name.it.localeCompare(b.name.it));
-  return { categories, lines };
+  const types = FEATURED_TYPE_DEFINITIONS.map((definition) => ({
+    ...definition,
+    count: PRODUCTS.filter((product) => product.featuredTypeIds.includes(definition.id)).length,
+  }));
+  return { categories, lines, types };
 }
 
-export const { categories: CATEGORIES, lines: LINES } = taxonomy();
+export const { categories: CATEGORIES, lines: LINES, types: FEATURED_TYPES } = taxonomy();
 export const CATEGORY_BY_ID = new Map(CATEGORIES.map((category) => [category.id, category]));
 export const LINE_BY_ID = new Map(LINES.map((line) => [line.id, line]));
+export const FEATURED_TYPE_BY_ID = new Map(FEATURED_TYPES.map((type) => [type.id, type]));
 
 export function getProductBySlug(locale: Locale, slug: string): CatalogProduct | undefined {
   return PRODUCTS.find((product) => product.slug[locale] === slug);
@@ -487,6 +588,12 @@ export function productsForLine(lineId: string): CatalogProduct[] {
   return PRODUCTS.filter((product) => product.lineId === lineId);
 }
 
-export function taxonomyUrl(locale: Locale, taxonomy: CatalogTaxonomy, kind: 'category' | 'line'): string {
-  return kind === 'category' ? categoryUrl(locale, taxonomy.slug[locale]) : lineUrl(locale, taxonomy.slug[locale]);
+export function productsForType(typeId: string): CatalogProduct[] {
+  return PRODUCTS.filter((product) => product.featuredTypeIds.includes(typeId));
+}
+
+export function taxonomyUrl(locale: Locale, taxonomy: CatalogTaxonomy, kind: TaxonomyKind): string {
+  if (kind === 'category') return categoryUrl(locale, taxonomy.slug[locale]);
+  if (kind === 'line') return lineUrl(locale, taxonomy.slug[locale]);
+  return typeUrl(locale, taxonomy.slug[locale]);
 }

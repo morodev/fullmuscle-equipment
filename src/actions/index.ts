@@ -3,6 +3,7 @@ import nodemailer from 'nodemailer';
 import { ActionError, defineAction } from 'astro:actions';
 import { z } from 'astro/zod';
 import { PRODUCTS } from '../lib/catalog';
+import { PROJECT_TYPE_VALUES, projectTypeLabel } from '../lib/project-types';
 
 const publicProducts = new Map(PRODUCTS.map((product) => [product.sku, product]));
 const attempts = new Map<string, number[]>();
@@ -17,12 +18,16 @@ const quoteInput = z.object({
   phone: z.string().trim().max(40).optional(),
   company: z.string().trim().max(120).optional(),
   country: z.string().trim().min(2).max(80),
-  customerType: z.enum(['gym', 'hotel', 'pt-studio', 'physiotherapy', 'other']),
+  customerType: z.enum(PROJECT_TYPE_VALUES),
   message: z.string().trim().max(2000).optional(),
-  items: z.array(z.object({ sku: z.string().trim().min(2).max(40), quantity: z.number().int().min(1).max(99) })).min(1).max(50),
+  items: z.array(z.object({ sku: z.string().trim().min(2).max(40), quantity: z.number().int().min(1).max(99) })).max(50),
   privacyAcknowledged: z.literal(true),
   website: z.string().max(0).optional(),
   turnstileToken: z.string().optional(),
+}).superRefine((input, context) => {
+  if (!input.items.length && (!input.message || input.message.length < 20)) {
+    context.addIssue({ code: 'custom', path: ['message'], message: 'Descrivi il progetto con almeno 20 caratteri.' });
+  }
 });
 
 export const server = {
@@ -93,14 +98,19 @@ async function sendQuoteEmail(input: QuoteEmailInput): Promise<void> {
     auth: { user: import.meta.env.SMTP_USER!, pass: import.meta.env.SMTP_PASSWORD! },
   });
   const rows = input.items.map((item) => `<tr><td>${escapeHtml(item.sku)}</td><td>${escapeHtml(item.name)}</td><td>${item.quantity}</td></tr>`).join('');
-  const subject = `Richiesta preventivo FullMuscle · ${input.requestId.slice(0, 8)}`;
+  const projectType = projectTypeLabel(input.customerType, input.locale);
+  const itemText = input.items.length ? input.items.map((item) => `${item.quantity} × ${item.sku} — ${item.name}`).join('\n') : 'Nessun prodotto selezionato';
+  const itemHtml = input.items.length
+    ? `<table cellpadding="8" cellspacing="0" border="1"><thead><tr><th>SKU</th><th>Prodotto</th><th>Qtà</th></tr></thead><tbody>${rows}</tbody></table>`
+    : '<p><em>Nessun prodotto selezionato: richiesta progettuale.</em></p>';
+  const subject = `Richiesta FullMuscle · ${input.requestId.slice(0, 8)}`;
   await transporter.sendMail({
     from: import.meta.env.QUOTE_FROM_EMAIL,
     to: import.meta.env.QUOTE_TO_EMAIL,
     replyTo: input.email,
     subject,
-    text: `${input.firstName} ${input.lastName}\n${input.company || ''}\n${input.email}\n${input.phone || ''}\n${input.country}\n\n${input.items.map((item) => `${item.quantity} × ${item.sku} — ${item.name}`).join('\n')}\n\n${input.message || ''}\n\nID: ${input.requestId}`,
-    html: `<h1>Nuova richiesta preventivo</h1><p><strong>${escapeHtml(input.firstName)} ${escapeHtml(input.lastName)}</strong><br>${escapeHtml(input.company || '')}<br><a href="mailto:${escapeHtml(input.email)}">${escapeHtml(input.email)}</a><br>${escapeHtml(input.phone || '')}<br>${escapeHtml(input.country)}</p><table cellpadding="8" cellspacing="0" border="1"><thead><tr><th>SKU</th><th>Prodotto</th><th>Qtà</th></tr></thead><tbody>${rows}</tbody></table><p>${escapeHtml(input.message || '').replaceAll('\n', '<br>')}</p><p><small>ID richiesta: ${input.requestId}</small></p>`,
+    text: `${input.firstName} ${input.lastName}\n${input.company || ''}\n${input.email}\n${input.phone || ''}\n${input.country}\nTipo di progetto: ${projectType}\n\n${itemText}\n\n${input.message || ''}\n\nID: ${input.requestId}`,
+    html: `<h1>Nuova richiesta FullMuscle</h1><p><strong>${escapeHtml(input.firstName)} ${escapeHtml(input.lastName)}</strong><br>${escapeHtml(input.company || '')}<br><a href="mailto:${escapeHtml(input.email)}">${escapeHtml(input.email)}</a><br>${escapeHtml(input.phone || '')}<br>${escapeHtml(input.country)}<br><strong>Tipo di progetto:</strong> ${escapeHtml(projectType)}</p>${itemHtml}<p>${escapeHtml(input.message || '').replaceAll('\n', '<br>')}</p><p><small>ID richiesta: ${input.requestId}</small></p>`,
   });
 }
 

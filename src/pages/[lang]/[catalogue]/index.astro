@@ -2,7 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import CatalogListing from '../../../components/CatalogListing.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
-import { CATEGORIES, LINES, PRODUCTS, listItem, taxonomyUrl } from '../../../lib/catalog';
+import { CATALOG_PRODUCTS, CATEGORIES, LINES, listItem, taxonomyUrl } from '../../../lib/catalog';
 import { paginatedUrl, route } from '../../../lib/site';
 import type { Locale } from '../../../lib/types';
 
@@ -18,8 +18,8 @@ const { locale } = Astro.props;
 const isIt = locale === 'it';
 const r = route(locale);
 const pageSize = 24;
-const pageCount = Math.ceil(PRODUCTS.length / pageSize);
-const items = PRODUCTS.slice(0, pageSize).map((product) => listItem(product, locale));
+const pageCount = Math.ceil(CATALOG_PRODUCTS.length / pageSize);
+const items = CATALOG_PRODUCTS.slice(0, pageSize).map((product) => listItem(product, locale));
 const categories = CATEGORIES.map((category) => ({ id: category.id, name: category.name[locale], href: taxonomyUrl(locale, category, 'category') }));
 const lines = LINES.map((line) => ({ id: line.id, name: line.name[locale], href: taxonomyUrl(locale, line, 'line') }));
 const canonicalPath = r.catalog;
@@ -35,5 +35,5 @@ const structuredData = {
 ---
 <BaseLayout locale={locale} title={isIt ? 'Catalogo attrezzature palestra | FullMuscle' : 'Professional gym equipment catalogue | FullMuscle'} description={isIt ? 'Consulta 744 attrezzature professionali per sala pesi, cardio, functional training e progetti palestra.' : 'Browse 744 professional products for strength, cardio, functional training and complete gym projects.'} canonicalPath={canonicalPath} alternateUrl={route(isIt ? 'en' : 'it').catalog} nextUrl={paginatedUrl(canonicalPath, locale, 2)} structuredData={structuredData}>
   <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{ label: 'Home', href: r.home }, { label: isIt ? 'Catalogo' : 'Catalogue' }]} /><p class="eyebrow">744 {isIt ? 'modelli' : 'models'}</p><h1>{isIt ? 'Attrezzature per costruire una palestra completa.' : 'Equipment for a complete professional gym.'}</h1><p>{isIt ? 'Cerca per categoria, linea o codice. Aggiungi i prodotti alla richiesta e ricevi una proposta costruita sul tuo progetto.' : 'Search by category, line or product code. Add equipment to your request and receive a proposal built around your project.'}</p></div></section>
-  <section class="section"><div class="shell"><CatalogListing products={items} categories={categories} lines={lines} locale={locale} total={PRODUCTS.length} currentPage={1} pageCount={pageCount} baseUrl={canonicalPath} /></div></section>
+  <section class="section"><div class="shell"><CatalogListing products={items} categories={categories} lines={lines} locale={locale} total={CATALOG_PRODUCTS.length} currentPage={1} pageCount={pageCount} baseUrl={canonicalPath} /></div></section>
 </BaseLayout>

@@ -2,9 +2,9 @@
 import BaseLayout from '../../../../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../../../../components/Breadcrumbs.astro';
 import CatalogListing from '../../../../../components/CatalogListing.astro';
-import { CATEGORIES, LINES, listItem, productsForCategory, productsForLine, taxonomyUrl } from '../../../../../lib/catalog';
+import { CATEGORIES, FEATURED_TYPES, LINES, listItem, productsForCategory, productsForLine, productsForType, taxonomyUrl } from '../../../../../lib/catalog';
 import { paginatedUrl, route } from '../../../../../lib/site';
-import type { CatalogTaxonomy, Locale } from '../../../../../lib/types';
+import type { CatalogTaxonomy, Locale, TaxonomyKind } from '../../../../../lib/types';
 
 export const prerender = true;
 export function getStaticPaths() {
@@ -13,27 +13,35 @@ export function getStaticPaths() {
     return [
       ...CATEGORIES.map((taxonomy) => ({ params: { lang: locale, catalogue, kind: locale === 'it' ? 'categorie' : 'categories', slug: taxonomy.slug[locale] }, props: { locale, taxonomy, taxonomyKind: 'category' as const } })),
       ...LINES.map((taxonomy) => ({ params: { lang: locale, catalogue, kind: locale === 'it' ? 'linee' : 'lines', slug: taxonomy.slug[locale] }, props: { locale, taxonomy, taxonomyKind: 'line' as const } })),
+      ...FEATURED_TYPES.map((taxonomy) => ({ params: { lang: locale, catalogue, kind: locale === 'it' ? 'tipologie' : 'types', slug: taxonomy.slug[locale] }, props: { locale, taxonomy, taxonomyKind: 'type' as const } })),
     ];
   });
 }
-interface Props { locale: Locale; taxonomy: CatalogTaxonomy; taxonomyKind: 'category' | 'line' }
+interface Props { locale: Locale; taxonomy: CatalogTaxonomy; taxonomyKind: TaxonomyKind }
 const { locale, taxonomy, taxonomyKind } = Astro.props;
 const isIt = locale === 'it';
 const other: Locale = isIt ? 'en' : 'it';
 const r = route(locale);
-const source = taxonomyKind === 'category' ? productsForCategory(taxonomy.id) : productsForLine(taxonomy.id);
+const source = taxonomyKind === 'category'
+  ? productsForCategory(taxonomy.id)
+  : taxonomyKind === 'line'
+    ? productsForLine(taxonomy.id)
+    : productsForType(taxonomy.id);
 const pageSize = 24;
 const pageCount = Math.ceil(source.length / pageSize);
 const products = source.slice(0, pageSize).map((product) => listItem(product, locale));
 const alternateUrl = taxonomyUrl(other, taxonomy, taxonomyKind);
 const title = `${taxonomy.name[locale]} | FullMuscle Equipment`;
-const description = `${taxonomy.description[locale]} ${isIt ? `Consulta ${taxonomy.count} modelli e richiedi un preventivo.` : `Explore ${taxonomy.count} models and request a quotation.`}`;
+const description = taxonomyKind === 'type'
+  ? taxonomy.description[locale]
+  : `${taxonomy.description[locale]} ${isIt ? `Consulta ${taxonomy.count} modelli e richiedi un preventivo.` : `Explore ${taxonomy.count} models and request a quotation.`}`;
 const canonicalPath = taxonomyUrl(locale, taxonomy, taxonomyKind);
 const categoryLinks = CATEGORIES.map((item) => ({ id: item.id, name: item.name[locale], href: taxonomyUrl(locale, item, 'category') }));
 const lineLinks = LINES.map((item) => ({ id: item.id, name: item.name[locale], href: taxonomyUrl(locale, item, 'line') }));
 const structuredData = {
   '@context': 'https://schema.org', '@graph': [
     { '@type': 'CollectionPage', name: taxonomy.name[locale], description, url: new URL(canonicalPath, Astro.site) },
+    { '@type': 'ItemList', numberOfItems: source.length, itemListElement: products.map((product, index) => ({ '@type': 'ListItem', position: index + 1, name: product.name, url: new URL(product.href, Astro.site) })) },
     { '@type': 'BreadcrumbList', itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: new URL(r.home, Astro.site) },
       { '@type': 'ListItem', position: 2, name: isIt ? 'Catalogo' : 'Catalogue', item: new URL(r.catalog, Astro.site) },
