@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-07T20:45:28.097Z",
+  "generatedAt": "2026-11-07T21:02:01.629Z",
   "mode": "final-export",
   "catalogModels": 5,
   "inputs": {
     "content/catalog.json": "78620bd240701aa4ce248d53f26893ac48af9ed41c61aa2a0a03e8aedf77a758",
-    "scripts/build.mjs": "539c143376ebf3c7caacffc6e4da8af41bc311e884bff2e3ee2f62b3e424dcf2",
-    "scripts/validation.mjs": "d511b52e40df95b0b64c21588a867ebaaa2b9f3a93326b9bf0449f549d60263d",
+    "scripts/build.mjs": "b5976916cb3109ea02b29a8427e5427633c05a5b716493800d9246f7c2ad1d68",
+    "scripts/validation.mjs": "636b9a4d4d22236f61a62dc6fbb43d8c497976c19cfe3ad12b9798a91ef0c32d",
     "layout/editorial.css": "b19a0058f50f4d4194320196ab8a049e813cf1b2312f8e11e3d662e37d9db60d",
     "assets/brand/fullmuscle-wordmark.svg": "87a7f4bbbddbd0f9f0a61de8c3b0a390af2e20dea8c31a1fbc4d7b97bce5582f",
     "assets/brand/fullmuscle-wordmark-white.svg": "baf9dd6c63f5fc556ac4521a2c68733fedd7d9a373365e175ad68b388b7dbfbe",
@@ -61,13 +61,42 @@
       "height": 981
     }
   ],
+  "scenes": [
+    {
+      "id": "gym",
+      "source": "assets/scenes/gym.png",
+      "sourceHash": "b87dffb4b6c584763cd0443ba9d1a75df90d6a6a63ebe76710d510f9068b9ece",
+      "prepared": "layout/prepared/scene-gym.jpg",
+      "preparedHash": "3128eac423feb206ebb2047032580d65044f61645317ebeed2821916c107e22a",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "chest-training",
+      "source": "assets/scenes/chest-training.png",
+      "sourceHash": "e3acabd65977596d85e17393f7a9832ef904b39f4d5ebad5b794bd8ead0c2066",
+      "prepared": "layout/prepared/scene-chest-training.jpg",
+      "preparedHash": "0a5d79f6b36153ef1fb2eda65c9735e83fd02af97c43f91d45580f2ec84775db",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "id": "lat-training",
+      "source": "assets/scenes/lat-training.png",
+      "sourceHash": "0d40c401d43cc3bfc13e892cb4835952f1b1d3e77fc12c44c3bacf2780bb853e",
+      "prepared": "layout/prepared/scene-lat-training.jpg",
+      "preparedHash": "085dccb7e63a9d663939a912074e0e8c12413d3571689fc3df3c06157c49c694",
+      "width": 1774,
+      "height": 887
+    }
+  ],
   "documents": [
     {
       "filename": "brochure-stampa.pdf",
       "pages": 8,
       "format": "A4 210 × 297 mm / 3 mm bleed",
-      "sha256": "8253e0cd0dcbed02220209fc345e4b093df5add229e054a8c6b57046a85c2e2a",
-      "bytes": 1312902,
+      "sha256": "e76d6e6e34c6a793fe361410bce5db816dbb4e2ae61b49ca1c8695116469f5e8",
+      "bytes": 3559236,
       "embeddedFonts": [
         {
           "name": "/AAAAAA+Arial-BoldMT",
@@ -83,12 +112,6 @@
         }
       ],
       "images": [
-        {
-          "sku": "FM-GF-003",
-          "page": 1,
-          "loaded": true,
-          "ppi": 256.31
-        },
         {
           "sku": "FM-GF-001",
           "page": 3,
@@ -118,6 +141,56 @@
           "page": 7,
           "loaded": true,
           "ppi": 269.72
+        }
+      ],
+      "scenes": [
+        {
+          "id": "gym",
+          "page": 1,
+          "productSku": null,
+          "placement": "cover",
+          "src": "prepared/scene-gym.jpg",
+          "caption": "Rendering illustrativo di ambientazione",
+          "widthMm": 157.99759114583333,
+          "heightMm": 102.99733072916666,
+          "objectFit": "contain",
+          "belowPrice": false,
+          "loaded": true,
+          "ppi": 252.53,
+          "sourceHash": "b87dffb4b6c584763cd0443ba9d1a75df90d6a6a63ebe76710d510f9068b9ece",
+          "preparedHash": "3128eac423feb206ebb2047032580d65044f61645317ebeed2821916c107e22a"
+        },
+        {
+          "id": "chest-training",
+          "page": 3,
+          "productSku": "FM-GF-001",
+          "placement": "training",
+          "src": "prepared/scene-chest-training.jpg",
+          "caption": "Rendering illustrativo",
+          "widthMm": 61.999316406249996,
+          "heightMm": 31.998046875,
+          "objectFit": "contain",
+          "belowPrice": true,
+          "loaded": true,
+          "ppi": 726.78,
+          "sourceHash": "e3acabd65977596d85e17393f7a9832ef904b39f4d5ebad5b794bd8ead0c2066",
+          "preparedHash": "0a5d79f6b36153ef1fb2eda65c9735e83fd02af97c43f91d45580f2ec84775db"
+        },
+        {
+          "id": "lat-training",
+          "page": 6,
+          "productSku": "FM-GF-004",
+          "placement": "training",
+          "src": "prepared/scene-lat-training.jpg",
+          "caption": "Rendering illustrativo",
+          "widthMm": 61.999316406249996,
+          "heightMm": 31.998046875,
+          "objectFit": "contain",
+          "belowPrice": true,
+          "loaded": true,
+          "ppi": 726.78,
+          "sourceHash": "0d40c401d43cc3bfc13e892cb4835952f1b1d3e77fc12c44c3bacf2780bb853e",
+          "preparedHash": "085dccb7e63a9d663939a912074e0e8c12413d3571689fc3df3c06157c49c694"
         }
       ],
       "productSkus": [
@@ -165,8 +238,8 @@
       "filename": "catalogo-completo.pdf",
       "pages": 8,
       "format": "A4 210 × 297 mm",
-      "sha256": "8d94c020a97e66c9bde2ecbe9754b0627f3fa123028da6188c391318a939367f",
-      "bytes": 1312840,
+      "sha256": "58a69ebc1d5779cf3657e073dce85fd5caea59397683b743e23e267b8ce5db58",
+      "bytes": 3559186,
       "embeddedFonts": [
         {
           "name": "/AAAAAA+Arial-BoldMT",
@@ -182,12 +255,6 @@
         }
       ],
       "images": [
-        {
-          "sku": "FM-GF-003",
-          "page": 1,
-          "loaded": true,
-          "ppi": 256.31
-        },
         {
           "sku": "FM-GF-001",
           "page": 3,
@@ -217,6 +284,56 @@
           "page": 7,
           "loaded": true,
           "ppi": 269.72
+        }
+      ],
+      "scenes": [
+        {
+          "id": "gym",
+          "page": 1,
+          "productSku": null,
+          "placement": "cover",
+          "src": "prepared/scene-gym.jpg",
+          "caption": "Rendering illustrativo di ambientazione",
+          "widthMm": 157.99759114583333,
+          "heightMm": 102.99733072916666,
+          "objectFit": "contain",
+          "belowPrice": false,
+          "loaded": true,
+          "ppi": 252.53,
+          "sourceHash": "b87dffb4b6c584763cd0443ba9d1a75df90d6a6a63ebe76710d510f9068b9ece",
+          "preparedHash": "3128eac423feb206ebb2047032580d65044f61645317ebeed2821916c107e22a"
+        },
+        {
+          "id": "chest-training",
+          "page": 3,
+          "productSku": "FM-GF-001",
+          "placement": "training",
+          "src": "prepared/scene-chest-training.jpg",
+          "caption": "Rendering illustrativo",
+          "widthMm": 61.999316406249996,
+          "heightMm": 31.998046875,
+          "objectFit": "contain",
+          "belowPrice": true,
+          "loaded": true,
+          "ppi": 726.78,
+          "sourceHash": "e3acabd65977596d85e17393f7a9832ef904b39f4d5ebad5b794bd8ead0c2066",
+          "preparedHash": "0a5d79f6b36153ef1fb2eda65c9735e83fd02af97c43f91d45580f2ec84775db"
+        },
+        {
+          "id": "lat-training",
+          "page": 6,
+          "productSku": "FM-GF-004",
+          "placement": "training",
+          "src": "prepared/scene-lat-training.jpg",
+          "caption": "Rendering illustrativo",
+          "widthMm": 61.999316406249996,
+          "heightMm": 31.998046875,
+          "objectFit": "contain",
+          "belowPrice": true,
+          "loaded": true,
+          "ppi": 726.78,
+          "sourceHash": "0d40c401d43cc3bfc13e892cb4835952f1b1d3e77fc12c44c3bacf2780bb853e",
+          "preparedHash": "085dccb7e63a9d663939a912074e0e8c12413d3571689fc3df3c06157c49c694"
         }
       ],
       "productSkus": [

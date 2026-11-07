@@ -1,0 +1,32 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: product-mockup. Create a photorealistic premium fitness catalogue training scene, WIDE LANDSCAPE 2:1 composition. IMAGE 1 is the STRICT sole machine identity reference: Full Muscle GF-001 plate-loaded seated chest press. IMAGE 2 is ONLY an architectural and lighting reference: warm pale concrete walls, tall black-framed daylight windows, black rubber floor, restrained modern boutique gym. Do NOT copy any of its different machines or their weight-stack towers. IMAGE 3 is ONLY the approved bicolor logo reference: Full WHITE, Muscle light GREEN #79a64b, small EQUIPMENT WHITE. Preserve the correct decal on the existing near right green lever, matching image 1 position and size, no extra logo.\nShow one adult athletic woman around 30, charcoal fitted training top, black full-length leggings and simple neutral gray trainers, seated naturally on the EXACT black seat of image 1 with her back against the EXACT existing tall black backrest. Both hands wrap the TWO existing horizontal black grips at chest height, one hand on each real grip. Forearms align naturally with the press direction, elbows comfortably bent, wrists neutral, shoulders relaxed. Feet rest naturally on the existing silver slotted front footplate, knees comfortably bent. Her body fits the equipment with realistic adult scale. No intersecting limbs or metal, no extra limbs/fingers, no invented handles or accessories.\nKeep the machine architecture, geometry and camera angle from image 1: TWO long forest-green front lever arms rising from low pivots, existing black steel floor frame and rear linkage, tall sloping black backrest, small black seat, silver slotted front footplate, chrome side loading horn and all original supports/hardware. It is a plate-loaded machine without weight-stack tower: DO NOT add a stack, cables, a chest pad, different seat, different arm pivots or new components. Retain original black and forest-green paint colors and small bicolor branding. Leave loading horns as in reference. Entire machine and complete woman visible with a little comfortable headroom and floor margin. Subject and machine together fill the central 70 percent of the wide frame, near the same three-quarter angle as image 1; enough unobstructed machine remains visible to identify the model. Natural calm concentration, understated commercial photography, crisp detailed product, softly defocused quiet gym background without identifiable extra machines or people. Soft daylight and natural contact shadows match image 2. No captions, no overlay text, no borders, no watermarks. Illustrative fictional training scene, not a documented customer installation.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-gf/assets/products/FM-GF-001.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/scenes/gym.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-logo-bicolor-01/references/fullmuscle-g5-white-green.png"
+  ],
+  "transparent_background": false,
+  "output": "brochures/fullmuscle-gf/assets/scenes/chest-training.png",
+  "review": {
+    "status": "visually-reviewed",
+    "reviewedAt": "2026-11-07T20:59:57.556Z",
+    "notes": [
+      "Donna adulta in abiti antracite seduta sulla GF-001: schiena appoggiata, mani sulle due impugnature esistenti e piedi sulla pedana argentata.",
+      "Macchina e persona intere; arti, mani e postura plausibili, senza intersezioni visibili con il telaio.",
+      "Conservati due lunghi bracci verdi con perni bassi, seduta e schienale neri, pedana forata, base e leveraggi posteriori, perno di carico cromato; nessun pacco pesi aggiunto.",
+      "Logo sul braccio vicino: Full bianco, Muscle verde chiaro, EQUIPMENT bianco.",
+      "Ambiente moderno coerente con G5: gomma nera, cemento chiaro, finestre nere e luce naturale; nessuna macchina G5 importata.",
+      "Scena illustrativa fotorealistica in formato 2:1, destinata alla vignetta 62 x 32 mm; nessun testo esterno o watermark."
+    ]
+  },
+  "generatedPath": "C:/Users/lucam/.codex/generated_images/01a1b788-ff0d-7180-9d29-1414ef4d0fba/exec-0febe348-19af-40fd-8e58-678d36b17f82.png",
+  "outputHash": "e3acabd65977596d85e17393f7a9832ef904b39f4d5ebad5b794bd8ead0c2066",
+  "width": 1774,
+  "height": 887,
+  "referenceHashes": {
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-gf/assets/products/FM-GF-001.png": "df3e164db6695e37f3fdcf7fa1a6c19e3a3ab9f5a3698def50991d8db43846da",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/scenes/gym.png": "a29b53195af5e6f583b4d5430348e7be0599456058b469da57e9902f3c7018a1",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-logo-bicolor-01/references/fullmuscle-g5-white-green.png": "a8217a87579b77064cb5eb0a13896d7a772222a57dfafa353b5980669446bca8"
+  }
+}

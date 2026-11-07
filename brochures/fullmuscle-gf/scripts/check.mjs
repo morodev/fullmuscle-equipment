@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { PDFDocument } from 'pdf-lib';
-import { validateCatalog, expectedSkus, priceLabel, retailCsv, sha256 } from './validation.mjs';
+import { validateCatalog, expectedSkus, priceLabel, retailCsv, sha256, sceneAssetIssues, sceneUsageIssues } from './validation.mjs';
 
 const base = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const root = path.resolve(base, '../..');
@@ -22,6 +22,11 @@ for (const asset of report.assets) {
   if (sha256(await read(`assets/products/${asset.sku}.png`)) !== asset.sourceHash) issues.push(`Branded image copy changed: ${asset.sku}`);
   if (sha256(await read(asset.prepared)) !== asset.preparedHash) issues.push(`Prepared image changed: ${asset.sku}`);
 }
+issues.push(...sceneAssetIssues(report.scenes));
+for (const scene of report.scenes ?? []) {
+  if (sha256(await read(scene.source)) !== scene.sourceHash) issues.push(`Scene source changed since export: ${scene.id}`);
+  if (sha256(await read(scene.prepared)) !== scene.preparedHash) issues.push(`Prepared scene changed since export: ${scene.id}`);
+}
 const files = new Set(['brochure-stampa.pdf', 'catalogo-completo.pdf']);
 for (const document of report.documents) {
   if (!files.delete(document.filename)) issues.push(`Unexpected or duplicate PDF: ${document.filename}`);
@@ -37,6 +42,7 @@ for (const document of report.documents) {
     if (!near(page.getWidth(), expectedPageMm[0]) || !near(page.getHeight(), expectedPageMm[1]) || !near(trim.width, 210) || !near(trim.height, 297) || !near(trim.x, isDigital ? 0 : 3) || !near(trim.y, isDigital ? 0 : 3) || !near(bleed.width, expectedPageMm[0]) || !near(bleed.height, expectedPageMm[1])) issues.push(`${document.filename}: incorrect page/trim/bleed dimensions.`);
   }
   if (JSON.stringify(document.productSkus) !== JSON.stringify(expectedSkus)) issues.push(`${document.filename}: incorrect model coverage.`);
+  if (document.images.length !== 5) issues.push(`${document.filename}: expected five technical product images.`);
   if (document.priceChecks.length !== 5) issues.push(`${document.filename}: expected five prices.`);
   for (const sku of expectedSkus) {
     const matches = document.priceChecks.filter(price => price.sku === sku);
@@ -45,9 +51,10 @@ for (const document of report.documents) {
   }
   if (!document.embeddedFonts.length || document.embeddedFonts.some(font => !font.embedded)) issues.push(`${document.filename}: unembedded fonts.`);
   if (document.images.some(image => !image.loaded || image.ppi < 239.9)) issues.push(`${document.filename}: invalid image resolution.`);
+  issues.push(...sceneUsageIssues(document.scenes, report.scenes).map(issue => `${document.filename}: ${issue}`));
 }
 if (files.size) issues.push('Missing final PDF.');
 const publicPdf = await fs.readFile(path.join(root, 'public/cataloghi/fullmuscle-gf.pdf'));
 if (sha256(publicPdf) !== report.documents.find(doc => doc.filename === 'catalogo-completo.pdf')?.sha256) issues.push('Public copy differs from verified catalog.');
-console.log(JSON.stringify({passed: issues.length === 0, models: 5, priceEurExVat: 1870, documents: report.documents.map(doc => ({filename: doc.filename, pages: doc.pages, prices: doc.priceChecks.length})), issues, publicUrlStatus: report.qr.publicHttpStatus}, null, 2));
+console.log(JSON.stringify({passed: issues.length === 0, models: 5, priceEurExVat: 1870, documents: report.documents.map(doc => ({filename: doc.filename, pages: doc.pages, prices: doc.priceChecks.length, scenes: doc.scenes?.length ?? 0})), issues, publicUrlStatus: report.qr.publicHttpStatus}, null, 2));
 if (issues.length) process.exitCode = 1;

@@ -1,44 +1,114 @@
 {
-  "reviewedAt": "2026-11-07T20:46:52.426Z",
+  "reviewedAt": "2026-11-07T21:03:31.725Z",
   "status": "visually-reviewed",
-  "scope": "Independent final check after G5 bicolor logo correction and PDF rebuild.",
+  "scope": "Independent final visual review after adding the GF gym cover and two training scenes. Detailed inspection of pages 01, 03 and 06 in both variants; all eight pages of each variant reviewed in contact sheets.",
   "reviewedArtifacts": [
     {
+      "path": "catalogo/01.png",
+      "sha256": "370358c99e0d8322858991b5daff171e2059a629781f47989dbc1189a185f077"
+    },
+    {
       "path": "catalogo/03.png",
-      "sha256": "0bb7b28a4957fb7718271f7015918aa91d32c2510d27cc167f71bb5871ab735c"
-    },
-    {
-      "path": "catalogo/04.png",
-      "sha256": "5bfbd375cc0d100b75fcd42b5b662e3350f7cf23276e7e3b1bc87c049422f100"
-    },
-    {
-      "path": "catalogo/05.png",
-      "sha256": "d18fb69c5efa8547e2ee7480daa8f4e994761707aae05b14e5db7b503dc18b95"
+      "sha256": "6ff965c49d0810d04e717989fe8e32137506c13192d72a5677aff4ad7dd2edf9"
     },
     {
       "path": "catalogo/06.png",
-      "sha256": "3cbb3ca90e007e28daa21ce3969226ef77ecfc5a61b016d7beceaa9f4cc183fc"
+      "sha256": "3a54e43da122c0062b9ca592fe51e7c4a28bbb30e42fb7ed99bf580bee3cc715"
     },
     {
-      "path": "catalogo/07.png",
-      "sha256": "f780202a9b8bbd10b266cab64dfc11ba690186cc2aa7d6716351d1bb40367333"
+      "path": "brochure/01.png",
+      "sha256": "3b01f5ffefc86c6e8f8a3cb3439de237f245cad0db4c7f8d6c96e1f384642f1f"
+    },
+    {
+      "path": "brochure/03.png",
+      "sha256": "d44561624927c486bc4b8b7e0a106604ad9eb7b46ed5cca941a10ae1479eb78c"
+    },
+    {
+      "path": "brochure/06.png",
+      "sha256": "7ffb52e8db3d9eb90caad5131223924167460cd6a7f6280ebd49a40592a787e6"
+    },
+    {
+      "path": "catalogo-contact-sheet.jpg",
+      "sha256": "9f4c6f00e90d219613fc7dc1d9cd7628989039af5367946f9709b8ba8114a016"
+    },
+    {
+      "path": "brochure-contact-sheet.jpg",
+      "sha256": "0d08944b58003b0567883b736aa8bff791ed67c0da3c48679b4bc9d76fd7bd97"
     }
   ],
-  "preflightHash": "9801c54cca3f883faee65df98558b436f1e7bc42868fc946df60634289b1d709",
+  "preflightHash": "ba0bcd728fae727614d36d82b12960b98e4bd96544189a93d64a0c4e660cac8c",
   "documents": [
     {
       "filename": "brochure-stampa.pdf",
-      "sha256": "8253e0cd0dcbed02220209fc345e4b093df5add229e054a8c6b57046a85c2e2a",
+      "sha256": "e76d6e6e34c6a793fe361410bce5db816dbb4e2ae61b49ca1c8695116469f5e8",
       "pages": 8,
       "priceCount": 5,
-      "priceEurExVat": 1870
+      "priceEurExVat": 1870,
+      "scenePlacements": [
+        {
+          "id": "gym",
+          "page": 1,
+          "productSku": null,
+          "placement": "cover",
+          "belowPrice": false,
+          "objectFit": "contain",
+          "ppi": 252.53
+        },
+        {
+          "id": "chest-training",
+          "page": 3,
+          "productSku": "FM-GF-001",
+          "placement": "training",
+          "belowPrice": true,
+          "objectFit": "contain",
+          "ppi": 726.78
+        },
+        {
+          "id": "lat-training",
+          "page": 6,
+          "productSku": "FM-GF-004",
+          "placement": "training",
+          "belowPrice": true,
+          "objectFit": "contain",
+          "ppi": 726.78
+        }
+      ]
     },
     {
       "filename": "catalogo-completo.pdf",
-      "sha256": "8d94c020a97e66c9bde2ecbe9754b0627f3fa123028da6188c391318a939367f",
+      "sha256": "58a69ebc1d5779cf3657e073dce85fd5caea59397683b743e23e267b8ce5db58",
       "pages": 8,
       "priceCount": 5,
-      "priceEurExVat": 1870
+      "priceEurExVat": 1870,
+      "scenePlacements": [
+        {
+          "id": "gym",
+          "page": 1,
+          "productSku": null,
+          "placement": "cover",
+          "belowPrice": false,
+          "objectFit": "contain",
+          "ppi": 252.53
+        },
+        {
+          "id": "chest-training",
+          "page": 3,
+          "productSku": "FM-GF-001",
+          "placement": "training",
+          "belowPrice": true,
+          "objectFit": "contain",
+          "ppi": 726.78
+        },
+        {
+          "id": "lat-training",
+          "page": 6,
+          "productSku": "FM-GF-004",
+          "placement": "training",
+          "belowPrice": true,
+          "objectFit": "contain",
+          "ppi": 726.78
+        }
+      ]
     }
   ],
   "productImages": [
@@ -48,7 +118,10 @@
       "sourceHash": "df3e164db6695e37f3fdcf7fa1a6c19e3a3ab9f5a3698def50991d8db43846da",
       "prepared": "layout/prepared/FM-GF-001.jpg",
       "preparedHash": "c7f72f0e96b52e77ed13da28e9eadf0a93f3e4a8b7b80acb6dc6383f6283ec2d",
-      "bicolorG5LogoVisible": true
+      "width": 978,
+      "height": 1046,
+      "bicolorG5LogoVisible": true,
+      "unchangedFromPriorBicolorReview": true
     },
     {
       "sku": "FM-GF-002",
@@ -56,7 +129,10 @@
       "sourceHash": "f90e164a5a07d83e5d7ee140e0d9de66a5e53421d3bc0e78a1f3e03cc0755cf1",
       "prepared": "layout/prepared/FM-GF-002.jpg",
       "preparedHash": "7abd1e66a45f48a99f9aad1f0ed3e0472452ecb385266da4b9e926dbfb3a1afe",
-      "bicolorG5LogoVisible": true
+      "width": 1036,
+      "height": 1073,
+      "bicolorG5LogoVisible": true,
+      "unchangedFromPriorBicolorReview": true
     },
     {
       "sku": "FM-GF-003",
@@ -64,7 +140,10 @@
       "sourceHash": "c0bd10c84a51067edbec0a95d621c50b0624cfec0a844aaa0167a2a04e87287c",
       "prepared": "layout/prepared/FM-GF-003.jpg",
       "preparedHash": "487fa6abf5fddc3c61da39223c9bd9fa6e7b31f807531286f9d0f7c60d75983f",
-      "bicolorG5LogoVisible": true
+      "width": 1146,
+      "height": 999,
+      "bicolorG5LogoVisible": true,
+      "unchangedFromPriorBicolorReview": true
     },
     {
       "sku": "FM-GF-004",
@@ -72,7 +151,10 @@
       "sourceHash": "608452133cd6e0522fe80f40599768e701973e053ac7da1114aa3842ca65a5db",
       "prepared": "layout/prepared/FM-GF-004.jpg",
       "preparedHash": "00a1f3bbc96ced24e003b33c420ae68642304e57c0378acbc1735e5942aec2da",
-      "bicolorG5LogoVisible": true
+      "width": 772,
+      "height": 1139,
+      "bicolorG5LogoVisible": true,
+      "unchangedFromPriorBicolorReview": true
     },
     {
       "sku": "FM-GF-005",
@@ -80,27 +162,67 @@
       "sourceHash": "3e19b56f3e74732cfb1dbe01ac597fdc41c92352ee097ddcd2a416622c77f3a1",
       "prepared": "layout/prepared/FM-GF-005.jpg",
       "preparedHash": "219cea691159de4174ce9fc92316d0b8f6d44f4590a73de58eeb96c7b51a1217",
-      "bicolorG5LogoVisible": true
+      "width": 1115,
+      "height": 981,
+      "bicolorG5LogoVisible": true,
+      "unchangedFromPriorBicolorReview": true
+    }
+  ],
+  "sceneAssets": [
+    {
+      "id": "gym",
+      "source": "assets/scenes/gym.png",
+      "sourceHash": "b87dffb4b6c584763cd0443ba9d1a75df90d6a6a63ebe76710d510f9068b9ece",
+      "prepared": "layout/prepared/scene-gym.jpg",
+      "preparedHash": "3128eac423feb206ebb2047032580d65044f61645317ebeed2821916c107e22a",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "chest-training",
+      "source": "assets/scenes/chest-training.png",
+      "sourceHash": "e3acabd65977596d85e17393f7a9832ef904b39f4d5ebad5b794bd8ead0c2066",
+      "prepared": "layout/prepared/scene-chest-training.jpg",
+      "preparedHash": "0a5d79f6b36153ef1fb2eda65c9735e83fd02af97c43f91d45580f2ec84775db",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "id": "lat-training",
+      "source": "assets/scenes/lat-training.png",
+      "sourceHash": "0d40c401d43cc3bfc13e892cb4835952f1b1d3e77fc12c44c3bacf2780bb853e",
+      "prepared": "layout/prepared/scene-lat-training.jpg",
+      "preparedHash": "085dccb7e63a9d663939a912074e0e8c12413d3571689fc3df3c06157c49c694",
+      "width": 1774,
+      "height": 887
     }
   ],
   "checks": {
+    "independentCheckCommand": "node brochures/fullmuscle-gf/scripts/check.mjs",
+    "independentCheckExitCode": 0,
     "preflightCheckPassed": true,
-    "allFiveProductPagesVisuallyChecked": true,
+    "scenePagesReviewedAtFullSizeBothVariants": true,
+    "allEightPagesReviewedInContactSheets": true,
+    "threeScenesInCorrectPositionsPerDocument": true,
     "oneProductPerPage": true,
     "fivePricesAt1870PlusVatPerDocument": true,
-    "brandedSourceAndBrochureCopyHashesMatch": true,
-    "sourceFilesFromBicolorRevision": true,
+    "productSourceCopyAndPreparedHashesMatch": true,
+    "productImagesUnchangedFromPriorBicolorReview": true,
+    "sceneSourceAndPreparedHashesMatch": true,
+    "sceneImagesContainedWithoutCropping": true,
     "noVisibleOverlapsOrClipping": true,
     "pdfPageAndBleedChecksPassed": true,
     "fontsEmbedded": true,
     "imageResolutionAtLeast240Ppi": true
   },
   "notes": [
-    "Visionate integralmente le pagine prodotto 03?07: Chest Press, Shoulder Press, Seated Row, Lat Pulldown e Incline Chest Press.",
-    "Logo macchina coerente con G5: Full bianco, Muscle verde chiaro e sottotitolo bianco; verificati anche i due marchi visibili della GF-003.",
-    "Tutte le cinque schede mostrano 1.870 ? + IVA, codice corretto, dimensioni, peso e carico a dischi. Nessun taglio o sovrapposizione visibile.",
-    "Check indipendente eseguito con scripts/check.mjs: PDF stampa e digitale di otto pagine ciascuno, cinque prezzi ciascuno, hash sorgenti/copie/preparati/PDF coerenti, font incorporati e dimensioni/abbondanze valide.",
-    "Verifica limitata agli artefatti locali; pubblicazione del PDF e scansione fisica del QR non verificate."
+    "Both covers show the three distinct GF machines in a coherent gym environment; the foreground Lat Pulldown remains fully visible. The illustrative-rendering caption is present and readable.",
+    "Page 03 in both variants retains the complete technical GF-001 image and its bicolor logo. The woman training on the GF-001 is placed below the unchanged 1.870 € + IVA price, with an illustrative-rendering caption.",
+    "Page 06 in both variants retains the complete technical GF-004 image and its bicolor logo. The man training on the GF-004 is placed below the unchanged price, with an illustrative-rendering caption.",
+    "No visible clipping, collisions between images/text/prices, or missing page content in the six detailed page proofs or either eight-page contact sheet.",
+    "All five technical image sources, brochure copies and prepared JPEG hashes match the preflight and prior bicolor review. Their prior logo verification is retained; the detailed current visual inspection covers GF-001 and GF-004, with all five models visible in contact sheets.",
+    "The independent check script passed: two eight-page PDFs, five prices and three correctly associated scenes per PDF, matching asset/PDF hashes, embedded fonts and valid page/bleed dimensions.",
+    "Review concerns local artifacts. Online publication and physical scanning of the printed QR were not tested."
   ],
   "issues": []
 }

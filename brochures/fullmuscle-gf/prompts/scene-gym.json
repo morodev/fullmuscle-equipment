@@ -1,0 +1,34 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: product-mockup. Asset type: photorealistic architectural rendering for the cover of the Italian Full Muscle GF equipment brochure. Create ONE premium contemporary gym scene containing exactly three distinct machines from the product references. Image 1 is the exact GF004 Lat Pulldown: use it as the prominent foreground machine, preserve the tall triangular open black frame, twin forest-green lever arms, continuous wide bent pull bar, seat, paired thigh rollers and rear plate-loading horns. Image 2 is the exact GF001 Chest Press, positioned further back: preserve its tall black backrest, two green low-pivot press arms and silver slotted front platform. Image 3 is the exact GF003 Seated Row, further back with its separate chest pad, seat and green rowing levers. Preserve their individual architecture, proportions, handles, joints and components. No weight stacks, no selectorized towers: these are the GF plate-loaded machines, not G5. Image 4 is ONLY an architectural mood reference: borrow the warm pale concrete, matte black rubber flooring, tall daylight windows and restrained linear ceiling lights; do NOT copy any machinery from image4. Image5 is ONLY the brand reference: keep the small existing italic Full Muscle EQUIPMENT logos with Full white, Muscle muted green #79a64b, EQUIPMENT white on the machines, never all-white lettering. Calm natural daylight, realistic contact shadows and satin materials. Arrange the three machines along a spacious aisle with enough separation, all recognizable, no fused frames. Show the complete foreground machine from its feet to the top levers, with comfortable margin. Eye-level three-quarter architectural photograph, natural perspective without wide-angle deformation, no people. Landscape 3:2 high-resolution image, at least 1536x1024 pixels, crisp enough for a 158x103mm printed panel. No added headline, no poster text, no watermark, no other brands, no invented machines. This is an illustrative fictional gym, not a customer installation.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-gf/assets/products/FM-GF-004.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-gf/assets/products/FM-GF-001.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-gf/assets/products/FM-GF-003.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/scenes/gym.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-logo-bicolor-01/references/fullmuscle-g5-white-green.png"
+  ],
+  "transparent_background": false,
+  "output": "brochures/fullmuscle-gf/assets/scenes/gym.png",
+  "generatedPath": "C:/Users/lucam/.codex/generated_images/01a1b788-b692-7d80-999b-de7200518041/exec-f598f193-5b2f-407b-927d-2d211a7bf401.png",
+  "sha256": "b87dffb4b6c584763cd0443ba9d1a75df90d6a6a63ebe76710d510f9068b9ece",
+  "width": 1536,
+  "height": 1024,
+  "review": {
+    "status": "passed",
+    "checks": [
+      "Three distinct recognizable GF machines with unchanged principal geometry",
+      "Full white / Muscle green / EQUIPMENT white",
+      "Foreground machine entirely visible",
+      "G5 architectural style and no people"
+    ],
+    "independentReview": "passed: all three GF models compared with product references; no fused frames, no added weight stacks, bicolor logos and complete foreground machine."
+  },
+  "referenceHashes": {
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-gf/assets/products/FM-GF-004.png": "608452133cd6e0522fe80f40599768e701973e053ac7da1114aa3842ca65a5db",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-gf/assets/products/FM-GF-001.png": "df3e164db6695e37f3fdcf7fa1a6c19e3a3ab9f5a3698def50991d8db43846da",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-gf/assets/products/FM-GF-003.png": "c0bd10c84a51067edbec0a95d621c50b0624cfec0a844aaa0167a2a04e87287c",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/scenes/gym.png": "a29b53195af5e6f583b4d5430348e7be0599456058b469da57e9902f3c7018a1",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-logo-bicolor-01/references/fullmuscle-g5-white-green.png": "a8217a87579b77064cb5eb0a13896d7a772222a57dfafa353b5980669446bca8"
+  }
+}

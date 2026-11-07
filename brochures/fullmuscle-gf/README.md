@@ -20,6 +20,7 @@ Tutti i modelli sono a dischi; non viene indicato un pacco pesi.
 Dalla root del progetto:
 
 ```powershell
+node --test brochures/fullmuscle-gf/scripts/validation.test.mjs
 node brochures/fullmuscle-gf/scripts/build.mjs
 node brochures/fullmuscle-gf/scripts/check.mjs
 ```
@@ -35,6 +36,26 @@ e EQUIPMENT bianco. I precedenti batch `gf-batch-01` e `gf-completion-01`
 restano come storico interno. Il catalogo dichiara che
 le immagini mostrano una proposta di personalizzazione: colori, finiture,
 accessori e dischi eventualmente raffigurati vanno confermati in preventivo.
+
+Tre scene illustrative completano entrambi i PDF senza cambiare le otto
+pagine o le cinque fotografie tecniche dei prodotti:
+
+- `assets/scenes/gym.png`: palestra GF in copertina, pagina 1, riquadro
+  158 × 103 mm e dicitura «Rendering illustrativo di ambientazione».
+- `assets/scenes/chest-training.png`: persona sulla GF-001, pagina 3,
+  sotto il prezzo, riquadro 62 × 32 mm e dicitura «Rendering illustrativo».
+- `assets/scenes/lat-training.png`: persona sulla GF-004, pagina 6,
+  sotto il prezzo, stesso riquadro e dicitura.
+
+Le tre scene sono obbligatorie. La preparazione JPEG sRGB conserva tutto
+il fotogramma, senza tagliare persone o macchine; l'impaginazione usa
+`object-fit: contain`. Il preflight registra separatamente gli hash dei PNG
+sorgente e dei JPEG preparati e, per ogni PDF, pagina, modello associato,
+posizione, dimensioni, dicitura e risoluzione effettiva di ciascuna scena.
+
+Le scene sono state create con il tool integrato `image_gen.imagegen`.
+La cartella `prompts/` conserva richieste, riferimenti, iterazioni e controlli
+visivi; gli asset finali del progetto si trovano in `assets/scenes/`.
 
 Output:
 
@@ -52,7 +73,11 @@ gli input non siano cambiati dopo l'esportazione.
 
 Il preflight richiede cinque schede e cinque prezzi corretti in ciascun PDF,
 otto pagine, font incorporati, almeno 240 ppi effettivi e assenza di fuoriuscite
-nelle aree controllate. Il formato colore è sRGB, come G5; non è una
+nelle aree controllate. Richiede inoltre esattamente le tre scene nelle
+collocazioni previste: scene mancanti, duplicate, ritagliate, spostate,
+sovrapposte al prezzo o con meno di 240 ppi bloccano la copia pubblica.
+Il controllo successivo rileva anche scene modificate dopo l'esportazione.
+Il formato colore è sRGB, come G5; non è una
 certificazione PDF/X. La scansione fisica del QR non è automatizzata.
 
 Contatto commerciale: Matteo, 392 550 1779, info@fullmuscle-equipment.com.

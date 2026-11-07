@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen.imagegen",
+  "useCase": "compositing",
+  "prompt": "Use case: compositing. Asset type: photorealistic landscape gym exercise scene for a printed Full Muscle GF brochure, final placement 62 x 32 mm. Produce a wide landscape image approximately 2:1 (1536 x 768 preferred), with the ENTIRE machine and ENTIRE adult man visible and safe margin at top and bottom.\nInput image 1 is the binding identity reference for the exact GF-004 plate-loaded leverage lat pulldown machine. Input image 2 is ONLY an architectural/environment mood reference for the G5 gym: warm pale concrete walls, tall black-framed daylight windows, charcoal rubber floor, restrained warm linear ceiling lighting and subtle greenery. DO NOT copy or introduce the G5 machines from image 2. Input image 3 is the exact brand artwork reference.\nScene: Place exactly the GF-004 machine from image 1 in a clean modern premium gym matching that architectural mood. Show the machine in a natural three-quarter view close to image 1; leave enough surrounding floor and background for a wide editorial crop, while keeping the machine the clear main subject. Keep the scene uncluttered; any distant gym objects must be out of focus and cannot obscure the GF machine.\nAction: one adult athletic man in his early 30s wearing a plain charcoal fitted short-sleeve training shirt, charcoal training trousers and neutral athletic shoes, plausibly USING THIS EXACT GF-004 machine. His pelvis is supported on its real small seat, thighs and knees secured UNDER the existing two black thigh-restraint rollers, both feet firmly on the floor. His torso is upright with a slight natural backward lean and his head neutral. Both hands grasp the REAL black angled handgrips of the existing wide curved pulldown bar with a wide symmetrical overhand grip. Show the start/early portion of a controlled pull IN FRONT of the head toward the upper chest, elbows slightly bent and beginning to travel down. Do not show a behind-neck pull. Use the actual existing connected bar, which remains mechanically connected to the same overhead lever linkage; only plausible rotation of existing moving parts for this exercise pose is allowed. Clearly natural human anatomy and contact points: two arms, two hands, two legs, five natural fingers per hand, no body-frame intersections.\nMachine identity and invariants: retain EXACTGF-004 black angled uprights and triangular base/feet, two long green overhead leverage arms and connecting green crossmember, visible black linkage rods and hinges, the same black curved pull bar and its grips, small black seat and two cylindrical black thigh pads, silver plate-loading horns, bolts and hardware. No weight stack, no cable tower, no added pulley housing, no altered frame, no extra handles, no redesign, no swapped seat. Keep the green-painted arms and black frame color from image1. Keep the existing perspective-fitted logo on the near upper arm, with 'Full' white, 'Muscle' light green #79a64b, small 'EQUIPMENT' white exactly as reference3. Never replace it with all-white text. No floating logos, borders, captions, page graphics or watermark.\nLighting/materials: convincing high-quality professional interior photograph, soft daylight and restrained warm overhead light, realistic skin and charcoal clothing, crisp readable machine shape, accurate contact shadows on rubber floor. Preserve the machine proportions and mechanical construction, the human action must adapt to this machine. Full machine including its top lever ends and all floor feet, and the full person including shoes, must fit completely in frame.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-gf/assets/products/FM-GF-004.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/scenes/gym.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-logo-bicolor-01/references/fullmuscle-g5-white-green.png"
+  ],
+  "transparent_background": false,
+  "outputPath": "brochures/fullmuscle-gf/assets/scenes/lat-training.png",
+  "referenceHashes": [
+    {
+      "path": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-gf/assets/products/FM-GF-004.png",
+      "sha256": "608452133cd6e0522fe80f40599768e701973e053ac7da1114aa3842ca65a5db"
+    },
+    {
+      "path": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/scenes/gym.png",
+      "sha256": "a29b53195af5e6f583b4d5430348e7be0599456058b469da57e9902f3c7018a1"
+    },
+    {
+      "path": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-logo-bicolor-01/references/fullmuscle-g5-white-green.png",
+      "sha256": "a8217a87579b77064cb5eb0a13896d7a772222a57dfafa353b5980669446bca8"
+    }
+  ],
+  "createdAt": "2026-11-07T20:59:19.502Z",
+  "iterations": [
+    {
+      "resultPath": "C:/Users/lucam/.codex/generated_images/01a1b789-0cc2-7ca3-bf65-698cc32ab90e/exec-a27e0975-4764-421f-b066-7bfde68fb151.png",
+      "status": "rejected",
+      "reason": "Head/torso orientation did not follow knees and front of machine."
+    },
+    {
+      "prompt": "Precise local human-pose correction of image1 ONLY. This is an exercise photograph, and the man's face/head currently turns the wrong way relative to his seated knees and the front of the machine. Correct the adult man's HEAD, TORSO and ARM POSTURE so he faces TOWARD THE LEFT SIDE OF THE IMAGE, the same direction as his knees and shoes. His chest/sternum, nose, gaze and knees must all align naturally toward the FRONT of the lat pulldown machine (image-left). Show a plausible three-quarter LEFT-facing facial profile and front/side of the charcoal shirt, no backward neck twist. He is seated on the SAME seat with his pelvis resting fully on it, both thighs beneath the SAME two roller pads, both feet on the floor. Both hands continue gripping the TWO existing angled ends of the real black pulldown bar, making a controlled pull IN FRONT of his forehead/face toward his upper chest. Natural shoulders and elbows, symmetric grip, two arms/two hands/five fingers per hand; no body interpenetration. All body orientation must be coherent as one natural adult man, not a twisted head on a backward torso.\nDo not change anything else in image1. Keep EXACT same GF-004 machine, all frame geometry, upper green leverage arms, black linkage rods, black curved bar, seat, two thigh pads and chrome loading horns unchanged. Keep the same bicolor logo Full WHITE, Muscle light GREEN, Equipment WHITE; machine paint unchanged. Keep existing camera, 2:1 landscape crop, premium gym, concrete walls, daylight windows, charcoal floor, plants, lighting and shadows. Entire machine and man visible. Image2 is original machine identity reference only. Do not introduce any G5 equipment. No captions or watermark.",
+      "resultPath": "C:/Users/lucam/.codex/generated_images/01a1b789-0cc2-7ca3-bf65-698cc32ab90e/exec-13c51871-9c5e-4573-b2d4-103f75ebc9a3.png",
+      "status": "rejected",
+      "reason": "Face orientation corrected, but bar lowered behind neck and linkage rods elongated."
+    },
+    {
+      "prompt": "Precise LOCAL human face and chest orientation correction. IMAGE1 is the edit target and must remain unchanged except the man's head/neck/torso orientation. IMAGE2 demonstrates the desired natural LEFT-facing face and front/side shirt orientation ONLY: do not copy its lowered bar or lowered hands, which are incorrect. IMAGE3 is the exact GF004 identity reference.\nIn IMAGE1 rotate the man's face and neck to look toward IMAGE LEFT, aligned with his knees and feet, with natural adult anatomy. Make his chest/sternum and shirt front face naturally in the same direction as the knees, as illustrated by the torso/face in image2. His pelvis stays seated, thighs beneath rollers, feet in their exact positions.\nCRITICAL: KEEP IMAGE1'S BLACK PULLDOWN BAR AND BOTH HANDS AT THEIR EXACT CURRENT HEIGHT AND POSITIONS ABOVE THE HEAD. Do not lower the bar, do not lengthen the linkage rods, do not move the overhead green arms, do not change any hinge geometry. The existing black curved bar must remain ABOVE his hair/head with visible air gap, at the start of the repetition, not at shoulder/neck level. Keep both arms and hands in their current elevated-grip positions from IMAGE1 and ensure they connect naturally to the corrected torso. Absolutely no bar behind or across his neck, no behind-neck pulldown, no new handles.\nEverything else from IMAGE1 unchanged: entire GF004 machine, green/black colors, Full WHITE Muscle GREEN Equipment WHITE decal, lever linkage and rods lengths, seat/pads/feet/loading horns, camera/framing, 2:1 landscape, gym windows, walls, floor, plants, lighting and shadows. No captions or watermark. Full person and full machine visible.",
+      "resultPath": "C:/Users/lucam/.codex/generated_images/01a1b789-0cc2-7ca3-bf65-698cc32ab90e/exec-835dd4e2-c8db-4acf-ac69-e2efb6d2b301.png",
+      "status": "visually-reviewed"
+    }
+  ],
+  "output": {
+    "path": "brochures/fullmuscle-gf/assets/scenes/lat-training.png",
+    "width": 1774,
+    "height": 887,
+    "aspectRatio": 2,
+    "format": "png",
+    "sha256": "0d40c401d43cc3bfc13e892cb4835952f1b1d3e77fc12c44c3bacf2780bb853e"
+  },
+  "qa": {
+    "status": "visually-reviewed",
+    "reviewedAt": "2026-11-07T21:01:58.811Z",
+    "decodePassed": true,
+    "notes": [
+      "Entire GF-004 machine and adult male including shoes fit within the 2:1 scene.",
+      "Adult man faces image-left, aligned with chest, knees and feet; pelvis on real seat, thighs under the two front restraint rollers.",
+      "Hands contact the actual angled grip ends; bar remains overhead with a gap above head in early pull position. No behind-neck pull, extra limbs or obvious body/frame intersection visible.",
+      "GF-004 black angled uprights, base, seat, pads, silver horns, green overhead levers and black connecting rods retained; levers shown at plausible rotated exercise position.",
+      "Near lever shows Full white, Muscle light green and white Equipment subtitle. Fine lettering illustrative.",
+      "Modern gym environment follows G5 reference architecture only: warm concrete, tall black windows, charcoal rubber flooring, warm ceiling lights and plants. No G5 machine substituted."
+    ]
+  }
+}
