@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-07T13:22:30.707Z",
+  "commit": "281355b",
+  "scope": "Read-only integrity audit of the repository catalogue and image files immediately before release 9 was committed. This report records the completed checks without repeating them.",
+  "readOnlyAudit": true,
+  "inputs": [
+    "data/catalog-public/products.json",
+    "data/catalog-assets/manifest.json",
+    "data/catalog-branding/jobs.json",
+    "data/catalog-drafts/products.json"
+  ],
+  "counts": {
+    "products": 744,
+    "uniqueProducts": 744,
+    "publicAssets": 754,
+    "uniqueAssetPaths": 754,
+    "primaryAssets": 744,
+    "galleryAssets": 10,
+    "brandingJobs": 754,
+    "uniqueJobAssetIds": 754,
+    "integratedJobs": 754,
+    "remainingJobs": 0,
+    "manifestAssets": 1243,
+    "manifestAssetsOutsidePublicView": 489,
+    "quarantinedSkus": 15
+  },
+  "checks": {
+    "exactlyOnePrimaryPerProduct": true,
+    "allPublicAssetsHaveMatchingJobs": true,
+    "allJobsHaveMatchingManifestEntries": true,
+    "allJobSkusAndStagedPathsArePublic": true,
+    "allPublicAndIntegratedManifestAssetsAreApprovedProvisional": true,
+    "allApprovedManifestAssetsForPublicSkusAreReferenced": true,
+    "allSkuRoleSourceHashOriginalPathEditedPathAndStagedPathMappingsMatch": true,
+    "allJobsHaveNonemptyReviewNotes": true,
+    "allJobReviewNotesArePreservedInManifest": true,
+    "allCheckedImagePathsStayWithinWorkspace": true,
+    "hashAlgorithm": "SHA-256",
+    "originalFilesCheckedAgainstSourceHash": 754,
+    "stagedWebpFilesCheckedAgainstOutputHash": 754,
+    "allStagedFilenamesContainOutputHashPrefix": true,
+    "editedPngMetadataChecks": 754,
+    "stagedWebpMetadataChecks": 754,
+    "allEditedOutputsAreValidPngWithDimensions": true,
+    "allStagedOutputsAreWebp": true,
+    "allPublicDimensionsMatchManifestAndWebp": true,
+    "allFourInputDocumentsUnchangedDuringAudit": true
+  },
+  "stagedImageDimensions": {
+    "minWidth": 1122,
+    "maxWidth": 1527,
+    "minHeight": 1030,
+    "maxHeight": 1402
+  },
+  "exclusions": {
+    "quarantinedSkusInPublicCatalogue": [],
+    "quarantinedSkusInBrandingJobs": [],
+    "manifestAssetsOutsidePublicViewFoundInBrandingJobs": [],
+    "gc5058": {
+      "quarantined": [
+        "FM-GC-5058"
+      ],
+      "publicCatalogue": [],
+      "brandingJobs": []
+    }
+  },
+  "errorCount": 0,
+  "errors": [],
+  "limitations": [
+    "Checks were performed on the final repository working tree before commit 281355b; the commit identifier associates this report with release 9 and does not indicate that the audit was rerun after committing.",
+    "The audit verifies references, metadata, file hashes and recorded review provenance. It does not repeat the visual QA of machine geometry, branding, colours, mechanisms or text.",
+    "Image metadata was inspected with sharp; this report does not claim a fresh full pixel decode or visual inspection of every file.",
+    "Deployment and live publication of release 9 were not checked by this audit. No live publication status is changed by this report.",
+    "Image integrity does not certify product specifications, available configurations, legal data, privacy approval, SMTP delivery, Turnstile setup or Search Console activation."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-11-07T13:25:42.722Z",
+  "commit": "281355b",
+  "integrated": 754,
+  "products": 744,
+  "samples": [
+    {
+      "sku": "FM-Q1024",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/panca-multifunzione-fm-q1024/",
+      "status": 200,
+      "updatedImage": true,
+      "imageStatus": 200
+    },
+    {
+      "sku": "FM-Q1025",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/manubrio-professionale-fm-q1025/",
+      "status": 200,
+      "updatedImage": true,
+      "imageStatus": 200
+    },
+    {
+      "sku": "FM-Q1114",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/stazione-multifunzione-fm-q1114/",
+      "status": 200,
+      "updatedImage": true,
+      "imageStatus": 200
+    },
+    {
+      "sku": "FM-Q1008A",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/smith-machine-multifunzione-fm-q1008a/",
+      "status": 200,
+      "updatedImage": true,
+      "imageStatus": 200
+    },
+    {
+      "sku": "FM-Q1009A",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/smith-machine-multifunzione-fm-q1009a/",
+      "status": 200,
+      "updatedImage": true,
+      "imageStatus": 200
+    },
+    {
+      "sku": "FM-Q1079",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/smith-machine-multifunzione-fm-q1079/",
+      "status": 200,
+      "updatedImage": true,
+      "imageStatus": 200
+    },
+    {
+      "sku": "FM-3062",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/materassino-fitness-fm-3062/",
+      "status": 200,
+      "updatedImage": true,
+      "imageStatus": 200
+    },
+    {
+      "sku": "FM-Q1064",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/leg-press-fm-q1064/",
+      "status": 200,
+      "updatedImage": true,
+      "imageStatus": 200
+    }
+  ],
+  "limitations": "Public read-only sample verification of all four final image batches and selected corrected machines; complete local file integrity recorded separately. No form submissions or SEO activation."
+}

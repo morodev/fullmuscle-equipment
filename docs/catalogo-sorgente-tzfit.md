@@ -5,6 +5,8 @@
 
 La prima acquisizione completa e le eccezioni rilevate sono riepilogate nel [report del 13 settembre 2026](./report-importazione-tzfit-2026-09-13.md).
 
+**Aggiornamento branding, 7 novembre 2026:** approvate e integrate nel repository 754 immagini elaborate per i 744 prodotti pubblici; la coda contiene 754 lavori `integrated` e nessun lavoro residuo. Il catalogo completo ? pubblicato con il commit `281355b`: gli otto campioni dell'ultimo rilascio e i relativi file immagine rispondono 200 con gli asset aggiornati ([report](../data/site-audits/2026-11-07-branding-release-9.json)). Il [controllo completo degli asset locali](../data/site-audits/2026-11-07-catalog-branding-integrity.json) non rileva errori. La revisione delle immagini non chiude le eccezioni tecniche dell'importazione o le attività della [checklist di lancio SEO](./checklist-lancio-seo.md).
+
 ## Scopo e confini
 
 La pipeline censisce il catalogo pubblico del fornitore e prepara bozze FullMuscle. Non pubblica automaticamente nessun prodotto. Le descrizioni recuperate servono come materiale di lavoro: i testi finali italiani e inglesi devono essere riscritti, verificati e approvati. Prezzi, disponibilità, garanzia, certificazioni e dichiarazioni sull'azienda non vengono importati come affermazioni commerciali FullMuscle.
@@ -64,6 +66,16 @@ npm run catalog:normalize
 
 Il nome di ogni file OEM deve seguire il formato `<sku>__<primary|gallery>__<ordine>.<estensione>`, con ordine a partire da 1; per esempio `FM-5101__primary__1.jpg`.
 
+La coda branding esistente si consulta e aggiorna con i report di revisione visiva dei singoli lotti:
+
+```bash
+npx tsx scripts/catalog/branding.ts status
+npx tsx scripts/catalog/branding.ts review <report-qa.json>
+npx tsx scripts/catalog/branding.ts apply
+```
+
+`review` richiede un'approvazione esplicita, con `assetId`, SKU, `sourceHash`, percorso del risultato e nota QA coerenti con la coda. `apply` integra le sole elaborazioni approvate; il rilascio e la verifica online restano passaggi successivi. La coda già presente non va reinizializzata.
+
 Opzioni disponibili: `--concurrency`, `--delay-ms` e, soltanto insieme a `--dry-run`, `--limit`. Il valore predefinito è tre richieste concorrenti e almeno 350 ms fra gli avvii. Timeout e tentativi temporanei sono gestiti dal client.
 
 ## File prodotti
@@ -77,6 +89,8 @@ Opzioni disponibili: `--concurrency`, `--delay-ms` e, soltanto insieme a `--dry-
 | `data/catalog-assets/review-decisions.json` | esito ripetibile della revisione visiva | No |
 | `data/catalog-assets/originals/` | copie locali originali | No, ignorato da Git |
 | `data/catalog-assets/edited/` | copie provvisorie ripulite e controllate | No, ignorato da Git |
+| `data/catalog-branding/jobs.json` | coda delle elaborazioni, modello, hash originale, percorsi, approvazione e integrazione | No |
+| `data/catalog-branding/generated/` | risultati dei lotti, prompt e report `qa.json` della revisione visiva | No; solo i WebP approvati vengono preparati per la build |
 | `src/assets/catalog/` | soli WebP approvati, pronti per la build | Sì, attraverso le schede pubblicate |
 | `data/catalog-drafts/products.json` | prodotti FM ancora in stato `draft` | No, finché non superano la revisione |
 
@@ -95,15 +109,17 @@ La conversione dello SKU è stabile:
 
 Per le serie, il prefisso `TZ` diventa `FM`; alle sigle senza quel prefisso viene anteposto `FM`. Due codici sorgente che producono lo stesso SKU FullMuscle bloccano la normalizzazione e richiedono una decisione manuale.
 
-Il file delle bozze conserva una `sourceReference` interna per la tracciabilità. La funzione che prepara un record pubblico elimina quel riferimento, gli URL originali e qualsiasi asset non approvato. Il rendering del futuro sito dovrà usare esclusivamente questa vista filtrata.
+Il file delle bozze conserva una `sourceReference` interna per la tracciabilità. La funzione che prepara un record pubblico elimina quel riferimento, gli URL originali e qualsiasi asset non approvato. Il sito usa esclusivamente questa vista filtrata.
 
 ## Immagini
 
 La pipeline raccoglie l'immagine Open Graph e le immagini del contenuto, preferendo la variante più grande di `srcset` e rimuovendo i suffissi WordPress come `-300x300`. Non usa hotlink nel sito finale. Controlla tipo MIME, dimensioni, limite di peso e hash SHA-256; i duplicati binari condividono lo stesso file originale.
 
-Ogni immagine entra come `needs-review`. Le tavole di contatto permettono la revisione completa. Gli esiti sono `needs-cleaning`, `blocked-branding`, `approved-provisional`, `approved-oem` o `missing`. Soltanto gli ultimi due stati approvati possono essere copiati in `src/assets/catalog/` e inclusi nella vista pubblica.
+Ogni immagine entra come `needs-review`. Le tavole di contatto permettono la revisione completa. Gli esiti sono `needs-cleaning`, `blocked-branding`, `approved-provisional`, `approved-oem` o `missing`. Soltanto `approved-provisional` e `approved-oem` possono essere copiati in `src/assets/catalog/` e inclusi nella vista pubblica.
 
-Le immagini del sito sorgente possono essere usate provvisoriamente. Se mostrano il nome o il logo del fornitore, questi elementi vengono rimossi senza aggiungere per ora il marchio FullMuscle; il file modificato viene approvato solo dopo un nuovo controllo visivo. Banner promozionali, watermark e immagini non certe restano bloccati. La pubblicazione richiede inoltre:
+La coda branding usa stati separati: `pending`, `ready-for-review`, `approved` e `integrated`. L'integrazione di un'elaborazione mantiene `approved-provisional` nel manifest degli asset e conserva originale, `sourceHash`, prompt, risultato e nota QA. L'approvazione visiva non trasforma l'elaborazione in un originale OEM.
+
+Il processo approvato sostituisce il nome o il logo del fornitore con il logo Full Muscle e applica il verde scuro di riferimento `#356B35` alle parti verniciate individuate. Ogni risultato viene confrontato con la fonte per preservare modello, geometria, materiali, inquadratura e sfondo. Cavi, meccanismi, fori e scale leggibili devono restare coerenti; cromature e colori dei controlli funzionali vanno preservati. Eventuali microtesti già illeggibili nella fonte restano annotati come illustrativi, senza introdurre numeri leggibili inventati. Queste elaborazioni non certificano da sole i colori o le configurazioni ordinabili. Banner promozionali, watermark e immagini non certe restano bloccati. La pubblicazione richiede inoltre:
 
 1. diritto d'uso confermato per FullMuscle;
 2. file originale o copia locale ad alta risoluzione;

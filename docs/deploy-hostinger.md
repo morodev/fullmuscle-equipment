@@ -51,6 +51,8 @@ Gli orari accettano abbreviazioni italiane o inglesi, pause separate da virgola 
 
 ## 3. Anteprima non indicizzabile
 
+Al 7 novembre 2026 il sito è già distribuito sul dominio pubblico in questa modalità. Homepage e catalogo sono stati aggiornati; questo non equivale al completamento del rilascio indicizzabile. Stato verificato e attività ancora aperte sono nella [checklist di lancio SEO](./checklist-lancio-seo.md).
+
 Il primo deploy usa `npm run build` e `PUBLIC_SITE_READY=false`. Verificare sul dominio:
 
 - HTTPS valido e risposta `200` su `/`, `/it/` e `/en/`;

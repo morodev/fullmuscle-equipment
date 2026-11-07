@@ -4,7 +4,11 @@
 **Data:** 12 settembre 2026  
 **Obiettivo:** sito aziendale B2B bilingue con catalogo e richiesta di preventivo, senza acquisto online e senza prezzi nella prima pubblicazione.
 
-**Stato implementazione:** 744 prodotti in italiano e inglese, paginazione HTML, ricerca Pagefind, pagine categoria e linea, tre guide tecniche bilingue, pagina showroom, sitemap con immagini e protezione `noindex` fino alla build di pubblicazione. Il dominio canonical approvato è `fullmuscle-equipment.com`; il server Node applica i redirect permanenti da HTTP, `www` e `.it` prima di servire anche le pagine prerenderizzate.
+**Stato implementazione al 7 novembre 2026:** 744 prodotti in italiano e inglese, paginazione HTML, ricerca Pagefind, pagine categoria e linea, tre guide tecniche bilingue, pagina showroom, sitemap con immagini e protezione `noindex` fino alla build di pubblicazione. Sono approvate e integrate nel repository 754 immagini elaborate con identità Full Muscle; la coda contiene 754 lavori `integrated` e nessun lavoro residuo. Il catalogo completo ? pubblicato con il commit `281355b`; gli otto campioni dell'ultimo rilascio e i relativi file immagine rispondono 200 con gli asset aggiornati ([report](../data/site-audits/2026-11-07-branding-release-9.json)). Il controllo di integrit? completo sui 754 asset locali non rileva errori.
+
+Il dominio canonical approvato è `fullmuscle-equipment.com`. Il redirect HTTP → HTTPS è verificato online; il campione HTTPS `www` restituisce ancora 200 e richiede la configurazione del redirect 301 su Hostinger. I domini `.it` saranno reindirizzati quando disponibili e collegati: la predisposizione nel codice non certifica il comportamento dell'hosting.
+
+Il lancio SEO non è concluso. Restano da confermare dati legali e privacy definitiva, configurazione e verifica Turnstile, ricezione SMTP reale e accesso, proprietà e sitemap di Search Console. Fino alla loro verifica resta attivo il blocco dell'indicizzazione. Lo stato operativo e le evidenze sono nella [checklist di lancio SEO](./checklist-lancio-seo.md).
 
 ## 1. Sintesi della decisione
 
@@ -36,8 +40,8 @@ La tecnologia crea una base SEO molto forte, ma non può garantire la prima posi
 | Modello commerciale | Catalogo consultabile con richiesta di preventivo; nessun pagamento o checkout |
 | Catalogo iniziale | 744 prodotti, organizzati per categorie e linee/serie |
 | Prezzi | Non pubblicati nella prima versione; configurazioni e quotazioni vengono gestite nel preventivo |
-| Pubblico | Palestre, hotel, resort, studi personal trainer, fisioterapisti e altre strutture professionali |
-| Mercato | Europa |
+| Pubblico | Priorità a nuove aperture di palestre e forniture complete, poi rinnovi e ampliamenti; seguono centri medicali, fisioterapia e riabilitazione. Hotel, resort, studi personal trainer e altri contesti restano nelle soluzioni secondarie |
+| Mercato | Italia come priorità commerciale e SEO; inglese mantenuto per richieste internazionali |
 | Lingue iniziali | Italiano e inglese |
 | Aggiornamento contenuti | Importazione controllata da CSV, con modifiche tecniche nel repository |
 | Lead | Invio via email; nessun archivio lead o CRM nella prima versione |
@@ -228,7 +232,9 @@ Il flusso immagini accetta tre modalità:
 
 Perciò non sarà necessario caricare a mano ogni immagine. I file privi di associazione, i prodotti senza immagine principale e i download falliti compariranno nel report. Le immagini sorgente saranno normalizzate e le varianti AVIF/WebP responsive verranno prodotte dalla pipeline immagini.
 
-Nella prima fase si possono usare anche le immagini pubbliche del fornitore come materiale provvisorio, dopo download locale e revisione visiva. Un'immagine entra nel catalogo soltanto se non mostra nomi o loghi del fornitore, oppure dopo che quei soli elementi sono stati rimossi e il risultato è stato controllato. Per ora non viene aggiunto il marchio FullMuscle sulle fotografie. Banner promozionali, watermark e immagini dubbie restano esclusi.
+Le immagini pubbliche del fornitore sono utilizzabili come materiale provvisorio dopo download locale e revisione visiva. Il processo di branding approvato sostituisce i marchi del fornitore con il logo Full Muscle e applica il verde scuro di riferimento `#356B35` alle parti verniciate individuate. La revisione controlla modello, geometria, materiali, inquadratura, cavi, meccanismi, scale leggibili e colori dei controlli funzionali; cromature e componenti funzionali non vengono ricolorati. Banner promozionali, watermark e immagini dubbie restano esclusi.
+
+Le 754 elaborazioni approvate per i 744 prodotti mantengono lo stato asset `approved-provisional`, distinto da `approved-oem`. Originali, `sourceHash`, associazioni a SKU, prompt e report di QA restano tracciati internamente nella pipeline `data/catalog-branding/`. Le immagini elaborate sono illustrative e non sostituiscono la conferma della configurazione ordinabile o delle specifiche tecniche. Integrazione nel catalogo e verifica del rilascio online sono passaggi separati dall'approvazione visiva.
 
 Il successivo pacchetto OEM sostituirà gli asset tramite SKU, ruolo e ordine senza cambiare gli URL pubblici dei prodotti. La sua consegna non blocca la prima pubblicazione delle sole schede che dispongono già di un'immagine provvisoria approvata; tutte le altre restano in bozza finché non ricevono un asset pulito o OEM.
 
@@ -352,11 +358,11 @@ Per raggiungerli:
 
 Le keyword non devono essere ripetute artificialmente. Ogni pagina deve rispondere a un bisogno preciso con contenuti originali, fotografie reali, specifiche complete e prova dell’esperienza dell’azienda.
 
-Il lancio dovrà coprire tre gruppi di intenti:
+Il lancio dovrà coprire tre gruppi di intenti, in questo ordine di priorità commerciale:
 
-1. **Prodotto:** attrezzatura palestra, panche, rack, macchine isotoniche, cardio e relative categorie reali.
-2. **Progetto:** attrezzare o aprire una nuova palestra, rinnovare una sala pesi, progettare gli spazi.
-3. **Settore:** attrezzature per hotel, studi personal trainer e fisioterapia.
+1. **Progetto:** aprire una nuova palestra con fornitura completa, rinnovare o ampliare una palestra, organizzare gli spazi.
+2. **Prodotto:** attrezzatura palestra, panche, rack, macchine isotoniche, cardio e relative categorie reali, come supporto alla scelta della fornitura.
+3. **Settore:** centri medicali, fisioterapia e riabilitazione; hotel, studi personal trainer e altri contesti accessibili dalle soluzioni secondarie.
 
 La futura sezione “Progetti” dovrà mostrare casi reali con obiettivo, spazio, attrezzature usate, fotografie originali e risultato. Avrà più valore SEO e commerciale di una serie di articoli generici creati soltanto per intercettare keyword.
 
@@ -490,6 +496,8 @@ I test automatici raccomandati sono:
 
 Design system, layout bilingue, schema dati, importatore CSV con gestione asset, catalogo, Pagefind, filtri, paginazione, linee, categorie, schede prodotto, pagine Soluzioni, lista richiesta, invio email, SEO tecnica e Search Console.
 
+La fase comprende sia il codice sia l'attivazione operativa. Al 7 novembre 2026 non è completata al 100%: l'approvazione delle immagini non risolve la conferma dei dati e della privacy, il redirect `www`, la verifica Turnstile, la ricezione SMTP o l'attivazione verificata di Search Console. I risultati di laboratorio e i controlli locali non attestano da soli l'indicizzazione o il funzionamento degli account esterni; le verifiche residue sono mantenute nella checklist di lancio.
+
 ### Fase 2 — Autorevolezza
 
 Sezione Progetti con installazioni reali, testimonianze verificabili, fotografie originali, ampliamento delle pagine Soluzioni e ottimizzazione basata sulle query Search Console.
@@ -505,7 +513,7 @@ Valutare un CMS headless soltanto quando gli aggiornamenti diventeranno quotidia
 - Il sito non consente ordini o pagamenti.
 - I prezzi non vengono pubblicati nella prima versione e non compaiono nei dati strutturati.
 - Italiano e inglese sono le sole lingue del lancio.
-- Il mercato è europeo e il pubblico è prevalentemente professionale.
+- L'Italia è la priorità commerciale e SEO; l'inglese resta disponibile per richieste internazionali e il pubblico è prevalentemente professionale.
 - Il catalogo pubblico TZFIT è la sorgente iniziale autorizzata; cataloghi tecnici, CSV e pacchetti distributore hanno priorità quando disponibili.
 - Il nome del fornitore e la provenienza OEM restano informazioni interne e non compaiono nel sito pubblico.
 - I prodotti acquisiti entrano tutti come bozze. Nessuna scheda, traduzione, immagine, prezzo o dichiarazione commerciale viene pubblicata senza revisione.
