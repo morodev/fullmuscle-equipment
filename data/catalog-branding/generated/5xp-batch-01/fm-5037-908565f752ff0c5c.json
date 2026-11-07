@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5037-908565f752ff0c5c",
+  "sku": "FM-5037",
+  "role": "primary",
+  "sourceHash": "d70fa017ac4b0173a079fe110cdb05f2e453531720431bda9164e396ae1000d7",
+  "inputPath": "src/assets/catalog/FM-5037/primary-01-4ecdd06f821d.webp",
+  "originalPath": "data/catalog-assets/originals/d7/d70fa017ac4b0173a079fe110cdb05f2e453531720431bda9164e396ae1000d7.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5037-908565f752ff0c5c.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text. FM-5037 two-tier dumbbell rack: recolor ONLY the two long horizontal painted shelf support channels dark forest green. Keep all four legs and end frames grey, black caps/feet and every black molded dumbbell saddle unchanged with exactly same count, size and spacing on both tiers. Small physical FullMuscle Equipment logo on the visible existing upper green channel front face, without widening it or adding any panel.",
+  "review": "Compared original: two-tier rack proportions and four grey legs/end frames retained; repeated black saddles remain in original tier arrangement. Only long painted shelf channels green with compact upper-channel logo. Black feet and caps preserved; saddle microdetails remain illustrative.",
+  "publicSku": "FM-5037",
+  "editTarget": "src/assets/catalog/FM-5037/primary-01-4ecdd06f821d.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:23:28.671Z",
+  "outputHash": "c46b70f41ba19d296ef7bea34c42b3b827b6c6fbaf22b3d5c234afa8ab451e29",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

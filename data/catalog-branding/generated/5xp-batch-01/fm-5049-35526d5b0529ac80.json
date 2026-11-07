@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5049-35526d5b0529ac80",
+  "sku": "FM-5049",
+  "role": "primary",
+  "sourceHash": "c54b7654fa360673df48e0c749dfe841083ae2f795b74d7aaabf6af35db9789c",
+  "inputPath": "src/assets/catalog/FM-5049/primary-01-3285beb02e03.webp",
+  "originalPath": "data/catalog-assets/originals/c5/c54b7654fa360673df48e0c749dfe841083ae2f795b74d7aaabf6af35db9789c.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5049-35526d5b0529ac80.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text.  If there is a tiny original manufacturer brand badge such as TZ, replace ONLY that vendor badge with FullMuscle branding or clean matching paint; preserve all safety and instruction labels exactly. FM-5049 plate-loaded shoulder press: recolor ONLY the bent upper moving press-arm tubes from rear high pivots toward the black handles and bottom front crossmember dark forest green. Leave long hanging vertical connecting rods silver/grey and stationary tall curved supports/base grey. Orange back/seat and black grips/seat mechanism unchanged, chrome horns silver, warning plate preserved. Replace original tiny base vendor badge with modest FullMuscle Equipment logo on existing green bottom-front crossbar.",
+  "review": "Compared source: original shoulder-arm bends, black multigrips, orange back/seat, long grey connector rods and chrome loading/storage horns preserved. Upper press tubes plus front/near base painted beam green with compact physical logo; grey stationary pillars and warning plate retained.",
+  "publicSku": "FM-5049",
+  "editTarget": "src/assets/catalog/FM-5049/primary-01-3285beb02e03.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:30:32.549Z",
+  "outputHash": "7171d6e384d56471fec245fab7f48075967f0ecd0eb6fc406134b4efaa2c3680",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

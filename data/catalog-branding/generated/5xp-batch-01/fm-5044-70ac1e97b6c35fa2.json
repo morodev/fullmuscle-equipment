@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5044-70ac1e97b6c35fa2",
+  "sku": "FM-5044",
+  "role": "primary",
+  "sourceHash": "44089d28269d4f828da83158e59ef90675b8699056791903a0d710daae1077b9",
+  "inputPath": "src/assets/catalog/FM-5044/primary-01-b2f7cce27969.webp",
+  "originalPath": "data/catalog-assets/originals/44/44089d28269d4f828da83158e59ef90675b8699056791903a0d710daae1077b9.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5044-70ac1e97b6c35fa2.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text.  If there is a tiny original manufacturer brand badge such as TZ, replace ONLY that vendor badge with FullMuscle branding or clean matching paint; preserve all safety and instruction labels exactly. FM-5044 front-view lateral shoulder machine: recolor ONLY the paired diagonal inner moving linkage arms running from outer upper pivots down/inward to lower loading pivots, and the bottom front horizontal crossmember dark forest green. Keep outer tall curved stationary side pillars and pad/handle support brackets grey. Orange back, seat and elbow pads unchanged; black top grips, black seat mechanism, silver horns unchanged. Replace tiny original vendor badge centered on existing bottom green crossmember with modest FullMuscle Equipment logo. Preserve full right-pillar warning label and exact front symmetrical layout.",
+  "review": "Front-view comparison: symmetric grey pillars, orange back/seat/elbow pads, shaped black grips, chrome horns and central seat mechanism retained. Paired diagonal linkages and bottom crossbar green; original tiny badge replaced with physical FullMuscle logo. Right warning label remains unobstructed.",
+  "publicSku": "FM-5044",
+  "editTarget": "src/assets/catalog/FM-5044/primary-01-b2f7cce27969.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:28:10.176Z",
+  "outputHash": "b74462fd49c8d2644a6384d003f93fe41b93710679509cca8018f1920f833ee2",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

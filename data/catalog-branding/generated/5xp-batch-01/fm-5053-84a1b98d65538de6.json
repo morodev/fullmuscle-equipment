@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5053-84a1b98d65538de6",
+  "sku": "FM-5053",
+  "role": "primary",
+  "sourceHash": "25cf6576b5fb167ab5931982085bc99c297895235fd9dc9ad11d2f5b51112a63",
+  "inputPath": "src/assets/catalog/FM-5053/primary-01-e775acaf610f.webp",
+  "originalPath": "data/catalog-assets/originals/25/25cf6576b5fb167ab5931982085bc99c297895235fd9dc9ad11d2f5b51112a63.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5053-84a1b98d65538de6.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text.  If there is a tiny original manufacturer brand badge such as TZ, replace ONLY that vendor badge with FullMuscle branding or clean matching paint; preserve all safety and instruction labels exactly. FM-5053 front-view shoulder/arm machine: recolor ONLY the paired diagonal inner moving linkage arms and bottom front horizontal crossmember dark forest green, matching related FM-5044 treatment. Keep distinct upper straight diagonal silver arms, small orange arm pads, black hanging grips and black counterweights EXACT to this model. Tall outer fixed curved pillars grey, orange back/seat unchanged, silver horns and right warning label untouched. Replace tiny bottom vendor badge with modest physical FullMuscle Equipment logo centered on existing green crossbar.",
+  "review": "Front-view original compared: specific diagonal upper silver handles, small orange wrist/elbow pads, black counterweights and grips retained; differs correctly from FM-5044. Green inner diagonal linkages and bottom crossbar with physical logo. Grey outer pillars, orange seat/back, chrome horns and right warning plate preserved.",
+  "publicSku": "FM-5053",
+  "editTarget": "src/assets/catalog/FM-5053/primary-01-e775acaf610f.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:33:18.388Z",
+  "outputHash": "bd409b9e0fd9b65d4a02dd6efd18b5200b49b0ecb39146216f8d7a51c6d78357",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

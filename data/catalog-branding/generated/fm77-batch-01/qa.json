@@ -1,0 +1,118 @@
+{
+  "batch": "fm77-batch-01",
+  "tool": "image_gen.imagegen",
+  "referenceGreen": "#356B35",
+  "items": [
+    {
+      "sku": "FM-7701",
+      "assetId": "fm-7701-1cd388fa4f639d0e",
+      "sourceHash": "1f2dfc3f5ddd0fa063c78cca4f4532746a0d020a6dcfab6ad94e8efe5831521c",
+      "inputPath": "src/assets/catalog/FM-7701/primary-01-dfdf5638306c.webp",
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7701.png",
+      "promptPath": "data/catalog-branding/generated/fm77-batch-01/prompts/FM-7701.json",
+      "review": "Source and result visually inspected: tall pressing arms and black frame geometry retained; red painted arms forest green; chrome weight horns/handles and black pads preserved; TZ replaced with Full Muscle on backrest.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7703",
+      "assetId": "fm-7703-27ce5757227a87c6",
+      "sourceHash": "24a06e9ebd17a035b074a944a9c6bc548b6cd87319a60c9503671bf1b0689c62",
+      "inputPath": "src/assets/catalog/FM-7703/primary-01-266c335781a0.webp",
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7703.png",
+      "promptPath": "data/catalog-branding/generated/fm77-batch-01/prompts/FM-7703.json",
+      "review": "Source and result visually inspected: angled press geometry and inclined black backrest retained; red arms forest green; silver handgrips and weight horns unchanged; TZ replaced with Full Muscle within original backrest stitching.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7704",
+      "assetId": "fm-7704-62490cd9a01857e8",
+      "sourceHash": "db5e9378444fd7e1e4400c646bd4652ec19353da3727eb062cf63d2ea5da67a9",
+      "inputPath": "src/assets/catalog/FM-7704/primary-01-f58e4e513968.webp",
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7704.png",
+      "promptPath": "data/catalog-branding/generated/fm77-batch-01/prompts/FM-7704.json",
+      "review": "Source and result visually inspected: hanging high-row arms, black seat/chest pad, frame and small footrests retained; red painted arms forest green; chrome handles and weight horns unchanged; Full Muscle base logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7706",
+      "assetId": "fm-7706-79745999ad186289",
+      "sourceHash": "88124aadfbd827c6090aeb317868d67f56ad92fd03175fb7bf1180189b0da7fe",
+      "inputPath": "src/assets/catalog/FM-7706/primary-01-de225a8953fa.webp",
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7706.png",
+      "promptPath": "data/catalog-branding/generated/fm77-batch-01/prompts/FM-7706.json",
+      "review": "Source and result visually inspected: paired triangular row arms and U-shaped silver handles retained; red paint forest green; black pads/frame, slotted silver footrests and chrome horns preserved; Full Muscle base logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7707",
+      "assetId": "fm-7707-d23fcca2ccb7e2a9",
+      "sourceHash": "b0d9a025182317a62d444eba8b61d45983e82c87718d1c4c16256f5e41b46a21",
+      "inputPath": "src/assets/catalog/FM-7707/primary-01-00b4e51427b2.webp",
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7707.png",
+      "promptPath": "data/catalog-branding/generated/fm77-batch-01/prompts/FM-7707.json",
+      "review": "Source and result visually inspected: leg extension geometry and black rollers retained; broad red arms forest green while small inner adjustment selector pieces remain red; chrome and black pads/frame preserved; TZ replaced with Full Muscle.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7708",
+      "assetId": "fm-7708-abe6f85ffa72b266",
+      "sourceHash": "eb4d2da83d17d2fafbf7139fe83e231271eb159d82864033036501f950a9b5e9",
+      "inputPath": "src/assets/catalog/FM-7708/primary-01-12692e557752.webp",
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7708.png",
+      "promptPath": "data/catalog-branding/generated/fm77-batch-01/prompts/FM-7708.json",
+      "review": "Source and result visually inspected: tall pulldown model and overhead levers retained; red painted arms forest green; red functional handle button remains red, chrome handles/horns, adjustment post, black pads and instruction plaque preserved; Full Muscle base logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7710",
+      "assetId": "fm-7710-a8ac08718d196d41",
+      "sourceHash": "a1fcdd3820e170df34e176274c39e5fea4ecf53c38eb51652bc321768238ecdf",
+      "inputPath": "src/assets/catalog/FM-7710/primary-01-4147f5d595ca.webp",
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7710.png",
+      "promptPath": "data/catalog-branding/generated/fm77-batch-01/prompts/FM-7710.json",
+      "review": "Source and result visually inspected: original incline press and asymmetric arm positions retained; red painted arms forest green; black frame/pads and silver grips/horns preserved; Full Muscle replaces partially occluded TZ backrest logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7711",
+      "assetId": "fm-7711-7245b201a81c65b4",
+      "sourceHash": "3505c8d18f9f6fc298b9b0ccfe0be2873ddef1a45912f0cb411ab482b145ede1",
+      "inputPath": "src/assets/catalog/FM-7711/primary-01-fa0e52a0a712.webp",
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7711.png",
+      "promptPath": "data/catalog-branding/generated/fm77-batch-01/prompts/FM-7711.json",
+      "review": "Source and result visually inspected: angular standing lever geometry retained; red painted assemblies forest green; silver upper handles and horns, black pivot parts, base and instruction plaque preserved; Full Muscle crossbar logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7712",
+      "assetId": "fm-7712-d68d16c440f2a12d",
+      "sourceHash": "c12c4af2ba13df0217e8509ac9bd6818b7259a011a512c0cff66afb8e22db6a0",
+      "inputPath": "src/assets/catalog/FM-7712/primary-01-d4329524aab1.webp",
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7712.png",
+      "promptPath": "data/catalog-branding/generated/fm77-batch-01/prompts/FM-7712.json",
+      "review": "Source and result visually inspected: overhead joined grip, tall arm geometry and forward pad assembly retained; red levers forest green; black controls/pads/frame, silver posts/horns and instruction plaque preserved; Full Muscle base logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7719",
+      "assetId": "fm-7719-19a11a59297e1c32",
+      "sourceHash": "e28a564db909d6fa647d58970232ed331c26e0ecdd54200dcfe3c4dda677190a",
+      "inputPath": "src/assets/catalog/FM-7719/primary-01-fa987a7f59e0.webp",
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7719.png",
+      "promptPath": "data/catalog-branding/generated/fm77-batch-01/prompts/FM-7719.json",
+      "review": "Source and result visually inspected: combined machine with both seats and all original upper/lower grips retained; red levers forest green; red grip buttons, chrome and black frame/pads preserved; TZ replaced by Full Muscle on backrest.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7721",
+      "assetId": "fm-7721-7fa06b7d5da82d79",
+      "sourceHash": "e86b1617dad1df1388f9e777c19981e9bba6f4bd3c2aac3be381e502e41ce5d8",
+      "inputPath": "src/assets/catalog/FM-7721/primary-01-c18a4f425e71.webp",
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7721.png",
+      "promptPath": "data/catalog-branding/generated/fm77-batch-01/prompts/FM-7721.json",
+      "review": "Source and result visually inspected: flat bench press proportions, two lever arms and black bench retained; red painted levers forest green; chrome handles and weight horn unchanged; Full Muscle logo on black bench side beam.",
+      "status": "approved"
+    }
+  ],
+  "count": 11
+}

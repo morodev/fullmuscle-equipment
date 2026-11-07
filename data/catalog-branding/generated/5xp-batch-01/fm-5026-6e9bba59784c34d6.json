@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5026-6e9bba59784c34d6",
+  "sku": "FM-5026",
+  "role": "primary",
+  "sourceHash": "83d25121b35624f22f103c33493d9a85a04531b6a9a3af8a388d068f64217603",
+  "inputPath": "src/assets/catalog/FM-5026/primary-01-e4a2612cc3d6.webp",
+  "originalPath": "data/catalog-assets/originals/83/83d25121b35624f22f103c33493d9a85a04531b6a9a3af8a388d068f64217603.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5026-6e9bba59784c34d6.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text. FM-5026 primary view of same adjustable hyperextension: recolor ONLY the long low horizontal base beam and diagonal connecting rail from central hinge down toward the footplate hinge dark forest green, exactly corresponding to same painted parts in the other view. All front-wide base feet, upper telescoping hip-pad post, hinge plates and adjustment hardware remain grey/silver; orange split pads and orange calf rollers, black footplates/grips, yellow release handles unchanged. Small physical FullMuscle Equipment logo on visible green base beam. Preserve THIS primary camera view and its visible wheel locations.",
+  "review": "Primary source compared: same camera, twin wheel locations, orange pads/rollers, two black footplates and yellow adjustment handles retained. Long base beam and diagonal linkage green, matching gallery treatment; grey telescoping/support structure and modest base logo verified.",
+  "publicSku": "FM-5026",
+  "editTarget": "src/assets/catalog/FM-5026/primary-01-e4a2612cc3d6.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:20:21.741Z",
+  "outputHash": "b44b34ad39266f0ba013dea504eaf3922b219c1c15db8ac88e83ae0cbf32c2ab",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

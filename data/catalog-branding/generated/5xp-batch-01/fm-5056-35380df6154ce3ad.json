@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5056-35380df6154ce3ad",
+  "sku": "FM-5056",
+  "role": "primary",
+  "sourceHash": "52bd27dea304d67cdb760777a23872eae048765430ae34fe5831d4d54a906fe7",
+  "inputPath": "src/assets/catalog/FM-5056/primary-01-0a09f603d00f.webp",
+  "originalPath": "data/catalog-assets/originals/52/52bd27dea304d67cdb760777a23872eae048765430ae34fe5831d4d54a906fe7.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5056-35380df6154ce3ad.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text.  If there is a tiny original manufacturer brand badge such as TZ, replace ONLY that vendor badge with FullMuscle branding or clean matching paint; preserve all safety and instruction labels exactly. FM-5056 prone leg curl: recolor ONLY the long broad curved moving lever running from the knee-height pivot down/right to the front loading sleeve and its short diagonal moving link dark forest green. Preserve orange two-piece prone bench and orange ankle roller exactly, polished tubular roller-support arm silver, all loading/storage horns silver, black grips/collars unchanged. Fixed arched support and base grey. Small physical FullMuscle Equipment logo along visible broad face of green moving lever.",
+  "review": "Prone-curl source compared: two orange bench pads, orange ankle roller, silver curved roller tube and plate horns, black grip/collars preserved. Long moving lever and short linkage green with physical logo; stationary arched support and base remain grey. Original view and component arrangement maintained.",
+  "publicSku": "FM-5056",
+  "editTarget": "src/assets/catalog/FM-5056/primary-01-0a09f603d00f.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:34:01.092Z",
+  "outputHash": "f171dc7953bfd5e4ead790663cd29dc82f51f29a49c34244171ab3ad159cf8c8",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

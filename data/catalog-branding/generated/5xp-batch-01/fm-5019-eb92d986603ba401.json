@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5019-eb92d986603ba401",
+  "sku": "FM-5019",
+  "role": "primary",
+  "sourceHash": "80afb3396198b2b0c07119389dd89fd341478a4412d4a3d634b5110e5f57da80",
+  "inputPath": "src/assets/catalog/FM-5019/primary-01-6965adfc4566.webp",
+  "originalPath": "data/catalog-assets/originals/80/80afb3396198b2b0c07119389dd89fd341478a4412d4a3d634b5110e5f57da80.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5019-eb92d986603ba401.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text. FM-5019 dip/pullup station: recolor ONLY the existing top horizontal bridge between tall rear pillars, and the horizontal forearm-rest supporting metal crossmember at elbow height dark forest green. Both tall curved rear pillars and front sloping posts remain grey; orange/brown back and elbow upholstery unchanged; black grip sleeves and step pads unchanged. Small FullMuscle Equipment logo on existing top green bridge face.",
+  "review": "Compared against source: tall curved rear pillars, forward posts, upper grip positions, black steps, dip grips and orange pads preserved. Top bridge and elbow support crossmember are dark green with small physical top logo; no added components.",
+  "publicSku": "FM-5019",
+  "editTarget": "src/assets/catalog/FM-5019/primary-01-6965adfc4566.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:15:32.629Z",
+  "outputHash": "7bbc757754e9ed7aa4b0365b466fe9211938b5145d4af697a4c82608bf049b9a",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

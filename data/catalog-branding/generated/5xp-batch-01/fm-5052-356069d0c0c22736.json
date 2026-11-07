@@ -1,0 +1,30 @@
+{
+  "assetId": "fm-5052-356069d0c0c22736",
+  "sku": "FM-5052",
+  "role": "primary",
+  "sourceHash": "a0f2930ff9a977ca582195088f0be370096dc73699c13363d82691776d576181",
+  "inputPath": "src/assets/catalog/FM-5052/primary-01-61eef6411d2e.webp",
+  "originalPath": "data/catalog-assets/originals/a0/a0f2930ff9a977ca582195088f0be370096dc73699c13363d82691776d576181.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5052-356069d0c0c22736.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text.  If there is a tiny original manufacturer brand badge such as TZ, replace ONLY that vendor badge with FullMuscle branding or clean matching paint; preserve all safety and instruction labels exactly. FM-5052 high lever pulldown: recolor ONLY the two long overhead moving rectangular lever arms extending from rear hinge upward/forward toward hanging handles dark forest green. All hanging grip connectors remain silver/grey with black grip ends; grey stationary frame, lower support links, loading/storage horns silver, orange seat and twin knee rollers unchanged. Put a small readable physical FullMuscle Equipment logo on the broad face of the nearer green overhead lever, following its diagonal orientation. Preserve full height and exact camera.",
+  "review": "Correction visually checked against prior edit and source: small black/orange sticker removed from upper grey cross-support and replaced by smooth continuous grey metal. Green arms/logo, orange pads, handles, loading horns, linkages, silhouette, background and viewpoint retained. All principal geometry confirmed; no added labels remain on corrected beam.",
+  "publicSku": "FM-5052",
+  "editTarget": "src/assets/catalog/FM-5052/primary-01-61eef6411d2e.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:39:25.628Z",
+  "outputHash": "d42062c437edf26e28184c52ff9d6fddee9da4ef56696bc045847d18eb95ee33",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false,
+  "corrections": [
+    {
+      "reason": "Remove small invented black/orange sticker from upper grey cross-support only, requested during review.",
+      "prompt": "Extremely localized precision edit of image 1 ONLY. Remove ONLY the tiny black/orange/white rectangular sticker on the TOP face of the GREY diagonal upper cross-support immediately below the two main green-arm pivots (approximately x=750,y=630 in the 1254 square image). Restore that tiny patch to continuous plain smooth grey painted metal with matching perspective, surface shade and highlights. Image 2 shows the original machine for structural context ONLY. Keep absolutely everything else in image 1 unchanged: forest green overhead arms, FullMuscle logo, orange cushions, all exact geometry, all fasteners and linkages, chrome horns and handles, black grip sleeves, white background, camera/framing and shadows. Do not add any warning, sticker, text or hardware anywhere. Do not recolor or change any other surface. This is solely removal of the small invented sticker patch, not a redesign.",
+      "previousOutputHash": "0a860572d5740b58d9f9b107d5b08cfba31e9afd6a239c719a3c87f25c1bf627",
+      "previousReview": "Compared original: full-height dual lever silhouette, hanging silver handle connectors/black grips, orange seat/knee rollers, chrome loading horns and grey lower linkage preserved. Only overhead moving beams green with physical near-beam logo. A small illustrative warning-style detail is visible on upper grey cross-support; tiny labels are not technical documentation."
+    }
+  ]
+}

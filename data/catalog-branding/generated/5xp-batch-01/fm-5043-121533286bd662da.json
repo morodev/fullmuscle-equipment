@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5043-121533286bd662da",
+  "sku": "FM-5043",
+  "role": "primary",
+  "sourceHash": "47a24ba23e161fdeaf4f551d8bf74c1cd2a622586c049baf3d55ac9661bd9fb7",
+  "inputPath": "src/assets/catalog/FM-5043/primary-01-dcccb196c73c.webp",
+  "originalPath": "data/catalog-assets/originals/47/47a24ba23e161fdeaf4f551d8bf74c1cd2a622586c049baf3d55ac9661bd9fb7.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5043-121533286bd662da.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text.  If there is a tiny original manufacturer brand badge such as TZ, replace ONLY that vendor badge with FullMuscle branding or clean matching paint; preserve all safety and instruction labels exactly. FM-5043 horizontal leg press: recolor ONLY the broad outer horizontal/curved moving lever beam along near side beneath seat and the corresponding far moving beam dark forest green. Keep fixed base, seat slide rails, supports and footplate support grey, black footplate and handles unchanged, orange seat/back/headrest exact, silver loading/storage horns untouched. Small physical FullMuscle Equipment logo on the broad side of near green moving beam. Preserve yellow locking lever and all linkages.",
+  "review": "Compared original horizontal press: orange seating, high black footplate, seat slide/adjustable back support and yellow lever retained. Near and far moving outer beams green with logo; grey base, chrome sleeves, handrails and mechanical linkage layout preserved.",
+  "publicSku": "FM-5043",
+  "editTarget": "src/assets/catalog/FM-5043/primary-01-dcccb196c73c.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:27:37.506Z",
+  "outputHash": "497ca6d746ac085d6d9d8b39d304802d9b5b2cb27320745e629c1fdc2ca87188",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

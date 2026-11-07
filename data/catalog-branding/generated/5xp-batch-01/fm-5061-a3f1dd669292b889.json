@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5061-a3f1dd669292b889",
+  "sku": "FM-5061",
+  "role": "primary",
+  "sourceHash": "b22dfab5cfb203d2080252926bc8044e35f256c42cf71524e1e5472ffb81e913",
+  "inputPath": "src/assets/catalog/FM-5061/primary-01-bfb3ef6bd1ab.webp",
+  "originalPath": "data/catalog-assets/originals/b2/b22dfab5cfb203d2080252926bc8044e35f256c42cf71524e1e5472ffb81e913.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5061-a3f1dd669292b889.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text.  If there is a tiny original manufacturer brand badge such as TZ, replace ONLY that vendor badge with FullMuscle branding or clean matching paint; preserve all safety and instruction labels exactly. FM-5061 pendulum squat: recolor ONLY the central long moving diagonal linkage from beneath the orange backrest down to lower front pivot and the existing horizontal front-edge metal beam below the angled platform dark forest green. Keep orange back and two high shoulder pads exact, silver curved shoulder structure/black grips, loading/storage horns silver, stationary curved side frame and legs grey, footplate top grey and all black feet unchanged. Modest physical FullMuscle Equipment logo on existing front green platform edge, fitted to its narrow face. Preserve all pivots, relative angles and full silhouette.",
+  "review": "Compared pendulum-squat source: orange back and twin high shoulder pads, grips, curved stationary supports, footplate/legs and chrome horns preserved. Central moving diagonal linkage and narrow front platform beam green with physical fitted logo. Original camera and principal pivot layout retained.",
+  "publicSku": "FM-5061",
+  "editTarget": "src/assets/catalog/FM-5061/primary-01-bfb3ef6bd1ab.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:36:12.256Z",
+  "outputHash": "e783d8b169b2c01315ef926bb6b948642bd965a727363c2437af9b1c32822273",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -2101,8 +2101,10 @@
       "originalPath": "data/catalog-assets/originals/d8/d8276ca6581de29f9a0d98572b13a2571c26b9316081919960a20bc3306095f9.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5101-49776aac150b0b9e.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5101-49776aac150b0b9e.png",
+      "status": "integrated",
+      "review": "Plate-loaded press structure, curved arms, chrome grips/pegs, red controls, central seat rail, pads and textured platform retained. Green limited to two main press arms; modest Full Muscle mark on platform front face. Safety labels present, microtext illustrative; white background/view preserved.",
+      "stagedPath": "src/assets/catalog/FM-5101/primary-01-175e4f6dfac2.webp"
     },
     {
       "assetId": "fm-5102-a40ccb6f5bfb7ba7",
@@ -2113,8 +2115,10 @@
       "originalPath": "data/catalog-assets/originals/26/266d4f0ca3351070d04fa0b1636690a6efa6e60a8b0edd93f213c837b5ac86c4.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5102-a40ccb6f5bfb7ba7.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5102-a40ccb6f5bfb7ba7.png",
+      "status": "integrated",
+      "review": "Overhead press-arm angles, backrest/headrest, seat/chrome rail, connecting rods, red adjusters, chrome grips/pegs and platform retained. Green on moving overhead arms only; small Full Muscle mark on platform fascia. Black fixed frame and white background preserved.",
+      "stagedPath": "src/assets/catalog/FM-5102/primary-01-f9df337c024f.webp"
     },
     {
       "assetId": "fm-5103-1765505374bbdba2",
@@ -2125,8 +2129,10 @@
       "originalPath": "data/catalog-assets/originals/de/def33ebfad57eed0ebf70fe68aa6eac5f15582d53fce9889c7ad3491208a4197.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5103-1765505374bbdba2.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5103-1765505374bbdba2.png",
+      "status": "integrated",
+      "review": "Inclined pad/seat arrangement, overhead bent press arms, linkage rods, chrome rail/pegs/grips, red controls and textured platform retained. Green on moving press arms; restrained Full Muscle mark on platform fascia. Original black fixed frame, camera and white background preserved.",
+      "stagedPath": "src/assets/catalog/FM-5103/primary-01-65218548c485.webp"
     },
     {
       "assetId": "fm-5104-432fe993c2ba531f",
@@ -2137,8 +2143,10 @@
       "originalPath": "data/catalog-assets/originals/74/749b0002119117ebce4614dc70a019e0dcde02183e5400ecbee30b91b394e97b.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5104-432fe993c2ba531f.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5104-432fe993c2ba531f.png",
+      "status": "integrated",
+      "review": "Compact seat/chest pad geometry, chrome rail, handgrips, plate pegs, red controls, linkage and base retained. Green limited to two outer side arches; Full Muscle mark on front crossbar. Existing safety labels present with illustrative microtext, original view and white background retained.",
+      "stagedPath": "src/assets/catalog/FM-5104/primary-01-8e9941a63159.webp"
     },
     {
       "assetId": "fm-5105-89f74286c558c03a",
@@ -2149,8 +2157,10 @@
       "originalPath": "data/catalog-assets/originals/9b/9b69c1a06e4de7329db3b9e38b01be8588716047be4ee9bfa0331676bf8be8e5.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5105-89f74286c558c03a.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5105-89f74286c558c03a.png",
+      "status": "integrated",
+      "review": "45-degree leg press layout, seat/backrest, rails, footplate, chrome pegs, red controls and safety stops retained. Green limited to rear stationary posts, small Full Muscle logo on lower base beam. Labels retained with illustrative microtext, original view/background preserved.",
+      "stagedPath": "src/assets/catalog/FM-5105/primary-01-c5c94e5443a5.webp"
     },
     {
       "assetId": "fm-5106-43193f2fc18b5103",
@@ -2161,8 +2171,10 @@
       "originalPath": "data/catalog-assets/originals/b8/b88fe4398b0f33658fad12c4caed24367d5b72b99a9a76876185707d74134b23.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5106-43193f2fc18b5103.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5106-43193f2fc18b5103.png",
+      "status": "integrated",
+      "review": "Hack squat rails, sled/backrest/shoulder pads, footplate, chrome horns, red handles, safety stops and black rear brace retained. Green limited to rear vertical supports; Full Muscle mark on lower base beam. Warning labels present with illustrative fine text. Original geometry/view/background preserved.",
+      "stagedPath": "src/assets/catalog/FM-5106/primary-01-9f151ca40092.webp"
     },
     {
       "assetId": "fm-5107-f91c0357e7f287f1",
@@ -2173,8 +2185,10 @@
       "originalPath": "data/catalog-assets/originals/b2/b23452c6a2aced62cf869062396b4f145712fe73663db25dcbf349aa5fbcde4f.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5107-f91c0357e7f287f1.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5107-f91c0357e7f287f1.png",
+      "status": "integrated",
+      "review": "Tall pulldown frame, overhead arms, chrome loop grips, red caps, descending linkage, seat/chest support and chrome pegs retained. Green limited to overhead arm assembly, small Full Muscle mark on lower base beam. Safety labels present with illustrative fine text; original view/background preserved.",
+      "stagedPath": "src/assets/catalog/FM-5107/primary-01-5dae36fb910b.webp"
     },
     {
       "assetId": "fm-5108-9f25f86ff2e3de92",
@@ -2185,8 +2199,10 @@
       "originalPath": "data/catalog-assets/originals/8c/8c2ef1dbde19f1b18403189dc70fe9130c673bbf455ee036901a0657db994aa7.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5108-9f25f86ff2e3de92.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5108-9f25f86ff2e3de92.png",
+      "status": "integrated",
+      "review": "Overhead angled arms, chrome grip geometry, central post and linkage, thigh rollers/seat, red controls and plate pegs retained. Green limited to moving upper arms; small Full Muscle logo on base beam, warning label retained. Original view, white background and black frame preserved.",
+      "stagedPath": "src/assets/catalog/FM-5108/primary-01-a0a1c807600c.webp"
     },
     {
       "assetId": "fm-5109-9a100ba46073eef6",
@@ -2197,8 +2213,10 @@
       "originalPath": "data/catalog-assets/originals/f9/f9837487de60a22a0867b2d3737f57c57a7d95f344ecd4fc7aa9e69792d1d8a0.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5109-9a100ba46073eef6.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5109-9a100ba46073eef6.png",
+      "status": "integrated",
+      "review": "Long pad, flexible strap and clips, chrome loading horns, red-capped handles, diamond-tread footplate and base retained. Green limited to two side posts; small Full Muscle mark on front ground crossbar. Labels present but text illustrative. Camera/background preserved.",
+      "stagedPath": "src/assets/catalog/FM-5109/primary-01-c4e78d64cdac.webp"
     },
     {
       "assetId": "fm-5110-bfa65e52befd769d",
@@ -2209,8 +2227,10 @@
       "originalPath": "data/catalog-assets/originals/cd/cd67cfb259088284448038a92deb7601276116e8faeeb0122a18a8a599b80bfc.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5110-bfa65e52befd769d.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5110-bfa65e52befd769d.png",
+      "status": "integrated",
+      "review": "Preacher/arm pad, twin pivot/handle assembly, right rod, seat and chrome rail, pegs and red controls retained. Green restricted to outer arches; Full Muscle mark on lower side beam. Warning label present with illustrative text, original view/background preserved.",
+      "stagedPath": "src/assets/catalog/FM-5110/primary-01-8fb654743301.webp"
     },
     {
       "assetId": "fm-5111-272b7ea6e10b12eb",
@@ -2221,8 +2241,10 @@
       "originalPath": "data/catalog-assets/originals/71/71496b9092c05c555c3e46c809ae6ccc071c2f5aa74b095e4d93894fb894ef83.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5111-272b7ea6e10b12eb.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5111-272b7ea6e10b12eb.png",
+      "status": "integrated",
+      "review": "Upper hinged pad/grip mechanism, center back pads, seat, paired ankle rollers, chrome rail/pegs and red seat control retained. Green on outer side arches and connected side-base member; other structure black. Small Full Muscle front-crossbar mark; labels present, microtext illustrative, camera/background retained.",
+      "stagedPath": "src/assets/catalog/FM-5111/primary-01-6bbb9f4592be.webp"
     },
     {
       "assetId": "fm-5112-84ed8233a1c05215",
@@ -2233,8 +2255,10 @@
       "originalPath": "data/catalog-assets/originals/ec/ec09a81226a60b49cc16a87f0ef8ebf57aacf1de7ebd84583f10511586b9f6b6.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5112-84ed8233a1c05215.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5112-84ed8233a1c05215.png",
+      "status": "integrated",
+      "review": "Reclined press pads, narrow curved arms, chrome grips/collars/rail/pegs, red controls and linkage joints retained. Green limited to front moving press arms; small Full Muscle platform mark. Fixed frame and textured platform remain black; white background and view retained.",
+      "stagedPath": "src/assets/catalog/FM-5112/primary-01-946cd2c67a8d.webp"
     },
     {
       "assetId": "fm-5113-c9b686eb179bfec7",
@@ -2245,8 +2269,10 @@
       "originalPath": "data/catalog-assets/originals/7d/7dfe8645c0abd93c34df35eb9e885478b4f1afd6abb8d14d813e0c8433b742ba.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-51-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5113-c9b686eb179bfec7.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm51-batch-01/fm-5113-c9b686eb179bfec7.png",
+      "status": "integrated",
+      "review": "Low lever machine retains paired diagonal moving arms, chrome U-grips/loading horns, red controls, linkage joints, rear arched support and base. Green limited to moving diagonal tubes; small Full Muscle mark on right lower beam. Safety labels present with illustrative microtext; original view/background preserved.",
+      "stagedPath": "src/assets/catalog/FM-5113/primary-01-d33e939cf302.webp"
     },
     {
       "assetId": "fm-5201-44e95c6fd11e2efb",
@@ -2369,8 +2395,10 @@
       "originalPath": "data/catalog-assets/originals/e1/e1f3fbf907daa73fe5e24df70e537c900ca44a069948a51ef3cee49ddba650cf.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5015-6ff23850726786de.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5015-6ff23850726786de.png",
+      "status": "integrated",
+      "review": "Compared with source: four grey sloping legs, original five-level hook strips, feet and perspective retained; only upper and middle joining beams recolored dark green, compact physical logo on upper beam. Principal geometry and framing preserved.",
+      "stagedPath": "src/assets/catalog/FM-5015/primary-01-dd0764f54a95.webp"
     },
     {
       "assetId": "fm-5016-9b4b97cb974c5a25",
@@ -2381,8 +2409,10 @@
       "originalPath": "data/catalog-assets/originals/b4/b46cfea2f8ac31fe7f833e10010cbbfc68099272c27a8c570f185e52537117d7.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5016-9b4b97cb974c5a25.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5016-9b4b97cb974c5a25.png",
+      "status": "integrated",
+      "review": "Source and output compared: orange back and seat upholstery, black adjustment cover and feet, rear grey legs and seat mechanism retained. Front painted leg alone is forest green with compact physical logo. Same silhouette and view.",
+      "stagedPath": "src/assets/catalog/FM-5016/primary-01-f26e9a9bb9af.webp"
     },
     {
       "assetId": "fm-5017-f102948ed3d0d11b",
@@ -2393,8 +2423,10 @@
       "originalPath": "data/catalog-assets/originals/7f/7f2dcecfa4edf66d980b27a5d3b9c7f54d615db1da8263ad4b5c249ec250274c.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5017-f102948ed3d0d11b.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5017-f102948ed3d0d11b.png",
+      "status": "integrated",
+      "review": "Viewed against source: long orange cushion, angled grey legs, black feet and wheel, curved silver transport handle with black grip retained. Existing longitudinal under-seat beam is dark green with physical FullMuscle logo; geometry and camera view retained.",
+      "stagedPath": "src/assets/catalog/FM-5017/primary-01-84ff0eb09aec.webp"
     },
     {
       "assetId": "fm-5018-ba498cbba29b55e9",
@@ -2405,8 +2437,10 @@
       "originalPath": "data/catalog-assets/originals/80/803cbfdf91b77e6d758b616eb689e4b00f39b7be99928329cb49daa3c723b91b.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5018-ba498cbba29b55e9.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5018-ba498cbba29b55e9.png",
+      "status": "integrated",
+      "review": "Compared with original: three grey supports, four chrome plate horns with black collars, central connector and black feet unchanged in number and placement. Only central existing tray and lip dark green; physical logo on lip. Geometry and white setting retained.",
+      "stagedPath": "src/assets/catalog/FM-5018/primary-01-ea337fe3eac4.webp"
     },
     {
       "assetId": "fm-5019-eb92d986603ba401",
@@ -2417,8 +2451,10 @@
       "originalPath": "data/catalog-assets/originals/80/80afb3396198b2b0c07119389dd89fd341478a4412d4a3d634b5110e5f57da80.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5019-eb92d986603ba401.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5019-eb92d986603ba401.png",
+      "status": "integrated",
+      "review": "Compared against source: tall curved rear pillars, forward posts, upper grip positions, black steps, dip grips and orange pads preserved. Top bridge and elbow support crossmember are dark green with small physical top logo; no added components.",
+      "stagedPath": "src/assets/catalog/FM-5019/primary-01-a9a3b9f776a7.webp"
     },
     {
       "assetId": "fm-5021-ef8e32dd3f1079c0",
@@ -2429,8 +2465,10 @@
       "originalPath": "data/catalog-assets/originals/b9/b9ab34646811d345575e3b9dd17f1bb6bf699019ccd9f3ed21a444c46029672d.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5021-ef8e32dd3f1079c0.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5021-ef8e32dd3f1079c0.png",
+      "status": "integrated",
+      "review": "Visual comparison passed: inclined orange pad/seat, grey leg with adjustment holes, original rack hooks and silver storage horns retained. Existing low frame crossmember and adjoining painted corner segment dark green, modest logo on its front face. Principal geometry and perspective unchanged.",
+      "stagedPath": "src/assets/catalog/FM-5021/primary-01-131b79e928df.webp"
     },
     {
       "assetId": "fm-5022-93e0a6c8e13cc78c",
@@ -2441,8 +2479,10 @@
       "originalPath": "data/catalog-assets/originals/09/09c0805cc5a05c6b5cd6efe03db20c41dfe60a26f14d5fe38aa18216586b8460.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5022-93e0a6c8e13cc78c.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5022-93e0a6c8e13cc78c.png",
+      "status": "integrated",
+      "review": "Compared source/output: four tall rack uprights, hook strips, safety rails and chrome horn positions retained. Central seat post and adjacent cross support green with modest logo; orange upholstery, adjustment lever, black feet and grey primary structure unchanged.",
+      "stagedPath": "src/assets/catalog/FM-5022/primary-01-8db4c57b287b.webp"
     },
     {
       "assetId": "fm-5023-40336fdebd204930",
@@ -2453,8 +2493,10 @@
       "originalPath": "data/catalog-assets/originals/53/538ac20f9e8d71e8845e23a28c6753e3c1c7b72ae13052a73d1a096c5d478d90.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5023-40336fdebd204930.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5023-40336fdebd204930.png",
+      "status": "integrated",
+      "review": "Source/output reviewed: flat orange cushion, front bench leg, grey rack uprights, two-level hooks and chrome horns preserved. Existing under-bench rail and lower crossmember/corner section green; readable physical logo on existing right lower frame face. Principal geometry preserved.",
+      "stagedPath": "src/assets/catalog/FM-5023/primary-01-c8542edbfd63.webp"
     },
     {
       "assetId": "fm-5024-ce5bc191504ddea2",
@@ -2465,8 +2507,10 @@
       "originalPath": "data/catalog-assets/originals/3c/3c1cf036441ca939af6aa0d4716282b64848feb78ef645c9b38bd6e79d1ea003.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5024-ce5bc191504ddea2.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5024-ce5bc191504ddea2.png",
+      "status": "integrated",
+      "review": "Visual comparison: orange decline cushion/leg rollers and black handle retained, original grey frame/rack hooks and chrome plate horns retained. Under-bench rail with adjustment holes and lower connecting beam recolored green, small logo on lower beam. View and components preserved.",
+      "stagedPath": "src/assets/catalog/FM-5024/primary-01-cbff5bcfff00.webp"
     },
     {
       "assetId": "fm-5025-f4d5b9f827d7b544",
@@ -2477,8 +2521,10 @@
       "originalPath": "data/catalog-assets/originals/01/014b6526dbc92162f9a113ecce5c9484f0fef467e4d0dc7bbd18b3f6948d901b.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5025-f4d5b9f827d7b544.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5025-f4d5b9f827d7b544.png",
+      "status": "integrated",
+      "review": "Compared with source: inclined orange bench, separate orange pad/rollers and original black handle retained; toothed adjustment rack, hinge plate and grey rear legs preserved. Moving under-pad rail and brace green with logo. Principal geometry and adjustment mechanism remain recognizable and unchanged.",
+      "stagedPath": "src/assets/catalog/FM-5025/primary-01-37e4e3c68f77.webp"
     },
     {
       "assetId": "fm-5026-440916d1102ee6b6",
@@ -2489,8 +2535,10 @@
       "originalPath": "data/catalog-assets/originals/f6/f607c3566704b95989f03e11f6e960d597730d76782e11bf9adc7cc1bc49905b.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5026-440916d1102ee6b6.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5026-440916d1102ee6b6.png",
+      "status": "integrated",
+      "review": "Gallery source compared: split orange pads/rollers, telescoping supports, black twin footplates, grip sleeves and yellow release handles preserved. Only long base beam and diagonal connecting rail green, physical base logo. Original gallery angle and principal components retained.",
+      "stagedPath": "src/assets/catalog/FM-5026/gallery-02-b0a36e0cea72.webp"
     },
     {
       "assetId": "fm-5026-6e9bba59784c34d6",
@@ -2501,8 +2549,10 @@
       "originalPath": "data/catalog-assets/originals/83/83d25121b35624f22f103c33493d9a85a04531b6a9a3af8a388d068f64217603.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5026-6e9bba59784c34d6.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5026-6e9bba59784c34d6.png",
+      "status": "integrated",
+      "review": "Primary source compared: same camera, twin wheel locations, orange pads/rollers, two black footplates and yellow adjustment handles retained. Long base beam and diagonal linkage green, matching gallery treatment; grey telescoping/support structure and modest base logo verified.",
+      "stagedPath": "src/assets/catalog/FM-5026/primary-01-4996c3f04afa.webp"
     },
     {
       "assetId": "fm-5027-efe110251ebb94e3",
@@ -2513,8 +2563,10 @@
       "originalPath": "data/catalog-assets/originals/3e/3e440daa597d20f67003c4a3f3c18558994c8f36da8547ee5f9edd2ec44c4115.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5027-efe110251ebb94e3.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5027-efe110251ebb94e3.png",
+      "status": "integrated",
+      "review": "Source comparison passed: two sloped grey uprights with hook plates, orange elbow pad and seat, perforated seat post and yellow adjustment lever retained. Existing low longitudinal beam and curved crossbrace green, physical logo on beam; no structural change.",
+      "stagedPath": "src/assets/catalog/FM-5027/primary-01-49550e888a1b.webp"
     },
     {
       "assetId": "fm-5028-5b200123f4e73275",
@@ -2525,8 +2577,10 @@
       "originalPath": "data/catalog-assets/originals/fd/fd9a11b16dd75bcf13253221698e46778a47a25ccd62a21acbcbf9bb173b783b.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5028-5b200123f4e73275.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5028-5b200123f4e73275.png",
+      "status": "integrated",
+      "review": "Compared original rack: upright arrangement, long hook strips, safety crossbars, top grips and five storage positions per angled side maintained. Existing overhead and lower curved crossbraces green with modest upper logo; remaining grey structure and silver horns preserved.",
+      "stagedPath": "src/assets/catalog/FM-5028/primary-01-9c562b4995c5.webp"
     },
     {
       "assetId": "fm-5034-c1a095ba6194cccb",
@@ -2537,8 +2591,10 @@
       "originalPath": "data/catalog-assets/originals/81/8166acce5babe63db29b34f0eec468b2ecb309acc037a015c1c4e095249d27fd.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5034-c1a095ba6194cccb.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5034-c1a095ba6194cccb.png",
+      "status": "integrated",
+      "review": "Source and result compared: Smith bar, black bearing blocks, twin polished guide rods, spring stops, hook rails and plate-storage horns retained. Upper crossbar including existing end brackets and middle rear bar green with physical top logo. Main grey chassis unchanged; principal mechanisms preserved.",
+      "stagedPath": "src/assets/catalog/FM-5034/primary-01-455c39c38c16.webp"
     },
     {
       "assetId": "fm-5035-0f93eeefd43bec76",
@@ -2549,8 +2605,10 @@
       "originalPath": "data/catalog-assets/originals/48/4872284301313c980a4d2ee97ec3f451b120ca3b79d102543549da11cd57d6be.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5035-0f93eeefd43bec76.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5035-0f93eeefd43bec76.png",
+      "status": "integrated",
+      "review": "Compared source/output: open half-rack geometry, grey main posts and hook strips, front safety supports and chrome storage horns preserved. Only existing low rear curved crossbeam green with compact physical logo. White background and original view retained.",
+      "stagedPath": "src/assets/catalog/FM-5035/primary-01-b29c872dc0ba.webp"
     },
     {
       "assetId": "fm-5037-908565f752ff0c5c",
@@ -2561,8 +2619,10 @@
       "originalPath": "data/catalog-assets/originals/d7/d70fa017ac4b0173a079fe110cdb05f2e453531720431bda9164e396ae1000d7.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5037-908565f752ff0c5c.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5037-908565f752ff0c5c.png",
+      "status": "integrated",
+      "review": "Compared original: two-tier rack proportions and four grey legs/end frames retained; repeated black saddles remain in original tier arrangement. Only long painted shelf channels green with compact upper-channel logo. Black feet and caps preserved; saddle microdetails remain illustrative.",
+      "stagedPath": "src/assets/catalog/FM-5037/primary-01-e20b5ba50db6.webp"
     },
     {
       "assetId": "fm-5038-baaea6132138869d",
@@ -2573,8 +2633,10 @@
       "originalPath": "data/catalog-assets/originals/20/20c7ed66635133d6d1068edd985c27cf548a0359ed4cc739f8343876ff4cf60a.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5038-baaea6132138869d.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5038-baaea6132138869d.png",
+      "status": "integrated",
+      "review": "Original compared with output: long lever, rear hinge/storage frame, front handle shapes and silver loading sleeve retained. Green moving lever and painted front platform/base surround with physical logo; black foot-contact pads remain black, stationary end legs grey and chrome horns silver.",
+      "stagedPath": "src/assets/catalog/FM-5038/primary-01-b03e50fa0e7b.webp"
     },
     {
       "assetId": "fm-5039-beaf995f85c3cae4",
@@ -2585,8 +2647,10 @@
       "originalPath": "data/catalog-assets/originals/a0/a0014d875903b52deec5d312d100d4b36da1196ff2093e6e0d42abd7727d4355.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5039-beaf995f85c3cae4.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5039-beaf995f85c3cae4.png",
+      "status": "integrated",
+      "review": "Compared source: inclined rails, orange seat/back/head pads, black textured footplate, locking handles, loading and storage horns retained. Carriage painted cover and short linkage forest green with modest physical logo. Polished guides and stationary grey structure unchanged.",
+      "stagedPath": "src/assets/catalog/FM-5039/primary-01-0bdfb82e341f.webp"
     },
     {
       "assetId": "fm-5040-a5dce6cc782f9e93",
@@ -2597,8 +2661,10 @@
       "originalPath": "data/catalog-assets/originals/96/96baa3e7a2aa125dd25c82b90f1043aee4c67e1d170cee4565ea6a9842c459a8.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5040-a5dce6cc782f9e93.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5040-a5dce6cc782f9e93.png",
+      "status": "integrated",
+      "review": "Compared source/result: twin diagonal levers, pivot locations, grey perforated handle plates, black grips and yellow adjustment pins retained. Moving beams/crosslink green with physical near-beam logo; grey stationary base/rear support and silver loading/storage horns preserved.",
+      "stagedPath": "src/assets/catalog/FM-5040/primary-01-41da9e12eb7a.webp"
     },
     {
       "assetId": "fm-5041-b5503c60d2411b32",
@@ -2609,8 +2675,10 @@
       "originalPath": "data/catalog-assets/originals/83/83408c5fdc74224196a1e6b6959c8cc4a7da74ddb6d94b772f4cbf2a04647dd8.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5041-b5503c60d2411b32.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5041-b5503c60d2411b32.png",
+      "status": "integrated",
+      "review": "Compared source: long orange seat, twin black footplates, upper silver handles/black grip sections and side loading sleeves retained. Pair of moving curved levers and longitudinal base beam dark green with physical base logo; surrounding stationary supports remain grey.",
+      "stagedPath": "src/assets/catalog/FM-5041/primary-01-658763dfe8ed.webp"
     },
     {
       "assetId": "fm-5042-178218ca155e669a",
@@ -2621,8 +2689,10 @@
       "originalPath": "data/catalog-assets/originals/75/75bd5289aec2ee52b24cb547a7e3a54cc64617114efbf1a36b958ae8aa3d281d.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5042-178218ca155e669a.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5042-178218ca155e669a.png",
+      "status": "integrated",
+      "review": "Source comparison: orange pads, dual bent press arms, upper pivots, grip positions and plate horns retained. Press arms/upper links green, upper badge replaced by compact FullMuscle logo. Grey stationary frame, seat mechanism, yellow lever and central safety label preserved; tiny warning lettering illustrative.",
+      "stagedPath": "src/assets/catalog/FM-5042/primary-01-ae4c2e0189f1.webp"
     },
     {
       "assetId": "fm-5043-121533286bd662da",
@@ -2633,8 +2703,10 @@
       "originalPath": "data/catalog-assets/originals/47/47a24ba23e161fdeaf4f551d8bf74c1cd2a622586c049baf3d55ac9661bd9fb7.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5043-121533286bd662da.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5043-121533286bd662da.png",
+      "status": "integrated",
+      "review": "Compared original horizontal press: orange seating, high black footplate, seat slide/adjustable back support and yellow lever retained. Near and far moving outer beams green with logo; grey base, chrome sleeves, handrails and mechanical linkage layout preserved.",
+      "stagedPath": "src/assets/catalog/FM-5043/primary-01-2fca95fe9f0f.webp"
     },
     {
       "assetId": "fm-5044-70ac1e97b6c35fa2",
@@ -2645,8 +2717,10 @@
       "originalPath": "data/catalog-assets/originals/44/44089d28269d4f828da83158e59ef90675b8699056791903a0d710daae1077b9.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5044-70ac1e97b6c35fa2.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5044-70ac1e97b6c35fa2.png",
+      "status": "integrated",
+      "review": "Front-view comparison: symmetric grey pillars, orange back/seat/elbow pads, shaped black grips, chrome horns and central seat mechanism retained. Paired diagonal linkages and bottom crossbar green; original tiny badge replaced with physical FullMuscle logo. Right warning label remains unobstructed.",
+      "stagedPath": "src/assets/catalog/FM-5044/primary-01-9e9578919e93.webp"
     },
     {
       "assetId": "fm-5047-0eb7202ab13816dc",
@@ -2657,8 +2731,10 @@
       "originalPath": "data/catalog-assets/originals/8a/8a28fd30cb37488e203d82c16cefd60669ad176c44ce396da24a1f670c5db095.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5047-0eb7202ab13816dc.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5047-0eb7202ab13816dc.png",
+      "status": "integrated",
+      "review": "Low-resolution source compared to edited image: original incline angle, orange/brown two-piece upholstery, grey legs, black transport grip and central adjustment assembly retained. Existing long under-seat plate green with physical logo; old small leg brand cleared. Principal geometry retained; small hardware details reconstructed illustratively from limited source.",
+      "stagedPath": "src/assets/catalog/FM-5047/primary-01-4fd860d61b91.webp"
     },
     {
       "assetId": "fm-5048-58797c704e94dc8f",
@@ -2669,8 +2745,10 @@
       "originalPath": "data/catalog-assets/originals/46/4678d5f0feca91a3e95b33af17ddb1bd3d0823b7789c3272731f9113c98991e2.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5048-58797c704e94dc8f.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5048-58797c704e94dc8f.png",
+      "status": "integrated",
+      "review": "Compared original: bent silver upper handles, orange seat/rollers, yellow adjustment handle, black foot supports and complete horn/pivot arrangement retained. Paired moving diagonal flat linkages forest green with physical near-arm logo; fixed outer frame/base remains grey.",
+      "stagedPath": "src/assets/catalog/FM-5048/primary-01-4ac909e38905.webp"
     },
     {
       "assetId": "fm-5049-35526d5b0529ac80",
@@ -2681,8 +2759,10 @@
       "originalPath": "data/catalog-assets/originals/c5/c54b7654fa360673df48e0c749dfe841083ae2f795b74d7aaabf6af35db9789c.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5049-35526d5b0529ac80.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5049-35526d5b0529ac80.png",
+      "status": "integrated",
+      "review": "Compared source: original shoulder-arm bends, black multigrips, orange back/seat, long grey connector rods and chrome loading/storage horns preserved. Upper press tubes plus front/near base painted beam green with compact physical logo; grey stationary pillars and warning plate retained.",
+      "stagedPath": "src/assets/catalog/FM-5049/primary-01-78badf62e131.webp"
     },
     {
       "assetId": "fm-5050-4a1815533d8748e1",
@@ -2693,8 +2773,10 @@
       "originalPath": "data/catalog-assets/originals/d3/d34d3967cef6753c61571741baee41c96bed07b9a9858606ac68c48dd2b5fd16.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5050-4a1815533d8748e1.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5050-4a1815533d8748e1.png",
+      "status": "integrated",
+      "review": "Original compared: orange seat/twin thigh pads, three upright black grips, curved chrome loading tube and textured curved foot support preserved. Existing horizontal moving beam and two pad posts green with modest logo; grey base, stops and support geometry retained.",
+      "stagedPath": "src/assets/catalog/FM-5050/primary-01-837ef93e4696.webp"
     },
     {
       "assetId": "fm-5051-edeb8ff035956e0d",
@@ -2705,8 +2787,10 @@
       "originalPath": "data/catalog-assets/originals/2e/2e4f806f46dec6812015d874b5559ed100c960180dbf3c589cce9b50c4de59a9.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5051-edeb8ff035956e0d.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5051-edeb8ff035956e0d.png",
+      "status": "integrated",
+      "review": "Original compared: orange back/seat/shin roller, polished tubular roller support, two rear storage horns and front loading sleeve retained. Broad moving curved lever and short pivot link green with physical logo; fixed frame and seat support remain grey, black collars/feet preserved.",
+      "stagedPath": "src/assets/catalog/FM-5051/primary-01-5f24c2743df4.webp"
     },
     {
       "assetId": "fm-5052-356069d0c0c22736",
@@ -2717,8 +2801,10 @@
       "originalPath": "data/catalog-assets/originals/a0/a0f2930ff9a977ca582195088f0be370096dc73699c13363d82691776d576181.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5052-356069d0c0c22736.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5052-356069d0c0c22736.png",
+      "status": "integrated",
+      "review": "Correction visually checked against prior edit and source: small black/orange sticker removed from upper grey cross-support and replaced by smooth continuous grey metal. Green arms/logo, orange pads, handles, loading horns, linkages, silhouette, background and viewpoint retained. All principal geometry confirmed; no added labels remain on corrected beam.",
+      "stagedPath": "src/assets/catalog/FM-5052/primary-01-9c7791ffd50c.webp"
     },
     {
       "assetId": "fm-5053-84a1b98d65538de6",
@@ -2729,8 +2815,10 @@
       "originalPath": "data/catalog-assets/originals/25/25cf6576b5fb167ab5931982085bc99c297895235fd9dc9ad11d2f5b51112a63.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5053-84a1b98d65538de6.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5053-84a1b98d65538de6.png",
+      "status": "integrated",
+      "review": "Front-view original compared: specific diagonal upper silver handles, small orange wrist/elbow pads, black counterweights and grips retained; differs correctly from FM-5044. Green inner diagonal linkages and bottom crossbar with physical logo. Grey outer pillars, orange seat/back, chrome horns and right warning plate preserved.",
+      "stagedPath": "src/assets/catalog/FM-5053/primary-01-482bb3827e92.webp"
     },
     {
       "assetId": "fm-5056-35380df6154ce3ad",
@@ -2741,8 +2829,10 @@
       "originalPath": "data/catalog-assets/originals/52/52bd27dea304d67cdb760777a23872eae048765430ae34fe5831d4d54a906fe7.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5056-35380df6154ce3ad.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5056-35380df6154ce3ad.png",
+      "status": "integrated",
+      "review": "Prone-curl source compared: two orange bench pads, orange ankle roller, silver curved roller tube and plate horns, black grip/collars preserved. Long moving lever and short linkage green with physical logo; stationary arched support and base remain grey. Original view and component arrangement maintained.",
+      "stagedPath": "src/assets/catalog/FM-5056/primary-01-459e55c108b8.webp"
     },
     {
       "assetId": "fm-5057-7990ded48682aa41",
@@ -2753,8 +2843,10 @@
       "originalPath": "data/catalog-assets/originals/64/649386154642dd9707a541e1dfd2d9058b381bbbf60fad1fd5f654dabdfedd02.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5057-7990ded48682aa41.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5057-7990ded48682aa41.png",
+      "status": "integrated",
+      "review": "Compared original: rear storage posts, loading cross-tube, sloping lever and support geometry, bent silver handles/black grips and two black foot pads retained. Central moving rail and narrow front platform face green with compact physical logo; platform top and fixed frame remain grey.",
+      "stagedPath": "src/assets/catalog/FM-5057/primary-01-78d988dfb3d1.webp"
     },
     {
       "assetId": "fm-5059-ff951ae28949b5ec",
@@ -2765,8 +2857,10 @@
       "originalPath": "data/catalog-assets/originals/45/45d8f77401e1fab7fcb4c382af985207fc9dbdd1ba036a981ebd6f52cc7c132a.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5059-ff951ae28949b5ec.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5059-ff951ae28949b5ec.png",
+      "status": "integrated",
+      "review": "Compared hack-squat source: two polished inclined rails, orange shoulder/back pads, original handle positions and chrome loading/storage sleeves retained. Painted carriage backing and existing footplate back face green with physical logo. Base/support frame grey and footplate inclination preserved.",
+      "stagedPath": "src/assets/catalog/FM-5059/primary-01-e2ce54cc3c95.webp"
     },
     {
       "assetId": "fm-5060-807e4278b9db89b8",
@@ -2777,8 +2871,10 @@
       "originalPath": "data/catalog-assets/originals/d2/d29205110d438a2ed1dfc4aef4af1485fa728b05abbff4f6c67e3561f447de1e.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5060-807e4278b9db89b8.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5060-807e4278b9db89b8.png",
+      "status": "integrated",
+      "review": "Compared original combined press: burgundy upholstery configuration retained, twin polished inclined rails, locking rods, loading horns and black discs unchanged. Painted carriage backing and near low base beam green with physical base logo; stationary rear structure remains grey. View and principal geometry preserved.",
+      "stagedPath": "src/assets/catalog/FM-5060/primary-01-a50e3c9c65ac.webp"
     },
     {
       "assetId": "fm-5061-a3f1dd669292b889",
@@ -2789,8 +2885,10 @@
       "originalPath": "data/catalog-assets/originals/b2/b22dfab5cfb203d2080252926bc8044e35f256c42cf71524e1e5472ffb81e913.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-5xp-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5061-a3f1dd669292b889.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5061-a3f1dd669292b889.png",
+      "status": "integrated",
+      "review": "Compared pendulum-squat source: orange back and twin high shoulder pads, grips, curved stationary supports, footplate/legs and chrome horns preserved. Central moving diagonal linkage and narrow front platform beam green with physical fitted logo. Original camera and principal pivot layout retained.",
+      "stagedPath": "src/assets/catalog/FM-5061/primary-01-c5b116f351b7.webp"
     },
     {
       "assetId": "fm-7701-1cd388fa4f639d0e",
@@ -2801,8 +2899,10 @@
       "originalPath": "data/catalog-assets/originals/1f/1f2dfc3f5ddd0fa063c78cca4f4532746a0d020a6dcfab6ad94e8efe5831521c.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-77-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7701-1cd388fa4f639d0e.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7701.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: tall pressing arms and black frame geometry retained; red painted arms forest green; chrome weight horns/handles and black pads preserved; TZ replaced with Full Muscle on backrest.",
+      "stagedPath": "src/assets/catalog/FM-7701/primary-01-10075c7ca42f.webp"
     },
     {
       "assetId": "fm-7703-27ce5757227a87c6",
@@ -2813,8 +2913,10 @@
       "originalPath": "data/catalog-assets/originals/24/24a06e9ebd17a035b074a944a9c6bc548b6cd87319a60c9503671bf1b0689c62.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-77-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7703-27ce5757227a87c6.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7703.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: angled press geometry and inclined black backrest retained; red arms forest green; silver handgrips and weight horns unchanged; TZ replaced with Full Muscle within original backrest stitching.",
+      "stagedPath": "src/assets/catalog/FM-7703/primary-01-37efe69d7fab.webp"
     },
     {
       "assetId": "fm-7704-62490cd9a01857e8",
@@ -2825,8 +2927,10 @@
       "originalPath": "data/catalog-assets/originals/db/db5e9378444fd7e1e4400c646bd4652ec19353da3727eb062cf63d2ea5da67a9.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-77-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7704-62490cd9a01857e8.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7704.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: hanging high-row arms, black seat/chest pad, frame and small footrests retained; red painted arms forest green; chrome handles and weight horns unchanged; Full Muscle base logo.",
+      "stagedPath": "src/assets/catalog/FM-7704/primary-01-59b9dcdfa5ce.webp"
     },
     {
       "assetId": "fm-7706-79745999ad186289",
@@ -2837,8 +2941,10 @@
       "originalPath": "data/catalog-assets/originals/88/88124aadfbd827c6090aeb317868d67f56ad92fd03175fb7bf1180189b0da7fe.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-77-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7706-79745999ad186289.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7706.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: paired triangular row arms and U-shaped silver handles retained; red paint forest green; black pads/frame, slotted silver footrests and chrome horns preserved; Full Muscle base logo.",
+      "stagedPath": "src/assets/catalog/FM-7706/primary-01-be16e42db281.webp"
     },
     {
       "assetId": "fm-7707-d23fcca2ccb7e2a9",
@@ -2849,8 +2955,10 @@
       "originalPath": "data/catalog-assets/originals/b0/b0d9a025182317a62d444eba8b61d45983e82c87718d1c4c16256f5e41b46a21.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-77-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7707-d23fcca2ccb7e2a9.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7707.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: leg extension geometry and black rollers retained; broad red arms forest green while small inner adjustment selector pieces remain red; chrome and black pads/frame preserved; TZ replaced with Full Muscle.",
+      "stagedPath": "src/assets/catalog/FM-7707/primary-01-6fdf845c4eee.webp"
     },
     {
       "assetId": "fm-7708-abe6f85ffa72b266",
@@ -2861,8 +2969,10 @@
       "originalPath": "data/catalog-assets/originals/eb/eb4d2da83d17d2fafbf7139fe83e231271eb159d82864033036501f950a9b5e9.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-77-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7708-abe6f85ffa72b266.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7708.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: tall pulldown model and overhead levers retained; red painted arms forest green; red functional handle button remains red, chrome handles/horns, adjustment post, black pads and instruction plaque preserved; Full Muscle base logo.",
+      "stagedPath": "src/assets/catalog/FM-7708/primary-01-6185dc38c83e.webp"
     },
     {
       "assetId": "fm-7710-a8ac08718d196d41",
@@ -2873,8 +2983,10 @@
       "originalPath": "data/catalog-assets/originals/a1/a1fcdd3820e170df34e176274c39e5fea4ecf53c38eb51652bc321768238ecdf.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-77-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7710-a8ac08718d196d41.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7710.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: original incline press and asymmetric arm positions retained; red painted arms forest green; black frame/pads and silver grips/horns preserved; Full Muscle replaces partially occluded TZ backrest logo.",
+      "stagedPath": "src/assets/catalog/FM-7710/primary-01-f1516950070f.webp"
     },
     {
       "assetId": "fm-7711-7245b201a81c65b4",
@@ -2885,8 +2997,10 @@
       "originalPath": "data/catalog-assets/originals/35/3505c8d18f9f6fc298b9b0ccfe0be2873ddef1a45912f0cb411ab482b145ede1.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-77-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7711-7245b201a81c65b4.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7711.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: angular standing lever geometry retained; red painted assemblies forest green; silver upper handles and horns, black pivot parts, base and instruction plaque preserved; Full Muscle crossbar logo.",
+      "stagedPath": "src/assets/catalog/FM-7711/primary-01-b274770a8bea.webp"
     },
     {
       "assetId": "fm-7712-d68d16c440f2a12d",
@@ -2897,8 +3011,10 @@
       "originalPath": "data/catalog-assets/originals/c1/c12c4af2ba13df0217e8509ac9bd6818b7259a011a512c0cff66afb8e22db6a0.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-77-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7712-d68d16c440f2a12d.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7712.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: overhead joined grip, tall arm geometry and forward pad assembly retained; red levers forest green; black controls/pads/frame, silver posts/horns and instruction plaque preserved; Full Muscle base logo.",
+      "stagedPath": "src/assets/catalog/FM-7712/primary-01-f6180239b37d.webp"
     },
     {
       "assetId": "fm-7719-19a11a59297e1c32",
@@ -2909,8 +3025,10 @@
       "originalPath": "data/catalog-assets/originals/e2/e28a564db909d6fa647d58970232ed331c26e0ecdd54200dcfe3c4dda677190a.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-77-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7719-19a11a59297e1c32.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7719.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: combined machine with both seats and all original upper/lower grips retained; red levers forest green; red grip buttons, chrome and black frame/pads preserved; TZ replaced by Full Muscle on backrest.",
+      "stagedPath": "src/assets/catalog/FM-7719/primary-01-2ddcf05e8506.webp"
     },
     {
       "assetId": "fm-7721-7fa06b7d5da82d79",
@@ -2921,8 +3039,10 @@
       "originalPath": "data/catalog-assets/originals/e8/e86b1617dad1df1388f9e777c19981e9bba6f4bd3c2aac3be381e502e41ce5d8.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-77-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7721-7fa06b7d5da82d79.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm77-batch-01/FM-7721.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: flat bench press proportions, two lever arms and black bench retained; red painted levers forest green; chrome handles and weight horn unchanged; Full Muscle logo on black bench side beam.",
+      "stagedPath": "src/assets/catalog/FM-7721/primary-01-b465ef21bcc8.webp"
     },
     {
       "assetId": "fm-7803-4a356f41dda3c056",
@@ -2933,8 +3053,10 @@
       "originalPath": "data/catalog-assets/originals/1d/1df5d17b272dd00db0e1ee5a779e717b12b9d6f851b40359cc0cc96540e37b91.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-78-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7803-4a356f41dda3c056.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm78-batch-01/FM-7803.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: original press and assistance lever geometry retained; broad yellow painted arms forest green; chrome links/horns/handles, black springs/frame/pads, small controls and safety labels preserved; Full Muscle base logo.",
+      "stagedPath": "src/assets/catalog/FM-7803/primary-01-fbfff314146e.webp"
     },
     {
       "assetId": "fm-7804-fdd0918b6ec9b71a",
@@ -2945,8 +3067,10 @@
       "originalPath": "data/catalog-assets/originals/9f/9f12596cf1749fd5c4747e1ae348cd9c0fd13e01cd077da276d368c39be46cbc.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-78-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7804-fdd0918b6ec9b71a.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm78-batch-01/FM-7804.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: high-row lever geometry, chest pad and seat retained; broad yellow arms forest green while spring adjustment stalk and chest adjustment knob remain yellow; chrome rods/horns, springs, footrests and safety labels preserved.",
+      "stagedPath": "src/assets/catalog/FM-7804/primary-01-596c5688001a.webp"
     },
     {
       "assetId": "fm-7807-3069137b8a3d2264",
@@ -2957,8 +3081,10 @@
       "originalPath": "data/catalog-assets/originals/da/da009b8f2dfdf66fec2b7961ab58f520d51838ce4a5dc625e5133dc4cb048f36.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-78-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7807-3069137b8a3d2264.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm78-batch-01/FM-7807.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: leg extension geometry and black shin rollers retained; broad yellow arms/housings forest green while inner selector arc remains yellow; long chrome rods/horns, black frame/pads and safety labels preserved; Full Muscle base logo.",
+      "stagedPath": "src/assets/catalog/FM-7807/primary-01-e7d7485fc3de.webp"
     },
     {
       "assetId": "fm-7819-b935800b14a947d7",
@@ -2969,8 +3095,10 @@
       "originalPath": "data/catalog-assets/originals/49/49f7c9b2d074a96ece16b50fcd89bc7b5d3c90572512360a823a5888aed9940f.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-78-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7819-b935800b14a947d7.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm78-batch-01/FM-7819.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: combined machine with both seats, front assistance lever and all handles retained; broad yellow painted levers forest green; small yellow controls, chrome rods/horns, springs, black pads/frame and safety label preserved.",
+      "stagedPath": "src/assets/catalog/FM-7819/primary-01-5752c6c3db91.webp"
     },
     {
       "assetId": "fm-8201-6911da237f3c9ef0",

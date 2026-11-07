@@ -1,0 +1,48 @@
+{
+  "batch": "fm78-batch-01",
+  "tool": "image_gen.imagegen",
+  "referenceGreen": "#356B35",
+  "items": [
+    {
+      "sku": "FM-7803",
+      "assetId": "fm-7803-4a356f41dda3c056",
+      "sourceHash": "1df5d17b272dd00db0e1ee5a779e717b12b9d6f851b40359cc0cc96540e37b91",
+      "inputPath": "src/assets/catalog/FM-7803/primary-01-650d39d5a782.webp",
+      "outputPath": "data/catalog-branding/generated/fm78-batch-01/FM-7803.png",
+      "promptPath": "data/catalog-branding/generated/fm78-batch-01/prompts/FM-7803.json",
+      "review": "Source and result visually inspected: original press and assistance lever geometry retained; broad yellow painted arms forest green; chrome links/horns/handles, black springs/frame/pads, small controls and safety labels preserved; Full Muscle base logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7804",
+      "assetId": "fm-7804-fdd0918b6ec9b71a",
+      "sourceHash": "9f12596cf1749fd5c4747e1ae348cd9c0fd13e01cd077da276d368c39be46cbc",
+      "inputPath": "src/assets/catalog/FM-7804/primary-01-5197bc521ba6.webp",
+      "outputPath": "data/catalog-branding/generated/fm78-batch-01/FM-7804.png",
+      "promptPath": "data/catalog-branding/generated/fm78-batch-01/prompts/FM-7804.json",
+      "review": "Source and result visually inspected: high-row lever geometry, chest pad and seat retained; broad yellow arms forest green while spring adjustment stalk and chest adjustment knob remain yellow; chrome rods/horns, springs, footrests and safety labels preserved.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7807",
+      "assetId": "fm-7807-3069137b8a3d2264",
+      "sourceHash": "da009b8f2dfdf66fec2b7961ab58f520d51838ce4a5dc625e5133dc4cb048f36",
+      "inputPath": "src/assets/catalog/FM-7807/primary-01-b0da6769784b.webp",
+      "outputPath": "data/catalog-branding/generated/fm78-batch-01/FM-7807.png",
+      "promptPath": "data/catalog-branding/generated/fm78-batch-01/prompts/FM-7807.json",
+      "review": "Source and result visually inspected: leg extension geometry and black shin rollers retained; broad yellow arms/housings forest green while inner selector arc remains yellow; long chrome rods/horns, black frame/pads and safety labels preserved; Full Muscle base logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-7819",
+      "assetId": "fm-7819-b935800b14a947d7",
+      "sourceHash": "49f7c9b2d074a96ece16b50fcd89bc7b5d3c90572512360a823a5888aed9940f",
+      "inputPath": "src/assets/catalog/FM-7819/primary-01-0355225663ad.webp",
+      "outputPath": "data/catalog-branding/generated/fm78-batch-01/FM-7819.png",
+      "promptPath": "data/catalog-branding/generated/fm78-batch-01/prompts/FM-7819.json",
+      "review": "Source and result visually inspected: combined machine with both seats, front assistance lever and all handles retained; broad yellow painted levers forest green; small yellow controls, chrome rods/horns, springs, black pads/frame and safety label preserved.",
+      "status": "approved"
+    }
+  ],
+  "count": 4
+}

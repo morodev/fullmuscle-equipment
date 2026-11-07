@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5016-9b4b97cb974c5a25",
+  "sku": "FM-5016",
+  "role": "primary",
+  "sourceHash": "b46cfea2f8ac31fe7f833e10010cbbfc68099272c27a8c570f185e52537117d7",
+  "inputPath": "src/assets/catalog/FM-5016/primary-01-71bd18080810.webp",
+  "originalPath": "data/catalog-assets/originals/b4/b46cfea2f8ac31fe7f833e10010cbbfc68099272c27a8c570f185e52537117d7.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5016-9b4b97cb974c5a25.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text. FM-5016 upright seat: recolor ONLY the broad forward sloping support leg directly beneath the seat on the right/front side dark forest green. Other supporting legs/frame stay grey and both orange/brown seat and back cushions stay exactly orange/brown. Place modest FullMuscle Equipment logo across the upper visible flat face of this green front leg. Keep black seat-adjust knob and rubber feet unchanged.",
+  "review": "Source and output compared: orange back and seat upholstery, black adjustment cover and feet, rear grey legs and seat mechanism retained. Front painted leg alone is forest green with compact physical logo. Same silhouette and view.",
+  "publicSku": "FM-5016",
+  "editTarget": "src/assets/catalog/FM-5016/primary-01-71bd18080810.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:14:01.227Z",
+  "outputHash": "02819e16b4d9b996824957234bdde028786365deafd9d72df5c7576fc3c3a8ee",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

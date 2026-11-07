@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5034-c1a095ba6194cccb",
+  "sku": "FM-5034",
+  "role": "primary",
+  "sourceHash": "8166acce5babe63db29b34f0eec468b2ecb309acc037a015c1c4e095249d27fd",
+  "inputPath": "src/assets/catalog/FM-5034/primary-01-148afc2f27b4.webp",
+  "originalPath": "data/catalog-assets/originals/81/8166acce5babe63db29b34f0eec468b2ecb309acc037a015c1c4e095249d27fd.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5034-c1a095ba6194cccb.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text. FM-5034 Smith rack: recolor ONLY the upper horizontal crossmember spanning the two side assemblies and the existing middle rear horizontal crossmember dark forest green. Main tall columns, sloping rear posts, side frame and hook strips remain grey. Preserve exact barbell, sliding black bearing carriages, polished vertical guide rods, spring stops, plate horns and all visible mechanics. Small physical FullMuscle Equipment logo on existing upper green crossmember, no added plate.",
+  "review": "Source and result compared: Smith bar, black bearing blocks, twin polished guide rods, spring stops, hook rails and plate-storage horns retained. Upper crossbar including existing end brackets and middle rear bar green with physical top logo. Main grey chassis unchanged; principal mechanisms preserved.",
+  "publicSku": "FM-5034",
+  "editTarget": "src/assets/catalog/FM-5034/primary-01-148afc2f27b4.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:22:11.394Z",
+  "outputHash": "936313f6daa00cb6b03eaacbbc8443cf25f08530b42e30e4503e94b8da632865",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

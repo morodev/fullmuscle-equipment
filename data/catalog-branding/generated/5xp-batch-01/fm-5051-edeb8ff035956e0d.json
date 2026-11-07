@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5051-edeb8ff035956e0d",
+  "sku": "FM-5051",
+  "role": "primary",
+  "sourceHash": "2e4f806f46dec6812015d874b5559ed100c960180dbf3c589cce9b50c4de59a9",
+  "inputPath": "src/assets/catalog/FM-5051/primary-01-0a75612aa3d7.webp",
+  "originalPath": "data/catalog-assets/originals/2e/2e4f806f46dec6812015d874b5559ed100c960180dbf3c589cce9b50c4de59a9.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5051-edeb8ff035956e0d.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text.  If there is a tiny original manufacturer brand badge such as TZ, replace ONLY that vendor badge with FullMuscle branding or clean matching paint; preserve all safety and instruction labels exactly. FM-5051 leg extension: recolor ONLY the long broad curved moving lever descending from knee-height pivot toward the front loading sleeve dark forest green, retaining exact shape. Keep polished tubular roller-support arm and all loading/storage horns silver, grey stationary curved rear frame/base and seat support grey, orange back/seat/shin roller unchanged. Put modest FullMuscle Equipment logo along the broad green lever side in its perspective. Preserve black collars and feet.",
+  "review": "Original compared: orange back/seat/shin roller, polished tubular roller support, two rear storage horns and front loading sleeve retained. Broad moving curved lever and short pivot link green with physical logo; fixed frame and seat support remain grey, black collars/feet preserved.",
+  "publicSku": "FM-5051",
+  "editTarget": "src/assets/catalog/FM-5051/primary-01-0a75612aa3d7.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:31:44.365Z",
+  "outputHash": "807a6547b4ac64bbf95b91c8d2f28d93929a0ab2a6016368acf0eafb49c5ab8d",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

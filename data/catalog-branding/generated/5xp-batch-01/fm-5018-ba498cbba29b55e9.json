@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5018-ba498cbba29b55e9",
+  "sku": "FM-5018",
+  "role": "primary",
+  "sourceHash": "803cbfdf91b77e6d758b616eb689e4b00f39b7be99928329cb49daa3c723b91b",
+  "inputPath": "src/assets/catalog/FM-5018/primary-01-0a26a89a7c86.webp",
+  "originalPath": "data/catalog-assets/originals/80/803cbfdf91b77e6d758b616eb689e4b00f39b7be99928329cb49daa3c723b91b.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5018-ba498cbba29b55e9.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text. FM-5018 plate tree: recolor ONLY the small central triangular tray and its downward rectangular front lip dark forest green. All three sloping legs remain grey and four projecting storage horns remain silver/chrome with black collars, exact locations. Put modest FullMuscle Equipment logo on the existing downward green tray lip.",
+  "review": "Compared with original: three grey supports, four chrome plate horns with black collars, central connector and black feet unchanged in number and placement. Only central existing tray and lip dark green; physical logo on lip. Geometry and white setting retained.",
+  "publicSku": "FM-5018",
+  "editTarget": "src/assets/catalog/FM-5018/primary-01-0a26a89a7c86.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:15:01.917Z",
+  "outputHash": "df300de84d7e42eb48fdcaf6ded8fc3a71f9b92d50bb085c32f8847f94a0c23e",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5028-5b200123f4e73275",
+  "sku": "FM-5028",
+  "role": "primary",
+  "sourceHash": "fd9a11b16dd75bcf13253221698e46778a47a25ccd62a21acbcbf9bb173b783b",
+  "inputPath": "src/assets/catalog/FM-5028/primary-01-01c760f6ca78.webp",
+  "originalPath": "data/catalog-assets/originals/fd/fd9a11b16dd75bcf13253221698e46778a47a25ccd62a21acbcbf9bb173b783b.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5028-5b200123f4e73275.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text. FM-5028 power rack: recolor ONLY the existing overhead front horizontal crossbar between rack columns and the short low curved crossbrace joining the two forward plate-storage posts dark forest green. Keep upright frames, hook strips, safety bars, angled storage posts and all silver storage horns exact grey/silver, black grips/collars unchanged. Place small physical FullMuscle Equipment logo on existing overhead green crossbar visible face, without changing its width or adding a panel.",
+  "review": "Compared original rack: upright arrangement, long hook strips, safety crossbars, top grips and five storage positions per angled side maintained. Existing overhead and lower curved crossbraces green with modest upper logo; remaining grey structure and silver horns preserved.",
+  "publicSku": "FM-5028",
+  "editTarget": "src/assets/catalog/FM-5028/primary-01-01c760f6ca78.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:21:31.235Z",
+  "outputHash": "20013d6f16619dd2a0d2bcc4c08184a2712ffbf7fe82394a011757156f2d3730",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

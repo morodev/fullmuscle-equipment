@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5050-4a1815533d8748e1",
+  "sku": "FM-5050",
+  "role": "primary",
+  "sourceHash": "d34d3967cef6753c61571741baee41c96bed07b9a9858606ac68c48dd2b5fd16",
+  "inputPath": "src/assets/catalog/FM-5050/primary-01-abe74c871c94.webp",
+  "originalPath": "data/catalog-assets/originals/d3/d34d3967cef6753c61571741baee41c96bed07b9a9858606ac68c48dd2b5fd16.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5050-4a1815533d8748e1.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text.  If there is a tiny original manufacturer brand badge such as TZ, replace ONLY that vendor badge with FullMuscle branding or clean matching paint; preserve all safety and instruction labels exactly. FM-5050 seated calf machine: recolor ONLY the long horizontal moving beam below the two orange thigh pads and its two short vertical painted pad-support posts dark forest green. Keep curved loading sleeve cross-tube and projecting sleeves silver, upper handle cross-tube silver, three black grips black, orange seat and both orange knee pads unchanged. Main stationary base and supports grey, textured curved metal foot support silver. Small physical FullMuscle Equipment logo on visible side of existing green horizontal moving beam.",
+  "review": "Original compared: orange seat/twin thigh pads, three upright black grips, curved chrome loading tube and textured curved foot support preserved. Existing horizontal moving beam and two pad posts green with modest logo; grey base, stops and support geometry retained.",
+  "publicSku": "FM-5050",
+  "editTarget": "src/assets/catalog/FM-5050/primary-01-abe74c871c94.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:31:14.161Z",
+  "outputHash": "cc959117d1ef5c478429c5e1dd61f6744453ac204ac5917545b58bdccdd3305a",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

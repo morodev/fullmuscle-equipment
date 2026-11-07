@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5026-440916d1102ee6b6",
+  "sku": "FM-5026",
+  "role": "gallery",
+  "sourceHash": "f607c3566704b95989f03e11f6e960d597730d76782e11bf9adc7cc1bc49905b",
+  "inputPath": "src/assets/catalog/FM-5026/gallery-02-7f4f784a7ba4.webp",
+  "originalPath": "data/catalog-assets/originals/f6/f607c3566704b95989f03e11f6e960d597730d76782e11bf9adc7cc1bc49905b.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5026-440916d1102ee6b6.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text. FM-5026 gallery view of adjustable hyperextension: recolor ONLY the long low horizontal base beam and the diagonal connecting rail running from central hinge down toward the footplate hinge dark forest green. Keep upper telescoping hip-pad support, rear/base legs, silver perforated adjustments and black footplates grey/silver/black respectively. Orange split hip pads and orange calf rollers remain original, black grips and yellow release handles exact. Small physical FullMuscle Equipment logo centered on visible long green base beam. Preserve this specific gallery camera view.",
+  "review": "Gallery source compared: split orange pads/rollers, telescoping supports, black twin footplates, grip sleeves and yellow release handles preserved. Only long base beam and diagonal connecting rail green, physical base logo. Original gallery angle and principal components retained.",
+  "publicSku": "FM-5026",
+  "editTarget": "src/assets/catalog/FM-5026/gallery-02-7f4f784a7ba4.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:19:41.288Z",
+  "outputHash": "e6479dd4db6c6554466c115a535833f67aa69f454e639675c3872600cfa88313",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

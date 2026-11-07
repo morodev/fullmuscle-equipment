@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5017-f102948ed3d0d11b",
+  "sku": "FM-5017",
+  "role": "primary",
+  "sourceHash": "7f2dcecfa4edf66d980b27a5d3b9c7f54d615db1da8263ad4b5c249ec250274c",
+  "inputPath": "src/assets/catalog/FM-5017/primary-01-9ebf8a0d7910.webp",
+  "originalPath": "data/catalog-assets/originals/7f/7f2dcecfa4edf66d980b27a5d3b9c7f54d615db1da8263ad4b5c249ec250274c.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5017-f102948ed3d0d11b.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text. FM-5017 flat bench: recolor ONLY the long central longitudinal painted support beam directly underneath the orange cushion dark forest green. Legs, wheel supports and silver transport handle remain grey/silver, rubber grip black; orange upholstery unchanged. Place modest FullMuscle Equipment logo on the broad side face of the existing green central beam below the cushion.",
+  "review": "Viewed against source: long orange cushion, angled grey legs, black feet and wheel, curved silver transport handle with black grip retained. Existing longitudinal under-seat beam is dark green with physical FullMuscle logo; geometry and camera view retained.",
+  "publicSku": "FM-5017",
+  "editTarget": "src/assets/catalog/FM-5017/primary-01-9ebf8a0d7910.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:14:25.783Z",
+  "outputHash": "39b2ae610068a390cd2437a91dff5e08cc9407d4832d57a98fbb9ff602985f39",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

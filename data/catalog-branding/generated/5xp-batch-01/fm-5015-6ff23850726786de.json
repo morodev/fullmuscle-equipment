@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5015-6ff23850726786de",
+  "sku": "FM-5015",
+  "role": "primary",
+  "sourceHash": "e1f3fbf907daa73fe5e24df70e537c900ca44a069948a51ef3cee49ddba650cf",
+  "inputPath": "src/assets/catalog/FM-5015/primary-01-8b2dee7f1e93.webp",
+  "originalPath": "data/catalog-assets/originals/e1/e1f3fbf907daa73fe5e24df70e537c900ca44a069948a51ef3cee49ddba650cf.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5015-6ff23850726786de.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text. FM-5015 storage rack: recolor ONLY the existing upper horizontal crossbar and mid-height horizontal connecting crossbars dark forest green. Keep all four sloping main legs, five-level hook strips and hooks their original grey, with the exact same number and placement of hooks. Place one compact FullMuscle Equipment logo centered on the existing visible top horizontal green crossbar.",
+  "review": "Compared with source: four grey sloping legs, original five-level hook strips, feet and perspective retained; only upper and middle joining beams recolored dark green, compact physical logo on upper beam. Principal geometry and framing preserved.",
+  "publicSku": "FM-5015",
+  "editTarget": "src/assets/catalog/FM-5015/primary-01-8b2dee7f1e93.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:13:22.288Z",
+  "outputHash": "bce38bae26f59f9277ce11a92beb4856a7515bb1df7a883d90086f1a282e4530",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

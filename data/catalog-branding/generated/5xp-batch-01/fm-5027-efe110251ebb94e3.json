@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5027-efe110251ebb94e3",
+  "sku": "FM-5027",
+  "role": "primary",
+  "sourceHash": "3e440daa597d20f67003c4a3f3c18558994c8f36da8547ee5f9edd2ec44c4115",
+  "inputPath": "src/assets/catalog/FM-5027/primary-01-aef28d4d97b9.webp",
+  "originalPath": "data/catalog-assets/originals/3e/3e440daa597d20f67003c4a3f3c18558994c8f36da8547ee5f9edd2ec44c4115.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5027-efe110251ebb94e3.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text. FM-5027 preacher curl bench: recolor ONLY the low horizontal beam connecting seat support to front frame and the short low curved crossbrace between front sloping uprights dark forest green. Keep two sloping front uprights and hook plates grey, adjustable seat post grey with original holes/yellow lever; orange seat and elbow pad unchanged. Put modest FullMuscle Equipment logo on the visible low green longitudinal beam.",
+  "review": "Source comparison passed: two sloped grey uprights with hook plates, orange elbow pad and seat, perforated seat post and yellow adjustment lever retained. Existing low longitudinal beam and curved crossbrace green, physical logo on beam; no structural change.",
+  "publicSku": "FM-5027",
+  "editTarget": "src/assets/catalog/FM-5027/primary-01-aef28d4d97b9.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:20:51.404Z",
+  "outputHash": "b8ecce1923066b9433ee03f04d304798abc1b0057918ac596203473ee9172954",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

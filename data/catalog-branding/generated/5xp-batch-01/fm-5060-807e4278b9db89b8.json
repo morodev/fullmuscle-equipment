@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5060-807e4278b9db89b8",
+  "sku": "FM-5060",
+  "role": "primary",
+  "sourceHash": "d29205110d438a2ed1dfc4aef4af1485fa728b05abbff4f6c67e3561f447de1e",
+  "inputPath": "src/assets/catalog/FM-5060/primary-01-3fba0fd170d6.webp",
+  "originalPath": "data/catalog-assets/originals/d2/d29205110d438a2ed1dfc4aef4af1485fa728b05abbff4f6c67e3561f447de1e.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5060-807e4278b9db89b8.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text.  If there is a tiny original manufacturer brand badge such as TZ, replace ONLY that vendor badge with FullMuscle branding or clean matching paint; preserve all safety and instruction labels exactly. FM-5060 combined hack/leg press: recolor ONLY the painted moving carriage backing/support frame directly behind central burgundy back pad and shoulder pads, plus the long low near-side base beam dark forest green. Keep ALL burgundy/maroon upholstery original color and shape, both long polished inclined rails silver, side locking rails and chrome loading/storage horns silver, black discs/stops unchanged, stationary upper frame grey. Small physical FullMuscle Equipment logo along visible side of green lower base beam. No new labels or components; preserve exact source view and arrangement of all pads.",
+  "review": "Compared original combined press: burgundy upholstery configuration retained, twin polished inclined rails, locking rods, loading horns and black discs unchanged. Painted carriage backing and near low base beam green with physical base logo; stationary rear structure remains grey. View and principal geometry preserved.",
+  "publicSku": "FM-5060",
+  "editTarget": "src/assets/catalog/FM-5060/primary-01-3fba0fd170d6.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:35:37.505Z",
+  "outputHash": "e225aa426812cf505f42d087c5fffcec57dd4cf1b1448805a4f32e134ee839f2",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

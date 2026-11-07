@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-5059-ff951ae28949b5ec",
+  "sku": "FM-5059",
+  "role": "primary",
+  "sourceHash": "45d8f77401e1fab7fcb4c382af985207fc9dbdd1ba036a981ebd6f52cc7c132a",
+  "inputPath": "src/assets/catalog/FM-5059/primary-01-9267d7e91bf8.webp",
+  "originalPath": "data/catalog-assets/originals/45/45d8f77401e1fab7fcb4c382af985207fc9dbdd1ba036a981ebd6f52cc7c132a.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-5xp-series",
+  "outputPath": "data/catalog-branding/generated/5xp-batch-01/fm-5059-ff951ae28949b5ec.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise product photograph edit for the Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are visual references ONLY for satin DARK FOREST GREEN paint approximately #356B35 and the physical compact italic white/green 'FullMuscle' logo with tiny 'EQUIPMENT' beneath. This is a color-and-branding edit: strictly preserve exact silhouette, geometry, perspective, white opaque background, composition/canvas, floor shadow, every mechanical part, bolt, hole, rod, protective foot, original padding color/material, rubber, polished chrome/silver, warning/instruction labels and controls. Do not invent components, supports, overlays, people or text outside the machine. Keep grey painted fixed chassis grey except the specific paint zones below; all rubber feet and grips remain black. Logo is modest, readable, physically printed on an existing painted surface in its perspective, never a new plate or floating text.  If there is a tiny original manufacturer brand badge such as TZ, replace ONLY that vendor badge with FullMuscle branding or clean matching paint; preserve all safety and instruction labels exactly. FM-5059 hack squat: recolor ONLY existing painted metal backing/support frame immediately behind the orange backrest and shoulder pads, and the broad visible underside/back face of the front angled footplate dark forest green. Keep both long inclined polished cylindrical guide rails silver, base and rear supports grey, chrome loading/storage horns silver, grips black and orange upholstery exactly original. Modest physical FullMuscle Equipment logo on the existing broad green back face of the footplate. Preserve footplate angle and whole machine geometry.",
+  "review": "Compared hack-squat source: two polished inclined rails, orange shoulder/back pads, original handle positions and chrome loading/storage sleeves retained. Painted carriage backing and existing footplate back face green with physical logo. Base/support frame grey and footplate inclination preserved.",
+  "publicSku": "FM-5059",
+  "editTarget": "src/assets/catalog/FM-5059/primary-01-9267d7e91bf8.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:35:07.227Z",
+  "outputHash": "30acb7c9261cc6f94894b1c4178974deec4ba159b7d8c406ad0a44f9bb66e6d8",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}
