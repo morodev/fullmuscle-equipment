@@ -1,0 +1,8 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-GC-5104/primary-01-1521defd269d.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Edit the first product photo; second image is only brand color reference. Preserve exact machine design, physical geometry, existing parts, viewpoint, proportions and white background. Change ONLY the existing red/burgundy painted upper long angular lever frame and its red/burgundy structural brackets to satin dark forest green #356B35. Keep black shoulder pads and handgrips, black frame/tower and silver diamond-tread footplate, silver guide rods, cables, weight stack and controls unchanged. Replace the small red TZ FITNESS badge at top of tower with one white italic Full Muscle logo / tiny EQUIPMENT, no red background. Remove white supplier letters behind stack, leave shield plain black. Preserve top instructional diagrams and original left safety sticker. Realistic painted finish and printed badge. No new machine parts, no duplicated logos, no new stickers or people."
+}

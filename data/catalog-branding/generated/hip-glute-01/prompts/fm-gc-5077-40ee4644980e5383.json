@@ -1,0 +1,8 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-GC-5077/primary-01-5f956a069040.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Edit the first product photo; second image is only brand color reference. Preserve exact machine design, physical geometry, existing parts, viewpoint, proportions and white background. Change ONLY the existing red central hanging rectangular lever to satin dark forest green #356B35, keeping its chrome horizontal loading bar bright silver. Keep the entire outer frame black, black top pad, handles, rubber feet and silver side stepping plates unchanged. Add one modest white italic Full Muscle logo with tiny EQUIPMENT on the existing black upper right horizontal side plate immediately under the top pad. Do not cover bolts. Realistic painted finish and printed badge. No new machine parts, no duplicated logos, no new stickers or people."
+}

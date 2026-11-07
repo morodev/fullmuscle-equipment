@@ -1,0 +1,408 @@
+{
+  "batch": "mp-batch-01",
+  "tool": "image_gen.imagegen",
+  "referenceGreen": "#356B35",
+  "items": [
+    {
+      "sku": "FM-MP-8138",
+      "assetId": "fm-mp-8138-a2b28830f24b41d8",
+      "sourceHash": "e1157361b6fc6b7ee6325198498e7554db1d12f77ed31329762f442156f5ac9a",
+      "inputPath": "src/assets/catalog/FM-MP-8138/primary-01-4fcdba23de52.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8138.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8138.json",
+      "review": "Source and result visually inspected: red painted upper arms and lower linkage green; flexible hanging straps remain red, black grips and bench, silver slotted footplates and weight sleeves retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8139",
+      "assetId": "fm-mp-8139-f29b24c10cd436a8",
+      "sourceHash": "d87e051e44405dc6a609a75f0a7c9c5c2882038b759eaf0e22fed398f6850b5d",
+      "inputPath": "src/assets/catalog/FM-MP-8139/primary-01-88c0815cb980.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8139.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8139.json",
+      "review": "Source and result visually inspected: red thigh-pad supports and broad lever arms green; stitched pads, black foot-contact rollers, chrome sleeve, silver adjustments and original seat frame retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8140",
+      "assetId": "fm-mp-8140-8d7d5331e1659c7d",
+      "sourceHash": "15a9c33388df0ff77f8d8c8308ddb44cdee456e78e0911ef49bbf01a24e4166b",
+      "inputPath": "src/assets/catalog/FM-MP-8140/primary-01-3341a6ee0a45.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8140.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8140.json",
+      "review": "Source and result visually inspected: broad curved arms green; top tubular functional control remains red and selector tab yellow, chrome sleeves, silver slotted platform and black grips retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8141",
+      "assetId": "fm-mp-8141-bf495a9e60025f2b",
+      "sourceHash": "3a451ff966fb91dee93465f403efb45750839b7cc6cb8ed78c6097b79539a05e",
+      "inputPath": "src/assets/catalog/FM-MP-8141/primary-01-c46fc69d7d0d.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8141.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8141.json",
+      "review": "Source and result visually inspected: long moving rails and broad weight-bearing crossbar green; black handles/pads, silver sleeves, slotted footplates and adjustment hardware retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8142",
+      "assetId": "fm-mp-8142-11dae4f84193e641",
+      "sourceHash": "a835d70439d3e3a1d8814c8ce4c7ebf22ca27053632e2bd67998c08dbc9b39f8",
+      "inputPath": "src/assets/catalog/FM-MP-8142/primary-01-db1f66bb0e1a.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8142.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8142.json",
+      "review": "Source and result visually inspected: original red arms, housings, pad backplates and lower linkage green; black stitched upholstery, flexible belts and silver adjustment rods retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8143",
+      "assetId": "fm-mp-8143-23fe9b62b6f2435c",
+      "sourceHash": "d7deb805a5dd9f280dd74c8777dae8032c43207e3a78500380930d90251ea298",
+      "inputPath": "src/assets/catalog/FM-MP-8143/primary-01-b99564fe73d8.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8143.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8143.json",
+      "review": "Source and result visually inspected: curved tubular press arms green; grip assemblies, chrome sleeves, black counterweights, stitched bench and inclination mechanism retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8144",
+      "assetId": "fm-mp-8144-c4d940de581cd41c",
+      "sourceHash": "de3757bd0d7cb9cf40f71c7043177f7bac1917b81b12d86903d09e90ec05a49b",
+      "inputPath": "src/assets/catalog/FM-MP-8144/primary-01-6b20ad8ca662.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8144.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8144.json",
+      "review": "Source and result visually inspected: central curved moving bar and broad brackets green; original functional controls, black grips, chrome guide rods/sleeves, side shrouds and platform retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8145",
+      "assetId": "fm-mp-8145-a687b18062220e44",
+      "sourceHash": "50518bd0df244203eddfd2c013b583ae9967cb166f13fd85070a467ba4c2066f",
+      "inputPath": "src/assets/catalog/FM-MP-8145/primary-01-4e6f71a167e7.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8145.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8145.json",
+      "review": "Source and result visually inspected: red curved frame and mounting brackets green; chrome upright adjustment posts, black stitched roller and pads, footplate and front adjusters retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8146",
+      "assetId": "fm-mp-8146-90833826d8d1e031",
+      "sourceHash": "797606ff3224f9276a1b5043d81e8630de0d87fab0a41de506042eb903450272",
+      "inputPath": "src/assets/catalog/FM-MP-8146/primary-01-1939c2390892.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8146.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8146.json",
+      "review": "Source and result visually inspected: overhead lat arms green; light gray seat retained, black knee pads, grip array, chrome post/sleeves and red warning label preserved.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8147A",
+      "assetId": "fm-mp-8147a-fe248a4f64bf22f9",
+      "sourceHash": "a705c2f21659ed7485a3a5a1bc747d13edf741b2c6c3047d5168e4403d9e3262",
+      "inputPath": "src/assets/catalog/FM-MP-8147A/primary-01-88537f4921b8.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8147A.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8147A.json",
+      "review": "Source and result visually inspected: upper lever pair and lower loading arm green; black flexible belts, pads, grip rubber, chrome sleeves and original warning label retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8148",
+      "assetId": "fm-mp-8148-09fac0780d3b8bb1",
+      "sourceHash": "e440fac967935e2859fff1aaa282f649f34b0e05031b6ef118ff84c4605c3fba",
+      "inputPath": "src/assets/catalog/FM-MP-8148/primary-01-600cd3f737b0.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8148.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8148.json",
+      "review": "Source and result visually inspected: red frame rails/crossbars green; small functional release lever remains red, chrome guide rods and sleeves, pads and angled metal footplate retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8149",
+      "assetId": "fm-mp-8149-ec234890206170d7",
+      "sourceHash": "57fb167267635c829cce60b79d1316b3037de55fe0f144885b1b30fad994fbf1",
+      "inputPath": "src/assets/catalog/FM-MP-8149/primary-01-530c2162ecb4.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8149.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8149.json",
+      "review": "Source and result visually inspected: broad sled and lower shoulder-pad supports green; thin red tilt-adjustment actuator retained red, slotted footplate and chrome sleeves silver, black pads/frame retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8150",
+      "assetId": "fm-mp-8150-e79a2ee6fe680ddd",
+      "sourceHash": "fcaf15c2d8ab6892e1aeffd9d2bbe26f7f25c77a645fc668acf3ba3441b93c1f",
+      "inputPath": "src/assets/catalog/FM-MP-8150/primary-01-f20e9d96ad53.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8150.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8150.json",
+      "review": "Source and result visually inspected: central lever and lower painted loading disc green; black handgrips/frame, silver footplate and sleeve, red safety label retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8151",
+      "assetId": "fm-mp-8151-c1d254223ee16b55",
+      "sourceHash": "b9f579c2808c931334739c3ca9bbe739eed48515264bd34bd1ba7ec0b55a9fbe",
+      "inputPath": "src/assets/catalog/FM-MP-8151/primary-01-7341a286934b.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8151.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8151.json",
+      "review": "Source and result visually inspected: upper red lever structure and lower link green; black shoulder pads/knobs, silver adjustment rod, chrome sleeves and spring clips retained; TZ replaced.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8152",
+      "assetId": "fm-mp-8152-572e9d787a932905",
+      "sourceHash": "6161b9ad57fd8ab16de2dff3a82a3b43f422501719f2db337b35a09210d486ef",
+      "inputPath": "src/assets/catalog/FM-MP-8152/primary-01-a7bcee2d428a.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8152.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8152.json",
+      "review": "Source and result visually inspected: independent rectangular press levers green; black grips, silver sleeves/pivots and original scissor bench adjustment mechanism retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8153",
+      "assetId": "fm-mp-8153-81e179773c7ee747",
+      "sourceHash": "e223e6f53919ea734f27547408a1e9ba128e27440a5f8d4cf62d05c70315e05c",
+      "inputPath": "src/assets/catalog/FM-MP-8153/primary-01-d1ee24efc8d7.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8153.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8153.json",
+      "review": "Source and result visually inspected: paired upper incline-bench levers green; black upholstery, belts/cables, foot roller and chrome sleeves retained, TZ replaced on top arch.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8154",
+      "assetId": "fm-mp-8154-90d05380a8777927",
+      "sourceHash": "1db9ea8999c0aa2ba249005f3d7b69dbc2335433a98fb3483e849267b5b5b2d7",
+      "inputPath": "src/assets/catalog/FM-MP-8154/primary-01-a0bce9995b34.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8154.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8154.json",
+      "review": "Source and result visually inspected: upper moving structure and pad-backing rail green; hanging pad shape, black grips, silver loading sleeves/clips, treaded platform and safety stop retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8155",
+      "assetId": "fm-mp-8155-e414bf21398145a7",
+      "sourceHash": "171e4f53260df80020ea617c7450f35b2fb9c27c479babf2e47f2482693de3d3",
+      "inputPath": "src/assets/catalog/FM-MP-8155/primary-01-4213e6fcb925.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8155.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8155.json",
+      "review": "Source and result visually inspected: curved shoulder-press arms green; yellow caution labels preserved, black grips/counterweights, stitched seat and silver adjustments retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8156",
+      "assetId": "fm-mp-8156-47682df70ab9a563",
+      "sourceHash": "dc1fb4efc502ae6f68666859a8dafaff9f199b1a531b23e764703ef8099906e2",
+      "inputPath": "src/assets/catalog/FM-MP-8156/primary-01-27f5d31a5944.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8156.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8156.json",
+      "review": "Source and result visually inspected: triangular loading arm green; black stitched rollers and upper grips, silver sleeves, height controls and metal foot step retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8157",
+      "assetId": "fm-mp-8157-6d993ce25aa099c5",
+      "sourceHash": "fd5d5986d3e900041f18be13c65b602cbc4ef0d999a7b08d1a0f6a68678ea948",
+      "inputPath": "src/assets/catalog/FM-MP-8157/primary-01-4a1652bf614c.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8157.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8157.json",
+      "review": "Source and result visually inspected: central loading frame green; black notched safety ladders and release handle preserved, chrome sleeves/clips, silver platform and red warning label retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8158",
+      "assetId": "fm-mp-8158-b1c186c0c2364f05",
+      "sourceHash": "b14f80e25d82ab6be21384fd38a525549395a0a1d24c46a64f5bf209f2363d97",
+      "inputPath": "src/assets/catalog/FM-MP-8158/primary-01-c8f1869f1462.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8158.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8158.json",
+      "review": "Source and result visually inspected: paired upper rails green; hanging straps and lat bar remain black, chrome post/sleeves, black lower loading arm and seat retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8160",
+      "assetId": "fm-mp-8160-89b6c3504bcb18c8",
+      "sourceHash": "865c8f35a3ed14a1e54e4745840dd09c43daa16d1d3155d29e3de4679a90b33d",
+      "inputPath": "src/assets/catalog/FM-MP-8160/primary-01-431edf297fba.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8160.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8160.json",
+      "review": "Source and result visually inspected: curved press arms and rear loading lever green; black grip shapes and linkage rods, silver pivots/sleeves, yellow caution and red warning labels retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8163",
+      "assetId": "fm-mp-8163-73ec2248f47b2a4c",
+      "sourceHash": "fe4bbf7bf1c0b7ac8b5de9a24ecfe8506eb06170e23a926ac7e3b1a423a68857",
+      "inputPath": "src/assets/catalog/FM-MP-8163/primary-01-18b9fb660c3a.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8163.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8163.json",
+      "review": "Source and result visually inspected: paired long leg levers and loading crossmembers green; silver treaded footplates, black pads/grips and adjustment controls retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8165",
+      "assetId": "fm-mp-8165-24c5a52e6873007e",
+      "sourceHash": "2c3e1d839376cceb703f50e615ea163449c365bc3b86de6a84277f4750eab8dd",
+      "inputPath": "src/assets/catalog/FM-MP-8165/primary-01-ede316ea2cda.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8165.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8165.json",
+      "review": "Source and result visually inspected: curved overhead and rear steel levers green; both flexible straps remain red, black rubber grips, stitched pads, chrome sleeves and seat rack retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8166",
+      "assetId": "fm-mp-8166-b5ef592ca70555bb",
+      "sourceHash": "567aee40c848415596e5e410b25678d849c1169a2322594d5f8ab32e128fb4b2",
+      "inputPath": "src/assets/catalog/FM-MP-8166/primary-01-b15ad265663a.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8166.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8166.json",
+      "review": "Source and result visually inspected: tall curved rowing lever and lower metal handle connector green; black grips, silver slotted footplates, stitched bench and yellow warning triangle retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8167",
+      "assetId": "fm-mp-8167-3c968240e96057d1",
+      "sourceHash": "0973919346e871d3aac631aa18bc01eabbb79b09e956800647a8176e0a0fe7ff",
+      "inputPath": "src/assets/catalog/FM-MP-8167/primary-01-cf2add6bde10.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8167.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8167.json",
+      "review": "Source and result visually inspected: upper twin rectangular levers green; yellow release handle remains yellow, all rubber grips black, chrome loading sleeves and black four-post frame retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8168",
+      "assetId": "fm-mp-8168-98bfdb1abe01815a",
+      "sourceHash": "5c18b338a8b592225744a9629ebd0be680c81c11229c4c71158691263008e1ae",
+      "inputPath": "src/assets/catalog/FM-MP-8168/primary-01-0b682ac20356.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8168.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8168.json",
+      "review": "Source and result visually inspected: upper press beams green, small red spring adjustment pins retained red with silver caps; black pads, seat rack, chrome sleeves, silver footplates and warning colors preserved.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8169",
+      "assetId": "fm-mp-8169-4eebd614d2b4def5",
+      "sourceHash": "f4e5b3b8ae61252707856a168bebade43c22d0b6e322363a1f54069b7f13ef23",
+      "inputPath": "src/assets/catalog/FM-MP-8169/primary-01-ad745839b879.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8169.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8169.json",
+      "review": "Source and result visually inspected: red tubular moving arms and metal grip mounts green; black grips, cables, pulleys, gas cylinder, adjustment rack, stitched pads and warning labels retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8170",
+      "assetId": "fm-mp-8170-c8ec7f79c4443556",
+      "sourceHash": "460a8b4b2cc628eee18ed3eda8a0ba489c3f6e1e2c801d024cbae92f53459b38",
+      "inputPath": "src/assets/catalog/FM-MP-8170/primary-01-24b58ac6d3d5.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8170.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8170.json",
+      "review": "Source and final corrected result visually inspected: structural carriages green, red safety-release handle retained. Initial generation recolored a bare-metal rear crossbar; localized imagegen correction restored silver crossbar. Chrome guides, sleeves, footplate and black upholstery retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8171",
+      "assetId": "fm-mp-8171-ba040042c2ec09fc",
+      "sourceHash": "4757ad22bcee7958a28f26534ebeb927ae57948c1046e40adaf317a0a16419c5",
+      "inputPath": "src/assets/catalog/FM-MP-8171/primary-01-3fa6b4595808.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8171.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8171.json",
+      "review": "Source and result visually inspected: upper shoulder-load levers and lower moving linkages green; black shoulder pads, belts, gas struts and rollers retained, lower guides and weight sleeves remain chrome, yellow warning preserved.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8172",
+      "assetId": "fm-mp-8172-240c1badaf73b930",
+      "sourceHash": "d48487ab08ead401ca9cc740aaac6fefcb43e019e10e4ce9cb2cf7efc2f9ee87",
+      "inputPath": "src/assets/catalog/FM-MP-8172/primary-01-b9b7479e07d2.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8172.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8172.json",
+      "review": "Source and result visually inspected: upper jointed steel side levers and front roller crossmember green; black waist belt, leg roller, grips and upholstery retained, chrome shafts and sleeves plus yellow/red warnings preserved.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8173",
+      "assetId": "fm-mp-8173-97df46719d9fa1a1",
+      "sourceHash": "2b458cf81cbb7b3fc730b0e320033cc05bc8f8137d4d3219df9df6a1975faa4b",
+      "inputPath": "src/assets/catalog/FM-MP-8173/primary-01-5ad7f9bf6e15.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8173.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8173.json",
+      "review": "Source and result visually inspected: parallel upper moving rails and backrest support carriage green; adjacent black frame rails, shoulder pads, grip surfaces and lower platform mechanism retained, chrome sleeves unchanged.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8174",
+      "assetId": "fm-mp-8174-a7af46f2c2480d53",
+      "sourceHash": "93a3fd9f3f1c5bb9bb3525438e963a3a8fe287f5c16fdcecdd6ada6e13be44bc",
+      "inputPath": "src/assets/catalog/FM-MP-8174/primary-01-53c9fa597988.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8174.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8174.json",
+      "review": "Source and result visually inspected: front angled support arms, pad backing plates and lower linkages green; small red adjustment pin retained, black pads and gas cylinder, chrome sleeves and silver step unchanged.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8175",
+      "assetId": "fm-mp-8175-e5377b5c57ff90b3",
+      "sourceHash": "afae789040195795afb97b39c02a0cc34058af1d48b1e540556e51e14aa49904",
+      "inputPath": "src/assets/catalog/FM-MP-8175/primary-01-85a19cdbc890.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8175.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8175.json",
+      "review": "Source and result visually inspected: inner leg-press moving beams and footplate support frames green; slotted foot-contact plates remain silver, black seat and main frame preserved, chrome sleeves and lower sliding rails unchanged.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8176",
+      "assetId": "fm-mp-8176-be78335bc828809c",
+      "sourceHash": "588563242bf4787d274da1b24df25619cab83289e2fad7a1725d816c5042d664",
+      "inputPath": "src/assets/catalog/FM-MP-8176/primary-01-cd7c0549458b.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8176.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8176.json",
+      "review": "Source and result visually inspected: slim upper press-lever frames and lower loading linkages green; black belts, angled pull rods, bench and foot pads retained, silver adjustment shaft and chrome sleeves unchanged.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8177",
+      "assetId": "fm-mp-8177-7388c5ae9d2bd861",
+      "sourceHash": "0b4d787ecdeadec067445efe314c6de845095794b50f26044859dd47740a0cd4",
+      "inputPath": "src/assets/catalog/FM-MP-8177/primary-01-434aae8c3818.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8177.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8177.json",
+      "review": "Source and result visually inspected: slim upper moving frames and connecting crossbar green; wide black internal belts, decline bench, leg rollers, silver adjustment post, metallic sleeves and red warning label retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8178",
+      "assetId": "fm-mp-8178-e5bbfdd5cdb3f26d",
+      "sourceHash": "4b937ff17f69739affe4ec3ff73615f757f16431dec9075e184acc90071fa35d",
+      "inputPath": "src/assets/catalog/FM-MP-8178/primary-01-00f8e4f90a86.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8178.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8178.json",
+      "review": "Source and result visually inspected: curved front arms, lower side tubular linkages and rear load beams green; red lower adjustment pin, black rods and grips, silver backrest adjustment shaft, treaded platform and chrome sleeves retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8180",
+      "assetId": "fm-mp-8180-99b9c823f21adeba",
+      "sourceHash": "3038a95b36c1b605a55a5457dd9fcde329effb9e3765e1843cd7883d9f3e78f4",
+      "inputPath": "src/assets/catalog/FM-MP-8180/primary-01-918d10e05787.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8180.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8180.json",
+      "review": "Source and result visually inspected: curved side arms, rear loading beam and bottom painted lever hubs green; original black cable routes, pulleys, handle extensions, pads and outer frame retained, metal caps and weight sleeves unchanged.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8181",
+      "assetId": "fm-mp-8181-d0fe983ba9be2efe",
+      "sourceHash": "98a6f64f9331b7f75ac7ec6502e075eaf564a052cbba60e845847e8e7555d7d9",
+      "inputPath": "src/assets/catalog/FM-MP-8181/primary-01-b9625bdb946f.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8181.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8181.json",
+      "review": "Source and result visually inspected: broad front pad-support assembly and lower leg linkage green; black rollers, grips, knobs and counterweight retained, chrome sleeves and original warning colors preserved.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-MP-8182",
+      "assetId": "fm-mp-8182-423c0e18a4ba7d76",
+      "sourceHash": "2e833412916d650d52135ee95e979321a47edc5e3451cb4a52c0a703158f5b20",
+      "inputPath": "src/assets/catalog/FM-MP-8182/primary-01-546523ae287f.webp",
+      "outputPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8182.png",
+      "promptPath": "data/catalog-branding/generated/mp-batch-01/prompts/FM-MP-8182.json",
+      "review": "Source and result visually inspected: complex paired leg-press moving frame green; broad black footplates and lower black linkage retained, small red adjustment actuator preserved, chrome sleeves and exact seat configuration unchanged.",
+      "status": "approved"
+    }
+  ],
+  "count": 40
+}

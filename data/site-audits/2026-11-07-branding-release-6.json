@@ -1,0 +1,24 @@
+{
+  "commit": "9851781",
+  "integrated": 500,
+  "samples": [
+    {
+      "sku": "FM-GS-5001",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/leg-curl-fm-gs-5001/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-8312",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/calf-machine-fm-8312/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-8810",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/leg-extension-fm-8810/",
+      "status": 200,
+      "updatedImage": true
+    }
+  ]
+}

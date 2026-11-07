@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-09-13T09:35:51.935Z",
-  "updatedAt": "2026-11-07T12:31:59.886Z",
+  "updatedAt": "2026-11-07T12:43:27.864Z",
   "sourceInventoryHash": "45fde16c81b51dd09e5113524b9d18af9e30b106548316661d6c01e6665139db",
   "items": [
     {
@@ -12414,16 +12414,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/6d/6dabf860fe6c29fa157f8a985d6392366433c4efd04d677e6c8691f66d544fc7.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5040/primary-01-0cf1fbe1da46.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5040/primary-01-50034add60ac.webp",
       "sourceHash": "6dabf860fe6c29fa157f8a985d6392366433c4efd04d677e6c8691f66d544fc7",
-      "outputHash": "0cf1fbe1da46b6c2ade48dc5b678ed22f652b4e0f732b26f7c5cc58b6a373b20",
+      "outputHash": "50034add60acfefe5721d45eb6f15bb6dd1ddec9b69904c38509115fb4e2e30e",
       "mimeType": "image/jpeg",
       "bytes": 23029,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Supporto rullo: facce esterne dei due montanti verdi, logo verticale sul destro. Rullo nero, cremagliere/guide nere, base, ruote, impugnatura trasporto e bulloni conservati."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5040-1d37074e2bd1f113.png"
     },
     {
       "assetId": "fm-gc-5041-2758844e5a3877ee",
@@ -12435,16 +12437,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/e7/e7943ff69f702b63c504214a7808007b51333330cbedad544714ee1de314b25b.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5041/primary-01-ab70b2e52f27.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5041/primary-01-3ce70da93785.webp",
       "sourceHash": "e7943ff69f702b63c504214a7808007b51333330cbedad544714ee1de314b25b",
-      "outputHash": "ab70b2e52f278f6124879847d5167566d1238fdedf5254f650f211ce22e7414f",
+      "outputHash": "3ce70da9378529f8484850e7154fd83de2f937ea014c7affad6975de30415266",
       "mimeType": "image/jpeg",
       "bytes": 38860,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Panca regolabile: solo lungo braccio diagonale verde con logo. Conservati tre piatti argento, rulli/pad neri, settore forato di regolazione, telaio, torre e maniglie. Due avvisi gialli e adesivo rosso originali presenti; microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5041-2758844e5a3877ee.png"
     },
     {
       "assetId": "fm-gc-5042-0ce23503a9c8dd7d",
@@ -12456,16 +12460,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/94/94e2dc9962a567b8061a43e5f82df5d08847ce15ea780597d2471c95e5cde277.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5042/primary-01-a181f7ddde0d.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5042/primary-01-fcd8d68206d0.webp",
       "sourceHash": "94e2dc9962a567b8061a43e5f82df5d08847ce15ea780597d2471c95e5cde277",
-      "outputHash": "a181f7ddde0d170199f78f9a6d7436fea757aba9f44b19ad59d1d7cf7959a067",
+      "outputHash": "fcd8d68206d088b280ba779314788256596da4622db4d95b8a6559ed5c7bba58",
       "mimeType": "image/jpeg",
       "bytes": 41687,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Macchina doppia leva: parti rosse verdi e logo sulla trave vicina. Conservati due piatti diamantati, impugnature, perni metallici, snodi, telaio e trasporto. Etichetta rossa posteriore e triangolo giallo originali mantenuti; microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5042-0ce23503a9c8dd7d.png"
     },
     {
       "assetId": "fm-gc-5043-15840eccd4588ca9",
@@ -13066,16 +13072,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/d5/d56f8b8fa3be7841147ac1afa711efbab5799e81f4e10e955a9db6bbd71f8051.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5064/primary-01-177c7b10ecc2.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5064/primary-01-66d261e3400e.webp",
       "sourceHash": "d56f8b8fa3be7841147ac1afa711efbab5799e81f4e10e955a9db6bbd71f8051",
-      "outputHash": "177c7b10ecc2f0558c85364a37444f09118e9a3c8d50fed7718c0dd86018bb44",
+      "outputHash": "66d261e3400e68d7db9b2f947200d185f995cc29c7e7c0b93e15b8cc80e3fbec",
       "mimeType": "image/jpeg",
       "bytes": 32703,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Macchina a rulli: montanti posteriori e supporto seduta verdi; badge FITNESS sostituito dal logo Full Muscle. Rulli, seduta, maniglie, traversini, bracci operativi, perno cromato e meccanica conservati."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5064-72cb99cd221f8fd0.png"
     },
     {
       "assetId": "fm-gc-5064-6382e31dc440010e",
@@ -13106,16 +13114,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/6c/6c08fd67f1fd1619c516800409d93c2a02592b2a769c6a189c4968d880cac151.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5065/primary-01-8f1e99789c10.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5065/primary-01-b4c0a7be36e6.webp",
       "sourceHash": "6c08fd67f1fd1619c516800409d93c2a02592b2a769c6a189c4968d880cac151",
-      "outputHash": "8f1e99789c100c652286f89fc1efc91d599231093bd26a65770cd8d757848bc7",
+      "outputHash": "b4c0a7be36e627f0aa952575678383e58ffe3b7b10f8b0d20540500dc255f076",
       "mimeType": "image/jpeg",
       "bytes": 34109,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Montanti centrali verdi; manubri neri, due pedane asolate e catena metalliche, quattro perni carico visibili e tre clip conservati. Marchio sostituito sulla targhetta superiore. Geometria coerente."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5065-ca48e2d72591b51f.png"
     },
     {
       "assetId": "fm-gc-5065-c0a1f025ca32beee",
@@ -13165,16 +13175,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/4f/4f8b22550a87493269861a8ccd494317adf74f4f9e76045586d954c6ffe3aee0.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5066/primary-01-1e0880940697.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5066/primary-01-6675e514eb68.webp",
       "sourceHash": "4f8b22550a87493269861a8ccd494317adf74f4f9e76045586d954c6ffe3aee0",
-      "outputHash": "1e088094069738c7671bd70378ab9fc8858421b61a0f55425a034511e9400028",
+      "outputHash": "6675e514eb682d33f5df391ab494c45cad94a00aef26a8067b78fe68a9a16d7e",
       "mimeType": "image/jpeg",
       "bytes": 34443,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Telaio inclinato sotto seduta e due gambe frontali verdi. Schienale, spallacci, carter laterali e guide restano neri; perni metallici e regolazioni conservati. Logo sul traverso frontale. Geometria coerente."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5066-bc36cf9cb567ff08.png"
     },
     {
       "assetId": "fm-gc-5066-ba7818942d214c67",
@@ -13262,16 +13274,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/1b/1bd3487b31790dcd8879372e13e4ed30ea0fe3cc72403f2f710e97a290c5316a.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5068/primary-01-3fe8ef002669.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5068/primary-01-de865a60efc6.webp",
       "sourceHash": "1bd3487b31790dcd8879372e13e4ed30ea0fe3cc72403f2f710e97a290c5316a",
-      "outputHash": "3fe8ef002669a52c9d0116d83e40aea76b837fabe174f7ea1bab440d2105e0a6",
+      "outputHash": "de865a60efc6a71cffee3d43f08ba8e351d3f850df11ec076a088edf2a7fa41e",
       "mimeType": "image/jpeg",
       "bytes": 37606,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Montanti anteriori e leva laterale verde, torre nera, guide cromate e comando rosso conservati. Eliminati marchi fornitore superiore e verticale, nuovo logo singolo in alto. Diagrammi e avvertenza nella posizione originale; microtesti illustrativi non documentazione tecnica."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5068-c1b3edefc1f58966.png"
     },
     {
       "assetId": "fm-gc-5069-f9b8a8adad077034",
@@ -13283,16 +13297,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/a1/a1ed460a1b9a8ebf711e2b610ae9d63506127b6d2c428556b50325781fa505da.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5069/primary-01-a3c07729afd5.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5069/primary-01-a9dd99af4f7f.webp",
       "sourceHash": "a1ed460a1b9a8ebf711e2b610ae9d63506127b6d2c428556b50325781fa505da",
-      "outputHash": "a3c07729afd59322390d1ee4c1c10fc9317dd097bb975239db47f90526ca8255",
+      "outputHash": "a9dd99af4f7f622c1eea873dbe0a13d651cd9b4f78ea210c246dcb5b54e05bdf",
       "mimeType": "image/jpeg",
       "bytes": 30438,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Supporti curvi anteriori e diagonali posteriori verdi, pedane e imbottiture nere, perni cromati, ruote e regolazioni conservati. Logo sul traverso anteriore e avvertenza originale mantenuta, microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5069-f9b8a8adad077034.png"
     },
     {
       "assetId": "fm-gc-5070-0a8d23b36bcd835d",
@@ -13304,16 +13320,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/08/087e86260c32a2cd7bf47e4f9c37398c6a93f13100be14688acc6e0606941ff0.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5070/primary-01-43a40bbe8158.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5070/primary-01-dabcd89ebd7b.webp",
       "sourceHash": "087e86260c32a2cd7bf47e4f9c37398c6a93f13100be14688acc6e0606941ff0",
-      "outputHash": "43a40bbe81584acbd80d2c28fc1f71f1ff67380c8a0967d834e4cd82254ad953",
+      "outputHash": "dabcd89ebd7bc3ffbe88ae4b0827597356994ed0424fbd733af6abd6c9aecaa8",
       "mimeType": "image/jpeg",
       "bytes": 32964,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Due bielle laterali rosse rese verdi. Torre, impugnature, pulegge, due pedane metalliche e cavi mantenuti. Rimossi marchi fornitore, logo singolo superiore. Avvertenza e diagrammi presenti, microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5070-0a8d23b36bcd835d.png"
     },
     {
       "assetId": "fm-gc-5071-fbcf34a3a81d9ea7",
@@ -13325,16 +13343,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/1c/1c636bd498966e2e3f8ae631788afdf30322d854dea12c096d0ca987b7e75ffd.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5071/primary-01-e54355a8e3a7.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5071/primary-01-0b8af5051250.webp",
       "sourceHash": "1c636bd498966e2e3f8ae631788afdf30322d854dea12c096d0ca987b7e75ffd",
-      "outputHash": "e54355a8e3a79b7ecdea8e25da59aa21fa917cc766c10748457faab212706c51",
+      "outputHash": "0b8af50512509082b29b079fd8c356b3964c171d575285dd7995c78589650157",
       "mimeType": "image/jpeg",
       "bytes": 38971,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Bracci e bielle rossi convertiti a verde; anche i due longheroni gi? esistenti alla base sono verdi. Nessuna variazione di meccanica; pedane metalliche, imbottiture e torre nere conservate. Logo superiore singolo. Microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5071-fbcf34a3a81d9ea7.png"
     },
     {
       "assetId": "fm-gc-5073-3c0307f7d78bb51f",
@@ -13392,16 +13412,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/b7/b7f8fadc9e9837c26ed1e65f44e3a7b62cf5f69c6e7739c58e3621a7016b96d1.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5075/primary-01-e2b839f2ae1f.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5075/primary-01-c78f6e020662.webp",
       "sourceHash": "b7f8fadc9e9837c26ed1e65f44e3a7b62cf5f69c6e7739c58e3621a7016b96d1",
-      "outputHash": "e2b839f2ae1fef73d230b752d8e026ccd56a515add55f9496e68a1eff0a42ecb",
+      "outputHash": "c78f6e0206626d588e39cf122a118e2dd7531484504cd01bd1ab93bbab42ca06",
       "mimeType": "image/jpeg",
       "bytes": 35197,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Leva inclinata centrale e biella laterale verdi; regolazione superiore rossa, rulli, seduta, torre e guide conservati. Logo singolo superiore e rimozione scritta verticale fornitore. Diagrammi/avvertenze restano illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5075-0f105e775dbb453b.png"
     },
     {
       "assetId": "fm-gc-5076-779010be082a4fb4",
@@ -13413,16 +13435,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/b1/b1d55c6d967c0fc33ae9e2f64d58b3dda176ddbd4e7fbe5dbbacc4d5c13c05fd.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5076/primary-01-0a7fa407eb07.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5076/primary-01-9be251b80552.webp",
       "sourceHash": "b1d55c6d967c0fc33ae9e2f64d58b3dda176ddbd4e7fbe5dbbacc4d5c13c05fd",
-      "outputHash": "0a7fa407eb0742a242091510dd94fca0b121a9acb907fc45b6fe7ac8823be23d",
+      "outputHash": "9be251b805520d44a19d295545f8b7881e0c1e9a90d69acaa0e844643294f2ff",
       "mimeType": "image/jpeg",
       "bytes": 40368,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Perni fissi laterali e supporto sotto pedana da rosso a verde. Pedana argentata, longheroni neri, supporti e imbottitura, regolazioni e ruote mantenuti. Logo singolo sul longherone senza coprire i fori."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5076-779010be082a4fb4.png"
     },
     {
       "assetId": "fm-gc-5077-40ee4644980e5383",
@@ -13434,16 +13458,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/0d/0daedb827ebf842ae878bfaf43d909ba83e2e93cea468249858b639b3c3177dc.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5077/primary-01-5f956a069040.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5077/primary-01-f263df7802b4.webp",
       "sourceHash": "0daedb827ebf842ae878bfaf43d909ba83e2e93cea468249858b639b3c3177dc",
-      "outputHash": "5f956a069040caf54fbcdedf004eb374a07d34191109818638b463797dc816cc",
+      "outputHash": "f263df7802b4d1a076fc33e96ed93c828a767e75b87de161737bade30343f8e2",
       "mimeType": "image/jpeg",
       "bytes": 30698,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Leva centrale da rossa a verde, telaio nero e barra carico cromata conservati. Imbottitura e due impugnature, pedane laterali e piedi in gomma coerenti. Logo singolo sul pannello laterale superiore."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5077-40ee4644980e5383.png"
     },
     {
       "assetId": "fm-gc-5079-18f2ab17a3f8696b",
@@ -14270,16 +14296,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/d8/d8f34a469f4f7b16703280e9902f0c49718d1392c7e2fc1c2f7f6fc699e6c61b.jpg",
-      "stagedPath": "src/assets/catalog/FM-GC-5104/primary-01-1521defd269d.webp",
+      "stagedPath": "src/assets/catalog/FM-GC-5104/primary-01-1107d1714a52.webp",
       "sourceHash": "d8f34a469f4f7b16703280e9902f0c49718d1392c7e2fc1c2f7f6fc699e6c61b",
-      "outputHash": "1521defd269dc5ca8dfb05375576ef373cd6be266397568b9ff6b93015d24910",
+      "outputHash": "1107d1714a52b84f9c85eed483ca7a0a6f52336903015465259d5affef76322d",
       "mimeType": "image/jpeg",
       "bytes": 45872,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Leva superiore bordeaux resa verde con profilo originale, impugnature e spallacci neri, pedana diamantata metallica, torre e guide conservate. Logo superiore unico e rimosse scritte verticali fornitore. Microtesti diagrammi illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/hip-glute-01/fm-gc-5104-94fbbd43531992a5.png"
     },
     {
       "assetId": "fm-gc-5105-feca2e7035ead317",
@@ -17513,16 +17541,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/4d/4d2f82769b7f76b748e29f8ba59012f4494d96da8e7fb11ea386a9452065c95a.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5001/primary-01-a75305999f3e.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5001/primary-01-fccda238f924.webp",
       "sourceHash": "4d2f82769b7f76b748e29f8ba59012f4494d96da8e7fb11ea386a9452065c95a",
-      "outputHash": "a75305999f3e257121573210a7bdd08cd1cc95d88e02f878b4f829205576b2c9",
+      "outputHash": "fccda238f92424abaac772425c2628fb5b82750f65ed99c3e20e595d8693e42d",
       "mimeType": "image/jpeg",
       "bytes": 32010,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Seated leg curl preserves twin rollers, lever geometry, cam, silver adjustment arc/pin, seat/back and cables. Moving roller lever green, Full Muscle badge replaces supplier badge. Gray guard slot and red exercise/safety label layout retained; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5001-4f688e83ffabf5b6.png"
     },
     {
       "assetId": "fm-gt-5002-1-388eaf8a74aa7656",
@@ -17534,16 +17564,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/c7/c7cfca24f0865132a8967fea4df62431a7f677fb9e40963742d7204d59e0afcc.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5002-1/primary-01-7af2954d2746.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5002-1/primary-01-96933462d777.webp",
       "sourceHash": "c7cfca24f0865132a8967fea4df62431a7f677fb9e40963742d7204d59e0afcc",
-      "outputHash": "7af2954d274663667e670bc1038ac6d2fa0ed23064729bb2a9987b847eaf5560",
+      "outputHash": "96933462d777b40654cf48dad09c022478aca49ecfd612214dfc9c3a6772258e",
       "mimeType": "image/jpeg",
       "bytes": 17052,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Front leg extension variant preserves central lever, twin rollers, lower cams/cables, seat/back and narrow tower. Central lever green, Full Muscle badge. Gray guard and exercise/safety labels retain position/layout; small text illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5002-1-388eaf8a74aa7656.png"
     },
     {
       "assetId": "fm-gt-5002-a62a0504da1bf8ec",
@@ -17555,16 +17587,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/27/279361dff28fb24f7ddde65437979c38d1c95d90c8534d2e2e0a411db66f4ac3.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5002/primary-01-b4b6ffddd265.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5002/primary-01-1f6fc6b5b60c.webp",
       "sourceHash": "279361dff28fb24f7ddde65437979c38d1c95d90c8534d2e2e0a411db66f4ac3",
-      "outputHash": "b4b6ffddd265d9e20003ae48f71919aed43afab8b002d1858c9c218968ff1fbc",
+      "outputHash": "1f6fc6b5b60cfa72921c1e020b4526c38597102b28ae04b78657e11c55dfef65",
       "mimeType": "image/jpeg",
       "bytes": 31225,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Leg extension preserves long lever, roller, cam, silver adjustment hardware, pads and frame. Moving lever green, small Full Muscle badge. Gray guard/slot and exercise/safety labels retained in position/layout; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5002-a62a0504da1bf8ec.png"
     },
     {
       "assetId": "fm-gt-5003-7e048628ea63433f",
@@ -17576,16 +17610,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/1a/1af85fed8798f96a17419dada17acd92d1a7f333cec085f317517741f451fdc2.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5003/primary-01-c92008eb0f6a.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5003/primary-01-bf8ee1bd9713.webp",
       "sourceHash": "1af85fed8798f96a17419dada17acd92d1a7f333cec085f317517741f451fdc2",
-      "outputHash": "c92008eb0f6a07ea91206be5d67a73b2bbe695c0ec6103fc17c0d1e949b42e9b",
+      "outputHash": "bf8ee1bd9713e1bded34a8eb1d230aa3ff52bc36ff17bfb544561b19138816be",
       "mimeType": "image/jpeg",
       "bytes": 30239,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Rotary torso preserves paired contact pads, seat, upper grips, rotating lower mechanism and base cables. Lower rotating pad-support yoke green including central vertical connection; fixed frame black. Full Muscle badge; gray guard/slot and instruction/safety label layout retained, microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5003-7e048628ea63433f.png"
     },
     {
       "assetId": "fm-gt-5005-6ca090b6073bacaf",
@@ -17673,16 +17709,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/81/8143f1fd486f00ff3ac0f2dcee8c564de1da267fecc4c2c802d93d0573718f5b.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5006/primary-01-12c4a23318ae.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5006/primary-01-e0142796a974.webp",
       "sourceHash": "8143f1fd486f00ff3ac0f2dcee8c564de1da267fecc4c2c802d93d0573718f5b",
-      "outputHash": "12c4a23318aed3654043f9d847f34c05612f4e1cc09c27ea79aefd64b6deb01f",
+      "outputHash": "e0142796a974af9d724d2c1e0e55c53a71a495f892e528b937707a218031a161",
       "mimeType": "image/jpeg",
       "bytes": 31539,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Back extension preserves torso roller/lever, cam, contoured pads, foot rollers and fixed frame. Short steel lever green, Full Muscle badge. Gray guard/slot and red instruction/safety labels retain layout/position; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5006-9d90e59966591658.png"
     },
     {
       "assetId": "fm-gt-5007-671eb7027d774d90",
@@ -17694,16 +17732,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/ee/eead445f74bdddf204ecafc814f7f46375e5111578beca04e178f0ca37294c10.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5007/primary-01-0c28e177607d.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5007/primary-01-191e5818892a.webp",
       "sourceHash": "eead445f74bdddf204ecafc814f7f46375e5111578beca04e178f0ca37294c10",
-      "outputHash": "0c28e177607daed1015813dd9ceda5696b592ca60f9d117448b2f35260780cf6",
+      "outputHash": "191e5818892ad4c4915df1e2d849e582f60a92f174b895ecd27b624add5da05b",
       "mimeType": "image/jpeg",
       "bytes": 31524,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Pec fly preserves hanging arms, upper articulated mechanism, adjustment plates, elbow pads/grips and seat. Moving arms/short links green; Full Muscle badge. Gray guard and instruction/safety label positions/layout preserved; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5007-671eb7027d774d90.png"
     },
     {
       "assetId": "fm-gt-5008-6ad0a20a9e77ed5a",
@@ -17715,16 +17755,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/3b/3bfd0afae259ea430c94591d471693cdec45eb129e015d8af75e21bdc5c45d67.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5008/primary-01-cee451cf4462.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5008/primary-01-846255580801.webp",
       "sourceHash": "3bfd0afae259ea430c94591d471693cdec45eb129e015d8af75e21bdc5c45d67",
-      "outputHash": "cee451cf4462ba0f4490ef581f92c54183b533a4e57e618314ef0fb68d221f63",
+      "outputHash": "8462555808011f9102c65d5eb2c2f7b604ccfdac68b8b87e0eba7cc40e3ee7a3",
       "mimeType": "image/jpeg",
       "bytes": 33498,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Lever pulldown preserves overhead yoke geometry, grips, pivot bearing, thigh rollers, seat and cables. Moving yoke green, fixed frame black; Full Muscle badge. Gray guard/slot and exercise/safety label positions/layout retained; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5008-6ad0a20a9e77ed5a.png"
     },
     {
       "assetId": "fm-gt-5010-931505805c271247",
@@ -17736,16 +17778,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/d0/d07622bda77cba0f2e3657dbddb9812271f5179dbf4e22bba96c066adc69da8c.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5010/primary-01-34be49a5b26d.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5010/primary-01-b5ab01ce6c3e.webp",
       "sourceHash": "d07622bda77cba0f2e3657dbddb9812271f5179dbf4e22bba96c066adc69da8c",
-      "outputHash": "34be49a5b26dc7dbac427adeb883f62daf9fd387abf0ac645fedb76bc6b2f853",
+      "outputHash": "b5ab01ce6c3e09bb195a779d1bb94992110911e821721e1f9729227b1855970f",
       "mimeType": "image/jpeg",
       "bytes": 35085,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Delt raise preserves elbow pads, chest pad, articulated links, cams, seat and lower pulleys. Steel moving arm assemblies green, fixed supports black; Full Muscle badge. Gray guard and red exercise/safety labels remain in original layout; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5010-931505805c271247.png"
     },
     {
       "assetId": "fm-gt-5011-680bdb0422ff0dd3",
@@ -17757,16 +17801,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/3b/3b0d9014e8b204f71a0a45ed09ec9d0a0d8b8c88b35ea2d4c97acab4c41b3c45.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5011/primary-01-69f181e57060.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5011/primary-01-6105623700b4.webp",
       "sourceHash": "3b0d9014e8b204f71a0a45ed09ec9d0a0d8b8c88b35ea2d4c97acab4c41b3c45",
-      "outputHash": "69f181e57060aa257ac33ad7c1a43cdcfac9444f7effb7614fe093da9006979a",
+      "outputHash": "6105623700b441e69459571d0a50fab27985ffc97f1e1324c17924899bede6e2",
       "mimeType": "image/jpeg",
       "bytes": 36271,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Arm extension preserves lever, shaft, angled black grips, end cap, cam and pads. Moving lever/shaft green; Full Muscle badge. Gray guard/slot and exercise/safety labels retain layout/position; tiny text/stack values illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5011-680bdb0422ff0dd3.png"
     },
     {
       "assetId": "fm-gt-5012-9d818d9a4e9a0875",
@@ -17778,16 +17824,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/bc/bc7c9c6661df8598f703953b0844d64f2fce74961534e03f7659e3cc99f84f0a.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5012/primary-01-2b618ab735dd.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5012/primary-01-ddaffef6afb2.webp",
       "sourceHash": "bc7c9c6661df8598f703953b0844d64f2fce74961534e03f7659e3cc99f84f0a",
-      "outputHash": "2b618ab735dd7a5d260b1a49f7cf7ae5075a5e1a64aedc0ba3fe385495d582e5",
+      "outputHash": "ddaffef6afb20906fc2d9697f99ba49776354f28b606cb362657ea5a5fe93353",
       "mimeType": "image/jpeg",
       "bytes": 33272,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Shoulder press preserves upper arm geometry, rear linkage, grips, cushions, fixed posts and cables. Moving upper assembly/handle supports green; Full Muscle badge. Guard and instruction/safety labels retained, including existing occlusion by arm; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5012-9d818d9a4e9a0875.png"
     },
     {
       "assetId": "fm-gt-5014-58c33b9939666339",
@@ -17799,16 +17847,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/73/73cace013974b45ba031afcafdad6a69e42c69269315f887cb23e8b2caa4362c.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5014/primary-01-319c98c86ace.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5014/primary-01-d5a3e1db33fa.webp",
       "sourceHash": "73cace013974b45ba031afcafdad6a69e42c69269315f887cb23e8b2caa4362c",
-      "outputHash": "319c98c86ace46b58636ea942a10598e3e2707a2db3b8e189dc08316806cc809",
+      "outputHash": "d5a3e1db33fad441369fca9b49ec43256e1c47ec8cd3486781e9205e1e2b2041",
       "mimeType": "image/jpeg",
       "bytes": 35309,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Rear adductor view preserves close-set pads, backrest, seat, grips, lower cam and fixed frame. Moving pad posts/crosslinks green; Full Muscle badge. Gray guard/slot and red instruction/safety labels retain layout; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5014-58c33b9939666339.png"
     },
     {
       "assetId": "fm-gt-5015-89220b3c26de4376",
@@ -17820,16 +17870,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/c0/c0dec9432333c7f77b04302a087423c14efd498d5d5913bfb1a48d73bc594070.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5015/primary-01-4d540d98892a.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5015/primary-01-16d2cb7901a0.webp",
       "sourceHash": "c0dec9432333c7f77b04302a087423c14efd498d5d5913bfb1a48d73bc594070",
-      "outputHash": "4d540d98892a08a407f9a09a608b957f89a79d9dfcb5e350f03095bc1915892d",
+      "outputHash": "16d2cb7901a0539bcd4c5b7c4a43da308738ee86c57e52c7ca81ce966a9316e9",
       "mimeType": "image/jpeg",
       "bytes": 35130,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Total abdominal preserves shoulder pads/grips, curved upper lever, cam, perforated arc, connecting rod and lower foot lever. Upper yoke and lower foot support green, fixed frame/pads black. Full Muscle badge; gray guard and red label layout retained; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5015-89220b3c26de4376.png"
     },
     {
       "assetId": "fm-gt-5016-a4e64ef3f18ef432",
@@ -17841,16 +17893,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/ce/ceae10ec13d47b35a5e82e8172ac3e0ae368c752dd815137cabf845ce0eb8e46.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5016/primary-01-db62ba5f6814.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5016/primary-01-e033216e840b.webp",
       "sourceHash": "ceae10ec13d47b35a5e82e8172ac3e0ae368c752dd815137cabf845ce0eb8e46",
-      "outputHash": "db62ba5f6814dfac42001e66deb65a0dc9459d10721f1c9be55764f7b0b58999",
+      "outputHash": "e033216e840b2bee3c8b4ff3a3f44e3c8241d37d07e5f9fc00483722fb4dfc07",
       "mimeType": "image/jpeg",
       "bytes": 30390,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Leg press preserves paired slanted links, top supports, black footplate, chrome seat rails, cable routing and pads. Moving footplate links green; Full Muscle badge. Gray guard/slot and exercise/safety label layout retained; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5016-a4e64ef3f18ef432.png"
     },
     {
       "assetId": "fm-gt-5019-d8cab16bf6d8b598",
@@ -17862,16 +17916,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/4a/4a697262b21d4a46a95ff27f3de8688b472cfccb23187041340a4335f168505f.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5019/primary-01-92b902c33dd5.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5019/primary-01-34c929cb1028.webp",
       "sourceHash": "4a697262b21d4a46a95ff27f3de8688b472cfccb23187041340a4335f168505f",
-      "outputHash": "92b902c33dd558f7b1d6701840f93719f08c57b9568287821bb648f6a554fecb",
+      "outputHash": "34c929cb1028a6e2db3cc978da3cfadd7d9662878f03765ae20c031c03ccfbf3",
       "mimeType": "image/jpeg",
       "bytes": 30119,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Assisted chin/dip preserves tall frame, pullup/dip grips, knee pad, twin chrome guide rods, steps and cables. Knee carriage/support green; modest partly occluded Full Muscle badge. Gray guard and label layout/occlusions retained; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5019-d8cab16bf6d8b598.png"
     },
     {
       "assetId": "fm-gt-5020-7c36ef3816065114",
@@ -17883,16 +17939,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/e6/e69bb7bba0c8351a94359024d6e6ba04162daea87fd83ed678b6e1b4560fc962.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5020/primary-01-f24f49a50ac9.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5020/primary-01-567652d1f2ce.webp",
       "sourceHash": "e69bb7bba0c8351a94359024d6e6ba04162daea87fd83ed678b6e1b4560fc962",
-      "outputHash": "f24f49a50ac9ef16bfd6f3bc0e1c8d21e1884ce9eb6f4add63bf6ac3239070b0",
+      "outputHash": "567652d1f2ce43e9a14ed5489848ece955a99086c281f00118fcdc26ba1bf051",
       "mimeType": "image/jpeg",
       "bytes": 24073,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Cable lat preserves bar, pulley/cable, seat and thigh rollers. Green limited to tower perimeter posts/top beam, gray guard and black accessory supports/base retained. Full Muscle badge; exercise/safety label layout retained with microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5020-7c36ef3816065114.png"
     },
     {
       "assetId": "fm-gt-5021-7edc262920acecaf",
@@ -17904,16 +17962,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/6d/6d1c65256d1929e5cebe5c9346c3fded2710744dcbc9fadde11a189540fc0e1a.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5021/primary-01-3cbab9e123b3.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5021/primary-01-e0d3fbfbbd39.webp",
       "sourceHash": "6d1c65256d1929e5cebe5c9346c3fded2710744dcbc9fadde11a189540fc0e1a",
-      "outputHash": "3cbab9e123b3eca9f06516b6afb0de30f477b1876370cb3145e0a737a2b3b82f",
+      "outputHash": "e0d3fbfbbd3937b4a1099fe3849286f00d8dfeaa50f5a883951e5b871be4032c",
       "mimeType": "image/jpeg",
       "bytes": 24837,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Low row preserves long bench, foot bar, handle/pulleys, rear brace and tower. Green limited to perimeter tower posts/top beam; guard gray, accessories black. Full Muscle badge; exercise/safety label layout retained with illustrative microtext. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5021-7edc262920acecaf.png"
     },
     {
       "assetId": "fm-gt-5022-1-e9fb7ebe2f44476e",
@@ -17925,16 +17985,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/66/6630779a762e0f026556a649cfea83497b4f511cc2d3ea49470f8bb609279513.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5022-1/primary-01-9e4d03b70a22.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5022-1/primary-01-f641a3b64d7a.webp",
       "sourceHash": "6630779a762e0f026556a649cfea83497b4f511cc2d3ea49470f8bb609279513",
-      "outputHash": "9e4d03b70a22b738d338fda922f5eff3cbd16bec3bc7f491fc656715a6883a93",
+      "outputHash": "f641a3b64d7a6119ee9c83c51a84d043455feb1fc30731312415245562d31416",
       "mimeType": "image/jpeg",
       "bytes": 31417,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Rail glute variant preserves twin polished rails, sliding carriage, angled pedal support, chest pad/handles and fixed curved column. Carriage/pedal support green; Full Muscle badge. Gray guard/slot and red label layout retained, microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5022-1-e9fb7ebe2f44476e.png"
     },
     {
       "assetId": "fm-gt-5022-3b0363cf2d0042b1",
@@ -17946,16 +18008,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/a9/a94a327c13c462ec5de6418549a305c496c4614fd230e574039677559f498002.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5022/primary-01-066c77506f01.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5022/primary-01-8882aa6b9a6f.webp",
       "sourceHash": "a94a327c13c462ec5de6418549a305c496c4614fd230e574039677559f498002",
-      "outputHash": "066c77506f01a5f26c55f641c528d20a1246293bd59cec9744664e9337b1be6d",
+      "outputHash": "8882aa6b9a6f5ae9961a0912b65ddd27a8e62da025caea386f4896900fa41e0c",
       "mimeType": "image/jpeg",
       "bytes": 38597,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Glute isolator preserves long right lever, pedal contact face, pads/grips, chrome height adjuster and metal platform. Lever/pedal steel support green; Full Muscle badge. Gray guard and instruction/safety label layout retained; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5022-3b0363cf2d0042b1.png"
     },
     {
       "assetId": "fm-gt-5033-25d46de23192bac3",
@@ -17967,16 +18031,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/e8/e80d31cf962054ea7805d0902f98f1802506acff328dbaa5fcd25e4caef2941a.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5033/primary-01-2e90be82db21.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5033/primary-01-964af861020c.webp",
       "sourceHash": "e80d31cf962054ea7805d0902f98f1802506acff328dbaa5fcd25e4caef2941a",
-      "outputHash": "2e90be82db21a283474ffd7c8d2e6314a55f29c5bc6e69e9b1ae5c760b5a94d8",
+      "outputHash": "964af861020cf561ec2aba5702fac5f84c2db4fdd732faea9fd06db0bfeee826",
       "mimeType": "image/jpeg",
       "bytes": 37971,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Rear-left hip abduction preserves pad/backrest layout, grips, fixed angled legs, lower cam and cables. Moving pad posts/crosslinks green including center moving connection; pad backings black. Full Muscle badge; gray guard and red label layout retained, microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5033-25d46de23192bac3.png"
     },
     {
       "assetId": "fm-gt-5037-ff36d4a87c55a89f",
@@ -17988,16 +18054,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/c5/c546abc960629fe1df6ada6712da98c6a4bb4ea9ca48223bbd8d315ac3371492.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5037/primary-01-02424b841117.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5037/primary-01-3030e69ecfac.webp",
       "sourceHash": "c546abc960629fe1df6ada6712da98c6a4bb4ea9ca48223bbd8d315ac3371492",
-      "outputHash": "02424b84111758904be78248eb901c081ecc064c80c925a53e228a4309f6c3e7",
+      "outputHash": "3030e69ecfaca609c6756eba9e149542d10bde4466bc09e028e79e614fedac58",
       "mimeType": "image/jpeg",
       "bytes": 31723,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Abdominal machine preserves upright roller lever, cam/pin, contoured pads and twin foot rollers. Moving lever green including lower steel sleeve; Full Muscle badge. Gray guard/slot and red instruction/safety label layout retained, microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5037-ff36d4a87c55a89f.png"
     },
     {
       "assetId": "fm-gt-5044-1-d694c7ac77c95537",
@@ -18009,16 +18077,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/cf/cfd6e810db66be7e2e6a6fdd4624c4c69207aba8ff9dec7ad935b475992d59a5.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5044-1/primary-01-8633ff00ddb0.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5044-1/primary-01-926a873b458a.webp",
       "sourceHash": "cfd6e810db66be7e2e6a6fdd4624c4c69207aba8ff9dec7ad935b475992d59a5",
-      "outputHash": "8633ff00ddb08832ad7200c7e7c8578f7accc628e82b8b62d4fb60804edaf651",
+      "outputHash": "926a873b458a502e82502e64b355e2593277b0ff184166f36fc5df1476b891f4",
       "mimeType": "image/jpeg",
       "bytes": 31945,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Twin-roller prone curl preserves rollers, large black cam, diagonal cable, bench/pad supports and handles. Short roller lever green; Full Muscle badge. Gray guard/slot and exercise/safety labels retained in layout, microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5044-1-d694c7ac77c95537.png"
     },
     {
       "assetId": "fm-gt-5044-fa9d58eedeefd2fe",
@@ -18030,16 +18100,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/6d/6d1968e67beba1b0d7259b26bea619d55dfe0c580a5b46d5b49ddbb3af905d4c.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5044/primary-01-b8d47ca31bf0.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5044/primary-01-e7a70c5096b0.webp",
       "sourceHash": "6d1968e67beba1b0d7259b26bea619d55dfe0c580a5b46d5b49ddbb3af905d4c",
-      "outputHash": "b8d47ca31bf08f6c88e423366e17682f5ce0a13a8418aa71aeb4295791c9b089",
+      "outputHash": "e7a70c5096b0a5e7ec191096130d9ad4aa3fbe5ae8ef7337d2dddcaccdb6adb1",
       "mimeType": "image/jpeg",
       "bytes": 31508,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Prone curl preserves pad/roller geometry, cam, adjustment bracket, handles and pulleys. Roller lever/bracket and exposed angled pad support beam green; fixed legs black. Full Muscle badge; gray guard and red exercise/safety label layout retained, microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5044-fa9d58eedeefd2fe.png"
     },
     {
       "assetId": "fm-gt-5046-04f4c07d31ce726d",
@@ -18051,16 +18123,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/45/45a46b6eab74fb41e8e430ec8c2dec5b95e81ca31bdd62c05239eac2466844be.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5046/primary-01-36ffc9f5f939.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5046/primary-01-b60077377a20.webp",
       "sourceHash": "45a46b6eab74fb41e8e430ec8c2dec5b95e81ca31bdd62c05239eac2466844be",
-      "outputHash": "36ffc9f5f939830700b6036ffab8a3924fc0c7098e9a89371ba9f2ac078299e4",
+      "outputHash": "b60077377a2028b7275c7e56e27e58c3484f82fd4009c5310d6923ae2beaf8ca",
       "mimeType": "image/jpeg",
       "bytes": 30112,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Arm curl preserves lever/cam, grips, silver pivots, preacher pad, seat adjustment and frame. Moving lever/short shaft green; Full Muscle badge. Gray guard and exercise/safety labels retain layout/position, microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5046-04f4c07d31ce726d.png"
     },
     {
       "assetId": "fm-gt-5047-0bcc89466326d21a",
@@ -18072,16 +18146,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/6a/6a2d9efe30b07b522089523778e73a0a08718de4e3d2e691681854420d14d8ad.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5047/primary-01-3ffca5c8c167.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5047/primary-01-361a249e191a.webp",
       "sourceHash": "6a2d9efe30b07b522089523778e73a0a08718de4e3d2e691681854420d14d8ad",
-      "outputHash": "3ffca5c8c1671e60b16677494ff5a6838a17b970132f0c8e162462205bd25938",
+      "outputHash": "361a249e191af25aefd463a82dd348b78d7176f0b099b1e04313cff62c3959d9",
       "mimeType": "image/jpeg",
       "bytes": 29825,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Butterfly preserves hanging arms/grips, exposed overhead pivots/adjustment plates, seat/back and tower. Moving arms/links green; Full Muscle badge. Gray guard/slot and exercise/safety label layout retained; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5047-0bcc89466326d21a.png"
     },
     {
       "assetId": "fm-gt-5049-0418d9a6cd3ead4e",
@@ -18093,16 +18169,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/22/22704cb7569a310c5280b6f9c1d44f5bf08ba115af02e9e3716cc9d01d154a83.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5049/primary-01-cd8a66ef299f.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5049/primary-01-37fb28769d43.webp",
       "sourceHash": "22704cb7569a310c5280b6f9c1d44f5bf08ba115af02e9e3716cc9d01d154a83",
-      "outputHash": "cd8a66ef299f0f8b9c8223118c0e970ea6b826d95c3b4362918c905271a63d06",
+      "outputHash": "37fb28769d438f42b4241942c7440bcf409439afc1e70ca2843c9dafaf443bcd",
       "mimeType": "image/jpeg",
       "bytes": 27615,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Standing calf preserves pad yoke, chrome height post/pin, bearings, cable routing and black floor platform. Upper/lower linkage and front supporting crossbar green; tower/base black. Full Muscle badge; gray guard and red label layout retained with illustrative microtext. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5049-0418d9a6cd3ead4e.png"
     },
     {
       "assetId": "fm-gt-5050-442b6f4d89eca618",
@@ -18114,16 +18192,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/8f/8ff9fed23f54b5fbd098759627bca877ce141e627f8f40003d994fbe6df87ecb.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5050/primary-01-711acbbff732.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5050/primary-01-a9b785511694.webp",
       "sourceHash": "8ff9fed23f54b5fbd098759627bca877ce141e627f8f40003d994fbe6df87ecb",
-      "outputHash": "711acbbff73211d6a3a4c30bf178cb3b087d530feaa1d18225ad32e9f36c251d",
+      "outputHash": "a9b78551169404f887293a573a5afa56c4c411511bac398051a7f8d6ff26fae6",
       "mimeType": "image/jpeg",
       "bytes": 32630,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Seated dip preserves moving V arms, long grips, side link, pivot discs, pads, foot bar and cable path. Moving steel links green; Full Muscle badge. Gray guard and label layout/occlusions preserved; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5050-442b6f4d89eca618.png"
     },
     {
       "assetId": "fm-gt-5053-1-0c5ebab4cb74c6b2",
@@ -18135,16 +18215,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/8b/8bf32fb544124a825514ab86e7009571e3d38f5fa70148e0a40ca69c5f9c9cf1.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5053-1/primary-01-f49c6bb2795b.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5053-1/primary-01-3e0288abbf7f.webp",
       "sourceHash": "8bf32fb544124a825514ab86e7009571e3d38f5fa70148e0a40ca69c5f9c9cf1",
-      "outputHash": "f49c6bb2795b6e3d45e10b0351bf51dce4f29fffacf4ed09b77f3682d91dcf99",
+      "outputHash": "3e0288abbf7f418033ab0659e287a6646dd89be53d6fd56963f5c29233d05ea8",
       "mimeType": "image/jpeg",
       "bytes": 37772,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Hip variant preserves tower loop handles, pads, seat/back, lower mechanism and cables. Green applied to moving pad posts/links and additionally long lower base beam; remaining frame black. Full Muscle badge; guard and red label layout preserved, microtext illustrative. Geometry/view/background preserved; broader base color noted for editorial review."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5053-1-0c5ebab4cb74c6b2.png"
     },
     {
       "assetId": "fm-gt-5053-6c115fdc7c4d490d",
@@ -18156,16 +18238,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/a9/a9c319d53cbd80bb9640a8c04418cb55d6a0da7af2eb7bd71eb7d9088cfe5d10.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5053/primary-01-4cccf7532bf8.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5053/primary-01-06b3bb056df6.webp",
       "sourceHash": "a9c319d53cbd80bb9640a8c04418cb55d6a0da7af2eb7bd71eb7d9088cfe5d10",
-      "outputHash": "4cccf7532bf856b26ba772ac290fa295f1cb54ac4a32b7c3aa59ea49df3a1d4e",
+      "outputHash": "06b3bb056df656ce9fdb5daea2ab90d76e3b7ff4a0ffc0225764c1368fedbb40",
       "mimeType": "image/jpeg",
       "bytes": 36048,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Combined hip preserves separated narrow rotating pads, seat/back, handles, fixed legs and lower cam/cable system. Moving pad posts/crosslinks green; Full Muscle badge. Gray guard/slot and exercise/safety labels retained in original layout; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5053-6c115fdc7c4d490d.png"
     },
     {
       "assetId": "fm-gt-5054-2f4d5de042254a99",
@@ -18177,16 +18261,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/50/50e9439584fceaedd689ca5bf9e5fd97f6ed8909921728ac69dc1f70b16cf46d.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5054/primary-01-51d40445a3db.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5054/primary-01-2b11e8fd124b.webp",
       "sourceHash": "50e9439584fceaedd689ca5bf9e5fd97f6ed8909921728ac69dc1f70b16cf46d",
-      "outputHash": "51d40445a3dba83901d24cb5696cb0ba19316d853eba0f99b15a95b2d5d28ca2",
+      "outputHash": "2b11e8fd124bacebc159945f4ad186e031f211fd66d8aeab1c397bd9d5bf0c4a",
       "mimeType": "image/jpeg",
       "bytes": 32920,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Back/abdominal preserves diagonal roller lever, black cam/end cap, pin, pads and foot rollers. Only moving lever green; Full Muscle badge. Gray guard/slot and instruction/safety label layout retained; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5054-2f4d5de042254a99.png"
     },
     {
       "assetId": "fm-gt-5055-1-159f3fa40094030f",
@@ -18198,16 +18284,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/53/535237e1725607d9c094dc0b59ab7e1a410e211e32c216a61c5b369af1f2bab4.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5055-1/primary-01-59af27d48f27.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5055-1/primary-01-c1f8c26cc7d6.webp",
       "sourceHash": "535237e1725607d9c094dc0b59ab7e1a410e211e32c216a61c5b369af1f2bab4",
-      "outputHash": "59af27d48f27e2e35b89d30dfd9483449318c89be58a2e5d7fa6da8e259ae319",
+      "outputHash": "c1f8c26cc7d600aa82a6202d277ebc76beef35ff5643b2c634dffc5b80f8e07c",
       "mimeType": "image/jpeg",
       "bytes": 34197,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Leg combo variant preserves upper U handle/thigh restraint, lower roller lever, cam, silver adjustment arcs and seat/back. Moving steel lever/upper articulated links green; Full Muscle badge. Guard and label layout/occlusions retained; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5055-1-159f3fa40094030f.png"
     },
     {
       "assetId": "fm-gt-5055-6e237d442aa6628c",
@@ -18219,16 +18307,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/61/6190a235953b21fb6672f4ebb836d41ca2e435f5c2fec5f331063d1911426a6c.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5055/primary-01-4dc471e9fc37.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5055/primary-01-db35c516449a.webp",
       "sourceHash": "6190a235953b21fb6672f4ebb836d41ca2e435f5c2fec5f331063d1911426a6c",
-      "outputHash": "4dc471e9fc377c6e6d3e1dde183c9da7cd6629495c46b7de4746bbb4780af4b3",
+      "outputHash": "db35c516449a5225884fb81a367180525090aa1ec611c6acb90bac98f952577e",
       "mimeType": "image/jpeg",
       "bytes": 31134,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Leg curl/extension preserves twin rollers, diagonal lever, cams, silver arcs/pins, seat adjustment and frame. Moving lever/links green including top sleeve; Full Muscle badge. Guard and exercise/safety labels retain layout; microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5055-6e237d442aa6628c.png"
     },
     {
       "assetId": "fm-gt-5056-8f32786ed208a995",
@@ -18240,16 +18330,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/c7/c73169b8e99bb7eaa271522a5aa128162e7801d1d54e1bb609c0d06a055fe5fe.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5056/primary-01-0167942ce302.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5056/primary-01-caabd74717e7.webp",
       "sourceHash": "c73169b8e99bb7eaa271522a5aa128162e7801d1d54e1bb609c0d06a055fe5fe",
-      "outputHash": "0167942ce302af127a42cbb179fe677cf2ceca967b2e647304283f83298ce43b",
+      "outputHash": "caabd74717e72bd9044a957e782bd324d503a5325b18ceaba3a38226c79f94f1",
       "mimeType": "image/jpeg",
       "bytes": 32690,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Adjustable chest press preserves reclined bench angle, seat rail, moving arms, grips, pulleys and rear linkage. Upper moving arms and upper rear connecting crossbar green; Full Muscle badge. Gray guard and label occlusions/layout retained, microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5056-8f32786ed208a995.png"
     },
     {
       "assetId": "fm-gt-5057-2bb45844e216c2e9",
@@ -18261,16 +18353,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/29/299fa7465ea18c1901802a9c27e1ff6a2111042caac1c5f43c68f19774fa9af3.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5057/primary-01-fed998e1240f.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5057/primary-01-7a89699180bd.webp",
       "sourceHash": "299fa7465ea18c1901802a9c27e1ff6a2111042caac1c5f43c68f19774fa9af3",
-      "outputHash": "fed998e1240ff4358eabe839b0da48addecbb3cc0545f58d715785a35a39de63",
+      "outputHash": "7a89699180bddd23faf1a43ce6412ff51000174ad4acc76b705d755c1c191623",
       "mimeType": "image/jpeg",
       "bytes": 29640,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Lat/low row preserves both bars, hooks, pulleys, cables, bench, rollers and internal upright. Outer tower perimeter/top beam green, guard gray and accessories black. Full Muscle badge; red instruction/safety label layout retained, microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5057-2bb45844e216c2e9.png"
     },
     {
       "assetId": "fm-gt-5058-5111f5037046829f",
@@ -18282,16 +18376,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/93/9300aa6b01faa5871d5042e0dd67fbcb11b93c6cf00bc5fadbab7c0f2834cff8.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5058/primary-01-29c7ba4e5540.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5058/primary-01-76d71878a2d9.webp",
       "sourceHash": "9300aa6b01faa5871d5042e0dd67fbcb11b93c6cf00bc5fadbab7c0f2834cff8",
-      "outputHash": "29c7ba4e5540ffd8a0b0f5a21444ea2c3acc3bf6d801043c825eefe7957c706b",
+      "outputHash": "76d71878a2d9e7e9fb071979e8fd3558cce5d196f7f7d427ddcaab6fd559220a",
       "mimeType": "image/jpeg",
       "bytes": 34621,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Adjustable leg station preserves pad configuration, roller lever, cam/adjustment arc, bench hinges and grips. Front moving roller lever/bracket green; Full Muscle badge. Guard and red instruction/safety label layout retained, microtext illustrative. View/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5058-5111f5037046829f.png"
     },
     {
       "assetId": "fm-gt-5067-1-c9b4e3fb99e08780",
@@ -18303,16 +18399,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/70/7042f18302f1c7396a7000a5480a5d62ebede263de57580738d002b59d47ec47.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5067-1/primary-01-b193e295aff1.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5067-1/primary-01-c6f523076d06.webp",
       "sourceHash": "7042f18302f1c7396a7000a5480a5d62ebede263de57580738d002b59d47ec47",
-      "outputHash": "b193e295aff1c03396a02d1fd086bf8e0d25d40a838b582a84e4f95e43d0af1d",
+      "outputHash": "c6f523076d064667716e1aa34d494a3a80d01a5908939194d7ce2a33e2b6f183",
       "mimeType": "image/jpeg",
       "bytes": 39738,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Original red tower-side bars recolored green; footplate, belt, bench pads, rails, cams, frame and view retained. Small supplier badge replaced by Full Muscle. Red instruction/warning layouts retained; microtext and scale numerals illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5067-1-c9b4e3fb99e08780.png"
     },
     {
       "assetId": "fm-gt-5068-34b532a921f3aa50",
@@ -18324,16 +18422,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/cc/ccf53b6613afcf7be7e73bdb26ee28557c24619735bec07ea3267a33b48cb61e.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5068/primary-01-e2f010e5230d.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5068/primary-01-c4d9b48fc20c.webp",
       "sourceHash": "ccf53b6613afcf7be7e73bdb26ee28557c24619735bec07ea3267a33b48cb61e",
-      "outputHash": "e2f010e5230d6356cb42c4383e7a916af34868663100fd22ec3294171f0db2c3",
+      "outputHash": "c4d9b48fc20cb563f8af8d9410dc9fe0ff5fdcc8d6d7bc357e5717f42f69ad49",
       "mimeType": "image/jpeg",
       "bytes": 32608,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Only original red tower-side bars recolored green. Split pads, rollers, inclined adjustable frame, grip geometry, pedals and linkages retained. Full Muscle badge at original supplier position. Red instruction/warning layout retained; microtext and weight numerals illustrative. White view preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5068-34b532a921f3aa50.png"
     },
     {
       "assetId": "fm-gt-5070-c6fe2e69aa5f66e1",
@@ -18345,16 +18445,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/03/0302b6391a0d412c23fb0b01f95a20703475d7c9c44b73f6625f5ba9413a5042.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5070/primary-01-2e8e70d07151.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5070/primary-01-6edd4fc181c6.webp",
       "sourceHash": "0302b6391a0d412c23fb0b01f95a20703475d7c9c44b73f6625f5ba9413a5042",
-      "outputHash": "2e8e70d07151681d831e651355d7fe9a72fa9b836ae3715683c87b32ddaec19b",
+      "outputHash": "6edd4fc181c6e5fd8b1625d944335f32d870c036d9644f1ce2f48645d678b23c",
       "mimeType": "image/jpeg",
       "bytes": 30357,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Original red short tower bars recolored green; black grip loops and twin slotted metallic platforms retained. Cables, pulleys, hook, fixed frame, gray guard and view preserved. Small Full Muscle supplier replacement. Warning/instruction layout retained; microtexts and weight numerals illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5070-c6fe2e69aa5f66e1.png"
     },
     {
       "assetId": "fm-gt-5071-0a575fff5d8345b8",
@@ -18366,16 +18468,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/bd/bdae1eaaf82d3559bc197a0d4f2efc24a11f37f273c041b63ea1045ad18c0c50.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5071/primary-01-1d9b235e6240.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5071/primary-01-53297a2c6035.webp",
       "sourceHash": "bdae1eaaf82d3559bc197a0d4f2efc24a11f37f273c041b63ea1045ad18c0c50",
-      "outputHash": "1d9b235e6240201c4d0670475ca79a4645d2e3f34c5c0b8602f1ed0146519ce2",
+      "outputHash": "53297a2c60353e2b0cf12b06d31b7898e8ba37d41c8a0d7a22894ff40e055379",
       "mimeType": "image/jpeg",
       "bytes": 28524,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Original red lower side bars changed to green. Upright pads, black grips, metal platform layout, pivots and frame preserved. Full Muscle at supplier badge. Gray guard and red instruction/safety layout preserved; microtexts illustrative. Same viewpoint and white background."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5071-0a575fff5d8345b8.png"
     },
     {
       "assetId": "fm-gt-5086-029208d3dbaa4574",
@@ -18387,16 +18491,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/2b/2b578ff066d08aa6f98b21a94c679ac949a66c17e2c1ee1c707e9bed8a05f7f8.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5086/primary-01-a0ef3662dca6.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5086/primary-01-5bc1da3654a7.webp",
       "sourceHash": "2b578ff066d08aa6f98b21a94c679ac949a66c17e2c1ee1c707e9bed8a05f7f8",
-      "outputHash": "a0ef3662dca629d326539750d87550c23434944c9b1ba3bb89fd3b0e9f1f5214",
+      "outputHash": "5bc1da3654a777d4159bd7639ecd6a6345de78e98eff29157ca0a16e1e43b0c5",
       "mimeType": "image/jpeg",
       "bytes": 28758,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Long diagonal moving arm and upper sleeve green. Cam black and adjustment arc silver retained; arm pad, seat, fixed frame, pulley/cable arrangement and grips unchanged. Full Muscle badge. Gray guard and red instruction/warning positions preserved; microtexts illustrative. Original view/background retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5086-029208d3dbaa4574.png"
     },
     {
       "assetId": "fm-gt-5090-230d95188d1eb952",
@@ -18408,16 +18514,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/00/0049c5d7d010127bb1d924d9e17309dc4eeef51ae4daf94922703a73c23014b4.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5090/primary-01-e68bc6433c6d.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5090/primary-01-be2c129e2fe0.webp",
       "sourceHash": "0049c5d7d010127bb1d924d9e17309dc4eeef51ae4daf94922703a73c23014b4",
-      "outputHash": "e68bc6433c6d2bcb3cc4ff02e08b58106dd320f8f3eee3cea8231bc0a9d4e890",
+      "outputHash": "be2c129e2fe010defd817afed3ed0a6aa05a8109eec9ed38f8cbb11e246cef02",
       "mimeType": "image/jpeg",
       "bytes": 40785,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Both tower outer perimeter frames green including lower crossmembers, chrome guide rails and central accessory bars retained. Overhead pullup bar black, twin gray guards and pulley/grip geometry retained. Both supplier badges replaced by Full Muscle. Red label layouts and weight slots retained, microtexts illustrative. Frontal view and white background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5090-230d95188d1eb952.png"
     },
     {
       "assetId": "fm-gt-5092-d08f22f9015a881f",
@@ -18429,16 +18537,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/8e/8e090eb15248628fc8596514ac5d4d34cee31eecb8a281fe3b092d2801a39e2c.jpg",
-      "stagedPath": "src/assets/catalog/FM-GT-5092/primary-01-f90334a11b6a.webp",
+      "stagedPath": "src/assets/catalog/FM-GT-5092/primary-01-9a0da903e562.webp",
       "sourceHash": "8e090eb15248628fc8596514ac5d4d34cee31eecb8a281fe3b092d2801a39e2c",
-      "outputHash": "f90334a11b6afbd667f62a34ebbec8b2bab15e702e561b21964c52745581df7d",
+      "outputHash": "9a0da903e56287cec8666161cb412faab9d603dc658f5971d80108e30130fd17",
       "mimeType": "image/jpeg",
       "bytes": 35777,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Weight tower perimeter green and Full Muscle badge. Inclined bench, sculpted pads, footplates, grips, chrome loading sleeves and mechanical supports retained. Gray guard, slots and red instruction/safety positions preserved; microtexts illustrative. Original view and background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/gt-batch-01/fm-gt-5092-d08f22f9015a881f.png"
     },
     {
       "assetId": "fm-gt-5095-8bb245be050895ca",
@@ -18620,16 +18730,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/e1/e1157361b6fc6b7ee6325198498e7554db1d12f77ed31329762f442156f5ac9a.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8138/primary-01-4fcdba23de52.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8138/primary-01-ecd69bf03c05.webp",
       "sourceHash": "e1157361b6fc6b7ee6325198498e7554db1d12f77ed31329762f442156f5ac9a",
-      "outputHash": "4fcdba23de52e20a3b6912f736d704a2b30df16ca45584a2169bac624627269e",
+      "outputHash": "ecd69bf03c051aa3ceaefba0746a864d7216286613d50b4a884b54f4230ac14a",
       "mimeType": "image/jpeg",
       "bytes": 43902,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: red painted upper arms and lower linkage green; flexible hanging straps remain red, black grips and bench, silver slotted footplates and weight sleeves retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8138.png"
     },
     {
       "assetId": "fm-mp-8138-3cd652ff09051127",
@@ -18679,16 +18791,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/d8/d87e051e44405dc6a609a75f0a7c9c5c2882038b759eaf0e22fed398f6850b5d.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8139/primary-01-88c0815cb980.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8139/primary-01-ee31e22b99ff.webp",
       "sourceHash": "d87e051e44405dc6a609a75f0a7c9c5c2882038b759eaf0e22fed398f6850b5d",
-      "outputHash": "88c0815cb98024b48ca174402182c46cf0f8bc5b530b8aa813ec49935c0784f5",
+      "outputHash": "ee31e22b99ff6f64d2558cac50f3952fe36240a1d43e2cb15fbe1a64c67ee22d",
       "mimeType": "image/jpeg",
       "bytes": 37107,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: red thigh-pad supports and broad lever arms green; stitched pads, black foot-contact rollers, chrome sleeve, silver adjustments and original seat frame retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8139.png"
     },
     {
       "assetId": "fm-mp-8139-c32e67a8c82f7430",
@@ -18719,16 +18833,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/15/15a9c33388df0ff77f8d8c8308ddb44cdee456e78e0911ef49bbf01a24e4166b.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8140/primary-01-3341a6ee0a45.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8140/primary-01-71c9219a989b.webp",
       "sourceHash": "15a9c33388df0ff77f8d8c8308ddb44cdee456e78e0911ef49bbf01a24e4166b",
-      "outputHash": "3341a6ee0a450648a524ff7fff13bec26d31e2e63c8aa91e50d35a66ba67a7a2",
+      "outputHash": "71c9219a989b3008fc4e225c1a1a46bf9a406b58380c2bee18ac4742547efff9",
       "mimeType": "image/jpeg",
       "bytes": 38695,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: broad curved arms green; top tubular functional control remains red and selector tab yellow, chrome sleeves, silver slotted platform and black grips retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8140.png"
     },
     {
       "assetId": "fm-mp-8140-2d6d6ba3e3367c44",
@@ -18968,16 +19084,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/3a/3a451ff966fb91dee93465f403efb45750839b7cc6cb8ed78c6097b79539a05e.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8141/primary-01-c46fc69d7d0d.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8141/primary-01-15321f0cdf23.webp",
       "sourceHash": "3a451ff966fb91dee93465f403efb45750839b7cc6cb8ed78c6097b79539a05e",
-      "outputHash": "c46fc69d7d0de6addfd4a53537bc4471502f7322e201f7ae439eab02a0942b53",
+      "outputHash": "15321f0cdf23d662e55345332f1344876a8f2645e795fae43620ebf535101ec2",
       "mimeType": "image/jpeg",
       "bytes": 46462,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: long moving rails and broad weight-bearing crossbar green; black handles/pads, silver sleeves, slotted footplates and adjustment hardware retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8141.png"
     },
     {
       "assetId": "fm-mp-8142-11dae4f84193e641",
@@ -18989,16 +19107,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/a8/a835d70439d3e3a1d8814c8ce4c7ebf22ca27053632e2bd67998c08dbc9b39f8.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8142/primary-01-db1f66bb0e1a.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8142/primary-01-783af229cbed.webp",
       "sourceHash": "a835d70439d3e3a1d8814c8ce4c7ebf22ca27053632e2bd67998c08dbc9b39f8",
-      "outputHash": "db1f66bb0e1adb1821d6a8e4dde010e3ffedc70d55172e10ce87b864be5f6581",
+      "outputHash": "783af229cbedb61d97477a6e41df77bf043dc40f4e97197278ce4e43227e23b1",
       "mimeType": "image/jpeg",
       "bytes": 43580,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: original red arms, housings, pad backplates and lower linkage green; black stitched upholstery, flexible belts and silver adjustment rods retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8142.png"
     },
     {
       "assetId": "fm-mp-8142-a2b28830f24b41d8",
@@ -19067,16 +19187,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/d7/d7deb805a5dd9f280dd74c8777dae8032c43207e3a78500380930d90251ea298.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8143/primary-01-b99564fe73d8.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8143/primary-01-3b371df6558b.webp",
       "sourceHash": "d7deb805a5dd9f280dd74c8777dae8032c43207e3a78500380930d90251ea298",
-      "outputHash": "b99564fe73d80e48f10facea5add6a41ac9508ec1cfec2b1d821ffa56288e924",
+      "outputHash": "3b371df6558be961ebc040e21a16284419a06b025ff1d4882912d4ed8033980a",
       "mimeType": "image/jpeg",
       "bytes": 44044,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: curved tubular press arms green; grip assemblies, chrome sleeves, black counterweights, stitched bench and inclination mechanism retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8143.png"
     },
     {
       "assetId": "fm-mp-8143-af785bd77eb996bf",
@@ -19107,16 +19229,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/de/de3757bd0d7cb9cf40f71c7043177f7bac1917b81b12d86903d09e90ec05a49b.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8144/primary-01-6b20ad8ca662.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8144/primary-01-13be51335b80.webp",
       "sourceHash": "de3757bd0d7cb9cf40f71c7043177f7bac1917b81b12d86903d09e90ec05a49b",
-      "outputHash": "6b20ad8ca662f58d033ce56f5b18620b152c1f6791d2debc9c1a13971ed3e88e",
+      "outputHash": "13be51335b80ef343a5139da005a1e202d0c6f857e0e694bd8f7565efb5f7264",
       "mimeType": "image/jpeg",
       "bytes": 43132,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: central curved moving bar and broad brackets green; original functional controls, black grips, chrome guide rods/sleeves, side shrouds and platform retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8144.png"
     },
     {
       "assetId": "fm-mp-8144-cc627fc3dd6599fa",
@@ -19204,16 +19328,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/50/50518bd0df244203eddfd2c013b583ae9967cb166f13fd85070a467ba4c2066f.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8145/primary-01-4e6f71a167e7.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8145/primary-01-583867328167.webp",
       "sourceHash": "50518bd0df244203eddfd2c013b583ae9967cb166f13fd85070a467ba4c2066f",
-      "outputHash": "4e6f71a167e7356f8a656f03fcb1b137ffe8bfbee154138342b77658a65ab772",
+      "outputHash": "5838673281677a4729a88ec91ee0f0b469f51942328cb30364d71db0102ef4a6",
       "mimeType": "image/jpeg",
       "bytes": 45474,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: red curved frame and mounting brackets green; chrome upright adjustment posts, black stitched roller and pads, footplate and front adjusters retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8145.png"
     },
     {
       "assetId": "fm-mp-8145-d2022f191d7f3acb",
@@ -19244,16 +19370,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/79/797606ff3224f9276a1b5043d81e8630de0d87fab0a41de506042eb903450272.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8146/primary-01-1939c2390892.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8146/primary-01-f08b948e5db3.webp",
       "sourceHash": "797606ff3224f9276a1b5043d81e8630de0d87fab0a41de506042eb903450272",
-      "outputHash": "1939c23908920db198b5ca1bd660450d8d4191aa2184eabef8c0b07b9d0bf0a3",
+      "outputHash": "f08b948e5db3f647e440393af090fe18d3c520c8a2a73d8cc8fb502fbcaacaf9",
       "mimeType": "image/jpeg",
       "bytes": 35052,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: overhead lat arms green; light gray seat retained, black knee pads, grip array, chrome post/sleeves and red warning label preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8146.png"
     },
     {
       "assetId": "fm-mp-8147a-fe248a4f64bf22f9",
@@ -19265,16 +19393,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/a7/a705c2f21659ed7485a3a5a1bc747d13edf741b2c6c3047d5168e4403d9e3262.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8147A/primary-01-88537f4921b8.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8147A/primary-01-49a0e3b6a825.webp",
       "sourceHash": "a705c2f21659ed7485a3a5a1bc747d13edf741b2c6c3047d5168e4403d9e3262",
-      "outputHash": "88537f4921b8ef41e3e59ba83e6d8cd5c79337b786c6937fb7722a44644d2b74",
+      "outputHash": "49a0e3b6a825712074950673f614f8ed6f9b5557da3d14f622fb0c5bf8ec1357",
       "mimeType": "image/jpeg",
       "bytes": 36686,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: upper lever pair and lower loading arm green; black flexible belts, pads, grip rubber, chrome sleeves and original warning label retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8147A.png"
     },
     {
       "assetId": "fm-mp-8148-09fac0780d3b8bb1",
@@ -19286,16 +19416,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/e4/e440fac967935e2859fff1aaa282f649f34b0e05031b6ef118ff84c4605c3fba.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8148/primary-01-600cd3f737b0.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8148/primary-01-ac1f7edb2916.webp",
       "sourceHash": "e440fac967935e2859fff1aaa282f649f34b0e05031b6ef118ff84c4605c3fba",
-      "outputHash": "600cd3f737b04289ee7e23753b2b29d10587409240f6a34116f6a5475a179e17",
+      "outputHash": "ac1f7edb2916a3de0a1c02f3a3f4f1563c692af6557e64909392a942ffd1286f",
       "mimeType": "image/jpeg",
       "bytes": 46443,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: red frame rails/crossbars green; small functional release lever remains red, chrome guide rods and sleeves, pads and angled metal footplate retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8148.png"
     },
     {
       "assetId": "fm-mp-8148-fc281c6ec4bb781a",
@@ -19326,16 +19458,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/57/57fb167267635c829cce60b79d1316b3037de55fe0f144885b1b30fad994fbf1.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8149/primary-01-530c2162ecb4.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8149/primary-01-5088e17cdc76.webp",
       "sourceHash": "57fb167267635c829cce60b79d1316b3037de55fe0f144885b1b30fad994fbf1",
-      "outputHash": "530c2162ecb4e780702e1bb3f0d4ed10877b0fe35bc14543d272ea640a531a8c",
+      "outputHash": "5088e17cdc76c88e16184adf04f00d91bfbcad6e6874acc2cda58dc65a638d1b",
       "mimeType": "image/jpeg",
       "bytes": 48665,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: broad sled and lower shoulder-pad supports green; thin red tilt-adjustment actuator retained red, slotted footplate and chrome sleeves silver, black pads/frame retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8149.png"
     },
     {
       "assetId": "fm-mp-8150-e79a2ee6fe680ddd",
@@ -19347,16 +19481,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/fc/fcaf15c2d8ab6892e1aeffd9d2bbe26f7f25c77a645fc668acf3ba3441b93c1f.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8150/primary-01-f20e9d96ad53.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8150/primary-01-47cea30e03d3.webp",
       "sourceHash": "fcaf15c2d8ab6892e1aeffd9d2bbe26f7f25c77a645fc668acf3ba3441b93c1f",
-      "outputHash": "f20e9d96ad5345751af310f6f5adec35daf812f59fdbc30519efe70993f03197",
+      "outputHash": "47cea30e03d363afbf5aa4774f2e455a74ba6b4d1e2b8d0950ee76a6b5db3e10",
       "mimeType": "image/jpeg",
       "bytes": 29589,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: central lever and lower painted loading disc green; black handgrips/frame, silver footplate and sleeve, red safety label retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8150.png"
     },
     {
       "assetId": "fm-mp-8151-c1d254223ee16b55",
@@ -19368,16 +19504,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/b9/b9f579c2808c931334739c3ca9bbe739eed48515264bd34bd1ba7ec0b55a9fbe.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8151/primary-01-7341a286934b.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8151/primary-01-5003b4b0a214.webp",
       "sourceHash": "b9f579c2808c931334739c3ca9bbe739eed48515264bd34bd1ba7ec0b55a9fbe",
-      "outputHash": "7341a286934bd575aea86c81e2e1ece118a211926a95c23e6a7949e55632ea1c",
+      "outputHash": "5003b4b0a21497a3e331ab5b98d47e49522428059503fa6a8a797c9a3b302fa0",
       "mimeType": "image/jpeg",
       "bytes": 48839,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: upper red lever structure and lower link green; black shoulder pads/knobs, silver adjustment rod, chrome sleeves and spring clips retained; TZ replaced."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8151.png"
     },
     {
       "assetId": "fm-mp-8152-572e9d787a932905",
@@ -19389,16 +19527,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/61/6161b9ad57fd8ab16de2dff3a82a3b43f422501719f2db337b35a09210d486ef.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8152/primary-01-a7bcee2d428a.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8152/primary-01-234f3ccd8220.webp",
       "sourceHash": "6161b9ad57fd8ab16de2dff3a82a3b43f422501719f2db337b35a09210d486ef",
-      "outputHash": "a7bcee2d428afc82c484ec0a3a9f111af8d6ef70fae29e3309d6c05fffe8fb83",
+      "outputHash": "234f3ccd82201e341209fed255556275b698f4d487741842cce89a3f84dd5dab",
       "mimeType": "image/jpeg",
       "bytes": 41081,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: independent rectangular press levers green; black grips, silver sleeves/pivots and original scissor bench adjustment mechanism retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8152.png"
     },
     {
       "assetId": "fm-mp-8153-81e179773c7ee747",
@@ -19410,16 +19550,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/e2/e223e6f53919ea734f27547408a1e9ba128e27440a5f8d4cf62d05c70315e05c.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8153/primary-01-d1ee24efc8d7.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8153/primary-01-595d679fd1a7.webp",
       "sourceHash": "e223e6f53919ea734f27547408a1e9ba128e27440a5f8d4cf62d05c70315e05c",
-      "outputHash": "d1ee24efc8d77227afde67b70f5f3e260b1aeb8cafc021f7f73328e670d56d0e",
+      "outputHash": "595d679fd1a7c477c7b2e52aa42477c1925425c1262f690b9b2a419117614ece",
       "mimeType": "image/jpeg",
       "bytes": 37492,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: paired upper incline-bench levers green; black upholstery, belts/cables, foot roller and chrome sleeves retained, TZ replaced on top arch."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8153.png"
     },
     {
       "assetId": "fm-mp-8154-90d05380a8777927",
@@ -19431,16 +19573,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/1d/1db9ea8999c0aa2ba249005f3d7b69dbc2335433a98fb3483e849267b5b5b2d7.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8154/primary-01-a0bce9995b34.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8154/primary-01-7f465daace06.webp",
       "sourceHash": "1db9ea8999c0aa2ba249005f3d7b69dbc2335433a98fb3483e849267b5b5b2d7",
-      "outputHash": "a0bce9995b34082ab6006ef653d222c8ce5a9c8bbf37a01749eb2dd6649d3b07",
+      "outputHash": "7f465daace063dfd48514b320ae7e4fbd31f2a46eac3c5902e0699eceb2dd28d",
       "mimeType": "image/jpeg",
       "bytes": 41834,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: upper moving structure and pad-backing rail green; hanging pad shape, black grips, silver loading sleeves/clips, treaded platform and safety stop retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8154.png"
     },
     {
       "assetId": "fm-mp-8155-e414bf21398145a7",
@@ -19452,16 +19596,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/17/171e4f53260df80020ea617c7450f35b2fb9c27c479babf2e47f2482693de3d3.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8155/primary-01-4213e6fcb925.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8155/primary-01-4515859c2b69.webp",
       "sourceHash": "171e4f53260df80020ea617c7450f35b2fb9c27c479babf2e47f2482693de3d3",
-      "outputHash": "4213e6fcb925625d6abfd247536a17d58da77f91fa5eb50ca7c1b78266a0995d",
+      "outputHash": "4515859c2b69ca0ed0585b6e5cc436fb21093df5e3227b205c4de9705184db27",
       "mimeType": "image/jpeg",
       "bytes": 45080,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: curved shoulder-press arms green; yellow caution labels preserved, black grips/counterweights, stitched seat and silver adjustments retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8155.png"
     },
     {
       "assetId": "fm-mp-8156-47682df70ab9a563",
@@ -19473,16 +19619,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/dc/dc1fb4efc502ae6f68666859a8dafaff9f199b1a531b23e764703ef8099906e2.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8156/primary-01-27f5d31a5944.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8156/primary-01-67b705bc6c8d.webp",
       "sourceHash": "dc1fb4efc502ae6f68666859a8dafaff9f199b1a531b23e764703ef8099906e2",
-      "outputHash": "27f5d31a5944c6472ef06bc65f3647a3761c85338fee43f64f8c827dea23aa4f",
+      "outputHash": "67b705bc6c8d7fd7d1dd92297030bc73e9d17f0bc70b9597934f768431c9e80b",
       "mimeType": "image/jpeg",
       "bytes": 32244,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: triangular loading arm green; black stitched rollers and upper grips, silver sleeves, height controls and metal foot step retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8156.png"
     },
     {
       "assetId": "fm-mp-8156-b5ac3297cf36f6dd",
@@ -19513,16 +19661,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/fd/fd5d5986d3e900041f18be13c65b602cbc4ef0d999a7b08d1a0f6a68678ea948.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8157/primary-01-4a1652bf614c.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8157/primary-01-20f83325c1fd.webp",
       "sourceHash": "fd5d5986d3e900041f18be13c65b602cbc4ef0d999a7b08d1a0f6a68678ea948",
-      "outputHash": "4a1652bf614c564bee8fd3310080eae20a235033c14fa5059d3dfdcbac959157",
+      "outputHash": "20f83325c1fd439d1c55f5eda16e1fdc58f8f08bb310efeb5471c900bf245c2e",
       "mimeType": "image/jpeg",
       "bytes": 39622,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: central loading frame green; black notched safety ladders and release handle preserved, chrome sleeves/clips, silver platform and red warning label retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8157.png"
     },
     {
       "assetId": "fm-mp-8158-b1c186c0c2364f05",
@@ -19534,16 +19684,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/b1/b14f80e25d82ab6be21384fd38a525549395a0a1d24c46a64f5bf209f2363d97.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8158/primary-01-c8f1869f1462.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8158/primary-01-f8d03c5273aa.webp",
       "sourceHash": "b14f80e25d82ab6be21384fd38a525549395a0a1d24c46a64f5bf209f2363d97",
-      "outputHash": "c8f1869f1462b4bfc0ab99c49fe53a660b4fb4f99e2c7d596ef5307fae1491d6",
+      "outputHash": "f8d03c5273aaef1adccb3ba6ce144bd995062136fa3f94d9e4e1309a8aede1c4",
       "mimeType": "image/jpeg",
       "bytes": 71278,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: paired upper rails green; hanging straps and lat bar remain black, chrome post/sleeves, black lower loading arm and seat retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8158.png"
     },
     {
       "assetId": "fm-mp-8160-89b6c3504bcb18c8",
@@ -19555,16 +19707,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/86/865c8f35a3ed14a1e54e4745840dd09c43daa16d1d3155d29e3de4679a90b33d.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8160/primary-01-431edf297fba.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8160/primary-01-714672ca4816.webp",
       "sourceHash": "865c8f35a3ed14a1e54e4745840dd09c43daa16d1d3155d29e3de4679a90b33d",
-      "outputHash": "431edf297fbad2a9d4ca674fa770760c39b87fb5f845266fdcfe68836044b133",
+      "outputHash": "714672ca4816695e11d94d4511ae081558271fc03a174d79d4cfd58a34f578c8",
       "mimeType": "image/jpeg",
       "bytes": 42969,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: curved press arms and rear loading lever green; black grip shapes and linkage rods, silver pivots/sleeves, yellow caution and red warning labels retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8160.png"
     },
     {
       "assetId": "fm-mp-8163-73ec2248f47b2a4c",
@@ -19576,16 +19730,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/fe/fe4bbf7bf1c0b7ac8b5de9a24ecfe8506eb06170e23a926ac7e3b1a423a68857.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8163/primary-01-18b9fb660c3a.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8163/primary-01-105cb9d9db4c.webp",
       "sourceHash": "fe4bbf7bf1c0b7ac8b5de9a24ecfe8506eb06170e23a926ac7e3b1a423a68857",
-      "outputHash": "18b9fb660c3a0eb2c94c25588afdfe74547d13ccde31faa1582f8412983e8337",
+      "outputHash": "105cb9d9db4cef61735a1b67ba946a3eb603afac831db05440b8812cd400e9bd",
       "mimeType": "image/jpeg",
       "bytes": 47738,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: paired long leg levers and loading crossmembers green; silver treaded footplates, black pads/grips and adjustment controls retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8163.png"
     },
     {
       "assetId": "fm-mp-8165-24c5a52e6873007e",
@@ -19597,16 +19753,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/2c/2c3e1d839376cceb703f50e615ea163449c365bc3b86de6a84277f4750eab8dd.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8165/primary-01-ede316ea2cda.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8165/primary-01-06aa914caf2c.webp",
       "sourceHash": "2c3e1d839376cceb703f50e615ea163449c365bc3b86de6a84277f4750eab8dd",
-      "outputHash": "ede316ea2cda860172cb50bd4e9403c397597b0316ae32ee1511dc9ffcab2f22",
+      "outputHash": "06aa914caf2cd6f8a6f10aed573474b9297d3aa5812f3c534f9d2b80d6036468",
       "mimeType": "image/jpeg",
       "bytes": 40483,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: curved overhead and rear steel levers green; both flexible straps remain red, black rubber grips, stitched pads, chrome sleeves and seat rack retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8165.png"
     },
     {
       "assetId": "fm-mp-8166-b5ef592ca70555bb",
@@ -19618,16 +19776,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/56/567aee40c848415596e5e410b25678d849c1169a2322594d5f8ab32e128fb4b2.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8166/primary-01-b15ad265663a.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8166/primary-01-2a5b8fae8722.webp",
       "sourceHash": "567aee40c848415596e5e410b25678d849c1169a2322594d5f8ab32e128fb4b2",
-      "outputHash": "b15ad265663a7862a62ec743edd1e2529b0b8570be52c8db7f5d2978b0ebdaaf",
+      "outputHash": "2a5b8fae8722e6c2d6eb8e459678817221182462e5dfe05ba8ecbf5d4c3bb3e5",
       "mimeType": "image/jpeg",
       "bytes": 32597,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: tall curved rowing lever and lower metal handle connector green; black grips, silver slotted footplates, stitched bench and yellow warning triangle retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8166.png"
     },
     {
       "assetId": "fm-mp-8167-3c968240e96057d1",
@@ -19639,16 +19799,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/09/0973919346e871d3aac631aa18bc01eabbb79b09e956800647a8176e0a0fe7ff.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8167/primary-01-cf2add6bde10.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8167/primary-01-d7cd53c2812e.webp",
       "sourceHash": "0973919346e871d3aac631aa18bc01eabbb79b09e956800647a8176e0a0fe7ff",
-      "outputHash": "cf2add6bde1092af0d3ee0a82f3af31bf8e944646eac35a2010455144eb504d1",
+      "outputHash": "d7cd53c2812eea13818c4b0f1163c15c040fb7130dd36f06ba2d4721f257c633",
       "mimeType": "image/jpeg",
       "bytes": 39355,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: upper twin rectangular levers green; yellow release handle remains yellow, all rubber grips black, chrome loading sleeves and black four-post frame retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8167.png"
     },
     {
       "assetId": "fm-mp-8168-98bfdb1abe01815a",
@@ -19660,16 +19822,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/5c/5c18b338a8b592225744a9629ebd0be680c81c11229c4c71158691263008e1ae.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8168/primary-01-0b682ac20356.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8168/primary-01-831f33ecc07d.webp",
       "sourceHash": "5c18b338a8b592225744a9629ebd0be680c81c11229c4c71158691263008e1ae",
-      "outputHash": "0b682ac2035656cb245ce370d1f9681c8a870d2727013410265173598588b08e",
+      "outputHash": "831f33ecc07d6cc4deede9f9fc93e8f92b232192322ec725175ff031aff05c77",
       "mimeType": "image/jpeg",
       "bytes": 38134,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: upper press beams green, small red spring adjustment pins retained red with silver caps; black pads, seat rack, chrome sleeves, silver footplates and warning colors preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8168.png"
     },
     {
       "assetId": "fm-mp-8169-4eebd614d2b4def5",
@@ -19681,16 +19845,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/f4/f4e5b3b8ae61252707856a168bebade43c22d0b6e322363a1f54069b7f13ef23.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8169/primary-01-ad745839b879.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8169/primary-01-d5086eb2d571.webp",
       "sourceHash": "f4e5b3b8ae61252707856a168bebade43c22d0b6e322363a1f54069b7f13ef23",
-      "outputHash": "ad745839b8793ad7ac19172df13c54e3c6373a0c8753eb139c29a55653ff1f3b",
+      "outputHash": "d5086eb2d57194d32938d1e52d446f94b7c393e7598480aa8f28fce97501535e",
       "mimeType": "image/jpeg",
       "bytes": 37200,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: red tubular moving arms and metal grip mounts green; black grips, cables, pulleys, gas cylinder, adjustment rack, stitched pads and warning labels retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8169.png"
     },
     {
       "assetId": "fm-mp-8170-c8ec7f79c4443556",
@@ -19702,16 +19868,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/46/460a8b4b2cc628eee18ed3eda8a0ba489c3f6e1e2c801d024cbae92f53459b38.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8170/primary-01-24b58ac6d3d5.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8170/primary-01-fa944655001c.webp",
       "sourceHash": "460a8b4b2cc628eee18ed3eda8a0ba489c3f6e1e2c801d024cbae92f53459b38",
-      "outputHash": "24b58ac6d3d584741cb67e40190eedbfd7a415f20650035a45e3183d2d12e4ba",
+      "outputHash": "fa944655001c442ac4bde2ea22d91c24d645a68b7c6363a0e36851791ddd861c",
       "mimeType": "image/jpeg",
       "bytes": 46342,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and final corrected result visually inspected: structural carriages green, red safety-release handle retained. Initial generation recolored a bare-metal rear crossbar; localized imagegen correction restored silver crossbar. Chrome guides, sleeves, footplate and black upholstery retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8170.png"
     },
     {
       "assetId": "fm-mp-8171-ba040042c2ec09fc",
@@ -19723,16 +19891,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/47/4757ad22bcee7958a28f26534ebeb927ae57948c1046e40adaf317a0a16419c5.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8171/primary-01-3fa6b4595808.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8171/primary-01-173bc230680b.webp",
       "sourceHash": "4757ad22bcee7958a28f26534ebeb927ae57948c1046e40adaf317a0a16419c5",
-      "outputHash": "3fa6b4595808f4e06109442b35f944bc8a81925e8e834114dd2d8c5517421506",
+      "outputHash": "173bc230680b390834e7d18b9c66545ebb55074630a793b0b9ddbe13844715b0",
       "mimeType": "image/jpeg",
       "bytes": 44819,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: upper shoulder-load levers and lower moving linkages green; black shoulder pads, belts, gas struts and rollers retained, lower guides and weight sleeves remain chrome, yellow warning preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8171.png"
     },
     {
       "assetId": "fm-mp-8172-240c1badaf73b930",
@@ -19744,16 +19914,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/d4/d48487ab08ead401ca9cc740aaac6fefcb43e019e10e4ce9cb2cf7efc2f9ee87.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8172/primary-01-b9b7479e07d2.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8172/primary-01-76cfbe522312.webp",
       "sourceHash": "d48487ab08ead401ca9cc740aaac6fefcb43e019e10e4ce9cb2cf7efc2f9ee87",
-      "outputHash": "b9b7479e07d2776498e8cea13fdf7bbcbeac9b2ea7d6001316e399f448956e3a",
+      "outputHash": "76cfbe5223128edfdabfaeb25ab075dc09bf93cc9799c018aa26bc96a6ec9fc8",
       "mimeType": "image/jpeg",
       "bytes": 42492,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: upper jointed steel side levers and front roller crossmember green; black waist belt, leg roller, grips and upholstery retained, chrome shafts and sleeves plus yellow/red warnings preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8172.png"
     },
     {
       "assetId": "fm-mp-8173-97df46719d9fa1a1",
@@ -19765,16 +19937,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/2b/2b458cf81cbb7b3fc730b0e320033cc05bc8f8137d4d3219df9df6a1975faa4b.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8173/primary-01-5ad7f9bf6e15.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8173/primary-01-aaadf12054a9.webp",
       "sourceHash": "2b458cf81cbb7b3fc730b0e320033cc05bc8f8137d4d3219df9df6a1975faa4b",
-      "outputHash": "5ad7f9bf6e15b73926905553edc696d332144ab148ec07f1c122117ab1295c65",
+      "outputHash": "aaadf12054a94b8466e93e4a0cd50e1d0e79be249424b8f2e703214d2e20b36e",
       "mimeType": "image/jpeg",
       "bytes": 43476,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: parallel upper moving rails and backrest support carriage green; adjacent black frame rails, shoulder pads, grip surfaces and lower platform mechanism retained, chrome sleeves unchanged."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8173.png"
     },
     {
       "assetId": "fm-mp-8174-a7af46f2c2480d53",
@@ -19786,16 +19960,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/93/93a3fd9f3f1c5bb9bb3525438e963a3a8fe287f5c16fdcecdd6ada6e13be44bc.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8174/primary-01-53c9fa597988.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8174/primary-01-04bdedc0b496.webp",
       "sourceHash": "93a3fd9f3f1c5bb9bb3525438e963a3a8fe287f5c16fdcecdd6ada6e13be44bc",
-      "outputHash": "53c9fa5979880fb3fb76ebca07f71a3989a9c73e68a0884769505c9ed4086d33",
+      "outputHash": "04bdedc0b4960d92ca5425dd2be43937ce884437668841532845d51683bb413d",
       "mimeType": "image/jpeg",
       "bytes": 38131,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: front angled support arms, pad backing plates and lower linkages green; small red adjustment pin retained, black pads and gas cylinder, chrome sleeves and silver step unchanged."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8174.png"
     },
     {
       "assetId": "fm-mp-8175-e5377b5c57ff90b3",
@@ -19807,16 +19983,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/af/afae789040195795afb97b39c02a0cc34058af1d48b1e540556e51e14aa49904.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8175/primary-01-85a19cdbc890.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8175/primary-01-2143d1518ce5.webp",
       "sourceHash": "afae789040195795afb97b39c02a0cc34058af1d48b1e540556e51e14aa49904",
-      "outputHash": "85a19cdbc89006e0a34ae0d0e4e5a74fc7a85904693857f615e4fbe5913c07a1",
+      "outputHash": "2143d1518ce5abe1b526576bb59c23536ca1807f1c5f054c1310be32fe15c7e5",
       "mimeType": "image/jpeg",
       "bytes": 47202,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: inner leg-press moving beams and footplate support frames green; slotted foot-contact plates remain silver, black seat and main frame preserved, chrome sleeves and lower sliding rails unchanged."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8175.png"
     },
     {
       "assetId": "fm-mp-8176-be78335bc828809c",
@@ -19828,16 +20006,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/58/588563242bf4787d274da1b24df25619cab83289e2fad7a1725d816c5042d664.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8176/primary-01-cd7c0549458b.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8176/primary-01-a9dc7b3f1dff.webp",
       "sourceHash": "588563242bf4787d274da1b24df25619cab83289e2fad7a1725d816c5042d664",
-      "outputHash": "cd7c0549458b6488444b79de4d83daeea040a5117ed159cc060d2385e0c3e504",
+      "outputHash": "a9dc7b3f1dffbb2d55290dd3a52a71f025da0ef10c5aa5da35a37b00c22c2fbe",
       "mimeType": "image/jpeg",
       "bytes": 31099,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: slim upper press-lever frames and lower loading linkages green; black belts, angled pull rods, bench and foot pads retained, silver adjustment shaft and chrome sleeves unchanged."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8176.png"
     },
     {
       "assetId": "fm-mp-8177-7388c5ae9d2bd861",
@@ -19849,16 +20029,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/0b/0b4d787ecdeadec067445efe314c6de845095794b50f26044859dd47740a0cd4.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8177/primary-01-434aae8c3818.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8177/primary-01-7f40fbd1f60d.webp",
       "sourceHash": "0b4d787ecdeadec067445efe314c6de845095794b50f26044859dd47740a0cd4",
-      "outputHash": "434aae8c3818386d90b5bab6c2e125bb8f30137aa420357b0134ad1744206e51",
+      "outputHash": "7f40fbd1f60d9381e4153cc00e6a13e8609658f1b786657796086d5ed64a30a2",
       "mimeType": "image/jpeg",
       "bytes": 29641,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: slim upper moving frames and connecting crossbar green; wide black internal belts, decline bench, leg rollers, silver adjustment post, metallic sleeves and red warning label retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8177.png"
     },
     {
       "assetId": "fm-mp-8178-e5bbfdd5cdb3f26d",
@@ -19870,16 +20052,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/4b/4b937ff17f69739affe4ec3ff73615f757f16431dec9075e184acc90071fa35d.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8178/primary-01-00f8e4f90a86.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8178/primary-01-ab33a524026e.webp",
       "sourceHash": "4b937ff17f69739affe4ec3ff73615f757f16431dec9075e184acc90071fa35d",
-      "outputHash": "00f8e4f90a86e6438bd48e4975e5a4d78f2ee1962158653e411db130562d93a1",
+      "outputHash": "ab33a524026e23f173ae7ef49e8aedafd3041fce177f906306e59ecf89492787",
       "mimeType": "image/jpeg",
       "bytes": 50007,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: curved front arms, lower side tubular linkages and rear load beams green; red lower adjustment pin, black rods and grips, silver backrest adjustment shaft, treaded platform and chrome sleeves retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8178.png"
     },
     {
       "assetId": "fm-mp-8180-99b9c823f21adeba",
@@ -19891,16 +20075,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/30/3038a95b36c1b605a55a5457dd9fcde329effb9e3765e1843cd7883d9f3e78f4.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8180/primary-01-918d10e05787.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8180/primary-01-689aecc03ed6.webp",
       "sourceHash": "3038a95b36c1b605a55a5457dd9fcde329effb9e3765e1843cd7883d9f3e78f4",
-      "outputHash": "918d10e057871bf7d801e95ffc90ae9c3b32245e1ff04bd969e4b591578d0946",
+      "outputHash": "689aecc03ed61533e6a7615d2c9c703aa667e549c69f0686b9d9ec97ed492d6f",
       "mimeType": "image/jpeg",
       "bytes": 45103,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: curved side arms, rear loading beam and bottom painted lever hubs green; original black cable routes, pulleys, handle extensions, pads and outer frame retained, metal caps and weight sleeves unchanged."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8180.png"
     },
     {
       "assetId": "fm-mp-8181-d0fe983ba9be2efe",
@@ -19912,16 +20098,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/98/98a6f64f9331b7f75ac7ec6502e075eaf564a052cbba60e845847e8e7555d7d9.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8181/primary-01-b9625bdb946f.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8181/primary-01-925e0b710770.webp",
       "sourceHash": "98a6f64f9331b7f75ac7ec6502e075eaf564a052cbba60e845847e8e7555d7d9",
-      "outputHash": "b9625bdb946fdedd1d3c62d0e6e7e8a10ec2e34e96b8a3772f93579a04eca735",
+      "outputHash": "925e0b710770636607de418b50abfc1635fcd3f445a1be7e36e9b4b92ff7cb71",
       "mimeType": "image/jpeg",
       "bytes": 41149,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: broad front pad-support assembly and lower leg linkage green; black rollers, grips, knobs and counterweight retained, chrome sleeves and original warning colors preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8181.png"
     },
     {
       "assetId": "fm-mp-8182-423c0e18a4ba7d76",
@@ -19933,16 +20121,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/2e/2e833412916d650d52135ee95e979321a47edc5e3451cb4a52c0a703158f5b20.jpg",
-      "stagedPath": "src/assets/catalog/FM-MP-8182/primary-01-546523ae287f.webp",
+      "stagedPath": "src/assets/catalog/FM-MP-8182/primary-01-638782b00a47.webp",
       "sourceHash": "2e833412916d650d52135ee95e979321a47edc5e3451cb4a52c0a703158f5b20",
-      "outputHash": "546523ae287fc09e3feb9523ac055f04099148f56d76562e44d9c554b9913001",
+      "outputHash": "638782b00a4745fb5ffd0b9a8b1cd0069c3cb6bbae7f7c612552683cc829d7a4",
       "mimeType": "image/jpeg",
       "bytes": 45563,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: complex paired leg-press moving frame green; broad black footplates and lower black linkage retained, small red adjustment actuator preserved, chrome sleeves and exact seat configuration unchanged."
+      ],
+      "editedPath": "data/catalog-branding/generated/mp-batch-01/FM-MP-8182.png"
     },
     {
       "assetId": "fm-n2040a-e774acadca8d0a9b",
