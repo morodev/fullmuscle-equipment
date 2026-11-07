@@ -2,6 +2,7 @@
 import type { Locale } from '../lib/types';
 import { route } from '../lib/site';
 import { SOLUTION_BY_ID, solutionUrl, solutionsHubUrl } from '../lib/solutions';
+import { CATALOG_DOWNLOADS } from '../lib/brochures';
 import Logo from './Logo.astro';
 
 interface Props { locale: Locale }
@@ -18,7 +19,7 @@ const footerSolutions = ['new-gym', 'renovation', 'medical'] as const;
     <nav aria-label="Catalogo">
       <strong>{locale === 'it' ? 'Esplora' : 'Explore'}</strong>
       <a href={r.catalog}>{locale === 'it' ? 'Catalogo' : 'Catalogue'}</a>
-      {locale === 'it' && <a href="/cataloghi/fullmuscle-g5.pdf" download>Catalogo G5 (PDF)</a>}
+      {locale === 'it' && CATALOG_DOWNLOADS.map((catalogue) => <a href={catalogue.href} download>Catalogo {catalogue.name} (PDF)</a>)}
       <a href={`${r.guides}/`}>{locale === 'it' ? 'Guide tecniche' : 'Technical guides'}</a>
       <a href={r.quote}>{locale === 'it' ? 'Richiedi preventivo' : 'Request a quote'}</a>
     </nav>

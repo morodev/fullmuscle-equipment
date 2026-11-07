@@ -1,0 +1,35 @@
+{
+  "tool": "image_gen.imagegen",
+  "referenceGreen": "#356B35",
+  "reviewedAt": "2026-11-07T19:57:25.780Z",
+  "items": [
+    {
+      "assetId": "fm-gf-005-952ed3db0311d168",
+      "sku": "FM-GF-005",
+      "role": "primary",
+      "sourceHash": "1282065b42a18ea898b94f49fe58de9f16e95cce9ec654e2c131f39640e7c40b",
+      "inputPath": "data/catalog-assets/originals/12/1282065b42a18ea898b94f49fe58de9f16e95cce9ec654e2c131f39640e7c40b.jpg",
+      "originalPath": "data/catalog-assets/originals/12/1282065b42a18ea898b94f49fe58de9f16e95cce9ec654e2c131f39640e7c40b.jpg",
+      "categoryId": "plate-loaded-machine",
+      "lineId": "fm-gf-series",
+      "outputPath": "data/catalog-branding/generated/gf-completion-01/fm-gf-005-primary.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/gf-completion-01/prompts/fm-gf-005-primary.json",
+      "review": "Confrontata con originale GF-005: conservati silhouette, schienale inclinato, seduta, telaio nero, leveraggi, perno carico cromato, piedi e impugnature con anelli gialli. Solo le due leve superiori bianche sono verdi #356B35; logo Full Muscle Equipment bianco sul braccio vicino sinistro. Fondo bianco e inquadratura conservati."
+    },
+    {
+      "assetId": "fm-gf-005-23e5bd86f06b0883",
+      "sku": "FM-GF-005",
+      "role": "gallery",
+      "sourceHash": "860cd87e53ad7a045ce5e4ee41080941f6da7338c9b4b12087cf51fefa729d46",
+      "inputPath": "data/catalog-assets/originals/86/860cd87e53ad7a045ce5e4ee41080941f6da7338c9b4b12087cf51fefa729d46.jpg",
+      "originalPath": "data/catalog-assets/originals/86/860cd87e53ad7a045ce5e4ee41080941f6da7338c9b4b12087cf51fefa729d46.jpg",
+      "categoryId": "plate-loaded-machine",
+      "lineId": "fm-gf-series",
+      "outputPath": "data/catalog-branding/generated/gf-completion-01/fm-gf-005-gallery.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/gf-completion-01/prompts/fm-gf-005-gallery.json",
+      "review": "Confrontata con originale GF-005 nella propria vista: leve superiori bianche rese verdi #356B35, logo sul braccio destro vicino e targhetta Full Muscle al posto del marchio fornitore sulla traversa posteriore. Conservati imbottiture, telaio nero, meccanismi, cromature, pavimento e macchine sullo sfondo."
+    }
+  ]
+}

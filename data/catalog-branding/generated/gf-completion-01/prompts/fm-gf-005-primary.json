@@ -1,0 +1,8 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/12/1282065b42a18ea898b94f49fe58de9f16e95cce9ec654e2c131f39640e7c40b.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-batch-01/fm-gf-001-5286876353a3278b.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case: precise-object-edit. Edit target: FIRST image only, FM-GF-005 incline chest press on white. SECOND image is only a Full Muscle logo and satin forest green finish reference; do NOT borrow its different machine geometry. Recolor ONLY the two long white/silver-painted upper converging lever arms in the first image to satin forest green #356B35, matching the green reference with realistic lighting. Add a modest white italic 'Full Muscle' wordmark with tiny 'EQUIPMENT' beneath on the broad outer face of the nearer LEFT green arm, following its diagonal, one logo only. Preserve exactly the input machine: incline back pad and small black seat, all BLACK frame/linkages, pivots, exact bolts and holes, black handles with yellow accent rings and silver collars, chrome weight horn and adjustments, silver seat support, feet. Keep original camera angle, complete machine framing, white background and shadow. No new parts, no gym background, no price or extraneous text. High fidelity product illustration; exact geometry and all hardware unchanged."
+}

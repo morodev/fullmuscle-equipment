@@ -1,0 +1,13 @@
+{
+  "reviewedAt": "2026-11-07",
+  "status": "visually-reviewed",
+  "reviewedArtifacts": ["catalogo-contact-sheet.jpg", "catalogo/02.png", "catalogo/07.png"],
+  "notes": [
+    "Otto pagine: copertina GF, indice, cinque modelli univoci e contatti.",
+    "Grafica coerente con la brochure G5: antracite, verde, loghi, caratteri e schede a pagina intera.",
+    "Immagini con leve verdi, telaio nero e personalizzazione Full Muscle; GF-005 completo e visibile nella scheda dedicata.",
+    "Ogni pagina macchina mostra 1.870 € + IVA, dimensioni, peso e carico a dischi.",
+    "Indice e pagina GF-005 verificati anche a dimensione leggibile; nessuna sovrapposizione o ritaglio rilevato.",
+    "Preflight e controllo indipendente verificano tutte le pagine di entrambi i PDF; scansione fisica del QR non eseguita."
+  ]
+}

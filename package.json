@@ -25,7 +25,9 @@
     "test:e2e": "playwright test",
     "brochure:test": "node --test brochures/fullmuscle-g5/scripts/pricing.test.mjs",
     "brochure:build": "node brochures/fullmuscle-g5/scripts/build.mjs",
-    "brochure:check": "node brochures/fullmuscle-g5/scripts/check.mjs"
+    "brochure:check": "node brochures/fullmuscle-g5/scripts/check.mjs",
+    "brochure:gf:build": "node brochures/fullmuscle-gf/scripts/build.mjs",
+    "brochure:gf:check": "node brochures/fullmuscle-gf/scripts/check.mjs"
   },
   "dependencies": {
     "@astrojs/node": "^11.1.5",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceInventoryHash": "45fde16c81b51dd09e5113524b9d18af9e30b106548316661d6c01e6665139db",
-  "reviewedAt": "2026-09-13T11:13:06.878Z",
+  "reviewedAt": "2026-11-07T19:56:13.216Z",
   "defaultStatus": "needs-cleaning",
   "defaultNote": "immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione.",
   "approvedAssetIds": [
@@ -440,11 +440,7 @@
     "fm-gf-004-2e22cfda7137a5fb",
     "fm-gf-004-b843ca71e84f5106",
     "fm-gf-005-23e5bd86f06b0883",
-    "fm-gf-005-47c4e88140930124",
     "fm-gf-005-952ed3db0311d168",
-    "fm-gf-005-a7ad109144d95dcc",
-    "fm-gf-005-aa72c8a9bcc9ca21",
-    "fm-gf-005-afdd008a71740bf2",
     "fm-gm-5001-5a097bd42f0dce2a",
     "fm-gm-5002-0c49a8087a6e8be9",
     "fm-gm-5002-1-0076e45c2f0ba53b",

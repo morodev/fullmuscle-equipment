@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T13:19:12.563Z",
+  "generatedAt": "2026-11-07T19:58:14.119Z",
   "status": "internal-drafts",
   "products": [
     {
@@ -28659,6 +28659,74 @@
       }
     },
     {
+      "internalId": "product-fm-gf-005",
+      "publicSku": "FM-GF-005",
+      "categoryId": "plate-loaded-machine",
+      "lineId": "fm-gf-series",
+      "status": "draft",
+      "availableForQuote": false,
+      "specifications": {
+        "Machine Size (L*W*H)": "1985*1140*1135 mm",
+        "Machine Weight": "104 kg"
+      },
+      "assets": [
+        {
+          "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/04/Workout-Gym-Incline-Chest-Press-Gym-Machine.jpg",
+          "alt": "",
+          "role": "primary",
+          "reviewStatus": "approved-provisional",
+          "localPath": "src/assets/catalog/FM-GF-005/primary-01-e31da8cc70af.webp"
+        },
+        {
+          "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/04/Plate-Loaded-Seated-Incline-Chest-Press-Machine.jpg",
+          "alt": "Commercial Gym Strength Flex Leverage Incline Chest Press",
+          "role": "gallery",
+          "reviewStatus": "approved-provisional",
+          "localPath": "src/assets/catalog/FM-GF-005/gallery-02-2e62e98b301c.webp"
+        }
+      ],
+      "sourceReference": {
+        "supplier": "tzfit",
+        "sourceSku": "GF-005",
+        "sourceUrl": "https://tzfit.com/fitness-equipment-strength-incline-chest-press-gf005/",
+        "contentHash": "f866c2202b848be911d1ae6b59c7287a5a0ca476a9fff50d4569eb697c449003"
+      },
+      "localization": {
+        "it": {
+          "status": "draft",
+          "reviewed": false,
+          "slug": "fm-gf-005-incline-chest-press",
+          "name": "Incline Chest Press",
+          "summary": "",
+          "description": "",
+          "features": [],
+          "seoTitle": "",
+          "seoDescription": ""
+        },
+        "en": {
+          "status": "draft",
+          "reviewed": false,
+          "slug": "fm-gf-005-incline-chest-press",
+          "name": "Incline Chest Press",
+          "summary": "",
+          "description": "",
+          "features": [],
+          "seoTitle": "",
+          "seoDescription": ""
+        }
+      },
+      "review": {
+        "technicalDataVerified": false,
+        "assetsVerified": false,
+        "copyApproved": false,
+        "notes": [
+          "Riscrivere descrizione e vantaggi in italiano e inglese prima della pubblicazione.",
+          "Verificare dati tecnici, conformità, garanzia e disponibilità con la documentazione commerciale approvata.",
+          "Avvisi importazione: sku-conflict:title-or-url=GF005."
+        ]
+      }
+    },
+    {
       "internalId": "product-fm-gm-5001",
       "publicSku": "FM-GM-5001",
       "categoryId": "pin-loaded-machine",
@@ -50760,22 +50828,6 @@
           "sourceSku": "GC-5067-1",
           "sourceUrl": "https://tzfit.com/strength-equipment-hip-thrust-machine-gc-5067/",
           "sourceName": "Hip Thrust Glute Bridge Machine"
-        }
-      ]
-    },
-    {
-      "publicSku": "FM-GF-005",
-      "reason": "duplicate-source-sku",
-      "sources": [
-        {
-          "sourceSku": "GF-005",
-          "sourceUrl": "https://tzfit.com/fitness-equipment-strength-incline-chest-press-gf005/",
-          "sourceName": "Incline Chest Press"
-        },
-        {
-          "sourceSku": "GF-005",
-          "sourceUrl": "https://tzfit.com/strength-training-incline-chest-press-machine-gf005/",
-          "sourceName": "Plate Loaded Incline Chest Press"
         }
       ]
     },

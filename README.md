@@ -1,6 +1,6 @@
 # FullMuscle Equipment
 
-Sito corporate e catalogo B2B per attrezzature fitness professionali. Il catalogo consente di filtrare 744 prodotti, creare una selezione con quantità e inviare una richiesta di preventivo; non gestisce acquisti o pagamenti online.
+Sito corporate e catalogo B2B per attrezzature fitness professionali. Il catalogo consente di filtrare 745 prodotti, creare una selezione con quantità e inviare una richiesta di preventivo; non gestisce acquisti o pagamenti online.
 
 La priorità commerciale è acquisire richieste per nuove aperture di palestre e forniture complete, seguite da rinnovi e ampliamenti. Centri medicali, fisioterapia e riabilitazione completano l'offerta; gli altri contesti restano accessibili nelle pagine Soluzioni.
 
@@ -19,11 +19,17 @@ Il sito locale parte da `http://localhost:4321/it/`. La build di lavoro usa un d
 
 I dati grezzi e i riferimenti di importazione restano in `data/catalog-drafts` e `data/catalog-source`. Prima di ogni avvio o build, `scripts/site/generate-public-catalog.ts` genera `data/catalog-public/products.json`: contiene soltanto SKU FullMuscle, classificazione, dati tecnici filtrati e percorsi delle immagini approvate.
 
-Le immagini approvate sono in `src/assets/catalog`. Tutti i 744 prodotti pubblici devono avere una fotografia principale locale: la generazione si interrompe se ne manca anche una. Gli strumenti in `scripts/catalog` gestiscono importazione, normalizzazione, revisione e staging degli asset; `npm run catalog:assets -- approve-primary` applica in modo ripetibile l’autorizzazione provvisoria alle sole immagini principali valide.
+Le immagini approvate sono in `src/assets/catalog`. Tutti i 745 prodotti pubblici devono avere una fotografia principale locale: la generazione si interrompe se ne manca anche una. Gli strumenti in `scripts/catalog` gestiscono importazione, normalizzazione, revisione e staging degli asset; `npm run catalog:assets -- approve-primary` applica in modo ripetibile l’autorizzazione provvisoria alle sole immagini principali valide.
 
 Al 7 novembre 2026 sono approvate e integrate nel repository 754 immagini elaborate per i 744 prodotti, con logo Full Muscle e verde scuro di riferimento `#356B35` sulle parti verniciate individuate. La coda contiene 754 lavori `integrated` e nessun lavoro residuo. Il catalogo completo ? pubblicato con il commit `281355b`: gli otto campioni dell'ultimo rilascio mostrano le nuove immagini e rispondono 200, inclusi i file immagine ([report](data/site-audits/2026-11-07-branding-release-9.json)). Il [controllo di integrit? completo](data/site-audits/2026-11-07-catalog-branding-integrity.json) non rileva errori sui 754 asset locali.
 
 La coda `data/catalog-branding/jobs.json` e i report dei lotti conservano associazione al modello, `sourceHash`, prompt ed esito della revisione visiva. Le elaborazioni mantengono lo stato asset `approved-provisional`: sono immagini illustrative revisionate, non originali OEM. La [procedura catalogo](docs/catalogo-sorgente-tzfit.md) descrive revisione e integrazione senza cambiare SKU o URL delle schede.
+
+## Serie GF e catalogo PDF
+
+La serie GF comprende cinque modelli, da FM-GF-001 a FM-GF-005. La GF-005 è recuperata tramite una risoluzione esplicita delle due schede sorgente duplicate; le altre quarantene rimangono attive. Il catalogo corrente contiene 745 prodotti e 756 immagini personalizzate revisionate. Il controllo della pubblicazione GF è separato dai report storici sopra.
+
+Il catalogo GF italiano ha otto pagine, una macchina per pagina, e prezzo fisso di **1.870 € + IVA** per ciascun modello, indicato soltanto nel PDF. File, build e preflight sono descritti nella [procedura GF](brochures/fullmuscle-gf/README.md). Il download è disponibile dalla pagina della serie e dal footer italiano.
 
 ## Verifiche
 
@@ -51,7 +57,7 @@ Il comando si interrompe se manca un valore obbligatorio o se `PUBLIC_SITE_READY
 
 Il dominio canonical approvato è `https://fullmuscle-equipment.com`. La verifica online del 7 novembre 2026 conferma il redirect 301 da HTTP a HTTPS con percorso e query conservati. Il redirect da HTTPS `www` è ancora da completare su Hostinger: il campione verificato restituisce 200. I domini `.it` richiederanno un redirect permanente solo quando saranno disponibili e collegati; non sono inclusi fra le configurazioni già verificate.
 
-Il catalogo espone 24 prodotti per pagina attraverso link HTML e URL paginati. Tutte le 744 schede italiane e le 744 inglesi sono raggiungibili senza JavaScript e incluse nella sitemap insieme alle immagini. Ogni pagina localizzata ha title, description, canonical, `hreflang`, Open Graph, breadcrumb e dati strutturati pertinenti. Le pagine richiesta, conferma e privacy restano escluse dalla sitemap e usano `noindex`.
+Il catalogo espone 24 prodotti per pagina attraverso link HTML e URL paginati. Tutte le 745 schede italiane e le 745 inglesi sono raggiungibili senza JavaScript e incluse nella sitemap insieme alle immagini. Ogni pagina localizzata ha title, description, canonical, `hreflang`, Open Graph, breadcrumb e dati strutturati pertinenti. Le pagine richiesta, conferma e privacy restano escluse dalla sitemap e usano `noindex`.
 
 Finché `PUBLIC_SITE_READY=false`, tutte le pagine usano `noindex,nofollow` e `robots.txt` blocca la scansione. Questa protezione va rimossa solo nella build di pubblicazione, dopo aver inserito i dati reali. Le attività esterne necessarie sono elencate in [Checklist lancio SEO](docs/checklist-lancio-seo.md).
 

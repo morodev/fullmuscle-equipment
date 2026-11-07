@@ -4,6 +4,7 @@ import Breadcrumbs from '../../../../../components/Breadcrumbs.astro';
 import CatalogListing from '../../../../../components/CatalogListing.astro';
 import { CATEGORIES, FEATURED_TYPES, LINES, listItem, productsForCategory, productsForLine, productsForType, taxonomyUrl } from '../../../../../lib/catalog';
 import { paginatedUrl, route } from '../../../../../lib/site';
+import { CATALOG_DOWNLOADS } from '../../../../../lib/brochures';
 import type { CatalogTaxonomy, Locale, TaxonomyKind } from '../../../../../lib/types';
 
 export const prerender = true;
@@ -20,6 +21,7 @@ export function getStaticPaths() {
 interface Props { locale: Locale; taxonomy: CatalogTaxonomy; taxonomyKind: TaxonomyKind }
 const { locale, taxonomy, taxonomyKind } = Astro.props;
 const isIt = locale === 'it';
+const catalogueDownload = isIt && taxonomyKind === 'line' ? CATALOG_DOWNLOADS.find((catalogue) => catalogue.lineId === taxonomy.id) : undefined;
 const other: Locale = isIt ? 'en' : 'it';
 const r = route(locale);
 const source = taxonomyKind === 'category'
@@ -57,7 +59,7 @@ const structuredData = {
       <p class="eyebrow">{taxonomy.count} {isIt ? 'modelli disponibili' : 'available models'}</p>
       <h1>{taxonomy.name[locale]}</h1>
       <p>{taxonomy.description[locale]}</p>
-      {isIt && taxonomyKind === 'line' && taxonomy.id === 'fm-g5-series' && <a class="button" href="/cataloghi/fullmuscle-g5.pdf" download>Scarica il catalogo G5 (PDF)</a>}
+      {catalogueDownload && <a class="button" href={catalogueDownload.href} download>Scarica il catalogo {catalogueDownload.name} (PDF)</a>}
     </div>
   </section>
   <section class="section">

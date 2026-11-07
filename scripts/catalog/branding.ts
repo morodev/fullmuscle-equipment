@@ -70,7 +70,8 @@ async function main() {
         status: reuse ? 'ready-for-review' as const : 'pending' as const,
       };
     }));
-    if (jobs.length !== 754 || new Set(jobs.map(job => job.assetId)).size !== 754) throw new Error('Expected 754 unique published views.');
+    const publishedViewCount = catalogue.products.reduce((count, product) => count + product.assets.length, 0);
+    if (jobs.length !== publishedViewCount || new Set(jobs.map(job => job.assetId)).size !== publishedViewCount) throw new Error('Expected one unique branding job per published view.');
     const priority = (job: BrandingJob) => featured.has(job.sku) ? 0 : job.status === 'ready-for-review' ? 1 : 2;
     jobs.sort((a, b) => priority(a) - priority(b) || (a.lineId ?? a.categoryId).localeCompare(b.lineId ?? b.categoryId) || a.sku.localeCompare(b.sku) || a.assetId.localeCompare(b.assetId));
     await writeJsonAtomic(queuePath, { schemaVersion: 1, referenceGreen: '#356B35', jobs } satisfies BrandingQueue);

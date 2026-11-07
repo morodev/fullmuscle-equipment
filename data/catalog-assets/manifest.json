@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-09-13T09:35:51.935Z",
-  "updatedAt": "2026-11-07T13:19:12.548Z",
+  "updatedAt": "2026-11-07T19:58:14.103Z",
   "sourceInventoryHash": "45fde16c81b51dd09e5113524b9d18af9e30b106548316661d6c01e6665139db",
   "items": [
     {
@@ -14810,11 +14810,15 @@
       "sourceHash": "1282065b42a18ea898b94f49fe58de9f16e95cce9ec654e2c131f39640e7c40b",
       "mimeType": "image/jpeg",
       "bytes": 41860,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Confrontata con originale GF-005: conservati silhouette, schienale inclinato, seduta, telaio nero, leveraggi, perno carico cromato, piedi e impugnature con anelli gialli. Solo le due leve superiori bianche sono verdi #356B35; logo Full Muscle Equipment bianco sul braccio vicino sinistro. Fondo bianco e inquadratura conservati."
+      ],
+      "editedPath": "data/catalog-branding/generated/gf-completion-01/fm-gf-005-primary.png",
+      "stagedPath": "src/assets/catalog/FM-GF-005/primary-01-e31da8cc70af.webp",
+      "outputHash": "e31da8cc70af2de77605839807cfcf8a74c5a752fa6e329e0d9a0540ec38dfdf"
     },
     {
       "assetId": "fm-gf-005-a7ad109144d95dcc",
@@ -14823,7 +14827,7 @@
       "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/02/Flex-plate-loaded-incline-chest-press.jpg",
       "role": "primary",
       "sortOrder": 0,
-      "status": "approved-provisional",
+      "status": "excluded-source-alias",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/11/11f439b68bcfad7e0ba87c1f4941eb324f4622ed12b9e02c05e81f66b95f1774.jpg",
       "sourceHash": "11f439b68bcfad7e0ba87c1f4941eb324f4622ed12b9e02c05e81f66b95f1774",
@@ -14832,7 +14836,8 @@
       "width": 1000,
       "height": 1000,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Esclusa dalla pubblicazione: asset della pagina duplicata GF-005; la fonte canonica verificata ? fitness-equipment-strength-incline-chest-press-gf005 (aprile 2025)."
       ]
     },
     {
@@ -14848,11 +14853,15 @@
       "sourceHash": "860cd87e53ad7a045ce5e4ee41080941f6da7338c9b4b12087cf51fefa729d46",
       "mimeType": "image/jpeg",
       "bytes": 89175,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Confrontata con originale GF-005 nella propria vista: leve superiori bianche rese verdi #356B35, logo sul braccio destro vicino e targhetta Full Muscle al posto del marchio fornitore sulla traversa posteriore. Conservati imbottiture, telaio nero, meccanismi, cromature, pavimento e macchine sullo sfondo."
+      ],
+      "editedPath": "data/catalog-branding/generated/gf-completion-01/fm-gf-005-gallery.png",
+      "stagedPath": "src/assets/catalog/FM-GF-005/gallery-02-2e62e98b301c.webp",
+      "outputHash": "2e62e98b301c9876043f3eba49e7971e6f5f3f29164d9065c6596f3299939646"
     },
     {
       "assetId": "fm-gf-005-afdd008a71740bf2",
@@ -14861,7 +14870,7 @@
       "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/02/fitness-gym-business-plan-incline-chest-press-machine.jpg",
       "role": "gallery",
       "sortOrder": 1,
-      "status": "approved-provisional",
+      "status": "excluded-source-alias",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/19/19cf1ca4c6f55f8b1f6023b535c0716a0e511debd8553d88e3075ec319649dfc.jpg",
       "sourceHash": "19cf1ca4c6f55f8b1f6023b535c0716a0e511debd8553d88e3075ec319649dfc",
@@ -14870,7 +14879,8 @@
       "width": 1000,
       "height": 750,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Esclusa dalla pubblicazione: asset della pagina duplicata GF-005; la fonte canonica verificata ? fitness-equipment-strength-incline-chest-press-gf005 (aprile 2025)."
       ]
     },
     {
@@ -14880,7 +14890,7 @@
       "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/02/strength-training-incline-chest-press-machine-for-sale.jpg",
       "role": "gallery",
       "sortOrder": 2,
-      "status": "approved-provisional",
+      "status": "excluded-source-alias",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/dc/dcea947a6e503edbbecb878bb7884ab520099e1067a784d4f1cd844313d86d17.jpg",
       "sourceHash": "dcea947a6e503edbbecb878bb7884ab520099e1067a784d4f1cd844313d86d17",
@@ -14889,7 +14899,8 @@
       "width": 1000,
       "height": 750,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Esclusa dalla pubblicazione: asset della pagina duplicata GF-005; la fonte canonica verificata ? fitness-equipment-strength-incline-chest-press-gf005 (aprile 2025)."
       ]
     },
     {
@@ -14899,7 +14910,7 @@
       "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/02/Body-Building-Plate-Load-seated-incline-chest-press.jpg",
       "role": "gallery",
       "sortOrder": 3,
-      "status": "approved-provisional",
+      "status": "excluded-source-alias",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/5c/5cba6fe400ae2adc0fed01e7002c52a1bb512aa991ea0dd29e83e2b40fa1348b.jpg",
       "sourceHash": "5cba6fe400ae2adc0fed01e7002c52a1bb512aa991ea0dd29e83e2b40fa1348b",
@@ -14908,7 +14919,8 @@
       "width": 1000,
       "height": 750,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Esclusa dalla pubblicazione: asset della pagina duplicata GF-005; la fonte canonica verificata ? fitness-equipment-strength-incline-chest-press-gf005 (aprile 2025)."
       ]
     },
     {
@@ -14918,7 +14930,7 @@
       "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/02/Commercial-Seated-Leg-Curl-Machine-for-Hamstring-Training.jpg",
       "role": "gallery",
       "sortOrder": 4,
-      "status": "needs-cleaning",
+      "status": "excluded-source-alias",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/03/0396ed9a55581f0e9fd374dee76fe0fb260b0c26644884d1898f1837c9cd4965.jpg",
       "sourceHash": "0396ed9a55581f0e9fd374dee76fe0fb260b0c26644884d1898f1837c9cd4965",
@@ -14927,7 +14939,8 @@
       "width": 1000,
       "height": 1000,
       "reviewNotes": [
-        "Revisione provvisoria: immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione."
+        "Revisione provvisoria: immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione.",
+        "Esclusa dalla pubblicazione: asset della pagina duplicata GF-005; la fonte canonica verificata ? fitness-equipment-strength-incline-chest-press-gf005 (aprile 2025)."
       ]
     },
     {
@@ -14937,7 +14950,7 @@
       "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/03/GC-5002-Seated-Leg-Extension.jpg",
       "role": "gallery",
       "sortOrder": 5,
-      "status": "needs-cleaning",
+      "status": "excluded-source-alias",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/6b/6becaae094221652fbbfafecb1f871dab183969e170929a3d744ed5c41416b40.jpg",
       "sourceHash": "6becaae094221652fbbfafecb1f871dab183969e170929a3d744ed5c41416b40",
@@ -14946,7 +14959,8 @@
       "width": 1000,
       "height": 1000,
       "reviewNotes": [
-        "Revisione provvisoria: immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione."
+        "Revisione provvisoria: immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione.",
+        "Esclusa dalla pubblicazione: asset della pagina duplicata GF-005; la fonte canonica verificata ? fitness-equipment-strength-incline-chest-press-gf005 (aprile 2025)."
       ]
     },
     {
@@ -14956,7 +14970,7 @@
       "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/03/Commercial-Gym-Pin-Loaded-Seated-Leg-Extension-Exercise-Machine.jpg",
       "role": "gallery",
       "sortOrder": 6,
-      "status": "needs-cleaning",
+      "status": "excluded-source-alias",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/07/0778d5cb3e064b08d1040eb8fc35236b66bfdd3130fa305dacd563617106563c.jpg",
       "sourceHash": "0778d5cb3e064b08d1040eb8fc35236b66bfdd3130fa305dacd563617106563c",
@@ -14965,7 +14979,8 @@
       "width": 1000,
       "height": 1000,
       "reviewNotes": [
-        "Revisione provvisoria: immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione."
+        "Revisione provvisoria: immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione.",
+        "Esclusa dalla pubblicazione: asset della pagina duplicata GF-005; la fonte canonica verificata ? fitness-equipment-strength-incline-chest-press-gf005 (aprile 2025)."
       ]
     },
     {
@@ -14975,7 +14990,7 @@
       "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/03/Strength-Equipment-Body-Building-Trainer-Gym-Fitness-Equipment-Rotary-Torso-Machine.jpg",
       "role": "gallery",
       "sortOrder": 7,
-      "status": "needs-cleaning",
+      "status": "excluded-source-alias",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/d6/d6d7ecd754a6b9baa78d7f5dfb217f884361c0bdeba28ad42884aadbb3aecad0.jpg",
       "sourceHash": "d6d7ecd754a6b9baa78d7f5dfb217f884361c0bdeba28ad42884aadbb3aecad0",
@@ -14984,7 +14999,8 @@
       "width": 1000,
       "height": 1000,
       "reviewNotes": [
-        "Revisione provvisoria: immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione."
+        "Revisione provvisoria: immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione.",
+        "Esclusa dalla pubblicazione: asset della pagina duplicata GF-005; la fonte canonica verificata ? fitness-equipment-strength-incline-chest-press-gf005 (aprile 2025)."
       ]
     },
     {
@@ -14994,7 +15010,7 @@
       "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/03/Wholesale-Commercial-Pin-Load-Gym-Equipment-Seated-Row.jpg",
       "role": "gallery",
       "sortOrder": 8,
-      "status": "needs-cleaning",
+      "status": "excluded-source-alias",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/f6/f6748f5a50e4da4d88a403344c3069079ea4aade76174309b6bb0a0ecd6eeba0.jpg",
       "sourceHash": "f6748f5a50e4da4d88a403344c3069079ea4aade76174309b6bb0a0ecd6eeba0",
@@ -15003,7 +15019,8 @@
       "width": 1000,
       "height": 1000,
       "reviewNotes": [
-        "Revisione provvisoria: immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione."
+        "Revisione provvisoria: immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione.",
+        "Esclusa dalla pubblicazione: asset della pagina duplicata GF-005; la fonte canonica verificata ? fitness-equipment-strength-incline-chest-press-gf005 (aprile 2025)."
       ]
     },
     {
@@ -15013,7 +15030,7 @@
       "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/03/Pin-Loaded-Fitness-Equipment-Machine-Seated-Chest-Press-Exercise-Machine.jpg",
       "role": "gallery",
       "sortOrder": 9,
-      "status": "needs-cleaning",
+      "status": "excluded-source-alias",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/7a/7a27233cb3172eab7076dfe9f06a8f6bf8c3cf11b4938aa473a9bfee1d3322f3.jpg",
       "sourceHash": "7a27233cb3172eab7076dfe9f06a8f6bf8c3cf11b4938aa473a9bfee1d3322f3",
@@ -15022,7 +15039,8 @@
       "width": 1000,
       "height": 1000,
       "reviewNotes": [
-        "Revisione provvisoria: immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione."
+        "Revisione provvisoria: immagine esclusa in via conservativa finché il nome del fornitore non viene rimosso o il file non viene approvato a piena risoluzione.",
+        "Esclusa dalla pubblicazione: asset della pagina duplicata GF-005; la fonte canonica verificata ? fitness-equipment-strength-incline-chest-press-gf005 (aprile 2025)."
       ]
     },
     {

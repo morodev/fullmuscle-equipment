@@ -1,0 +1,8 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/86/860cd87e53ad7a045ce5e4ee41080941f6da7338c9b4b12087cf51fefa729d46.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-batch-01/fm-gf-001-5286876353a3278b.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case: precise-object-edit. FIRST image is the sole edit target: real FM-GF-005 incline chest press in showroom. SECOND image is only Full Muscle wordmark/green finish reference, a different model whose geometry must NOT be copied. Recolor ONLY the foreground target machine's two long WHITE upper converging lever arms to satin forest green #356B35. Add one modest white italic 'Full Muscle' with small 'EQUIPMENT' below on the broad outer face of the nearer RIGHT green arm. Replace the small red/white TZfitness maker sticker on the central rear black crossbar with a modest Full Muscle Equipment label in its exact place. Preserve all foreground geometry, black inclined backrest and small seat, black frame and linkages, feet, fasteners, chrome weight horns, grips, surrounding showroom machines, floor, lighting, camera, complete framing. Do not recolor any background machines. No new parts, no added scenery, no price, no added trademarks. Precise realistic recolor and logo edits only."
+}

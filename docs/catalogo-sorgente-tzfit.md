@@ -7,6 +7,14 @@ La prima acquisizione completa e le eccezioni rilevate sono riepilogate nel [rep
 
 **Aggiornamento branding, 7 novembre 2026:** approvate e integrate nel repository 754 immagini elaborate per i 744 prodotti pubblici; la coda contiene 754 lavori `integrated` e nessun lavoro residuo. Il catalogo completo ? pubblicato con il commit `281355b`: gli otto campioni dell'ultimo rilascio e i relativi file immagine rispondono 200 con gli asset aggiornati ([report](../data/site-audits/2026-11-07-branding-release-9.json)). Il [controllo completo degli asset locali](../data/site-audits/2026-11-07-catalog-branding-integrity.json) non rileva errori. La revisione delle immagini non chiude le eccezioni tecniche dell'importazione o le attività della [checklist di lancio SEO](./checklist-lancio-seo.md).
 
+## Completamento GF, 7 novembre 2026
+
+La risoluzione revisionata di `GF-005` conserva entrambe le pagine sorgente e seleziona la scheda `fitness-equipment-strength-incline-chest-press-gf005` per normalizzazione, descrizione e immagini. I dieci asset esclusivi dell’alias hanno stato `excluded-source-alias` e restano esclusi anche rigenerando manifest e approvazioni. Le due fotografie canoniche sono state personalizzate e revisionate ([QA](../data/catalog-branding/generated/gf-completion-01/qa.json)). Il catalogo corrente contiene 745 prodotti, 756 viste integrate e 14 codici ancora in quarantena.
+
+Il [catalogo GF](../brochures/fullmuscle-gf/README.md) riprende la brochure G5 con cinque schede singole e prezzo di 1.870 € + IVA deciso dal titolare. Il sito conserva il flusso preventivo senza prezzi nelle schede.
+
+La generazione pubblica associa ora la descrizione alla coppia SKU e URL sorgente. Questo corregge anche 414 descrizioni preesistenti: la pulizia dei codici TZ le faceva collidere sulla stessa chiave e poteva assegnare un testo bicipiti/tricipiti a una bike. Nomi, SKU, specifiche, immagini e URL dei 744 prodotti già presenti rimangono invariati.
+
 ## Scopo e confini
 
 La pipeline censisce il catalogo pubblico del fornitore e prepara bozze FullMuscle. Non pubblica automaticamente nessun prodotto. Le descrizioni recuperate servono come materiale di lavoro: i testi finali italiani e inglesi devono essere riscritti, verificati e approvati. Prezzi, disponibilità, garanzia, certificazioni e dichiarazioni sull'azienda non vengono importati come affermazioni commerciali FullMuscle.

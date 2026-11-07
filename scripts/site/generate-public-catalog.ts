@@ -15,11 +15,11 @@ type SourceProduct = {
   specifications?: Record<string, unknown>;
   assets?: SourceAsset[];
   localization?: { it?: { name?: string }; en?: { name?: string } };
-  sourceReference?: { sourceSku?: string };
+  sourceReference?: { sourceSku?: string; sourceUrl?: string };
 };
 
 type SourceDocument = { products?: SourceProduct[] };
-type InventoryProduct = { sourceSku?: string; sourceDescription?: string };
+type InventoryProduct = { sourceSku?: string; sourceUrl?: string; sourceDescription?: string };
 type InventoryDocument = { products?: InventoryProduct[] };
 type AssetManifestItem = { stagedPath?: string; width?: number; height?: number };
 type AssetManifest = { items?: AssetManifestItem[] };
@@ -59,7 +59,7 @@ export async function generatePublicCatalog(): Promise<void> {
     readFile(assetManifestPath, 'utf8').then((value) => JSON.parse(value) as AssetManifest),
     readFile(editorialPath, 'utf8').then((value) => JSON.parse(value) as Record<string, { technicalDescription: string }>),
   ]);
-  const inventoryBySku = new Map((inventory.products ?? []).map((product) => [cleanText(product.sourceSku).toUpperCase(), product]));
+  const inventoryBySource = new Map((inventory.products ?? []).map((product) => [`${cleanText(product.sourceSku).toUpperCase()}\u0000${product.sourceUrl}`, product]));
   const dimensionsByPath = new Map((assetManifest.items ?? []).filter((item) => item.stagedPath).map((item) => [cleanText(item.stagedPath).replaceAll('\\', '/'), { width: item.width ?? 900, height: item.height ?? 900 }]));
   const products = (document.products ?? []).map((product) => {
     const publicSku = cleanText(product.publicSku).toUpperCase();
@@ -74,14 +74,15 @@ export async function generatePublicCatalog(): Promise<void> {
         .filter(([label, value]) => label && value && value.length <= 180),
     );
     const assets = (product.assets ?? [])
-      .filter((asset) => asset.localPath && asset.role && asset.reviewStatus)
+      .filter((asset) => asset.localPath && asset.role && ['approved', 'approved-provisional', 'approved-oem'].includes(asset.reviewStatus ?? ''))
       .map((asset) => {
         const localPath = cleanText(asset.localPath).replaceAll('\\', '/');
         const dimensions = dimensionsByPath.get(localPath) ?? { width: 900, height: 900 };
         return { role: asset.role, reviewStatus: asset.reviewStatus, localPath, ...dimensions };
       });
     const descriptor = cleanText(product.localization?.en?.name || product.localization?.it?.name || '');
-    const sourceProduct = inventoryBySku.get(sourceSku);
+    const sourceProduct = inventoryBySource.get(`${sourceSku}\u0000${product.sourceReference?.sourceUrl}`);
+    if (!sourceProduct) throw new Error(`Catalog source missing for ${publicSku}: the reviewed source URL must match the inventory.`);
     const technicalDescription = cleanTechnicalDescription(editorial[publicSku]?.technicalDescription ?? sourceProduct?.sourceDescription, sourceSku, publicSku);
 
     return {
@@ -95,8 +96,8 @@ export async function generatePublicCatalog(): Promise<void> {
     };
   });
 
-  if (products.length !== 744) {
-    throw new Error(`Expected 744 unique public products, found ${products.length}.`);
+  if (products.length !== 745 || new Set(products.map((product) => product.publicSku)).size !== 745) {
+    throw new Error(`Expected 745 unique public products, found ${products.length}.`);
   }
   const serialized = `${JSON.stringify({ schemaVersion: 2, products }, null, 2)}\n`;
   if (supplierReferenceCheck.test(serialized) || /https?:\/\//i.test(serialized)) {

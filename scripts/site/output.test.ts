@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { readdir, readFile, stat } from 'node:fs/promises';
 import { join, relative } from 'node:path';
 import test from 'node:test';
+import { load } from 'cheerio';
 
 const clientRoot = join(process.cwd(), 'dist', 'client');
 const serverRoot = join(process.cwd(), 'dist', 'server');
@@ -23,10 +24,10 @@ async function filesWithin(root: string): Promise<string[]> {
 test('la build pubblica contiene tutte le schede prodotto localizzate', async () => {
   const italian = (await readdir(join(clientRoot, 'it', 'prodotti'), { withFileTypes: true })).filter((entry) => entry.isDirectory());
   const english = (await readdir(join(clientRoot, 'en', 'products'), { withFileTypes: true })).filter((entry) => entry.isDirectory());
-  assert.equal(italian.length, 744);
-  assert.equal(english.length, 744);
-  assert.equal(new Set(italian.map((entry) => entry.name)).size, 744);
-  assert.equal(new Set(english.map((entry) => entry.name)).size, 744);
+  assert.equal(italian.length, 745);
+  assert.equal(english.length, 745);
+  assert.equal(new Set(italian.map((entry) => entry.name)).size, 745);
+  assert.equal(new Set(english.map((entry) => entry.name)).size, 745);
 });
 
 test('client e server non pubblicano riferimenti o URL del fornitore', async () => {
@@ -40,9 +41,35 @@ test('client e server non pubblicano riferimenti o URL del fornitore', async () 
   }
 });
 
+test('la linea GF collega i cinque modelli e usa la descrizione della GF-005 canonica', async () => {
+  for (const [locale, productsDirectory, catalogueDirectory] of [['it', 'prodotti', 'catalogo'], ['en', 'products', 'catalogue']]) {
+    const files = (await filesWithin(join(clientRoot, locale!, productsDirectory!))).filter((file) => /fm-gf-00[1-5]/.test(file) && file.endsWith('.html'));
+    assert.equal(files.length, 5);
+    const catalogueFiles = (await filesWithin(join(clientRoot, locale!, catalogueDirectory!))).filter((file) => file.includes('fm-gf') && file.endsWith('.html'));
+    assert.ok(catalogueFiles.length);
+    const catalogueHtml = (await Promise.all(catalogueFiles.map((file) => readFile(file, 'utf8')))).join('\n');
+    for (let id = 1; id <= 5; id += 1) assert.match(catalogueHtml, new RegExp(`fm-gf-00${id}`));
+    if (locale === 'en') {
+      const gf005 = await readFile(files.find((file) => file.includes('fm-gf-005'))!, 'utf8');
+      assert.match(gf005, /independent converging arm movement/i);
+      assert.doesNotMatch(gf005, /Q235/);
+    }
+  }
+});
+
+test('la descrizione cardio appartiene al modello e non eredita il testo di un altro SKU sorgente', async () => {
+  const html = await readFile(join(clientRoot, 'en', 'products', 'recumbent-bike-fm-2020a', 'index.html'), 'utf8');
+  const $ = load(html);
+  const overview = $('.product-details .prose').text();
+  assert.match(overview, /Commercial Recumbent Bike with a Touch Screen/i);
+  assert.match(overview, /low-impact cardio/i);
+  assert.doesNotMatch(overview, /biceps|triceps|upper arm training/i);
+  assert.doesNotMatch($('meta[name="description"]').attr('content') ?? '', /biceps|triceps/i);
+});
+
 test('le schede prodotto espongono canonical, hreflang e nessun prezzo', async () => {
   const productFiles = (await filesWithin(join(clientRoot, 'it', 'prodotti'))).filter((file) => file.endsWith('.html'));
-  assert.equal(productFiles.length, 744);
+  assert.equal(productFiles.length, 745);
   const titles = new Set<string>();
   const descriptions = new Set<string>();
   for (const file of productFiles) {
@@ -63,8 +90,8 @@ test('le schede prodotto espongono canonical, hreflang e nessun prezzo', async (
     titles.add(title);
     descriptions.add(description);
   }
-  assert.equal(titles.size, 744);
-  assert.equal(descriptions.size, 744);
+  assert.equal(titles.size, 745);
+  assert.equal(descriptions.size, 745);
 });
 
 test('anche title e description inglesi sono unici', async () => {
@@ -83,8 +110,8 @@ test('anche title e description inglesi sono unici', async () => {
     titles.add(title);
     descriptions.add(description);
   }
-  assert.equal(titles.size, 744);
-  assert.equal(descriptions.size, 744);
+  assert.equal(titles.size, 745);
+  assert.equal(descriptions.size, 745);
 });
 
 test('il catalogo statico collega ogni prodotto senza un payload monolitico', async () => {
@@ -95,7 +122,7 @@ test('il catalogo statico collega ogni prodotto senza un payload monolitico', as
     const html = await readFile(file, 'utf8');
     for (const match of html.matchAll(/href="(\/it\/prodotti\/[^"?#]+\/)"/g)) productLinks.add(match[1]!);
   }
-  assert.equal(productLinks.size, 744);
+  assert.equal(productLinks.size, 745);
   assert.ok((await stat(join(catalogRoot, 'index.html'))).size < 120 * 1024);
 });
 
@@ -125,7 +152,7 @@ test('le landing delle tipologie strength sono indicizzabili e complete', async 
   const pages = [
     { slug: 'back-extension-machine', title: 'Back Extension Machine', count: 14, cards: 14 },
     { slug: 'leg-press-machine', title: 'Leg Press Machine', count: 25, cards: 24 },
-    { slug: 'chest-press-machine', title: 'Chest Press Machine', count: 51, cards: 24 },
+    { slug: 'chest-press-machine', title: 'Chest Press Machine', count: 52, cards: 24 },
   ];
   const sitemap = await readFile(join(clientRoot, 'sitemap.xml'), 'utf8');
   for (const page of pages) {

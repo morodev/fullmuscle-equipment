@@ -6,6 +6,7 @@ import { toPublicSku } from './brand.js';
 import { PATHS } from './config.js';
 import { PoliteHttpClient, hash } from './http.js';
 import { fileExists, writeJsonAtomic } from './io.js';
+import { selectReviewedSource, SOURCE_RESOLUTIONS } from './source-resolutions.js';
 import type {
   AssetReviewStatus,
   CatalogAssetManifest,
@@ -31,6 +32,7 @@ const REVIEW_STATUSES = new Set<AssetReviewStatus>([
   'approved-provisional',
   'approved-oem',
   'missing',
+  'excluded-source-alias',
   'blocked-branding',
 ]);
 
@@ -73,7 +75,7 @@ export function selectPublishablePrimaryAssetIds(
 ): string[] {
   const selected: string[] = [];
   for (const publicSku of [...publishableSkus].sort()) {
-    const candidates = manifest.items.filter((item) => item.publicSku === publicSku && item.role === 'primary');
+    const candidates = manifest.items.filter((item) => item.publicSku === publicSku && item.role === 'primary' && item.status !== 'excluded-source-alias');
     if (candidates.length !== 1) {
       throw new Error(`${publicSku}: attesa una sola immagine principale, trovate ${candidates.length}.`);
     }
@@ -100,6 +102,10 @@ export function createAssetManifest(
   const previousById = new Map((previous?.items ?? []).map((item) => [item.assetId, item]));
   const seenIds = new Set<string>();
   const items: CatalogAssetManifestItem[] = [];
+  const resolvedAssetUrls = new Map(SOURCE_RESOLUTIONS.map((resolution) => {
+    const canonical = selectReviewedSource(inventory.products.filter((product) => product.sourceSku === resolution.sourceSku));
+    return [resolution.sourceSku as string, new Set(canonical?.assets.map((asset) => asset.sourceUrl) ?? [])];
+  }));
 
   for (const product of inventory.products) {
     const publicSku = toPublicSku(product.sourceSku);
@@ -108,6 +114,8 @@ export function createAssetManifest(
       if (seenIds.has(assetId)) return;
       seenIds.add(assetId);
       const old = previousById.get(assetId);
+      const allowedUrls = resolvedAssetUrls.get(product.sourceSku);
+      const excludedAlias = allowedUrls && !allowedUrls.has(asset.sourceUrl);
       items.push({
         assetId,
         publicSku,
@@ -115,7 +123,7 @@ export function createAssetManifest(
         sourceUrl: asset.sourceUrl,
         role: asset.role,
         sortOrder: index,
-        status: old?.status ?? 'needs-review',
+        status: excludedAlias ? 'excluded-source-alias' : old?.status ?? 'needs-review',
         supplierMarks: old?.supplierMarks ?? [],
         ...(old?.originalPath ? { originalPath: old.originalPath } : {}),
         ...(old?.editedPath ? { editedPath: old.editedPath } : {}),
@@ -325,6 +333,7 @@ export function applyAssetReviewDecisions(
   };
 
   for (const item of manifest.items) {
+    if (item.status === 'excluded-source-alias') continue;
     if (item.status === 'approved-oem' || item.status === 'edited-review' || (item.editedPath && item.status === 'approved-provisional')) {
       summary.preservedFinal += 1;
       continue;

@@ -1,0 +1,288 @@
+{
+  "generatedAt": "2026-11-07T19:59:30.667Z",
+  "mode": "final-export",
+  "catalogModels": 5,
+  "inputs": {
+    "content/catalog.json": "8248abb87cfe48f57c811ce722aa7226677083007ebdd3410b2e2621c636468e",
+    "scripts/build.mjs": "539c143376ebf3c7caacffc6e4da8af41bc311e884bff2e3ee2f62b3e424dcf2",
+    "scripts/validation.mjs": "d511b52e40df95b0b64c21588a867ebaaa2b9f3a93326b9bf0449f549d60263d",
+    "layout/editorial.css": "b19a0058f50f4d4194320196ab8a049e813cf1b2312f8e11e3d662e37d9db60d",
+    "assets/brand/fullmuscle-wordmark.svg": "87a7f4bbbddbd0f9f0a61de8c3b0a390af2e20dea8c31a1fbc4d7b97bce5582f",
+    "assets/brand/fullmuscle-wordmark-white.svg": "baf9dd6c63f5fc556ac4521a2c68733fedd7d9a373365e175ad68b388b7dbfbe",
+    "assets/brand/qr-catalogo.svg": "3f16b6131bfb7933b6ece16eb883f4e85dcb79b0560766b234489d8c754d127d",
+    "assets/fonts/regular.ttf": "edfbd22a3d088fc2f5d7c79b8c9c732df6dc878a60f0a80be0f92a3c7a634404",
+    "assets/fonts/bold.ttf": "4d59199834e7439c67ea4949407639961060b21b173833f566eb60ac6fd8f5af",
+    "assets/fonts/display.ttf": "6c4a4b643461def5411e0217b74a625dcf2fb681252ef5da1db0af4eae80aa7e"
+  },
+  "assets": [
+    {
+      "sku": "FM-GF-001",
+      "source": "data/catalog-branding/generated/gf-batch-01/fm-gf-001-5286876353a3278b.png",
+      "sourceHash": "e672780502d4f05bc11d74f838f9a2c4806c9e0cd8eb8d5b7d90472af005586a",
+      "prepared": "layout/prepared/FM-GF-001.jpg",
+      "preparedHash": "93de679398b7b965106ed780762edc9e7a76a71c7ddc5fca3c9e6297642bf4ee",
+      "width": 979,
+      "height": 1045
+    },
+    {
+      "sku": "FM-GF-002",
+      "source": "data/catalog-branding/generated/gf-batch-01/fm-gf-002-f4682a47f2745fe4.png",
+      "sourceHash": "e3967f0d3d88d22eea93302b602a043c8745bffcf96ed4aaea0bc96180e6936a",
+      "prepared": "layout/prepared/FM-GF-002.jpg",
+      "preparedHash": "eff3458c4ee9f19f0e39363a7aa59868859310481794a3152d7a39e912201548",
+      "width": 1037,
+      "height": 1073
+    },
+    {
+      "sku": "FM-GF-003",
+      "source": "data/catalog-branding/generated/gf-batch-01/fm-gf-003-0c7c006a01366d60.png",
+      "sourceHash": "f0fdc97b633ab17a6b69d1421750f5938296e0c2fca1f4af4ec6063c795df72c",
+      "prepared": "layout/prepared/FM-GF-003.jpg",
+      "preparedHash": "b81808751aeeb090d7b60533d4f7e8223d790f46dd4e32ee4873bbf4b78797eb",
+      "width": 1146,
+      "height": 998
+    },
+    {
+      "sku": "FM-GF-004",
+      "source": "data/catalog-branding/generated/gf-batch-01/fm-gf-004-b843ca71e84f5106.png",
+      "sourceHash": "bc37e44b04edb1df2825ce7d11db0040d2140bafcc982eab9a7104a94862e13f",
+      "prepared": "layout/prepared/FM-GF-004.jpg",
+      "preparedHash": "6df9fb3904363d5a131503b089551d82e39ae79c2813f4b67aded1bdc5435a9e",
+      "width": 772,
+      "height": 1139
+    },
+    {
+      "sku": "FM-GF-005",
+      "source": "data/catalog-branding/generated/gf-completion-01/fm-gf-005-primary.png",
+      "sourceHash": "d880b24de8bc0e294d9ae4fb67cea1aaf9e1537955c8aa6b58708290e31a5531",
+      "prepared": "layout/prepared/FM-GF-005.jpg",
+      "preparedHash": "f893a5899c6cb11f15df08d320e728955ab010bd68190ad1147b0d652360aea3",
+      "width": 1114,
+      "height": 981
+    }
+  ],
+  "documents": [
+    {
+      "filename": "brochure-stampa.pdf",
+      "pages": 8,
+      "format": "A4 210 × 297 mm / 3 mm bleed",
+      "sha256": "2f84f2c153b1f006754a2637d1b8b338ce7f71fc414eb90432f3d2c5245cc00d",
+      "bytes": 1331049,
+      "embeddedFonts": [
+        {
+          "name": "/AAAAAA+Arial-BoldMT",
+          "embedded": true
+        },
+        {
+          "name": "/BAAAAA+ArialNarrow-Bold",
+          "embedded": true
+        },
+        {
+          "name": "/CAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "images": [
+        {
+          "sku": "FM-GF-003",
+          "page": 1,
+          "loaded": true,
+          "ppi": 256.05
+        },
+        {
+          "sku": "FM-GF-001",
+          "page": 3,
+          "loaded": true,
+          "ppi": 240
+        },
+        {
+          "sku": "FM-GF-002",
+          "page": 4,
+          "loaded": true,
+          "ppi": 250.86
+        },
+        {
+          "sku": "FM-GF-003",
+          "page": 5,
+          "loaded": true,
+          "ppi": 277.23
+        },
+        {
+          "sku": "FM-GF-004",
+          "page": 6,
+          "loaded": true,
+          "ppi": 240
+        },
+        {
+          "sku": "FM-GF-005",
+          "page": 7,
+          "loaded": true,
+          "ppi": 269.48
+        }
+      ],
+      "productSkus": [
+        "FM-GF-001",
+        "FM-GF-002",
+        "FM-GF-003",
+        "FM-GF-004",
+        "FM-GF-005"
+      ],
+      "priceChecks": [
+        {
+          "sku": "FM-GF-001",
+          "productSku": "FM-GF-001",
+          "amountEur": 1870,
+          "text": "Prezzo di listino 1.870 € + IVA"
+        },
+        {
+          "sku": "FM-GF-002",
+          "productSku": "FM-GF-002",
+          "amountEur": 1870,
+          "text": "Prezzo di listino 1.870 € + IVA"
+        },
+        {
+          "sku": "FM-GF-003",
+          "productSku": "FM-GF-003",
+          "amountEur": 1870,
+          "text": "Prezzo di listino 1.870 € + IVA"
+        },
+        {
+          "sku": "FM-GF-004",
+          "productSku": "FM-GF-004",
+          "amountEur": 1870,
+          "text": "Prezzo di listino 1.870 € + IVA"
+        },
+        {
+          "sku": "FM-GF-005",
+          "productSku": "FM-GF-005",
+          "amountEur": 1870,
+          "text": "Prezzo di listino 1.870 € + IVA"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "filename": "catalogo-completo.pdf",
+      "pages": 8,
+      "format": "A4 210 × 297 mm",
+      "sha256": "4bf9e13d7762bb0522cb57f31bae8b38a1d1dc149fcd42862a2cda5d3300b575",
+      "bytes": 1330981,
+      "embeddedFonts": [
+        {
+          "name": "/AAAAAA+Arial-BoldMT",
+          "embedded": true
+        },
+        {
+          "name": "/BAAAAA+ArialNarrow-Bold",
+          "embedded": true
+        },
+        {
+          "name": "/CAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "images": [
+        {
+          "sku": "FM-GF-003",
+          "page": 1,
+          "loaded": true,
+          "ppi": 256.05
+        },
+        {
+          "sku": "FM-GF-001",
+          "page": 3,
+          "loaded": true,
+          "ppi": 240
+        },
+        {
+          "sku": "FM-GF-002",
+          "page": 4,
+          "loaded": true,
+          "ppi": 250.86
+        },
+        {
+          "sku": "FM-GF-003",
+          "page": 5,
+          "loaded": true,
+          "ppi": 277.23
+        },
+        {
+          "sku": "FM-GF-004",
+          "page": 6,
+          "loaded": true,
+          "ppi": 240
+        },
+        {
+          "sku": "FM-GF-005",
+          "page": 7,
+          "loaded": true,
+          "ppi": 269.48
+        }
+      ],
+      "productSkus": [
+        "FM-GF-001",
+        "FM-GF-002",
+        "FM-GF-003",
+        "FM-GF-004",
+        "FM-GF-005"
+      ],
+      "priceChecks": [
+        {
+          "sku": "FM-GF-001",
+          "productSku": "FM-GF-001",
+          "amountEur": 1870,
+          "text": "Prezzo di listino 1.870 € + IVA"
+        },
+        {
+          "sku": "FM-GF-002",
+          "productSku": "FM-GF-002",
+          "amountEur": 1870,
+          "text": "Prezzo di listino 1.870 € + IVA"
+        },
+        {
+          "sku": "FM-GF-003",
+          "productSku": "FM-GF-003",
+          "amountEur": 1870,
+          "text": "Prezzo di listino 1.870 € + IVA"
+        },
+        {
+          "sku": "FM-GF-004",
+          "productSku": "FM-GF-004",
+          "amountEur": 1870,
+          "text": "Prezzo di listino 1.870 € + IVA"
+        },
+        {
+          "sku": "FM-GF-005",
+          "productSku": "FM-GF-005",
+          "amountEur": 1870,
+          "text": "Prezzo di listino 1.870 € + IVA"
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "pricing": {
+    "currency": "EUR",
+    "vatIncluded": false,
+    "listPriceEur": 1870,
+    "mode": "fixed-user-price"
+  },
+  "qr": {
+    "destination": "https://fullmuscle-equipment.com/cataloghi/fullmuscle-gf.pdf",
+    "encoded": true,
+    "publicHttpStatus": "not-verified",
+    "physicalPrintScan": "not-performed"
+  },
+  "print": {
+    "trimMm": [
+      210,
+      297
+    ],
+    "bleedMm": 3,
+    "safeMarginMm": 12,
+    "minimumImagePpi": 240,
+    "colorSpace": "sRGB; not certified PDF/X",
+    "imposition": "single pages in reading order"
+  },
+  "issues": []
+}

@@ -1,0 +1,135 @@
+{
+  "checkedAt": "2026-11-07T20:01:17.959Z",
+  "scope": "GF completion and eight-page catalogue",
+  "sourcePages": 6,
+  "uniqueSourceModels": 5,
+  "publicProducts": 745,
+  "quarantinedSkus": 14,
+  "integratedImages": 756,
+  "gfSkus": [
+    "FM-GF-001",
+    "FM-GF-002",
+    "FM-GF-003",
+    "FM-GF-004",
+    "FM-GF-005"
+  ],
+  "images": [
+    {
+      "sku": "FM-GF-001",
+      "role": "primary",
+      "path": "src/assets/catalog/FM-GF-001/primary-01-56dce695d64b.webp",
+      "sha256": "56dce695d64b95a526e1e68d394f8e8831c191ca047dd4cbfea91d2d31459171",
+      "integrated": true,
+      "review": "GF-001: bracci anteriori bianchi resi verde scuro con logo verticale sul destro; seduta, schienale, telaio/linkage nero, pedana argento e cromature conservati. Vista principale e foto in fiera coerenti per posizione della finitura. Nella foto in fiera conservati persone, pose, disco giallo e ambiente; tolte solo lettere TZ dalla maglia blu."
+    },
+    {
+      "sku": "FM-GF-001",
+      "role": "gallery",
+      "path": "src/assets/catalog/FM-GF-001/gallery-02-b90ba9e8f996.webp",
+      "sha256": "b90ba9e8f9965dc4db7926986cc9f5290c93b4f634563ef5c002dbcadeb6c077",
+      "integrated": true,
+      "review": "GF-001: bracci anteriori bianchi resi verde scuro con logo verticale sul destro; seduta, schienale, telaio/linkage nero, pedana argento e cromature conservati. Vista principale e foto in fiera coerenti per posizione della finitura. Nella foto in fiera conservati persone, pose, disco giallo e ambiente; tolte solo lettere TZ dalla maglia blu."
+    },
+    {
+      "sku": "FM-GF-002",
+      "role": "primary",
+      "path": "src/assets/catalog/FM-GF-002/primary-01-9a82bca060f2.webp",
+      "sha256": "9a82bca060f2bb0ffe6c857fe999d22db7a84616bb6ef9d4ddbe2364ffa1955f",
+      "integrated": true,
+      "review": "GF-002 verificata per vista: press arms e collegamento inferiore verniciati verdi, logo sul braccio vicino; schienale inclinato, seduta, supporto metallico anteriore, telaio nero, cerniere e perno cromato mantenuti. Un collegamento basso nero riceve lieve finitura verde nella vista primaria, senza variazione geometrica. Contesto fiera e persone conservati nella gallery."
+    },
+    {
+      "sku": "FM-GF-002",
+      "role": "gallery",
+      "path": "src/assets/catalog/FM-GF-002/gallery-02-f3a764b6c7e7.webp",
+      "sha256": "f3a764b6c7e794bb151856ee6c885bc62a2ea4eb8e1830bf3aadcc65b42627e1",
+      "integrated": true,
+      "review": "GF-002 verificata per vista: press arms e collegamento inferiore verniciati verdi, logo sul braccio vicino; schienale inclinato, seduta, supporto metallico anteriore, telaio nero, cerniere e perno cromato mantenuti. Un collegamento basso nero riceve lieve finitura verde nella vista primaria, senza variazione geometrica. Contesto fiera e persone conservati nella gallery."
+    },
+    {
+      "sku": "FM-GF-003",
+      "role": "primary",
+      "path": "src/assets/catalog/FM-GF-003/primary-01-9631a324f159.webp",
+      "sha256": "9631a324f15981d30ff72ae386619b2eee483c8d7561cf97551c4cab60179801",
+      "integrated": true,
+      "review": "GF-003 primaria: leve e traversa verdi, telaio e meccanica neri, seduta e supporto torace conservati. Manico metallico argento mantenuto. Eliminato secondo logo duplicato sul braccio vicino, mantenuto singolo logo su ogni braccio."
+    },
+    {
+      "sku": "FM-GF-003",
+      "role": "gallery",
+      "path": "src/assets/catalog/FM-GF-003/gallery-02-813a7ac70582.webp",
+      "sha256": "813a7ac705826ab66c76602cf835e729d134900ac9db4be1d48f238abdc6983c",
+      "integrated": true,
+      "review": "GF-003 gallery: bracci e traversa bianchi resi verdi, logo su entrambi i lati. Conservati dischi caricati, perno cromato, imbottiture, telaio, pavimento e stanza. Correzione del valore disco generato 20 KG riportato a 10 KG come originale; microtesti illustrativi."
+    },
+    {
+      "sku": "FM-GF-004",
+      "role": "primary",
+      "path": "src/assets/catalog/FM-GF-004/primary-01-715e86dc94b3.webp",
+      "sha256": "715e86dc94b34a1803c7b3dcbdeee2438f289721ebc5363a56fb0a5f0d013d46",
+      "integrated": true,
+      "review": "GF-004 confrontata nella propria vista: leve superiori bianche rese verdi e logo sul braccio vicino. Conservati montanti neri, tiranti, seduta, rulli, cromature e meccanica. Barra primaria nera conservata; nella gallery barra centrale originariamente bianca verde con impugnature nere. Gallery mantiene fiera, persone e dischi; tolte lettere TZ dalle maglie."
+    },
+    {
+      "sku": "FM-GF-004",
+      "role": "gallery",
+      "path": "src/assets/catalog/FM-GF-004/gallery-02-3a19a4630f51.webp",
+      "sha256": "3a19a4630f5133b0eb67dee47e9ac8653ce7abce7750031cda0c61a4a6f7c397",
+      "integrated": true,
+      "review": "GF-004 confrontata nella propria vista: leve superiori bianche rese verdi e logo sul braccio vicino. Conservati montanti neri, tiranti, seduta, rulli, cromature e meccanica. Barra primaria nera conservata; nella gallery barra centrale originariamente bianca verde con impugnature nere. Gallery mantiene fiera, persone e dischi; tolte lettere TZ dalle maglie."
+    },
+    {
+      "sku": "FM-GF-005",
+      "role": "primary",
+      "path": "src/assets/catalog/FM-GF-005/primary-01-e31da8cc70af.webp",
+      "sha256": "e31da8cc70af2de77605839807cfcf8a74c5a752fa6e329e0d9a0540ec38dfdf",
+      "integrated": true,
+      "review": "Confrontata con originale GF-005: conservati silhouette, schienale inclinato, seduta, telaio nero, leveraggi, perno carico cromato, piedi e impugnature con anelli gialli. Solo le due leve superiori bianche sono verdi #356B35; logo Full Muscle Equipment bianco sul braccio vicino sinistro. Fondo bianco e inquadratura conservati."
+    },
+    {
+      "sku": "FM-GF-005",
+      "role": "gallery",
+      "path": "src/assets/catalog/FM-GF-005/gallery-02-2e62e98b301c.webp",
+      "sha256": "2e62e98b301c9876043f3eba49e7971e6f5f3f29164d9065c6596f3299939646",
+      "integrated": true,
+      "review": "Confrontata con originale GF-005 nella propria vista: leve superiori bianche rese verdi #356B35, logo sul braccio destro vicino e targhetta Full Muscle al posto del marchio fornitore sulla traversa posteriore. Conservati imbottiture, telaio nero, meccanismi, cromature, pavimento e macchine sullo sfondo."
+    }
+  ],
+  "technicalDescriptionCorrections": 414,
+  "existingProductNamesSpecificationsImagesUrlsPreserved": true,
+  "pdfs": [
+    {
+      "filename": "brochure-stampa.pdf",
+      "pages": 8,
+      "sha256": "2f84f2c153b1f006754a2637d1b8b338ce7f71fc414eb90432f3d2c5245cc00d",
+      "prices": 5
+    },
+    {
+      "filename": "catalogo-completo.pdf",
+      "pages": 8,
+      "sha256": "4bf9e13d7762bb0522cb57f31bae8b38a1d1dc149fcd42862a2cda5d3300b575",
+      "prices": 5
+    }
+  ],
+  "fixedPriceEurExVat": 1870,
+  "tests": {
+    "catalog": {
+      "passed": 18
+    },
+    "typecheck": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "build": "passed",
+    "output": {
+      "passed": 12
+    },
+    "browser": {
+      "passed": 38,
+      "skipped": 2,
+      "skipReason": "Desktop-only hover/mega-menu tests on mobile project"
+    },
+    "pdfPreflight": "passed"
+  },
+  "deployment": "pending"
+}

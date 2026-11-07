@@ -7,6 +7,7 @@ export type AssetReviewStatus =
   | 'approved-provisional'
   | 'approved-oem'
   | 'missing'
+  | 'excluded-source-alias'
   | 'blocked-branding';
 
 export interface SourceCategory {

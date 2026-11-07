@@ -41,6 +41,7 @@ export function parseSitemapReferences(xml: string): string[] {
 export function categoryFromSitemapEntry(entry: SitemapEntry): SourceCategory | undefined {
   const url = new URL(entry.url);
   const segments = url.pathname.split('/').filter(Boolean);
+  if (segments[0] === 'category') segments.shift();
   if (!segments.length || !PRODUCT_ROOT_SLUGS.has(segments[0]!)) return undefined;
 
   const sourceId = segments.at(-1)!;

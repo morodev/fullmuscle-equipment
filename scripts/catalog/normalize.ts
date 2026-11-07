@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import { assertNoPublicSkuCollisions, normalizeSourceSku, slugify, toPublicSku, toPublicText } from './brand.js';
+import { selectReviewedSource } from './source-resolutions.js';
 import type { CatalogAssetManifest, ProductDraft, SourceCategory, SourceInventory, SourceProduct } from './types.js';
 
 const inventorySchema = z.object({
@@ -25,7 +26,7 @@ export interface NormalizedCatalog {
   products: ProductDraft[];
   quarantined: Array<{
     publicSku: string;
-    reason: 'duplicate-source-sku';
+    reason: 'duplicate-source-sku' | 'reviewed-source-unavailable';
     sources: Array<{ sourceSku: string; sourceUrl: string; sourceName: string }>;
   }>;
 }
@@ -40,13 +41,13 @@ export function normalizeInventory(inventory: SourceInventory, assetManifest?: C
     const key = normalizeSourceSku(product.sourceSku);
     grouped.set(key, [...(grouped.get(key) ?? []), product]);
   }
-  const unambiguous = [...grouped.values()].filter((products) => products.length === 1).map((products) => products[0]!);
+  const unambiguous = [...grouped.values()].map(selectReviewedSource).filter((product): product is SourceProduct => Boolean(product));
   const products = unambiguous.map((product) => normalizeProduct(product, categories));
   const quarantined = [...grouped.values()]
-    .filter((products) => products.length > 1)
+    .filter((products) => !selectReviewedSource(products))
     .map((sources) => ({
       publicSku: toPublicSku(sources[0]!.sourceSku),
-      reason: 'duplicate-source-sku' as const,
+      reason: sources.length > 1 ? 'duplicate-source-sku' as const : 'reviewed-source-unavailable' as const,
       sources: sources.map((source) => ({
         sourceSku: source.sourceSku,
         sourceUrl: source.sourceUrl,
