@@ -1,0 +1,12 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Create a premium realistic architectural visualization for an Italian professional gym equipment catalog. Use the referenced Full Muscle machines as strict product identity references: same black rectangular steel frames, open rounded top weight-stack towers, black upholstery, forest-green moving arms, white/green Full Muscle branding. Show a carefully designed contemporary boutique strength gym with three or four DISTINCT reference machines arranged along a generous circulation aisle, individually plausible, no fused machines. Hero foreground is the exact lat pulldown from image1; seated chest press and horizontal leg press from images2/3 further back. Honest realistic scale, matte black rubber floor with subtle texture, pale warm concrete walls, tall soft daylight windows, slender ceiling lights, clean organized luxury industrial architecture, believable natural shadows. No people in this image. Photographic architectural 35mm perspective, camera chest height, meticulous materials, no extreme wide distortion. Landscape composition 3:2 suitable for a printed brochure. Restrained forest green matching reference, not neon. No poster typography, no claims, no watermarks. Highest resolution and crisp realistic details. This is an illustrative fictional gym, not a customer installation.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5008.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5005.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5016.png"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-b337f701-f6c0-4e70-974a-05cfd4f712fe.png",
+  "output": "brochures/fullmuscle-g5/assets/scenes/gym.png"
+}

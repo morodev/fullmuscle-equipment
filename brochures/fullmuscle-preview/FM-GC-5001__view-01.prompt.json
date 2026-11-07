@@ -1,0 +1,29 @@
+{
+  "prompt": "Use case: precise-object-edit. Edit IMAGE 1 only, the all-black GC-5001 seated leg curl machine on white. Preserve its EXACT camera angle, composition, machine geometry, proportions, white backdrop, contact shadows, all instruction diagrams and the readable label \"Seated Leg Curl\". Image 2 and Image 3 are STYLE REFERENCES of a different machine; use only their dark forest-green painted metal and italic white/green \"Full Muscle\" logo with small \"EQUIPMENT\" lettering. Image 4 is the SAME MODEL'S factory reference and shows RED painted steel zones; use it only to locate the corresponding moving steel lever assembly in image 1, never replace target geometry or camera with a reference.\nChanges: (1) Recolor the metal moving roller lever assembly, including its long diagonal link and connected painted pivot plates below/behind the two knee/ankle foam rollers, from black to the dark forest green finish of images 2/3. These are the parts RED in image 4. Preserve realistic reflections and shading. (2) Put the same small italic Full Muscle Equipment white/green logo from references on the top black horizontal crossbar above the exercise diagram, fitted in perspective. (3) Remove the existing vertical white TZFIT branding from the black rear plate behind the weight stack and replace it with the Full Muscle logo rotated vertically to follow the same panel direction. The new logo is a physical decal ON the rear black plate, behind and correctly occluded by the chrome guide rods, seat/arms and weight stack. Do not place text on top of rods or weights. Readable exact text: \"Full Muscle\", secondary \"EQUIPMENT\".\nAll remaining frame steel, upholstery, foam rollers, black handles, adjustment guards and pulley wheels remain black. All bolts, chrome rods, shaft ends and fasteners stay silver. Preserve cables, weight labels, perforations, pivot centers, seat and mechanical details. Do not add parts, remove parts, change the silhouette, zoom/crop, redesign labels or invent new logo typography. Keep the landscape framing and full machine of image 1. Return one clean edited product image only, no layout or captions.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/WhatsApp Image 2026-11-05 at 04.19.53 (7).jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/full muscle 01ù.jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/modificato.jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/03/0396ed9a55581f0e9fd374dee76fe0fb260b0c26644884d1898f1837c9cd4965.jpg"
+  ],
+  "transparent_background": false,
+  "generator": "image_gen",
+  "output": "FM-GC-5001__view-01.png",
+  "refinements": [
+    {
+      "prompt": "Precise localized correction of IMAGE 1, an already finished Full Muscle seated leg curl product mockup. Preserve the entire image, machine geometry, camera, framing, white background, green moving lever, logos on top, all text/diagrams, shading and every mechanical detail EXACTLY. Make only two tiny corrections:\n1. The broad crescent/sector-shaped flat guard BEHIND the upper foam knee roller at the left of the machine is mistakenly green. Restore ONLY THIS LARGE BACK GUARD to matte black, matching its appearance in image 2 (original machine). Keep the foreground diagonal moving steel lever and its connected small mounting plates dark green. Do not blacken the moving lever. Image 3 is the factory reference: guard black, moving assembly red; your moving assembly stays green.\n2. The partly hidden vertical Full Muscle logo on the black rear plate must run CLOCKWISE 90 degrees, read top to bottom with white 'Full' at the TOP and green 'Muscle' at the BOTTOM, small EQUIPMENT alongside, all on the rear black plate and correctly hidden by foreground chrome rods, handles and stack. Keep decal size approximately as existing. No logo on the foreground parts. Use logo typography already on top crossbar.\nChange nothing else. Do not sharpen/redraw parts, do not redesign frame, do not resize scene, no added captions.",
+      "referenced_image_paths": [
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-preview/FM-GC-5001__view-01.png",
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/WhatsApp Image 2026-11-05 at 04.19.53 (7).jpeg",
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/03/0396ed9a55581f0e9fd374dee76fe0fb260b0c26644884d1898f1837c9cd4965.jpg"
+      ],
+      "transparent_background": false,
+      "editInputGeneratedPath": "C:/Users/lucam/.codex/generated_images/01a1b532-f747-7b73-bf7a-46b6770b9cc8/exec-7db04cb6-a1ab-4325-88d3-31cc64e65b15.png"
+    }
+  ],
+  "generatedPath": "C:/Users/lucam/.codex/generated_images/01a1b532-f747-7b73-bf7a-46b6770b9cc8/exec-3939ee77-b91a-4f70-9ef6-aa5a127bd393.png",
+  "review": {
+    "status": "preview-reviewed",
+    "notes": "Refined to restore the large crescent guard to black and orient rear logo clockwise. Green moving roller lever group, hardware and main geometry visually checked. Rear branding intentionally occluded by foreground handles. Fine weight/exercise detail remains generated."
+  }
+}

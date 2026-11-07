@@ -1,0 +1,16 @@
+{
+  "generator": "image_gen",
+  "prompt": "Use case: precise-object-edit. IMAGE 1 is the edit target: all-black GC-5006 Back Extension machine on white. Preserve EXACT target machine geometry, proportions, camera, landscape framing, full silhouette, black frame, pads/seat, chrome guide rods, cabling, hardware, weight stack labels, instruction diagrams and original readable \"Back Extension\" caption. Images 2 and 3 are STYLE references of a different machine; copy only their dark forest-green paint and italic white/green Full Muscle Equipment logo. Image 4 is the same model in red; it is ONLY a guide identifying which metal parts get green paint.\nRecolor just the moving narrow vertical steel upright supporting the upper black cylindrical back roller, and the smaller connected painted circular pivot plate, to dark forest green matching images 2 and 3. These are the corresponding red components in image 4. The large black crescent/sector-shaped guard behind this upright MUST remain BLACK, not green. All foam, black support frame, fixed foot rests, seat, rods, bolts and other machinery stay untouched.\nBranding: Add small italic white/green \"Full Muscle\" with \"EQUIPMENT\" below on top black crossbar above exercise diagrams. Replace vertical white TZFIT on black rear plate behind stack with the same Full Muscle logo, rotated CLOCKWISE 90 degrees so 'Full' is toward the TOP of the panel and 'Muscle' toward the BOTTOM. Tiny EQUIPMENT alongside. The decal must physically lie ON the rear plate, correctly occluded by foreground chrome rods and stack. No logo over rods, weights, cables, or background. Copy logo typography of image 2, no substitute.\nPreserve all reflections, shadows, exercise labels, background and framing. No rearrangement, new parts, crop or new camera. Output only one clean edited product image, no captions.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/WhatsApp Image 2026-11-05 at 04.19.53 (5).jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/full muscle 01ù.jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/modificato.jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/14/14f4a32f7c8b18d40d8083feb1470fe6eb2d494946db89f3fad641bb91fc19ad.jpg"
+  ],
+  "transparent_background": false,
+  "output": "FM-GC-5006__view-01.png",
+  "review": {
+    "status": "preview-reviewed",
+    "notes": "Green moving back-roller upright and pivot plate follow factory color zones; black sector guard retained; top and rear branding present with clockwise rear orientation; fine text remains generated."
+  }
+}

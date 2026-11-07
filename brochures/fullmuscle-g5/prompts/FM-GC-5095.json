@@ -1,0 +1,19 @@
+{
+  "sku": "FM-GC-5095",
+  "sourceSku": "GC-5095",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Lateral-Raising-Gym-Shoulder-Press-Machine-for-Sale.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/41/41b806ef6e2a7f315f66e33156f21530201d999a31aa7ea85ae28265c4ccbc63.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:29:26.358Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Full Muscle G5 product catalogue PNG. Edit target is image 1 (GC-5095, Standing Lateral Raise Machine); image 2 is only the approved forest green colour reference and image 3 only the Full Muscle wordmark reference. Preserve image 1 exactly: same machine design, geometry, number and positions of every part, chrome rods, bolts, black upholstery, grips, frame, angle, framing, white background and shadows. Change ONLY all RED painted machine parts into deep forest green #356B35 with realistic original highlights, and replace each supplier TZFITNESS/TZ logo on its existing small badge with the italic 'Full Muscle' logo from image 3 (Full white, Muscle green, small EQUIPMENT). Remove any remaining supplier wordmark. No machine substitutions, no added parts, no people, no captions, no extra labels, no border. Keep safety markings and fine mechanical details. Output the whole isolated machine with ample white margin, sharp high-resolution square catalogue image. Remove ALL large white vertical FIT lettering if visible on the black rear panel above the weight stack: fill with plain matching black. Preserve instructional pictograms and safety labels without converting them to logos.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-feb93a16-ec72-4d0f-9dfb-197c3ef5bb56.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5095.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Verifica visiva superata: geometria, impugnature e componenti meccanici conservati; nessun marchio fornitore leggibile."
+  }
+}

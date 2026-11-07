@@ -1,0 +1,23 @@
+{
+  "sku": "FM-GC-5098A-5203",
+  "sourceSku": "GC-5098A-5203",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/10/GC-5098A-5203-Factory-Wholesales-Fitness-and-Bodybuilding-High-Quality-Gym-Equipment-Machine-Fitness-4-Multi-Station-Press-Gym.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/38/38fbe1b944134fe2402e15488618175bcb99bec2625ea0895611d702d7e8bcdd.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:37:07.701Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "inputPaths": [
+    "data/catalog-assets/originals/38/38fbe1b944134fe2402e15488618175bcb99bec2625ea0895611d702d7e8bcdd.jpg",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Image1 is the exact GC-5098A-5203 4 Multi-Station product to preserve. Image2 is ONLY a typography/logo reference: use its small italic 'Full Muscle' wordmark, white Full and green Muscle with tiny EQUIPMENT. Edit image1 ONLY by replacing an existing supplier logo with that small Full Muscle badge, or if there is no visible badge place one small badge on the upper front crossbar. Preserve ALL black painted metal, chrome parts, upholstery, cables, pulleys, every support, foot, handle, accessory and geometry exactly. This product is entirely BLACK: there must be NO GREEN PAINT anywhere. Only the word Muscle in the small badge is green. White background and camera/framing unchanged; do not redesign the product or add/remove components. No people, captions, other words or graphics. High-resolution catalogue photograph. Remove any white supplier lettering on the black central weight-stack cage panels, leaving plain black surfaces. Preserve every station, seat and handle exactly, entire original width visible.\nRefinement: Precise object edit. Keep this machine entirely unchanged except cover/remove the pale WHITE angular perforated logo patterns at the TOP EDGE of both BLACK CENTRAL WEIGHT-STACK GUARD PANELS (right-facing panel at image centre-right and rear panel at image centre-left). Those angular cutouts form the old supplier mark: replace just those small branded strips with solid matching matte black, not readable letters or cutouts. Keep all surrounding chrome guide rods, cables, openings between separate components, bolts, guard-panel edges, seat geometry, black frame, Full Muscle upper logo and white background unchanged. Do not add anything else.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-035c7f97-c6c9-48d9-acb4-3aaef0af804a.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5098A-5203.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Verifica visiva superata: struttura nera e componenti conservati, marchio applicato e vecchie scritte rimosse."
+  }
+}

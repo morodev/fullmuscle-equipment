@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Edit only IMAGE1: the frontal Full Muscle Delt Machine photo. IMAGE2 is a supporting identity reference showing the same machine angled, with the correct new vertical Full Muscle rear-panel logo. Image1 already has the correct dark green lever arms and exact italic white/green Full Muscle EQUIPMENT logo on top; keep them unchanged. Replace ONLY the vertical white TZFIT lettering behind the weight stack with the same white/green Full Muscle EQUIPMENT wordmark shown in image2. Orient it CLOCKWISE by90 degrees with Full at the TOP and Muscle toward the BOTTOM, not reversed, fitting the original narrow black rear panel. Preserve the chrome guide rods and stack as foreground occluders, never draw logo over them. Keep everything else in IMAGE1 unchanged: front view, framing, camera, pads, lever geometry and shade, steel, cables, pulley positions, all screw heads, seat, instruction diagrams and exact Delt Machine title, tiny weight scale labels, existing top logo, shadows, white background. Only replace this rear branding region. No redesign, no new mechanical parts, no new recoloring. Output ONE image of the FRONT VIEW with original landscape aspect ratio.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/modificato.jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-preview/FM-GC-5010__view-01.png"
+  ],
+  "transparent_background": false,
+  "output": "FM-GC-5010__view-02.png",
+  "review": "Rear logo orientation and branding consistent with Delt view01. Green and top logo visually retained. Preview only, small label details not production validated."
+}

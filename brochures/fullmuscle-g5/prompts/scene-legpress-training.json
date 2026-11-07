@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Create a realistic premium fitness catalog photograph using IMAGE1 as EXACT horizontal seated leg press reference. One adult athletic man around35 wearing fitted charcoal T-shirt, black shorts and plain gray training shoes, seated on the existing black seat with his BACK supported by the existing tall inclined backrest on RIGHT. BOTH soles planted flat on the large rectangular diamond-pattern footplate on LEFT, feet hip-width apart, knees bent naturally about100degrees, hands gripping the existing handles beside the seat. Preserve the machine: black horizontal floor frame, two forest-green front linking arms supporting the left footplate, horizontal seat rail, open weight-stack tower behind seat on right. This is a horizontal seated leg press, NOT a 45degree sled, no barbell or weight disks. Do not move/reinvent seat or footplate. Natural believable anatomy, enough leg space, no limb intersections, no extra fingers, no invented handles. Medium-wide shot with full machine recognizable, same three-quarter camera as reference. Premium modern gym matching image2 design cues black rubber floor, pale warm concrete walls, soft window daylight. Dark forest-green steel and black pads. No text overlays, no logos except existing Full Muscle small marks, no watermarks. Landscape3:2 high-resolution print-ready photographic realism, authentic restrained training scene.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5016.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5008.png"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-461c6229-a94c-45ef-b05c-2fd65ade0b2f.png",
+  "output": "brochures/fullmuscle-g5/assets/scenes/legpress-training.png"
+}

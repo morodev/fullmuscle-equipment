@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Asset: commercial fitness catalogue product photo for FM-GC-5033. Image1 is the EXACT product to edit. Image2 is color and branding reference only. Recolor ONLY the bright red painted linkage structure, leg-pad rear metal plate and moving metal arms to satin dark forest green matching reference2 (#356b35). Replace every visible TZFIT/TZ FITNESS/Fitness supplier brand mark with a faithful italic bold 'Full Muscle' wordmark, white Full and green Muscle on dark badge, same placement and perspective; vertical labels read top to bottom after clockwise90 rotation. Preserve exact machine geometry, every upright, handle, bolt, cable, pad, weight plate, chrome part, angle, scale and white background. Keep technical exercise decals unchanged except tiny supplier marks. Photorealistic high-detail isolated studio product. No people, extra machines, floor, decorative shapes or floating text. Do not redesign or omit parts. Keep whole machine visible with breathing room. Output largest practical resolution.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/d1/d1cffceb776795a3bfd23ee8a61ce3b2cfd1e0b8d3cee1141e84677d7e666584.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-646c3cf8-56b7-41fa-b5d9-0c7660eebbd8.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5033.png"
+}

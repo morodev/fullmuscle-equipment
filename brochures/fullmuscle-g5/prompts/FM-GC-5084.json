@@ -1,0 +1,19 @@
+{
+  "sku": "FM-GC-5084",
+  "sourceSku": "GC-5084",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Pin-Loaded-Strength-Training-Workout-Standing-Multi-Flight-for-Gym-Use.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/0c/0ca5157ce05cd0f4f6ffbaeab7ce08777a9ad64350b8783ffade5e10579e7349.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:22:34.486Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Full Muscle G5 product catalogue PNG. Edit target is image 1 (GC-5084, Lateral Raise Standing Multi Flight); image 2 is only the approved forest green colour reference and image 3 only the Full Muscle wordmark reference. Preserve image 1 exactly: same machine design, geometry, number and positions of every part, chrome rods, bolts, black upholstery, grips, frame, angle, framing, white background and shadows. Change ONLY all RED painted machine parts into deep forest green #356B35 with realistic original highlights, and replace each supplier TZFITNESS/TZ logo on its existing small badge with the italic 'Full Muscle' logo from image 3 (Full white, Muscle green, small EQUIPMENT). Remove any remaining supplier wordmark. No machine substitutions, no added parts, no people, no captions, no extra labels, no border. Keep safety markings and fine mechanical details. Output the whole isolated machine with ample white margin, sharp high-resolution square catalogue image. Also remove large white supplier FIT lettering if present on the rear panel, leaving a plain black surface. Preserve exercise pictograms and weight numerals.\nRefinement: Use case precise-object-edit. Correct this image only by removing the remaining large white vertical lettering on the BLACK REAR PANEL, in the centre immediately above the weight stack and behind the hanging central metal cable fitting. These white strokes are a leftover supplier FIT wordmark, not hardware. Fill them with matching plain black panel surface. Keep the foreground chrome fitting and cables untouched. Keep the existing Full Muscle badge, green discs and levers, all numbers, exercise diagrams, every component, viewpoint, white background and framing absolutely unchanged. Do not add any text or alter any geometry.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-af4325d2-aa4c-4794-803a-dccae0bb30c5.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5084.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Confronto visivo superato: configurazione conservata; verde e logo applicati; rimosse anche le lettere residue sul pannello."
+  }
+}

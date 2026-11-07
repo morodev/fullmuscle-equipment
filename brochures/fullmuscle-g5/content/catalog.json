@@ -1,0 +1,4552 @@
+{
+  "schemaVersion": 1,
+  "brand": {
+    "name": "FullMuscle Equipment",
+    "line": "G5",
+    "green": "#356B35"
+  },
+  "contact": {
+    "name": "Matteo",
+    "phone": "392 550 1779",
+    "phoneLink": "+393925501779",
+    "email": "info@fullmuscle-equipment.com",
+    "website": "https://fullmuscle-equipment.com"
+  },
+  "featuredSkus": [
+    "FM-GC-5016",
+    "FM-GC-5002",
+    "FM-GC-5001",
+    "FM-GC-5005",
+    "FM-GC-5008",
+    "FM-GC-5004",
+    "FM-GC-5012",
+    "FM-GC-5010"
+  ],
+  "products": [
+    {
+      "sku": "FM-G-41",
+      "sourceSku": "G-41",
+      "name": "Dual Cable Cross",
+      "description": "Stazione a doppio cavo per combinare trazioni e spinte in piedi. I due pacchi pesi consentono di impostare il lavoro sui due lati della struttura.",
+      "features": [
+        "Stazione a doppio cavo per combinare trazioni e spinte in piedi"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "800 × 1770 × 1800 mm",
+      "weight": "330 kg",
+      "stack": "90 kg × 2",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "800 × 1770 × 1800 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "330 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "90 kg × 2"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-G-41.png",
+      "sourceUrl": "https://tzfit.com/gym-wholesalers-dual-cable-cross/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/GC-41-gym-machines-names-Dual-Cable-Cross.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/ef/ef9bf4aee3479433e88e10958fe4a9fa4206f5626a0531789ff93a10f9a45fa8.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-G-42",
+      "sourceSku": "G-42",
+      "name": "Dual Cable Cross",
+      "description": "Due punti di lavoro a cavo riuniti in una struttura dedicata all'allenamento funzionale. Una soluzione per esercizi unilaterali e combinazioni per la parte superiore del corpo.",
+      "features": [
+        "Due punti di lavoro a cavo riuniti in una struttura dedicata all'allenamento funzionale"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "800 × 1770 × 1800 mm",
+      "weight": "330 kg",
+      "stack": "90 kg × 2",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "800 × 1770 × 1800 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "330 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "90 kg × 2"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-G-42.png",
+      "sourceUrl": "https://tzfit.com/gym-machine-dual-cable-cross-g-42/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/GC-42-gym-exercise-machine-Dual-Cable-Cross.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/ec/ec7065085089a58b6acc1bbcfbae66cf59d111279a2b33c4796867d901ac7c9f.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-G-45",
+      "sourceSku": "G-45",
+      "name": "Squat Machine C.O.D.",
+      "description": "Macchina dedicata allo squat con resistenza a pacco pesi. Integra una postazione specifica per il lavoro delle gambe nella zona forza.",
+      "features": [
+        "Macchina dedicata allo squat con resistenza a pacco pesi"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "2210 × 750 × 1990 mm",
+      "weight": "315 kg",
+      "stack": "165 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "2210 × 750 × 1990 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "315 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "165 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-G-45.png",
+      "sourceUrl": "https://tzfit.com/gym-equipment-squat-machine-c-o-d-g-45/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/GC-45-wholesale-gym-equipment-Squat-Machine-C.O.D.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/dd/dd87de143a1f6180bd30c8c9a2deecfff16a327e953f252cc1133378bfa20e80.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GA-5073-1",
+      "sourceSku": "GA-5073-1",
+      "name": "Power Rack con pedana",
+      "description": "Rack con pedana per organizzare una postazione di lavoro con bilanciere. La struttura riunisce lo spazio di appoggio e l'area destinata al sollevamento.",
+      "features": [
+        "Rack con pedana per organizzare una postazione di lavoro con bilanciere"
+      ],
+      "category": "Rack e accessori",
+      "dimensions": "1410 × 1900 × 2400 mm",
+      "weight": "243 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1410 × 1900 × 2400 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "243 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GA-5073-1.png",
+      "sourceUrl": "https://tzfit.com/ga-5073-1-power-rack-with-weightlifting-platform/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GA-5073-1-Power-Rack-with-Weightlifting-Platform.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/8c/8c90cf640e42c21128e9ad2270f9b3965d415d65cfd8f7e252ce05730aa4b543.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5001",
+      "sourceSku": "GC-5001",
+      "name": "Seated Leg Curl",
+      "description": "Leg curl da seduti per allenare i flessori del ginocchio. Seduta, schienale e rulli sostengono la posizione durante la flessione delle gambe contro il carico selezionato.",
+      "features": [
+        "Flessione del ginocchio da seduti",
+        "Rulli di appoggio per il posizionamento delle gambe",
+        "Seduta con schienale e impugnature laterali"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1300 × 980 × 1550 mm",
+      "weight": "174 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1300 × 980 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "174 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5001.png",
+      "sourceUrl": "https://tzfit.com/gc-5001-seated-leg-curl/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/02/Commercial-Seated-Leg-Curl-Machine-for-Hamstring-Training.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/03/0396ed9a55581f0e9fd374dee76fe0fb260b0c26644884d1898f1837c9cd4965.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5002",
+      "sourceSku": "GC-5002",
+      "name": "Leg Extension",
+      "description": "Macchina per l'estensione del ginocchio da seduti, dedicata al lavoro dei quadricipiti. Il rullo tibiale trasmette il movimento alla resistenza del pacco pesi.",
+      "features": [
+        "Estensione del ginocchio da seduti",
+        "Rullo di appoggio tibiale",
+        "Seduta con schienale e impugnature laterali"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1300 × 980 × 1550 mm",
+      "weight": "174 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1300 × 980 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "174 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5002.png",
+      "sourceUrl": "https://tzfit.com/exercise-equipment-leg-extension-gc-5002/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/GC-5002-Seated-Leg-Extension.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/6b/6becaae094221652fbbfafecb1f871dab183969e170929a3d744ed5c41416b40.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5002-1",
+      "sourceSku": "GC-5002-1",
+      "name": "Leg Extension a leve indipendenti",
+      "description": "Variante della leg extension con leve separate per il lavoro delle due gambe. Permette di inserire l'estensione del ginocchio in una postazione dedicata ai quadricipiti.",
+      "features": [
+        "Variante della leg extension con leve separate per il lavoro delle due gambe"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1300 × 980 × 1550 mm",
+      "weight": "174 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1300 × 980 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "174 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5002-1.png",
+      "sourceUrl": "https://tzfit.com/pin-loaded-selection-leg-extension-gc-5002-1/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Commercial-Gym-Pin-Loaded-Seated-Leg-Extension-Exercise-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/07/0778d5cb3e064b08d1040eb8fc35236b66bfdd3130fa305dacd563617106563c.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5003",
+      "sourceSku": "GC-5003",
+      "name": "Rotary Torso",
+      "description": "Postazione da seduti per il lavoro di rotazione del tronco. Le impugnature e i supporti imbottiti aiutano a mantenere il posizionamento durante il movimento.",
+      "features": [
+        "Postazione da seduti per il lavoro di rotazione del tronco"
+      ],
+      "category": "Core",
+      "dimensions": "Su richiesta",
+      "weight": "Su richiesta",
+      "stack": "Su richiesta",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "Su richiesta"
+        }
+      ],
+      "image": "assets/products/FM-GC-5003.png",
+      "sourceUrl": "https://tzfit.com/waist-twister-exercise-rotary-torso-machine-gc-5003/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Strength-Equipment-Body-Building-Trainer-Gym-Fitness-Equipment-Rotary-Torso-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/d6/d6d7ecd754a6b9baa78d7f5dfb217f884361c0bdeba28ad42884aadbb3aecad0.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z",
+      "reviewNote": "La scheda non fornisce dimensioni, peso macchina o massa del pacco pesi."
+    },
+    {
+      "sku": "FM-GC-5004",
+      "sourceSku": "GC-5004",
+      "name": "Seated Row",
+      "description": "Rematore da seduti con appoggio toracico e bracci di trazione. Il movimento porta le impugnature verso il busto per allenare la muscolatura della schiena.",
+      "features": [
+        "Trazione da seduti con appoggio toracico",
+        "Bracci e impugnature per il rematore",
+        "Resistenza selezionabile a pacco pesi"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1205 × 880 × 1700 mm",
+      "weight": "184 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1205 × 880 × 1700 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "184 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5004.png",
+      "sourceUrl": "https://tzfit.com/strength-training-seated-rowing-machine-gc-5004/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Wholesale-Commercial-Pin-Load-Gym-Equipment-Seated-Row.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/f6/f6748f5a50e4da4d88a403344c3069079ea4aade76174309b6bb0a0ecd6eeba0.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5005",
+      "sourceSku": "GC-5005",
+      "name": "Chest Press",
+      "description": "Postazione da seduti per la spinta orizzontale, dedicata a petto e tricipiti. Seduta e schienale sostengono il busto mentre le impugnature accompagnano il movimento.",
+      "features": [
+        "Spinta orizzontale per petto e tricipiti",
+        "Seduta e schienale imbottiti",
+        "Impugnature collegate ai bracci di spinta"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "1640 × 1000 × 1550 mm",
+      "weight": "179 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1640 × 1000 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "179 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5005.png",
+      "sourceUrl": "https://tzfit.com/gym-equipment-manufacturer-chest-press-gc-5005/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Pin-Loaded-Fitness-Equipment-Machine-Seated-Chest-Press-Exercise-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/7a/7a27233cb3172eab7076dfe9f06a8f6bf8c3cf11b4938aa473a9bfee1d3322f3.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5006",
+      "sourceSku": "GC-5006",
+      "name": "Back Extension",
+      "description": "Macchina da seduti per l'estensione del tronco contro resistenza. Il rullo dorsale e gli appoggi inferiori definiscono una postazione dedicata al lavoro della zona lombare.",
+      "features": [
+        "Macchina da seduti per l'estensione del tronco contro resistenza"
+      ],
+      "category": "Core",
+      "dimensions": "1640 × 1000 × 1550 mm",
+      "weight": "164 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1640 × 1000 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "164 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5006.png",
+      "sourceUrl": "https://tzfit.com/pin-loaded-fitness-back-extension-gc-5006/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Professional-Commercial-Gym-Fitness-Machine-Back-Muscle-Strength-Training.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/14/14f4a32f7c8b18d40d8083feb1470fe6eb2d494946db89f3fad641bb91fc19ad.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5007",
+      "sourceSku": "GC-5007",
+      "name": "Pectoral Fly",
+      "description": "Macchina per il movimento di chiusura delle braccia davanti al busto. Offre una postazione specifica per l'allenamento del petto con resistenza selezionabile.",
+      "features": [
+        "Macchina per il movimento di chiusura delle braccia davanti al busto"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "1500 × 930 × 1980 mm",
+      "weight": "179 kg",
+      "stack": "100 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1500 × 930 × 1980 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "179 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "100 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5007.png",
+      "sourceUrl": "https://tzfit.com/workout-pec-fly-machine-gym-equipment-gc-5007/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Workout-Rear-Delt-Pec-Fly-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/ed/edc292d3a91ca22ba61467e9efa2ae5ccc8654b93c926ec3acc18b43cec585af.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5008",
+      "sourceSku": "GC-5008",
+      "name": "Lat Pulldown",
+      "description": "Lat machine con bracci di trazione superiori e appoggi fermacosce. La tirata dall'alto permette di lavorare sulla schiena mantenendo una posizione seduta sostenuta.",
+      "features": [
+        "Trazione dall’alto per la schiena",
+        "Bracci superiori con impugnature",
+        "Rulli fermacosce e seduta imbottita"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1350 × 1370 × 1850 mm",
+      "weight": "171 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1350 × 1370 × 1850 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "171 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5008.png",
+      "sourceUrl": "https://tzfit.com/gym-machine-lat-pull-down-gc-5008/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Back-Training-Pin-Loaded-Lat-Pulldown-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/35/3523e29e37fccd622242a3e1f3818abaeb29019845d8ec96b081b8d661ba2f26.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5009",
+      "sourceSku": "GC-5009",
+      "name": "Multi Hip",
+      "description": "Postazione in piedi per esercizi dell'anca contro resistenza. Il braccio con rullo consente di impostare il contatto con la gamba durante il movimento.",
+      "features": [
+        "Postazione in piedi per esercizi dell'anca contro resistenza"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1100 × 1560 × 1640 mm",
+      "weight": "201 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1100 × 1560 × 1640 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "201 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5009.png",
+      "sourceUrl": "https://tzfit.com/multi-hip-strength-training-gc-5009/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Pin-Loaded-Strength-Training-Machine-Multi-Hip.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/61/616138b32fbb5f0f34e3dc818b988215136a34ba76b846851c878972e9e8e9b6.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5010",
+      "sourceSku": "GC-5010",
+      "name": "Delt Machine",
+      "description": "Macchina per alzate laterali da seduti, dedicata ai deltoidi. I bracci con appoggi imbottiti accompagnano l'elevazione delle braccia contro il carico selezionato.",
+      "features": [
+        "Alzate laterali da seduti",
+        "Appoggi imbottiti sui bracci",
+        "Resistenza selezionabile a pacco pesi"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "840 × 1160 × 1550 mm",
+      "weight": "161 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "840 × 1160 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "161 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5010.png",
+      "sourceUrl": "https://tzfit.com/lateral-shoulder-raise-delt-machine-gc-5010/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Gym-Equipment-Lateral-Shoulder-Raise-Delt-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/3a/3aabcd798b873c89694a64a67483258ee410e0310771a5c7e0975854b56ab746.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5011",
+      "sourceSku": "GC-5011",
+      "name": "Triceps Extension",
+      "description": "Stazione dedicata all'estensione del gomito. Il supporto da seduti e le impugnature permettono di concentrare il lavoro sui tricipiti.",
+      "features": [
+        "Stazione dedicata all'estensione del gomito"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1040 × 1000 × 1550 mm",
+      "weight": "164 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1040 × 1000 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "164 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5011.png",
+      "sourceUrl": "https://tzfit.com/wholesale-gym-triceps-extension-machine-gc-5011/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Strength-Training-Seated-triceps-extension-machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/37/37d05c882144bb2b146db586f0fcfb9bd3a494bad575cb7e3214051078e35c3d.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5012",
+      "sourceSku": "GC-5012",
+      "name": "Shoulder Press",
+      "description": "Macchina da seduti per la spinta sopra la testa. Schienale e impugnature definiscono una postazione dedicata a spalle e tricipiti con carico a pacco pesi.",
+      "features": [
+        "Spinta sopra la testa da seduti",
+        "Appoggio del busto sullo schienale",
+        "Resistenza selezionabile a pacco pesi"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "1350 × 1350 × 1550 mm",
+      "weight": "169 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1350 × 1350 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "169 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5012.png",
+      "sourceUrl": "https://tzfit.com/seated-shoulder-press-machine-gc-5012/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/shoulder-press-exercise-workout-machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/c9/c9aa66efba535dc96da5ead3d4b95bd89e1574ce75e5f6d7feb335e20efa731c.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5013",
+      "sourceSku": "GC-5013",
+      "name": "Rastrelliera manubri",
+      "description": "Supporto per riporre i manubri e mantenere ordinata la zona pesi liberi. La struttura distribuisce gli appoggi lungo il fronte di accesso.",
+      "features": [
+        "Supporto per riporre i manubri e mantenere ordinata la zona pesi liberi"
+      ],
+      "category": "Rack e accessori",
+      "dimensions": "1820 × 900 × 1100 mm",
+      "weight": "109 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1820 × 900 × 1100 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "109 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5013.png",
+      "sourceUrl": "https://tzfit.com/gc-5013-dumbbell-rack/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GC-5013-Hex-Dumbbell-Rack.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/60/601b331823158ed85525f2ebd06dca722a3a200335d1f1175ddd70cbd0fe185c.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5014",
+      "sourceSku": "GC-5014",
+      "name": "Adductor",
+      "description": "Macchina da seduti per l'adduzione delle anche. Gli appoggi imbottiti trasferiscono il movimento di chiusura delle gambe alla resistenza selezionata.",
+      "features": [
+        "Macchina da seduti per l'adduzione delle anche"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1520 × 610 × 1550 mm",
+      "weight": "179 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1520 × 610 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "179 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5014.png",
+      "sourceUrl": "https://tzfit.com/inner-thigh-adductor-exercises-gym-equipment-gc-5014/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/inner-thigh-adductor-machine-exercise-machines-gym.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/e9/e96915e5bcfccb5fcd31b9a7964a5b051019badecde8d05f3e7cf6a68e648283.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5015",
+      "sourceSku": "GC-5015",
+      "name": "Total Abdominal",
+      "description": "Postazione dedicata al lavoro addominale da seduti. I supporti del corpo e il sistema di resistenza permettono di inserire il crunch nella zona core.",
+      "features": [
+        "Postazione dedicata al lavoro addominale da seduti"
+      ],
+      "category": "Core",
+      "dimensions": "1520 × 950 × 1550 mm",
+      "weight": "164 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1520 × 950 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "164 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5015.png",
+      "sourceUrl": "https://tzfit.com/total-abdominal-gym-equipment-manufacturer-gc-5015/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Sitting-Abdominal-Exercise-Training-Machines.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/dc/dc9c9c0e7bceb8767671c03fc09fe15ebaafbd5e13554bb5971205f182de809f.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5016",
+      "sourceSku": "GC-5016",
+      "name": "Leg Press orizzontale",
+      "description": "Pressa orizzontale con seduta e ampia pedana per il lavoro degli arti inferiori. La spinta delle gambe agisce contro un pacco pesi selezionabile.",
+      "features": [
+        "Spinta orizzontale degli arti inferiori",
+        "Seduta con schienale e pedana frontale",
+        "Resistenza selezionabile a pacco pesi"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1800 × 1120 × 1550 mm",
+      "weight": "191 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1800 × 1120 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "191 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5016.png",
+      "sourceUrl": "https://tzfit.com/exercise-equipment-horizontal-leg-press-gc-5016/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Horizontal-Leg-Press-gym-machine-manufacturer.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/45/4548d1fe39e67077eadc6924e90c1c46510d6130d4a97c401b472761a4e4e9f6.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5017",
+      "sourceSku": "GC-5017",
+      "name": "Smith Machine",
+      "description": "Struttura con bilanciere guidato per esercizi di spinta e accosciata. La postazione può essere abbinata a una panca per ampliare le possibilità di allenamento.",
+      "features": [
+        "Struttura con bilanciere guidato per esercizi di spinta e accosciata"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "1375 × 1930 × 2180 mm",
+      "weight": "265 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1375 × 1930 × 2180 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "265 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5017.png",
+      "sourceUrl": "https://tzfit.com/commercial-exercise-smith-machine-gc-5017/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/09/gym-wholesalers-Smith-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/c1/c1ae311e023dde609275d5437b3764c6fa15824b2770b216fa482ebc0a79e392.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5018",
+      "sourceSku": "GC-5018",
+      "name": "Cable Crossover",
+      "description": "Stazione a cavi contrapposti con due pacchi pesi. La struttura offre spazio centrale per croci, trazioni e altre combinazioni di lavoro ai cavi.",
+      "features": [
+        "Stazione a cavi contrapposti con due pacchi pesi"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "3820 × 730 × 2250 mm",
+      "weight": "347 kg",
+      "stack": "80 kg × 2",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "3820 × 730 × 2250 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "347 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg × 2"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5018.png",
+      "sourceUrl": "https://tzfit.com/commercial-cable-crossover-machine-gc-5018/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/china-gym-machine-commercial-cable-crossover-exercise-machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/dc/dc066c1041bcf87849bdbc4ef65e8b30eead9529a1291bd50dcfedef33d002e8.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5019",
+      "sourceSku": "GC-5019",
+      "name": "Chin Up e Dip assistita",
+      "description": "Postazione per trazioni e dip con assistenza a pacco pesi. Le impugnature dedicate consentono di alternare due esercizi per la parte superiore del corpo.",
+      "features": [
+        "Postazione per trazioni e dip con assistenza a pacco pesi"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1140 × 1120 × 2275 mm",
+      "weight": "229 kg",
+      "stack": "100 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1140 × 1120 × 2275 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "229 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "100 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5019.png",
+      "sourceUrl": "https://tzfit.com/pin-loaded-selection-dip-chin-assisted-station-gc-5019/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Pin-Loaded-Selection-Dip-Chin-Assisted-Station.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/43/4347af9518b52d7885e4adb7de7278ec8ff80e394c313a5ad9f15e04be0f8460.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5019-1",
+      "sourceSku": "GC-5019-1",
+      "name": "Knee Raise",
+      "description": "Struttura per il sollevamento delle ginocchia con appoggi per gli avambracci. Una postazione a corpo libero per completare l'area addominali.",
+      "features": [
+        "Struttura per il sollevamento delle ginocchia con appoggi per gli avambracci"
+      ],
+      "category": "Core",
+      "dimensions": "1270 × 760 × 1560 mm",
+      "weight": "63 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1270 × 760 × 1560 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "63 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5019-1.png",
+      "sourceUrl": "https://tzfit.com/knee-raise-gym-equipment-gc-5019-1/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/GC-5019-1-fitness-equipment-wholesale-Knee-Raise.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/e5/e5c7c9f40971d0a7af698985bdc30d26339665b8b88997db44c6a3588048a90e.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5019-2",
+      "sourceSku": "GC-5019-2",
+      "name": "Knee Raise con barra trazioni",
+      "description": "Postazione verticale per esercizi a corpo libero con supporti imbottiti. La struttura alta integra la zona di lavoro per il sollevamento delle gambe.",
+      "features": [
+        "Postazione verticale per esercizi a corpo libero con supporti imbottiti"
+      ],
+      "category": "Core",
+      "dimensions": "1220 × 1000 × 2300 mm",
+      "weight": "86 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1220 × 1000 × 2300 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "86 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5019-2.png",
+      "sourceUrl": "https://tzfit.com/equipment-gym-knee-raise-gc-5019-2/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/GC-5019-2-Knee-Raise-gym-machine-manufacturers.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/b7/b73c2465b94a2c60e225090dbd4a1e89f6bb6bb6581e10c384eedd8f08b56cf2.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5020",
+      "sourceSku": "GC-5020",
+      "name": "Lat Pulldown a cavo",
+      "description": "Postazione per trazioni dall'alto con barra collegata al cavo. Seduta e appoggi per le cosce sostengono l'utilizzatore durante il lavoro sulla schiena.",
+      "features": [
+        "Postazione per trazioni dall'alto con barra collegata al cavo"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1370 × 820 × 2150 mm",
+      "weight": "169 kg",
+      "stack": "100 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1370 × 820 × 2150 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "169 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "100 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5020.png",
+      "sourceUrl": "https://tzfit.com/china-gym-equipment-lat-pulldown-machine-gc-5020/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Back-Muscle-Training-Seated-Lat-Pull-Down-Fitness-Gym-Equipment-.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/12/12ca58bcfacb4d94395f790a43bbd1af1fc9155397b5ada0d48a7330122220da.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5021",
+      "sourceSku": "GC-5021",
+      "name": "Low Row",
+      "description": "Rematore basso a cavo per trazioni verso il busto. Gli appoggi dei piedi e la seduta definiscono la posizione di lavoro lungo l'asse della macchina.",
+      "features": [
+        "Rematore basso a cavo per trazioni verso il busto"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1750 × 820 × 1950 mm",
+      "weight": "164 kg",
+      "stack": "Su richiesta",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1750 × 820 × 1950 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "164 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5021.png",
+      "sourceUrl": "https://tzfit.com/wholesale-fitness-equipment-low-row-gc-5021/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/low-row-machine-muscles-worked.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/85/85965de1d297631724d7a7b05ff49e78da4628da1e274a23f2ac02b0e2fddb33.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z",
+      "reviewNote": "Valore letterale della fonte: 100g. Unità incoerente; nessuna conversione in kg presunta."
+    },
+    {
+      "sku": "FM-GC-5022",
+      "sourceSku": "GC-5022",
+      "name": "Glute Machine",
+      "description": "Postazione dedicata all'estensione dell'anca contro resistenza. Gli appoggi del corpo aiutano a impostare il lavoro della gamba sul braccio della macchina.",
+      "features": [
+        "Postazione dedicata all'estensione dell'anca contro resistenza"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1300 × 830 × 1550 mm",
+      "weight": "166 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1300 × 830 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "166 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5022.png",
+      "sourceUrl": "https://tzfit.com/gym-equipment-suppliers-glute-machine-gc-5022/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Gym-Use-Glute-Machine-Pin-Loaded-Equipment.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/de/deef0a32ec4a9d7e1e41ae75e022a094ec490233dfb4698733e1cc3754da66f3.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5022-1",
+      "sourceSku": "GC-5022-1",
+      "name": "Glute Machine — variante lunga",
+      "description": "Configurazione della glute machine con struttura allungata. Offre una postazione specifica per il lavoro dei glutei con resistenza a pacco pesi.",
+      "features": [
+        "Configurazione della glute machine con struttura allungata"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "2000 × 1020 × 1550 mm",
+      "weight": "180 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "2000 × 1020 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "180 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5022-1.png",
+      "sourceUrl": "https://tzfit.com/muscle-trainer-glute-machine-gc-5022-1/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Pin-Loaded-Free-Weights-Glute-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/c9/c9124f6aae82b1a0d68796d7aa012597c860fbe6135ca09369b91aecb2325527.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5023",
+      "sourceSku": "GC-5023",
+      "name": "Panca piana olimpionica",
+      "description": "Panca con supporti per bilanciere dedicata alle distensioni orizzontali. Organizza una postazione completa per l'allenamento del petto con pesi liberi.",
+      "features": [
+        "Panca con supporti per bilanciere dedicata alle distensioni orizzontali"
+      ],
+      "category": "Panche",
+      "dimensions": "1640 × 1885 × 1755 mm",
+      "weight": "66,4 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1640 × 1885 × 1755 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "66,4 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5023.png",
+      "sourceUrl": "https://tzfit.com/olympic-flat-weight-bench-press-gc-5023/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Free-Weight-Chest-Press-Flat-Bench.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/5c/5ce029baf561c30b7eee9d92539f239c80d5f989a8791e3db753375da03119ab.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5024",
+      "sourceSku": "GC-5024",
+      "name": "Panca regolabile",
+      "description": "Panca con schienale regolabile per esercizi con manubri. Le diverse inclinazioni permettono di organizzare più posizioni di lavoro nella stessa postazione.",
+      "features": [
+        "Panca con schienale regolabile per esercizi con manubri"
+      ],
+      "category": "Panche",
+      "dimensions": "1330 × 625 × 1325 mm",
+      "weight": "45 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1330 × 625 × 1325 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "45 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5024.png",
+      "sourceUrl": "https://tzfit.com/workout-exercise-adjustable-dumbbell-bench-gc-5024/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Adjustable-Dumbbell-Bench.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/af/afafd0ee83d7abc91310b6b130a40b6e5269ce5d5c4ede99bde09facae1cf6ee.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5024-1",
+      "sourceSku": "GC-5024-1",
+      "name": "Panca regolabile compatta",
+      "description": "Panca regolabile con ingombro contenuto per il lavoro con manubri. Può essere collocata nella zona pesi o abbinata a una struttura di allenamento.",
+      "features": [
+        "Panca regolabile con ingombro contenuto per il lavoro con manubri"
+      ],
+      "category": "Panche",
+      "dimensions": "1320 × 640 × 485 mm",
+      "weight": "39 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1320 × 640 × 485 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "39 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5024-1.png",
+      "sourceUrl": "https://tzfit.com/adjustable-dumbbell-bench-gc-5024-1/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/GC-5024-1-Adjustable-Dumbbell-Bench-weight-equipment.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/4f/4f116ea30658419420ffca906b73df4bf40b01bb4fcb79761cb34b4e28216ec0.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5024B",
+      "sourceSku": "GC-5024B",
+      "name": "Panca regolabile B",
+      "description": "Variante della panca regolabile per esercizi con pesi liberi. Seduta e schienale offrono appoggio nelle diverse posizioni di allenamento.",
+      "features": [
+        "Variante della panca regolabile per esercizi con pesi liberi"
+      ],
+      "category": "Panche",
+      "dimensions": "1440 × 640 × 490 mm",
+      "weight": "51 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1440 × 640 × 490 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "51 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5024B.png",
+      "sourceUrl": "https://tzfit.com/gc-5024b-adjustable-bench/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GC-5024B-Adjustable-Weight-Bench.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/6b/6b29a4aa662dd4d5c801c1169fb9c2553c5973fc6ed2ad2bacbec480f80c48a0.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5025",
+      "sourceSku": "GC-5025",
+      "name": "Panca Scott",
+      "description": "Panca per curl con appoggio inclinato delle braccia. Permette di organizzare una postazione dedicata al lavoro dei bicipiti con bilanciere o manubri.",
+      "features": [
+        "Panca per curl con appoggio inclinato delle braccia"
+      ],
+      "category": "Panche",
+      "dimensions": "1210 × 910 × 1125 mm",
+      "weight": "Su richiesta",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1210 × 910 × 1125 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5025.png",
+      "sourceUrl": "https://tzfit.com/strength-trainer-bicep-curl-preacher-machine-gc-5025/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Preacher-Curl-Bench-Bicep-Training.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/8f/8f8494c80c8dd09bab4cc2c7695f5afffd77b97445329a3600808596760d2936.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z",
+      "reviewNote": "La fonte riporta 52/ 55kg senza identificare le varianti."
+    },
+    {
+      "sku": "FM-GC-5025A",
+      "sourceSku": "GC-5025A",
+      "name": "Panca Scott compatta",
+      "description": "Versione compatta della panca per curl con supporto imbottito delle braccia. Una soluzione specifica per completare la zona bicipiti.",
+      "features": [
+        "Versione compatta della panca per curl con supporto imbottito delle braccia"
+      ],
+      "category": "Panche",
+      "dimensions": "945 × 790 × 960 mm",
+      "weight": "40,5 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "945 × 790 × 960 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "40,5 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5025A.png",
+      "sourceUrl": "https://tzfit.com/gym-exercise-preacher-curl-gc-5025a/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Commercial-Use-Preacher-Curl-Gym-Fitness-Equipment.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/97/97500dc38c0ccb0e566f593056b54e64a22fca770ea8099c8e62ebfcf3beb032.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5026",
+      "sourceSku": "GC-5026",
+      "name": "Roman Chair",
+      "description": "Panca per esercizi di estensione del tronco con appoggi imbottiti. Offre una postazione a corpo libero per il lavoro della catena posteriore.",
+      "features": [
+        "Panca per esercizi di estensione del tronco con appoggi imbottiti"
+      ],
+      "category": "Core",
+      "dimensions": "1275 × 835 × 880 mm",
+      "weight": "57 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1275 × 835 × 880 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "57 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5026.png",
+      "sourceUrl": "https://tzfit.com/commercial-roman-chair-gc-5026/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Factory-Commercial-Use-Free-Weight-Roman-Chair.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/ec/ece6ea1ec6dc4148f25d33b3c15ecf5748e440c670d81b6e138350d7c21ce4f4.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5027",
+      "sourceSku": "GC-5027",
+      "name": "Panca addominali regolabile",
+      "description": "Panca dedicata agli esercizi addominali con inclinazione regolabile. Gli appoggi per le gambe aiutano a definire il posizionamento sulla superficie imbottita.",
+      "features": [
+        "Panca dedicata agli esercizi addominali con inclinazione regolabile"
+      ],
+      "category": "Core",
+      "dimensions": "1345 × 740 × 1155 mm",
+      "weight": "51 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1345 × 740 × 1155 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "51 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5027.png",
+      "sourceUrl": "https://tzfit.com/abdominal-trainer-bench-abdominal-crunch-bench-gc-5027/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Adjustable-Abs-Bench-for-Abdominal-Weights-Training.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/a2/a23a78faf3a6bbeb2030d1d0da628987f937b853c25a20fa53cacfd18a098cae.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5028",
+      "sourceSku": "GC-5028",
+      "name": "Portadischi",
+      "description": "Struttura verticale per organizzare i dischi della zona pesi. I supporti separati rendono riconoscibili e accessibili i diversi carichi.",
+      "features": [
+        "Struttura verticale per organizzare i dischi della zona pesi"
+      ],
+      "category": "Rack e accessori",
+      "dimensions": "730 × 725 × 1040 mm",
+      "weight": "33 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "730 × 725 × 1040 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "33 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5028.png",
+      "sourceUrl": "https://tzfit.com/commercial-weight-plate-tree-gc-5028/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Storage-Barbell-Rack-Weight-Plate-Tree.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/37/3795c454d7e212f1ae7b83b4b2af7305c12ecb8bb06a68ae1d2fe5a3bdeb4560.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5029",
+      "sourceSku": "GC-5029",
+      "name": "Rastrelliera bilancieri",
+      "description": "Supporto per conservare i bilancieri in una postazione dedicata. Aiuta a distribuire l'attrezzatura e a liberare le aree di passaggio.",
+      "features": [
+        "Supporto per conservare i bilancieri in una postazione dedicata"
+      ],
+      "category": "Rack e accessori",
+      "dimensions": "1030 × 815 × 1450 mm",
+      "weight": "65 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1030 × 815 × 1450 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "65 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5029.png",
+      "sourceUrl": "https://tzfit.com/barbell-rack-fitness-accessories-gc-5029/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Weightlifting-Plate-Barbell-Storage-Rack.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/e3/e3fc1f8bcbddd715c7a572106618a341ba42fc137ae0fc7010e534557215397b.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5030",
+      "sourceSku": "GC-5030",
+      "name": "Panca inclinata olimpionica",
+      "description": "Panca inclinata con supporti per bilanciere. Predispone una postazione per le distensioni con busto inclinato nella zona pesi liberi.",
+      "features": [
+        "Panca inclinata con supporti per bilanciere"
+      ],
+      "category": "Panche",
+      "dimensions": "1700 × 1885 × 1515 mm",
+      "weight": "82 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1700 × 1885 × 1515 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "82 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5030.png",
+      "sourceUrl": "https://tzfit.com/free-weight-incline-bench-press-machine-gc-5030/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Incline-Flat-Exercise-Dumbbell-Weight-Bench.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/fd/fd7bd6b790c6d371e5f35882a91a0fdcf634448be322db6e2e6d754692f29677.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5031",
+      "sourceSku": "GC-5031",
+      "name": "Panca piana",
+      "description": "Panca orizzontale per esercizi con manubri e pesi liberi. Il piano imbottito continuo offre un appoggio semplice da integrare nelle diverse postazioni.",
+      "features": [
+        "Panca orizzontale per esercizi con manubri e pesi liberi"
+      ],
+      "category": "Panche",
+      "dimensions": "1410 × 560 × 430 mm",
+      "weight": "22 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1410 × 560 × 430 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "22 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5031.png",
+      "sourceUrl": "https://tzfit.com/dumbbell-flat-bench-press-gc-5031/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/GC-5031-Fitness-Weight-Lifting-Flat-Benches.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/59/59f16db88bc69fca6f24ba74a8b86c099973fde4782e981a8b20c346ba13f965.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5032",
+      "sourceSku": "GC-5032",
+      "name": "Rastrelliera manubri lunga",
+      "description": "Rastrelliera da 2500 mm di lunghezza per l'organizzazione dei manubri. La struttura si sviluppa lungo la parete o il bordo della zona pesi.",
+      "features": [
+        "Rastrelliera da 2500 mm di lunghezza per l'organizzazione dei manubri"
+      ],
+      "category": "Rack e accessori",
+      "dimensions": "2500 × 750 × 800 mm",
+      "weight": "70 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "2500 × 750 × 800 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "70 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5032.png",
+      "sourceUrl": "https://tzfit.com/gym-equipment-fitness-dumbbell-rack-gc-5032/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Wholesale-Fitness-Dumbbell-Storage-Rack.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/79/7944eabdaf7c55db06a0cc36e1e3e152c423a7c92e4ce957cc139568204b23f7.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5033",
+      "sourceSku": "GC-5033",
+      "name": "Abductor",
+      "description": "Macchina da seduti per l'abduzione delle anche. Gli appoggi esterni sulle gambe accompagnano il movimento di apertura contro il carico selezionato.",
+      "features": [
+        "Macchina da seduti per l'abduzione delle anche"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1520 × 610 × 1550 mm",
+      "weight": "179 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1520 × 610 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "179 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5033.png",
+      "sourceUrl": "https://tzfit.com/outer-thigh-abductor-exercise-equipment-gc-5033/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/china-fitness-equipment-outer-thigh-abductor-machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/d1/d1cffceb776795a3bfd23ee8a61ce3b2cfd1e0b8d3cee1141e84677d7e666584.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5034",
+      "sourceSku": "GC-5034",
+      "name": "Panca Military",
+      "description": "Panca con supporti per bilanciere dedicata alle spinte da seduti. La configurazione lascia una postazione specifica per il lavoro delle spalle.",
+      "features": [
+        "Panca con supporti per bilanciere dedicata alle spinte da seduti"
+      ],
+      "category": "Panche",
+      "dimensions": "1700 × 1225 × 1670 mm",
+      "weight": "101 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1700 × 1225 × 1670 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "101 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5034.png",
+      "sourceUrl": "https://tzfit.com/military-bench-free-weights-gc-5034/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Plate-Loaded-Olympic-Military-Bench.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/b4/b4507b55e456cf029403b95f30fd775e4ff61c4343b931242dfc24623df73793.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5035",
+      "sourceSku": "GC-5035",
+      "name": "Panca e Squat Combo",
+      "description": "Struttura combinata per esercizi di panca e squat con bilanciere. Riunisce più possibilità di lavoro in una postazione per pesi liberi.",
+      "features": [
+        "Struttura combinata per esercizi di panca e squat con bilanciere"
+      ],
+      "category": "Rack e accessori",
+      "dimensions": "1715 × 2035 × 1925 mm",
+      "weight": "131 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1715 × 2035 × 1925 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "131 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5035.png",
+      "sourceUrl": "https://tzfit.com/adjustable-dumbbell-bench-press-and-squat-rack-gc-5035/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Gym-Workout-Weight-Lifting-Workout-Adjustable-Squat-Dumbbell-Bench-Rack.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/82/82aebb4dae76b2722a4bdc985b789c08d0e405a4fe08b1829b7a9ee57e8bdcd9.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5037",
+      "sourceSku": "GC-5037",
+      "name": "Abdominal Crunch",
+      "description": "Macchina per crunch con carico selezionabile. Il sistema di appoggi definisce una postazione dedicata alla flessione del tronco.",
+      "features": [
+        "Macchina per crunch con carico selezionabile"
+      ],
+      "category": "Core",
+      "dimensions": "1640 × 1000 × 1550 mm",
+      "weight": "162 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1640 × 1000 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "162 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5037.png",
+      "sourceUrl": "https://tzfit.com/strength-training-abdominal-crunch-machine-gc-5037/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Strength-Equipment-Abdominal-Crunch-Machine-for-Exercise.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/04/042781bd58c3782a48d83ccfe554b20abd65b1e87a8c371df50b2ede3695408f.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5038",
+      "sourceSku": "GC-5038",
+      "name": "Cable Jungle",
+      "description": "Struttura a cavi con più punti di lavoro. Permette di organizzare esercizi per diversi distretti corporei attorno a un'unica stazione.",
+      "features": [
+        "Struttura a cavi con più punti di lavoro"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "1945 × 1900 × 2255 mm",
+      "weight": "465 kg",
+      "stack": "Su richiesta",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1945 × 1900 × 2255 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "465 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5038.png",
+      "sourceUrl": "https://tzfit.com/multi-station-cable-jungle-gc-5038/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Commercial-Gym-Fitness-Sports-Equipment-Cable-Jungle.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/b0/b01a704df9892fdf4e616e2279601170fc5f1604d2be25cbb61c297de5206a90.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5039",
+      "sourceSku": "GC-5039",
+      "name": "Hip Glute",
+      "description": "Macchina dedicata al lavoro di anche e glutei. La struttura offre appoggi specifici per accompagnare il movimento dell'anca contro resistenza.",
+      "features": [
+        "Macchina dedicata al lavoro di anche e glutei"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "2240 × 1100 × 1890 mm",
+      "weight": "120 kg",
+      "stack": "Su richiesta",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "2240 × 1100 × 1890 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "120 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5039.png",
+      "sourceUrl": "https://tzfit.com/strength-training-hip-trainer-gc-5039/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Hip-Trainer-for-Body-Building-Strong-Hip-Thrust.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/dd/dd3d69cc57fda257d074b6e81b57f715743503b5bf256a4014a0daef5298257e.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5043",
+      "sourceSku": "GC-5043",
+      "name": "Panca declinata olimpionica",
+      "description": "Panca declinata con supporti per bilanciere. Completa l'area delle distensioni con una postazione a inclinazione negativa.",
+      "features": [
+        "Panca declinata con supporti per bilanciere"
+      ],
+      "category": "Panche",
+      "dimensions": "1640 × 1885 × 1755 mm",
+      "weight": "74 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1640 × 1885 × 1755 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "74 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5043.png",
+      "sourceUrl": "https://tzfit.com/weight-lifting-decline-bench-press-gc-5043/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Incline-Decline-Bench-Adjustable-Weightlifting-Bench.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/bb/bbc8242227b561ae48ec2033e8227c43b0e2176f9f60a9788d8fb49159ee27b9.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5044",
+      "sourceSku": "GC-5044",
+      "name": "Prone Leg Curl",
+      "description": "Leg curl in posizione prona per la flessione del ginocchio. Il piano imbottito sostiene il corpo mentre il rullo trasmette il movimento al pacco pesi.",
+      "features": [
+        "Leg curl in posizione prona per la flessione del ginocchio"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1640 × 1000 × 1550 mm",
+      "weight": "169 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1640 × 1000 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "169 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5044.png",
+      "sourceUrl": "https://tzfit.com/body-building-strength-machine-prone-leg-curl-gc-5044/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Body-Building-Strength-Machine-Prone-Leg-Curl.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/dd/ddc1e346288c9acf5c9b446f3f14f090d5218db10c35d84b44781ab90408c6da.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5044-1",
+      "sourceSku": "GC-5044-1",
+      "name": "Prone Leg Curl — variante 1",
+      "description": "Variante della leg curl da sdraiati con appoggio prono. Una postazione dedicata al lavoro dei flessori del ginocchio.",
+      "features": [
+        "Variante della leg curl da sdraiati con appoggio prono"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1640 × 1000 × 1550 mm",
+      "weight": "Su richiesta",
+      "stack": "Su richiesta",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1640 × 1000 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5044-1.png",
+      "sourceUrl": "https://tzfit.com/muscle-gym-exercise-prone-leg-curl-gc-5044-1/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Commercial-Professional-Gym-Equipment-Prone-Leg-Curl-Machine-for-Bodybuilding.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/d1/d15ba595072a6fbe1547e3214934a85fcb6ea3f85e8c68f315de4f607ed19007.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z",
+      "reviewNote": "La fonte riporta pacco 169kg e macchina 80kg; sospetta inversione rispetto al modello GC-5044, non corretta per inferenza."
+    },
+    {
+      "sku": "FM-GC-5045",
+      "sourceSku": "GC-5045",
+      "name": "Rastrelliera per 15 coppie di manubri",
+      "description": "Rastrelliera indicata per quindici coppie di manubri. Organizza i carichi su una struttura dedicata alla zona pesi liberi.",
+      "features": [
+        "Rastrelliera indicata per quindici coppie di manubri"
+      ],
+      "category": "Rack e accessori",
+      "dimensions": "2500 × 645 × 1005 mm",
+      "weight": "102 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "2500 × 645 × 1005 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "102 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5045.png",
+      "sourceUrl": "https://tzfit.com/equipment-fitness-dumbbell-rack-gc-5045/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/GC-5045-Weightlifting-Dumbbells-Rack.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/45/4515dc408e27799673dfafae35b8dedd2b6607581f38b466b93873e3c8410327.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5046",
+      "sourceSku": "GC-5046",
+      "name": "Biceps Curl",
+      "description": "Macchina per curl dei bicipiti con carico selezionabile. Gli appoggi delle braccia aiutano a definire il posizionamento durante la flessione del gomito.",
+      "features": [
+        "Macchina per curl dei bicipiti con carico selezionabile"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1040 × 1000 × 1550 mm",
+      "weight": "164 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1040 × 1000 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "164 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5046.png",
+      "sourceUrl": "https://tzfit.com/biceps-curl-pin-load-selection-machines-gc-5046/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Pin-Loaded-Sport-Strength-Training-Seated-Biceps-Curl-Machine-for-Gym.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/b1/b1a485b9b7eaab41b7975417c884792bbe579c494a146a490b5d712526045286.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5047",
+      "sourceSku": "GC-5047",
+      "name": "Pectoral Fly e Rear Delt",
+      "description": "Macchina combinata per croci del petto e aperture posteriori. Riunisce due movimenti dedicati a pettorali e deltoidi posteriori.",
+      "features": [
+        "Macchina combinata per croci del petto e aperture posteriori"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "1175 × 1300 × 2080 mm",
+      "weight": "204 kg",
+      "stack": "100 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1175 × 1300 × 2080 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "204 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "100 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5047.png",
+      "sourceUrl": "https://tzfit.com/gym-fitness-butterfly-machine-pec-fly-rear-delt-gc-5047/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Wholesale-Pin-Load-Selection-Pectoral-Fly-Rear-Deltoid-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/91/91481bbfa56b6b4cfd9ea2e1d6d2e993ef9f861720b25867940f30606698f55c.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5049",
+      "sourceSku": "GC-5049",
+      "name": "Standing Calf Raise",
+      "description": "Postazione per sollevamenti sui polpacci in piedi con pacco pesi. Gli appoggi superiori trasferiscono la resistenza durante l'elevazione dei talloni.",
+      "features": [
+        "Postazione per sollevamenti sui polpacci in piedi con pacco pesi"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "950 × 1350 × 1620 mm",
+      "weight": "169 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "950 × 1350 × 1620 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "169 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5049.png",
+      "sourceUrl": "https://tzfit.com/commercial-gym-pin-loaded-stand-calf-raise-gc-5049/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Wholesale-Gym-Strength-Exercise-Machine-Stand-Calf-Raise.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/45/457f3f2761d04ccc397caffe51f40cdca1935e67d15f4f411756b0129c709c20.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5050",
+      "sourceSku": "GC-5050",
+      "name": "Triceps Dip",
+      "description": "Macchina da seduti per il movimento di dip contro resistenza. Le impugnature laterali permettono di lavorare sull'estensione delle braccia.",
+      "features": [
+        "Macchina da seduti per il movimento di dip contro resistenza"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1510 × 1180 × 1550 mm",
+      "weight": "171 kg",
+      "stack": "100 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1510 × 1180 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "171 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "100 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5050.png",
+      "sourceUrl": "https://tzfit.com/strength-training-seated-triceps-dip-gc-5050/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Strength-Training-Equipment-Seated-Triceps-Dip-for-Bodybuilding.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/06/06397a7742bc13c279fc6c238c6eb3c99a968f7eacf8388357c3950b4881e5f6.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5051",
+      "sourceSku": "GC-5051",
+      "name": "Squat Rack",
+      "description": "Struttura dedicata agli esercizi con bilanciere. Gli appoggi consentono di organizzare una postazione per squat e altre alzate nella zona forza.",
+      "features": [
+        "Struttura dedicata agli esercizi con bilanciere"
+      ],
+      "category": "Rack e accessori",
+      "dimensions": "1820 × 1870 × 1850 mm",
+      "weight": "96,5 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1820 × 1870 × 1850 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "96,5 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5051.png",
+      "sourceUrl": "https://tzfit.com/commercial-fitness-squat-rack-gc-5051/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Power-Rack-Strength-Training-Squat-Rack.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/4d/4d5c2c46540d6749f3034fd236055eefc44fc39caf1aea815e5ab48237bd754f.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5052",
+      "sourceSku": "GC-5052",
+      "name": "Panca Utility",
+      "description": "Panca da seduti con schienale per esercizi con manubri. Offre una postazione compatta da usare nella zona pesi liberi.",
+      "features": [
+        "Panca da seduti con schienale per esercizi con manubri"
+      ],
+      "category": "Panche",
+      "dimensions": "1020 × 615 × 1150 mm",
+      "weight": "23,7 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1020 × 615 × 1150 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "23,7 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5052.png",
+      "sourceUrl": "https://tzfit.com/exercise-equipment-utility-bench-gc-5052/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Commercial-Utility-Bench-for-Sale.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/9c/9c974ceccbc68b53ad90e12ae81fed1097b89a105644690e18d5b059ba247ecb.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5053",
+      "sourceSku": "GC-5053",
+      "name": "Abductor e Adductor",
+      "description": "Macchina combinata per apertura e chiusura delle anche da seduti. Riunisce il lavoro di abduttori e adduttori con un unico pacco pesi.",
+      "features": [
+        "Macchina combinata per apertura e chiusura delle anche da seduti"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1520 × 610 × 1550 mm",
+      "weight": "186 kg",
+      "stack": "100 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1520 × 610 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "186 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "100 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5053.png",
+      "sourceUrl": "https://tzfit.com/inner-outer-thigh-exercise-machine-gc-5053/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Gym-Equipment-Commercial-Seated-Legs-Trainer-Inner-outer-Thighs.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/f2/f2cd8efa11ea9ef60246b7ac84f28429a6be75e808870845ab14bcb5881e4bdd.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5053-1",
+      "sourceSku": "GC-5053-1",
+      "name": "Abductor e Adductor — variante 1",
+      "description": "Variante della postazione combinata per abduzione e adduzione. Permette di organizzare due movimenti delle anche nella medesima macchina.",
+      "features": [
+        "Variante della postazione combinata per abduzione e adduzione"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1520 × 610 × 1550 mm",
+      "weight": "195 kg",
+      "stack": "100 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1520 × 610 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "195 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "100 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5053-1.png",
+      "sourceUrl": "https://tzfit.com/adductor-abductor-inner-outer-thigh-machine-gc-5053-1/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Commercial-Gym-Equipment-Pin-Loaded-Adductor-Abductor-Inner-Outer-Thigh-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/9f/9fcfc3485c9c48de4a074affb2365ddbe430da6192a62600ac748627989dd79e.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5054",
+      "sourceSku": "GC-5054",
+      "name": "Back e Abdominal Combo",
+      "description": "Postazione combinata per estensione e flessione del tronco. Integra lavoro dorsale e addominale con resistenza selezionabile.",
+      "features": [
+        "Postazione combinata per estensione e flessione del tronco"
+      ],
+      "category": "Core",
+      "dimensions": "1640 × 1000 × 1550 mm",
+      "weight": "171 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1640 × 1000 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "171 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5054.png",
+      "sourceUrl": "https://tzfit.com/commercial-gym-back-extension-abdominal-trainer-gc-5054/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Strength-training-Dual-Functional-Commercial-Gym-Equipment-Back-Abdominal-Combo.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/16/1633a89db88acb0e67272f039926e89aef3f5b6ac016b104f1ad6eaaa6a35e39.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5055",
+      "sourceSku": "GC-5055",
+      "name": "Leg Curl e Leg Extension",
+      "description": "Macchina combinata per flessione ed estensione del ginocchio. Offre due esercizi per le gambe in una sola postazione.",
+      "features": [
+        "Macchina combinata per flessione ed estensione del ginocchio"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1300 × 980 × 1550 mm",
+      "weight": "188 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1300 × 980 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "188 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5055.png",
+      "sourceUrl": "https://tzfit.com/pin-loaded-leg-curl-extension-machine-gc-5055/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Dual-Functional-Seated-Leg-Curl-Leg-Extension-Gym-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/c0/c01c2aff09cb5302a7a271392ade31582f143eec297a06bb9f62a8cda0c4197b.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5055-1",
+      "sourceSku": "GC-5055-1",
+      "name": "Leg Extension e Curl — variante 1",
+      "description": "Variante combinata per leg extension e leg curl da seduti. Unisce il lavoro di quadricipiti e flessori del ginocchio.",
+      "features": [
+        "Variante combinata per leg extension e leg curl da seduti"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1300 × 980 × 1550 mm",
+      "weight": "184 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1300 × 980 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "184 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5055-1.png",
+      "sourceUrl": "https://tzfit.com/pin-loaded-selection-seated-leg-curl-extension-gc-5055-1/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Body-Building-Fitness-Strength-Training-leg-curl-extension-machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/99/995335e08e294fc0c6286d1bf948c6dab2cf61bee7ee364ab42e3a189e5bacf8.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5056",
+      "sourceSku": "GC-5056",
+      "name": "Chest Press regolabile",
+      "description": "Postazione di spinta con configurazione regolabile. Permette di impostare diverse posizioni di lavoro per petto e spalle con carico selezionabile.",
+      "features": [
+        "Postazione di spinta con configurazione regolabile"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "1900 × 1270 × 1550 mm",
+      "weight": "194 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1900 × 1270 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "194 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5056.png",
+      "sourceUrl": "https://tzfit.com/dual-function-chest-shoulder-press-trainer-gc-5056/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Multi-Gym-Adjustable-Chest-Press-Shoulder-Press-Exercise-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/98/985edac44da41a7ec1c1537a8bf80560cff42a55652d9f477975df7b1e9cbc7b.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5057",
+      "sourceSku": "GC-5057",
+      "name": "Lat Pulldown e Low Row",
+      "description": "Stazione combinata per trazioni dall'alto e rematore basso. Consente di alternare due direzioni di tirata in una postazione dedicata alla schiena.",
+      "features": [
+        "Stazione combinata per trazioni dall'alto e rematore basso"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1520 × 820 × 2150 mm",
+      "weight": "194 kg",
+      "stack": "100 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1520 × 820 × 2150 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "194 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "100 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5057.png",
+      "sourceUrl": "https://tzfit.com/lat-pulldown-low-row-strength-fitness-machine-gc-5057/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Gym-Exercise-Machine-Lat-Pull-Down-Low-Row-Machine-for-Bodybuilding.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/41/41eba244012b14fde533741a3fce52aaf50878cfa454df08f0b3a96d78845c27.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5058",
+      "sourceSku": "GC-5058",
+      "name": "Prone Leg Curl e Leg Extension",
+      "description": "Macchina combinata per leg curl prono e leg extension da seduti. Riunisce flessione ed estensione del ginocchio con un pacco pesi da 80 kg.",
+      "features": [
+        "Macchina combinata per leg curl prono e leg extension da seduti"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1300 × 980 × 1550 mm",
+      "weight": "179 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1300 × 980 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "179 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5058.png",
+      "sourceUrl": "https://tzfit.com/commercial-gym-combo-leg-exercise-machine-gc-5058/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Workout-Equipment-Prone-Leg-Curl-Leg-Extension-Combo.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/8f/8f1b31bea2501adc152ac3981648ce324a0205ac2e0b35128ca30661da0c3589.jpg",
+      "sourceCrawledAt": "2026-09-13T08:54:38.816Z"
+    },
+    {
+      "sku": "FM-GC-5061",
+      "sourceSku": "GC-5061",
+      "name": "Power Squat",
+      "description": "Macchina per squat con carico a dischi. La struttura guida il lavoro di accosciata in una postazione dedicata alla parte inferiore del corpo.",
+      "features": [
+        "Macchina per squat con carico a dischi"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1750 × 1550 × 1800 mm",
+      "weight": "136 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1750 × 1550 × 1800 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "136 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5061.png",
+      "sourceUrl": "https://tzfit.com/plate-loaded-leg-exercise-squat-machine-gc-5061/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Sports-Exercise-Training-Plate-Loaded-Power-Squat-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/33/3352c811a3d4312dc6c2e6944d90239c83b58ba450cffd5f7a366dc3c46560ed.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5062",
+      "sourceSku": "GC-5062",
+      "name": "Reverse Hyper",
+      "description": "Postazione per reverse hyper con sostegno del busto. Il movimento delle gambe si sviluppa sotto il piano di appoggio per il lavoro della catena posteriore.",
+      "features": [
+        "Postazione per reverse hyper con sostegno del busto"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1855 × 1350 × 1390 mm",
+      "weight": "114 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1855 × 1350 × 1390 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "114 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5062.png",
+      "sourceUrl": "https://tzfit.com/fitness-reverse-hyper-extension-machine-gc-5062/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Commercial-Plate-Loaded-Reverse-Hyper-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/58/58c5eb1b32ab738fd155d7e20a1c26435685cd5953f15488b528db6983b12a81.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5073",
+      "sourceSku": "GC-5073",
+      "name": "Power Rack",
+      "description": "Rack per esercizi con bilanciere nella zona forza. La struttura delimita una postazione dedicata a squat, spinte e lavoro con pesi liberi.",
+      "features": [
+        "Rack per esercizi con bilanciere nella zona forza"
+      ],
+      "category": "Rack e accessori",
+      "dimensions": "1410 × 1900 × 2400 mm",
+      "weight": "123 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1410 × 1900 × 2400 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "123 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5073.png",
+      "sourceUrl": "https://tzfit.com/multi-gym-squat-power-rack-gc-5073/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Gym-Club-Multi-Functional-Squat-Cage-Power-Rack.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/7f/7f9fb73d2f5a101e82d2a7bac482942c3eb0128f5edb5e85e52594b5c528a908.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5074",
+      "sourceSku": "GC-5074",
+      "name": "Leg Press compatta",
+      "description": "Pressa per gambe con carico a dischi e struttura compatta. Riunisce pedana e appoggio del corpo in una postazione dedicata alla spinta degli arti inferiori.",
+      "features": [
+        "Pressa per gambe con carico a dischi e struttura compatta"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1500 × 1440 × 1280 mm",
+      "weight": "125 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1500 × 1440 × 1280 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "125 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5074.png",
+      "sourceUrl": "https://tzfit.com/compact-calf-raise-leg-press-hack-squat-machine-gc-5074/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Compact-Calf-Raise-Sled-Leg-Press-Hack-Squat-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/92/92cb5bd26b56281ccab249d2738ff469f0d70dd97d3c74bd4a28327954a47c5a.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5079",
+      "sourceSku": "GC-5079",
+      "name": "Pendulum Squat",
+      "description": "Macchina per squat con braccio a pendolo. Gli appoggi superiori e la pedana definiscono la posizione di lavoro contro il carico a dischi.",
+      "features": [
+        "Macchina per squat con braccio a pendolo"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "2000 × 1432 × 1620 mm",
+      "weight": "150 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "2000 × 1432 × 1620 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "150 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5079.png",
+      "sourceUrl": "https://tzfit.com/commercial-pendulum-squat-gym-equipment-gc-5079/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Plate-Loaded-Leg-Exercise-Strength-Pendulum-Squat-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/e3/e303915277e3e0b33be2d94c6905645b098d9978911faf3544650d981bacb1e3.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5080",
+      "sourceSku": "GC-5080",
+      "name": "Smith Rower",
+      "description": "Rematore con sistema di guida per il movimento di tirata. Offre una postazione specifica per allenare la schiena contro resistenza.",
+      "features": [
+        "Rematore con sistema di guida per il movimento di tirata"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1700 × 1505 × 1110 mm",
+      "weight": "137 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1700 × 1505 × 1110 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "137 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5080.png",
+      "sourceUrl": "https://tzfit.com/gc-5080-smith-rower/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GC-5080-Smith-Rower-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/64/64ae07a689eadf0fa364e13a0f6c16d3f652eb0543360dec81f75b39b2ca1df2.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5081",
+      "sourceSku": "GC-5081",
+      "name": "Leg Press a 45°",
+      "description": "Pressa inclinata a 45 gradi con carico a dischi. La seduta e la pedana orientano la spinta delle gambe lungo la struttura inclinata.",
+      "features": [
+        "Pressa inclinata a 45 gradi con carico a dischi"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "2280 × 700 × 1550 mm",
+      "weight": "235 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "2280 × 700 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "235 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5081.png",
+      "sourceUrl": "https://tzfit.com/commercial-gym-45-degree-leg-press-machine-gc-5081/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Plate-Loaded-Strength-Training-45-Degree-Leg-Press-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/1a/1ab92b6432a53b612ec28d6402925dc68328ccf0daa98e52e33bab3ca6523d55.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5082",
+      "sourceSku": "GC-5082",
+      "name": "Hack Squat a 45°",
+      "description": "Macchina per hack squat su piano inclinato a 45 gradi. Gli appoggi del corpo accompagnano l'accosciata contro il carico a dischi.",
+      "features": [
+        "Macchina per hack squat su piano inclinato a 45 gradi"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "2280 × 700 × 1550 mm",
+      "weight": "235 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "2280 × 700 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "235 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5082.png",
+      "sourceUrl": "https://tzfit.com/45-degree-strength-exercise-hack-squat-machine-gc-5082/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Strength-Training-Weight-Plate-Loading-Hack-Squat-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/12/12e9c4086a45be0ee2bcc47f0b78a23dd33acf56da5fb0ca000554bafb2a1824.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5083",
+      "sourceSku": "GC-5083",
+      "name": "Leg Press e Hack Squat",
+      "description": "Struttura combinata per leg press a 45 gradi e hack squat. Riunisce due esercizi per le gambe in una postazione a carico libero.",
+      "features": [
+        "Struttura combinata per leg press a 45 gradi e hack squat"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "2260 × 1580 × 1570 mm",
+      "weight": "244 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "2260 × 1580 × 1570 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "244 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5083.png",
+      "sourceUrl": "https://tzfit.com/45-degree-leg-press-hack-squat-combo-machine-gc-5083/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Commercial-Fitness-Gym-45-Degree-Leg-Press-Hack-Squat-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/1e/1e2aefb923d707401c2a0eac6dc97358d6a4767a8871936b27f3a9bcdf3a908e.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5084",
+      "sourceSku": "GC-5084",
+      "name": "Standing Multi Flight",
+      "description": "Postazione in piedi per alzate e aperture delle braccia. I punti di lavoro permettono di impostare movimenti per la parte superiore del corpo.",
+      "features": [
+        "Postazione in piedi per alzate e aperture delle braccia"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "740 × 1140 × 1950 mm",
+      "weight": "195 kg",
+      "stack": "100 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "740 × 1140 × 1950 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "195 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "100 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5084.png",
+      "sourceUrl": "https://tzfit.com/upper-body-exercises-standing-multi-flight-gc-5084/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Pin-Loaded-Strength-Training-Workout-Standing-Multi-Flight-for-Gym-Use.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/0c/0ca5157ce05cd0f4f6ffbaeab7ce08777a9ad64350b8783ffade5e10579e7349.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5085",
+      "sourceSku": "GC-5085",
+      "name": "Bench Press a dischi",
+      "description": "Macchina per distensioni con carico a dischi. Gli appoggi imbottiti e le leve definiscono una postazione dedicata alla spinta del petto.",
+      "features": [
+        "Macchina per distensioni con carico a dischi"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "2130 × 1940 × 1750 mm",
+      "weight": "192 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "2130 × 1940 × 1750 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "192 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5085.png",
+      "sourceUrl": "https://tzfit.com/upper-exercise-bench-chest-press-gc-5085/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Commercial-Tower-Bench-Chest-Press-Trainer.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/c9/c98f0c0211c528aa685777a4e46d0e9e89297304ab7b025d42c855ad49723d16.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5086",
+      "sourceSku": "GC-5086",
+      "name": "Biceps e Triceps",
+      "description": "Stazione combinata per flessione ed estensione del gomito. Riunisce il lavoro di bicipiti e tricipiti con resistenza selezionabile.",
+      "features": [
+        "Stazione combinata per flessione ed estensione del gomito"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1040 × 1000 × 1550 mm",
+      "weight": "171 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1040 × 1000 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "171 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5086.png",
+      "sourceUrl": "https://tzfit.com/dual-function-seated-biceps-triceps-machine-gc-5086/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Pin-Loaded-Selection-Strength-Training-Biceps-Triceps-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/68/6898a58c80c858be2051bbb038ae3bd416d4865997c992dbd28937457218b1f0.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5087",
+      "sourceSku": "GC-5087",
+      "name": "Belt Squat",
+      "description": "Macchina per squat con collegamento del carico alla cintura. La pedana e le impugnature definiscono la postazione per il lavoro delle gambe.",
+      "features": [
+        "Macchina per squat con collegamento del carico alla cintura"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1630 × 1800 × 1540 mm",
+      "weight": "154 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1630 × 1800 × 1540 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "154 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5087.png",
+      "sourceUrl": "https://tzfit.com/commercial-gym-exercise-belt-squat-machine-gc-5087/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Professional-Strength-Training-Machine-Plate-Loaded-Belt-Squat-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/d0/d061f86aaa52b7c2f4ff2c7fe10d71526693b48de647eec6887d489075165715.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5088",
+      "sourceSku": "GC-5088",
+      "name": "Abdominal Oblique Crunch",
+      "description": "Macchina per crunch con coinvolgimento della zona obliqua. Offre una postazione dedicata alla flessione del tronco contro resistenza.",
+      "features": [
+        "Macchina per crunch con coinvolgimento della zona obliqua"
+      ],
+      "category": "Core",
+      "dimensions": "1290 × 1280 × 1545 mm",
+      "weight": "112 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1290 × 1280 × 1545 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "112 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5088.png",
+      "sourceUrl": "https://tzfit.com/abdominal-oblique-crunch-gym-machine-gc-5088/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Strength-Equipment-Abdominal-Oblique-Crunch-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/1e/1ef30bddebaae046608a0ab1a29b2f2b26e93f9b0b4f6f150a16eced551da4a0.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5089",
+      "sourceSku": "GC-5089",
+      "name": "Power Squat — variante 89",
+      "description": "Variante della macchina per squat con carico a dischi. Una struttura dedicata al lavoro di accosciata nella zona forza.",
+      "features": [
+        "Variante della macchina per squat con carico a dischi"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1990 × 1620 × 1575 mm",
+      "weight": "162 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1990 × 1620 × 1575 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "162 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5089.png",
+      "sourceUrl": "https://tzfit.com/commercial-exercise-power-squat-machine-gc-5089/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Gym-Equipment-Commercial-Training-Equipment-Power-Squat.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/ac/aca584189ceb5388fad0bebe021b3d64f19fe18643ca26a7bb3d6f9dc65ec743.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5090",
+      "sourceSku": "GC-5090",
+      "name": "Functional Trainer",
+      "description": "Stazione funzionale a doppio cavo con due pacchi pesi. Permette di impostare trazioni e spinte da diversi punti di lavoro.",
+      "features": [
+        "Stazione funzionale a doppio cavo con due pacchi pesi"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "760 × 1530 × 2250 mm",
+      "weight": "350 kg",
+      "stack": "100 kg × 2",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "760 × 1530 × 2250 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "350 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "100 kg × 2"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5090.png",
+      "sourceUrl": "https://tzfit.com/gym-cable-multi-functional-trainer-machine-gc-5090/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Multi-Body-Building-Functional-Trainer-Gym-Cable-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/ef/efa579746ffa29c6e8aaa767621ff4d4079efc1575b2c2b0198c765051c24f71.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5091",
+      "sourceSku": "GC-5091",
+      "name": "Panca FID con supporti",
+      "description": "Postazione regolabile per lavoro in piano, inclinato e declinato. Riunisce panca e supporti per le distensioni con bilanciere.",
+      "features": [
+        "Postazione regolabile per lavoro in piano, inclinato e declinato"
+      ],
+      "category": "Panche",
+      "dimensions": "2410 × 1880 × 1420 mm",
+      "weight": "89 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "2410 × 1880 × 1420 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "89 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5091.png",
+      "sourceUrl": "https://tzfit.com/adjustable-fid-bench-press-gc-5091/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Weight-Bench-Press-Adjustable-Bench-Multi-Home-Gym-Equipment.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/9a/9ad28a23438c46c7d871bdd4954cca7b9573698777ad4bac066f4895f352e339.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5092",
+      "sourceSku": "GC-5092",
+      "name": "Hip Thrust",
+      "description": "Macchina per hip thrust con pacco pesi selezionabile. Gli appoggi del corpo e la pedana definiscono il movimento di estensione dell'anca.",
+      "features": [
+        "Macchina per hip thrust con pacco pesi selezionabile"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1950 × 1235 × 1550 mm",
+      "weight": "178 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1950 × 1235 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "178 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5092.png",
+      "sourceUrl": "https://tzfit.com/glute-drive-hip-thrust-exercise-machine-gc-5092/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Leg-Trainer-Glute-Drive-Hip-Thrust-Exercise-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/e1/e19ca05b2a4eba99c06e3ade8e04eff540867eb911d45190500e88033806b5bc.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5093",
+      "sourceSku": "GC-5093",
+      "name": "Lat Pulldown a dischi",
+      "description": "Macchina per trazioni dall'alto con carico a dischi. La seduta e i bracci superiori organizzano una postazione dedicata alla schiena.",
+      "features": [
+        "Macchina per trazioni dall'alto con carico a dischi"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1560 × 1030 × 2020 mm",
+      "weight": "146 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1560 × 1030 × 2020 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "146 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5093.png",
+      "sourceUrl": "https://tzfit.com/gym-lat-pulldown-exercise-equipment-gc-5093/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Bodybuilding-Machine-Commercial-Lat-Pulldown-Gym-Equipment.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/b8/b80765f71a489336e7b31b16d4acf1727b6b449561ed473d32ea0da69e66a803.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5094",
+      "sourceSku": "GC-5094",
+      "name": "T-Bar regolabile",
+      "description": "Postazione per rematore T-Bar con configurazione regolabile. Il punto di presa permette di impostare la tirata verso il busto.",
+      "features": [
+        "Postazione per rematore T-Bar con configurazione regolabile"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "2100 × 910 × 1330 mm",
+      "weight": "95 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "2100 × 910 × 1330 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "95 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5094.png",
+      "sourceUrl": "https://tzfit.com/plate-loaded-incline-lever-row-t-bar-rower-gc-5094/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Gym-Adjustable-Rowing-Machine-Fitness-Equipment-Adjustable-Steel-T-Bar-Rower.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/72/72e012e1854ec4bf08a54e909e919b8847cfc17ed44976ae61fed0fab1498ef0.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5095",
+      "sourceSku": "GC-5095",
+      "name": "Standing Lateral Raise",
+      "description": "Macchina per alzate laterali in piedi con pacco pesi. Gli appoggi sulle braccia trasferiscono il movimento ai gruppi di leve.",
+      "features": [
+        "Macchina per alzate laterali in piedi con pacco pesi"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "620 × 775 × 1550 mm",
+      "weight": "150 kg",
+      "stack": "80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "620 × 775 × 1550 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "150 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5095.png",
+      "sourceUrl": "https://tzfit.com/commercial-gym-lateral-shoulder-press-gc-5095/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Lateral-Raising-Gym-Shoulder-Press-Machine-for-Sale.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/41/41b806ef6e2a7f315f66e33156f21530201d999a31aa7ea85ae28265c4ccbc63.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5096",
+      "sourceSku": "GC-5096",
+      "name": "Rastrelliera kettlebell",
+      "description": "Supporto per organizzare i kettlebell nella zona funzionale. I ripiani offrono una superficie dedicata alla disposizione dei diversi carichi.",
+      "features": [
+        "Supporto per organizzare i kettlebell nella zona funzionale"
+      ],
+      "category": "Rack e accessori",
+      "dimensions": "1230 × 510 × 680 mm",
+      "weight": "31 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1230 × 510 × 680 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "31 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5096.png",
+      "sourceUrl": "https://tzfit.com/kettlebell-storage-rack-gc-5096/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Gym-Fitness-Equipment-Kettlebell-Storage-Rack.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/6b/6bf5acc465a156f5252012c8cbcd50236fe19a6b756d320066852dfc610b6a2d.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5097",
+      "sourceSku": "GC-5097",
+      "name": "Multistazione a 4 postazioni",
+      "description": "Struttura con quattro postazioni per esercizi di forza. Riunisce più punti di lavoro intorno a un unico nucleo centrale.",
+      "features": [
+        "Struttura con quattro postazioni per esercizi di forza"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "Su richiesta",
+      "weight": "Su richiesta",
+      "stack": "Su richiesta",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5097.png",
+      "sourceUrl": "https://tzfit.com/commercial-multi-gym-4-station-gc-5097/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/GC-5097-4-Multi-Gym-Equipment-Jungle-4-Stations.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/57/578d119119cf9a08c193e5d8ac97701aa5312df34399b81adad522e8d6211c29.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z",
+      "reviewNote": "La scheda non fornisce dimensioni, peso macchina o massa dei pacchi pesi."
+    },
+    {
+      "sku": "FM-GC-5097A",
+      "sourceSku": "GC-5097A",
+      "name": "Multistazione con trazioni assistite",
+      "description": "Sistema a quattro postazioni con trazioni e dip assistiti, lat pulldown, low row e carrucola regolabile. I carichi sono distinti per ciascuna stazione.",
+      "features": [
+        "Sistema a quattro postazioni con trazioni e dip assistiti, lat pulldown, low row e carrucola regolabile"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "3450 × 2075 × 2530 mm",
+      "weight": "690 kg",
+      "stack": "Trazioni e dip assistiti: 100 kg; Lat Pulldown: 100 kg; Low Row: 100 kg; Cavo regolabile: 80 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "3450 × 2075 × 2530 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "690 kg"
+        },
+        {
+          "label": "Trazioni e dip assistiti",
+          "value": "100 kg"
+        },
+        {
+          "label": "Lat Pulldown",
+          "value": "100 kg"
+        },
+        {
+          "label": "Low Row",
+          "value": "100 kg"
+        },
+        {
+          "label": "Cavo regolabile",
+          "value": "80 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5097A.png",
+      "sourceUrl": "https://tzfit.com/4-multi-station-with-pull-up-function-gc-5097a/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/10/GC-5097A-Commercial-Comprehensive-Fitness-Exercise-Strength-Training-Four-Person-Station-4-People-Station.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/37/3711b469b0dfb8d6b2a460f07a81b08b6b69094621ff1daf3ffad89d38b9a4bc.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5098",
+      "sourceSku": "GC-5098",
+      "name": "Multistazione a 5 postazioni",
+      "description": "Struttura per cinque postazioni di lavoro nella zona forza. Consente di riunire esercizi ai cavi e stazioni dedicate in un'unica area.",
+      "features": [
+        "Struttura per cinque postazioni di lavoro nella zona forza"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "4380 × 3450 × 2260 mm",
+      "weight": "820 kg",
+      "stack": "Su richiesta",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "4380 × 3450 × 2260 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "820 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5098.png",
+      "sourceUrl": "https://tzfit.com/multi-function-gym-equipment-5-station-gc-5098/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/GC-5098-5-Combine-Multifunction-of-5-Stations.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/12/12bfdca40757a41c0a8ae4bdee9eacc81c8c2129f97cde685e90a3e8c43db097.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5098A-5200",
+      "sourceSku": "GC-5098A-5200",
+      "name": "Carrucola singola",
+      "description": "Colonna a carrucola singola per esercizi ai cavi. Una postazione compatta per il lavoro di braccia, spalle e schiena.",
+      "features": [
+        "Colonna a carrucola singola per esercizi ai cavi"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "640 × 686 × 2263 mm",
+      "weight": "162 kg",
+      "stack": "Su richiesta",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "640 × 686 × 2263 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "162 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5098A-5200.png",
+      "sourceUrl": "https://tzfit.com/strength-training-single-pulley-gc-5098a-5200/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/10/GC-5098A-5200-High-Quality-Adjustable-Single-Pulley-Steel-Machine-Home-Fitness-Pull-Down-Station-Multi-Function-Cross-Cable-Crossover-for-Arm.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/9e/9e6bcee037971d30cbfe6241af6dd4669442647e4b1dc40dc56c87262fdc5d09.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5098A-5202",
+      "sourceSku": "GC-5098A-5202",
+      "name": "Multistazione 5202",
+      "description": "Sistema a quattro postazioni con low row, lat pulldown, carrucola singola e butterfly. Ogni stazione dispone del proprio carico dichiarato.",
+      "features": [
+        "Sistema a quattro postazioni con low row, lat pulldown, carrucola singola e butterfly"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "3460 × 2270 × 2263 mm",
+      "weight": "750 kg",
+      "stack": "Low Row: 100 kg; Lat Pulldown: 100 kg; Cavo singolo: 100 kg; Pectoral Fly: 100 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "3460 × 2270 × 2263 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "750 kg"
+        },
+        {
+          "label": "Low Row",
+          "value": "100 kg"
+        },
+        {
+          "label": "Lat Pulldown",
+          "value": "100 kg"
+        },
+        {
+          "label": "Cavo singolo",
+          "value": "100 kg"
+        },
+        {
+          "label": "Pectoral Fly",
+          "value": "100 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5098A-5202.png",
+      "sourceUrl": "https://tzfit.com/4-multi-station-gc-5098a-5202/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/10/GC-5098A-5202-Multi-Functional-4-Station-Gym-Fitness-Equipment-Strength-Training-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/ce/ce3a172348aa6006649bd191fb836b3a138829febcdc902398293617c89959f1.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5098A-5203",
+      "sourceSku": "GC-5098A-5203",
+      "name": "Multistazione 5203",
+      "description": "Sistema con leg press, carrucola regolabile, chest press regolabile e leg curl/extension. Riunisce il lavoro della parte superiore e inferiore del corpo.",
+      "features": [
+        "Sistema con leg press, carrucola regolabile, chest press regolabile e leg curl/extension"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "3166 × 2585 × 2263 mm",
+      "weight": "805 kg",
+      "stack": "Leg Press: 110 kg; Cavo regolabile: 100 kg; Chest Press: 100 kg; Leg Curl / Extension: 100 kg",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "3166 × 2585 × 2263 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "805 kg"
+        },
+        {
+          "label": "Leg Press",
+          "value": "110 kg"
+        },
+        {
+          "label": "Cavo regolabile",
+          "value": "100 kg"
+        },
+        {
+          "label": "Chest Press",
+          "value": "100 kg"
+        },
+        {
+          "label": "Leg Curl / Extension",
+          "value": "100 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5098A-5203.png",
+      "sourceUrl": "https://tzfit.com/gym-equipment-4-multi-station-gc-5098a-5203/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/10/GC-5098A-5203-Factory-Wholesales-Fitness-and-Bodybuilding-High-Quality-Gym-Equipment-Machine-Fitness-4-Multi-Station-Press-Gym.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/38/38fbe1b944134fe2402e15488618175bcb99bec2625ea0895611d702d7e8bcdd.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5099",
+      "sourceSku": "GC-5099",
+      "name": "Multistazione a 8 postazioni",
+      "description": "Struttura estesa per otto postazioni di allenamento. Offre diversi punti di lavoro per organizzare una zona forza condivisa.",
+      "features": [
+        "Struttura estesa per otto postazioni di allenamento"
+      ],
+      "category": "Cavi e multifunzione",
+      "dimensions": "5110 × 3450 × 2260 mm",
+      "weight": "1304 kg",
+      "stack": "Su richiesta",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "5110 × 3450 × 2260 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "1304 kg"
+        },
+        {
+          "label": "Pacco pesi",
+          "value": "Su richiesta"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5099.png",
+      "sourceUrl": "https://tzfit.com/8-multi-station-gc-5099/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Function-Trainer-8-Station-Multi-Jungle.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/ac/ac50bb994b4d8e068aac5df491be1548a194b34f076688796434aae508ca8e64.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5101",
+      "sourceSku": "GC-5101",
+      "name": "Standing Chest Press",
+      "description": "Macchina per la spinta del petto in posizione eretta. Le impugnature e i bracci di lavoro definiscono una postazione dedicata alle spinte.",
+      "features": [
+        "Macchina per la spinta del petto in posizione eretta"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "1530 × 1055 × 1880 mm",
+      "weight": "165 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1530 × 1055 × 1880 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "165 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5101.png",
+      "sourceUrl": "https://tzfit.com/standing-chest-press-machine-gc-5101/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Fitness-Equipment-Standing-Chest-Press-Exercise-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/3c/3c3b183ee5865a10d328686ee01a0e966f3949be6ff5a4c16510642364007bb5.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5102",
+      "sourceSku": "GC-5102",
+      "name": "Anchor Row",
+      "description": "Rematore con carico a dischi dedicato alla muscolatura della schiena. La struttura organizza il movimento di trazione verso il corpo.",
+      "features": [
+        "Rematore con carico a dischi dedicato alla muscolatura della schiena"
+      ],
+      "category": "Schiena e braccia",
+      "dimensions": "1825 × 1735 × 1065 mm",
+      "weight": "165 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1825 × 1735 × 1065 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "165 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5102.png",
+      "sourceUrl": "https://tzfit.com/gc-5102-anchor-row-machine/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GC-5102-Anchor-Row-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/63/631a9eca7c4868db9113beb858c1d19c345324e372ce5fbd25937998277f10b0.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5103",
+      "sourceSku": "GC-5103",
+      "name": "Shoulder Press a dischi",
+      "description": "Postazione da seduti per spinte delle spalle con carico a dischi. Seduta e bracci di lavoro definiscono il movimento sopra il busto.",
+      "features": [
+        "Postazione da seduti per spinte delle spalle con carico a dischi"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "1350 × 1410 × 2015 mm",
+      "weight": "89 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1350 × 1410 × 2015 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "89 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5103.png",
+      "sourceUrl": "https://tzfit.com/gc-5103-shoulder-press-machine/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GC-5103-Plate-Loaded-Shoulder-Press-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/d9/d9a788ca7b4410e9ec63c0e990120266007c25d2e134215644ad8e173eed7905.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5105",
+      "sourceSku": "GC-5105",
+      "name": "Blocco Squat e Calf",
+      "description": "Pedana di appoggio per esercizi di squat e polpacci. Un accessorio da integrare nelle postazioni dedicate al lavoro delle gambe.",
+      "features": [
+        "Pedana di appoggio per esercizi di squat e polpacci"
+      ],
+      "category": "Rack e accessori",
+      "dimensions": "900 × 405 × 280 mm",
+      "weight": "12 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "900 × 405 × 280 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "12 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5105.png",
+      "sourceUrl": "https://tzfit.com/gc-5105-squat-and-calf-block/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GC-5105-Squat-and-Calf-Block.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/b5/b5fd496e8201399afd6158000a6c1111a248a2d25245592b9659b686db435e77.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5106",
+      "sourceSku": "GC-5106",
+      "name": "Flat Bench Press a dischi",
+      "description": "Macchina per distensioni orizzontali con carico a dischi. Il piano imbottito sostiene il corpo durante il movimento di spinta.",
+      "features": [
+        "Macchina per distensioni orizzontali con carico a dischi"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "1820 × 1475 × 1770 mm",
+      "weight": "140 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1820 × 1475 × 1770 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "140 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5106.png",
+      "sourceUrl": "https://tzfit.com/gc-5106-flat-bench-press/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GC-5106-Flat-Bench-Press.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/25/25e99fcb05715991617916ef1ed6419706fe289e7f90c41420d796d1de9a27a9.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5107",
+      "sourceSku": "GC-5107",
+      "name": "Incline Bench Press a dischi",
+      "description": "Macchina per distensioni inclinate con carico a dischi. Il supporto del busto orienta il lavoro di spinta rispetto alla versione piana.",
+      "features": [
+        "Macchina per distensioni inclinate con carico a dischi"
+      ],
+      "category": "Petto e spalle",
+      "dimensions": "1960 × 1475 × 1770 mm",
+      "weight": "150 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1960 × 1475 × 1770 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "150 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5107.png",
+      "sourceUrl": "https://tzfit.com/gc-5107-incline-bench-press/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GC-5107-Incline-Bench-Press.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/80/807fbf7cb4a565b587ef89b18f96dd316016573e4f29acd3d0211f394d5fd638.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5113",
+      "sourceSku": "GC-5113",
+      "name": "Vertical Crunch Station",
+      "description": "Stazione per il lavoro addominale in configurazione verticale. Gli appoggi e le impugnature definiscono il posizionamento durante il movimento.",
+      "features": [
+        "Stazione per il lavoro addominale in configurazione verticale"
+      ],
+      "category": "Core",
+      "dimensions": "1105 × 1277 × 1744 mm",
+      "weight": "124 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1105 × 1277 × 1744 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "124 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5113.png",
+      "sourceUrl": "https://tzfit.com/gc-5113-vertical-crunch-station/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GC-5113-Vertical-Crunch-Machine-Commercial-Core-Training-Equipment.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/ae/ae595f614e68a040fe40c9acd57c498b1ec61ab37fe3465522bfaa7dea17deb2.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5114",
+      "sourceSku": "GC-5114",
+      "name": "Supporto manubri regolabile",
+      "description": "Supporto regolabile per predisporre i manubri nella posizione di lavoro. Completa una postazione con panca nella zona pesi liberi.",
+      "features": [
+        "Supporto regolabile per predisporre i manubri nella posizione di lavoro"
+      ],
+      "category": "Rack e accessori",
+      "dimensions": "846 × 596 × 564 mm",
+      "weight": "25 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "846 × 596 × 564 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "25 kg"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5114.png",
+      "sourceUrl": "https://tzfit.com/gc-5114-adjustable-dumbbell-stand/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GC-5114-Adjustable-Dumbbell-Stand.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/95/956048d6f390b123e6e2c5e78beca8430d3dbaa1cc80100677129462677eb652.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    },
+    {
+      "sku": "FM-GC-5115",
+      "sourceSku": "GC-5115",
+      "name": "Standing Calf Raise a dischi",
+      "description": "Macchina per sollevamenti sui polpacci in piedi. Gli appoggi superiori e la pedana organizzano il lavoro di elevazione dei talloni.",
+      "features": [
+        "Macchina per sollevamenti sui polpacci in piedi"
+      ],
+      "category": "Gambe e glutei",
+      "dimensions": "1625 × 1295 × 1895 mm",
+      "weight": "126 kg",
+      "stack": "Non previsto",
+      "technicalRows": [
+        {
+          "label": "Dimensioni (L × P × H)",
+          "value": "1625 × 1295 × 1895 mm"
+        },
+        {
+          "label": "Peso macchina",
+          "value": "126 kg"
+        },
+        {
+          "label": "Carico",
+          "value": "A dischi"
+        },
+        {
+          "label": "Struttura",
+          "value": "Acciaio Q235"
+        },
+        {
+          "label": "Tubolare principale",
+          "value": "50 × 100 × 2,5 mm"
+        },
+        {
+          "label": "Finitura",
+          "value": "Verniciatura a polvere"
+        }
+      ],
+      "image": "assets/products/FM-GC-5115.png",
+      "sourceUrl": "https://tzfit.com/gc-5115-standing-calf-raise-machine/",
+      "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GC-5115-Standing-Calf-Raise-Machine.jpg",
+      "sourceImagePath": "data/catalog-assets/originals/f0/f0bed82f081cbf330ee615e1113d82986fc31d3d8f762b5c4db776bda7285266.jpg",
+      "sourceCrawledAt": "2026-09-13T08:44:02.095Z"
+    }
+  ]
+}

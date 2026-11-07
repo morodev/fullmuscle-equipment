@@ -1,0 +1,20 @@
+{
+  "sku": "FM-GC-5058",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:25:04.098Z",
+  "input": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/8f/8f1b31bea2501adc152ac3981648ce324a0205ac2e0b35128ca30661da0c3589.jpg",
+  "references": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/8f/8f1b31bea2501adc152ac3981648ce324a0205ac2e0b35128ca30661da0c3589.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Italian Full Muscle Equipment product catalogue. Edit ONLY image 1, preserving precisely the same machine geometry, mechanical parts, framing, perspective, white background, light and shadows. Image 2 is color reference ONLY; image 3 is logo style reference ONLY, do not copy its machine or its residual supplier lettering. Recolor ONLY existing red-painted structural metal to satin forest green #356B35, matched to image 2. Keep black metal, black pads, rubber, weight plates, chrome, silver fasteners and safety/exercise diagram labels unchanged. Remove ALL manufacturer branding TZFIT, TZ FITNESS, FITNESS, FIT, including partial or occluded lettering on rear panels. Replace manufacturer nameplates with a small clean italic 'Full Muscle' wordmark ('Full' white, 'Muscle' green), tiny white 'EQUIPMENT' underneath, in perspective like image3. Preserve all rails, handles, bolts and other geometry. Do not add components, gym background, people, borders, watermarks or extra text. Return the single edited product photo at original aspect ratio, high detail. The only red painted elements are the long front leg roller adjustment arm and its pivot brackets; these become green. The top tower maker badge becomes Full Muscle. Preserve both long black bench pads and cylindrical ankle roller.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-200e0177-73a6-48c7-8c2b-18983722215d.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5058.png",
+  "visualQA": {
+    "passed": true,
+    "notes": "Geometry and white background preserved; existing red structural metal recolored green; original maker badges replaced with white/green italic Full Muscle Equipment. Pads, chrome and black components retained."
+  }
+}

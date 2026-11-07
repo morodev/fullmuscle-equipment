@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Create a realistic premium fitness catalog photograph using IMAGE1 as exact product reference. One adult athletic woman around30 wearing a charcoal sports top, black full-length leggings and simple gray shoes, naturally seated ON THIS EXACT black/forest-green Full Muscle GC5005 chest press. Her back rests against its existing black backrest, hips on its seat, both feet on floor, each hand wraps one of the two existing handgrips at chest height. Show the controlled mid-press position with slightly bent elbows, natural comfortable neutral wrists. Preserve the exact machine architecture: tall open weight-stack tower on left, green pair of long press arms pivoting low on front frame, black padded tall backrest to right, matching dimensions. Person is anatomically correct and fits the equipment, no intersecting limbs/metal, no extra arms, no imagined handles. Modern professional gym same visual language: matte black rubber flooring, warm pale concrete, soft daylight, muted background, no legible background signs or other brands. Entire machine recognizable and mostly visible, three-quarter view near reference camera, medium-wide landscape3:2 framing. Forest-green satin steel, black pads and frame, chrome details. Small existing Full Muscle marks only. No external text/no watermark. High resolution photoreal commercial photograph for print, naturally lit, understated.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5005.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5008.png"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-52cec117-a91a-4759-9368-1916fc3cd66d.png",
+  "output": "brochures/fullmuscle-g5/assets/scenes/chest-training.png"
+}

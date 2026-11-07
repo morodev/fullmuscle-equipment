@@ -1,0 +1,20 @@
+{
+  "sku": "FM-GC-5074",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:27:38.729Z",
+  "input": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/92/92cb5bd26b56281ccab249d2738ff469f0d70dd97d3c74bd4a28327954a47c5a.jpg",
+  "references": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/92/92cb5bd26b56281ccab249d2738ff469f0d70dd97d3c74bd4a28327954a47c5a.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Full Muscle Equipment catalogue. Edit ONLY image1 showing a BLACK compact leg press. This machine has NO red painted structural elements: DO NOT recolor ANY metal or create green components. Preserve its exact black frame, black seat and back pad, black footplate, chrome rails and horns, and small red adjustment knobs (these are controls and stay red). Preserve all joints, dimensions, perspective, white backdrop and lighting. Image2 is color reference only, image3 is logo style only. Add only a discreet small 'Full Muscle' italic logo on the black front base beam below the footplate: 'Full' white and 'Muscle' green, tiny white 'EQUIPMENT' beneath, following perspective. Preserve all other geometry and details pixel-faithfully. No added components, people, new background, watermarks or text. Return one high-detail photo of the same product.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-31de88a8-aa39-4a07-9563-46e079b29af2.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5074.png",
+  "visualQA": {
+    "passed": true,
+    "notes": "Original all-black frame and red adjustment controls preserved; only Full Muscle logo added on front base beam."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "sku": "FM-GC-5019",
+  "tool": "image_gen.imagegen",
+  "args": {
+    "prompt": "Precise localized branding cleanup of IMAGE1 only. Preserve the entire image exactly: full machine geometry, every frame member, four steps, handles, guide rods, weights, green sliding carriage, black knee pad, white background, framing and top Full Muscle wordmark. There are unwanted old WHITE LETTER FRAGMENTS on the small BLACK REAR PANEL immediately BELOW THE KNEE PAD and just ABOVE THE WEIGHT STACK, around image center x610 y820. Remove ONLY those old white letter fragments, leaving the existing black panel plain black with its original light and shadow. Do not move any guide rods or weight plates. Do not add any new text or logo in this small obscured area. No other image changes.",
+    "referenced_image_paths": [
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5019.png"
+    ],
+    "transparent_background": false
+  },
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-e793-7830-8cfa-4d251294c496\\exec-1856f872-d1f5-4379-922b-b1024b6014ab.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5019.png",
+  "reason": "Remove obscured supplier lettering below knee pad."
+}

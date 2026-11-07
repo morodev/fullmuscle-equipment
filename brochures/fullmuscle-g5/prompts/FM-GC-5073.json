@@ -1,0 +1,20 @@
+{
+  "sku": "FM-GC-5073",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:26:23.186Z",
+  "input": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/7f/7f9fb73d2f5a101e82d2a7bac482942c3eb0128f5edb5e85e52594b5c528a908.jpg",
+  "references": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/7f/7f9fb73d2f5a101e82d2a7bac482942c3eb0128f5edb5e85e52594b5c528a908.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Full Muscle Equipment catalogue. Edit ONLY image1 showing a WHITE and BLACK squat rack. This machine has NO red painted structural elements: DO NOT recolor ANY metal or create green components. Preserve its exact white frame, black notched vertical racks and safety supports, chrome horns, all joints, dimensions, perspective, white backdrop and lighting. Image2 is color reference only, image3 is logo style only. Add only a discreet small 'Full Muscle' italic logo on a small black nameplate on the white upper horizontal crossbar: 'Full' white and 'Muscle' green, tiny white 'EQUIPMENT' beneath. Preserve all other geometry and details pixel-faithfully. No added components, people, new background, watermarks or text. Return one high-detail photo of the same product.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-23918b3b-9514-4d35-81eb-73a82fa08ca8.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5073.png",
+  "visualQA": {
+    "passed": true,
+    "notes": "Original white/black finishes preserved; only small Full Muscle nameplate added on upper crossbar. Machine geometry preserved."
+  }
+}

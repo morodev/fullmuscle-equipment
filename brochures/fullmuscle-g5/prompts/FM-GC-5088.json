@@ -1,0 +1,19 @@
+{
+  "sku": "FM-GC-5088",
+  "sourceSku": "GC-5088",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Strength-Equipment-Abdominal-Oblique-Crunch-Machine.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/1e/1ef30bddebaae046608a0ab1a29b2f2b26e93f9b0b4f6f150a16eced551da4a0.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:24:00.986Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Full Muscle G5 product catalogue PNG. Edit target is image 1 (GC-5088, Abdominal Oblique Crunch); image 2 is only the approved forest green colour reference and image 3 only the Full Muscle wordmark reference. Preserve image 1 exactly: same machine design, geometry, number and positions of every part, chrome rods, bolts, black upholstery, grips, frame, angle, framing, white background and shadows. Change ONLY all RED painted machine parts into deep forest green #356B35 with realistic original highlights, and replace each supplier TZFITNESS/TZ logo on its existing small badge with the italic 'Full Muscle' logo from image 3 (Full white, Muscle green, small EQUIPMENT). Remove any remaining supplier wordmark. No machine substitutions, no added parts, no people, no captions, no extra labels, no border. Keep safety markings and fine mechanical details. Output the whole isolated machine with ample white margin, sharp high-resolution square catalogue image. Remove any large white supplier FIT lettering too, but preserve safety warning labels and exercise pictograms.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-15ed6f6d-aacc-4d32-a407-4bd692d8e86e.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5088.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Verifica visiva superata: parti mobili verdi, badge Full Muscle, telaio e dettagli conservati."
+  }
+}

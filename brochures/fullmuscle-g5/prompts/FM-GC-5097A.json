@@ -1,0 +1,23 @@
+{
+  "sku": "FM-GC-5097A",
+  "sourceSku": "GC-5097A",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/10/GC-5097A-Commercial-Comprehensive-Fitness-Exercise-Strength-Training-Four-Person-Station-4-People-Station.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/37/3711b469b0dfb8d6b2a460f07a81b08b6b69094621ff1daf3ffad89d38b9a4bc.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:32:13.420Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "inputPaths": [
+    "data/catalog-assets/originals/37/3711b469b0dfb8d6b2a460f07a81b08b6b69094621ff1daf3ffad89d38b9a4bc.jpg",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Image1 is the exact GC-5097A 4 Multi-Station product to preserve. Image2 is ONLY a typography/logo reference: use its small italic 'Full Muscle' wordmark, white Full and green Muscle with tiny EQUIPMENT. Edit image1 ONLY by replacing an existing supplier logo with that small Full Muscle badge, or if there is no visible badge place one small badge on the upper front crossbar. Preserve ALL black painted metal, chrome parts, upholstery, cables, pulleys, every support, foot, handle, accessory and geometry exactly. This product is entirely BLACK: there must be NO GREEN PAINT anywhere. Only the word Muscle in the small badge is green. White background and camera/framing unchanged; do not redesign the product or add/remove components. No people, captions, other words or graphics. High-resolution catalogue photograph.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-ad823116-8ed0-428a-b904-78747e90f460.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5097A.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Verifica visiva superata: multistazione nera conservata senza nuove parti; solo personalizzazione del marchio."
+  }
+}

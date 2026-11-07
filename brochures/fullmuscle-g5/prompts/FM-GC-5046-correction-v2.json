@@ -1,0 +1,22 @@
+{
+  "sku": "FM-GC-5046",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:30:31.741Z",
+  "references": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/b1/b1a485b9b7eaab41b7975417c884792bbe579c494a146a490b5d712526045286.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/proofs/image-corrections/FM-GC-5046-before.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Correct this product catalogue image. Image1 is the ORIGINAL machine and is the exact geometry to preserve. Image2 is a previous green edit with a known geometry error: its upper vertical black logo panel is WRONG and must NOT be copied. Image3 is the Full Muscle logo style. Starting from image1, recolor only the red metal biceps lever to forest green #356B35, keeping black/chrome/pads/labels unchanged. Replace the small manufacturer badge at the top with the small italic white Full / green Muscle logo and tiny white EQUIPMENT. Replace the partial supplier letters on the ORIGINAL LOW black rear panel with a small Full Muscle logo, partially obscured by the existing pad supports and weights. Critical: between the exercise instruction header and the elbow pad, the weight tower is OPEN WHITE SPACE with two slender chrome guide rods and a thin black cable. Keep this entire upper opening WHITE and open exactly as image1. Do not add any vertical black panel or banner up there. The original rear black shield begins LOW near the pad support, just as image1. Preserve that exact shield outline and its height, all dimensions, black pads, seat, adjustment bolts, weight stack and framing. Use only the original physical panels for logos; logos may be small and partially hidden. White background. Return a single corrected green Full Muscle product photo.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-6327759a-47ab-4aaa-a68d-babb499068f2.png",
+  "candidate": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/proofs/image-corrections/FM-GC-5046-v2.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5046.png",
+  "previousImage": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/proofs/image-corrections/FM-GC-5046-before.png",
+  "visualQA": {
+    "passed": true,
+    "selected": true,
+    "notes": "Compared against original source: restored white open upper tower with only chrome rods and cable; removed invented tall black logo panel. Original low shield only, logo naturally occluded. Green lever and rest of machine preserved."
+  }
+}

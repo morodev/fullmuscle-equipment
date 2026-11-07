@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise object edit of IMAGE1 only, shoulder press product photo. IMAGE2 is color/style reference only. Preserve the exact model geometry, camera, framing, mechanical parts, pads, cables, pulleys, chrome fasteners, instruction diagrams and white background. Change ONLY the red painted steel moving lever surfaces into satin forest green matching IMAGE2, visual midtone approximately #356B35; keep everything else black/chrome. Replace supplier branding on top header with italic Full Muscle EQUIPMENT, Full white and Muscle green like image2. Replace the vertical white TZFIT on the black rear panel with the same Full Muscle wordmark rotated CLOCKWISE, Full toward TOP and Muscle toward BOTTOM, correctly occluded by rods and weights. Do not erase exercise or safety instruction plates. Do not invent parts, thicken frame, change angle, crop machine, change upholstery or recolor pivot guards. Exact same original object, only local paint and branding. Render highest available resolution crisp photographic detail for print, one product on white.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/c9/c9aa66efba535dc96da5ead3d4b95bd89e1574ce75e5f6d7feb335e20efa731c.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-8111c58b-d05f-4fe3-a4b7-af758700dbb6.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5012.png"
+}

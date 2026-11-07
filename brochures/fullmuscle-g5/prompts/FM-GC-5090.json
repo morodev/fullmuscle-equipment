@@ -1,0 +1,19 @@
+{
+  "sku": "FM-GC-5090",
+  "sourceSku": "GC-5090",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Multi-Body-Building-Functional-Trainer-Gym-Cable-Machine.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/ef/efa579746ffa29c6e8aaa767621ff4d4079efc1575b2c2b0198c765051c24f71.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:25:25.020Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Full Muscle G5 product catalogue PNG. Edit target is image 1 (GC-5090, Functional Trainer); image 2 is only the approved forest green colour reference and image 3 only the Full Muscle wordmark reference. Preserve image 1 exactly: same machine design, geometry, number and positions of every part, chrome rods, bolts, black upholstery, grips, frame, angle, framing, white background and shadows. Change ONLY all RED painted machine parts into deep forest green #356B35 with realistic original highlights, and replace each supplier TZFITNESS/TZ logo on its existing small badge with the italic 'Full Muscle' logo from image 3 (Full white, Muscle green, small EQUIPMENT). Remove any remaining supplier wordmark. No machine substitutions, no added parts, no people, no captions, no extra labels, no border. Keep safety markings and fine mechanical details. Output the whole isolated machine with ample white margin, sharp high-resolution square catalogue image. Crucial: remove BOTH large white vertical FIT wordmarks on the lower black rear panels just above each weight stack, leaving those panels plain black. Preserve both exercise charts, both weights, all chrome rods and the two hanging accessory bars.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-85db795e-368d-45f6-8d80-efe277f7bbdf.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5090.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Verifica visiva superata: entrambe le torri conservate, badge sostituito e pannelli ripuliti dai marchi."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "sku": "FM-GC-5002",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:30:32.517Z",
+  "references": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/proofs/image-corrections/FM-GC-5002-before.png"
+  ],
+  "prompt": "Use case: text-localization / precise-object-edit. Edit only the tiny partially occluded Full Muscle lettering on the LOW black rear panel behind the weight stack in image1. It is currently rotated the wrong way. Replace only those letters with the same white Full / green Muscle italic wordmark rotated CLOCKWISE 90 degrees: reading direction TOP TO BOTTOM, the word Full at the TOP and Muscle BELOW it. The logo sits on the ORIGINAL LOW rear panel behind the chrome guide rods, hidden naturally by the black horizontal seat roller and the weight stack. DO NOT enlarge or move any panel. DO NOT extend the low rear panel upwards. Keep the OPEN WHITE UPPER TOWER VOID completely open exactly as it is, all chrome rods and thin cable in exactly the same positions. Preserve the entire machine geometry, black tower outer frame, green lever, black pads, background, perspective, crop and image resolution. Leave the correct top horizontal Full Muscle logo unchanged. Change NO pixels outside the small rear-panel lettering area. No new panel, no extra support, no enlarged logo, no duplicated lettering. One single edited photo.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-d0a322a9-9b44-4eff-be21-3981bb7c997f.png",
+  "candidate": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/proofs/image-corrections/FM-GC-5002-v2.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5002.png",
+  "previousImage": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/proofs/image-corrections/FM-GC-5002-before.png",
+  "visualQA": {
+    "passed": true,
+    "selected": true,
+    "notes": "Rear wordmark now clockwise, white Full at top and green Muscle beneath. Original low panel, open white upper tower, guide rods, black frame and machine geometry preserved. One attempt; selected after visual comparison."
+  }
+}

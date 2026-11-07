@@ -1,0 +1,23 @@
+{
+  "sku": "FM-GC-5099",
+  "sourceSku": "GC-5099",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Function-Trainer-8-Station-Multi-Jungle.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/ac/ac50bb994b4d8e068aac5df491be1548a194b34f076688796434aae508ca8e64.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:35:59.602Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "inputPaths": [
+    "data/catalog-assets/originals/ac/ac50bb994b4d8e068aac5df491be1548a194b34f076688796434aae508ca8e64.jpg",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Image1 is the exact GC-5099 8 Multi-Station product to preserve. Image2 is ONLY a typography/logo reference: use its small italic 'Full Muscle' wordmark, white Full and green Muscle with tiny EQUIPMENT. Edit image1 ONLY by replacing an existing supplier logo with that small Full Muscle badge, or if there is no visible badge place one small badge on the upper front crossbar. Preserve ALL black painted metal, chrome parts, upholstery, cables, pulleys, every support, foot, handle, accessory and geometry exactly. This product is entirely BLACK: there must be NO GREEN PAINT anywhere. Only the word Muscle in the small badge is green. White background and camera/framing unchanged; do not redesign the product or add/remove components. No people, captions, other words or graphics. High-resolution catalogue photograph. Remove any white supplier lettering on the black central weight-stack cage panels, leaving plain black surfaces. Preserve every station, seat and handle exactly, entire original width visible.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-345ade7e-a24d-4478-ace4-3bf110022a35.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5099.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Verifica visiva superata: otto postazioni e accessori conservati, solo marchio sostituito."
+  }
+}

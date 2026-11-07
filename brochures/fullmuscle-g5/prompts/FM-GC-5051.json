@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Commercial fitness catalogue photo FM-GC-5051. Image1 exact edit target, Image2 only color/brandreference. The squat rack is all BLACK. Keep all its paint black. Replace ONLY supplier badge. Remove all original supplier marks including white vertical FIT letters partially hidden behind weight-stack and all red TZ FITNESS badges. Replace main badge with bold italic 'Full Muscle', white Full forest-green Muscle. On rear panel replace original lettering within SAME ORIGINAL occupied area, naturally hidden behind frame/weights: Full at top, Muscle below, clockwise90. DO NOT extend, raise or add any panel for the logo; open spaces remain open white background. Preserve exact original machine geometry, angle, lever position, rods, pads, bolts, rollers, cables, handles, mechanisms and base. White background, complete machine visible. Preserve exercise placard. No people, extra parts, floating text or redesign. High-detail studio product photo.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/4d/4d5c2c46540d6749f3034fd236055eefc44fc39caf1aea815e5ab48237bd754f.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-499b4731-8c9e-42ab-9a65-03bbdc0e505b.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5051.png"
+}

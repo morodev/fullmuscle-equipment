@@ -1,0 +1,23 @@
+{
+  "sku": "FM-GC-5098",
+  "sourceSku": "GC-5098",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/GC-5098-5-Combine-Multifunction-of-5-Stations.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/12/12bfdca40757a41c0a8ae4bdee9eacc81c8c2129f97cde685e90a3e8c43db097.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:33:35.675Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "inputPaths": [
+    "data/catalog-assets/originals/12/12bfdca40757a41c0a8ae4bdee9eacc81c8c2129f97cde685e90a3e8c43db097.jpg",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Image1 is the exact GC-5098 5 Multi-Station product to preserve. Image2 is ONLY a typography/logo reference: use its small italic 'Full Muscle' wordmark, white Full and green Muscle with tiny EQUIPMENT. Edit image1 ONLY by replacing an existing supplier logo with that small Full Muscle badge, or if there is no visible badge place one small badge on the upper front crossbar. Preserve ALL black painted metal, chrome parts, upholstery, cables, pulleys, every support, foot, handle, accessory and geometry exactly. This product is entirely BLACK: there must be NO GREEN PAINT anywhere. Only the word Muscle in the small badge is green. White background and camera/framing unchanged; do not redesign the product or add/remove components. No people, captions, other words or graphics. High-resolution catalogue photograph. Remove any residual supplier FIT lettering from black weight-stack panels, leaving plain black. Maintain all stations and full original width without cropping.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-73a8fd85-d458-46e1-8103-70c46f9acd74.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5098.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Verifica visiva superata: cinque postazioni mantenute, logo sostituito, verniciatura nera conservata."
+  }
+}

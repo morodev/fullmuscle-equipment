@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Product FM-GC-5057. Edit ONLY the single attached exact machine. This is an all-black cable lat pulldown / low-row combo with long bench. Keep it black, update only supplier brand marks. Replace all supplier TZ FITNESS badges and partial FIT letters with italic 'Full Muscle', white Full and forest-green Muscle, side by side as one wordmark. If vertical rear lettering exists, rotate that single wordmark clockwise90 so Full at top then Muscle below; natural occlusion. Preserve all original machine geometry, pads, roller count, metal beams, cables, handles, mechanism position, rods, bolts and white background. Do not add or extend black panels for the lettering: upper open white areas stay open. Do not change model, dimensions, perspective or composition. No people or additional machines, no extra parts. Whole original machine visible; professional high-detail studio product photo.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/41/41eba244012b14fde533741a3fce52aaf50878cfa454df08f0b3a96d78845c27.jpg"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-5f78329a-ee24-422f-b02e-b89bc9cc76d0.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5057.png"
+}

@@ -1,0 +1,266 @@
+{
+  "batch": "batch-a",
+  "count": 32,
+  "status": "complete",
+  "tool": "image_gen.imagegen",
+  "checked": "Every source image viewed before generation; every result visually inspected against source for machine type, main component layout, pad shape, paint placement, branding and framing.",
+  "limitations": "Generated marketing illustrations. Microtext, weight-stack numerals, fine safety-label lettering and small hardware details are not technical documentation. Green paint placement on originally black equipment is a proposed visual customization.",
+  "items": [
+    {
+      "sku": "FM-G-41",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-G-41.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-G-41.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Recolor ONLY both long diagonal articulated cable arms green. Keep the black main frame and silver front panels unchanged. Replace the blue T symbol on the upper middle silver panel with a compact black printed plaque carrying the Full Muscle logo. Keep the instruction chart underneath unchanged.",
+      "correction": null
+    },
+    {
+      "sku": "FM-G-42",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-G-42.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-G-42.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Recolor ONLY both long diagonal articulated cable arms green. Keep the black main frame and silver front panels unchanged. Replace the blue T symbol on the upper middle silver panel with a compact black printed plaque carrying the Full Muscle logo. Keep the instruction chart underneath unchanged.",
+      "correction": null
+    },
+    {
+      "sku": "FM-G-45",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-G-45.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-G-45.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Recolor all currently red steel shoulder lever parts green, including horizontal shoulder arm, diagonal linkage and mounting plates. Keep shoulder pads, handles and all main frame black. Add a modest Full Muscle logo on the upper black tower plate.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GA-5073-1",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GA-5073-1.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GA-5073-1.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This is a power rack with weightlifting platform, NOT a seated leg curl. Recolor only the top horizontal pull-up crossbar dark forest green as a subtle accent. Retain both tall perforated uprights black, all silver storage pegs silver, all hooks and safety supports unchanged. Keep the wooden platform and rubber platform exactly. Add small Full Muscle logo on the broad face of the top crossbar. Do not invent a seat or weight stack.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5002-1",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5002-1.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5002-1.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Recolor the currently red shin roller lever and connected red pivot plate green. Keep the fixed seat support and main frame black, the black sector guard black, pulleys black. Preserve exact reverse-side view and all roller positions. Replace upper red TZFitness badge and rear vertical white TZFIT with Full Muscle.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5007",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5007.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5007.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Recolor only the two currently red long hanging pec-deck arm assemblies and their red upper pivot/linkage plates forest green. Preserve silver pivot caps, black elbow cushions, handles, seat and black frame. Replace the top TZFitness badge and rear vertical TZFIT with Full Muscle.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5009",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5009.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5009.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Recolor only the central currently red vertical adjustable hip lever green, keep its silver adjustment arc silver and the chrome sliding end metallic. Preserve black U-shaped support handles, upper pulley assembly, black sector guard and steel floor plate. Replace rear vertical TZFIT with Full Muscle and put a small matching logo on upper tower header where visible.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5011",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5011.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5011.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Recolor only the currently red vertical triceps lever and red upper handle support arms forest green. Keep handles black, chrome end caps and bolts metallic, forearm pad/seat black. Replace upper red TZFitness badge and rear vertical TZFIT with Full Muscle.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5013",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5013.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5013.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This is an empty THREE-tier dumbbell storage rack, no moving mechanisms. Paint ONLY the existing two curved side support frames satin forest green; keep all THREE wide metal shelves including front lips black and exactly the same, keep black floor pads, bolts and safety label unchanged. Replace the small supplier badge on the upper shelf front lip with the Full Muscle logo, centered in the same location. No dumbbells added.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5014",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5014.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5014.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Recolor all the existing red-painted inner-thigh moving linkage beneath the seat, including the central vertical pivot assembly, horizontal bar and forward short linkage plate, to the reference forest green. Keep all pads, grips, surrounding fixed support frame and round adjustment disc black; preserve silver guide rods, adjustment posts and bolts. Replace supplier top tower and rear shield logos.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5015",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5015.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5015.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Recolor all existing bright-red abdominal moving steel arms to forest green, including tall front chest lever, its two pad back plates and crossbeam, central pivot linkage and lower foot lever/plates. Preserve every black pad, black handles and black foot roller; metallic pivots and caps stay silver. Main fixed support frame and black adjustment disc stay black. Replace top tower and rear stack shield supplier logos.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5017",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5017.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5017.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Recolor ONLY the existing red sliding barbell carriage brackets at the top and the red safety arms and sliding brackets at the lower front to satin forest green. Keep all black fixed upright frames, black barbell, black pullup handles, metallic rods and metallic plate holders completely unchanged. Replace the supplier logo at the central black rear horizontal beam with small Full Muscle logo in same spot.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5018",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5018.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5018.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This is a very wide dual cable crossover station. Paint ONLY its long existing upper connecting beam forest green, while keeping the black pullup grip attached in front of this beam black. Do not color the small guide numbers or the metal adjustment rails. Towers, all pulleys, cables, weight plates and handles remain their exact original black/metal. Replace the small supplier badge on that upper beam with Full Muscle; no other logo necessary. Preserve original wide perspective and complete two towers.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5019",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5019.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5019.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Recolor only the existing red knee-assist pad carriage under the central black rectangular knee pad, including red vertical sliding brackets beside rods and red underside crossbar, to forest green. Preserve all black tall frame tubes, all pullup/dip grips, the FOUR separate textured metal foot steps, the black knee pad and silver guide rods. Replace supplier brand at the chest-height horizontal beam and the partially visible rear shield if present.",
+      "correction": "brochures/fullmuscle-g5/prompts/FM-GC-5019-cleanup.json"
+    },
+    {
+      "sku": "FM-GC-5019-1",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5019-1.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5019-1.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This is the knee-raise station with a large circular black dome back support. Preserve that circular black back support exactly, not a weight plate, and preserve all FOUR handgrips. Paint ONLY the existing left and right short diagonal forearm-support steel beams at the top forest green, keep any black padded tops black. All long legs, floor base and stair plates stay unchanged. Replace supplier logo on right floor-base rail with a small Full Muscle logo in the same perspective.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5019-2",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5019-2.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5019-2.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This is a tall bodyweight knee-raise/pullup station with rectangular black back pad. Paint ONLY the two short existing horizontal forearm support steel beams at mid-height forest green, keep any padded top surfaces black. All long upright frame tubes, back pad, handles, top pullup structure and silver step plates stay black/metal exactly as source. Replace the supplier logo on upper horizontal crossbar with the small Full Muscle logo in same spot.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5020",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5020.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5020.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This cable lat pulldown is originally black. Paint ONLY the existing upper horizontal projecting boom that supports the overhead pulley forest green; keep the curved right tower and vertical uprights black. The pulley, hanging metal clip and hanging black lat handle remain unchanged. Preserve the seat and thigh rollers black and adjustment stem silver. Replace the top tower supplier badge and partially visible vertical rear panel supplier wordmark with Full Muscle; behind rods, not in front.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5021",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5021.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5021.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This low cable row is originally black. Paint ONLY the existing long horizontal rectangular seat support beam that runs from beneath the long bench to the tower forest green, plus its short triangular under-seat reinforcing gusset if visible. Keep black padded seat, vertical front leg, lower angled foot-rest support, foot rollers, black tower, weights, pulley and handle unchanged. Replace supplier top badge and the vertical rear shield wordmark, behind guide rods, with Full Muscle.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5022",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5022.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5022.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Paint all existing red-painted moving glute lever on the RIGHT forest green: the long diagonal rectangular arm, bottom short arm and round red pulley bracket. Keep black terminal contact surface, black pulleys, metallic pivot caps and hardware unchanged. Preserve black left chest/forearm pads and handles, black fixed frame and silver diamond-tread floor plate. Replace top supplier badge and rear vertical shield wordmark behind weight rods.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5022-1",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5022-1.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5022-1.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This glute model has a low red horizontal sliding foot carriage on two long silver guide rails. Recolor ONLY existing red carriage assembly and angled foot-contact support forest green. Both long rails stay SILVER and parallel, all black tall chest-pad support, upper chest pad, handles, surrounding fixed frame and rear tower stay unchanged. Replace top supplier badge and rear vertical supplier wordmark with Full Muscle behind rods.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5023",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5023.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5023.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This flat Olympic bench press is all-black originally. Apply green ONLY to the bench-support section: the existing narrow steel support directly beneath the long black bench pad and its single front vertical supporting leg. Keep the horizontal floor-base rails, both tall barbell rack uprights and braces black, preserve the silver plate-holder sleeves and all bolts, no barbell or weights added. Replace supplier logo on lower horizontal rear base beam with Full Muscle at same location.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5024",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5024.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5024.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "Paint ONLY the existing articulated backrest tilt support strut and the two small seat pivot/linkage plates under the padding forest green. Keep both padded cushions completely black, black horizontal floor base beam, front/rear legs, adjustment tooth rack and transport handle/wheels unchanged. Preserve every metal pivot and adjustment knob silver. Replace small supplier logo on rear base beam with modest Full Muscle logo in same perspective.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5024-1",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5024-1.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5024-1.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This adjustable bench has a silver numbered adjustment rail and a nearly horizontal long back pad. Recolor ONLY the black backrest support strut under the rear end of the back cushion and the black short under-seat steel support pieces forest green. Preserve silver numbered adjustment rail, silver seat hinge plate, adjustment pegs, pivots and all screws silver, and preserve pads, base legs and handle black. Put one small Full Muscle logo on the black rear base beam near the rear foot. Do not tilt the bench or alter pad shape.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5024B",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5024B.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5024B.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This is the special adjustable bench with a tall angled main back cushion and a short top cushion projecting rightwards. Preserve the precise THREE-cushion layout and angle, no regular bench replacement. Recolor only the existing long diagonal backrest tilt-support strut below the back cushion and the small steel linkage plates connecting the top cushion forest green. Keep all pads, front/rear legs, base rail, adjustment tooth rack, transport handle and wheels black, bolts silver. Put one small Full Muscle logo on the black rear base beam near rear wheel.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5025",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5025.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5025.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This is a standing preacher-curl support with no seat. Recolor ONLY the two existing horizontal barbell-rest rails projecting forward beneath the wide black arm pad forest green, including their outer forward stops. Keep their black upper contact liners black, all upright legs and base rails black, arm pad black, no barbell or seat added. Replace supplier badge on right bar-rest rail with small Full Muscle logo.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5025A",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5025A.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5025A.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This seated preacher-curl bench has two angled main uprights and two small barbell hooks. Paint ONLY the two existing small projecting barbell-rest hook assemblies forest green, and the short adjustable steel seat-support bracket under the seat forest green. Keep both long angled main uprights and black floor-base frame unchanged; all black pads and silver bolts stay unchanged. Replace tall diagonal supplier wordmark on the right front angled upright with Full Muscle in matching diagonal placement, no additional logos.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5026",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5026.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5026.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This Roman chair has two separate large hip pads and two ankle rollers. Recolor ONLY the existing angled rectangular steel support tube directly beneath the pair of hip pads forest green, including short pad mounting brackets. Keep the notched angle-adjustment sector black, upright rear support and base legs black, all black pads/ankle rollers and handgrips unchanged, foot plates black and pivot caps silver. Replace supplier logo on center vertical support with Full Muscle in same orientation.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5027",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5027.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5027.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This adjustable decline abdominal bench has one long black pad and a black four-roller foot restraint at high left end. Paint ONLY the existing long narrow steel beam directly under the long pad forest green, including existing short metal support beneath roller brackets. All actual foam rollers and handle stay black; telescopic adjustment post, lower floor base and rear support stay black and silver as original. Replace supplier badge centered on lower base beam with Full Muscle in same perspective.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5028",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5028.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5028.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This is a plate-storage tree with exactly eight silver sleeves in four opposing pairs. Preserve all EIGHT metallic sleeves and their black caps. Paint ONLY the existing diagonal top rectangular connecting beam forest green. Both vertical support legs and floor-base rails stay black, all black sleeve mounting collars stay black. Replace vertical supplier logo on the tall left upright with Full Muscle in same location and vertical orientation. No plates or weights added.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5029",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5029.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5029.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This is an empty double-sided fixed-barbell storage rack. Paint ONLY all existing small projecting barbell support hook assemblies forest green, preserving their precise count/positions, keep black protective contact liners black. Keep the four large structural legs and top/bottom connecting beams black. Replace small supplier badge on upper front connecting beam with Full Muscle at same location. No barbells or weights added.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5030",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5030.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5030.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This incline Olympic bench has a long angled back pad and separate short front seat pad, plus rear spotter platform. Paint ONLY the existing angled support beam directly under both cushions and the diagonal reinforcing strut behind the back pad forest green. Keep all cushions black, both tall rack uprights and floor-base rails black, all silver weight sleeves and hardware unchanged, textured spotter platform black. Replace supplier logo on horizontal rear crossbar with Full Muscle.",
+      "correction": null
+    },
+    {
+      "sku": "FM-GC-5031",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5031.png",
+      "prompt": "brochures/fullmuscle-g5/prompts/FM-GC-5031.json",
+      "status": "visually-reviewed",
+      "greenPlacement": "This flat bench has a long rectangular rear pad and a separate triangular front seat pad. Preserve those two exact pad shapes and original camera. Paint ONLY the existing slim steel support beam directly under the cushions and the short rear vertical support leg forest green. Keep both pads black, front curved main leg/transport handle and rear floor crossbar black, rubber feet black. Replace supplier logo on rear floor crossbar with Full Muscle in same perspective.",
+      "correction": null
+    }
+  ]
+}

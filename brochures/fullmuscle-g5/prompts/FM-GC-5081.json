@@ -1,0 +1,20 @@
+{
+  "sku": "FM-GC-5081",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:29:01.143Z",
+  "input": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/1a/1ab92b6432a53b612ec28d6402925dc68328ccf0daa98e52e33bab3ca6523d55.jpg",
+  "references": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/1a/1ab92b6432a53b612ec28d6402925dc68328ccf0daa98e52e33bab3ca6523d55.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Italian Full Muscle Equipment product catalogue. Edit ONLY image 1, preserving precisely the same machine geometry, mechanical parts, framing, perspective, white background, light and shadows. Image 2 is color reference ONLY; image 3 is logo style reference ONLY, do not copy its machine or its residual supplier lettering. Recolor ONLY existing red-painted structural metal to satin forest green #356B35, matched to image 2. Keep black metal, black pads, rubber, weight plates, chrome, silver fasteners and safety/exercise diagram labels unchanged. Remove ALL manufacturer branding TZFIT, TZ FITNESS, FITNESS, FIT, including partial or occluded lettering on rear panels. Replace manufacturer nameplates with a small clean italic 'Full Muscle' wordmark ('Full' white, 'Muscle' green), tiny white 'EQUIPMENT' underneath, in perspective like image3. Preserve all rails, handles, bolts and other geometry. Do not add components, gym background, people, borders, watermarks or extra text. Return the single edited product photo at original aspect ratio, high detail. Recolor the red moving upper 45-degree leg-press sled, plate-loading carriage, metal footplate perimeter and diagonal supports to green. Preserve black diamond texture faces of the two footplates, all silver chrome rails and plate horns, black base, pads and back support. Replace the small red vertical supplier badge on right rear black leg with a perspective-correct Full Muscle badge.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-6962a418-aaa4-4c6f-b3b1-9cdcae322d63.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5081.png",
+  "visualQA": {
+    "passed": true,
+    "notes": "Existing red structural metal recolored green; Full Muscle branding in perspective; rails, footplates, pads, black frame and chrome retained; white backdrop and geometry match source."
+  }
+}

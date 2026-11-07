@@ -1,0 +1,21 @@
+{
+  "sku": "FM-GC-5113",
+  "sourceSku": "GC-5113",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:37:09.189Z",
+  "input": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/ae/ae595f614e68a040fe40c9acd57c498b1ec61ab37fe3465522bfaa7dea17deb2.jpg",
+  "inputPaths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/ae/ae595f614e68a040fe40c9acd57c498b1ec61ab37fe3465522bfaa7dea17deb2.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Edit only IMAGE1, a completely BLACK product on white background. Image2 is LOGO reference ONLY; do not copy its machine or colors. NO GREEN PAINT: do not recolor ANY component. Preserve every original black finish, chrome part, exact geometry, joints, perspective, shadow and background. Add only a SMALL discreet italic 'Full Muscle' logo with 'Full' white and 'Muscle' green, tiny white EQUIPMENT below, on an existing black beam, in correct perspective. Do not create a new physical panel. The only green pixels allowed are the letters Muscle in that logo. No added equipment, people, modifications, borders or watermarks. Return the same product photograph. This is a tall vertical crunch station with black perforated slanted uprights, black pad, cylindrical pads and side steps. Keep all holes, handles and supports exactly as in original. Put one small Full Muscle logo on the existing black lower crossbeam between the slanted uprights, without covering holes or adding a panel.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-ff69b3cb-47a0-4765-b42a-a72582623cd0.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5113.png",
+  "reviewStatus": "passed",
+  "visualQA": {
+    "passed": true,
+    "notes": "All-black original finish preserved with small Full Muscle logo only; no green painted parts added. Perforations, pads, steps and geometry retained."
+  }
+}

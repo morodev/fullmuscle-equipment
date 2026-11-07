@@ -1,0 +1,23 @@
+{
+  "tool": "image_gen.imagegen",
+  "initial": {
+    "prompt": "Use case: precise-object-edit. Create ONE edited catalog product photograph. Image 1 is the ONLY edit target: the black Seated Row machine in the user's original brochure. Images 2 and 3 are style references ONLY: Full Muscle dark forest green painted steel and the exact italic white/green 'Full Muscle' with small 'EQUIPMENT' logo. Image 4 is ONLY a part-location reference: same GC-5004 machine in its official red color scheme. Preserve the geometry, camera angle, framing, white background, lighting and EVERY mechanical component of IMAGE 1 exactly. Do not borrow a different machine shape or camera from the other images. Recolor the painted moving upper pull arm assemblies and their short joining crossmembers, precisely the surfaces that are red in image4, to the dark green of image2/3. The two handgrips stay black, bolts/rods remain metallic. Main tower and support frame, padded seat, chest pad, lower mechanism, cables, pulleys, weight plates remain unchanged black/chrome. Add the matching italic white/green Full Muscle EQUIPMENT small logo on the upper tower header rail above the exercise instructions, conforming to perspective and any occlusion by front pull arms. Replace the existing vertical white TZFIT lettering on the black rear weight-stack panel with a matching Full Muscle logo oriented vertically to fit that same panel, with text correctly covered by the existing guide rods and weight stack. The old manufacturer lettering must be fully removed. Preserve the original upper instruction panel illustrations and exact 'Seated Row' text. No additional objects, no labels outside machine, no change to mechanical structure or part thickness, no wide-angle distortion, no crop. Keep the original 1600x1081 landscape framing and white background. Make only local paint and logo changes. This is a faithful image edit, not a redesign.",
+    "referenced_image_paths": [
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/WhatsApp Image 2026-11-05 at 04.19.53 (3).jpeg",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/full muscle 01ù.jpeg",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/modificato.jpeg",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/f6/f6748f5a50e4da4d88a403344c3069079ea4aade76174309b6bb0a0ecd6eeba0.jpg"
+    ],
+    "transparent_background": false
+  },
+  "refinement": {
+    "prompt": "Precise-object-edit, one image. IMAGE1 is the existing green Full Muscle Seated Row machine preview to edit. IMAGE2 is ONLY a logo orientation reference. In IMAGE1 ONLY rotate/reapply the vertical Full Muscle EQUIPMENT logo on the black panel behind the weight stack so that it reads from TOP to BOTTOM: Full (white) at the TOP, Muscle (green) below. Match the exact CLOCKWISE90 orientation in image2. The current rear logo in image1 faces the opposite direction. Keep its size and location within the same black panel, retaining original chrome rods and weights in front as occluders. ABSOLUTELY NO OTHER CHANGES: retain all image1 mechanical geometry, colors, green arms, black grips, pads, cables, pulleys, upper Full Muscle logo, Seated Row instruction graphics and typography, lower weight labels, framing, camera and white background. Do not redesign the machine. Single edited landscape photo.",
+    "referenced_image_paths": [
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-preview/FM-GC-5004__view-01.png",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-preview/FM-GC-5010__view-01.png"
+    ],
+    "transparent_background": false
+  },
+  "output": "FM-GC-5004__view-01.png",
+  "review": "Green zones and shape visually checked; rear logo refined to clockwise orientation matching Delt views. Fine label/text not production validated."
+}

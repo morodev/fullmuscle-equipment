@@ -1,0 +1,27 @@
+{
+  "generator": "image_gen",
+  "prompt": "Use case: precise-object-edit. IMAGE 1 is the EDIT TARGET: the all-black GC-5005 chest press machine. Preserve its EXACT camera angle, framing, full machine silhouette, geometry, seat and backrest proportions, mechanical linkages, pivot points, white background, shadows, diagrams and original readable \"Chest Press\" label. Images 2 and 3 are STYLE REFERENCES of a different machine: copy only their dark forest-green painted-metal finish and small italic white/green \"Full Muscle\" logo with \"EQUIPMENT\" below. Image 4 is a factory color-zone reference of the SAME MODEL, ONLY use RED painted areas to identify corresponding components in target; do not adopt its camera/proportions.\nChange only: recolor both long moving chest press arms rising from front floor pivots up to the rubber handles, and the LOWER PAINTED crossmember connecting those arms, to the dark green of images 2/3. Follow precisely the red-painted group in image 4. Keep the horizontal silver/chrome shaft in front SILVER, black feet/guards BLACK, rubber grips BLACK, all hardware silver. Never color seat support, base frame, stack tower or cushions.\nBranding: place the same small italic white/green Full Muscle Equipment logo on the black top crossbar above the instructions plate, perspective-aligned. Replace existing white vertical TZFIT on the black plate behind the weight stack with that Full Muscle logo rotated vertically to fit the same rear panel. This is a physical decal behind rods and weight stack, correctly occluded by them, not pasted over chrome or weights. Text exactly \"Full Muscle\" with small \"EQUIPMENT\".\nMaintain all instruction text, red muscle highlights in exercise diagrams, weight labels, cables, rollers, bolts, black pulley wheels and chrome surfaces. No other changes, no added parts, no omissions, no crop, no redesign. Retain landscape aspect ratio, target white margins and full machine view. Return only the edited product image.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/WhatsApp Image 2026-11-05 at 04.19.53 (4).jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/full muscle 01ù.jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/modificato.jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/7a/7a27233cb3172eab7076dfe9f06a8f6bf8c3cf11b4938aa473a9bfee1d3322f3.jpg"
+  ],
+  "transparent_background": false,
+  "output": "FM-GC-5005__view-01.png",
+  "refinements": [
+    {
+      "prompt": "Make ONE very localized branding correction to this completed Full Muscle chest press mockup. Change only the orientation of the Full Muscle Equipment logo on the black VERTICAL REAR PANEL behind the weight stack. It currently reads bottom to top. Rotate its lettering 180 degrees from its current orientation, so the new logo is rotated CLOCKWISE 90 degrees from horizontal, reading TOP TO BOTTOM: white \"Full\" at the TOP and green \"Muscle\" at the BOTTOM, with small \"EQUIPMENT\" along the side. Preserve exact logo size, style, position on the rear panel, perspective, green and white colors, and occlusion by chrome rods/weights/foreground moving arms. The lettering must be on the rear plate behind rods, never overlapping them. Use exact typography of the small logo on the top crossbar. Keep that TOP CROSSBAR LOGO UNCHANGED. Preserve absolutely EVERYTHING ELSE: all machine shapes/arms/cables/bolts, green paint, shadows, white background, camera, framing, instructions, text, weights, cushions, grips, chrome and hardware. No other edits. Return only the corrected image.",
+      "referenced_image_paths": [
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-preview/FM-GC-5005__view-01.png"
+      ],
+      "transparent_background": false,
+      "editInputGeneratedPath": "C:/Users/lucam/.codex/generated_images/01a1b532-f747-7b73-bf7a-46b6770b9cc8/exec-1e9e31c8-4446-499a-bd1e-69c22981f269.png"
+    }
+  ],
+  "generatedPath": "C:/Users/lucam/.codex/generated_images/01a1b532-f747-7b73-bf7a-46b6770b9cc8/exec-49d6e938-90cf-4584-8402-f55b782d1446.png",
+  "review": {
+    "status": "preview-reviewed",
+    "notes": "Refined rear logo clockwise. Moving press arms and painted connecting crossmember green; front shaft chrome, frame and upholstery black. Main silhouette/geometry retained visually. Fine weight/exercise detail remains generated."
+  }
+}

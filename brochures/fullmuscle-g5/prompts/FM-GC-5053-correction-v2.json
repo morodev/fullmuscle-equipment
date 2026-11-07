@@ -1,0 +1,17 @@
+{
+  "sku": "FM-GC-5053",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:34:14.929Z",
+  "input": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/proofs/image-corrections/FM-GC-5053-before.png",
+  "prompt": "Use case: precise-object-edit. Edit exactly ONE small remaining red-painted metal strip in this product photograph. The strip is a narrow vertical RED line running along the right side of the small central black knee/thigh pad, around the middle of the image (approximately x=635,y=500 to635). Recolor ONLY that red metal strip to the SAME forest green as the existing green moving metal linkage immediately below the seat, keeping its highlights and shadows. This is a minimal local color correction. Keep the strip shape, position, thickness and entire pad unchanged. Preserve every other pixel, the black tower, white opening, chrome rods, both Full Muscle logos, black pads, black handles, seat/back support, all already-green metal, bolts, weights, white background, geometry, perspective and crop exactly. Do not recolor the red muscle annotations in the top instructional diagram or any markings on the weight stack. No new components, no different logos, no typography changes. Return the same single product photo, with only this tiny red metal stripe changed to matching green.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-5711bc75-373a-4812-9f00-949be4115a41.png",
+  "candidate": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/proofs/image-corrections/FM-GC-5053-v2.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5053.png",
+  "visualQA": {
+    "passed": true,
+    "selected": true,
+    "notes": "Single remaining red-painted strip beside central thigh pad is now matching green. Pad shape, existing logo orientation, tower, rails and all other machine geometry visually unchanged."
+  }
+}

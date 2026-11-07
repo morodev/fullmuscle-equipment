@@ -1,0 +1,19 @@
+{
+  "sku": "FM-GC-5096",
+  "sourceSku": "GC-5096",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/Gym-Fitness-Equipment-Kettlebell-Storage-Rack.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/6b/6bf5acc465a156f5252012c8cbcd50236fe19a6b756d320066852dfc610b6a2d.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:30:51.072Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Full Muscle G5 product catalogue PNG. Edit target is image 1 (GC-5096, Kettlebell Rack); image 2 is only the approved forest green colour reference and image 3 only the Full Muscle wordmark reference. Preserve image 1 exactly: same machine design, geometry, number and positions of every part, chrome rods, bolts, black upholstery, grips, frame, angle, framing, white background and shadows. Change ONLY all RED painted machine parts into deep forest green #356B35 with realistic original highlights, and replace each supplier TZFITNESS/TZ logo on its existing small badge with the italic 'Full Muscle' logo from image 3 (Full white, Muscle green, small EQUIPMENT). Remove any remaining supplier wordmark. No machine substitutions, no added parts, no people, no captions, no extra labels, no border. Keep safety markings and fine mechanical details. Output the whole isolated machine with ample white margin, sharp high-resolution square catalogue image. This product has NO red painted metal: retain ALL black paint and silver components. Replace ONLY the existing red-and-white supplier logo badge with the small Full Muscle wordmark. Do not invent green painted parts; the green is in the new logo only. Keep the exact arrangement and number of shelves/seats/cables.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-62350004-b906-4e61-a04b-f675b21439eb.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5096.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Verifica visiva superata: scaffale interamente nero preservato, solo badge sostituito."
+  }
+}

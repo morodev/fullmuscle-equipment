@@ -1,0 +1,20 @@
+{
+  "sku": "FM-GC-5062",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:26:22.379Z",
+  "input": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/58/58c5eb1b32ab738fd155d7e20a1c26435685cd5953f15488b528db6983b12a81.jpg",
+  "references": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/58/58c5eb1b32ab738fd155d7e20a1c26435685cd5953f15488b528db6983b12a81.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Italian Full Muscle Equipment product catalogue. Edit ONLY image 1, preserving precisely the same machine geometry, mechanical parts, framing, perspective, white background, light and shadows. Image 2 is color reference ONLY; image 3 is logo style reference ONLY, do not copy its machine or its residual supplier lettering. Recolor ONLY existing red-painted structural metal to satin forest green #356B35, matched to image 2. Keep black metal, black pads, rubber, weight plates, chrome, silver fasteners and safety/exercise diagram labels unchanged. Remove ALL manufacturer branding TZFIT, TZ FITNESS, FITNESS, FIT, including partial or occluded lettering on rear panels. Replace manufacturer nameplates with a small clean italic 'Full Muscle' wordmark ('Full' white, 'Muscle' green), tiny white 'EQUIPMENT' underneath, in perspective like image3. Preserve all rails, handles, bolts and other geometry. Do not add components, gym background, people, borders, watermarks or extra text. Return the single edited product photo at original aspect ratio, high detail. The red vertical swinging pendulum under the main body pad becomes green. Preserve the black frame, black split body pad, four cylindrical ankle rollers and silver loading horns. Replace the red maker badge on the right side frame with Full Muscle.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-e7230d5b-245e-4fe6-a15d-8b3e54eebf5b.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5062.png",
+  "visualQA": {
+    "passed": true,
+    "notes": "Existing red pendulum recolored green; maker badge replaced with Full Muscle; body pad, ankle rollers, chrome and black frame preserved."
+  }
+}

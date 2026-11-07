@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-11-07T09:41:17.716Z",
+  "environment": "local production Astro Node server from final npm run build; PDF static asset refreshed after final editorial export",
+  "url": "http://127.0.0.1:44017/cataloghi/fullmuscle-g5.pdf",
+  "status": 200,
+  "contentType": "application/pdf",
+  "contentLength": "23239708",
+  "bytes": 23239708,
+  "sha256": {
+    "export": "5f505dcc78927e5fcb3a256bd460a13de02790e8a5902d9a062d3dff892797de",
+    "public": "5f505dcc78927e5fcb3a256bd460a13de02790e8a5902d9a062d3dff892797de",
+    "dist": "5f505dcc78927e5fcb3a256bd460a13de02790e8a5902d9a062d3dff892797de",
+    "http": "5f505dcc78927e5fcb3a256bd460a13de02790e8a5902d9a062d3dff892797de",
+    "browserDownload": "5f505dcc78927e5fcb3a256bd460a13de02790e8a5902d9a062d3dff892797de"
+  },
+  "pdfHeader": "%PDF-",
+  "cta": {
+    "heroVisible": true,
+    "footerVisible": true,
+    "heroHref": "/cataloghi/fullmuscle-g5.pdf",
+    "footerHref": "/cataloghi/fullmuscle-g5.pdf",
+    "heroDownload": ""
+  },
+  "browserDownload": {
+    "suggestedFilename": "fullmuscle-g5.pdf",
+    "failure": null,
+    "bytes": 23239708
+  },
+  "passed": true
+}

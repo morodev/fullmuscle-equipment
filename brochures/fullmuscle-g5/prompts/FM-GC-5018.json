@@ -1,0 +1,16 @@
+{
+    "sku":  "FM-GC-5018",
+    "tool":  "image_gen.imagegen",
+    "args":  {
+                 "prompt":  "Use case: precise-object-edit. Create exactly ONE faithful edited product photograph of IMAGE1. IMAGE1 is the sole target; IMAGE2 is ONLY the approved Full Muscle paint color reference, and IMAGE3 is ONLY the italic Full Muscle EQUIPMENT logo reference. Do not borrow machinery or the camera from reference images. Preserve the target\u0027s exact model, geometry, number and positions of components, proportions, white background, original camera, framing, padding, handles, safety instructions and mechanical details. Apply satin forest green around #356B35 with realistic existing light and shadow only to the specified painted steel parts. All pads/grips stay black, metallic guide rods/pins/bolts/plate sleeves remain metallic, pulleys/cables stay unchanged. Replace supplier brand logos with the italic \u0027Full Muscle\u0027 wordmark, Full white and Muscle green, with small white \u0027EQUIPMENT\u0027 beneath; keep the logo small and physically printed on the same surface, in correct perspective. If a rear stack panel has a vertical brand, replace it with Full Muscle rotated CLOCKWISE90, Full at TOP, Muscle below, behind foreground rods/weights. Never remove exercise or safety labels. If no supplier logo exists, put one modest Full Muscle wordmark on a suitable upper crossbar or main support. No other text added, no external labels, no background design. Keep the full machine and original image aspect ratio. Render sharply, no redesign.\nSpecific edit for FM-GC-5018: This is a very wide dual cable crossover station. Paint ONLY its long existing upper connecting beam forest green, while keeping the black pullup grip attached in front of this beam black. Do not color the small guide numbers or the metal adjustment rails. Towers, all pulleys, cables, weight plates and handles remain their exact original black/metal. Replace the small supplier badge on that upper beam with Full Muscle; no other logo necessary. Preserve original wide perspective and complete two towers.",
+                 "referenced_image_paths":  [
+                                                "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/dc/dc066c1041bcf87849bdbc4ef65e8b30eead9529a1291bd50dcfedef33d002e8.jpg",
+                                                "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+                                                "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+                                            ],
+                 "transparent_background":  false
+             },
+    "generatedPath":  "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-e793-7830-8cfa-4d251294c496\\exec-7709a5be-22a1-4bf7-8955-e32cda4f54ed.png",
+    "output":  "brochures/fullmuscle-g5/assets/products/FM-GC-5018.png",
+    "review":  "Visually reviewed: machine type, main geometry, pad shape, green placement, branding, white background. Marketing illustration; fine microtext is not technical documentation."
+}

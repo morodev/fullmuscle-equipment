@@ -1,0 +1,23 @@
+{
+  "sku": "FM-GC-5098A-5200",
+  "sourceSku": "GC-5098A-5200",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/10/GC-5098A-5200-High-Quality-Adjustable-Single-Pulley-Steel-Machine-Home-Fitness-Pull-Down-Station-Multi-Function-Cross-Cable-Crossover-for-Arm.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/9e/9e6bcee037971d30cbfe6241af6dd4669442647e4b1dc40dc56c87262fdc5d09.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:35:04.191Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "inputPaths": [
+    "data/catalog-assets/originals/9e/9e6bcee037971d30cbfe6241af6dd4669442647e4b1dc40dc56c87262fdc5d09.jpg",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Image1 is the exact GC-5098A-5200 Single Pulley product to preserve. Image2 is ONLY a typography/logo reference: use its small italic 'Full Muscle' wordmark, white Full and green Muscle with tiny EQUIPMENT. Edit image1 ONLY by replacing an existing supplier logo with that small Full Muscle badge, or if there is no visible badge place one small badge on the upper front crossbar. Preserve ALL black painted metal, chrome parts, upholstery, cables, pulleys, every support, foot, handle, accessory and geometry exactly. This product is entirely BLACK: there must be NO GREEN PAINT anywhere. Only the word Muscle in the small badge is green. White background and camera/framing unchanged; do not redesign the product or add/remove components. No people, captions, other words or graphics. High-resolution catalogue photograph. Remove any residual supplier FIT lettering from black weight-stack panels, leaving plain black. Maintain all stations and full original width without cropping.\nRefinement: Precise object edit. Remove only the bright WHITE diagonal letter strokes printed on the black rear weight-stack panel, just above the weights behind the lower pulley and the right chrome guide rod, around lower-middle height. They are leftover supplier lettering: replace those white paint strokes with matching flat black. Preserve the chrome guide rod, pulley, cable and all fittings in front of that panel. Preserve the Full Muscle logo, every structural part and its black/silver colour, exact viewpoint, framing and white background. No other changes.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-2bca9820-773b-493d-bba3-6a640dc68814.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5098A-5200.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Verifica visiva superata: configurazione originale conservata, marchio Full Muscle e pannelli senza scritte fornitore."
+  }
+}

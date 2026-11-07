@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Target FM-GC-5051. This is the EMPTY black squat RACK, with barbell hooks and chrome weight storage pegs. It has NO weight tower or seat. Keep ALL paint black. Only replace the small red supplier brand badge with italic 'Full Muscle', white Full and forestgreen Muscle. Preserve every component, exact geometry, angle, mechanism, padding, rods, cables, handles, bolts, whitebackground and scale. Replace all TZ FITNESS/FIT supplier lettering with bold italic 'Full Muscle', white Full green Muscle. Rear lettering if present must occupy ONLY the existing black panel without adding or extending any panel into open white space. It reads Full then Muscle downward, rotated clockwise90. Do not change anything else. Do NOT generate a different machine. High fidelity photo edit of the single attached target, entire machine visible. No people or decoration.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/4d/4d5c2c46540d6749f3034fd236055eefc44fc39caf1aea815e5ab48237bd754f.jpg"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-1fcb658d-ccb4-4540-a97b-cfaf05c9f5f3.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5051.png"
+}

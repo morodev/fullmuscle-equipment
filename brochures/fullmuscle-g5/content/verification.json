@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-11-07",
+  "visibility": "internal-only",
+  "scope": {
+    "category": "g5-series-pin-loaded-machine",
+    "inventory": "data/catalog-source/tzfit/inventory.json",
+    "inventoryCrawledAt": "2026-09-13T08:44:02.095Z",
+    "includedProducts": 105,
+    "strictGcProducts": 101,
+    "additionalSourceSkus": ["G-41", "G-42", "G-45", "GA-5073-1"],
+    "publicSkuMapping": "Identico a scripts/catalog/brand.ts: prefisso FM- e codice originale normalizzato; nessuna sostituzione dei prefissi G / GA con GC.",
+    "completeFreshCensus": true,
+    "liveCensusFile": "live-category-census.json",
+    "liveCensusResult": "105 URL prodotto univoci su 9 pagine; zero aggiunti e zero mancanti rispetto alla baseline locale. Percorso attuale individuato dalla navigazione della homepage.",
+    "limitation": "Il censimento della categoria è stato verificato live il 2026-11-07. Le specifiche dei singoli prodotti restano basate sull'inventario locale, con i controlli mirati descritti sotto; non è stato ripetuto un crawl generale delle 105 schede tecniche.",
+    "robots": {"url":"https://tzfit.com/robots.txt","status":"HTTP 200 live; percorso categoria e paginazione consentiti. Controllo eseguito con intervallo minimo di 1000 ms; testo e hash conservati nel censimento."},
+    "categoryPages": [
+      {"url":"https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/","status":"Verificata live con tutte le pagine 2–9; 105 prodotti univoci."},
+      {"url":"https://tzfit.com/pin-loaded-machine/g5-series-pin-loaded-machine/","status":"Contenuto indicizzato consultabile via web, ma il vecchio percorso restituisce HTTP 404 live."},
+      {"url":"https://tzfit.com/g5-series-pin-loaded-machine/","status":"Vecchio percorso: HTTP 404 live."}
+    ]
+  },
+  "editorialRules": [
+    "Testi italiani originali descrittivi, basati sul tipo di macchina e sulla documentazione disponibile.",
+    "Nessun prezzo, garanzia, certificazione, beneficio medico o promessa prestazionale ripreso dalla fonte.",
+    "Dati assenti o incoerenti pubblicati come Su richiesta, senza correzioni presunte.",
+    "Le dimensioni numeriche rispettano l'ordine L × W × H della fonte, senza riordinare gli assi.",
+    "URL, codici fonte, note di verifica e nomi del fornitore sono esclusi dal testo pubblico dei PDF.",
+    "Le immagini di ambientazione e personalizzazione sono rendering, non foto di installazioni reali."
+  ],
+  "checks": [
+    {
+      "sourceSku":"GC-5058",
+      "url":"https://tzfit.com/commercial-gym-combo-leg-exercise-machine-gc-5058/",
+      "method":"Pagina pubblica consultata tramite web",
+      "evidence":{"itemNo":"GC-5058","dimensions":"1300*980*1550","machineWeight":"179kg","weightStack":"80kg"},
+      "decision":"Incluso nel PDF G5 usando esclusivamente questa pagina e il relativo originale. La quarantena globale del catalogo sito non viene modificata."
+    },
+    {
+      "sourceSku":"GC-5003",
+      "url":"https://tzfit.com/waist-twister-exercise-rotary-torso-machine-gc-5003/",
+      "method":"Pagina pubblica consultata tramite web",
+      "evidence":"Nessun valore numerico per dimensioni, peso macchina e pacco pesi.",
+      "decision":{"dimensions":"Su richiesta","weight":"Su richiesta","stack":"Su richiesta"}
+    },
+    {
+      "sourceSku":"GC-5021",
+      "url":"https://tzfit.com/wholesale-fitness-equipment-low-row-gc-5021/",
+      "method":"Pagina pubblica consultata tramite web",
+      "evidence":{"weightStack":"100g","dimensions":"1750*820*1950","machineWeight":"164kg"},
+      "decision":{"stack":"Su richiesta"},
+      "reason":"Non trasformare 100g in 100kg senza conferma documentale."
+    },
+    {
+      "sourceSku":"GC-5044-1",
+      "url":"https://tzfit.com/muscle-gym-exercise-prone-leg-curl-gc-5044-1/",
+      "method":"Pagina pubblica consultata tramite web",
+      "evidence":{"weightStack":"169kg","machineWeight":"80kg","dimensions":"1640*1000*1550"},
+      "decision":{"weight":"Su richiesta","stack":"Su richiesta"},
+      "reason":"Possibile inversione dei valori rispetto a GC-5044. Entrambi sospesi, non scambiati per inferenza."
+    },
+    {
+      "sourceSku":"GC-5025",
+      "url":"https://tzfit.com/strength-trainer-bicep-curl-preacher-machine-gc-5025/",
+      "method":"Pagina pubblica consultata tramite web",
+      "evidence":{"machineWeight":"52/ 55kg","dimensions":"1210*910*1125"},
+      "decision":{"weight":"Su richiesta"},
+      "reason":"Varianti di peso non associate a una configurazione identificabile."
+    },
+    {
+      "sourceSku":"GC-5097",
+      "url":"https://tzfit.com/commercial-multi-gym-4-station-gc-5097/",
+      "method":"Pagina pubblica consultata tramite web",
+      "evidence":"Nessun valore per dimensioni, peso macchina o massa dei pacchi pesi.",
+      "decision":{"dimensions":"Su richiesta","weight":"Su richiesta","stack":"Su richiesta"}
+    },
+    {
+      "sourceSku":"GA-5073-1",
+      "url":"https://tzfit.com/ga-5073-1-power-rack-with-weightlifting-platform/",
+      "imageUrl":"https://tzfit.com/wp-content/uploads/2026/07/GA-5073-1-Power-Rack-with-Weightlifting-Platform.jpg",
+      "method":"Inventario locale e verifica visiva originale; pagina web non disponibile in cache",
+      "evidence":"Titolo e descrizione locali erroneamente riferiti a Seated Leg Curl; slug, codice e foto mostrano rack con pedana.",
+      "decision":"Titolo editoriale Power Rack con pedana. Preservati i valori dimensionali e di massa registrati nella stessa scheda."
+    },
+    {
+      "sourceSkus":["GC-5094","GC-5101","GC-5115"],
+      "method":"Verifica visiva degli originali locali, rispettivamente T-Bar, Standing Chest Press e Standing Calf Raise",
+      "evidence":"Perni di carico a dischi e assenza di pacco pesi visibili nelle immagini di riferimento.",
+      "decision":"Carico: A dischi; nessun valore massimo inventato."
+    },
+    {
+      "sourceSku":"GC-5113",
+      "method":"Verifica visiva dell'originale locale",
+      "evidence":"Stazione verticale con appoggi, rulli e maniglie per corpo libero, senza pacco pesi.",
+      "decision":"Nessuna riga Pacco pesi prevista."
+    },
+    {
+      "sourceSkus":["GC-5097A","GC-5098A-5202","GC-5098A-5203"],
+      "method":"Schede inventario locale",
+      "evidence":"Carichi dichiarati per singola stazione, con campi Size e Weight anziché Machine Size e Machine Weight.",
+      "decision":"Mantenuti i quattro valori distinti per stazione; nessuna somma presentata come resistenza disponibile."
+    },
+    {
+      "sourceSkus":["GC-5038","GC-5039","GC-5098","GC-5098A-5200","GC-5099"],
+      "method":"Schede inventario locale",
+      "evidence":"Carico non indicato nella scheda tecnica.",
+      "decision":"Su richiesta."
+    }
+  ],
+  "exclusions": [
+    {
+      "url":"https://tzfit.com/prone-leg-curl-leg-extension-gb-5058/",
+      "reason":"Pagina appartenente alla famiglia GB che riusa erroneamente il codice GC-5058; non entra nella selezione G5 né fornisce l'immagine del PDF."
+    }
+  ],
+  "sourceIndex":"catalog.json: ogni prodotto mantiene sourceUrl, sourceImage, sourceImagePath e sourceCrawledAt per tracciabilità interna."
+}

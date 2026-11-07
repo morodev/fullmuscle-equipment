@@ -1,0 +1,19 @@
+{
+  "sku": "FM-GC-5085",
+  "sourceSku": "GC-5085",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Commercial-Tower-Bench-Chest-Press-Trainer.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/c9/c98f0c0211c528aa685777a4e46d0e9e89297304ab7b025d42c855ad49723d16.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:21:16.429Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Full Muscle G5 product catalogue PNG. Edit target is image 1 (GC-5085, Bench Press); image 2 is only the approved forest green colour reference and image 3 only the Full Muscle wordmark reference. Preserve image 1 exactly: same machine design, geometry, number and positions of every part, chrome rods, bolts, black upholstery, grips, frame, angle, framing, white background and shadows. Change ONLY all RED painted machine parts into deep forest green #356B35 with realistic original highlights, and replace each supplier TZFITNESS/TZ logo on its existing small badge with the italic 'Full Muscle' logo from image 3 (Full white, Muscle green, small EQUIPMENT). Remove any remaining supplier wordmark. No machine substitutions, no added parts, no people, no captions, no extra labels, no border. Keep safety markings and fine mechanical details. Output the whole isolated machine with ample white margin, sharp high-resolution square catalogue image. Also remove large white supplier FIT lettering if present on the rear panel, leaving a plain black surface. Preserve exercise pictograms and weight numerals.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-dc196ded-a451-4704-af9f-9d28facb927f.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5085.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Geometria e sistemi scorrevoli conservati; componenti rossi verdi, marchio sostituito."
+  }
+}

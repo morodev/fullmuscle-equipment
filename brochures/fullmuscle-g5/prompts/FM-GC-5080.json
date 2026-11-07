@@ -1,0 +1,20 @@
+{
+  "sku": "FM-GC-5080",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:29:00.383Z",
+  "input": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/64/64ae07a689eadf0fa364e13a0f6c16d3f652eb0543360dec81f75b39b2ca1df2.jpg",
+  "references": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/64/64ae07a689eadf0fa364e13a0f6c16d3f652eb0543360dec81f75b39b2ca1df2.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Italian Full Muscle Equipment product catalogue. Edit ONLY image 1, preserving precisely the same machine geometry, mechanical parts, framing, perspective, white background, light and shadows. Image 2 is color reference ONLY; image 3 is logo style reference ONLY, do not copy its machine or its residual supplier lettering. Recolor ONLY existing red-painted structural metal to satin forest green #356B35, matched to image 2. Keep black metal, black pads, rubber, weight plates, chrome, silver fasteners and safety/exercise diagram labels unchanged. Remove ALL manufacturer branding TZFIT, TZ FITNESS, FITNESS, FIT, including partial or occluded lettering on rear panels. Replace manufacturer nameplates with a small clean italic 'Full Muscle' wordmark ('Full' white, 'Muscle' green), tiny white 'EQUIPMENT' underneath, in perspective like image3. Preserve all rails, handles, bolts and other geometry. Do not add components, gym background, people, borders, watermarks or extra text. Return the single edited product photo at original aspect ratio, high detail. Recolor only the two existing red angled handle/plate-loading supports and their small red brackets to green. Keep all multi-grip handles black, seat/chest pad black, frame black, diamond footplate black, chrome rails and horns silver. Add one small Full Muscle logo on the broad black upper horizontal crossbar. Preserve the exact Smith-rower layout.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-0c47d28b-ab08-4919-b79e-907d13454cbb.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5080.png",
+  "visualQA": {
+    "passed": true,
+    "notes": "Existing red structural metal recolored green; Full Muscle branding in perspective; rails, footplates, pads, black frame and chrome retained; white backdrop and geometry match source."
+  }
+}

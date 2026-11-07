@@ -1,0 +1,68 @@
+FULL MUSCLE G5 — CONSEGNA
+7 novembre 2026
+
+FILE PRINCIPALI
+exports/brochure-stampa.pdf
+  Brochure italiana di 12 pagine: 8 macchine, descrizioni, specifiche,
+  tre ambientazioni illustrative, contatti Matteo e QR del catalogo.
+  A4 finito 210 × 297 mm, abbondanza 3 mm, pagine singole in ordine.
+
+exports/catalogo-completo.pdf
+  Catalogo digitale italiano di 56 pagine con 105 modelli, indice cliccabile
+  e segnalibri. Copia identica in public/cataloghi/fullmuscle-g5.pdf.
+
+proofs/brochure-contact-sheet.jpg
+  Anteprima d'insieme delle 12 pagine. Le immagini pagina in proofs sono
+  prove di impaginazione; per la stampa utilizzare il PDF finale.
+
+STAMPA
+Leggere exports/ISTRUZIONI-STAMPA.txt. Font incorporati, marchio e QR
+vettoriali, immagini con almeno 240 ppi effettivi. Documento RGB/sRGB,
+non PDF/X certificato. Profilo CMYK, carta e prova colore si concordano
+con la tipografia. La prova su carta e la scansione fisica del QR restano
+da eseguire prima della tiratura.
+
+SORGENTI MODIFICABILI
+content/catalog.json: contenuti e specifiche, con fonti interne.
+content/editorial.mjs e content/build-catalog.mjs: generazione contenuti.
+layout/editorial.css e scripts/build.mjs: impaginazione ed esportazione.
+assets/products: 105 immagini del catalogo personalizzate Full Muscle.
+assets/scenes: tre rendering illustrativi, non installazioni reali.
+assets/references: riferimenti fotografici forniti dal cliente.
+prompts: istruzioni e provenienza delle immagini, generate con il tool
+  integrato image_gen.imagegen; originali conservati.
+
+RIGENERAZIONE
+Ambiente usato: Windows, Node.js 24 e Google Chrome installato.
+Dalla radice del progetto:
+  npm run brochure:build
+  npm run brochure:check
+Per controllare il file pubblico dopo la pubblicazione:
+  node brochures/fullmuscle-g5/scripts/check-public.mjs
+L'esportazione si interrompe se mancano immagini o falliscono i controlli.
+
+VERIFICHE
+105 modelli confrontati con le 9 pagine della categoria G5 attuale:
+nessun modello aggiunto o mancante. Evidenze in content/verification.json
+e content/live-category-census.json. Dati assenti o incoerenti indicati
+come Su richiesta; nessuna correzione tecnica presunta.
+Il PDF include GC-5058 verificato sulla pagina corretta; il sito mantiene
+104 modelli perché quel codice resta nella quarantena dati preesistente.
+Rendering e personalizzazioni non certificano configurazioni produttive;
+colori, finiture e dotazioni vanno definiti per il singolo modello.
+
+PUBBLICAZIONE
+Destinazione QR: https://fullmuscle-equipment.com/cataloghi/fullmuscle-g5.pdf
+Commit sito/PDF: 84cbff6e950ee8027e6bfa32f7f78b21dea3e47b, inviato a master.
+Il risultato del controllo pubblico è in exports/publication-check.json.
+Il file deve rispondere 200 e avere la stessa impronta SHA256 dell'export.
+Verifica conclusa: HTTP 200, application/pdf, 23.239.708 byte e SHA256
+coincidente. Collegamenti live verificati su home IT, linea G5 e pagina 2.
+Gli altri sorgenti e le prove sono conservati in questa cartella locale.
+
+CONTROLLI SOFTWARE
+Astro check: 0 errori, 0 avvisi.
+Test catalogo: 12/12. Test output sito: 10/10. Build sito riuscita.
+CTA verificate a 320, 390 e 1440 px, anche nella pagina successiva G5.
+Download HTTP locale: 200 application/pdf; file scaricato identico all'export.
+Rapporti: exports/preflight.json e proofs/site/*.json.

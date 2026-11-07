@@ -1,0 +1,21 @@
+{
+  "sku": "FM-GC-5114",
+  "sourceSku": "GC-5114",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:38:24.285Z",
+  "input": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/95/956048d6f390b123e6e2c5e78beca8430d3dbaa1cc80100677129462677eb652.jpg",
+  "inputPaths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/95/956048d6f390b123e6e2c5e78beca8430d3dbaa1cc80100677129462677eb652.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Edit only IMAGE1, a completely BLACK product on white background. Image2 is LOGO reference ONLY; do not copy its machine or colors. NO GREEN PAINT: do not recolor ANY component. Preserve every original black finish, chrome part, exact geometry, joints, perspective, shadow and background. Add only a SMALL discreet italic 'Full Muscle' logo with 'Full' white and 'Muscle' green, tiny white EQUIPMENT below, on an existing black beam, in correct perspective. Do not create a new physical panel. The only green pixels allowed are the letters Muscle in that logo. No added equipment, people, modifications, borders or watermarks. Return the same product photograph. This is a compact adjustable dumbbell stand with two angled black trays and two separate loose black straps arranged to its LEFT. Keep both loose straps EXACTLY as present. Preserve all tray rims, slots, curved frame, four feet and fasteners. Put the small Full Muscle logo on the existing central lower horizontal black base bar between curved supports.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-d29f340b-7141-495a-a029-6339cf61b0a6.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5114.png",
+  "reviewStatus": "passed",
+  "visualQA": {
+    "passed": true,
+    "notes": "All-black original finish preserved with small Full Muscle logo only; both separate loose straps retained; no green painted parts added."
+  }
+}

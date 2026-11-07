@@ -1,0 +1,19 @@
+{
+  "sku": "FM-GC-5092",
+  "sourceSku": "GC-5092",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Leg-Trainer-Glute-Drive-Hip-Thrust-Exercise-Machine.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/e1/e19ca05b2a4eba99c06e3ade8e04eff540867eb911d45190500e88033806b5bc.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:27:58.218Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Full Muscle G5 product catalogue PNG. Edit target is image 1 (GC-5092, Hip Thrust Glute Machine); image 2 is only the approved forest green colour reference and image 3 only the Full Muscle wordmark reference. Preserve image 1 exactly: same machine design, geometry, number and positions of every part, chrome rods, bolts, black upholstery, grips, frame, angle, framing, white background and shadows. Change ONLY all RED painted machine parts into deep forest green #356B35 with realistic original highlights, and replace each supplier TZFITNESS/TZ logo on its existing small badge with the italic 'Full Muscle' logo from image 3 (Full white, Muscle green, small EQUIPMENT). Remove any remaining supplier wordmark. No machine substitutions, no added parts, no people, no captions, no extra labels, no border. Keep safety markings and fine mechanical details. Output the whole isolated machine with ample white margin, sharp high-resolution square catalogue image. Remove ALL large white vertical FIT lettering visible on the black rear panel above the weight stack: fill with plain matching black. Preserve exercise pictograms and safety labels.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-f8365654-e81a-47ae-85d4-40e9ebedc840.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5092.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Confronto visivo superato: struttura, imbottiture, cromature e postura macchina conservate; verde e logo coerenti."
+  }
+}

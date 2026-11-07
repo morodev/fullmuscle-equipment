@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Asset: commercial fitness catalogue product photo FM-GC-5045. Image1 is exact edit target. Image2 only color/brandreference. The three-tier dumbbell rack is ALL BLACK. Keep its black paint unchanged. Replace ONLY the right-leg supplier badge, with Full at TOP and Muscle at BOTTOM. Remove ALL original supplier marks including the white vertical letters FIT partially hidden behind the weight-stack, and all red TZ FITNESS badges. Replace main badge with bold italic 'Full Muscle', white Full green Muscle. If rear panel visible, put Full Muscle vertically CLOCKWISE90, Full toward TOP and Muscle toward BOTTOM, naturally occluded by rods, weights and frame. Preserve exact original geometry, perspective, lever position, number of pads, bolts, rollers, cables, handles, mechanism and dimensions. No added parts. White background, entire machine visible. Preserve exercise placard. No people, floating text or redesign. High-detail professional isolated studio product photo.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/45/4515dc408e27799673dfafae35b8dedd2b6607581f38b466b93873e3c8410327.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-390d93bc-1f26-4d30-9fb0-7e1ce128449d.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5045.png"
+}

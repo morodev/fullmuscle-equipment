@@ -1,0 +1,61 @@
+{
+  "sku": "FM-GC-5002",
+  "view": "02",
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit, commercial gym equipment preview. Image 1 is the ONLY edit target, a reverse three-quarter camera view of a black GC-5002 Leg Extension machine on white. Preserve its exact reverse camera angle, framing, aspect ratio, every mechanical shape and part. Images 2/3 are style references ONLY for dark rich forest green painted finish and the italic white/green Full Muscle Equipment logo. Image 4 is the opposite-angle TZ color-zone guide with red levers. Image 5 is the completed Full Muscle opposite-angle view of THIS SAME MACHINE and establishes exact color/logo consistency. Do NOT change target camera to match 4 or 5.\nRecolor only the visible rear-facing surfaces of the diagonal shin-roller steel lever and connected painted pivot brackets to dark green, the same physical lever seen green in image 5. On target image 1 this angled bar lies in front of the stack, slopes down left from under the seat handle to the shin roller, and is seen mainly from the rear. Keep the adjacent black round pulley/cam disks black, bolts/pins and chrome ends silver. Keep main frame, seat/back cushions, grips, rubber rollers, pulleys, cables, chrome guides, stack and all labels exactly unchanged. Don't color main seat frame or towers.\nBranding: add same small italic Full Muscle Equipment logo centered on upper horizontal black crossbar above existing instruction card, fitting it like reference 5. White Full, green Muscle, tiny white EQUIPMENT underneath. Replace vertical white TZFIT on the black rear panel behind stack with the same Full Muscle logo rotated vertically and correctly obscured by chrome rods, cushions, levers and weights. Logo is painted on panel surface, never overlaid on other parts. No TZFIT remnants.\nOpaque white background, original target viewpoint and crop, exact engineering geometry. Keep instruction text Leg Extension and small diagrams. No collage, new parts, captions, shape changes. Deliver one edited image matching image 1.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/WhatsApp Image 2026-11-05 at 04.19.53 (1).jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/full muscle 01ù.jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/modificato.jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/6b/6becaae094221652fbbfafecb1f871dab183969e170929a3d744ed5c41416b40.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-preview/FM-GC-5002__view-01.png"
+  ],
+  "transparent_background": false,
+  "output": "FM-GC-5002__view-02.png",
+  "generated_path": "C:/Users/lucam/.codex/generated_images/01a1b533-14a5-79b1-a698-ea7a722e9d25/exec-d5e3bad3-dafc-4c8b-a409-50151e32428f.png",
+  "iterations": [
+    {
+      "prompt": "Use case: precise-object-edit, commercial gym equipment preview. Image 1 is the ONLY edit target, a reverse three-quarter camera view of a black GC-5002 Leg Extension machine on white. Preserve its exact reverse camera angle, framing, aspect ratio, every mechanical shape and part. Images 2/3 are style references ONLY for dark rich forest green painted finish and the italic white/green Full Muscle Equipment logo. Image 4 is the opposite-angle TZ color-zone guide with red levers. Image 5 is the completed Full Muscle opposite-angle view of THIS SAME MACHINE and establishes exact color/logo consistency. Do NOT change target camera to match 4 or 5.\nRecolor only the visible rear-facing surfaces of the diagonal shin-roller steel lever and connected painted pivot brackets to dark green, the same physical lever seen green in image 5. On target image 1 this angled bar lies in front of the stack, slopes down left from under the seat handle to the shin roller, and is seen mainly from the rear. Keep the adjacent black round pulley/cam disks black, bolts/pins and chrome ends silver. Keep main frame, seat/back cushions, grips, rubber rollers, pulleys, cables, chrome guides, stack and all labels exactly unchanged. Don't color main seat frame or towers.\nBranding: add same small italic Full Muscle Equipment logo centered on upper horizontal black crossbar above existing instruction card, fitting it like reference 5. White Full, green Muscle, tiny white EQUIPMENT underneath. Replace vertical white TZFIT on the black rear panel behind stack with the same Full Muscle logo rotated vertically and correctly obscured by chrome rods, cushions, levers and weights. Logo is painted on panel surface, never overlaid on other parts. No TZFIT remnants.\nOpaque white background, original target viewpoint and crop, exact engineering geometry. Keep instruction text Leg Extension and small diagrams. No collage, new parts, captions, shape changes. Deliver one edited image matching image 1.",
+      "inputs": [
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/WhatsApp Image 2026-11-05 at 04.19.53 (1).jpeg",
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/full muscle 01ù.jpeg",
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/modificato.jpeg",
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/6b/6becaae094221652fbbfafecb1f871dab183969e170929a3d744ed5c41416b40.jpg",
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-preview/FM-GC-5002__view-01.png"
+      ],
+      "generated_path": "C:/Users/lucam/.codex/generated_images/01a1b533-14a5-79b1-a698-ea7a722e9d25/exec-d299f58d-876d-4723-8291-6785fc9adb47.png",
+      "status": "revised",
+      "reason": "Unwanted green fixed seat rail; reverse rear logo orientation"
+    },
+    {
+      "prompt": "Make only two precise corrections to this existing Full Muscle Leg Extension image, leaving every other pixel-level visual choice, geometry, camera and color unchanged. (1) Rear branding on black panel behind stack: rotate the whole existing white/green italic Full Muscle Equipment mark by 180 degrees so its reading direction is TOP TO BOTTOM: Full is toward TOP, Muscle toward BOTTOM. This is a 90-degree CLOCKWISE rotation of the horizontal logo visible on top crossbar. Logo remains attached to rear black panel behind chrome rods and weight stack; do not alter or duplicate upper logo. (2) There is an incorrectly green horizontal/sloping seat support rail immediately beneath the seat/handgrip on the image right of green diagonal roller lever. Restore that entire fixed seat support rail to original charcoal BLACK, matching black main frame. Only the main diagonal roller lever and its connecting roller bracket should be green in this reverse view. Keep pulley discs black and hardware silver. White background and all existing labels unchanged. Deliver one edited image only.",
+      "inputs": [
+        "C:/Users/lucam/.codex/generated_images/01a1b533-14a5-79b1-a698-ea7a722e9d25/exec-d299f58d-876d-4723-8291-6785fc9adb47.png"
+      ],
+      "generated_path": "C:/Users/lucam/.codex/generated_images/01a1b533-14a5-79b1-a698-ea7a722e9d25/exec-216a25e9-86ae-4951-9048-d91617f8e9b3.png",
+      "status": "revised",
+      "reason": "Fixed black seat rail; rear logo rotation still incorrect"
+    },
+    {
+      "prompt": "Precise image edit. Image 1 is the target Leg Extension with existing green lever and Full Muscle brand. Image 2 is a REFERENCE ONLY for the correct rear logo, on another machine. Change ONLY the rear panel logo in image 1 to use exactly the clockwise orientation and typography of the rear logo in image 2: the large white word Full is at the TOP, the large green word Muscle is BELOW it, letters are rotated clockwise, and the small EQUIPMENT baseline is on the LEFT of the large words. Remove the incorrectly oriented existing rear logo completely and place this correctly oriented logo ON the rear black plate, naturally behind chrome rods, seat and weight stack. This panel in image 1 is between two chrome vertical rods and directly above the weight stack. Full must appear at the top of that exposed region. Do not change any other area of image 1: same green lever, black fixed seat support, same upper logo, same machine geometry, same camera and white background. Deliver one edited image matching image 1.",
+      "inputs": [
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-preview/FM-GC-5002__view-02.png",
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-preview/FM-GC-5010__view-02.png"
+      ],
+      "generated_path": "C:/Users/lucam/.codex/generated_images/01a1b533-14a5-79b1-a698-ea7a722e9d25/exec-7b170e11-17cf-4ac2-a314-40eba514da7f.png",
+      "status": "rejected",
+      "reason": "Seat geometry drift to expose rear logo"
+    },
+    {
+      "prompt": "Image 1 is the target photograph. Image 2 shows only a branding style reference on another machine. Perform a VERY SMALL LOCAL edit to image 1, restricted to the EXISTING rear black plate rectangle between x=720 and x=810, y=548 and y=640 (image dimensions 1527x1029). Inside this rectangle erase the small existing printed logo and print the white/green Full Muscle logo with the same clockwise vertical orientation as image 2 (Full at TOP, Muscle BELOW, EQUIPMENT on LEFT). The logo must be small enough to fit this existing rectangle. Do not enlarge the rear plate, do not change its curved top edge, do not move or redraw the seat or handles to expose the logo. Keep the logo naturally partly hidden below y=640 by the exact foreground seat and handle. Everything outside this tiny rectangle must remain unchanged: especially keep the exact current seat cushion, handle positions, green leg lever and black horizontal seat support. Keep all white open areas of upper tower white. No new panels. Return one image, same geometry and composition.",
+      "inputs": [
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-preview/FM-GC-5002__view-02.png",
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-preview/FM-GC-5010__view-02.png"
+      ],
+      "generated_path": "C:/Users/lucam/.codex/generated_images/01a1b533-14a5-79b1-a698-ea7a722e9d25/exec-d5e3bad3-dafc-4c8b-a409-50151e32428f.png",
+      "status": "selected",
+      "reason": "Bounded logo-only correction preserves seat and black rail; rear logo clockwise and naturally occluded"
+    }
+  ],
+  "qa": "Selected preview visually checked: green rear surface of shin roller lever, fixed seat rail black, main geometry preserved, upper and rear Full Muscle marks; rear mark clockwise, small and naturally occluded. Fine instruction/weight text AI-rendered and requires prepublication review."
+}

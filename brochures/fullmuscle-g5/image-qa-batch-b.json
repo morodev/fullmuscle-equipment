@@ -1,0 +1,373 @@
+{
+  "batch": "batch-b",
+  "reviewer": "g5_product_images / independent visual review",
+  "reviewedAt": "2026-11-07T09:38:50.136Z",
+  "status": "pass-with-minor-notes",
+  "count": 32,
+  "materialFailures": 0,
+  "supplierBrandResiduesObserved": 0,
+  "method": "Confronto affiancato originale/output corrente su 8 tavole da 4 prodotti, immagini contenute in riquadri da 500 px e tavole viste a risoluzione originale; approfondimento a piena dimensione per FM-GC-5080 e adesivo originale FM-GC-5039.",
+  "scope": [
+    "identità del modello",
+    "inquadratura",
+    "posizione e presenza dei componenti principali",
+    "residui visibili dei marchi TZ/Fitness",
+    "conversione delle principali parti rosse in verde"
+  ],
+  "conclusion": "Tutti i 32 output correnti conservano il modello e le principali parti rispetto agli originali; non rilevati errori sostanziali o residui evidenti dei marchi del fornitore. Nessuna rigenerazione richiesta da questa revisione.",
+  "minorFindings": [
+    {
+      "sku": "FM-GC-5039",
+      "severity": "minor",
+      "finding": "Il piccolo adesivo tecnico sul retro è sostituito dal logo Full Muscle.",
+      "impact": "Nessuna alterazione strutturale; l'illustrazione non conserva quella specifica etichetta."
+    },
+    {
+      "sku": [
+        "FM-GC-5053-1",
+        "FM-GC-5054"
+      ],
+      "severity": "minor",
+      "finding": "Logo posteriore bianco disposto su due righe, diverso dalla variante bianco/verde in corsivo usata altrove.",
+      "impact": "Differenza grafica; nessun marchio TZ residuo."
+    }
+  ],
+  "limitations": [
+    "Controllo visivo di illustrazioni commerciali, non validazione tecnica delle macchine.",
+    "Microtesti delle targhette, numeri pesi, piccoli bulloni e percorsi esatti dei cavi non certificati.",
+    "Non si dichiara identità pixel per pixel: resa dei materiali, ombre e dettagli minuti possono variare.",
+    "Le tavole in proofs sono solo strumenti di analisi e non asset per pubblicazione."
+  ],
+  "proofs": [
+    "brochures/fullmuscle-g5/proofs/review-batch-b-1.png",
+    "brochures/fullmuscle-g5/proofs/review-batch-b-2.png",
+    "brochures/fullmuscle-g5/proofs/review-batch-b-3.png",
+    "brochures/fullmuscle-g5/proofs/review-batch-b-4.png",
+    "brochures/fullmuscle-g5/proofs/review-batch-b-5.png",
+    "brochures/fullmuscle-g5/proofs/review-batch-b-6.png",
+    "brochures/fullmuscle-g5/proofs/review-batch-b-7.png",
+    "brochures/fullmuscle-g5/proofs/review-batch-b-8.png"
+  ],
+  "items": [
+    {
+      "sku": "FM-GC-5032",
+      "original": "data/catalog-assets/originals/79/7944eabdaf7c55db06a0cc36e1e3e152c423a7c92e4ce957cc139568204b23f7.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5032.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Due ripiani e supporti per manubri coerenti; marchio sul montante sostituito."
+    },
+    {
+      "sku": "FM-GC-5033",
+      "original": "data/catalog-assets/originals/d1/d1cffceb776795a3bfd23ee8a61ce3b2cfd1e0b8d3cee1141e84677d7e666584.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5033.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Seduta, torre, leve adduttori/abduttori e regolazioni principali coerenti; rosso convertito in verde."
+    },
+    {
+      "sku": "FM-GC-5034",
+      "original": "data/catalog-assets/originals/b4/b4507b55e456cf029403b95f30fd775e4ff61c4343b931242dfc24623df73793.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5034.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Quattro montanti, seduta a tre elementi e pedana posteriore coerenti."
+    },
+    {
+      "sku": "FM-GC-5035",
+      "original": "data/catalog-assets/originals/82/82aebb4dae76b2722a4bdc985b789c08d0e405a4fe08b1829b7a9ee57e8bdcd9.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5035.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Panca e montanti telescopici della combinata coerenti; entrambe le targhette principali sostituite."
+    },
+    {
+      "sku": "FM-GC-5037",
+      "original": "data/catalog-assets/originals/04/042781bd58c3782a48d83ccfe554b20abd65b1e87a8c371df50b2ede3695408f.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5037.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Rullo, leva addominali, appoggio e due elementi inferiori conservati."
+    },
+    {
+      "sku": "FM-GC-5038",
+      "original": "data/catalog-assets/originals/b0/b01a704df9892fdf4e616e2279601170fc5f1604d2be25cbb61c297de5206a90.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5038.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Torri, pulegge superiori, guide e impugnature della cable jungle coerenti."
+    },
+    {
+      "sku": "FM-GC-5039",
+      "original": "data/catalog-assets/originals/dd/dd3d69cc57fda257d074b6e81b57f715743503b5bf256a4014a0daef5298257e.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5039.png",
+      "status": "pass-with-minor-note",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Macchinario e vista posteriore coerenti. Il piccolo adesivo tecnico originale sul pannello posteriore è stato sostituito dal logo Full Muscle."
+    },
+    {
+      "sku": "FM-GC-5043",
+      "original": "data/catalog-assets/originals/bb/bbc8242227b561ae48ec2033e8227c43b0e2176f9f60a9788d8fb49159ee27b9.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5043.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Panca declinata, rulli e struttura portabilanciere coerenti."
+    },
+    {
+      "sku": "FM-GC-5044",
+      "original": "data/catalog-assets/originals/dd/ddc1e346288c9acf5c9b446f3f14f090d5218db10c35d84b44781ab90408c6da.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5044.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Panca prone, rullo e leva laterale coerenti; marchi superiore e posteriore sostituiti."
+    },
+    {
+      "sku": "FM-GC-5044-1",
+      "original": "data/catalog-assets/originals/d1/d15ba595072a6fbe1547e3214934a85fcb6ea3f85e8c68f315de4f607ed19007.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5044-1.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Variante della panca prone con settore laterale grande e rulli coerente."
+    },
+    {
+      "sku": "FM-GC-5045",
+      "original": "data/catalog-assets/originals/45/4515dc408e27799673dfafae35b8dedd2b6607581f38b466b93873e3c8410327.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5045.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Tre ripiani e supporti portamanubri coerenti; logo laterale sostituito."
+    },
+    {
+      "sku": "FM-GC-5046",
+      "original": "data/catalog-assets/originals/b1/b1a485b9b7eaab41b7975417c884792bbe579c494a146a490b5d712526045286.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5046.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Versione corrente corretta: pannello dietro il pacco pesi senza residuo TZ evidente; leva e appoggio braccia coerenti."
+    },
+    {
+      "sku": "FM-GC-5047",
+      "original": "data/catalog-assets/originals/91/91481bbfa56b6b4cfd9ea2e1d6d2e993ef9f861720b25867940f30606698f55c.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5047.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Bracci lunghi, snodi superiori e seduta pec/rear-delt coerenti."
+    },
+    {
+      "sku": "FM-GC-5049",
+      "original": "data/catalog-assets/originals/45/457f3f2761d04ccc397caffe51f40cdca1935e67d15f4f411756b0129c709c20.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5049.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Spallacci, guida telescopica, leva inferiore e rialzo per polpacci coerenti."
+    },
+    {
+      "sku": "FM-GC-5050",
+      "original": "data/catalog-assets/originals/06/06397a7742bc13c279fc6c238c6eb3c99a968f7eacf8388357c3950b4881e5f6.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5050.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Seduta, schienale, maniglie e leve dip coerenti."
+    },
+    {
+      "sku": "FM-GC-5051",
+      "original": "data/catalog-assets/originals/4d/4d5c2c46540d6749f3034fd236055eefc44fc39caf1aea815e5ab48237bd754f.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5051.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Versione corrente corrisponde al rack originale: nessuna sostituzione con altro modello, montanti e sicurezze coerenti."
+    },
+    {
+      "sku": "FM-GC-5052",
+      "original": "data/catalog-assets/originals/9c/9c974ceccbc68b53ad90e12ae81fed1097b89a105644690e18d5b059ba247ecb.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5052.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Panca utility, schienale e appoggi inferiori coerenti."
+    },
+    {
+      "sku": "FM-GC-5053",
+      "original": "data/catalog-assets/originals/f2/f2cd8efa11ea9ef60246b7ac84f28429a6be75e808870845ab14bcb5881e4bdd.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5053.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Versione corrente corretta: anche la striscia fra gli appoggi è verde; geometria coerente."
+    },
+    {
+      "sku": "FM-GC-5053-1",
+      "original": "data/catalog-assets/originals/9f/9fcfc3485c9c48de4a074affb2365ddbe430da6192a62600ac748627989dd79e.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5053-1.png",
+      "status": "pass-with-minor-note",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Variante con maniglie verticali sulla torre coerente; logo posteriore bianco su due righe, diverso stilisticamente ma senza TZ."
+    },
+    {
+      "sku": "FM-GC-5054",
+      "original": "data/catalog-assets/originals/16/1633a89db88acb0e67272f039926e89aef3f5b6ac016b104f1ad6eaaa6a35e39.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5054.png",
+      "status": "pass-with-minor-note",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Leva combinata schiena/addominali e rulli coerenti; logo posteriore bianco su due righe, senza TZ."
+    },
+    {
+      "sku": "FM-GC-5055",
+      "original": "data/catalog-assets/originals/c0/c01c2aff09cb5302a7a271392ade31582f143eec297a06bb9f62a8cda0c4197b.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5055.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Rulli sovrapposti e braccio orizzontale della variante leg curl/extension coerenti."
+    },
+    {
+      "sku": "FM-GC-5055-1",
+      "original": "data/catalog-assets/originals/99/995335e08e294fc0c6286d1bf948c6dab2cf61bee7ee364ab42e3a189e5bacf8.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5055-1.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Variante con braccio diagonale e appoggio superiore coerente; piccoli anelli rossi sulle impugnature conservati."
+    },
+    {
+      "sku": "FM-GC-5056",
+      "original": "data/catalog-assets/originals/98/985edac44da41a7ec1c1537a8bf80560cff42a55652d9f477975df7b1e9cbc7b.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5056.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Panca inclinabile e leve della chest press coerenti."
+    },
+    {
+      "sku": "FM-GC-5057",
+      "original": "data/catalog-assets/originals/41/41eba244012b14fde533741a3fce52aaf50878cfa454df08f0b3a96d78845c27.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5057.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Boom superiore, due prese, panca e appoggi low-row coerenti."
+    },
+    {
+      "sku": "FM-GC-5058",
+      "original": "data/catalog-assets/originals/8f/8f1b31bea2501adc152ac3981648ce324a0205ac2e0b35128ca30661da0c3589.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5058.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Panca doppio uso, rullo laterale e braccio coerenti."
+    },
+    {
+      "sku": "FM-GC-5061",
+      "original": "data/catalog-assets/originals/33/3352c811a3d4312dc6c2e6944d90239c83b58ba450cffd5f7a366dc3c46560ed.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5061.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Spallacci, schienale, piastre e struttura power squat coerenti."
+    },
+    {
+      "sku": "FM-GC-5062",
+      "original": "data/catalog-assets/originals/58/58c5eb1b32ab738fd155d7e20a1c26435685cd5953f15488b528db6983b12a81.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5062.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Piano imbottito diviso, pendolo e supporti reverse hyper coerenti."
+    },
+    {
+      "sku": "FM-GC-5073",
+      "original": "data/catalog-assets/originals/7f/7f9fb73d2f5a101e82d2a7bac482942c3eb0128f5edb5e85e52594b5c528a908.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5073.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Rack bianco/nero e supporti coerenti; aggiunto marchio superiore."
+    },
+    {
+      "sku": "FM-GC-5074",
+      "original": "data/catalog-assets/originals/92/92cb5bd26b56281ccab249d2738ff469f0d70dd97d3c74bd4a28327954a47c5a.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5074.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Slitta, pedana e schienale compact press coerenti; pomelli rossi originali conservati."
+    },
+    {
+      "sku": "FM-GC-5079",
+      "original": "data/catalog-assets/originals/e3/e303915277e3e0b33be2d94c6905645b098d9978911faf3544650d981bacb1e3.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5079.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Braccio pendolare, appoggio posteriore e pedana coerenti."
+    },
+    {
+      "sku": "FM-GC-5080",
+      "original": "data/catalog-assets/originals/64/64ae07a689eadf0fa364e13a0f6c16d3f652eb0543360dec81f75b39b2ca1df2.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5080.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Bracci, guide e pedana smith rower coerenti; controllo aggiuntivo del PNG a piena dimensione conferma carrelli verdi."
+    },
+    {
+      "sku": "FM-GC-5081",
+      "original": "data/catalog-assets/originals/1a/1ab92b6432a53b612ec28d6402925dc68328ccf0daa98e52e33bab3ca6523d55.jpg",
+      "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5081.png",
+      "status": "pass",
+      "modelMatch": true,
+      "mainComponentsMatch": true,
+      "supplierBrandResidueObserved": false,
+      "note": "Slitta a 45 gradi, pedana, guide e seduta coerenti."
+    }
+  ]
+}

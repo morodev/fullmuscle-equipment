@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Target FM-GC-5054. This is the exact selectorized weight machine from the image. Recolor ONLY red painted metal moving levers and plates to satin forest-green #356b35; preserve black upholstery/structure and chrome. Preserve every component, exact geometry, angle, mechanism, padding, rods, cables, handles, bolts, whitebackground and scale. Replace all TZ FITNESS/FIT supplier lettering with bold italic 'Full Muscle', white Full green Muscle. Rear lettering if present must occupy ONLY the existing black panel without adding or extending any panel into open white space. It reads Full then Muscle downward, rotated clockwise90. Do not change anything else. Do NOT generate a different machine. High fidelity photo edit of the single attached target, entire machine visible. No people or decoration.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/16/1633a89db88acb0e67272f039926e89aef3f5b6ac016b104f1ad6eaaa6a35e39.jpg"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-35031dd0-a3b3-483c-bfaa-987eab6a5a08.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5054.png"
+}

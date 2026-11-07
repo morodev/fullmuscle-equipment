@@ -1,0 +1,24 @@
+{
+  "sku": "FM-GC-5097",
+  "sourceSku": "GC-5097",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/04/GC-5097-4-Multi-Gym-Equipment-Jungle-4-Stations.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/57/578d119119cf9a08c193e5d8ac97701aa5312df34399b81adad522e8d6211c29.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:32:12.660Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "inputPaths": [
+    "data/catalog-assets/originals/57/578d119119cf9a08c193e5d8ac97701aa5312df34399b81adad522e8d6211c29.jpg",
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Full Muscle G5 product catalogue PNG. Edit target is image 1 (GC-5097, 4 Multi-Station); image 2 is only the approved forest green colour reference and image 3 only the Full Muscle wordmark reference. Preserve image 1 exactly: same machine design, geometry, number and positions of every part, chrome rods, bolts, black upholstery, grips, frame, angle, framing, white background and shadows. Change ONLY all RED painted machine parts into deep forest green #356B35 with realistic original highlights, and replace each supplier TZFITNESS/TZ logo on its existing small badge with the italic 'Full Muscle' logo from image 3 (Full white, Muscle green, small EQUIPMENT). Remove any remaining supplier wordmark. No machine substitutions, no added parts, no people, no captions, no extra labels, no border. Keep safety markings and fine mechanical details. Output the whole isolated machine with ample white margin, sharp high-resolution square catalogue image. This product has NO red painted metal: retain ALL black paint and silver components. Replace ONLY the existing red-and-white supplier logo badge with the small Full Muscle wordmark. Do not invent green painted parts; the green is in the new logo only. Keep the exact arrangement and number of shelves/seats/cables.\nRefinement: Precise colour correction only. In this image, change the GREEN METAL top crossbars and GREEN METAL rectangular handrail/support loops at middle height back to MATTE BLACK matching the rest of the frame. Keep the small Full Muscle wordmark with its green lettering unchanged. All metal frame parts must be black, with silver chrome rods unchanged. Keep ALL geometry, cables, pulleys, seats, rolls, weights, lighting, framing and white background identical. Do not remove any parts. Only restore green painted metal to black.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-d02231a9-194f-4fd4-8443-ba32b5753c48.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5097.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Verifica visiva superata: multistazione nera conservata senza nuove parti; solo personalizzazione del marchio."
+  }
+}

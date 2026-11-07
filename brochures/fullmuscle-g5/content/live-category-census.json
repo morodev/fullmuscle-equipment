@@ -1,0 +1,192 @@
+{
+  "checkedAt": "2026-11-07T09:40:41.949Z",
+  "method": "Live HTTPS GET, sole pagine categoria e paginazione; intervallo minimo 1000 ms",
+  "discovery": {
+    "homepage": "https://tzfit.com/",
+    "currentCategory": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/",
+    "previousPathsReturning404": [
+      "https://tzfit.com/g5-series-pin-loaded-machine/",
+      "https://tzfit.com/pin-loaded-machine/g5-series-pin-loaded-machine/"
+    ]
+  },
+  "robots": {
+    "url": "https://tzfit.com/robots.txt",
+    "text": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /feed/\nDisallow: /*/feed/\nDisallow: /comments/feed/\nDisallow: /*/comments/feed/\nDisallow: /search/\nDisallow: /wp-json/\nDisallow: /wp-includes/\n\nSitemap: https://tzfit.com/sitemap_index.xml",
+    "sha256": "82207d5b85401e6f46953f96232b44c9cb41dd509d86c59c30937ee7869afa51",
+    "categoryAllowed": true
+  },
+  "completePagination": true,
+  "pages": [
+    {
+      "url": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/",
+      "sha256": "da5a40370941943bde3ae9926aa2b571d57bd334321e37438709f9f379a31a1c",
+      "productUrls": [
+        "https://tzfit.com/gc-5001-seated-leg-curl/",
+        "https://tzfit.com/exercise-equipment-leg-extension-gc-5002/",
+        "https://tzfit.com/pin-loaded-selection-leg-extension-gc-5002-1/",
+        "https://tzfit.com/waist-twister-exercise-rotary-torso-machine-gc-5003/",
+        "https://tzfit.com/strength-training-seated-rowing-machine-gc-5004/",
+        "https://tzfit.com/gym-equipment-manufacturer-chest-press-gc-5005/",
+        "https://tzfit.com/pin-loaded-fitness-back-extension-gc-5006/",
+        "https://tzfit.com/workout-pec-fly-machine-gym-equipment-gc-5007/",
+        "https://tzfit.com/gym-machine-lat-pull-down-gc-5008/",
+        "https://tzfit.com/multi-hip-strength-training-gc-5009/",
+        "https://tzfit.com/lateral-shoulder-raise-delt-machine-gc-5010/",
+        "https://tzfit.com/wholesale-gym-triceps-extension-machine-gc-5011/"
+      ],
+      "nextUrl": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/2/"
+    },
+    {
+      "url": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/2/",
+      "sha256": "616be2bafc34e5753a66449261aee8797772d44f4715a078af8ee59d1a5916d9",
+      "productUrls": [
+        "https://tzfit.com/seated-shoulder-press-machine-gc-5012/",
+        "https://tzfit.com/inner-thigh-adductor-exercises-gym-equipment-gc-5014/",
+        "https://tzfit.com/total-abdominal-gym-equipment-manufacturer-gc-5015/",
+        "https://tzfit.com/outer-thigh-abductor-exercise-equipment-gc-5033/",
+        "https://tzfit.com/exercise-equipment-horizontal-leg-press-gc-5016/",
+        "https://tzfit.com/commercial-exercise-smith-machine-gc-5017/",
+        "https://tzfit.com/pin-loaded-selection-dip-chin-assisted-station-gc-5019/",
+        "https://tzfit.com/china-gym-equipment-lat-pulldown-machine-gc-5020/",
+        "https://tzfit.com/wholesale-fitness-equipment-low-row-gc-5021/",
+        "https://tzfit.com/gym-equipment-suppliers-glute-machine-gc-5022/",
+        "https://tzfit.com/muscle-trainer-glute-machine-gc-5022-1/",
+        "https://tzfit.com/strength-training-abdominal-crunch-machine-gc-5037/"
+      ],
+      "nextUrl": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/3/"
+    },
+    {
+      "url": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/3/",
+      "sha256": "06f86dad2907f19e9e51f99afb26bc3e53399d8f3bd62d4f8ed0649c1a62bb02",
+      "productUrls": [
+        "https://tzfit.com/body-building-strength-machine-prone-leg-curl-gc-5044/",
+        "https://tzfit.com/muscle-gym-exercise-prone-leg-curl-gc-5044-1/",
+        "https://tzfit.com/biceps-curl-pin-load-selection-machines-gc-5046/",
+        "https://tzfit.com/gym-fitness-butterfly-machine-pec-fly-rear-delt-gc-5047/",
+        "https://tzfit.com/commercial-gym-pin-loaded-stand-calf-raise-gc-5049/",
+        "https://tzfit.com/strength-training-seated-triceps-dip-gc-5050/",
+        "https://tzfit.com/inner-outer-thigh-exercise-machine-gc-5053/",
+        "https://tzfit.com/adductor-abductor-inner-outer-thigh-machine-gc-5053-1/",
+        "https://tzfit.com/commercial-gym-back-extension-abdominal-trainer-gc-5054/",
+        "https://tzfit.com/pin-loaded-leg-curl-extension-machine-gc-5055/",
+        "https://tzfit.com/pin-loaded-selection-seated-leg-curl-extension-gc-5055-1/",
+        "https://tzfit.com/dual-function-chest-shoulder-press-trainer-gc-5056/"
+      ],
+      "nextUrl": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/4/"
+    },
+    {
+      "url": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/4/",
+      "sha256": "e1d7af87bc374d31618b3e4bfdfd8f662f8be6332af0c50990a2ac4aaec39cc9",
+      "productUrls": [
+        "https://tzfit.com/lat-pulldown-low-row-strength-fitness-machine-gc-5057/",
+        "https://tzfit.com/commercial-gym-combo-leg-exercise-machine-gc-5058/",
+        "https://tzfit.com/upper-body-exercises-standing-multi-flight-gc-5084/",
+        "https://tzfit.com/dual-function-seated-biceps-triceps-machine-gc-5086/",
+        "https://tzfit.com/glute-drive-hip-thrust-exercise-machine-gc-5092/",
+        "https://tzfit.com/commercial-gym-lateral-shoulder-press-gc-5095/",
+        "https://tzfit.com/gym-equipment-squat-machine-c-o-d-g-45/",
+        "https://tzfit.com/multi-station-cable-jungle-gc-5038/",
+        "https://tzfit.com/gym-wholesalers-dual-cable-cross/",
+        "https://tzfit.com/gym-machine-dual-cable-cross-g-42/",
+        "https://tzfit.com/gym-cable-multi-functional-trainer-machine-gc-5090/",
+        "https://tzfit.com/strength-training-hip-trainer-gc-5039/"
+      ],
+      "nextUrl": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/5/"
+    },
+    {
+      "url": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/5/",
+      "sha256": "92ce4458a98f63b6d71eb4626c345802449d29c78df6931c7bfd120636cfe96a",
+      "productUrls": [
+        "https://tzfit.com/multi-gym-squat-power-rack-gc-5073/",
+        "https://tzfit.com/ga-5073-1-power-rack-with-weightlifting-platform/",
+        "https://tzfit.com/commercial-cable-crossover-machine-gc-5018/",
+        "https://tzfit.com/gc-5080-smith-rower/",
+        "https://tzfit.com/commercial-gym-45-degree-leg-press-machine-gc-5081/",
+        "https://tzfit.com/45-degree-strength-exercise-hack-squat-machine-gc-5082/",
+        "https://tzfit.com/45-degree-leg-press-hack-squat-combo-machine-gc-5083/",
+        "https://tzfit.com/upper-exercise-bench-chest-press-gc-5085/",
+        "https://tzfit.com/commercial-gym-exercise-belt-squat-machine-gc-5087/",
+        "https://tzfit.com/abdominal-oblique-crunch-gym-machine-gc-5088/",
+        "https://tzfit.com/commercial-exercise-power-squat-machine-gc-5089/",
+        "https://tzfit.com/plate-loaded-leg-exercise-squat-machine-gc-5061/"
+      ],
+      "nextUrl": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/6/"
+    },
+    {
+      "url": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/6/",
+      "sha256": "1c6e60f9f1bffea23a368df91aee717bc613666919ab13ae51041b6d65b0847a",
+      "productUrls": [
+        "https://tzfit.com/fitness-reverse-hyper-extension-machine-gc-5062/",
+        "https://tzfit.com/commercial-pendulum-squat-gym-equipment-gc-5079/",
+        "https://tzfit.com/gym-lat-pulldown-exercise-equipment-gc-5093/",
+        "https://tzfit.com/adjustable-fid-bench-press-gc-5091/",
+        "https://tzfit.com/plate-loaded-incline-lever-row-t-bar-rower-gc-5094/",
+        "https://tzfit.com/knee-raise-gym-equipment-gc-5019-1/",
+        "https://tzfit.com/equipment-gym-knee-raise-gc-5019-2/",
+        "https://tzfit.com/olympic-flat-weight-bench-press-gc-5023/",
+        "https://tzfit.com/workout-exercise-adjustable-dumbbell-bench-gc-5024/",
+        "https://tzfit.com/adjustable-dumbbell-bench-gc-5024-1/",
+        "https://tzfit.com/gc-5024b-adjustable-bench/",
+        "https://tzfit.com/strength-trainer-bicep-curl-preacher-machine-gc-5025/"
+      ],
+      "nextUrl": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/7/"
+    },
+    {
+      "url": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/7/",
+      "sha256": "9f4907bc2a77033fda72fe7e9619270f17eadf4ef4112667c0b54e070530655f",
+      "productUrls": [
+        "https://tzfit.com/gym-exercise-preacher-curl-gc-5025a/",
+        "https://tzfit.com/commercial-roman-chair-gc-5026/",
+        "https://tzfit.com/abdominal-trainer-bench-abdominal-crunch-bench-gc-5027/",
+        "https://tzfit.com/commercial-weight-plate-tree-gc-5028/",
+        "https://tzfit.com/barbell-rack-fitness-accessories-gc-5029/",
+        "https://tzfit.com/free-weight-incline-bench-press-machine-gc-5030/",
+        "https://tzfit.com/dumbbell-flat-bench-press-gc-5031/",
+        "https://tzfit.com/gym-equipment-fitness-dumbbell-rack-gc-5032/",
+        "https://tzfit.com/equipment-fitness-dumbbell-rack-gc-5045/",
+        "https://tzfit.com/gc-5013-dumbbell-rack/",
+        "https://tzfit.com/military-bench-free-weights-gc-5034/",
+        "https://tzfit.com/adjustable-dumbbell-bench-press-and-squat-rack-gc-5035/"
+      ],
+      "nextUrl": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/8/"
+    },
+    {
+      "url": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/8/",
+      "sha256": "2bf82ba3e3e77f265ccecc00e8bb986b8f1c25d19adf457b9367ad47b3508ac8",
+      "productUrls": [
+        "https://tzfit.com/weight-lifting-decline-bench-press-gc-5043/",
+        "https://tzfit.com/commercial-fitness-squat-rack-gc-5051/",
+        "https://tzfit.com/exercise-equipment-utility-bench-gc-5052/",
+        "https://tzfit.com/compact-calf-raise-leg-press-hack-squat-machine-gc-5074/",
+        "https://tzfit.com/kettlebell-storage-rack-gc-5096/",
+        "https://tzfit.com/standing-chest-press-machine-gc-5101/",
+        "https://tzfit.com/gc-5102-anchor-row-machine/",
+        "https://tzfit.com/gc-5103-shoulder-press-machine/",
+        "https://tzfit.com/gc-5105-squat-and-calf-block/",
+        "https://tzfit.com/gc-5106-flat-bench-press/",
+        "https://tzfit.com/gc-5107-incline-bench-press/",
+        "https://tzfit.com/commercial-multi-gym-4-station-gc-5097/"
+      ],
+      "nextUrl": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/9/"
+    },
+    {
+      "url": "https://tzfit.com/category/pin-loaded-machine/g5-series-pin-loaded-machine/page/9/",
+      "sha256": "3f29871397cee2504f457293758d5937d147d28a57ea81d9244d0bfe549543a7",
+      "productUrls": [
+        "https://tzfit.com/gc-5113-vertical-crunch-station/",
+        "https://tzfit.com/gc-5114-adjustable-dumbbell-stand/",
+        "https://tzfit.com/gc-5115-standing-calf-raise-machine/",
+        "https://tzfit.com/4-multi-station-with-pull-up-function-gc-5097a/",
+        "https://tzfit.com/multi-function-gym-equipment-5-station-gc-5098/",
+        "https://tzfit.com/8-multi-station-gc-5099/",
+        "https://tzfit.com/strength-training-single-pulley-gc-5098a-5200/",
+        "https://tzfit.com/4-multi-station-gc-5098a-5202/",
+        "https://tzfit.com/gym-equipment-4-multi-station-gc-5098a-5203/"
+      ]
+    }
+  ],
+  "baselineCount": 105,
+  "liveUrlCount": 105,
+  "missingFromLive": [],
+  "addedToLive": []
+}

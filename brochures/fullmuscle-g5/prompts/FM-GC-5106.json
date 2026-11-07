@@ -1,0 +1,22 @@
+{
+  "sku": "FM-GC-5106",
+  "sourceSku": "GC-5106",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:36:01.532Z",
+  "input": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/25/25e99fcb05715991617916ef1ed6419706fe289e7f90c41420d796d1de9a27a9.jpg",
+  "inputPaths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/25/25e99fcb05715991617916ef1ed6419706fe289e7f90c41420d796d1de9a27a9.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Italian Full Muscle Equipment product catalogue. Edit ONLY image 1, preserving precisely the same machine geometry, mechanical parts, framing, perspective, white background, light and shadows. Image 2 is color reference ONLY; image 3 is logo style reference ONLY, do not copy its machine or its residual supplier lettering. Recolor ONLY existing red-painted structural metal to satin forest green #356B35, matched to image 2. Keep black metal, black pads, rubber, weight plates, chrome, silver fasteners and safety/exercise diagram labels unchanged. Remove ALL manufacturer branding TZFIT, TZ FITNESS, FITNESS, FIT, including partial or occluded lettering on rear panels. Replace manufacturer nameplates with a small clean italic 'Full Muscle' wordmark ('Full' white, 'Muscle' green), tiny white 'EQUIPMENT' underneath, in perspective like image3. Preserve all rails, handles, bolts and other geometry. Do not add components, gym background, people, borders, watermarks or extra text. Return the single edited product photo at original aspect ratio, high detail. This is a flat bench with two tall perforated silver uprights, a silver barbell and red adjustable supports. Recolor ONLY the red safety arms, red hook carriage blocks and red adjustment brackets to green. Preserve the entire tall silver perforated uprights and barbell in silver; black bench pad and base remain black. Add one small Full Muscle logo on the existing broad black front bench support beam. Do not invent a weight stack or different mechanism.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-8ced2182-b31e-4bfa-a2f9-dc93cd688fc6.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5106.png",
+  "reviewStatus": "passed",
+  "visualQA": {
+    "passed": true,
+    "notes": "Only existing red support brackets recolored green; silver uprights/barbell, black pad/base and exact geometry preserved. Small Full Muscle logo added."
+  }
+}

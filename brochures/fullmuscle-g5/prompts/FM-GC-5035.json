@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Asset: commercial fitness catalogue product photo for FM-GC-5035. Image1 is the EXACT product to edit. Image2 is color and branding reference only. This equipment is all black: keep all black structure and upholstery black. Only update the existing red supplier logo badge to Full Muscle with small forest-green branding accents. Do not invent painted panels or new parts. Replace every visible TZFIT/TZ FITNESS/Fitness supplier brand mark with a faithful italic bold 'Full Muscle' wordmark, white Full and green Muscle on dark badge, same placement and perspective; vertical labels read top to bottom after clockwise90 rotation. Preserve exact machine geometry, every upright, handle, bolt, cable, pad, weight plate, chrome part, angle, scale and white background. Keep technical exercise decals unchanged except tiny supplier marks. Photorealistic high-detail isolated studio product. No people, extra machines, floor, decorative shapes or floating text. Do not redesign or omit parts. Keep whole machine visible with breathing room. Output largest practical resolution.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/82/82aebb4dae76b2722a4bdc985b789c08d0e405a4fe08b1829b7a9ee57e8bdcd9.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-341c99b6-9f84-47c9-b712-90358fc51675.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5035.png"
+}

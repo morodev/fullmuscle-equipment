@@ -1,0 +1,21 @@
+{
+  "sku": "FM-GC-5105",
+  "sourceSku": "GC-5105",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:36:00.731Z",
+  "input": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/b5/b5fd496e8201399afd6158000a6c1111a248a2d25245592b9659b686db435e77.jpg",
+  "inputPaths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/b5/b5fd496e8201399afd6158000a6c1111a248a2d25245592b9659b686db435e77.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Edit only IMAGE1, a completely BLACK product on white background. Image2 is LOGO reference ONLY; do not copy its machine or colors. NO GREEN PAINT: do not recolor ANY component. Preserve every original black finish, chrome part, exact geometry, joints, perspective, shadow and background. Add only a SMALL discreet italic 'Full Muscle' logo with 'Full' white and 'Muscle' green, tiny white EQUIPMENT below, on an existing black beam, in correct perspective. Do not create a new physical panel. The only green pixels allowed are the letters Muscle in that logo. No added equipment, people, modifications, borders or watermarks. Return the same product photograph. This is a squat/calf block with exactly TWO small elevated platforms joined by a low long horizontal base beam. Put the small logo at the centre of that existing long connecting beam. Keep all surfaces solid black.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-e17d5d3d-8bde-4da5-906a-a75c0a50b145.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5105.png",
+  "reviewStatus": "passed",
+  "visualQA": {
+    "passed": true,
+    "notes": "All-black original finish preserved with small Full Muscle logo only; no green painted parts added."
+  }
+}

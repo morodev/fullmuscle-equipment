@@ -1,0 +1,298 @@
+{
+  "generatedAt": "2026-11-07T09:32:32.256Z",
+  "source": "local dist/client after npm run build",
+  "chrome": "installed Google Chrome",
+  "results": [
+    {
+      "width": 320,
+      "label": "g5",
+      "url": "/it/catalogo/linee/fm-g5-series/",
+      "count": 2,
+      "expected": 2,
+      "details": [
+        {
+          "text": "Scarica il catalogo G5 (PDF)",
+          "download": true,
+          "display": "inline-flex",
+          "width": 300,
+          "x": 10,
+          "withinViewport": true,
+          "visible": true
+        },
+        {
+          "text": "Catalogo G5 (PDF)",
+          "download": true,
+          "display": "block",
+          "width": 114.125,
+          "x": 10,
+          "withinViewport": true,
+          "visible": true
+        }
+      ],
+      "viewport": 320,
+      "documentWidth": 320,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "label": "g5-p2",
+      "url": "/it/catalogo/linee/fm-g5-series/pagina/2/",
+      "count": 2,
+      "expected": 2,
+      "details": [
+        {
+          "text": "Scarica il catalogo G5 (PDF)",
+          "download": true,
+          "display": "inline-flex",
+          "width": 300,
+          "x": 10,
+          "withinViewport": true,
+          "visible": true
+        },
+        {
+          "text": "Catalogo G5 (PDF)",
+          "download": true,
+          "display": "block",
+          "width": 114.125,
+          "x": 10,
+          "withinViewport": true,
+          "visible": true
+        }
+      ],
+      "viewport": 320,
+      "documentWidth": 320,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "label": "home-it",
+      "url": "/it/",
+      "count": 1,
+      "expected": 1,
+      "details": [
+        {
+          "text": "Catalogo G5 (PDF)",
+          "download": true,
+          "display": "block",
+          "width": 114.125,
+          "x": 10,
+          "withinViewport": true,
+          "visible": true
+        }
+      ],
+      "viewport": 320,
+      "documentWidth": 320,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "label": "g5-en",
+      "url": "/en/catalogue/lines/fm-g5-series/",
+      "count": 0,
+      "expected": 0,
+      "details": [],
+      "viewport": 320,
+      "documentWidth": 320,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "label": "g5",
+      "url": "/it/catalogo/linee/fm-g5-series/",
+      "count": 2,
+      "expected": 2,
+      "details": [
+        {
+          "text": "Scarica il catalogo G5 (PDF)",
+          "download": true,
+          "display": "inline-flex",
+          "width": 370,
+          "x": 10,
+          "withinViewport": true,
+          "visible": true
+        },
+        {
+          "text": "Catalogo G5 (PDF)",
+          "download": true,
+          "display": "block",
+          "width": 114.125,
+          "x": 10,
+          "withinViewport": true,
+          "visible": true
+        }
+      ],
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "label": "g5-p2",
+      "url": "/it/catalogo/linee/fm-g5-series/pagina/2/",
+      "count": 2,
+      "expected": 2,
+      "details": [
+        {
+          "text": "Scarica il catalogo G5 (PDF)",
+          "download": true,
+          "display": "inline-flex",
+          "width": 370,
+          "x": 10,
+          "withinViewport": true,
+          "visible": true
+        },
+        {
+          "text": "Catalogo G5 (PDF)",
+          "download": true,
+          "display": "block",
+          "width": 114.125,
+          "x": 10,
+          "withinViewport": true,
+          "visible": true
+        }
+      ],
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "label": "home-it",
+      "url": "/it/",
+      "count": 1,
+      "expected": 1,
+      "details": [
+        {
+          "text": "Catalogo G5 (PDF)",
+          "download": true,
+          "display": "block",
+          "width": 114.125,
+          "x": 10,
+          "withinViewport": true,
+          "visible": true
+        }
+      ],
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "label": "g5-en",
+      "url": "/en/catalogue/lines/fm-g5-series/",
+      "count": 0,
+      "expected": 0,
+      "details": [],
+      "viewport": 390,
+      "documentWidth": 390,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "label": "g5",
+      "url": "/it/catalogo/linee/fm-g5-series/",
+      "count": 2,
+      "expected": 2,
+      "details": [
+        {
+          "text": "Scarica il catalogo G5 (PDF)",
+          "download": true,
+          "display": "inline-flex",
+          "width": 240.046875,
+          "x": 100,
+          "withinViewport": true,
+          "visible": true
+        },
+        {
+          "text": "Catalogo G5 (PDF)",
+          "download": true,
+          "display": "block",
+          "width": 114.125,
+          "x": 586.390625,
+          "withinViewport": true,
+          "visible": true
+        }
+      ],
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "label": "g5-p2",
+      "url": "/it/catalogo/linee/fm-g5-series/pagina/2/",
+      "count": 2,
+      "expected": 2,
+      "details": [
+        {
+          "text": "Scarica il catalogo G5 (PDF)",
+          "download": true,
+          "display": "inline-flex",
+          "width": 240.046875,
+          "x": 100,
+          "withinViewport": true,
+          "visible": true
+        },
+        {
+          "text": "Catalogo G5 (PDF)",
+          "download": true,
+          "display": "block",
+          "width": 114.125,
+          "x": 586.390625,
+          "withinViewport": true,
+          "visible": true
+        }
+      ],
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "label": "home-it",
+      "url": "/it/",
+      "count": 1,
+      "expected": 1,
+      "details": [
+        {
+          "text": "Catalogo G5 (PDF)",
+          "download": true,
+          "display": "block",
+          "width": 114.125,
+          "x": 586.390625,
+          "withinViewport": true,
+          "visible": true
+        }
+      ],
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "label": "g5-en",
+      "url": "/en/catalogue/lines/fm-g5-series/",
+      "count": 0,
+      "expected": 0,
+      "details": [],
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "overflow": false,
+      "passed": true
+    }
+  ],
+  "pdfPresent": false,
+  "downloadTest": "PDF final not present at build time; links and download attributes validated, HTTP download deferred",
+  "passed": true
+}

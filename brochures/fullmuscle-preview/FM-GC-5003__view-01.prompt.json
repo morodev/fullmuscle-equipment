@@ -1,0 +1,17 @@
+{
+  "sku": "FM-GC-5003",
+  "view": "01",
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit, commercial equipment product preview. Image 1 is the ONLY edit target: original black GC-5003 Rotary Torso machine. Keep exact camera, composition, proportions, framing and all mechanical shapes. Images 2 and 3 supply ONLY dark forest-green painted finish and white/green italic Full Muscle Equipment brand style. Image 4 is the SAME model in factory red: its red-painted surfaces are precise green-zone guide ONLY.\nChange target 1's rotating seat support column/circular plates, knee-pad support upright and linking horizontal member, lower rotating connecting rail, and small painted mounting plates that are red in guide 4 into the same dark green finish as refs 2/3. KEEP entire fixed outer frame and tower black; keep fixed front-right curved leg support black; keep rubber rollers, pads, seat, handles, pulleys, chrome rods and bolts unchanged. Preserve finish highlights and shadows.\nBranding: put matching small Full Muscle Equipment white/green italic logo on upper straight horizontal crossbar above instruction panel. White Full, green Muscle, tiny white EQUIPMENT. Replace vertical white TZFIT on rear black panel behind chrome guides with matching vertically rotated Full Muscle Equipment logo. Its orientation MUST be clockwise 90 degrees from normal horizontal reading: start of word FULL at TOP, end of word MUSCLE toward BOTTOM. Text reads from top down if head is tilted RIGHT. Match top logo typography. Rear logo must stay behind guide rods and stack with correct physical occlusion. Remove old TZ branding completely. Keep Rotary Torso exercise text, icons and weight labels unchanged. White opaque background. No new parts, shapes, props, extra logos or captions. Deliver single edited image only.\nImage 5 is the finished Delt image with the required logo orientation. EXACTLY MATCH its rear vertical Full Muscle logo orientation and visual style for the rear black plate in target 1. Do not transfer the machine design from image 5.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/WhatsApp Image 2026-11-05 at 04.19.53 (2).jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/full muscle 01ù.jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/modificato.jpeg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/d6/d6d7ecd754a6b9baa78d7f5dfb217f884361c0bdeba28ad42884aadbb3aecad0.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-preview/FM-GC-5010__view-02.png"
+  ],
+  "transparent_background": false,
+  "output": "FM-GC-5003__view-01.png",
+  "generated_path": "C:/Users/lucam/.codex/generated_images/01a1b533-14a5-79b1-a698-ea7a722e9d25/exec-186a5b25-f37a-4d79-af7e-7378da416f4f.png",
+  "qa": "Preview visually checked: rotating seat/knee supports/lower linkage green following TZ red zones, fixed main frame black, top and rear logos correct clockwise orientation. Fine instruction/weight text AI rendered; requires prepublication review."
+}

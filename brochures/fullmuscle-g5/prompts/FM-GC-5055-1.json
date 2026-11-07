@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Product FM-GC-5055-1. Edit ONLY the single attached exact machine. Recolor ONLY every bright red painted metal moving lever and metal pivot plate to satin forest green #356b35. Keep black structure, upholstery, rubber, controls and chrome unaltered. Replace all supplier TZ FITNESS badges and partial FIT letters with italic 'Full Muscle', white Full and forest-green Muscle, side by side as one wordmark. If vertical rear lettering exists, rotate that single wordmark clockwise90 so Full at top then Muscle below; natural occlusion. Preserve all original machine geometry, pads, roller count, metal beams, cables, handles, mechanism position, rods, bolts and white background. Do not add or extend black panels for the lettering: upper open white areas stay open. Do not change model, dimensions, perspective or composition. No people or additional machines, no extra parts. Whole original machine visible; professional high-detail studio product photo.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/99/995335e08e294fc0c6286d1bf948c6dab2cf61bee7ee364ab42e3a189e5bacf8.jpg"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-04d621a7-b0a6-4478-99fb-6367cc095979.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5055-1.png"
+}

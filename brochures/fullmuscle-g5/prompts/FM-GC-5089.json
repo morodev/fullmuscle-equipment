@@ -1,0 +1,19 @@
+{
+  "sku": "FM-GC-5089",
+  "sourceSku": "GC-5089",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2025/03/Gym-Equipment-Commercial-Training-Equipment-Power-Squat.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/ac/aca584189ceb5388fad0bebe021b3d64f19fe18643ca26a7bb3d6f9dc65ec743.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:26:37.031Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Full Muscle G5 product catalogue PNG. Edit target is image 1 (GC-5089, Power Squat); image 2 is only the approved forest green colour reference and image 3 only the Full Muscle wordmark reference. Preserve image 1 exactly: same machine design, geometry, number and positions of every part, chrome rods, bolts, black upholstery, grips, frame, angle, framing, white background and shadows. Change ONLY all RED painted machine parts into deep forest green #356B35 with realistic original highlights, and replace each supplier TZFITNESS/TZ logo on its existing small badge with the italic 'Full Muscle' logo from image 3 (Full white, Muscle green, small EQUIPMENT). Remove any remaining supplier wordmark. No machine substitutions, no added parts, no people, no captions, no extra labels, no border. Keep safety markings and fine mechanical details. Output the whole isolated machine with ample white margin, sharp high-resolution square catalogue image. Preserve the two yellow adjustment handles and the textured steel footplate.\nRefinement: Precise object edit. Image1 is the already approved green machine. Image2 is original for tiny label reference ONLY. On the front-right black leg of image1 there are currently TWO Full Muscle stickers. Keep the LOWER Full Muscle sticker. Replace only the UPPER sticker with the original small vertical safety-warning label with red outline and fine white text seen at that same location in image2. Keep every other pixel, green paint, geometry, chrome, padding, yellow handles, floor plate, white background and camera angle unchanged. Do not transfer the original red machine paint.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-f2309968-74c9-4239-83a5-592b0d69be4f.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5089.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Verifica visiva superata: geometria e finiture conservate; marchio corretto e avvertenze preservate."
+  }
+}

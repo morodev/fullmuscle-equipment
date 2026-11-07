@@ -1,0 +1,22 @@
+{
+  "sku": "FM-GC-5115",
+  "sourceSku": "GC-5115",
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "precise-object-edit",
+  "generatedAt": "2026-11-07T09:38:25.012Z",
+  "input": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/f0/f0bed82f081cbf330ee615e1113d82986fc31d3d8f762b5c4db776bda7285266.jpg",
+  "inputPaths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/f0/f0bed82f081cbf330ee615e1113d82986fc31d3d8f762b5c4db776bda7285266.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: Italian Full Muscle Equipment product catalogue. Edit ONLY image 1, preserving precisely the same machine geometry, mechanical parts, framing, perspective, white background, light and shadows. Image 2 is color reference ONLY; image 3 is logo style reference ONLY, do not copy its machine or its residual supplier lettering. Recolor ONLY existing red-painted structural metal to satin forest green #356B35, matched to image 2. Keep black metal, black pads, rubber, weight plates, chrome, silver fasteners and safety/exercise diagram labels unchanged. Remove ALL manufacturer branding TZFIT, TZ FITNESS, FITNESS, FIT, including partial or occluded lettering on rear panels. Replace manufacturer nameplates with a small clean italic 'Full Muscle' wordmark ('Full' white, 'Muscle' green), tiny white 'EQUIPMENT' underneath, in perspective like image3. Preserve all rails, handles, bolts and other geometry. Do not add components, gym background, people, borders, watermarks or extra text. Return the single edited product photo at original aspect ratio, high detail. This is a tall plate-loaded standing calf raise. Recolor ONLY the entire red top moving shoulder-yoke metal and red central vertical loading column with its small red lateral brackets to green. Keep the two small black shoulder pads under the top arms, black grip, black tower, silver telescoping adjustment rod, all chrome plate horns, and black/silver diamond footplate unchanged. Add one small Full Muscle logo on the existing black front base crossbeam, without adding panels. Preserve the yellow warning triangle and other safety labels.",
+  "transparent_background": false,
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-baf6-7f73-a550-fa0e52a26a80\\exec-6e5225d9-7ec8-4959-8656-0cfec50fc314.png",
+  "output": "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5115.png",
+  "reviewStatus": "passed",
+  "visualQA": {
+    "passed": true,
+    "notes": "Only existing red upper shoulder yoke and central loading column recolored green; all chrome, black parts, pads, diamond footplate and safety labels retained. Small Full Muscle logo added on base."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Edit this ONE existing Full Muscle Delt Machine photo with the smallest possible local change. The target image already has the correct dark green lever arms and correct italic white/green Full Muscle EQUIPMENT logo on the top tower crossbar. Keep them EXACTLY unchanged. Replace ONLY the large vertical white TZFIT manufacturer lettering on the rear black plate behind the weight stack. Remove that old lettering and in its place put a vertical version of the SAME Full Muscle EQUIPMENT logo already visible at the top: Full in white, Muscle in green, small EQUIPMENT in white. Rotate the entire wordmark 90 degrees so it fits fully in the narrow black vertical panel. Keep realistic perspective, printed surface texture, and crucially maintain every chrome guide rod and the weight plates in front of the new logo as occluders. Do NOT edit any other region. Preserve machine silhouette, green shade, hardware, handles, all pads, pulleys, cables, instruction diagrams and Delt Machine title, weight scale labels, lighting, white background and original landscape framing. Do not regenerate a different machine. Output one faithful edited photo.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/full muscle 01ù.jpeg"
+  ],
+  "transparent_background": false,
+  "output": "FM-GC-5010__view-01.png",
+  "review": "Rear logo replaced. Green arms, top logo and machine geometry visually retained; AI preview, small label fidelity must be assessed before publication."
+}

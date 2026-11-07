@@ -1,0 +1,42 @@
+FULL MUSCLE EQUIPMENT — G5
+Impostazioni del file brochure-stampa.pdf
+
+Formato finito: A4 verticale, 210 × 297 mm.
+Dimensione pagina PDF: 216 × 303 mm, con 3 mm di abbondanza per lato.
+TrimBox: formato finito A4; BleedBox: pagina completa con abbondanza.
+Numero pagine: 12, singole e in ordine di lettura.
+Rilegatura prevista: punto metallico; l'imposizione è a cura della tipografia.
+Margine di sicurezza previsto: 12 mm dal taglio per i contenuti essenziali.
+Font: incorporati nel PDF; marchio e QR in vettoriale.
+Immagini: controllo della risoluzione effettiva alla dimensione di impaginazione,
+minimo 240 ppi; risultati per ogni immagine nel file preflight.json.
+Colori: documento RGB con immagini sRGB. Non è un PDF/X certificato.
+
+Prima della tiratura, concordare con lo stampatore carta, finitura, eventuale
+profilo CMYK e preset PDF/X. Non applicare una conversione generica non richiesta.
+Eseguire una prova colore per verificare il verde rispetto al riferimento visivo.
+Stampare al 100%, senza adattamento automatico al foglio.
+
+QR di destinazione:
+https://fullmuscle-equipment.com/cataloghi/fullmuscle-g5.pdf
+Il collegamento pubblico deve essere verificato dopo il deploy e il QR deve
+essere provato su una copia stampata prima di autorizzare la tiratura.
+Lo stato della verifica disponibile è registrato nel preflight.json.
+
+Il catalogo-completo.pdf è una versione digitale A4 senza abbondanze,
+con indice cliccabile, segnalibri e testi ricercabili.
+
+SORGENTI E AGGIORNAMENTO
+Contenuti: ../content/catalog.json
+Impaginazione: ../layout/editorial.css e ../scripts/build.mjs
+Immagini: ../assets/products e ../assets/scenes
+Prompt e riferimenti: ../prompts e ../assets/references
+
+Dalla radice del progetto:
+npm run brochure:build
+npm run brochure:check
+
+Il comando finale si interrompe se mancano immagini Full Muscle necessarie
+oppure se il controllo rileva pagine, font, risoluzione o contenuti fuori area.
+Per una prova interna durante la lavorazione: npm run brochure:build -- --proof
+I file con suffisso -bozza non sono destinati alla stampa o alla pubblicazione.

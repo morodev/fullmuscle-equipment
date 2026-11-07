@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Commercial fitness catalogue photo FM-GC-5049. Image1 exact edit target, Image2 only color/brandreference. Change ONLY bright red painted steel moving levers and metal pivot plates to satin dark forest green matching reference2 (#356b35). Keep black structure, upholstery, rubber, bolts and chrome unchanged. Remove all original supplier marks including white vertical FIT letters partially hidden behind weight-stack and all red TZ FITNESS badges. Replace main badge with bold italic 'Full Muscle', white Full forest-green Muscle. On rear panel replace original lettering within SAME ORIGINAL occupied area, naturally hidden behind frame/weights: Full at top, Muscle below, clockwise90. DO NOT extend, raise or add any panel for the logo; open spaces remain open white background. Preserve exact original machine geometry, angle, lever position, rods, pads, bolts, rollers, cables, handles, mechanisms and base. White background, complete machine visible. Preserve exercise placard. No people, extra parts, floating text or redesign. High-detail studio product photo.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/45/457f3f2761d04ccc397caffe51f40cdca1935e67d15f4f411756b0129c709c20.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-8bef5a81-80d4-40dc-99cc-adf5684fdae1.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5049.png"
+}

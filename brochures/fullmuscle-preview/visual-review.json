@@ -1,0 +1,22 @@
+{
+    "tool":  "image_gen.imagegen",
+    "status":  "preview-only",
+    "models":  7,
+    "views":  9,
+    "visualChecks":  [
+                         "Abbinamento GC / serie G5 verificato con catalogo locale e fotografie TZ",
+                         "Zone verdi confrontate con le parti rosse dei riferimenti TZ",
+                         "Loghi Full Muscle superiori e posteriori",
+                         "Controllo visivo di geometria principale, cavi, rulli e imbottiture",
+                         "Confronto HTML verificato su desktop e viewport mobile 390px"
+                     ],
+    "limitations":  [
+                        "I dettagli fini e le etichette minute sono ritoccati con IA e richiedono confronto con gli originali prima della pubblicazione",
+                        "Le combinazioni di verniciatura sono proposte grafiche e non conferme di fattibilita produttiva TZ"
+                    ],
+    "originalFilesModified":  false,
+    "publicCatalogModified":  false,
+    "knownReviewItems":  [
+                             "FM-GC-5002__view-01: logo posteriore quasi coperto con orientamento opposto alla vista 02; conservata la versione con geometria fedele"
+                         ]
+}

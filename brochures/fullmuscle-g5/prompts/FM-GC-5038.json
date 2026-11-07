@@ -1,0 +1,11 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Asset: commercial fitness catalogue product photo for FM-GC-5038. Image1 is the EXACT product to edit. Image2 is color and branding reference only. Keep this all-black cable station black, with all its pulleys, cables and handles unaltered. Add one small discreet italic Full Muscle wordmark to the flat top crossbar; no added plaque geometry. Replace visible TZFIT/TZ FITNESS/Fitness supplier brand marks with italic bold 'Full Muscle', white Full and green Muscle on dark badge, same placement and perspective; vertical labels read top to bottom after clockwise90 rotation. Preserve exact machine geometry, every upright, handle, bolt, cable, pad, weight plate, chrome part, angle and scale. Preserve white background and whole machine in frame. Keep technical exercise decals except supplier marks. High detail studio product photo. No people, extra machines, floor, new shapes or floating text. Do not redesign or omit parts. Output largest practical resolution.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/b0/b01a704df9892fdf4e616e2279601170fc5f1604d2be25cbb61c297de5206a90.jpg",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+  ],
+  "transparent_background": false,
+  "generatedPath": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-6c77c080-5b40-499c-a5a6-94f1cbde388d.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5038.png"
+}

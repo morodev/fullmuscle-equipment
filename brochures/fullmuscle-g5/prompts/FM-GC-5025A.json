@@ -1,0 +1,16 @@
+{
+    "sku":  "FM-GC-5025A",
+    "tool":  "image_gen.imagegen",
+    "args":  {
+                 "prompt":  "Use case: precise-object-edit. Create exactly ONE faithful edited product photograph of IMAGE1. IMAGE1 is the sole target; IMAGE2 is ONLY the approved Full Muscle paint color reference, and IMAGE3 is ONLY the italic Full Muscle EQUIPMENT logo reference. Do not borrow machinery or the camera from reference images. Preserve the target\u0027s exact model, geometry, number and positions of components, proportions, white background, original camera, framing, padding, handles, safety instructions and mechanical details. Apply satin forest green around #356B35 with realistic existing light and shadow only to the specified painted steel parts. All pads/grips stay black, metallic guide rods/pins/bolts/plate sleeves remain metallic, pulleys/cables stay unchanged. Replace supplier brand logos with the italic \u0027Full Muscle\u0027 wordmark, Full white and Muscle green, with small white \u0027EQUIPMENT\u0027 beneath; keep the logo small and physically printed on the same surface, in correct perspective. If a rear stack panel has a vertical brand, replace it with Full Muscle rotated CLOCKWISE90, Full at TOP, Muscle below, behind foreground rods/weights. Never remove exercise or safety labels. If no supplier logo exists, put one modest Full Muscle wordmark on a suitable upper crossbar or main support. No other text added, no external labels, no background design. Keep the full machine and original image aspect ratio. Render sharply, no redesign.\nSpecific edit for FM-GC-5025A: This seated preacher-curl bench has two angled main uprights and two small barbell hooks. Paint ONLY the two existing small projecting barbell-rest hook assemblies forest green, and the short adjustable steel seat-support bracket under the seat forest green. Keep both long angled main uprights and black floor-base frame unchanged; all black pads and silver bolts stay unchanged. Replace tall diagonal supplier wordmark on the right front angled upright with Full Muscle in matching diagonal placement, no additional logos.",
+                 "referenced_image_paths":  [
+                                                "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-assets/originals/97/97500dc38c0ccb0e566f593056b54e64a22fca770ea8099c8e62ebfcf3beb032.jpg",
+                                                "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+                                                "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+                                            ],
+                 "transparent_background":  false
+             },
+    "generatedPath":  "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-e793-7830-8cfa-4d251294c496\\exec-1f41224a-1fcd-42de-8355-afd5a85f8e78.png",
+    "output":  "brochures/fullmuscle-g5/assets/products/FM-GC-5025A.png",
+    "review":  "Visually reviewed: machine type, main geometry, pad shape, green placement, branding, white background. Marketing illustration; fine microtext is not technical documentation."
+}

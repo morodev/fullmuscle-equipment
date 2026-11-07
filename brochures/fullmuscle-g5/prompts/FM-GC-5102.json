@@ -1,0 +1,23 @@
+{
+  "sku": "FM-GC-5102",
+  "sourceSku": "GC-5102",
+  "sourceImage": "https://tzfit.com/wp-content/uploads/2026/07/GC-5102-Anchor-Row-Machine.jpg",
+  "sourceOriginal": "data/catalog-assets/originals/63/631a9eca7c4868db9113beb858c1d19c345324e372ce5fbd25937998277f10b0.jpg",
+  "tool": "builtin-imagegen",
+  "generatedAt": "2026-11-07T09:38:11.435Z",
+  "references": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "inputPaths": [
+    "data/catalog-assets/originals/63/631a9eca7c4868db9113beb858c1d19c345324e372ce5fbd25937998277f10b0.jpg",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "prompt": "Use case: precise-object-edit. Image1 is the exact GC-5102 Anchor Row product to preserve. Image2 is ONLY a typography/logo reference: use its small italic 'Full Muscle' wordmark, white Full and green Muscle with tiny EQUIPMENT. Edit image1 ONLY by replacing an existing supplier logo with that small Full Muscle badge, or if there is no visible badge place one small badge on the upper front crossbar. Preserve ALL black painted metal, chrome parts, upholstery, cables, pulleys, every support, foot, handle, accessory and geometry exactly. This product is entirely BLACK: there must be NO GREEN PAINT anywhere. Only the word Muscle in the small badge is green. White background and camera/framing unchanged; do not redesign the product or add/remove components. No people, captions, other words or graphics. High-resolution catalogue photograph. Place only one small Full Muscle badge on a visible flat black main frame tube, leaving holes, bolts and warning stickers unobscured. Do not introduce an upper crossbar where none exists. All metal remains black or chrome.",
+  "generatedFile": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b546-819b-71a1-b836-eba14fe569fb\\exec-9f2a8143-58cd-49c7-9b49-5f5c00f486f8.png",
+  "output": "brochures/fullmuscle-g5/assets/products/FM-GC-5102.png",
+  "review": {
+    "status": "accepted",
+    "notes": "Verifica visiva superata: nero, geometria e dettagli conservati, piccolo marchio Full Muscle applicato."
+  }
+}
