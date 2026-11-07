@@ -1,0 +1,9 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-7043A/primary-01-3022bcbecb1f.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case: precise-object-edit. Image 1 is the sole edit target, FM-7043A elliptical. Image 2 dark satin forest green paint reference (#356B35); image 3 reference only for small italic Full Muscle Equipment logo. Preserve all geometry, exact viewpoint, white background, black/grey frame and housings, pedal and handle positions, silver sensor grips and screen with runner video. Recolor ONLY the cyan-blue concentric decorative rings on the large flywheel side disc to dark forest green. Keep their segmented pattern and all existing silver/grey rings and trim unchanged. Add a modest white/green italic 'Full Muscle' logo with tiny 'EQUIPMENT' below centered on the broad black trapezoid crank cover in front of the flywheel (inside its existing silver outline). Treat as a real physical printed logo, respecting perspective. Remove any supplier brand writing from the casing but retain safety labels and console UI. No new parts, no redesign, no restyling of screen, no crop or lighting change."
+}

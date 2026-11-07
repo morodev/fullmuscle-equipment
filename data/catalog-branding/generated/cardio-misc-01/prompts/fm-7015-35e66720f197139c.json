@@ -1,0 +1,9 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-7015/primary-01-6aed89f0c880.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case: precise-object-edit. Image 1 is the ONLY target: FM-7015 elliptical machine product photo. Reference 2 gives dark satin forest green (~#356B35); reference 3 compact italic white/green Full Muscle Equipment logo. Preserve exact machine geometry, all moving handle shapes, silver connecting rods, pedal locations, flywheel case contours, feet and white square background. Recolor ONLY the large outer dark blue-grey upper and rear rim/panel of the rear flywheel enclosure forest green; keep its central large grey side panel grey and every frame tube grey. Replace the small supplier badge near the lower front edge of that central grey side panel with a modest physical italic 'Full Muscle' logo, tiny 'EQUIPMENT' below. Preserve console screen and buttons, all black grips, orange pivot caps, orange crank insert, orange feet tops, black pedals, cables, wheels, shadows and viewpoint. No extra parts or enlarged logo; no redesign or supplier text."
+}

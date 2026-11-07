@@ -1,0 +1,9 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-7029/primary-01-497c69807e8b.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case: precise-object-edit. Image 1 is the only edit target; image 2 ONLY reference for dark satin forest green, image 3 ONLY reference for italic Full Muscle Equipment logo. Target: FM-7029 ski erg product image. Recolor ONLY the two tall upper metal V-shaped uprights forest green (#356B35). Replace the vertical SKI MACHINES wording on the broad right upright with a modest physical italic white/green 'Full Muscle' logo, tiny 'EQUIPMENT' below, oriented along the upright and following perspective. Preserve the bright lime pull handles as original, all cables, pulleys, horizontal top connector, lower black column, diagonal black braces, fan housing/grille, display, black standing deck and wooden edge, wheels, exact viewpoint and geometry. Preserve original background, framing, lighting and all materials. Do not add/remove any components or change shapes. No floating text or extra labels. This is a faithful catalogue branding edit, not a redesigned machine."
+}

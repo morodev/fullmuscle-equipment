@@ -1,0 +1,5 @@
+{
+  "sku": "FM-5032",
+  "prompt": "Edit only the FIRST image, a real catalogue photograph of a tall seated cable rowing machine. The other two images are references ONLY for the Full Muscle Equipment logo and dark forest green paint (#356B35), never for product geometry. Preserve exactly the original model, all mechanical geometry, proportions, viewpoint, framing, white studio background and shadow. Recolor ONLY the single broad inclined painted steel tower upright behind the black footplates to dark forest green. Keep the outer silver vertical post, top beam, weight stack, rails, all cables, dual black handles, black perforated footplates, long silver seat beam, silver seat leg and orange seat exactly unchanged. Preserve all bolts, pulleys and functional controls in their original colors and materials; never color chrome. Add one small clean Full Muscle Equipment logo near the top of the broad green upright, based on the references. No other text, no extra hardware, no redesign.",
+  "tool": "image_gen.imagegen"
+}

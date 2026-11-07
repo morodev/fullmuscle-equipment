@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://fullmuscle-equipment.com/it/",
+    "fetchTime": "2026-11-07T11:16:58.907Z",
+    "lighthouseVersion": "13.6.0",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcpMs": 1409.313,
+    "cls": 0,
+    "notes": "Lab measurement; SEO blocked by intentional noindex/robots preview configuration, not a Search Console indexing report."
+  },
+  {
+    "url": "https://fullmuscle-equipment.com/it/catalogo/",
+    "fetchTime": "2026-11-07T11:18:23.699Z",
+    "lighthouseVersion": "13.6.0",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "lcpMs": 1848.364,
+    "cls": 0,
+    "notes": "Lab measurement; SEO blocked by intentional noindex/robots preview configuration, not a Search Console indexing report."
+  }
+]

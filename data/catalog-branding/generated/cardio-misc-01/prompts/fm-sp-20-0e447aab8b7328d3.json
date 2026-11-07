@@ -1,0 +1,9 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-SP-20/primary-01-daa061c2de27.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case precise-object-edit. Image 1 only target: FM-SP-20 surfing exercise machine, preserve exact geometry, handrails, display/controls, central moving foot platform, feet, rear housing, lighting, perspective and white background. Image 2 ONLY dark satin forest green paint reference (#356B35), image 3 ONLY compact italic Full Muscle Equipment logo reference. Recolor ONLY the broad front side panel that currently carries red SURFING MACHINE lettering forest green. Replace that red wording and red horizontal stripes with a modest centered physical white/green italic 'Full Muscle' logo with tiny 'EQUIPMENT' beneath, perspective-correct. Keep all rear/interior panels, handrails and console black/dark grey; keep four silver feet silver. Do not change any shape, dimensions, position or parts. No floating text, no redesign, no extra decorative accents."
+}

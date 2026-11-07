@@ -1,0 +1,89 @@
+{
+  "batch": "fm52-batch-01",
+  "tool": "image_gen.imagegen",
+  "referenceGreen": "#356B35",
+  "items": [
+    {
+      "sku": "FM-5201",
+      "assetId": "fm-5201-44e95c6fd11e2efb",
+      "sourceHash": "80b95d547fea6ec7a98dde2d385e3e9ad19b380f1fd553786ddd690293746aaf",
+      "inputPath": "src/assets/catalog/FM-5201/primary-01-0e857460868c.webp",
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5201.png",
+      "promptPath": "data/catalog-branding/generated/fm52-batch-01/prompts/FM-5201.json",
+      "review": "Source and result visually inspected: tall lever shape, handles, black frame and upholstery retained; red painted arms forest green; chrome weight horns, silver adjustment ends and safety marking preserved; Full Muscle base logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5202",
+      "assetId": "fm-5202-2b22a5f76cab0ddc",
+      "sourceHash": "247522280949d9e4da4a0858e973ee6ac26a6e6953c74316348dbb0bbf44b992",
+      "inputPath": "src/assets/catalog/FM-5202/primary-01-766adbe28abb.webp",
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5202.png",
+      "promptPath": "data/catalog-branding/generated/fm52-batch-01/prompts/FM-5202.json",
+      "review": "Source and result visually inspected: wide upper arms and lower linkage retained; red paint forest green; black frame and pads, chrome weight horns, grips and spring preserved; manufacturer base badge replaced with Full Muscle.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5203",
+      "assetId": "fm-5203-4213e2a8549346bd",
+      "sourceHash": "47d37112351ada5a298417d60f25be3c44c0d104b54ad1267f4dfab0ae3a4726",
+      "inputPath": "src/assets/catalog/FM-5203/primary-01-bfaae62cc558.webp",
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5203.png",
+      "promptPath": "data/catalog-branding/generated/fm52-batch-01/prompts/FM-5203.json",
+      "review": "Source and result visually inspected: overhead pressing arms, inclined seat and black frame retained; red paint forest green; chrome rods and weight horns, grips and silver adjustment hardware preserved; Full Muscle base badge.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5204",
+      "assetId": "fm-5204-d6f86ea26c8fc59e",
+      "sourceHash": "fda278da982ca158ded3dc696b78dcbdd5aa1f0d9df626ffde990e89b9c92711",
+      "inputPath": "src/assets/catalog/FM-5204/primary-01-2401d533a23f.webp",
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5204.png",
+      "promptPath": "data/catalog-branding/generated/fm52-batch-01/prompts/FM-5204.json",
+      "review": "Source and result visually inspected: original seated row geometry and platform retained; red painted linkage forest green; black pads and frame, chrome telescoping chest support and weight horns preserved; Full Muscle base logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5205",
+      "assetId": "fm-5205-b0cc1292d6c96ff0",
+      "sourceHash": "891b43207a928a21644737d780646ef45edcbb55155766c8b80d4895c5f2566e",
+      "inputPath": "src/assets/catalog/FM-5205/primary-01-c445fee63dfd.webp",
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5205.png",
+      "promptPath": "data/catalog-branding/generated/fm52-batch-01/prompts/FM-5205.json",
+      "review": "Source and result visually inspected: leg press, diamond footplate and slide rails retained; red carriage painted green, functional footplate handle remains red; black frame, pads, chrome, labels and warning marks preserved; Full Muscle base logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5206",
+      "assetId": "fm-5206-97195c47d152625c",
+      "sourceHash": "1e034304dc251b2232c1fab5a20d7a4569839b68cf61154bf782aa73d4ef4a7c",
+      "inputPath": "src/assets/catalog/FM-5206/primary-01-ee3adec0dfa6.webp",
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5206.png",
+      "promptPath": "data/catalog-branding/generated/fm52-batch-01/prompts/FM-5206.json",
+      "review": "Source and corrected result visually inspected: hack squat geometry retained, red safety handle stalks explicitly restored with localized second edit (prompts/FM-5206correction.json); green sled accents, black pads/frame, chrome rails and hazard labels preserved.",
+      "status": "approved",
+      "correctionPromptPath": "data/catalog-branding/generated/fm52-batch-01/prompts/FM-5206correction.json"
+    },
+    {
+      "sku": "FM-5207",
+      "assetId": "fm-5207-6337c133874263ac",
+      "sourceHash": "073cf98f7520aae38831d55a7cd4193499d74f76eaebd22e93f23d9759befe6b",
+      "inputPath": "src/assets/catalog/FM-5207/primary-01-5045f8ddf7d0.webp",
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5207.png",
+      "promptPath": "data/catalog-branding/generated/fm52-batch-01/prompts/FM-5207.json",
+      "review": "Source and result visually inspected: high-row geometry and looped handles retained; red painted arms and rods forest green; chest support, black pads/frame, chrome weight horns and safety label preserved; Full Muscle base logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5208",
+      "assetId": "fm-5208-bf86963f7921caf9",
+      "sourceHash": "b31009c8755bdbbf6ef6288a561fefb946471977b79c25c1d2f8d27a08ce0132",
+      "inputPath": "src/assets/catalog/FM-5208/primary-01-107745d70317.webp",
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5208.png",
+      "promptPath": "data/catalog-branding/generated/fm52-batch-01/prompts/FM-5208.json",
+      "review": "Source and result visually inspected: tall pulldown model, overhead arms and thigh rollers retained; red painted members forest green; black frame/pads/grips and chrome weight horns preserved; Full Muscle base logo.",
+      "status": "approved"
+    }
+  ],
+  "count": 8
+}

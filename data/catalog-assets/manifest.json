@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-09-13T09:35:51.935Z",
-  "updatedAt": "2026-11-07T11:13:00.586Z",
+  "updatedAt": "2026-11-07T11:28:39.374Z",
   "sourceInventoryHash": "45fde16c81b51dd09e5113524b9d18af9e30b106548316661d6c01e6665139db",
   "items": [
     {
@@ -1604,16 +1604,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/ea/ea6ba763bf0d2374fb99688dcb40ccaf7a59f9fdd6d56f0b5594fa2347852005.jpg",
-      "stagedPath": "src/assets/catalog/FM-5001/primary-01-07c54146e514.webp",
+      "stagedPath": "src/assets/catalog/FM-5001/primary-01-526f0d8b9383.webp",
       "sourceHash": "ea6ba763bf0d2374fb99688dcb40ccaf7a59f9fdd6d56f0b5594fa2347852005",
-      "outputHash": "07c54146e514937a99c90b90ad2d387fcb1acfebfcaa4174e9225d2e72739383",
+      "outputHash": "526f0d8b93839b7caa00b8f6a5191d193c99327985125715ae0e1a6869543cc4",
       "mimeType": "image/jpeg",
       "bytes": 37614,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result inspected: chest-press geometry, orange pads, silver housing, chrome rods, black grips, yellow and red controls preserved. Only painted upper lever sections recolored forest green; Full Muscle label added on tower. White background and viewpoint retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5001.png"
     },
     {
       "assetId": "fm-5001-10928763d0e41f80",
@@ -1663,16 +1665,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/27/276f76e7a63c4c00f02fd54935db3e64ef727fd1eb8839791e7bea3196bde3b1.jpg",
-      "stagedPath": "src/assets/catalog/FM-5002/primary-01-99eaa7b89850.webp",
+      "stagedPath": "src/assets/catalog/FM-5002/primary-01-5d5cdb912cdc.webp",
       "sourceHash": "276f76e7a63c4c00f02fd54935db3e64ef727fd1eb8839791e7bea3196bde3b1",
-      "outputHash": "99eaa7b8985085e95522eb095c8d86380ce40f8d364be31e0c5278a5cbaacf16",
+      "outputHash": "5d5cdb912cdcb8d46880f8eb851e6d6ca50a57bac57fe92d079b263803604f12",
       "mimeType": "image/jpeg",
       "bytes": 36503,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: geometry and shoulder press handles preserved; rear painted upright dark green, orange upholstery and silver enclosure retained; yellow controls and chrome unchanged; compact Full Muscle logo on tower."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5002.png"
     },
     {
       "assetId": "fm-5002-59b9e3ca606b49d6",
@@ -1798,16 +1802,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/44/44cd9e3653ae8c9cbbf2c0aa372dd69353c59795aea9041cc524b209fb0f2df8.jpg",
-      "stagedPath": "src/assets/catalog/FM-5003/primary-01-66f168066170.webp",
+      "stagedPath": "src/assets/catalog/FM-5003/primary-01-58422a0b5dde.webp",
       "sourceHash": "44cd9e3653ae8c9cbbf2c0aa372dd69353c59795aea9041cc524b209fb0f2df8",
-      "outputHash": "66f168066170278eb52125a7cdae4d0b18fc06b18bcea754df43b970b48e57e0",
+      "outputHash": "58422a0b5dde999032b028745c389245a4fab83ecf71cbfeed8094342276c270",
       "mimeType": "image/jpeg",
       "bytes": 44197,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: leg extension geometry and orange roller preserved; painted right lever dark green, silver main frame and enclosure retained; yellow controls and chrome unchanged; compact Full Muscle logo on tower."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5003.png"
     },
     {
       "assetId": "fm-5004-d378ad1365378b31",
@@ -1819,16 +1825,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/6e/6e42eadd84b2531d1aaa2d108521232ebbffa0dbfbcedb7aa777e42ba46d222a.jpg",
-      "stagedPath": "src/assets/catalog/FM-5004/primary-01-7be7da85a8f5.webp",
+      "stagedPath": "src/assets/catalog/FM-5004/primary-01-bb889ef2dfeb.webp",
       "sourceHash": "6e42eadd84b2531d1aaa2d108521232ebbffa0dbfbcedb7aa777e42ba46d222a",
-      "outputHash": "7be7da85a8f5c20667acdfb31771e8ada6fe4bba6dbebd9112fbdbf71154c7a1",
+      "outputHash": "bb889ef2dfebd188ac7bbf2bf0f213a1715343e4d5d417534137b41109aaa71a",
       "mimeType": "image/jpeg",
       "bytes": 39533,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: leg press silhouette, footplate, seat rail and mechanical parts retained; front painted supports forest green; orange upholstery, silver frame, black grips, controls preserved; compact Full Muscle tower logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5004.png"
     },
     {
       "assetId": "fm-5005-1e76a65b5b0ade7b",
@@ -1840,16 +1848,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/83/831603cf359269705c947aeac6d83d1ad11b92ceb8596d27445c6baf0ae12a20.jpg",
-      "stagedPath": "src/assets/catalog/FM-5005/primary-01-d2295a1036c7.webp",
+      "stagedPath": "src/assets/catalog/FM-5005/primary-01-9a8ccfab98fd.webp",
       "sourceHash": "831603cf359269705c947aeac6d83d1ad11b92ceb8596d27445c6baf0ae12a20",
-      "outputHash": "d2295a1036c7638284d5322ba17025a49bf9a3f3ded7bcc021281ecbc557bd34",
+      "outputHash": "9a8ccfab98fd13e965bfe4b2e874d4f9895c26bb20410ab5b538a37a7a5abb50",
       "mimeType": "image/jpeg",
       "bytes": 43010,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: lateral raise lever geometry, orange pads and chrome handles preserved; upper painted housings forest green; silver tower, yellow controls unchanged; compact Full Muscle tower logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5005.png"
     },
     {
       "assetId": "fm-5006-f03f9457da3ea92a",
@@ -1861,16 +1871,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/23/23bee6b362b92cb5063cee2451646ea4bede2016de943245a9602973c68f33d2.jpg",
-      "stagedPath": "src/assets/catalog/FM-5006/primary-01-6d988c8c34aa.webp",
+      "stagedPath": "src/assets/catalog/FM-5006/primary-01-99e4f1e935f2.webp",
       "sourceHash": "23bee6b362b92cb5063cee2451646ea4bede2016de943245a9602973c68f33d2",
-      "outputHash": "6d988c8c34aab6db74b53fe571270bea8bc93f09af9cac3603e624feab06be20",
+      "outputHash": "99e4f1e935f20b17a9202bfa29903a286e42c56eeb1cca0604e7072ed948bea5",
       "mimeType": "image/jpeg",
       "bytes": 38951,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: rowing geometry, orange chest pad and seat, black footplates retained; left painted moving arm forest green; chrome handles and yellow controls unchanged; compact Full Muscle tower logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5006.png"
     },
     {
       "assetId": "fm-5007-515fb24cb93f09d4",
@@ -1882,16 +1894,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/1b/1b33d436a2000ef409a04bd8ca1960604e2feb3099e848a83ec19472725a9591.jpg",
-      "stagedPath": "src/assets/catalog/FM-5007/primary-01-a0ed3d64236a.webp",
+      "stagedPath": "src/assets/catalog/FM-5007/primary-01-7b6ea0f11e8d.webp",
       "sourceHash": "1b33d436a2000ef409a04bd8ca1960604e2feb3099e848a83ec19472725a9591",
-      "outputHash": "a0ed3d64236a1f19cb94643830a85745d8f7df18c52f0ca5164fe06d4bb24b14",
+      "outputHash": "7b6ea0f11e8d6219b8dbae30061d49963bba8b687b0ac870eca37cce5e7b78a4",
       "mimeType": "image/jpeg",
       "bytes": 38275,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: original machine silhouette, arm pads and curved handles retained; rear painted upright forest green; orange upholstery, silver enclosure, yellow controls and chrome preserved; compact Full Muscle tower logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5007.png"
     },
     {
       "assetId": "fm-5008-8a4c2c43ab428495",
@@ -1903,16 +1917,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/cd/cde1bb4762d2595eb40398f55d55b985e727e810e2397c11580b2a4554469746.jpg",
-      "stagedPath": "src/assets/catalog/FM-5008/primary-01-682336dedaf1.webp",
+      "stagedPath": "src/assets/catalog/FM-5008/primary-01-f9627ff06e16.webp",
       "sourceHash": "cde1bb4762d2595eb40398f55d55b985e727e810e2397c11580b2a4554469746",
-      "outputHash": "682336dedaf106ae708d2cb912afd91e37124345d12aa9454c68c02440cd1c55",
+      "outputHash": "f9627ff06e16b25c956f5287bc4240cd40f9582ee01d07ffbe9f1cbeaaf6aa53",
       "mimeType": "image/jpeg",
       "bytes": 42718,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: distinct upper arm geometry and orange side pads retained; painted lever housings forest green; silver handles, tower, seat adjustment and yellow controls unchanged; compact Full Muscle logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5008.png"
     },
     {
       "assetId": "fm-5009-c56db182016b8f70",
@@ -1924,16 +1940,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/93/933caa57dd8750ffba6ce1ea1ccd239b95217b8c7c88bc75ab7b8208d4b4849c.jpg",
-      "stagedPath": "src/assets/catalog/FM-5009/primary-01-a6a4ddac6917.webp",
+      "stagedPath": "src/assets/catalog/FM-5009/primary-01-0822ce90f3fa.webp",
       "sourceHash": "933caa57dd8750ffba6ce1ea1ccd239b95217b8c7c88bc75ab7b8208d4b4849c",
-      "outputHash": "a6a4ddac69178475c2f3d31e65028740265d1f9ef9737c19ac6ceb4bb76e2830",
+      "outputHash": "0822ce90f3fae08eb99d97e7fab0e41ef06d2bdf31dc2b5d60ad88874c1b7cda",
       "mimeType": "image/jpeg",
       "bytes": 35556,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: inclined hip machine silhouette and knee pad assembly retained; painted backrest support forest green; silver posts, lower mechanics, yellow knob and orange upholstery preserved; compact Full Muscle logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5009.png"
     },
     {
       "assetId": "fm-5010-69bc1b12a2e42165",
@@ -1945,16 +1963,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/20/206b3e737c8d5e5f5a7174dff39478860f2b8dba9fe7e4a970d7e9956efaecff.jpg",
-      "stagedPath": "src/assets/catalog/FM-5010/primary-01-23e83c739777.webp",
+      "stagedPath": "src/assets/catalog/FM-5010/primary-01-a288bb1534a2.webp",
       "sourceHash": "206b3e737c8d5e5f5a7174dff39478860f2b8dba9fe7e4a970d7e9956efaecff",
-      "outputHash": "23e83c739777fa85ed5ab4f97445a5e0eb68151b73d1b23fa3456d8861a45cce",
+      "outputHash": "a288bb1534a2d44b10aba35f69599a2d37c122c83478fdb495bbaafb044bb9b4",
       "mimeType": "image/jpeg",
       "bytes": 42266,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: seated leg curl and roller geometry retained; lower U-shaped painted linkage forest green; red and yellow controls remain distinct, upper chrome linkage and silver frame preserved; compact Full Muscle logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5010.png"
     },
     {
       "assetId": "fm-5011-5c7b9f3c0d4c2214",
@@ -1966,16 +1986,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/cf/cfb04b356dd1dfb503b19a66148c547bbc315b7933fba739138f1223cf5e9012.jpg",
-      "stagedPath": "src/assets/catalog/FM-5011/primary-01-225f45908e71.webp",
+      "stagedPath": "src/assets/catalog/FM-5011/primary-01-e8985bfd44a7.webp",
       "sourceHash": "cfb04b356dd1dfb503b19a66148c547bbc315b7933fba739138f1223cf5e9012",
-      "outputHash": "225f45908e71632bd707df8bcf20b004fbd76b58cf515702e463cd249b864fbd",
+      "outputHash": "e8985bfd44a7fb2f4b97edf91bdba1cef5369e6b315bd17a37da7d89995ddb7f",
       "mimeType": "image/jpeg",
       "bytes": 37170,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: butterfly model, dual-height grips and orange arm pads retained; lower painted lever arms forest green; upper chrome handle assemblies, orange upholstery and yellow controls preserved; compact Full Muscle logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5011.png"
     },
     {
       "assetId": "fm-5012-8f80306508e8b019",
@@ -1987,16 +2009,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/c0/c0d0787aef64ebe29282226d7d259cb80f4425c420ef5ef1adae9bd07f61ca52.jpg",
-      "stagedPath": "src/assets/catalog/FM-5012/primary-01-3960f6494c01.webp",
+      "stagedPath": "src/assets/catalog/FM-5012/primary-01-a5e4086016b4.webp",
       "sourceHash": "c0d0787aef64ebe29282226d7d259cb80f4425c420ef5ef1adae9bd07f61ca52",
-      "outputHash": "3960f6494c017d4969a2ce9cd1fb545fcaec48291780d6ebcbd08c87e1b5a5fe",
+      "outputHash": "a5e4086016b40a8eca9bb0d3aba2d85b518fa8557c0b914186efc6b34f023283",
       "mimeType": "image/jpeg",
       "bytes": 33701,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: tall pulldown model and margins retained; long painted arms forest green; hanging chrome handles, counterweights, orange thigh pads, fixed silver support and controls preserved; compact Full Muscle logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5012.png"
     },
     {
       "assetId": "fm-5013-8506cd72c6d168bc",
@@ -2008,16 +2032,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/34/347e4372fcd509ecff39b28ecd1ae3c0b02e62c236b13450b86f72e26308b91d.jpg",
-      "stagedPath": "src/assets/catalog/FM-5013/primary-01-3d2500badb7e.webp",
+      "stagedPath": "src/assets/catalog/FM-5013/primary-01-9d27da323c0d.webp",
       "sourceHash": "347e4372fcd509ecff39b28ecd1ae3c0b02e62c236b13450b86f72e26308b91d",
-      "outputHash": "3d2500badb7e72df5ceabc7f2224a559413dee980621c8c3da332afdb336cc8f",
+      "outputHash": "9d27da323c0dcdeb3efb29487bedeb3eccb577c365b5069ec64e01187907c26e",
       "mimeType": "image/jpeg",
       "bytes": 42368,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: abdominal machine and original pad/roller layout retained; outer painted uprights forest green; upper chrome handles, pivot housing, lower silver base and yellow controls preserved; compact Full Muscle logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5013.png"
     },
     {
       "assetId": "fm-5014-dc2fcf938b7297a9",
@@ -2029,16 +2055,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/e3/e366488796eb721eeb53d86c222231b14a0ade593ae603fc3a4f1458b3419bfc.jpg",
-      "stagedPath": "src/assets/catalog/FM-5014/primary-01-b27cf8657c3c.webp",
+      "stagedPath": "src/assets/catalog/FM-5014/primary-01-6227b776cdc6.webp",
       "sourceHash": "e366488796eb721eeb53d86c222231b14a0ade593ae603fc3a4f1458b3419bfc",
-      "outputHash": "b27cf8657c3cf2afb9e20d2ecefda4188fa5e4bed4cf40e25b94b3753e7edde6",
+      "outputHash": "6227b776cdc6ba259016ffceb8ee8a82d5f62b0a7147960c1717a75dc0308d6e",
       "mimeType": "image/jpeg",
       "bytes": 39469,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: back extension geometry, black angled footplate and orange pads retained; central painted lever dark green; silver pivot covers, chrome arm and yellow controls preserved; compact Full Muscle logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5014.png"
     },
     {
       "assetId": "fm-5015-6ff23850726786de",
@@ -2344,16 +2372,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/51/514078f8685b96cce95f07500b7adc6dfa2076c68a4ffba4ad72e864b3c02885.jpg",
-      "stagedPath": "src/assets/catalog/FM-5029/primary-01-d8fa231891cc.webp",
+      "stagedPath": "src/assets/catalog/FM-5029/primary-01-3803bcf99872.webp",
       "sourceHash": "514078f8685b96cce95f07500b7adc6dfa2076c68a4ffba4ad72e864b3c02885",
-      "outputHash": "d8fa231891ccd65bc09b5a639ba7fb508c40d76ee50ca33bdfef6959042883de",
+      "outputHash": "3803bcf99872d150948390ee44987058a83007a46353611a5c35ede25ef31f37",
       "mimeType": "image/jpeg",
       "bytes": 45993,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: dual cable machine geometry, handles, weight stacks and cables retained; formerly red guard panels forest green; silver rails, chrome attachments, black pulleys and yellow handles preserved; compact Full Muscle crossbar logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5029.png"
     },
     {
       "assetId": "fm-5030-dc119d5b6663933e",
@@ -2365,16 +2395,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/33/337e69e7554aed281e8340418eb6ab9466c149ed15126289f278a8710ed85670.jpg",
-      "stagedPath": "src/assets/catalog/FM-5030/primary-01-603fe1f4b1b8.webp",
+      "stagedPath": "src/assets/catalog/FM-5030/primary-01-089fc2367b2d.webp",
       "sourceHash": "337e69e7554aed281e8340418eb6ab9466c149ed15126289f278a8710ed85670",
-      "outputHash": "603fe1f4b1b84ac17f7da5e2fcc31ba7c28b3badccb37c2d096a96053395935f",
+      "outputHash": "089fc2367b2d07228cb6f615e9517b31941b062be06bfa15eb10470428c857cb",
       "mimeType": "image/jpeg",
       "bytes": 27888,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: full crossover width, towers, handles and weight stacks retained; paired diagonal painted supports forest green; top beam and guide rails silver, pulleys/cables black preserved; compact Full Muscle logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5030.png"
     },
     {
       "assetId": "fm-5031-0fb185a9f7fe2171",
@@ -2386,16 +2418,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/fa/fa5c7a101a51b3ec39aaf382be7080ae6759871e410657abc5565a805d3d1ee7.jpg",
-      "stagedPath": "src/assets/catalog/FM-5031/primary-01-6262d9e312aa.webp",
+      "stagedPath": "src/assets/catalog/FM-5031/primary-01-d5801e7e35f5.webp",
       "sourceHash": "fa5c7a101a51b3ec39aaf382be7080ae6759871e410657abc5565a805d3d1ee7",
-      "outputHash": "6262d9e312aa46a340d5f48566d1b5373a52a3eb727979ee4d7cc817c5203f48",
+      "outputHash": "d5801e7e35f5441dbc23a4d94f337b869d0fafe31d4e5b9721c25bb69a0a0e31",
       "mimeType": "image/jpeg",
       "bytes": 27787,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: dual-handle pulldown model and weight stack retained; inclined painted support forest green; outer post, pulley support and seat leg silver; orange pads and black handles preserved; small Full Muscle logo on upright."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5031.png"
     },
     {
       "assetId": "fm-5032-c837f3e0b7fcdb80",
@@ -2407,16 +2441,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/2f/2f71b7408303775496ef5916ca43ebd99f42869fdc0364415de7d704fd629803.jpg",
-      "stagedPath": "src/assets/catalog/FM-5032/primary-01-c23946b49d6a.webp",
+      "stagedPath": "src/assets/catalog/FM-5032/primary-01-b02dfcb7be02.webp",
       "sourceHash": "2f71b7408303775496ef5916ca43ebd99f42869fdc0364415de7d704fd629803",
-      "outputHash": "c23946b49d6af39503678bafc134634676dad330f7c4c1a6d7cbe1279c076550",
+      "outputHash": "b02dfcb7be02a62180f901b3cb65556ab0d5581bfb8efe532f0aaeb077988ef7",
       "mimeType": "image/jpeg",
       "bytes": 25340,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: tall cable row geometry and orange seat retained; inclined painted tower support forest green; footplates, handles, cables, weights, silver outer post and seat leg preserved; small Full Muscle logo on upright."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm5-batch-01/FM-5032.png"
     },
     {
       "assetId": "fm-5034-c1a095ba6194cccb",
@@ -3486,16 +3522,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/80/80b95d547fea6ec7a98dde2d385e3e9ad19b380f1fd553786ddd690293746aaf.jpg",
-      "stagedPath": "src/assets/catalog/FM-5201/primary-01-0e857460868c.webp",
+      "stagedPath": "src/assets/catalog/FM-5201/primary-01-73dcd11ce1f1.webp",
       "sourceHash": "80b95d547fea6ec7a98dde2d385e3e9ad19b380f1fd553786ddd690293746aaf",
-      "outputHash": "0e857460868caf63a41f95fd5535349005b9da0564a2a3e0d41cb0504315bceb",
+      "outputHash": "73dcd11ce1f1d9e76963be8e9a692b808ca85c016e4e917f7b5dfc919d23dd9c",
       "mimeType": "image/jpeg",
       "bytes": 39797,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: tall lever shape, handles, black frame and upholstery retained; red painted arms forest green; chrome weight horns, silver adjustment ends and safety marking preserved; Full Muscle base logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm52-batch-01/FM-5201.png"
     },
     {
       "assetId": "fm-5201-80fff82325e9e0e0",
@@ -3602,16 +3640,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/24/247522280949d9e4da4a0858e973ee6ac26a6e6953c74316348dbb0bbf44b992.jpg",
-      "stagedPath": "src/assets/catalog/FM-5202/primary-01-766adbe28abb.webp",
+      "stagedPath": "src/assets/catalog/FM-5202/primary-01-5973b60d60c7.webp",
       "sourceHash": "247522280949d9e4da4a0858e973ee6ac26a6e6953c74316348dbb0bbf44b992",
-      "outputHash": "766adbe28abb769341adc26716a72ed75371983ae927537be68cb892cd17838d",
+      "outputHash": "5973b60d60c79a86784772f84dd0cc53f26fc1fd2a94ed00ee12514e689da069",
       "mimeType": "image/jpeg",
       "bytes": 39873,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: wide upper arms and lower linkage retained; red paint forest green; black frame and pads, chrome weight horns, grips and spring preserved; manufacturer base badge replaced with Full Muscle."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm52-batch-01/FM-5202.png"
     },
     {
       "assetId": "fm-5202-44e95c6fd11e2efb",
@@ -3661,16 +3701,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/47/47d37112351ada5a298417d60f25be3c44c0d104b54ad1267f4dfab0ae3a4726.jpg",
-      "stagedPath": "src/assets/catalog/FM-5203/primary-01-bfaae62cc558.webp",
+      "stagedPath": "src/assets/catalog/FM-5203/primary-01-f917309b29bc.webp",
       "sourceHash": "47d37112351ada5a298417d60f25be3c44c0d104b54ad1267f4dfab0ae3a4726",
-      "outputHash": "bfaae62cc558f1ddffec2506a9ae8ca0c27c2b793e7ee901a8d84e60ce298465",
+      "outputHash": "f917309b29bc0ec7f487f84460be355ef5ca157b8389a8b2c9daa211ffb96a4e",
       "mimeType": "image/jpeg",
       "bytes": 41531,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: overhead pressing arms, inclined seat and black frame retained; red paint forest green; chrome rods and weight horns, grips and silver adjustment hardware preserved; Full Muscle base badge."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm52-batch-01/FM-5203.png"
     },
     {
       "assetId": "fm-5203-f6eef18430a0bd25",
@@ -3739,16 +3781,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/fd/fda278da982ca158ded3dc696b78dcbdd5aa1f0d9df626ffde990e89b9c92711.jpg",
-      "stagedPath": "src/assets/catalog/FM-5204/primary-01-2401d533a23f.webp",
+      "stagedPath": "src/assets/catalog/FM-5204/primary-01-eb66fd942137.webp",
       "sourceHash": "fda278da982ca158ded3dc696b78dcbdd5aa1f0d9df626ffde990e89b9c92711",
-      "outputHash": "2401d533a23f1ec3633c55172861497e786023a2a4d82cb42817102ce0565933",
+      "outputHash": "eb66fd942137c38698b684a65a17b5a3d51b1a6201bfeb2759c4b8dbc2597a09",
       "mimeType": "image/jpeg",
       "bytes": 41629,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: original seated row geometry and platform retained; red painted linkage forest green; black pads and frame, chrome telescoping chest support and weight horns preserved; Full Muscle base logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm52-batch-01/FM-5204.png"
     },
     {
       "assetId": "fm-5205-b0cc1292d6c96ff0",
@@ -3760,16 +3804,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/89/891b43207a928a21644737d780646ef45edcbb55155766c8b80d4895c5f2566e.jpg",
-      "stagedPath": "src/assets/catalog/FM-5205/primary-01-c445fee63dfd.webp",
+      "stagedPath": "src/assets/catalog/FM-5205/primary-01-62a9b085347f.webp",
       "sourceHash": "891b43207a928a21644737d780646ef45edcbb55155766c8b80d4895c5f2566e",
-      "outputHash": "c445fee63dfdd9b7dd402afe510cde430bec0c5398b8f09fcfb39ab5ac802b9d",
+      "outputHash": "62a9b085347f6f68b7a5c428e018aaff344e2af79d593ecb09168158313b6a69",
       "mimeType": "image/jpeg",
       "bytes": 41290,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: leg press, diamond footplate and slide rails retained; red carriage painted green, functional footplate handle remains red; black frame, pads, chrome, labels and warning marks preserved; Full Muscle base logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm52-batch-01/FM-5205.png"
     },
     {
       "assetId": "fm-5206-97195c47d152625c",
@@ -3781,16 +3827,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/1e/1e034304dc251b2232c1fab5a20d7a4569839b68cf61154bf782aa73d4ef4a7c.jpg",
-      "stagedPath": "src/assets/catalog/FM-5206/primary-01-ee3adec0dfa6.webp",
+      "stagedPath": "src/assets/catalog/FM-5206/primary-01-bec34092f16b.webp",
       "sourceHash": "1e034304dc251b2232c1fab5a20d7a4569839b68cf61154bf782aa73d4ef4a7c",
-      "outputHash": "ee3adec0dfa68269e734eb621e0629ff279e6c378bf750f893f28745bfe99578",
+      "outputHash": "bec34092f16b84491f557b6f46469771b6000c5abce12691ada4cf5ec3b41f3b",
       "mimeType": "image/jpeg",
       "bytes": 34117,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and corrected result visually inspected: hack squat geometry retained, red safety handle stalks explicitly restored with localized second edit (prompts/FM-5206correction.json); green sled accents, black pads/frame, chrome rails and hazard labels preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm52-batch-01/FM-5206.png"
     },
     {
       "assetId": "fm-5206-a0ad0017116179f3",
@@ -3840,16 +3888,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/07/073cf98f7520aae38831d55a7cd4193499d74f76eaebd22e93f23d9759befe6b.jpg",
-      "stagedPath": "src/assets/catalog/FM-5207/primary-01-5045f8ddf7d0.webp",
+      "stagedPath": "src/assets/catalog/FM-5207/primary-01-d4322571fef4.webp",
       "sourceHash": "073cf98f7520aae38831d55a7cd4193499d74f76eaebd22e93f23d9759befe6b",
-      "outputHash": "5045f8ddf7d035bf8c639aed405fcb9a64986aa96daa9d55c5b79aecee6b28a3",
+      "outputHash": "d4322571fef4a2034a7f9ffc8e1d3281c6eaf9f703497116ac14ab4da03ecb76",
       "mimeType": "image/jpeg",
       "bytes": 41014,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: high-row geometry and looped handles retained; red painted arms and rods forest green; chest support, black pads/frame, chrome weight horns and safety label preserved; Full Muscle base logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm52-batch-01/FM-5207.png"
     },
     {
       "assetId": "fm-5207-6840f4e9cd87c560",
@@ -3899,16 +3949,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/b3/b31009c8755bdbbf6ef6288a561fefb946471977b79c25c1d2f8d27a08ce0132.jpg",
-      "stagedPath": "src/assets/catalog/FM-5208/primary-01-107745d70317.webp",
+      "stagedPath": "src/assets/catalog/FM-5208/primary-01-bcc859b39c7d.webp",
       "sourceHash": "b31009c8755bdbbf6ef6288a561fefb946471977b79c25c1d2f8d27a08ce0132",
-      "outputHash": "107745d703171902ee9d9abfc0b690efc9275ce93aa5d2c37222635cf87518c8",
+      "outputHash": "bcc859b39c7dab48f4ee976ccfe5c8424f164b3c1b62538877f5cbd63746b88e",
       "mimeType": "image/jpeg",
       "bytes": 37386,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and result visually inspected: tall pulldown model, overhead arms and thigh rollers retained; red painted members forest green; black frame/pads/grips and chrome weight horns preserved; Full Muscle base logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/fm52-batch-01/FM-5208.png"
     },
     {
       "assetId": "fm-5208-0785451bb953b32a",
@@ -4055,16 +4107,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/2c/2c638db1f8093784a75e84a3b485878aac6dbfc6f42f48ae7148e5d00815b140.jpg",
-      "stagedPath": "src/assets/catalog/FM-7015/primary-01-6aed89f0c880.webp",
+      "stagedPath": "src/assets/catalog/FM-7015/primary-01-a468d1cd0211.webp",
       "sourceHash": "2c638db1f8093784a75e84a3b485878aac6dbfc6f42f48ae7148e5d00815b140",
-      "outputHash": "6aed89f0c8802440b8afdeb14f321d13fdd0b9f825cbd4908d65b5f6b6ab64a8",
+      "outputHash": "a468d1cd0211fa49a91ccc7f0895c21748e9b76dacb70adb6607585096aa22eb",
       "mimeType": "image/jpeg",
       "bytes": 35043,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Compared original and output: elliptical geometry, handle and pedal arrangement, central grey panel, grey frame and orange controls retained; rear enclosure outer panel dark green and small supplier badge replaced by Full Muscle. Console fine lettering remains illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/cardio-misc-01/fm-7015-35e66720f197139c.png"
     },
     {
       "assetId": "fm-7020-71944b231f3ea2c3",
@@ -4118,16 +4172,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/9e/9ed91f18eabc96889c86c1c9a0e2d01e7799a9cc4663f80501dc817175eef8c2.jpg",
-      "stagedPath": "src/assets/catalog/FM-7026/primary-01-5b4af8c6401e.webp",
+      "stagedPath": "src/assets/catalog/FM-7026/primary-01-e5795a779921.webp",
       "sourceHash": "9ed91f18eabc96889c86c1c9a0e2d01e7799a9cc4663f80501dc817175eef8c2",
-      "outputHash": "5b4af8c6401e72cb2a58747f582441e2546aa4888b88a0484afd5b98d2abc5e9",
+      "outputHash": "e5795a779921722a26afaa6d5b719cfac78b60009be70dd5078a58cfb34e24f8",
       "mimeType": "image/jpeg",
       "bytes": 29360,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Original and edited image visually compared: same ab-coaster frame, knee pad, handles, curved chrome rails, weight pegs and viewpoint. Only diagonal painted upright green, compact physical Full Muscle logo below safety label. Chrome, rubber and upholstery retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/cardio-misc-01/fm-7026-429fc44ff963ff5d.png"
     },
     {
       "assetId": "fm-7026-e8f227c9fb92f70d",
@@ -4272,16 +4328,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/74/748b2970194fd79753abade9a40edc08b3fabcf21398d5d65824ee70b162bd45.jpg",
-      "stagedPath": "src/assets/catalog/FM-7027/primary-01-0abe4724e2c1.webp",
+      "stagedPath": "src/assets/catalog/FM-7027/primary-01-f25bf06aa93c.webp",
       "sourceHash": "748b2970194fd79753abade9a40edc08b3fabcf21398d5d65824ee70b162bd45",
-      "outputHash": "0abe4724e2c166f8f394c2fd2fc68b2e31bd789de76f4e6717c3c49374f722ae",
+      "outputHash": "f25bf06aa93cd8ad2f1f5eb84b5764ae409be6b6185743126ad1f70f7ea11cff",
       "mimeType": "image/jpeg",
       "bytes": 29993,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Original and edit compared: both black and white rowers retained with matching geometry, overlap, rails, footrests, fans and console arms. Only short connector beams green with Full Muscle lettering; original white background retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/cardio-misc-01/fm-7027-a1975874382cc484.png"
     },
     {
       "assetId": "fm-7027-cffacb01d853a7c9",
@@ -4293,16 +4351,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/8d/8d4590a3eca7518c07cccae1a095f05f8f95996530faca6891656a3cc742773a.jpg",
-      "stagedPath": "src/assets/catalog/FM-7027/gallery-02-25b953e9cbf0.webp",
+      "stagedPath": "src/assets/catalog/FM-7027/gallery-02-ce069764c4ad.webp",
       "sourceHash": "8d4590a3eca7518c07cccae1a095f05f8f95996530faca6891656a3cc742773a",
-      "outputHash": "25b953e9cbf081663ab050b815806f8acb3c136ffd3e6e03c89cfc3087a57dc2",
+      "outputHash": "ce069764c4ada667e006c9fa64d2f35405ed6f6c44c2e1df5bc4c636bae9b40f",
       "mimeType": "image/jpeg",
       "bytes": 64013,
-      "width": 800,
-      "height": 600,
+      "width": 1448,
+      "height": 1086,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Original and edit compared: silver rower housing, black grille, rail, chain, seat, footrests, console arm and showroom retained; connector beam painted green and AIR ROWER replaced by physical Full Muscle logo."
+      ],
+      "editedPath": "data/catalog-branding/generated/cardio-misc-01/fm-7027-cffacb01d853a7c9.png"
     },
     {
       "assetId": "fm-7027-4033a1b7a984afe9",
@@ -4314,16 +4374,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/bd/bda00971ef84c2404126a820461f5e0f487529002028f0fc7b8cde27f863ba92.jpg",
-      "stagedPath": "src/assets/catalog/FM-7027/gallery-03-e208113df0e5.webp",
+      "stagedPath": "src/assets/catalog/FM-7027/gallery-03-f33cb898ded5.webp",
       "sourceHash": "bda00971ef84c2404126a820461f5e0f487529002028f0fc7b8cde27f863ba92",
-      "outputHash": "e208113df0e55c9e48b1cd0d593e749f458a10b0a368864cc22343a7c689d5c1",
+      "outputHash": "f33cb898ded5f40eb6d7bd45a9d44777c90971357893c744f93661f577679245",
       "mimeType": "image/jpeg",
       "bytes": 78550,
-      "width": 800,
-      "height": 600,
+      "width": 1448,
+      "height": 1086,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Original and final correction compared: all three black rowers, room and framing retained. Short connector beams green with Full Muscle logos where visible; black long rails and silver sliding surfaces preserved. First pass added an unwanted rear-rail logo/green section; corrective edit removed both and final result was rechecked."
+      ],
+      "editedPath": "data/catalog-branding/generated/cardio-misc-01/fm-7027-4033a1b7a984afe9.png"
     },
     {
       "assetId": "fm-7027-59b9e3ca606b49d6",
@@ -4449,16 +4511,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/dc/dc182a184d0b7401d92c32c3707243fca6a1abcb58deecc48f74e6034fb53b08.jpg",
-      "stagedPath": "src/assets/catalog/FM-7029/primary-01-497c69807e8b.webp",
+      "stagedPath": "src/assets/catalog/FM-7029/primary-01-b0a8f0ff61f4.webp",
       "sourceHash": "dc182a184d0b7401d92c32c3707243fca6a1abcb58deecc48f74e6034fb53b08",
-      "outputHash": "497c69807e8b439770bae70493f341f9d4a0764e3f0d17fb2f02b531d9521da0",
+      "outputHash": "b0a8f0ff61f45d4be63634d445e187a182d3a560c898075ceb8025f4d982a1bf",
       "mimeType": "image/jpeg",
       "bytes": 16224,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Original and result compared: V uprights green with physical Full Muscle logo; lime pull handles, cords, pulleys, console, fan, lower frame, braces and wooden-edged platform preserved. Geometry and original viewpoint retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/cardio-misc-01/fm-7029-75c6c377047f6d12.png"
     },
     {
       "assetId": "fm-7029-670e6e539dc502da",
@@ -4727,16 +4791,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/1a/1a25ce752874dc5defd5d3d6b9939510cc10b50240e8262081405f9339e04481.jpg",
-      "stagedPath": "src/assets/catalog/FM-7043A/primary-01-3022bcbecb1f.webp",
+      "stagedPath": "src/assets/catalog/FM-7043A/primary-01-18188705cfbe.webp",
       "sourceHash": "1a25ce752874dc5defd5d3d6b9939510cc10b50240e8262081405f9339e04481",
-      "outputHash": "3022bcbecb1f6b4009c9317ef38e2e6b30ca2aa84f769515cd66e114c6b45d8c",
+      "outputHash": "18188705cfbefc28223889b596b5bfefc303a55b055d0a59be96fb43430e8749",
       "mimeType": "image/jpeg",
       "bytes": 116882,
-      "width": 1000,
-      "height": 989,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and output compared: same elliptical silhouette, handles, pedals, flywheel, console and view. Cyan decorative rings changed to forest green with segmentation retained; Full Muscle logo inside existing crank-cover outline. Frame, silver trim and runner display preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/cardio-misc-01/fm-7043a-283379fe58d8de22.png"
     },
     {
       "assetId": "fm-7043b-c436c3578f42176a",
@@ -4748,16 +4814,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/17/17344a9cda7fc6152ebdba958a8974e4c29e872696227b310f304773e045935c.jpg",
-      "stagedPath": "src/assets/catalog/FM-7043B/primary-01-290cd5c9ab88.webp",
+      "stagedPath": "src/assets/catalog/FM-7043B/primary-01-467482e85cb7.webp",
       "sourceHash": "17344a9cda7fc6152ebdba958a8974e4c29e872696227b310f304773e045935c",
-      "outputHash": "290cd5c9ab88280d5592c9a412374ff91292ad717294984a852d2a38dbe77313",
+      "outputHash": "467482e85cb75b05649e4ece2939b01650afec059121795b4baa833d729ee83d",
       "mimeType": "image/jpeg",
       "bytes": 112866,
-      "width": 1000,
-      "height": 989,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and output compared: elliptical geometry, pedal position, control panel, handles, grey/silver trim, original background and camera angle retained. Decorative flywheel rings dark green and Full Muscle logo inside crank-cover border, coherent with the other views. Fine display text illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/cardio-misc-01/fm-7043b-c436c3578f42176a.png"
     },
     {
       "assetId": "fm-7043b-419f69b04fa3fc51",
@@ -4769,16 +4837,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/00/002dc3095982df671d4c9c69fdaf8ebb23bbc3c0f885263dfd1665444a45bbcb.jpg",
-      "stagedPath": "src/assets/catalog/FM-7043B/gallery-02-405f09523b3b.webp",
+      "stagedPath": "src/assets/catalog/FM-7043B/gallery-02-090d0d2481e6.webp",
       "sourceHash": "002dc3095982df671d4c9c69fdaf8ebb23bbc3c0f885263dfd1665444a45bbcb",
-      "outputHash": "405f09523b3b6e193812c54a9bc42c73affb740852f1837c4034742fa65406ad",
+      "outputHash": "090d0d2481e6e5f11f0e69d557973d8cc1da5339c25ebbc82e2c5434994567a4",
       "mimeType": "image/jpeg",
       "bytes": 53439,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and output compared: person identity, clothing, pose and hand/foot positions retained; machine geometry, showroom and viewpoint preserved. Decorative flywheel rings green, Full Muscle logo on crank cover; controls retain original colors. Fine display text illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/cardio-misc-01/fm-7043b-419f69b04fa3fc51.png"
     },
     {
       "assetId": "fm-7043b-ac593effb543bc51",
@@ -4790,16 +4860,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/de/de4368f1b2e43ef51a3bcd038bab5d77c52e8c572c72b9fc4a02fd13bfb69966.jpg",
-      "stagedPath": "src/assets/catalog/FM-7043B/gallery-03-4fbfcb03d30a.webp",
+      "stagedPath": "src/assets/catalog/FM-7043B/gallery-03-701d2dcb4e93.webp",
       "sourceHash": "de4368f1b2e43ef51a3bcd038bab5d77c52e8c572c72b9fc4a02fd13bfb69966",
-      "outputHash": "4fbfcb03d30a6ba6c3a711785d6470fe01181ffb5c54dcc5976120bcef0a4bcb",
+      "outputHash": "701d2dcb4e937bae6a84c7683d2e304df8ba2cf7492441210b2e76eca16d25d2",
       "mimeType": "image/jpeg",
       "bytes": 56727,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and output compared: elliptical geometry, pedal position, control panel, handles, grey/silver trim, original background and camera angle retained. Decorative flywheel rings dark green and Full Muscle logo inside crank-cover border, coherent with the other views. Fine display text illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/cardio-misc-01/fm-7043b-ac593effb543bc51.png"
     },
     {
       "assetId": "fm-7043b-da79fc9a7ac644d9",
@@ -4811,16 +4883,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/a7/a71fbd7a8e1c9a4fe74f8ac2729e0de0e64ec48928f439566e8ddde4a7293a66.jpg",
-      "stagedPath": "src/assets/catalog/FM-7043B/gallery-04-b23e987126e4.webp",
+      "stagedPath": "src/assets/catalog/FM-7043B/gallery-04-3a05e177f51d.webp",
       "sourceHash": "a71fbd7a8e1c9a4fe74f8ac2729e0de0e64ec48928f439566e8ddde4a7293a66",
-      "outputHash": "b23e987126e4c3cc741305290de7faafabf71e64bcaea1fe1012ecf598de8764",
+      "outputHash": "3a05e177f51d6365369cd55dd812a5a32aefd38c1558e5c242afaa04239e1c06",
       "mimeType": "image/jpeg",
       "bytes": 56315,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Source and output compared: elliptical geometry, pedal position, control panel, handles, grey/silver trim, original background and camera angle retained. Decorative flywheel rings dark green and Full Muscle logo inside crank-cover border, coherent with the other views. Fine display text illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/cardio-misc-01/fm-7043b-da79fc9a7ac644d9.png"
     },
     {
       "assetId": "fm-7045b-7126983da9af73b9",
@@ -23454,16 +23528,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/7d/7dd4908073d1c82fcfc39ad04ac9194f3b938aea9a8b5c0990eee32ec520c566.jpg",
-      "stagedPath": "src/assets/catalog/FM-SP-20/primary-01-daa061c2de27.webp",
+      "stagedPath": "src/assets/catalog/FM-SP-20/primary-01-80dd0318f72d.webp",
       "sourceHash": "7dd4908073d1c82fcfc39ad04ac9194f3b938aea9a8b5c0990eee32ec520c566",
-      "outputHash": "daa061c2de276499652ee921238c4924abbe0333c86a7fcb76718b99f16b56df",
+      "outputHash": "80dd0318f72d3183b72831ce4954502bec3808a7c74c42e88f4f903f2a0dde30",
       "mimeType": "image/jpeg",
       "bytes": 15950,
-      "width": 1000,
-      "height": 988,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Original and output compared: surf machine rails, console, platform, rear/interior panels and silver feet preserved. Only front decorative panel green with Full Muscle logo replacing red wording/stripes. Same machine geometry and white background."
+      ],
+      "editedPath": "data/catalog-branding/generated/cardio-misc-01/fm-sp-20-0e447aab8b7328d3.png"
     },
     {
       "assetId": "fm-sp-20-42016089642b56dd",
@@ -24556,16 +24632,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/5e/5e0c77c19c31ec3f80a577b1f28bedb1f86fe30f191fa92994c47de723194d70.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6035/primary-01-f1f991bfbce5.webp",
+      "stagedPath": "src/assets/catalog/FM-X6035/primary-01-07289561abd0.webp",
       "sourceHash": "5e0c77c19c31ec3f80a577b1f28bedb1f86fe30f191fa92994c47de723194d70",
-      "outputHash": "f1f991bfbce5167a92cbb6a5b928dd67f53f1fbbfbeb06f937e9bf77bcc4206f",
+      "outputHash": "07289561abd0d80bd82968cab9a9775d12422b0de08e2ba020a1a085f8c9105d",
       "mimeType": "image/jpeg",
       "bytes": 33890,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Overhead lever geometry, grips, headrest/backrest, rear cable and pulleys retained. Blue selector pin and yellow adjustment lever unchanged; green decorative tower trim, small Full Muscle logo and supplier CURVE removed. Fine instruction microtext illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6035-af441362af1148d5.png"
     },
     {
       "assetId": "fm-x6036-0bea26982d6fb66b",
@@ -24577,16 +24655,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/05/05c8be32f6d0030968fd58702bcdf38f2ea31d834ba8a680a5b8364913d26e0f.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6036/primary-01-109feaff1036.webp",
+      "stagedPath": "src/assets/catalog/FM-X6036/primary-01-94e629f330ac.webp",
       "sourceHash": "05c8be32f6d0030968fd58702bcdf38f2ea31d834ba8a680a5b8364913d26e0f",
-      "outputHash": "109feaff10364341fcb9f03d8024a274b0351593f2d9fd03421efac8607f7762",
+      "outputHash": "94e629f330acb7943b07f5c01e57246fb87718154012d5bc11cfe453d40a26a0",
       "mimeType": "image/jpeg",
       "bytes": 35218,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Seat, backrest, front roller, two spoked pulleys, cable route, silver grips/rails and base retained. Blue selector and yellow adjustment controls unchanged. Green trim and Full Muscle mark applied, CURVE removed; fine instruction microtext illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6036-0bea26982d6fb66b.png"
     },
     {
       "assetId": "fm-x6037-6976070b5d1f646b",
@@ -24598,16 +24678,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/4a/4abfd0bf107004884564b2de93b63273d39d72d0df9a7e0407cd3115b7f643b1.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6037/primary-01-8db8dba59ea5.webp",
+      "stagedPath": "src/assets/catalog/FM-X6037/primary-01-fc468b3e173c.webp",
       "sourceHash": "4abfd0bf107004884564b2de93b63273d39d72d0df9a7e0407cd3115b7f643b1",
-      "outputHash": "8db8dba59ea5de7c6791346e7d6092cecb38b82b50664840fd6e48cd7eecb24d",
+      "outputHash": "fc468b3e173cc12b5d513c9897af83141818e8c37cf563ec7e476179eb9e23a2",
       "mimeType": "image/jpeg",
       "bytes": 35392,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Abdominal lever, twin loop grips, curved pads, pivot, seat/backrest and rectangular low foot support retained. Green tower trim, small Full Muscle mark, supplier CURVE removed. Functional blue selector retained; instruction microtext illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6037-6976070b5d1f646b.png"
     },
     {
       "assetId": "fm-x6040-46044253b33a26ce",
@@ -24619,16 +24701,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/e4/e4e49c60a53880b07010578f4a3133935cc38bfed0620dde02c00a8fbad9a5bb.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6040/primary-01-fca7a47af46d.webp",
+      "stagedPath": "src/assets/catalog/FM-X6040/primary-01-15b6f7ff2d62.webp",
       "sourceHash": "e4e49c60a53880b07010578f4a3133935cc38bfed0620dde02c00a8fbad9a5bb",
-      "outputHash": "fca7a47af46d2fb598a36f281265c3b93d2a8bcaee0559b03ea6acdbff8e98f1",
+      "outputHash": "15b6f7ff2d62b663c37e3bd82dcb0dd7b63c11f77fe4b066bae62fc9ec57bb30",
       "mimeType": "image/jpeg",
       "bytes": 42443,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: High press linkage, paired silver grips, tall pads, rear cable/pulleys, yellow lever and blue selector retained. Tower trim green, Full Muscle mark applied and CURVE removed. White background and original view preserved; fine instruction microtext illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6040-46044253b33a26ce.png"
     },
     {
       "assetId": "fm-x6041-565f88dd6731989f",
@@ -24640,16 +24724,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/6a/6ac0593d378f807220dfdc7f4830071d76a48ece0a0ccff47656f3b449f133e9.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6041/primary-01-678d94f60e9e.webp",
+      "stagedPath": "src/assets/catalog/FM-X6041/primary-01-462fc98d896e.webp",
       "sourceHash": "6ac0593d378f807220dfdc7f4830071d76a48ece0a0ccff47656f3b449f133e9",
-      "outputHash": "678d94f60e9e4f69e1b6aabef7bc9d81e5ef2b11e479b7cad18a04411a5eba8a",
+      "outputHash": "462fc98d896e94120992dc6450d79d16c8263e0cd3993512c2584d198fbd4500",
       "mimeType": "image/jpeg",
       "bytes": 35698,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Small seat/chest pad, arm-pad assembly, silver grips, support posts and yellow seat lever retained. Tower decorative trim green; Full Muscle logo replaces supplier mark, CURVE removed. Black frame/upholstery and white background preserved; fine labels illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6041-565f88dd6731989f.png"
     },
     {
       "assetId": "fm-x6043-d0bda90b1bcb3562",
@@ -24661,16 +24747,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/82/82cad6f6b6eb88c5107208d4af65ad00dd8327d928dc2f207812e02c85735be7.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6043/primary-01-84866fbc8a55.webp",
+      "stagedPath": "src/assets/catalog/FM-X6043/primary-01-fd6e658e4b68.webp",
       "sourceHash": "82cad6f6b6eb88c5107208d4af65ad00dd8327d928dc2f207812e02c85735be7",
-      "outputHash": "84866fbc8a55e53aa160b112e57d94efad42e92e14e46a1719214d2d268505eb",
+      "outputHash": "fd6e658e4b6830cb4fd1028b97071f62cc52eef431c77c2b447394e84985ce05",
       "mimeType": "image/jpeg",
       "bytes": 22900,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Decline bench, four front rollers, loop handle, rack hooks, rear storage pegs and supports retained. Green limited to front rack uprights, Full Muscle mark in original base-label position. White background and original view preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6043-d0bda90b1bcb3562.png"
     },
     {
       "assetId": "fm-x6044-3446d28455647303",
@@ -24682,16 +24770,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/54/54f730916f351dd50c82914dd1395263cacc41fd8bef583fe92585150ce1dbbd.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6044/primary-01-fded97cb55fb.webp",
+      "stagedPath": "src/assets/catalog/FM-X6044/primary-01-4ae8cd2e115e.webp",
       "sourceHash": "54f730916f351dd50c82914dd1395263cacc41fd8bef583fe92585150ce1dbbd",
-      "outputHash": "fded97cb55fb8c7c473b557afd6ea36e74aa0590ce0b950d683df0d8796bceac",
+      "outputHash": "4ae8cd2e115ec35a2c6c5ab28db2082c2ea05e173e2f29be899b4a744a036572",
       "mimeType": "image/jpeg",
       "bytes": 34721,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Prone bench angles, black roller, large pivot, yellow controls, right silver handles and support legs retained. Blue tower trim changed green, small Full Muscle mark and CURVE removal applied. Original view/background retained; fine instruction microtext illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6044-3446d28455647303.png"
     },
     {
       "assetId": "fm-x6046-58b4277ba2c22430",
@@ -24703,16 +24793,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/ca/ca30680b3e870a5d6088a452935f305646343f42336db7f74e82c3ebf79f2376.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6046/primary-01-775c5b24122b.webp",
+      "stagedPath": "src/assets/catalog/FM-X6046/primary-01-7a28343d5826.webp",
       "sourceHash": "ca30680b3e870a5d6088a452935f305646343f42336db7f74e82c3ebf79f2376",
-      "outputHash": "775c5b24122b1684866c762ca5dcc044e209f60cb7732486af11a2519f1d2801",
+      "outputHash": "7a28343d58261844b7f105a7d8f5a4da81d19fe4f78d4fd83a420ae77da30289",
       "mimeType": "image/jpeg",
       "bytes": 34221,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Preacher pad, lever, silver handles, semicircular cam, cable/pulley, seat and both blue controls retained. Green decorative tower trim and modest Full Muscle logo applied; CURVE removed. Original camera/background maintained; instruction microtext illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6046-58b4277ba2c22430.png"
     },
     {
       "assetId": "fm-x6047-3af13919fb547b56",
@@ -24724,16 +24816,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/da/da0a8e2625bbaecdb43fb66efeacaf0c774b5cec1c5c09d0e5ed983d4447dc8f.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6047/primary-01-f2beada52ce4.webp",
+      "stagedPath": "src/assets/catalog/FM-X6047/primary-01-cdc206cdd8e0.webp",
       "sourceHash": "da0a8e2625bbaecdb43fb66efeacaf0c774b5cec1c5c09d0e5ed983d4447dc8f",
-      "outputHash": "f2beada52ce48d3a89f165d8f0ec47ccaa10ff287808412f44e674e27b80dd22",
+      "outputHash": "cdc206cdd8e0401a35b4bc9960bb9f9c26689b754bfea481cb0a4f1f4ad84def",
       "mimeType": "image/jpeg",
       "bytes": 33851,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Final editorial comparison of original and result: tall fly-machine frame, curved arms, silver grips, pulleys, cables, pads and colored controls preserved. Green tower trim and compact Full Muscle badge replace supplier identity. The original long warning placard remains on the left housing; the upper supplier badge behind the arm is replaced by Full Muscle. Fine label lettering is illustrative."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6047-3af13919fb547b56.png"
     },
     {
       "assetId": "fm-x6049-d6b949a62a80db2f",
@@ -24745,16 +24839,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/4c/4cbba7675b522d0859da26088e78d6300269ef9afa268961340480b172371002.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6049/primary-01-a62407b486de.webp",
+      "stagedPath": "src/assets/catalog/FM-X6049/primary-01-cd511d327888.webp",
       "sourceHash": "4cbba7675b522d0859da26088e78d6300269ef9afa268961340480b172371002",
-      "outputHash": "a62407b486de79b883a261a99efbe7a5f80b47b0461e33a29fa2fa731690351c",
+      "outputHash": "cd511d3278888898ade0cab9628a7d22cce816569a48be8c3a1f5b0c514b2de7",
       "mimeType": "image/jpeg",
       "bytes": 35035,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Tall standing frame, overhead linkage/beam, silver handles, protruding pin, lower two-level platforms, curved rail and blue selector retained. Green decorative trim, Full Muscle replacement, CURVE removed. Instruction placard present; fine microtext illustrative. White background and view preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6049-d6b949a62a80db2f.png"
     },
     {
       "assetId": "fm-x6050-30222528383a999d",
@@ -24766,16 +24862,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/d1/d1fe83719785573fa728606ec07a91625a57b242d20bb6bb83cdc28fbd6feb88.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6050/primary-01-3d0e99936599.webp",
+      "stagedPath": "src/assets/catalog/FM-X6050/primary-01-2770084d7bc9.webp",
       "sourceHash": "d1fe83719785573fa728606ec07a91625a57b242d20bb6bb83cdc28fbd6feb88",
-      "outputHash": "3d0e999365991dc03c977c62cb32444365ce6b88bf22136010f5c04cd0239ea6",
+      "outputHash": "2770084d7bc990a96503d73c4f2c85ee318e095b32ae580c90d5bbbbe29984c3",
       "mimeType": "image/jpeg",
       "bytes": 36527,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Right-tower view, curved frame, narrow backrest/seat, paired diagonal silver grips, cam and yellow/blue controls retained. Tower decorative trim green and Full Muscle logo applied. Instruction placard present with illustrative fine microtext; original white background retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6050-30222528383a999d.png"
     },
     {
       "assetId": "fm-x6052-386e6099ab11b9f0",
@@ -24787,16 +24885,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/5a/5a142210dc3be64e2f6022fc583d1a1419e8bcebb6e452230d934175d75bf63c.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6052/primary-01-32092cb51154.webp",
+      "stagedPath": "src/assets/catalog/FM-X6052/primary-01-67a17898cfe8.webp",
       "sourceHash": "5a142210dc3be64e2f6022fc583d1a1419e8bcebb6e452230d934175d75bf63c",
-      "outputHash": "32092cb51154d38635655484b503af2f11c227fe2e8e57d446f3e7d1076b2fe6",
+      "outputHash": "67a17898cfe84b827a7f5f59a63beab2592f86a60b4b9632b3f4a86cda039ac3",
       "mimeType": "image/jpeg",
       "bytes": 14535,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Utility bench shape, tall backrest, seat, curved front leg, rear leg and segmented black feet retained. Green only steel support legs; tiny Full Muscle label at original rear-foot location. White background and original view preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6052-386e6099ab11b9f0.png"
     },
     {
       "assetId": "fm-x6053-8d833fd3d007a10c",
@@ -24869,16 +24969,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/92/92abb528306c6d4750863a20e47197a0c899ca1b544e3bfc8e17b06833e9ab69.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6054/primary-01-ceaba5f4fa3e.webp",
+      "stagedPath": "src/assets/catalog/FM-X6054/primary-01-4da41e5ca197.webp",
       "sourceHash": "92abb528306c6d4750863a20e47197a0c899ca1b544e3bfc8e17b06833e9ab69",
-      "outputHash": "ceaba5f4fa3e9d0928382fea0c744131a6fe6ec14284ce5a13649b1dd0a5ddf2",
+      "outputHash": "4da41e5ca19769c6b65e49369c85579086aa7702d53275276dc68d66f36a9c9d",
       "mimeType": "image/jpeg",
       "bytes": 35812,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Upper roller/yellow cap, circular cam, spoked pulleys, cable routes, seat/back pad and low rectangular support retained. Decorative tower trim green, Full Muscle logo applied, CURVE removed. Instruction placard present; fine text illustrative. Original view/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6054-3e216e5b1c87b236.png"
     },
     {
       "assetId": "fm-x6055-cc63134fb093c8c1",
@@ -24890,16 +24992,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/fa/faf4ea4e2782ab0a3aab699bd82b8c4808a8108c0419ad92854e9fc30298e143.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6055/primary-01-b77fe51649cc.webp",
+      "stagedPath": "src/assets/catalog/FM-X6055/primary-01-497107636c53.webp",
       "sourceHash": "faf4ea4e2782ab0a3aab699bd82b8c4808a8108c0419ad92854e9fc30298e143",
-      "outputHash": "b77fe51649ccf07b2e0f05f5a797d9eb403362dcbac693d796e8a0804403890f",
+      "outputHash": "497107636c53db3324e4195071016e15af7db0697aff090aa7598cc61851a263",
       "mimeType": "image/jpeg",
       "bytes": 33665,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Both front rollers, reclined backrest/seat, cam/pulley assembly, silver handle and yellow/blue controls retained. Green only tower trim; Full Muscle logo applied and CURVE removed. Instruction placard present with illustrative microtext. Camera/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6055-cc63134fb093c8c1.png"
     },
     {
       "assetId": "fm-x6056-61ab935e0b801254",
@@ -24911,16 +25015,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/84/842d52d59dce5afed8563e8903663bae4d06fe3c5b1a7b8a56552bec827c14dc.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6056/primary-01-29677d2b4ac0.webp",
+      "stagedPath": "src/assets/catalog/FM-X6056/primary-01-6e0d328e96bb.webp",
       "sourceHash": "842d52d59dce5afed8563e8903663bae4d06fe3c5b1a7b8a56552bec827c14dc",
-      "outputHash": "29677d2b4ac0644350df0c7171573e1b5929842806a2f90dc1c63b68246ae4d2",
+      "outputHash": "6e0d328e96bb92a28aba1ec21f4e0845c5ad071bd9d9ffbfb1dbba3328136859",
       "mimeType": "image/jpeg",
       "bytes": 48187,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Incline pad/seat angles, long press levers, right frame, lower chrome rail, cables/pulleys, blue selector and yellow controls retained. Green tower trim, Full Muscle logo, CURVE removed. Instruction placard present with illustrative fine text. Original view/background preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6056-61ab935e0b801254.png"
     },
     {
       "assetId": "fm-x6057-120d6522ee58063e",
@@ -24932,16 +25038,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/05/05468f931d7843ebf9c245426093976a0779dd84cec1290e28d85ef330377bea.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6057/primary-01-8b4aea2a5236.webp",
+      "stagedPath": "src/assets/catalog/FM-X6057/primary-01-36dd8efceec6.webp",
       "sourceHash": "05468f931d7843ebf9c245426093976a0779dd84cec1290e28d85ef330377bea",
-      "outputHash": "8b4aea2a5236b05807325c3ed9fe2b9212e9c15a1604d08f84e1bbfec5452d42",
+      "outputHash": "36dd8efceec676c22b016958b12ea9227f955c778b24e50dc36d3009b977cddb",
       "mimeType": "image/jpeg",
       "bytes": 31569,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Tall arch, suspended curved bar and clip, paired thigh rollers, low bench, attachment handle, cable routes and pulleys retained. Tower trim green and small Full Muscle logo; blue selector remains blue. Instruction placard present with illustrative microtext. White background/view retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6057-120d6522ee58063e.png"
     },
     {
       "assetId": "fm-x6058-48478a8d7a5c4e14",
@@ -24953,16 +25061,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/82/82129b733c9e46c323bc75f0c49e257733fdc319b3cd4f2fc33a58bbdbf3c145.jpg",
-      "stagedPath": "src/assets/catalog/FM-X6058/primary-01-b61b3dde64cf.webp",
+      "stagedPath": "src/assets/catalog/FM-X6058/primary-01-fa904b1e9d24.webp",
       "sourceHash": "82129b733c9e46c323bc75f0c49e257733fdc319b3cd4f2fc33a58bbdbf3c145",
-      "outputHash": "b61b3dde64cf642a553c8c74e47ff163de57daac1dc1fd1f74285b5849879785",
+      "outputHash": "fa904b1e9d24e6d44532901e913d3aaf11120af74c5455a386528117b44a1f52",
       "mimeType": "image/jpeg",
       "bytes": 35562,
-      "width": 800,
-      "height": 800,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Segmented prone bench, upper cam/lever, lower roller and slotted adjustment plate, silver handles, yellow controls and crossbraced base retained. Green tower trim, Full Muscle logo and CURVE removal applied. White instruction placard present with illustrative microtext; original camera/background retained."
+      ],
+      "editedPath": "data/catalog-branding/generated/x6-batch-02/fm-x6058-48478a8d7a5c4e14.png"
     },
     {
       "assetId": "fm-x8201-e92c4a81dd444809",

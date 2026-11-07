@@ -1,0 +1,8 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-7043B/gallery-04-b23e987126e4.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/cardio-misc-01/fm-7043a-283379fe58d8de22.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case: precise-object-edit. Image 1 is the ONLY target, FM-7043B elliptical real showroom photograph. Reference 2 is the finished matching FM-7043A variant, ONLY to match green decorative rings and the Full Muscle logo placement, do NOT copy its screen or viewpoint. Preserve image 1 EXACTLY: machine shape, proportions, console, buttons, controls, all handles, pedals, panels, grey/silver/black trim, feet, original background, framing and shadows.  Recolor ONLY the cyan/light-blue segmented decorative concentric rings on the large flywheel side disc dark satin forest green (~#356B35), preserving silver/white rings. Add a physical modest italic white/green 'Full Muscle' logo with tiny 'EQUIPMENT' below on the black trapezoid crank cover, centered within its silver outline and perspective-correct, matching reference 2. Remove any supplier mark on the main elliptical only. Keep every other item and gym equipment in the background unchanged. Do not change pedal position or handle positions. No new parts, no redesign, no background replacement, no added people or floating text."
+}

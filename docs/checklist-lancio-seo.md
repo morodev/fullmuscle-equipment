@@ -13,7 +13,11 @@ Queste attività completano la parte esterna al codice. Il sito resta intenziona
 - [ ] Turnstile: la chiave pubblica non è presente nella pagina richiesta. Segreto e verifica server vanno controllati nella configurazione privata.
 - [ ] Email: nessun invio reale di collaudo effettuato in questo audit; destinatario e ricezione vanno confermati.
 - [ ] Search Console: nessun account autenticato disponibile nel browser di lavoro; proprietà, verifica DNS e sitemap inviata restano da controllare.
-- [ ] Rich Results Test, prestazioni mobili e Profilo dell'attività Google: verifiche da completare con dati definitivi.
+- [x] Prestazioni mobili sul sito pubblicato: Lighthouse 13.6.0, homepage 100/100 e catalogo 100/100; CLS 0 su entrambi. Accessibilità rispettivamente 100/100 e 96/100. Misure di laboratorio del 7 novembre, non dati sul campo.
+- [x] Homepage e menu verificati su Chrome a 390 e 1.440 px; richiesta di fornitura completa con progetto palestra preselezionato. Nessun invio reale durante il controllo.
+- [ ] Rich Results Test e Profilo dell'attività Google: verifiche da completare con dati definitivi.
+
+Risultati osservabili e campioni della prima pubblicazione immagini: [`data/site-audits/`](../data/site-audits/). Il punteggio SEO Lighthouse resta 69/100 per il blocco intenzionale dell'indicizzazione; non misura la presenza effettiva in Google.
 
 Il censimento del catalogo e il lancio SEO sono verifiche distinte: le immagini possono essere sostituite progressivamente, conservando URL e SKU. Nessuna configurazione va segnata completata soltanto perché è presente il relativo codice.
 

@@ -12,4 +12,5 @@ data/catalog-source/tzfit/inventory.previous.json
 data/catalog-assets/originals/
 data/catalog-assets/edited/
 data/catalog-assets/review/
+data/catalog-branding/generated/*/record.mjs
 *.tmp

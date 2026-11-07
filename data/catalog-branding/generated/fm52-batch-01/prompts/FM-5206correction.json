@@ -1,0 +1,5 @@
+{
+  "sku": "FM-5206",
+  "prompt": "Edit the FIRST image only. It is the approved branded FM-5206 hack squat except one missed detail. The SECOND image is the original catalogue photograph, use it only to identify the original RED safety handles. Restore BOTH slender functional safety-handle stalks beside the shoulder pads to their original burgundy/red paint, including the clearly visible thin upright shaft on the right below the black grip and its short lower trigger segment. Keep both BLACK rubber grip sections black. These thin safety handle rods must be RED, NOT green. Keep all other existing green sled/frame accent surfaces green, retain the Full Muscle logo. Preserve every other pixel, all geometry, padding, camera angle, framing, white background, chrome rails and weight horns unchanged. No redesign, no new components. Only this localized color correction.",
+  "tool": "image_gen.imagegen"
+}

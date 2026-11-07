@@ -1,0 +1,188 @@
+{
+  "batch": "fm5-batch-01",
+  "tool": "image_gen.imagegen",
+  "referenceGreen": "#356B35",
+  "items": [
+    {
+      "sku": "FM-5001",
+      "assetId": "fm-5001-be2031f90f31b0f4",
+      "sourceHash": "ea6ba763bf0d2374fb99688dcb40ccaf7a59f9fdd6d56f0b5594fa2347852005",
+      "inputPath": "src/assets/catalog/FM-5001/primary-01-07c54146e514.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5001.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5001.json",
+      "review": "Source and result inspected: chest-press geometry, orange pads, silver housing, chrome rods, black grips, yellow and red controls preserved. Only painted upper lever sections recolored forest green; Full Muscle label added on tower. White background and viewpoint retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5002",
+      "assetId": "fm-5002-162ba610165099da",
+      "sourceHash": "276f76e7a63c4c00f02fd54935db3e64ef727fd1eb8839791e7bea3196bde3b1",
+      "inputPath": "src/assets/catalog/FM-5002/primary-01-99eaa7b89850.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5002.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5002.json",
+      "review": "Source and result visually inspected: geometry and shoulder press handles preserved; rear painted upright dark green, orange upholstery and silver enclosure retained; yellow controls and chrome unchanged; compact Full Muscle logo on tower.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5003",
+      "assetId": "fm-5003-4c85891b518a7eb6",
+      "sourceHash": "44cd9e3653ae8c9cbbf2c0aa372dd69353c59795aea9041cc524b209fb0f2df8",
+      "inputPath": "src/assets/catalog/FM-5003/primary-01-66f168066170.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5003.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5003.json",
+      "review": "Source and result visually inspected: leg extension geometry and orange roller preserved; painted right lever dark green, silver main frame and enclosure retained; yellow controls and chrome unchanged; compact Full Muscle logo on tower.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5004",
+      "assetId": "fm-5004-d378ad1365378b31",
+      "sourceHash": "6e42eadd84b2531d1aaa2d108521232ebbffa0dbfbcedb7aa777e42ba46d222a",
+      "inputPath": "src/assets/catalog/FM-5004/primary-01-7be7da85a8f5.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5004.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5004.json",
+      "review": "Source and result visually inspected: leg press silhouette, footplate, seat rail and mechanical parts retained; front painted supports forest green; orange upholstery, silver frame, black grips, controls preserved; compact Full Muscle tower logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5005",
+      "assetId": "fm-5005-1e76a65b5b0ade7b",
+      "sourceHash": "831603cf359269705c947aeac6d83d1ad11b92ceb8596d27445c6baf0ae12a20",
+      "inputPath": "src/assets/catalog/FM-5005/primary-01-d2295a1036c7.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5005.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5005.json",
+      "review": "Source and result visually inspected: lateral raise lever geometry, orange pads and chrome handles preserved; upper painted housings forest green; silver tower, yellow controls unchanged; compact Full Muscle tower logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5006",
+      "assetId": "fm-5006-f03f9457da3ea92a",
+      "sourceHash": "23bee6b362b92cb5063cee2451646ea4bede2016de943245a9602973c68f33d2",
+      "inputPath": "src/assets/catalog/FM-5006/primary-01-6d988c8c34aa.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5006.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5006.json",
+      "review": "Source and result visually inspected: rowing geometry, orange chest pad and seat, black footplates retained; left painted moving arm forest green; chrome handles and yellow controls unchanged; compact Full Muscle tower logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5007",
+      "assetId": "fm-5007-515fb24cb93f09d4",
+      "sourceHash": "1b33d436a2000ef409a04bd8ca1960604e2feb3099e848a83ec19472725a9591",
+      "inputPath": "src/assets/catalog/FM-5007/primary-01-a0ed3d64236a.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5007.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5007.json",
+      "review": "Source and result visually inspected: original machine silhouette, arm pads and curved handles retained; rear painted upright forest green; orange upholstery, silver enclosure, yellow controls and chrome preserved; compact Full Muscle tower logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5008",
+      "assetId": "fm-5008-8a4c2c43ab428495",
+      "sourceHash": "cde1bb4762d2595eb40398f55d55b985e727e810e2397c11580b2a4554469746",
+      "inputPath": "src/assets/catalog/FM-5008/primary-01-682336dedaf1.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5008.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5008.json",
+      "review": "Source and result visually inspected: distinct upper arm geometry and orange side pads retained; painted lever housings forest green; silver handles, tower, seat adjustment and yellow controls unchanged; compact Full Muscle logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5009",
+      "assetId": "fm-5009-c56db182016b8f70",
+      "sourceHash": "933caa57dd8750ffba6ce1ea1ccd239b95217b8c7c88bc75ab7b8208d4b4849c",
+      "inputPath": "src/assets/catalog/FM-5009/primary-01-a6a4ddac6917.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5009.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5009.json",
+      "review": "Source and result visually inspected: inclined hip machine silhouette and knee pad assembly retained; painted backrest support forest green; silver posts, lower mechanics, yellow knob and orange upholstery preserved; compact Full Muscle logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5010",
+      "assetId": "fm-5010-69bc1b12a2e42165",
+      "sourceHash": "206b3e737c8d5e5f5a7174dff39478860f2b8dba9fe7e4a970d7e9956efaecff",
+      "inputPath": "src/assets/catalog/FM-5010/primary-01-23e83c739777.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5010.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5010.json",
+      "review": "Source and result visually inspected: seated leg curl and roller geometry retained; lower U-shaped painted linkage forest green; red and yellow controls remain distinct, upper chrome linkage and silver frame preserved; compact Full Muscle logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5011",
+      "assetId": "fm-5011-5c7b9f3c0d4c2214",
+      "sourceHash": "cfb04b356dd1dfb503b19a66148c547bbc315b7933fba739138f1223cf5e9012",
+      "inputPath": "src/assets/catalog/FM-5011/primary-01-225f45908e71.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5011.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5011.json",
+      "review": "Source and result visually inspected: butterfly model, dual-height grips and orange arm pads retained; lower painted lever arms forest green; upper chrome handle assemblies, orange upholstery and yellow controls preserved; compact Full Muscle logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5012",
+      "assetId": "fm-5012-8f80306508e8b019",
+      "sourceHash": "c0d0787aef64ebe29282226d7d259cb80f4425c420ef5ef1adae9bd07f61ca52",
+      "inputPath": "src/assets/catalog/FM-5012/primary-01-3960f6494c01.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5012.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5012.json",
+      "review": "Source and result visually inspected: tall pulldown model and margins retained; long painted arms forest green; hanging chrome handles, counterweights, orange thigh pads, fixed silver support and controls preserved; compact Full Muscle logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5013",
+      "assetId": "fm-5013-8506cd72c6d168bc",
+      "sourceHash": "347e4372fcd509ecff39b28ecd1ae3c0b02e62c236b13450b86f72e26308b91d",
+      "inputPath": "src/assets/catalog/FM-5013/primary-01-3d2500badb7e.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5013.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5013.json",
+      "review": "Source and result visually inspected: abdominal machine and original pad/roller layout retained; outer painted uprights forest green; upper chrome handles, pivot housing, lower silver base and yellow controls preserved; compact Full Muscle logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5014",
+      "assetId": "fm-5014-dc2fcf938b7297a9",
+      "sourceHash": "e366488796eb721eeb53d86c222231b14a0ade593ae603fc3a4f1458b3419bfc",
+      "inputPath": "src/assets/catalog/FM-5014/primary-01-b27cf8657c3c.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5014.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5014.json",
+      "review": "Source and result visually inspected: back extension geometry, black angled footplate and orange pads retained; central painted lever dark green; silver pivot covers, chrome arm and yellow controls preserved; compact Full Muscle logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5029",
+      "assetId": "fm-5029-5603b5565df6cb6d",
+      "sourceHash": "514078f8685b96cce95f07500b7adc6dfa2076c68a4ffba4ad72e864b3c02885",
+      "inputPath": "src/assets/catalog/FM-5029/primary-01-d8fa231891cc.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5029.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5029.json",
+      "review": "Source and result visually inspected: dual cable machine geometry, handles, weight stacks and cables retained; formerly red guard panels forest green; silver rails, chrome attachments, black pulleys and yellow handles preserved; compact Full Muscle crossbar logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5030",
+      "assetId": "fm-5030-dc119d5b6663933e",
+      "sourceHash": "337e69e7554aed281e8340418eb6ab9466c149ed15126289f278a8710ed85670",
+      "inputPath": "src/assets/catalog/FM-5030/primary-01-603fe1f4b1b8.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5030.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5030.json",
+      "review": "Source and result visually inspected: full crossover width, towers, handles and weight stacks retained; paired diagonal painted supports forest green; top beam and guide rails silver, pulleys/cables black preserved; compact Full Muscle logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5031",
+      "assetId": "fm-5031-0fb185a9f7fe2171",
+      "sourceHash": "fa5c7a101a51b3ec39aaf382be7080ae6759871e410657abc5565a805d3d1ee7",
+      "inputPath": "src/assets/catalog/FM-5031/primary-01-6262d9e312aa.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5031.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5031.json",
+      "review": "Source and result visually inspected: dual-handle pulldown model and weight stack retained; inclined painted support forest green; outer post, pulley support and seat leg silver; orange pads and black handles preserved; small Full Muscle logo on upright.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-5032",
+      "assetId": "fm-5032-c837f3e0b7fcdb80",
+      "sourceHash": "2f71b7408303775496ef5916ca43ebd99f42869fdc0364415de7d704fd629803",
+      "inputPath": "src/assets/catalog/FM-5032/primary-01-c23946b49d6a.webp",
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5032.png",
+      "promptPath": "data/catalog-branding/generated/fm5-batch-01/prompts/FM-5032.json",
+      "review": "Source and result visually inspected: tall cable row geometry and orange seat retained; inclined painted tower support forest green; footplates, handles, cables, weights, silver outer post and seat leg preserved; small Full Muscle logo on upright.",
+      "status": "approved"
+    }
+  ],
+  "count": 18
+}

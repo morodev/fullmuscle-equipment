@@ -1,0 +1,56 @@
+[
+  {
+    "width": 390,
+    "links": [
+      "/it/soluzioni/apertura-nuova-palestra/",
+      "/it/soluzioni/rinnovo-palestra/",
+      "/it/soluzioni/centri-medicali-riabilitazione/"
+    ],
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://fullmuscle-equipment.com/_astro/FM-X6053.m3ZzJXSB_2flwv9.webp"
+      },
+      {
+        "loaded": true,
+        "src": "https://fullmuscle-equipment.com/_astro/FM-X8202.Di60N_c-_1hJU9F.webp"
+      },
+      {
+        "loaded": true,
+        "src": "https://fullmuscle-equipment.com/_astro/FM-2000B.Vz1UYkZ6_Z1CiWBn.webp"
+      }
+    ],
+    "menu": {
+      "x": 0,
+      "y": 74.59375,
+      "width": 390,
+      "height": 825.390625
+    },
+    "quoteProject": "gym",
+    "formSubmitted": false
+  },
+  {
+    "width": 1440,
+    "links": [
+      "/it/soluzioni/apertura-nuova-palestra/",
+      "/it/soluzioni/rinnovo-palestra/",
+      "/it/soluzioni/centri-medicali-riabilitazione/"
+    ],
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://fullmuscle-equipment.com/_astro/FM-X6053.m3ZzJXSB_1ckrHX.webp"
+      },
+      {
+        "loaded": true,
+        "src": "https://fullmuscle-equipment.com/_astro/FM-X8202.Di60N_c-_Z1M6nRQ.webp"
+      },
+      {
+        "loaded": true,
+        "src": "https://fullmuscle-equipment.com/_astro/FM-2000B.Vz1UYkZ6_n1Ra2.webp"
+      }
+    ],
+    "quoteProject": "gym",
+    "formSubmitted": false
+  }
+]

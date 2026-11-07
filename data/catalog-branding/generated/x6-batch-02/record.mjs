@@ -1,0 +1,15 @@
+import { copyFile, readFile, writeFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
+const [assetId, source] = process.argv.slice(2);
+const reportPath = new URL('./review.json', import.meta.url);
+const report = JSON.parse(await readFile(reportPath, 'utf8'));
+const job = report.jobs.find(item => item.assetId === assetId);
+if (!job || !source?.endsWith('.png')) throw new Error('Unknown job or output');
+const prompt = JSON.parse(await readFile(job.promptPath, 'utf8'));
+if (!prompt.QA) throw new Error('Visual review missing');
+await copyFile(source, resolve(job.outputPath));
+job.status = 'visually-reviewed';
+job.QA = prompt.QA;
+job.generatedSource = source;
+await writeFile(reportPath, JSON.stringify(report, null, 2) + '\n');
+console.log(`${job.sku}: saved and visually reviewed`);

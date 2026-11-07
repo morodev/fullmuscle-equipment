@@ -1,0 +1,9 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-7026/primary-01-5b4af8c6401e.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case: precise-object-edit. Edit target image 1: FM-7026 ab-coaster, preserve exact equipment geometry, camera angle, square white background and all parts. Image 2 is ONLY dark satin forest green paint reference (~#356B35), image 3 ONLY compact white/green italic Full Muscle Equipment logo reference. Recolor ONLY the long diagonal black painted front upright forest green from bottom front foot to the upper handle support. Keep the black feet/base crossbars, upholstery, brackets and grips black; preserve chrome curved glide rails, handlebar, weight pegs and pins exactly silver. Add a small physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' under it on the lower-middle face of the diagonal upright, following its perspective, below the existing safety label, without covering it. Preserve all bolts, the seat slider and all dimensions. No extra components, no floating text, no redesign, no crop."
+}

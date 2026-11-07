@@ -1548,8 +1548,10 @@
       "inputPath": "src/assets/catalog/FM-7026/primary-01-5b4af8c6401e.webp",
       "originalPath": "data/catalog-assets/originals/9e/9ed91f18eabc96889c86c1c9a0e2d01e7799a9cc4663f80501dc817175eef8c2.jpg",
       "categoryId": "ab-coaster",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7026-429fc44ff963ff5d.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/cardio-misc-01/fm-7026-429fc44ff963ff5d.png",
+      "status": "integrated",
+      "review": "Original and edited image visually compared: same ab-coaster frame, knee pad, handles, curved chrome rails, weight pegs and viewpoint. Only diagonal painted upright green, compact physical Full Muscle logo below safety label. Chrome, rubber and upholstery retained.",
+      "stagedPath": "src/assets/catalog/FM-7026/primary-01-e5795a779921.webp"
     },
     {
       "assetId": "fm-360s-6b9a785c94fec1fc",
@@ -1658,8 +1660,10 @@
       "inputPath": "src/assets/catalog/FM-7015/primary-01-6aed89f0c880.webp",
       "originalPath": "data/catalog-assets/originals/2c/2c638db1f8093784a75e84a3b485878aac6dbfc6f42f48ae7148e5d00815b140.jpg",
       "categoryId": "elliptical",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7015-35e66720f197139c.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/cardio-misc-01/fm-7015-35e66720f197139c.png",
+      "status": "integrated",
+      "review": "Compared original and output: elliptical geometry, handle and pedal arrangement, central grey panel, grey frame and orange controls retained; rear enclosure outer panel dark green and small supplier badge replaced by Full Muscle. Console fine lettering remains illustrative.",
+      "stagedPath": "src/assets/catalog/FM-7015/primary-01-a468d1cd0211.webp"
     },
     {
       "assetId": "fm-7043a-283379fe58d8de22",
@@ -1669,8 +1673,10 @@
       "inputPath": "src/assets/catalog/FM-7043A/primary-01-3022bcbecb1f.webp",
       "originalPath": "data/catalog-assets/originals/1a/1a25ce752874dc5defd5d3d6b9939510cc10b50240e8262081405f9339e04481.jpg",
       "categoryId": "elliptical",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7043a-283379fe58d8de22.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/cardio-misc-01/fm-7043a-283379fe58d8de22.png",
+      "status": "integrated",
+      "review": "Source and output compared: same elliptical silhouette, handles, pedals, flywheel, console and view. Cyan decorative rings changed to forest green with segmentation retained; Full Muscle logo inside existing crank-cover outline. Frame, silver trim and runner display preserved.",
+      "stagedPath": "src/assets/catalog/FM-7043A/primary-01-18188705cfbe.webp"
     },
     {
       "assetId": "fm-7043b-419f69b04fa3fc51",
@@ -1680,8 +1686,10 @@
       "inputPath": "src/assets/catalog/FM-7043B/gallery-02-405f09523b3b.webp",
       "originalPath": "data/catalog-assets/originals/00/002dc3095982df671d4c9c69fdaf8ebb23bbc3c0f885263dfd1665444a45bbcb.jpg",
       "categoryId": "elliptical",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7043b-419f69b04fa3fc51.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/cardio-misc-01/fm-7043b-419f69b04fa3fc51.png",
+      "status": "integrated",
+      "review": "Source and output compared: person identity, clothing, pose and hand/foot positions retained; machine geometry, showroom and viewpoint preserved. Decorative flywheel rings green, Full Muscle logo on crank cover; controls retain original colors. Fine display text illustrative.",
+      "stagedPath": "src/assets/catalog/FM-7043B/gallery-02-090d0d2481e6.webp"
     },
     {
       "assetId": "fm-7043b-ac593effb543bc51",
@@ -1691,8 +1699,10 @@
       "inputPath": "src/assets/catalog/FM-7043B/gallery-03-4fbfcb03d30a.webp",
       "originalPath": "data/catalog-assets/originals/de/de4368f1b2e43ef51a3bcd038bab5d77c52e8c572c72b9fc4a02fd13bfb69966.jpg",
       "categoryId": "elliptical",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7043b-ac593effb543bc51.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/cardio-misc-01/fm-7043b-ac593effb543bc51.png",
+      "status": "integrated",
+      "review": "Source and output compared: elliptical geometry, pedal position, control panel, handles, grey/silver trim, original background and camera angle retained. Decorative flywheel rings dark green and Full Muscle logo inside crank-cover border, coherent with the other views. Fine display text illustrative.",
+      "stagedPath": "src/assets/catalog/FM-7043B/gallery-03-701d2dcb4e93.webp"
     },
     {
       "assetId": "fm-7043b-c436c3578f42176a",
@@ -1702,8 +1712,10 @@
       "inputPath": "src/assets/catalog/FM-7043B/primary-01-290cd5c9ab88.webp",
       "originalPath": "data/catalog-assets/originals/17/17344a9cda7fc6152ebdba958a8974e4c29e872696227b310f304773e045935c.jpg",
       "categoryId": "elliptical",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7043b-c436c3578f42176a.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/cardio-misc-01/fm-7043b-c436c3578f42176a.png",
+      "status": "integrated",
+      "review": "Source and output compared: elliptical geometry, pedal position, control panel, handles, grey/silver trim, original background and camera angle retained. Decorative flywheel rings dark green and Full Muscle logo inside crank-cover border, coherent with the other views. Fine display text illustrative.",
+      "stagedPath": "src/assets/catalog/FM-7043B/primary-01-467482e85cb7.webp"
     },
     {
       "assetId": "fm-7043b-da79fc9a7ac644d9",
@@ -1713,8 +1725,10 @@
       "inputPath": "src/assets/catalog/FM-7043B/gallery-04-b23e987126e4.webp",
       "originalPath": "data/catalog-assets/originals/a7/a71fbd7a8e1c9a4fe74f8ac2729e0de0e64ec48928f439566e8ddde4a7293a66.jpg",
       "categoryId": "elliptical",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7043b-da79fc9a7ac644d9.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/cardio-misc-01/fm-7043b-da79fc9a7ac644d9.png",
+      "status": "integrated",
+      "review": "Source and output compared: elliptical geometry, pedal position, control panel, handles, grey/silver trim, original background and camera angle retained. Decorative flywheel rings dark green and Full Muscle logo inside crank-cover border, coherent with the other views. Fine display text illustrative.",
+      "stagedPath": "src/assets/catalog/FM-7043B/gallery-04-3a05e177f51d.webp"
     },
     {
       "assetId": "fm-2020a-f6f911ce223e1084",
@@ -1835,8 +1849,10 @@
       "originalPath": "data/catalog-assets/originals/ea/ea6ba763bf0d2374fb99688dcb40ccaf7a59f9fdd6d56f0b5594fa2347852005.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5001-be2031f90f31b0f4.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5001.png",
+      "status": "integrated",
+      "review": "Source and result inspected: chest-press geometry, orange pads, silver housing, chrome rods, black grips, yellow and red controls preserved. Only painted upper lever sections recolored forest green; Full Muscle label added on tower. White background and viewpoint retained.",
+      "stagedPath": "src/assets/catalog/FM-5001/primary-01-526f0d8b9383.webp"
     },
     {
       "assetId": "fm-5002-162ba610165099da",
@@ -1847,8 +1863,10 @@
       "originalPath": "data/catalog-assets/originals/27/276f76e7a63c4c00f02fd54935db3e64ef727fd1eb8839791e7bea3196bde3b1.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5002-162ba610165099da.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5002.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: geometry and shoulder press handles preserved; rear painted upright dark green, orange upholstery and silver enclosure retained; yellow controls and chrome unchanged; compact Full Muscle logo on tower.",
+      "stagedPath": "src/assets/catalog/FM-5002/primary-01-5d5cdb912cdc.webp"
     },
     {
       "assetId": "fm-5003-4c85891b518a7eb6",
@@ -1859,8 +1877,10 @@
       "originalPath": "data/catalog-assets/originals/44/44cd9e3653ae8c9cbbf2c0aa372dd69353c59795aea9041cc524b209fb0f2df8.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5003-4c85891b518a7eb6.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5003.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: leg extension geometry and orange roller preserved; painted right lever dark green, silver main frame and enclosure retained; yellow controls and chrome unchanged; compact Full Muscle logo on tower.",
+      "stagedPath": "src/assets/catalog/FM-5003/primary-01-58422a0b5dde.webp"
     },
     {
       "assetId": "fm-5004-d378ad1365378b31",
@@ -1871,8 +1891,10 @@
       "originalPath": "data/catalog-assets/originals/6e/6e42eadd84b2531d1aaa2d108521232ebbffa0dbfbcedb7aa777e42ba46d222a.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5004-d378ad1365378b31.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5004.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: leg press silhouette, footplate, seat rail and mechanical parts retained; front painted supports forest green; orange upholstery, silver frame, black grips, controls preserved; compact Full Muscle tower logo.",
+      "stagedPath": "src/assets/catalog/FM-5004/primary-01-bb889ef2dfeb.webp"
     },
     {
       "assetId": "fm-5005-1e76a65b5b0ade7b",
@@ -1883,8 +1905,10 @@
       "originalPath": "data/catalog-assets/originals/83/831603cf359269705c947aeac6d83d1ad11b92ceb8596d27445c6baf0ae12a20.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5005-1e76a65b5b0ade7b.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5005.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: lateral raise lever geometry, orange pads and chrome handles preserved; upper painted housings forest green; silver tower, yellow controls unchanged; compact Full Muscle tower logo.",
+      "stagedPath": "src/assets/catalog/FM-5005/primary-01-9a8ccfab98fd.webp"
     },
     {
       "assetId": "fm-5006-f03f9457da3ea92a",
@@ -1895,8 +1919,10 @@
       "originalPath": "data/catalog-assets/originals/23/23bee6b362b92cb5063cee2451646ea4bede2016de943245a9602973c68f33d2.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5006-f03f9457da3ea92a.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5006.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: rowing geometry, orange chest pad and seat, black footplates retained; left painted moving arm forest green; chrome handles and yellow controls unchanged; compact Full Muscle tower logo.",
+      "stagedPath": "src/assets/catalog/FM-5006/primary-01-99e4f1e935f2.webp"
     },
     {
       "assetId": "fm-5007-515fb24cb93f09d4",
@@ -1907,8 +1933,10 @@
       "originalPath": "data/catalog-assets/originals/1b/1b33d436a2000ef409a04bd8ca1960604e2feb3099e848a83ec19472725a9591.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5007-515fb24cb93f09d4.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5007.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: original machine silhouette, arm pads and curved handles retained; rear painted upright forest green; orange upholstery, silver enclosure, yellow controls and chrome preserved; compact Full Muscle tower logo.",
+      "stagedPath": "src/assets/catalog/FM-5007/primary-01-7b6ea0f11e8d.webp"
     },
     {
       "assetId": "fm-5008-8a4c2c43ab428495",
@@ -1919,8 +1947,10 @@
       "originalPath": "data/catalog-assets/originals/cd/cde1bb4762d2595eb40398f55d55b985e727e810e2397c11580b2a4554469746.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5008-8a4c2c43ab428495.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5008.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: distinct upper arm geometry and orange side pads retained; painted lever housings forest green; silver handles, tower, seat adjustment and yellow controls unchanged; compact Full Muscle logo.",
+      "stagedPath": "src/assets/catalog/FM-5008/primary-01-f9627ff06e16.webp"
     },
     {
       "assetId": "fm-5009-c56db182016b8f70",
@@ -1931,8 +1961,10 @@
       "originalPath": "data/catalog-assets/originals/93/933caa57dd8750ffba6ce1ea1ccd239b95217b8c7c88bc75ab7b8208d4b4849c.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5009-c56db182016b8f70.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5009.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: inclined hip machine silhouette and knee pad assembly retained; painted backrest support forest green; silver posts, lower mechanics, yellow knob and orange upholstery preserved; compact Full Muscle logo.",
+      "stagedPath": "src/assets/catalog/FM-5009/primary-01-0822ce90f3fa.webp"
     },
     {
       "assetId": "fm-5010-69bc1b12a2e42165",
@@ -1943,8 +1975,10 @@
       "originalPath": "data/catalog-assets/originals/20/206b3e737c8d5e5f5a7174dff39478860f2b8dba9fe7e4a970d7e9956efaecff.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5010-69bc1b12a2e42165.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5010.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: seated leg curl and roller geometry retained; lower U-shaped painted linkage forest green; red and yellow controls remain distinct, upper chrome linkage and silver frame preserved; compact Full Muscle logo.",
+      "stagedPath": "src/assets/catalog/FM-5010/primary-01-a288bb1534a2.webp"
     },
     {
       "assetId": "fm-5011-5c7b9f3c0d4c2214",
@@ -1955,8 +1989,10 @@
       "originalPath": "data/catalog-assets/originals/cf/cfb04b356dd1dfb503b19a66148c547bbc315b7933fba739138f1223cf5e9012.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5011-5c7b9f3c0d4c2214.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5011.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: butterfly model, dual-height grips and orange arm pads retained; lower painted lever arms forest green; upper chrome handle assemblies, orange upholstery and yellow controls preserved; compact Full Muscle logo.",
+      "stagedPath": "src/assets/catalog/FM-5011/primary-01-e8985bfd44a7.webp"
     },
     {
       "assetId": "fm-5012-8f80306508e8b019",
@@ -1967,8 +2003,10 @@
       "originalPath": "data/catalog-assets/originals/c0/c0d0787aef64ebe29282226d7d259cb80f4425c420ef5ef1adae9bd07f61ca52.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5012-8f80306508e8b019.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5012.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: tall pulldown model and margins retained; long painted arms forest green; hanging chrome handles, counterweights, orange thigh pads, fixed silver support and controls preserved; compact Full Muscle logo.",
+      "stagedPath": "src/assets/catalog/FM-5012/primary-01-a5e4086016b4.webp"
     },
     {
       "assetId": "fm-5013-8506cd72c6d168bc",
@@ -1979,8 +2017,10 @@
       "originalPath": "data/catalog-assets/originals/34/347e4372fcd509ecff39b28ecd1ae3c0b02e62c236b13450b86f72e26308b91d.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5013-8506cd72c6d168bc.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5013.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: abdominal machine and original pad/roller layout retained; outer painted uprights forest green; upper chrome handles, pivot housing, lower silver base and yellow controls preserved; compact Full Muscle logo.",
+      "stagedPath": "src/assets/catalog/FM-5013/primary-01-9d27da323c0d.webp"
     },
     {
       "assetId": "fm-5014-dc2fcf938b7297a9",
@@ -1991,8 +2031,10 @@
       "originalPath": "data/catalog-assets/originals/e3/e366488796eb721eeb53d86c222231b14a0ade593ae603fc3a4f1458b3419bfc.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5014-dc2fcf938b7297a9.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5014.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: back extension geometry, black angled footplate and orange pads retained; central painted lever dark green; silver pivot covers, chrome arm and yellow controls preserved; compact Full Muscle logo.",
+      "stagedPath": "src/assets/catalog/FM-5014/primary-01-6227b776cdc6.webp"
     },
     {
       "assetId": "fm-5029-5603b5565df6cb6d",
@@ -2003,8 +2045,10 @@
       "originalPath": "data/catalog-assets/originals/51/514078f8685b96cce95f07500b7adc6dfa2076c68a4ffba4ad72e864b3c02885.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5029-5603b5565df6cb6d.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5029.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: dual cable machine geometry, handles, weight stacks and cables retained; formerly red guard panels forest green; silver rails, chrome attachments, black pulleys and yellow handles preserved; compact Full Muscle crossbar logo.",
+      "stagedPath": "src/assets/catalog/FM-5029/primary-01-3803bcf99872.webp"
     },
     {
       "assetId": "fm-5030-dc119d5b6663933e",
@@ -2015,8 +2059,10 @@
       "originalPath": "data/catalog-assets/originals/33/337e69e7554aed281e8340418eb6ab9466c149ed15126289f278a8710ed85670.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5030-dc119d5b6663933e.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5030.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: full crossover width, towers, handles and weight stacks retained; paired diagonal painted supports forest green; top beam and guide rails silver, pulleys/cables black preserved; compact Full Muscle logo.",
+      "stagedPath": "src/assets/catalog/FM-5030/primary-01-089fc2367b2d.webp"
     },
     {
       "assetId": "fm-5031-0fb185a9f7fe2171",
@@ -2027,8 +2073,10 @@
       "originalPath": "data/catalog-assets/originals/fa/fa5c7a101a51b3ec39aaf382be7080ae6759871e410657abc5565a805d3d1ee7.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5031-0fb185a9f7fe2171.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5031.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: dual-handle pulldown model and weight stack retained; inclined painted support forest green; outer post, pulley support and seat leg silver; orange pads and black handles preserved; small Full Muscle logo on upright.",
+      "stagedPath": "src/assets/catalog/FM-5031/primary-01-d5801e7e35f5.webp"
     },
     {
       "assetId": "fm-5032-c837f3e0b7fcdb80",
@@ -2039,8 +2087,10 @@
       "originalPath": "data/catalog-assets/originals/2f/2f71b7408303775496ef5916ca43ebd99f42869fdc0364415de7d704fd629803.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-5-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5032-c837f3e0b7fcdb80.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm5-batch-01/FM-5032.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: tall cable row geometry and orange seat retained; inclined painted tower support forest green; footplates, handles, cables, weights, silver outer post and seat leg preserved; small Full Muscle logo on upright.",
+      "stagedPath": "src/assets/catalog/FM-5032/primary-01-b02dfcb7be02.webp"
     },
     {
       "assetId": "fm-5101-49776aac150b0b9e",
@@ -2207,8 +2257,10 @@
       "originalPath": "data/catalog-assets/originals/80/80b95d547fea6ec7a98dde2d385e3e9ad19b380f1fd553786ddd690293746aaf.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-52-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5201-44e95c6fd11e2efb.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5201.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: tall lever shape, handles, black frame and upholstery retained; red painted arms forest green; chrome weight horns, silver adjustment ends and safety marking preserved; Full Muscle base logo.",
+      "stagedPath": "src/assets/catalog/FM-5201/primary-01-73dcd11ce1f1.webp"
     },
     {
       "assetId": "fm-5202-2b22a5f76cab0ddc",
@@ -2219,8 +2271,10 @@
       "originalPath": "data/catalog-assets/originals/24/247522280949d9e4da4a0858e973ee6ac26a6e6953c74316348dbb0bbf44b992.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-52-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5202-2b22a5f76cab0ddc.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5202.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: wide upper arms and lower linkage retained; red paint forest green; black frame and pads, chrome weight horns, grips and spring preserved; manufacturer base badge replaced with Full Muscle.",
+      "stagedPath": "src/assets/catalog/FM-5202/primary-01-5973b60d60c7.webp"
     },
     {
       "assetId": "fm-5203-4213e2a8549346bd",
@@ -2231,8 +2285,10 @@
       "originalPath": "data/catalog-assets/originals/47/47d37112351ada5a298417d60f25be3c44c0d104b54ad1267f4dfab0ae3a4726.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-52-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5203-4213e2a8549346bd.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5203.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: overhead pressing arms, inclined seat and black frame retained; red paint forest green; chrome rods and weight horns, grips and silver adjustment hardware preserved; Full Muscle base badge.",
+      "stagedPath": "src/assets/catalog/FM-5203/primary-01-f917309b29bc.webp"
     },
     {
       "assetId": "fm-5204-d6f86ea26c8fc59e",
@@ -2243,8 +2299,10 @@
       "originalPath": "data/catalog-assets/originals/fd/fda278da982ca158ded3dc696b78dcbdd5aa1f0d9df626ffde990e89b9c92711.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-52-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5204-d6f86ea26c8fc59e.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5204.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: original seated row geometry and platform retained; red painted linkage forest green; black pads and frame, chrome telescoping chest support and weight horns preserved; Full Muscle base logo.",
+      "stagedPath": "src/assets/catalog/FM-5204/primary-01-eb66fd942137.webp"
     },
     {
       "assetId": "fm-5205-b0cc1292d6c96ff0",
@@ -2255,8 +2313,10 @@
       "originalPath": "data/catalog-assets/originals/89/891b43207a928a21644737d780646ef45edcbb55155766c8b80d4895c5f2566e.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-52-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5205-b0cc1292d6c96ff0.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5205.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: leg press, diamond footplate and slide rails retained; red carriage painted green, functional footplate handle remains red; black frame, pads, chrome, labels and warning marks preserved; Full Muscle base logo.",
+      "stagedPath": "src/assets/catalog/FM-5205/primary-01-62a9b085347f.webp"
     },
     {
       "assetId": "fm-5206-97195c47d152625c",
@@ -2267,8 +2327,10 @@
       "originalPath": "data/catalog-assets/originals/1e/1e034304dc251b2232c1fab5a20d7a4569839b68cf61154bf782aa73d4ef4a7c.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-52-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5206-97195c47d152625c.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5206.png",
+      "status": "integrated",
+      "review": "Source and corrected result visually inspected: hack squat geometry retained, red safety handle stalks explicitly restored with localized second edit (prompts/FM-5206correction.json); green sled accents, black pads/frame, chrome rails and hazard labels preserved.",
+      "stagedPath": "src/assets/catalog/FM-5206/primary-01-bec34092f16b.webp"
     },
     {
       "assetId": "fm-5207-6337c133874263ac",
@@ -2279,8 +2341,10 @@
       "originalPath": "data/catalog-assets/originals/07/073cf98f7520aae38831d55a7cd4193499d74f76eaebd22e93f23d9759befe6b.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-52-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5207-6337c133874263ac.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5207.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: high-row geometry and looped handles retained; red painted arms and rods forest green; chest support, black pads/frame, chrome weight horns and safety label preserved; Full Muscle base logo.",
+      "stagedPath": "src/assets/catalog/FM-5207/primary-01-d4322571fef4.webp"
     },
     {
       "assetId": "fm-5208-bf86963f7921caf9",
@@ -2291,8 +2355,10 @@
       "originalPath": "data/catalog-assets/originals/b3/b31009c8755bdbbf6ef6288a561fefb946471977b79c25c1d2f8d27a08ce0132.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-52-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-5208-bf86963f7921caf9.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm52-batch-01/FM-5208.png",
+      "status": "integrated",
+      "review": "Source and result visually inspected: tall pulldown model, overhead arms and thigh rollers retained; red painted members forest green; black frame/pads/grips and chrome weight horns preserved; Full Muscle base logo.",
+      "stagedPath": "src/assets/catalog/FM-5208/primary-01-bcc859b39c7d.webp"
     },
     {
       "assetId": "fm-5015-6ff23850726786de",
@@ -7899,8 +7965,10 @@
       "originalPath": "data/catalog-assets/originals/5e/5e0c77c19c31ec3f80a577b1f28bedb1f86fe30f191fa92994c47de723194d70.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6035-af441362af1148d5.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6035-af441362af1148d5.png",
+      "status": "integrated",
+      "review": "Overhead lever geometry, grips, headrest/backrest, rear cable and pulleys retained. Blue selector pin and yellow adjustment lever unchanged; green decorative tower trim, small Full Muscle logo and supplier CURVE removed. Fine instruction microtext illustrative.",
+      "stagedPath": "src/assets/catalog/FM-X6035/primary-01-07289561abd0.webp"
     },
     {
       "assetId": "fm-x6036-0bea26982d6fb66b",
@@ -7911,8 +7979,10 @@
       "originalPath": "data/catalog-assets/originals/05/05c8be32f6d0030968fd58702bcdf38f2ea31d834ba8a680a5b8364913d26e0f.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6036-0bea26982d6fb66b.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6036-0bea26982d6fb66b.png",
+      "status": "integrated",
+      "review": "Seat, backrest, front roller, two spoked pulleys, cable route, silver grips/rails and base retained. Blue selector and yellow adjustment controls unchanged. Green trim and Full Muscle mark applied, CURVE removed; fine instruction microtext illustrative.",
+      "stagedPath": "src/assets/catalog/FM-X6036/primary-01-94e629f330ac.webp"
     },
     {
       "assetId": "fm-x6037-6976070b5d1f646b",
@@ -7923,8 +7993,10 @@
       "originalPath": "data/catalog-assets/originals/4a/4abfd0bf107004884564b2de93b63273d39d72d0df9a7e0407cd3115b7f643b1.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6037-6976070b5d1f646b.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6037-6976070b5d1f646b.png",
+      "status": "integrated",
+      "review": "Abdominal lever, twin loop grips, curved pads, pivot, seat/backrest and rectangular low foot support retained. Green tower trim, small Full Muscle mark, supplier CURVE removed. Functional blue selector retained; instruction microtext illustrative.",
+      "stagedPath": "src/assets/catalog/FM-X6037/primary-01-fc468b3e173c.webp"
     },
     {
       "assetId": "fm-x6040-46044253b33a26ce",
@@ -7935,8 +8007,10 @@
       "originalPath": "data/catalog-assets/originals/e4/e4e49c60a53880b07010578f4a3133935cc38bfed0620dde02c00a8fbad9a5bb.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6040-46044253b33a26ce.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6040-46044253b33a26ce.png",
+      "status": "integrated",
+      "review": "High press linkage, paired silver grips, tall pads, rear cable/pulleys, yellow lever and blue selector retained. Tower trim green, Full Muscle mark applied and CURVE removed. White background and original view preserved; fine instruction microtext illustrative.",
+      "stagedPath": "src/assets/catalog/FM-X6040/primary-01-15b6f7ff2d62.webp"
     },
     {
       "assetId": "fm-x6041-565f88dd6731989f",
@@ -7947,8 +8021,10 @@
       "originalPath": "data/catalog-assets/originals/6a/6ac0593d378f807220dfdc7f4830071d76a48ece0a0ccff47656f3b449f133e9.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6041-565f88dd6731989f.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6041-565f88dd6731989f.png",
+      "status": "integrated",
+      "review": "Small seat/chest pad, arm-pad assembly, silver grips, support posts and yellow seat lever retained. Tower decorative trim green; Full Muscle logo replaces supplier mark, CURVE removed. Black frame/upholstery and white background preserved; fine labels illustrative.",
+      "stagedPath": "src/assets/catalog/FM-X6041/primary-01-462fc98d896e.webp"
     },
     {
       "assetId": "fm-x6043-d0bda90b1bcb3562",
@@ -7959,8 +8035,10 @@
       "originalPath": "data/catalog-assets/originals/82/82cad6f6b6eb88c5107208d4af65ad00dd8327d928dc2f207812e02c85735be7.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6043-d0bda90b1bcb3562.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6043-d0bda90b1bcb3562.png",
+      "status": "integrated",
+      "review": "Decline bench, four front rollers, loop handle, rack hooks, rear storage pegs and supports retained. Green limited to front rack uprights, Full Muscle mark in original base-label position. White background and original view preserved.",
+      "stagedPath": "src/assets/catalog/FM-X6043/primary-01-fd6e658e4b68.webp"
     },
     {
       "assetId": "fm-x6044-3446d28455647303",
@@ -7971,8 +8049,10 @@
       "originalPath": "data/catalog-assets/originals/54/54f730916f351dd50c82914dd1395263cacc41fd8bef583fe92585150ce1dbbd.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6044-3446d28455647303.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6044-3446d28455647303.png",
+      "status": "integrated",
+      "review": "Prone bench angles, black roller, large pivot, yellow controls, right silver handles and support legs retained. Blue tower trim changed green, small Full Muscle mark and CURVE removal applied. Original view/background retained; fine instruction microtext illustrative.",
+      "stagedPath": "src/assets/catalog/FM-X6044/primary-01-4ae8cd2e115e.webp"
     },
     {
       "assetId": "fm-x6046-58b4277ba2c22430",
@@ -7983,8 +8063,10 @@
       "originalPath": "data/catalog-assets/originals/ca/ca30680b3e870a5d6088a452935f305646343f42336db7f74e82c3ebf79f2376.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6046-58b4277ba2c22430.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6046-58b4277ba2c22430.png",
+      "status": "integrated",
+      "review": "Preacher pad, lever, silver handles, semicircular cam, cable/pulley, seat and both blue controls retained. Green decorative tower trim and modest Full Muscle logo applied; CURVE removed. Original camera/background maintained; instruction microtext illustrative.",
+      "stagedPath": "src/assets/catalog/FM-X6046/primary-01-7a28343d5826.webp"
     },
     {
       "assetId": "fm-x6047-3af13919fb547b56",
@@ -7995,8 +8077,10 @@
       "originalPath": "data/catalog-assets/originals/da/da0a8e2625bbaecdb43fb66efeacaf0c774b5cec1c5c09d0e5ed983d4447dc8f.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6047-3af13919fb547b56.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6047-3af13919fb547b56.png",
+      "status": "integrated",
+      "review": "Final editorial comparison of original and result: tall fly-machine frame, curved arms, silver grips, pulleys, cables, pads and colored controls preserved. Green tower trim and compact Full Muscle badge replace supplier identity. The original long warning placard remains on the left housing; the upper supplier badge behind the arm is replaced by Full Muscle. Fine label lettering is illustrative.",
+      "stagedPath": "src/assets/catalog/FM-X6047/primary-01-cdc206cdd8e0.webp"
     },
     {
       "assetId": "fm-x6049-d6b949a62a80db2f",
@@ -8007,8 +8091,10 @@
       "originalPath": "data/catalog-assets/originals/4c/4cbba7675b522d0859da26088e78d6300269ef9afa268961340480b172371002.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6049-d6b949a62a80db2f.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6049-d6b949a62a80db2f.png",
+      "status": "integrated",
+      "review": "Tall standing frame, overhead linkage/beam, silver handles, protruding pin, lower two-level platforms, curved rail and blue selector retained. Green decorative trim, Full Muscle replacement, CURVE removed. Instruction placard present; fine microtext illustrative. White background and view preserved.",
+      "stagedPath": "src/assets/catalog/FM-X6049/primary-01-cd511d327888.webp"
     },
     {
       "assetId": "fm-x6050-30222528383a999d",
@@ -8019,8 +8105,10 @@
       "originalPath": "data/catalog-assets/originals/d1/d1fe83719785573fa728606ec07a91625a57b242d20bb6bb83cdc28fbd6feb88.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6050-30222528383a999d.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6050-30222528383a999d.png",
+      "status": "integrated",
+      "review": "Right-tower view, curved frame, narrow backrest/seat, paired diagonal silver grips, cam and yellow/blue controls retained. Tower decorative trim green and Full Muscle logo applied. Instruction placard present with illustrative fine microtext; original white background retained.",
+      "stagedPath": "src/assets/catalog/FM-X6050/primary-01-2770084d7bc9.webp"
     },
     {
       "assetId": "fm-x6052-386e6099ab11b9f0",
@@ -8031,8 +8119,10 @@
       "originalPath": "data/catalog-assets/originals/5a/5a142210dc3be64e2f6022fc583d1a1419e8bcebb6e452230d934175d75bf63c.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6052-386e6099ab11b9f0.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6052-386e6099ab11b9f0.png",
+      "status": "integrated",
+      "review": "Utility bench shape, tall backrest, seat, curved front leg, rear leg and segmented black feet retained. Green only steel support legs; tiny Full Muscle label at original rear-foot location. White background and original view preserved.",
+      "stagedPath": "src/assets/catalog/FM-X6052/primary-01-67a17898cfe8.webp"
     },
     {
       "assetId": "fm-x6054-3e216e5b1c87b236",
@@ -8043,8 +8133,10 @@
       "originalPath": "data/catalog-assets/originals/92/92abb528306c6d4750863a20e47197a0c899ca1b544e3bfc8e17b06833e9ab69.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6054-3e216e5b1c87b236.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6054-3e216e5b1c87b236.png",
+      "status": "integrated",
+      "review": "Upper roller/yellow cap, circular cam, spoked pulleys, cable routes, seat/back pad and low rectangular support retained. Decorative tower trim green, Full Muscle logo applied, CURVE removed. Instruction placard present; fine text illustrative. Original view/background preserved.",
+      "stagedPath": "src/assets/catalog/FM-X6054/primary-01-4da41e5ca197.webp"
     },
     {
       "assetId": "fm-x6055-cc63134fb093c8c1",
@@ -8055,8 +8147,10 @@
       "originalPath": "data/catalog-assets/originals/fa/faf4ea4e2782ab0a3aab699bd82b8c4808a8108c0419ad92854e9fc30298e143.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6055-cc63134fb093c8c1.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6055-cc63134fb093c8c1.png",
+      "status": "integrated",
+      "review": "Both front rollers, reclined backrest/seat, cam/pulley assembly, silver handle and yellow/blue controls retained. Green only tower trim; Full Muscle logo applied and CURVE removed. Instruction placard present with illustrative microtext. Camera/background preserved.",
+      "stagedPath": "src/assets/catalog/FM-X6055/primary-01-497107636c53.webp"
     },
     {
       "assetId": "fm-x6056-61ab935e0b801254",
@@ -8067,8 +8161,10 @@
       "originalPath": "data/catalog-assets/originals/84/842d52d59dce5afed8563e8903663bae4d06fe3c5b1a7b8a56552bec827c14dc.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6056-61ab935e0b801254.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6056-61ab935e0b801254.png",
+      "status": "integrated",
+      "review": "Incline pad/seat angles, long press levers, right frame, lower chrome rail, cables/pulleys, blue selector and yellow controls retained. Green tower trim, Full Muscle logo, CURVE removed. Instruction placard present with illustrative fine text. Original view/background preserved.",
+      "stagedPath": "src/assets/catalog/FM-X6056/primary-01-6e0d328e96bb.webp"
     },
     {
       "assetId": "fm-x6057-120d6522ee58063e",
@@ -8079,8 +8175,10 @@
       "originalPath": "data/catalog-assets/originals/05/05468f931d7843ebf9c245426093976a0779dd84cec1290e28d85ef330377bea.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6057-120d6522ee58063e.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6057-120d6522ee58063e.png",
+      "status": "integrated",
+      "review": "Tall arch, suspended curved bar and clip, paired thigh rollers, low bench, attachment handle, cable routes and pulleys retained. Tower trim green and small Full Muscle logo; blue selector remains blue. Instruction placard present with illustrative microtext. White background/view retained.",
+      "stagedPath": "src/assets/catalog/FM-X6057/primary-01-36dd8efceec6.webp"
     },
     {
       "assetId": "fm-x6058-48478a8d7a5c4e14",
@@ -8091,8 +8189,10 @@
       "originalPath": "data/catalog-assets/originals/82/82129b733c9e46c323bc75f0c49e257733fdc319b3cd4f2fc33a58bbdbf3c145.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-x6-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-x6058-48478a8d7a5c4e14.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/x6-batch-02/fm-x6058-48478a8d7a5c4e14.png",
+      "status": "integrated",
+      "review": "Segmented prone bench, upper cam/lever, lower roller and slotted adjustment plate, silver handles, yellow controls and crossbraced base retained. Green tower trim, Full Muscle logo and CURVE removal applied. White instruction placard present with illustrative microtext; original camera/background retained.",
+      "stagedPath": "src/assets/catalog/FM-X6058/primary-01-fa904b1e9d24.webp"
     },
     {
       "assetId": "fm-x8201-e92c4a81dd444809",
@@ -8843,8 +8943,10 @@
       "inputPath": "src/assets/catalog/FM-7027/gallery-03-e208113df0e5.webp",
       "originalPath": "data/catalog-assets/originals/bd/bda00971ef84c2404126a820461f5e0f487529002028f0fc7b8cde27f863ba92.jpg",
       "categoryId": "rowing-machine",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7027-4033a1b7a984afe9.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/cardio-misc-01/fm-7027-4033a1b7a984afe9.png",
+      "status": "integrated",
+      "review": "Original and final correction compared: all three black rowers, room and framing retained. Short connector beams green with Full Muscle logos where visible; black long rails and silver sliding surfaces preserved. First pass added an unwanted rear-rail logo/green section; corrective edit removed both and final result was rechecked.",
+      "stagedPath": "src/assets/catalog/FM-7027/gallery-03-f33cb898ded5.webp"
     },
     {
       "assetId": "fm-7027-a1975874382cc484",
@@ -8854,8 +8956,10 @@
       "inputPath": "src/assets/catalog/FM-7027/primary-01-0abe4724e2c1.webp",
       "originalPath": "data/catalog-assets/originals/74/748b2970194fd79753abade9a40edc08b3fabcf21398d5d65824ee70b162bd45.jpg",
       "categoryId": "rowing-machine",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7027-a1975874382cc484.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/cardio-misc-01/fm-7027-a1975874382cc484.png",
+      "status": "integrated",
+      "review": "Original and edit compared: both black and white rowers retained with matching geometry, overlap, rails, footrests, fans and console arms. Only short connector beams green with Full Muscle lettering; original white background retained.",
+      "stagedPath": "src/assets/catalog/FM-7027/primary-01-f25bf06aa93c.webp"
     },
     {
       "assetId": "fm-7027-cffacb01d853a7c9",
@@ -8865,8 +8969,10 @@
       "inputPath": "src/assets/catalog/FM-7027/gallery-02-25b953e9cbf0.webp",
       "originalPath": "data/catalog-assets/originals/8d/8d4590a3eca7518c07cccae1a095f05f8f95996530faca6891656a3cc742773a.jpg",
       "categoryId": "rowing-machine",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7027-cffacb01d853a7c9.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/cardio-misc-01/fm-7027-cffacb01d853a7c9.png",
+      "status": "integrated",
+      "review": "Original and edit compared: silver rower housing, black grille, rail, chain, seat, footrests, console arm and showroom retained; connector beam painted green and AIR ROWER replaced by physical Full Muscle logo.",
+      "stagedPath": "src/assets/catalog/FM-7027/gallery-02-ce069764c4ad.webp"
     },
     {
       "assetId": "fm-7029-75c6c377047f6d12",
@@ -8876,8 +8982,10 @@
       "inputPath": "src/assets/catalog/FM-7029/primary-01-497c69807e8b.webp",
       "originalPath": "data/catalog-assets/originals/dc/dc182a184d0b7401d92c32c3707243fca6a1abcb58deecc48f74e6034fb53b08.jpg",
       "categoryId": "ski-machine",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-7029-75c6c377047f6d12.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/cardio-misc-01/fm-7029-75c6c377047f6d12.png",
+      "status": "integrated",
+      "review": "Original and result compared: V uprights green with physical Full Muscle logo; lime pull handles, cords, pulleys, console, fan, lower frame, braces and wooden-edged platform preserved. Geometry and original viewpoint retained.",
+      "stagedPath": "src/assets/catalog/FM-7029/primary-01-b0a8f0ff61f4.webp"
     },
     {
       "assetId": "fm-2050-d76757436f8ce2aa",
@@ -8997,8 +9105,10 @@
       "inputPath": "src/assets/catalog/FM-SP-20/primary-01-daa061c2de27.webp",
       "originalPath": "data/catalog-assets/originals/7d/7dd4908073d1c82fcfc39ad04ac9194f3b938aea9a8b5c0990eee32ec520c566.jpg",
       "categoryId": "surfing-machine",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-sp-20-0e447aab8b7328d3.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/cardio-misc-01/fm-sp-20-0e447aab8b7328d3.png",
+      "status": "integrated",
+      "review": "Original and output compared: surf machine rails, console, platform, rear/interior panels and silver feet preserved. Only front decorative panel green with Full Muscle logo replacing red wording/stripes. Same machine geometry and white background.",
+      "stagedPath": "src/assets/catalog/FM-SP-20/primary-01-80dd0318f72d.webp"
     },
     {
       "assetId": "fm-3000b-8b4c2802f9d009b5",

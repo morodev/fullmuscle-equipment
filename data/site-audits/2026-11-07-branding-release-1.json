@@ -1,0 +1,30 @@
+{
+  "commit": "6b189cb",
+  "integrated": 146,
+  "samples": [
+    {
+      "sku": "FM-X8201",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/abductor-e-adductor-fm-x8201/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-X6003",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/rotary-torso-fm-x6003/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-GC-5001",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/leg-curl-fm-gc-5001/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-2000B",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/tapis-roulant-professionale-fm-2000b/",
+      "status": 200,
+      "updatedImage": true
+    }
+  ]
+}

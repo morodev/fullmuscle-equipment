@@ -1,0 +1,591 @@
+{
+  "checkedAt": "2026-11-07T11:23:31.685Z",
+  "origin": "https://fullmuscle-equipment.com",
+  "pages": [
+    {
+      "path": "/it/",
+      "status": 200,
+      "finalUrl": "https://fullmuscle-equipment.com/it/",
+      "title": "Attrezzature professionali per palestre | FullMuscle",
+      "canonical": "https://fullmuscle-equipment.com/it/",
+      "robots": "noindex,nofollow",
+      "xRobotsTag": null,
+      "alternates": [
+        {
+          "language": "it-IT",
+          "href": "https://fullmuscle-equipment.com/it/"
+        },
+        {
+          "language": "en",
+          "href": "https://fullmuscle-equipment.com/en/"
+        },
+        {
+          "language": "x-default",
+          "href": "https://fullmuscle-equipment.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "FullMuscle Equipment",
+          "legalName": "Full Muscle A.S.D",
+          "url": "https://fullmuscle-equipment.com/",
+          "logo": "https://fullmuscle-equipment.com/brand/fullmuscle-mark.svg",
+          "email": "info@fullmuscle-equipment.com",
+          "telephone": "(+39) 320 1555850",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Viale Leonida Tonelli 84 - 86 Roma, 00134",
+            "addressLocality": "Roma",
+            "addressCountry": "IT"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/en/",
+      "status": 200,
+      "finalUrl": "https://fullmuscle-equipment.com/en/",
+      "title": "Professional gym equipment | FullMuscle",
+      "canonical": "https://fullmuscle-equipment.com/en/",
+      "robots": "noindex,nofollow",
+      "xRobotsTag": null,
+      "alternates": [
+        {
+          "language": "en",
+          "href": "https://fullmuscle-equipment.com/en/"
+        },
+        {
+          "language": "it-IT",
+          "href": "https://fullmuscle-equipment.com/it/"
+        },
+        {
+          "language": "x-default",
+          "href": "https://fullmuscle-equipment.com/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "FullMuscle Equipment",
+          "legalName": "Full Muscle A.S.D",
+          "url": "https://fullmuscle-equipment.com/",
+          "logo": "https://fullmuscle-equipment.com/brand/fullmuscle-mark.svg",
+          "email": "info@fullmuscle-equipment.com",
+          "telephone": "(+39) 320 1555850",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Viale Leonida Tonelli 84 - 86 Roma, 00134",
+            "addressLocality": "Roma",
+            "addressCountry": "IT"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/it/catalogo/",
+      "status": 200,
+      "finalUrl": "https://fullmuscle-equipment.com/it/catalogo/",
+      "title": "Catalogo attrezzature palestra | FullMuscle",
+      "canonical": "https://fullmuscle-equipment.com/it/catalogo/",
+      "robots": "noindex,nofollow",
+      "xRobotsTag": null,
+      "alternates": [
+        {
+          "language": "it-IT",
+          "href": "https://fullmuscle-equipment.com/it/catalogo/"
+        },
+        {
+          "language": "en",
+          "href": "https://fullmuscle-equipment.com/en/catalogue/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "CollectionPage",
+              "name": "Catalogo attrezzature palestra",
+              "url": "https://fullmuscle-equipment.com/it/catalogo/"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://fullmuscle-equipment.com/it/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Catalogo",
+                  "item": "https://fullmuscle-equipment.com/it/catalogo/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/it/soluzioni/apertura-nuova-palestra/",
+      "status": 200,
+      "finalUrl": "https://fullmuscle-equipment.com/it/soluzioni/apertura-nuova-palestra/",
+      "title": "Fornitura completa per apertura palestra | FullMuscle",
+      "canonical": "https://fullmuscle-equipment.com/it/soluzioni/apertura-nuova-palestra/",
+      "robots": "noindex,nofollow",
+      "xRobotsTag": null,
+      "alternates": [
+        {
+          "language": "it-IT",
+          "href": "https://fullmuscle-equipment.com/it/soluzioni/apertura-nuova-palestra/"
+        },
+        {
+          "language": "en",
+          "href": "https://fullmuscle-equipment.com/en/solutions/new-gym-opening/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "name": "Fornitura completa per apertura palestra | FullMuscle",
+              "description": "Apri la tua palestra con una fornitura completa di attrezzature per forza, cardio e functional. Selezione per spazi, budget e obiettivi.",
+              "url": "https://fullmuscle-equipment.com/it/soluzioni/apertura-nuova-palestra/",
+              "primaryImageOfPage": {
+                "@type": "ImageObject",
+                "url": "https://fullmuscle-equipment.com/_astro/new-gym.C4KQVF3E.webp"
+              }
+            },
+            {
+              "@type": "Service",
+              "name": "Apertura nuova palestra",
+              "description": "Dalla sala pesi al cardio e al functional, costruiamo la fornitura della nuova palestra in Italia in base a metratura, pubblico, posizionamento e budget.",
+              "provider": {
+                "@type": "Organization",
+                "name": "FullMuscle Equipment",
+                "url": "https://fullmuscle-equipment.com/it/"
+              },
+              "areaServed": "IT",
+              "url": "https://fullmuscle-equipment.com/it/soluzioni/apertura-nuova-palestra/"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://fullmuscle-equipment.com/it/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Soluzioni",
+                  "item": "https://fullmuscle-equipment.com/it/soluzioni/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Apertura nuova palestra",
+                  "item": "https://fullmuscle-equipment.com/it/soluzioni/apertura-nuova-palestra/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/it/soluzioni/rinnovo-palestra/",
+      "status": 200,
+      "finalUrl": "https://fullmuscle-equipment.com/it/soluzioni/rinnovo-palestra/",
+      "title": "Rinnovo palestra e nuove attrezzature | FullMuscle",
+      "canonical": "https://fullmuscle-equipment.com/it/soluzioni/rinnovo-palestra/",
+      "robots": "noindex,nofollow",
+      "xRobotsTag": null,
+      "alternates": [
+        {
+          "language": "it-IT",
+          "href": "https://fullmuscle-equipment.com/it/soluzioni/rinnovo-palestra/"
+        },
+        {
+          "language": "en",
+          "href": "https://fullmuscle-equipment.com/en/solutions/gym-renovation/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "name": "Rinnovo palestra e nuove attrezzature | FullMuscle",
+              "description": "Rinnova o amplia la palestra con una selezione mirata di attrezzature professionali costruita su spazi, utilizzo e budget.",
+              "url": "https://fullmuscle-equipment.com/it/soluzioni/rinnovo-palestra/",
+              "primaryImageOfPage": {
+                "@type": "ImageObject",
+                "url": "https://fullmuscle-equipment.com/_astro/renovation.Dokc1V7e.webp"
+              }
+            },
+            {
+              "@type": "Service",
+              "name": "Rinnovo e ampliamento palestra",
+              "description": "Valutiamo la dotazione esistente e prepariamo una fornitura per sostituire le macchine, ampliare le aree o rinnovare l’intera palestra.",
+              "provider": {
+                "@type": "Organization",
+                "name": "FullMuscle Equipment",
+                "url": "https://fullmuscle-equipment.com/it/"
+              },
+              "areaServed": "IT",
+              "url": "https://fullmuscle-equipment.com/it/soluzioni/rinnovo-palestra/"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://fullmuscle-equipment.com/it/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Soluzioni",
+                  "item": "https://fullmuscle-equipment.com/it/soluzioni/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Rinnovo e ampliamento palestra",
+                  "item": "https://fullmuscle-equipment.com/it/soluzioni/rinnovo-palestra/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/it/prodotti/tapis-roulant-professionale-fm-2000b/",
+      "status": 200,
+      "finalUrl": "https://fullmuscle-equipment.com/it/prodotti/tapis-roulant-professionale-fm-2000b/",
+      "title": "Tapis roulant professionale FM-2000B | FullMuscle Equipment",
+      "canonical": "https://fullmuscle-equipment.com/it/prodotti/tapis-roulant-professionale-fm-2000b/",
+      "robots": "noindex,nofollow",
+      "xRobotsTag": null,
+      "alternates": [
+        {
+          "language": "it-IT",
+          "href": "https://fullmuscle-equipment.com/it/prodotti/tapis-roulant-professionale-fm-2000b/"
+        },
+        {
+          "language": "en",
+          "href": "https://fullmuscle-equipment.com/en/products/professional-treadmill-fm-2000b/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://fullmuscle-equipment.com/it/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Catalogo",
+                  "item": "https://fullmuscle-equipment.com/it/catalogo/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Tapis roulant",
+                  "item": "https://fullmuscle-equipment.com/it/catalogo/categorie/tapis-roulant/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "Tapis roulant professionale FM-2000B",
+                  "item": "https://fullmuscle-equipment.com/it/prodotti/tapis-roulant-professionale-fm-2000b/"
+                }
+              ]
+            },
+            {
+              "@type": "Product",
+              "name": "Tapis roulant professionale FM-2000B",
+              "sku": "FM-2000B",
+              "image": [
+                "https://fullmuscle-equipment.com/_astro/primary-01-d18118dce644.DJ2HbZ2M.webp"
+              ],
+              "description": "Tapis roulant professionale FM-2000B per aree cardio professionali, con caratteristica Single Display.",
+              "brand": {
+                "@type": "Brand",
+                "name": "FullMuscle Equipment"
+              },
+              "category": "Tapis roulant",
+              "url": "https://fullmuscle-equipment.com/it/prodotti/tapis-roulant-professionale-fm-2000b/",
+              "additionalProperty": [
+                {
+                  "@type": "PropertyValue",
+                  "name": "Caratteristica",
+                  "value": "Single Display"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "name": "Dimensioni schermo posteriore",
+                  "value": "390mm*470mm"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "name": "Superficie di corsa",
+                  "value": "1550mm*585mm"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "name": "Dimensioni nastro",
+                  "value": "3460X585mm"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "name": "Spessore nastro",
+                  "value": "3mm"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "name": "Manutenzione",
+                  "value": "Free-lubrication"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "name": "Running deck thickness",
+                  "value": "25mm"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "name": "Running deck size",
+                  "value": "1450X738X250 Speed:1-20 km/h"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "name": "Inclinazione",
+                  "value": "0%-20%"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "name": "Carico massimo",
+                  "value": "200kg"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "name": "Dimensioni tapis roulant",
+                  "value": "2110*860*1725mm"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "name": "Peso netto",
+                  "value": "190KG"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/it/showroom/",
+      "status": 200,
+      "finalUrl": "https://fullmuscle-equipment.com/it/showroom/",
+      "title": "Showroom attrezzature palestra a Roma | FullMuscle",
+      "canonical": "https://fullmuscle-equipment.com/it/showroom/",
+      "robots": "noindex,nofollow",
+      "xRobotsTag": null,
+      "alternates": [
+        {
+          "language": "it-IT",
+          "href": "https://fullmuscle-equipment.com/it/showroom/"
+        },
+        {
+          "language": "en",
+          "href": "https://fullmuscle-equipment.com/en/showroom/"
+        }
+      ],
+      "structuredData": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "LocalBusiness",
+              "name": "FullMuscle Equipment Showroom",
+              "url": "https://fullmuscle-equipment.com/it/showroom/",
+              "telephone": "(+39) 320 1555850",
+              "email": "info@fullmuscle-equipment.com",
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "https://schema.org/Monday",
+                    "https://schema.org/Tuesday",
+                    "https://schema.org/Wednesday",
+                    "https://schema.org/Thursday",
+                    "https://schema.org/Friday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "13:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "https://schema.org/Monday",
+                    "https://schema.org/Tuesday",
+                    "https://schema.org/Wednesday",
+                    "https://schema.org/Thursday",
+                    "https://schema.org/Friday"
+                  ],
+                  "opens": "14:00",
+                  "closes": "18:00"
+                }
+              ],
+              "areaServed": "IT",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Viale Leonida Tonelli 84 - 86 Roma, 00134",
+                "addressLocality": "Roma",
+                "addressCountry": "IT"
+              },
+              "legalName": "Full Muscle A.S.D",
+              "vatID": "7253741007"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://fullmuscle-equipment.com/it/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Showroom",
+                  "item": "https://fullmuscle-equipment.com/it/showroom/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/it/privacy/",
+      "status": 200,
+      "finalUrl": "https://fullmuscle-equipment.com/it/privacy/",
+      "title": "Informativa privacy | FullMuscle Equipment",
+      "canonical": "https://fullmuscle-equipment.com/it/privacy/",
+      "robots": "noindex,nofollow",
+      "xRobotsTag": null,
+      "alternates": [
+        {
+          "language": "it-IT",
+          "href": "https://fullmuscle-equipment.com/it/privacy/"
+        },
+        {
+          "language": "en",
+          "href": "https://fullmuscle-equipment.com/en/privacy/"
+        }
+      ],
+      "structuredData": [],
+      "draftPrivacyNotice": true
+    },
+    {
+      "path": "/it/richiesta/",
+      "status": 200,
+      "finalUrl": "https://fullmuscle-equipment.com/it/richiesta/",
+      "title": "Richiedi un preventivo | FullMuscle Equipment",
+      "canonical": "https://fullmuscle-equipment.com/it/richiesta/",
+      "robots": "noindex,nofollow",
+      "xRobotsTag": null,
+      "alternates": [
+        {
+          "language": "it-IT",
+          "href": "https://fullmuscle-equipment.com/it/richiesta/"
+        },
+        {
+          "language": "en",
+          "href": "https://fullmuscle-equipment.com/en/quote-request/"
+        }
+      ],
+      "structuredData": [],
+      "turnstileConfigured": false
+    },
+    {
+      "path": "/it/conferma/",
+      "status": 200,
+      "finalUrl": "https://fullmuscle-equipment.com/it/conferma/",
+      "title": "Richiesta inviata | FullMuscle Equipment",
+      "canonical": "https://fullmuscle-equipment.com/it/conferma/",
+      "robots": "noindex,nofollow",
+      "xRobotsTag": null,
+      "alternates": [
+        {
+          "language": "it-IT",
+          "href": "https://fullmuscle-equipment.com/it/conferma/"
+        },
+        {
+          "language": "en",
+          "href": "https://fullmuscle-equipment.com/en/confirmation/"
+        }
+      ],
+      "structuredData": []
+    }
+  ],
+  "robots": {
+    "status": 200,
+    "body": "User-agent: *\nDisallow: /\n"
+  },
+  "sitemap": {
+    "status": 200,
+    "urls": 1755,
+    "uniqueUrls": 1755,
+    "italianProducts": 744,
+    "englishProducts": 744,
+    "offDomain": [],
+    "privatePages": []
+  },
+  "redirects": [
+    {
+      "url": "http://fullmuscle-equipment.com/it/?seo-check=1",
+      "status": 301,
+      "location": "https://fullmuscle-equipment.com/it/?seo-check=1"
+    },
+    {
+      "url": "https://www.fullmuscle-equipment.com/it/?seo-check=1",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "missingPageStatus": 404,
+  "blockers": [
+    "robots.txt blocca la scansione",
+    "Pagine commerciali ancora in noindex",
+    "Privacy ancora in bozza",
+    "Chiave pubblica Turnstile non configurata nella pagina richiesta",
+    "Redirect canonici da completare"
+  ],
+  "accountChecks": "Search Console, ricezione SMTP, segreto Turnstile e scansione Hostinger richiedono verifica negli account."
+}

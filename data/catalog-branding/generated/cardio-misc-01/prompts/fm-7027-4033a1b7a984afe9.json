@@ -1,0 +1,18 @@
+{
+  "initial": {
+    "referenced_image_paths": [
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-7027/gallery-03-e208113df0e5.webp",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+    ],
+    "transparent_background": false,
+    "prompt": "Use case: precise-object-edit. Image 1 is the only edit target; image 2 ONLY reference for dark satin forest green, image 3 ONLY reference for italic Full Muscle Equipment logo. Target: real showroom photograph with THREE black air rowers on green turf. Keep all three machines exactly arranged and cropped as in the source. On EACH rower recolor ONLY the short angled beam between footrests and fan housing dark satin forest green (~#356B35), replacing AIR ROWER wording with a perspective-correct modest italic white/green 'Full Muscle' logo and tiny 'EQUIPMENT' below. Keep the long seat rails and silver tracks, black fan cases/grilles, footrests/straps, consoles, legs, turf, room and all geometry unchanged. Match the reference styling, but no different camera angle. Preserve original background, framing, lighting and all materials. Do not add/remove any components or change shapes. No floating text or extra labels. This is a faithful catalogue branding edit, not a redesigned machine."
+  },
+  "correction": {
+    "referenced_image_paths": [
+      "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-b9cbb9d7-3b10-4d1a-86d7-e48edf599963.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Precise local correction only. In this photograph of three rowers, the REARMOST rower's long horizontal seat rail, upper-left behind the middle seat, has an unwanted extra Full Muscle logo and green paint. Remove ONLY that extra logo and restore that horizontal rail to solid black painted sides with its original silver sliding strip. Preserve its original shape. Leave the green SHORT angled connector beams and logos on the front and middle rowers exactly unchanged, leave the rearmost short connector beam green where visible. Keep all THREE rowers, fans, consoles, seats, feet, floor, room, lighting, angle and crop unchanged. Do not add any other logo or alter any other part."
+  }
+}
