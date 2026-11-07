@@ -18,6 +18,7 @@ const footerSolutions = ['new-gym', 'medical', 'corporate-wellness'] as const;
     <nav aria-label="Catalogo">
       <strong>{locale === 'it' ? 'Esplora' : 'Explore'}</strong>
       <a href={r.catalog}>{locale === 'it' ? 'Catalogo' : 'Catalogue'}</a>
+      {locale === 'it' && <a href="/cataloghi/fullmuscle-g5.pdf" download>Catalogo G5 (PDF)</a>}
       <a href={`${r.guides}/`}>{locale === 'it' ? 'Guide tecniche' : 'Technical guides'}</a>
       <a href={r.quote}>{locale === 'it' ? 'Richiedi preventivo' : 'Request a quote'}</a>
     </nav>

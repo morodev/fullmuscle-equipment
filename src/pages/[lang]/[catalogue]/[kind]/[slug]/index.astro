@@ -57,6 +57,7 @@ const structuredData = {
       <p class="eyebrow">{taxonomy.count} {isIt ? 'modelli disponibili' : 'available models'}</p>
       <h1>{taxonomy.name[locale]}</h1>
       <p>{taxonomy.description[locale]}</p>
+      {isIt && taxonomyKind === 'line' && taxonomy.id === 'fm-g5-series' && <a class="button" href="/cataloghi/fullmuscle-g5.pdf" download>Scarica il catalogo G5 (PDF)</a>}
     </div>
   </section>
   <section class="section">

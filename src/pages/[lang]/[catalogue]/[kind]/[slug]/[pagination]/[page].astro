@@ -61,6 +61,14 @@ const structuredData = {
 };
 ---
 <BaseLayout locale={locale} title={title} description={description} canonicalPath={canonicalPath} alternateUrl={alternateUrl} previousUrl={paginatedUrl(baseUrl, locale, currentPage - 1)} structuredData={structuredData} {...(currentPage < pageCount ? { nextUrl: paginatedUrl(baseUrl, locale, currentPage + 1) } : {})}>
-  <section class="page-hero surface-dark"><div class="shell page-hero-inner"><Breadcrumbs items={[{ label: 'Home', href: r.home }, { label: isIt ? 'Catalogo' : 'Catalogue', href: r.catalog }, { label: taxonomy.name[locale], href: baseUrl }, { label: `${isIt ? 'Pagina' : 'Page'} ${currentPage}` }]} /><p class="eyebrow">{source.length} {isIt ? 'modelli' : 'models'}</p><h1>{taxonomy.name[locale]} · {isIt ? 'Pagina' : 'Page'} {currentPage}</h1><p>{taxonomy.description[locale]}</p></div></section>
+  <section class="page-hero surface-dark">
+    <div class="shell page-hero-inner">
+      <Breadcrumbs items={[{ label: 'Home', href: r.home }, { label: isIt ? 'Catalogo' : 'Catalogue', href: r.catalog }, { label: taxonomy.name[locale], href: baseUrl }, { label: `${isIt ? 'Pagina' : 'Page'} ${currentPage}` }]} />
+      <p class="eyebrow">{source.length} {isIt ? 'modelli' : 'models'}</p>
+      <h1>{taxonomy.name[locale]} · {isIt ? 'Pagina' : 'Page'} {currentPage}</h1>
+      <p>{taxonomy.description[locale]}</p>
+      {isIt && taxonomyKind === 'line' && taxonomy.id === 'fm-g5-series' && <a class="button" href="/cataloghi/fullmuscle-g5.pdf" download>Scarica il catalogo G5 (PDF)</a>}
+    </div>
+  </section>
   <section class="section"><div class="shell"><CatalogListing products={products} categories={categoryLinks} lines={lineLinks} locale={locale} total={source.length} currentPage={currentPage} pageCount={pageCount} baseUrl={baseUrl} {...(taxonomyKind === 'category' ? { activeCategory: taxonomy.id } : { activeLine: taxonomy.id })} /></div></section>
 </BaseLayout>
