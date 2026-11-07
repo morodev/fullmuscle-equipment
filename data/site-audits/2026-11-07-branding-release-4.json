@@ -1,0 +1,24 @@
+{
+  "commit": "c5738f7",
+  "integrated": 302,
+  "samples": [
+    {
+      "sku": "FM-8218",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/biceps-curl-fm-8218/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-N7000C",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/tapis-roulant-professionale-fm-n7000c/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-SP80",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/tapis-roulant-professionale-fm-sp80/",
+      "status": 200,
+      "updatedImage": true
+    }
+  ]
+}

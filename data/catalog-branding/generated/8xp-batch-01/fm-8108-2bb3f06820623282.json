@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8108-2bb3f06820623282",
+  "sku": "FM-8108",
+  "role": "primary",
+  "sourceHash": "792b5652d2fdc2e50e7579a430e634a740deaa9007577a83cc363ce5f70de573",
+  "inputPath": "src/assets/catalog/FM-8108/primary-01-39f23181a19e.webp",
+  "originalPath": "data/catalog-assets/originals/79/792b5652d2fdc2e50e7579a430e634a740deaa9007577a83cc363ce5f70de573.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8108-2bb3f06820623282.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8108 high pulldown: both red long overhead lever beams and red rear descending portions become green. Preserve silver grip ends, black endcaps/pivot brackets, black thigh restraint/seat assembly, silver loading/storage sleeves. Put small physical logo along broad face of nearer upper green lever. Preserve exact height and lever angles.",
+  "review": "Compared source: long overhead lever angles and full-height machine silhouette preserved; black thigh restraint/seat and fixed frame unchanged, silver grips/horns intact. Original red moving beams forest green with physical near-arm logo, black pivots/endcaps retained.",
+  "publicSku": "FM-8108",
+  "editTarget": "src/assets/catalog/FM-8108/primary-01-39f23181a19e.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:44:18.432Z",
+  "outputHash": "0d1402648b86fdb196c5ab5e5f451a2deec48c30c4abb4e2f99e65a654bbfa0e",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

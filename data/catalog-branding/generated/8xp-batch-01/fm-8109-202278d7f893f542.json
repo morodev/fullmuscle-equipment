@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8109-202278d7f893f542",
+  "sku": "FM-8109",
+  "role": "primary",
+  "sourceHash": "fe320ddf57ff3b82107839648adb2c7e4c3a2c69ce7e635e01300bb0ba20e071",
+  "inputPath": "src/assets/catalog/FM-8109/primary-01-d2ccbc016fd9.webp",
+  "originalPath": "data/catalog-assets/originals/fe/fe320ddf57ff3b82107839648adb2c7e4c3a2c69ce7e635e01300bb0ba20e071.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8109-202278d7f893f542.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8109 hack squat: red carriage plates and painted backing around small black middle pad become green. Keep two tall black shoulder pads, all black grip handles and big black foot platform unchanged; silver inclined guides and horns remain silver, black chassis preserved. Small physical logo on visible green left carriage side plate between bolts and handle pivot, no added surface.",
+  "review": "Compared hack-squat source: two black shoulder pads and smaller middle pad, black handgrips, large angled black platform, silver guide rails and loading horns preserved. Former red carriage plates green with modest physical side logo; original black base and incline geometry retained.",
+  "publicSku": "FM-8109",
+  "editTarget": "src/assets/catalog/FM-8109/primary-01-d2ccbc016fd9.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:44:56.108Z",
+  "outputHash": "5cd979fb69ccbb90c0e812565ebf74802996fe155c4587436188efb72e56d770",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

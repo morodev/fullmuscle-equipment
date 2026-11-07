@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8119-4af9409fc6fdfd4b",
+  "sku": "FM-8119",
+  "role": "primary",
+  "sourceHash": "83c4b0dd797b41829ea4dd14cf3663f8bc36dab847326172ff7eb427f285ae30",
+  "inputPath": "src/assets/catalog/FM-8119/primary-01-615df2bbace4.webp",
+  "originalPath": "data/catalog-assets/originals/83/83c4b0dd797b41829ea4dd14cf3663f8bc36dab847326172ff7eb427f285ae30.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8119-4af9409fc6fdfd4b.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8119 dual-station press/pulldown: both long red diagonal moving arms and red grip supports become green. Preserve BOTH separate original seat/back assemblies, front long backrest and rear small seat/chest/thigh assembly, fixed black frame, silver handles/horns and all adjustments. Small physical FullMuscle logo on upper broad face of near green diagonal lever. Do not simplify the two-sided machine.",
+  "review": "Compared two-station source: front long back/seat and rear smaller seat/chest restraint both retained, with exact black supporting structure and silver horns. Long red diagonal arms converted to green with fitted near-arm logo. Dual working-side layout and all grip positions preserved.",
+  "publicSku": "FM-8119",
+  "editTarget": "src/assets/catalog/FM-8119/primary-01-615df2bbace4.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:52:43.061Z",
+  "outputHash": "3a5603b2eb0bf7c6bf1e8c51d1a8fe636402317fc4e5993e73c153c6349a6e9c",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

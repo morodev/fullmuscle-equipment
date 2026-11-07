@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8131-68a132cb5d2dbdc4",
+  "sku": "FM-8131",
+  "role": "primary",
+  "sourceHash": "4e1ace3fc6ed638016d51bdd09d15b15299477706fe8460fdf1d8fda02113349",
+  "inputPath": "src/assets/catalog/FM-8131/primary-01-451ba6a77c6e.webp",
+  "originalPath": "data/catalog-assets/originals/4e/4e1ace3fc6ed638016d51bdd09d15b15299477706fe8460fdf1d8fda02113349.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8131-68a132cb5d2dbdc4.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8131 incline press: original red upper articulated press arms and red mounting brackets become dark green. Preserve large black inclined backrest and seat, black frame and visible weight plates, yellow seat selector, silver horns, black handles and their silver/yellow tip details; keep original red/white safety label on lower black base. Logo on visible near green upper arm horizontal face.",
+  "review": "Incline-press source compared: long inclined backrest and seat, black frame, grip sets, pivot arrangement and visible weight-plate group retained. Only originally red articulated arms/brackets changed green; yellow selector and metallic fittings preserved. Original lower red-bordered warning retained, logo on near green lever. Low-resolution source limits microtext fidelity.",
+  "publicSku": "FM-8131",
+  "editTarget": "src/assets/catalog/FM-8131/primary-01-451ba6a77c6e.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:59:59.732Z",
+  "outputHash": "8d223d15a151c4e264be41e340a32bb7bddff3cb3ca460907a85b8d821afd673",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

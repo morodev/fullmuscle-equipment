@@ -1,0 +1,222 @@
+[
+  {
+    "assetId": "fm-2020a-f6f911ce223e1084",
+    "sku": "FM-2020A",
+    "role": "primary",
+    "sourceHash": "9208ca8425b50d089d6b132294924b90198f767e255042902e9488ff6ac346b2",
+    "inputPath": "src/assets/catalog/FM-2020A/primary-01-1bf304787019.webp",
+    "originalPath": "data/catalog-assets/originals/92/9208ca8425b50d089d6b132294924b90198f767e255042902e9488ff6ac346b2.jpg",
+    "categoryId": "exercise-bike",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-2020a-f6f911ce223e1084.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-2020b-1537d4c0ddd156b6",
+    "sku": "FM-2020B",
+    "role": "primary",
+    "sourceHash": "36edf00a545e0b7b4e746074125476f964888342643b9f4d8667b1787ec646e3",
+    "inputPath": "src/assets/catalog/FM-2020B/primary-01-5b0a0f12cb53.webp",
+    "originalPath": "data/catalog-assets/originals/36/36edf00a545e0b7b4e746074125476f964888342643b9f4d8667b1787ec646e3.jpg",
+    "categoryId": "exercise-bike",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-2020b-1537d4c0ddd156b6.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-2030a-a14657cb064dbb8c",
+    "sku": "FM-2030A",
+    "role": "primary",
+    "sourceHash": "743a228d449add213d759997846ae99e3130469ecf0d42e0e992513145635e77",
+    "inputPath": "src/assets/catalog/FM-2030A/primary-01-b5a294306dc0.webp",
+    "originalPath": "data/catalog-assets/originals/74/743a228d449add213d759997846ae99e3130469ecf0d42e0e992513145635e77.jpg",
+    "categoryId": "exercise-bike",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-2030a-a14657cb064dbb8c.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-2030b-796ad52c94610b01",
+    "sku": "FM-2030B",
+    "role": "primary",
+    "sourceHash": "0ebff2886cc556986f10f7e3ff1dffbb513ac763ba521ec44037339d86ed332f",
+    "inputPath": "src/assets/catalog/FM-2030B/primary-01-b41288b742f3.webp",
+    "originalPath": "data/catalog-assets/originals/0e/0ebff2886cc556986f10f7e3ff1dffbb513ac763ba521ec44037339d86ed332f.jpg",
+    "categoryId": "exercise-bike",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-2030b-796ad52c94610b01.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-7010a-7fbee6997b8f70ac",
+    "sku": "FM-7010A",
+    "role": "primary",
+    "sourceHash": "6db93257e1c258c096a182f0d26bda1187a8f609d9c91b6b5d2040f35ace9efe",
+    "inputPath": "src/assets/catalog/FM-7010A/primary-01-9656bd829b41.webp",
+    "originalPath": "data/catalog-assets/originals/6d/6db93257e1c258c096a182f0d26bda1187a8f609d9c91b6b5d2040f35ace9efe.jpg",
+    "categoryId": "exercise-bike",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-7010a-7fbee6997b8f70ac.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-7020-71944b231f3ea2c3",
+    "sku": "FM-7020",
+    "role": "primary",
+    "sourceHash": "46e1584f6d273b22a5091e09b13c33b7d9d2f711db6f318db9b101b7831f748f",
+    "inputPath": "src/assets/catalog/FM-7020/primary-01-d92361832903.webp",
+    "originalPath": "data/catalog-assets/originals/46/46e1584f6d273b22a5091e09b13c33b7d9d2f711db6f318db9b101b7831f748f.jpg",
+    "categoryId": "exercise-bike",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-7020-71944b231f3ea2c3.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-7023-b5fdaf9fed40bfd3",
+    "sku": "FM-7023",
+    "role": "primary",
+    "sourceHash": "0aa844c329c5dd0573c8e4a5e3b023ef4d523d2b4593ad81b2919b4d41eaca98",
+    "inputPath": "src/assets/catalog/FM-7023/primary-01-360036774fcd.webp",
+    "originalPath": "data/catalog-assets/originals/0a/0aa844c329c5dd0573c8e4a5e3b023ef4d523d2b4593ad81b2919b4d41eaca98.jpg",
+    "categoryId": "exercise-bike",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-7023-b5fdaf9fed40bfd3.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-7036-872d2c2016cfe346",
+    "sku": "FM-7036",
+    "role": "primary",
+    "sourceHash": "c1b555f2966140502129692d04d26d33b5c377dad4b81f086e4e4453ecc419ff",
+    "inputPath": "src/assets/catalog/FM-7036/primary-01-9b434ac881c4.webp",
+    "originalPath": "data/catalog-assets/originals/c1/c1b555f2966140502129692d04d26d33b5c377dad4b81f086e4e4453ecc419ff.jpg",
+    "categoryId": "exercise-bike",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-7036-872d2c2016cfe346.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-7038-5566c5c02afe46a3",
+    "sku": "FM-7038",
+    "role": "primary",
+    "sourceHash": "3d4e58c61853c21c491203861bb91994931efeb026808ee2b9d368f9e17f8bf5",
+    "inputPath": "src/assets/catalog/FM-7038/primary-01-82356f4ed6ae.webp",
+    "originalPath": "data/catalog-assets/originals/3d/3d4e58c61853c21c491203861bb91994931efeb026808ee2b9d368f9e17f8bf5.jpg",
+    "categoryId": "exercise-bike",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-7038-5566c5c02afe46a3.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-7045b-7126983da9af73b9",
+    "sku": "FM-7045B",
+    "role": "primary",
+    "sourceHash": "6e7d4e115979bae6f21d038e2b65a5fc527e2d468f1c83da9f4b7d8e93d2d70d",
+    "inputPath": "src/assets/catalog/FM-7045B/primary-01-511ab1dc53c4.webp",
+    "originalPath": "data/catalog-assets/originals/6e/6e7d4e115979bae6f21d038e2b65a5fc527e2d468f1c83da9f4b7d8e93d2d70d.jpg",
+    "categoryId": "exercise-bike",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-7045b-7126983da9af73b9.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-2050-d76757436f8ce2aa",
+    "sku": "FM-2050",
+    "role": "primary",
+    "sourceHash": "c56964c21deaa13e801219b819c55970b71ec74e1c3f919ecc74952825f2659c",
+    "inputPath": "src/assets/catalog/FM-2050/primary-01-ae69128a4081.webp",
+    "originalPath": "data/catalog-assets/originals/c5/c56964c21deaa13e801219b819c55970b71ec74e1c3f919ecc74952825f2659c.jpg",
+    "categoryId": "stair-climber",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-2050-d76757436f8ce2aa.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-2060-0c81c2746633574c",
+    "sku": "FM-2060",
+    "role": "primary",
+    "sourceHash": "a8e33a51c7c45ed630cb3ed228a8334dce90ac6819cbb1f20b5aaa9157bfd983",
+    "inputPath": "src/assets/catalog/FM-2060/primary-01-dc8a656647da.webp",
+    "originalPath": "data/catalog-assets/originals/a8/a8e33a51c7c45ed630cb3ed228a8334dce90ac6819cbb1f20b5aaa9157bfd983.jpg",
+    "categoryId": "stair-climber",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-2060-0c81c2746633574c.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-7041a-07ab9d227e05455d",
+    "sku": "FM-7041A",
+    "role": "primary",
+    "sourceHash": "a9e50872f01aa7f69e4cef51c5a83d58ae9d9e1ff94193580401a870dde6a3a1",
+    "inputPath": "src/assets/catalog/FM-7041A/primary-01-68b2fd23dbf1.webp",
+    "originalPath": "data/catalog-assets/originals/a9/a9e50872f01aa7f69e4cef51c5a83d58ae9d9e1ff94193580401a870dde6a3a1.jpg",
+    "categoryId": "stair-climber",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-7041a-07ab9d227e05455d.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-7041b-deb64ed57d42e84a",
+    "sku": "FM-7041B",
+    "role": "primary",
+    "sourceHash": "96dc244a903ff68fb9a2b9cfc7e089d9ed4e1687b1cffaf70bf2e786bfd0636c",
+    "inputPath": "src/assets/catalog/FM-7041B/primary-01-ef34304a23ae.webp",
+    "originalPath": "data/catalog-assets/originals/96/96dc244a903ff68fb9a2b9cfc7e089d9ed4e1687b1cffaf70bf2e786bfd0636c.jpg",
+    "categoryId": "stair-climber",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-7041b-deb64ed57d42e84a.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-7042-e0ddecfa2973be9d",
+    "sku": "FM-7042",
+    "role": "primary",
+    "sourceHash": "08a101e60b14d6c310490cab148454cc66f164bc930a45887d8e61eb2f382872",
+    "inputPath": "src/assets/catalog/FM-7042/primary-01-a9c580b0fc08.webp",
+    "originalPath": "data/catalog-assets/originals/08/08a101e60b14d6c310490cab148454cc66f164bc930a45887d8e61eb2f382872.jpg",
+    "categoryId": "stair-climber",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-7042-e0ddecfa2973be9d.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-l100b-b1ee0740d4e9f8ab",
+    "sku": "FM-L100B",
+    "role": "primary",
+    "sourceHash": "34ef33a0ceed0a07e07cc23270b21e4dfabf08631d586539bead6ffc3084b8b1",
+    "inputPath": "src/assets/catalog/FM-L100B/primary-01-ccfdc842b280.webp",
+    "originalPath": "data/catalog-assets/originals/34/34ef33a0ceed0a07e07cc23270b21e4dfabf08631d586539bead6ffc3084b8b1.jpg",
+    "categoryId": "stair-climber",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-l100b-b1ee0740d4e9f8ab.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-l600b-0f887e066d7bf4a5",
+    "sku": "FM-L600B",
+    "role": "primary",
+    "sourceHash": "f496631982af297a44eb12731335e29af17e37f96874c3d9dcbbdee7410a83a8",
+    "inputPath": "src/assets/catalog/FM-L600B/primary-01-4d4cfb9ec139.webp",
+    "originalPath": "data/catalog-assets/originals/f4/f496631982af297a44eb12731335e29af17e37f96874c3d9dcbbdee7410a83a8.jpg",
+    "categoryId": "stair-climber",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-l600b-0f887e066d7bf4a5.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-l600c-068d1ab93681e2d0",
+    "sku": "FM-L600C",
+    "role": "primary",
+    "sourceHash": "31b2e145d3ce71251c77465716ee63a9f99f7cca7e14ad4d5709fed3fc4857df",
+    "inputPath": "src/assets/catalog/FM-L600C/primary-01-76d8864df591.webp",
+    "originalPath": "data/catalog-assets/originals/31/31b2e145d3ce71251c77465716ee63a9f99f7cca7e14ad4d5709fed3fc4857df.jpg",
+    "categoryId": "stair-climber",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-l600c-068d1ab93681e2d0.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-n2040a-e774acadca8d0a9b",
+    "sku": "FM-N2040A",
+    "role": "primary",
+    "sourceHash": "cb7b859c7809537f0149cee5aa75175dc6e2bc1d725803286837f8dd2de23523",
+    "inputPath": "src/assets/catalog/FM-N2040A/primary-01-3b5a14f49e6b.webp",
+    "originalPath": "data/catalog-assets/originals/cb/cb7b859c7809537f0149cee5aa75175dc6e2bc1d725803286837f8dd2de23523.jpg",
+    "categoryId": "stair-climber",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-n2040a-e774acadca8d0a9b.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-n2040b-844104f9d635a441",
+    "sku": "FM-N2040B",
+    "role": "primary",
+    "sourceHash": "dfcc39d05f97099a84789699bb15f420bbf8fe34d5972d3c5b6674091e012690",
+    "inputPath": "src/assets/catalog/FM-N2040B/primary-01-01f38fa949d0.webp",
+    "originalPath": "data/catalog-assets/originals/df/dfcc39d05f97099a84789699bb15f420bbf8fe34d5972d3c5b6674091e012690.jpg",
+    "categoryId": "stair-climber",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-n2040b-844104f9d635a441.png",
+    "status": "pending"
+  }
+]

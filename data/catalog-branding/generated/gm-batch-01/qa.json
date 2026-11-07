@@ -1,0 +1,398 @@
+{
+  "batch": "gm-batch-01",
+  "tool": "image_gen.imagegen",
+  "referenceGreen": "#356B35",
+  "items": [
+    {
+      "sku": "FM-GM-5001",
+      "assetId": "fm-gm-5001-5a097bd42f0dce2a",
+      "sourceHash": "c74376120c2ee32034205ca9705cddfce944fdda4e22c3753d65e0222e9459f2",
+      "inputPath": "src/assets/catalog/FM-GM-5001/primary-01-4049ec939039.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5001.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5001.json",
+      "review": "Source and result visually inspected: same leg machine, green moving link arms, black upholstery and tower, silver adjustments and red safety label retained; Full Muscle logo replaces TZ.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5002",
+      "assetId": "fm-gm-5002-0c49a8087a6e8be9",
+      "sourceHash": "67bbc95eeddbbc844d089fc880f4c31f2cc381ea67ce9e43eb011ecf63770f8c",
+      "inputPath": "src/assets/catalog/FM-GM-5002/primary-01-367ef63b3aca.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5002.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5002.json",
+      "review": "Source and result visually inspected: same leg machine, green moving steel lever only, black cylindrical pads and tower, metal selector arc and adjusters retained; Full Muscle top logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5002-1",
+      "assetId": "fm-gm-5002-1-0076e45c2f0ba53b",
+      "sourceHash": "6eaabba343b75c8447a29407847794b308d837a102db1e6345c37faa4d211840",
+      "inputPath": "src/assets/catalog/FM-GM-5002-1/primary-01-68a5a64e7af3.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5002-1.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5002-1.json",
+      "review": "Source and result visually inspected: central leg lever green; twin shin rollers, metal adjusters, black frame and red safety label retained. Model and white background consistent.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5003",
+      "assetId": "fm-gm-5003-5eef14a57d7903c8",
+      "sourceHash": "82e602a894f85ba7b6f370081f3801fe4deb0c213b7f2b3361ccfa2a4fd22100",
+      "inputPath": "src/assets/catalog/FM-GM-5003/primary-01-3bde19c56bbd.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5003.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5003.json",
+      "review": "Source and result visually inspected: torso pad steel linkage green; black pads, top handles, silver collars, round platform and adjustment controls retained. Full Muscle plaque replaces TZ.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5004",
+      "assetId": "fm-gm-5004-be9b95ec5ea18e65",
+      "sourceHash": "630c7d39b67cd46e32802a121fe63c9a8a2ea3fd05574a9756555e8f47c8a407",
+      "inputPath": "src/assets/catalog/FM-GM-5004/primary-01-077de4898bb9.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5004.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5004.json",
+      "review": "Source and result visually inspected: overhead lever pair green; grips, silver pivot collars, seat adjustment and weight stack retained. Small Full Muscle logo on existing blank upper panel.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5005",
+      "assetId": "fm-gm-5005-b105f5dae7d6e6b0",
+      "sourceHash": "2c1769e7b7a31f9bc6af264aefd592d3942417d587314dec0a307b4028b04125",
+      "inputPath": "src/assets/catalog/FM-GM-5005/primary-01-d2c1942839e0.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5005.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5005.json",
+      "review": "Source and result visually inspected: chest press paired moving arms green; black grips and pads, chrome axle, instructional panel and controls retained; Full Muscle top-rail logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5006",
+      "assetId": "fm-gm-5006-926c4842d3444ff2",
+      "sourceHash": "505a3d6f0f3dca9be4c289d1030ba863ca39ad5fb158697d6e6564e9f0eb5d2c",
+      "inputPath": "src/assets/catalog/FM-GM-5006/primary-01-ccc198e63f5e.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5006.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5006.json",
+      "review": "Source and result visually inspected: torso roller steel lever and link green; roller, pads, foot stops, pivot sector and silver controls retained. Model and white background consistent.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5007",
+      "assetId": "fm-gm-5007-860343cef81e96a1",
+      "sourceHash": "f8fe1c81842f29b0b96c91c96e70edb0c225a789c9c01888184ba1579051bba7",
+      "inputPath": "src/assets/catalog/FM-GM-5007/primary-01-f16f23f88e0c.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5007.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5007.json",
+      "review": "Source and result visually inspected: pec-deck paired suspended arms green; upper pivots, silver collars, grips and elbow pads retained, fixed frame black, logo replaced.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5008",
+      "assetId": "fm-gm-5008-de7f786147e29635",
+      "sourceHash": "f2d40ae224700cecc8c468af43b267c4f271c71d97d4e81da3a6b4f5aae58597",
+      "inputPath": "src/assets/catalog/FM-GM-5008/primary-01-0e12bfca4fdf.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5008.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5008.json",
+      "review": "Source and result visually inspected: overhead lat lever arms green; cable routing, pulley wheels, black knee pads, handles and silver pivots retained. Logo replaced with Full Muscle.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5009",
+      "assetId": "fm-gm-5009-9e6bb6aeafffb7fa",
+      "sourceHash": "0da540c500bdf58f7d5a9ef505c6041c35289b8991820e0ac705bd6851d5063e",
+      "inputPath": "src/assets/catalog/FM-GM-5009/primary-01-35939aa9dd89.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5009.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5009.json",
+      "review": "Source and result visually inspected: central hip lever green; metal selector arc, controls, black roller and handles, treaded silver platform retained; same machine silhouette.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5010",
+      "assetId": "fm-gm-5010-945211eebea43d94",
+      "sourceHash": "04371cc4b2a9307bf346a300ce845753a253e0e219a45969233398bd0712db12",
+      "inputPath": "src/assets/catalog/FM-GM-5010/primary-01-932e03496960.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5010.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5010.json",
+      "review": "Source and result visually inspected: lateral-raise steel links green; elbow cushions, grips, pivot cams, pulleys and silver fittings retained. Fixed frame black and Full Muscle tower logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5011",
+      "assetId": "fm-gm-5011-27b19ab9962a2d66",
+      "sourceHash": "af0cb9e3c298a486496ed72a44f495f5475f5ce60a1a615f88ae843cc60ba8cf",
+      "inputPath": "src/assets/catalog/FM-GM-5011/primary-01-3bb44fe970f9.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5011.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5011.json",
+      "review": "Source and result visually inspected: biceps moving lever green; black tubular handle assembly, armrest, seat, pivot cam and fixed support frame retained. Full Muscle logo replaces TZ.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5012",
+      "assetId": "fm-gm-5012-5c350e523ffa1f7a",
+      "sourceHash": "306daf8afd8495c7a923e3ece2a01dba5a706d575eeab4282c44cf29f0597c13",
+      "inputPath": "src/assets/catalog/FM-GM-5012/primary-01-34a5560e6264.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5012.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5012.json",
+      "review": "Source and result visually inspected: shoulder-press horizontal levers green; bent grips, chrome caps, cables and fixed frame retained. Instruction and warning panels remain visible.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5014",
+      "assetId": "fm-gm-5014-09b0702f6860b7e8",
+      "sourceHash": "0ecd9bd759408b804ad9109fdc907eb6083603a6eefa4b53677fa73c5bc4bcfc",
+      "inputPath": "src/assets/catalog/FM-GM-5014/primary-01-c4b05814b971.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5014.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5014.json",
+      "review": "Source and result visually inspected: thigh-pad moving linkage green; black upholstery, handgrips, silver adjusters, circular mechanism and fixed angled seat support retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5015",
+      "assetId": "fm-gm-5015-fbf1bf6417eddce4",
+      "sourceHash": "4caa76d8d87cb580794c43699e512cf36e483f7172b9322bde530593e31fbe1e",
+      "inputPath": "src/assets/catalog/FM-GM-5015/primary-01-15edf48bcb8c.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5015.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5015.json",
+      "review": "Source and result visually inspected: upper shoulder-pad lever green; pads, grips, silver selector arcs and controls retained, lower mechanism and fixed frame original black.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5016",
+      "assetId": "fm-gm-5016-c9fab51d91f2d532",
+      "sourceHash": "b563c3ec0a29e85600ab243bc70ef4c620732c93cc375c4d6a656e40e3981b82",
+      "inputPath": "src/assets/catalog/FM-GM-5016/primary-01-4d1348cccd0a.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5016.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5016.json",
+      "review": "Source and result visually inspected: leg-press moving footplate rails green; footplate, seat and frame black, chrome slide rails, pivots and cable routing retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5020",
+      "assetId": "fm-gm-5020-53fdcb51b866b6ff",
+      "sourceHash": "a27a3a01075b6c0171ff2061d9e0a20f5caed47a5b7a893d5c889fdfc8117a10",
+      "inputPath": "src/assets/catalog/FM-GM-5020/primary-01-b11670daa01f.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5020.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5020.json",
+      "review": "Source and result visually inspected: cable lat upper boom and knee-pad post green; lat bar, grips, pulley, cable, pads and fixed tower remain original colors.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5021",
+      "assetId": "fm-gm-5021-3f058cf3e6a662cc",
+      "sourceHash": "0f1f6eb262e7f1e1221f1347950f0cc64ad0f38cea32741b75696f5b1c0e09e2",
+      "inputPath": "src/assets/catalog/FM-GM-5021/primary-01-3bc3f618c6f7.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5021.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5021.json",
+      "review": "Source and result visually inspected: cable row bench rail and foot-support bracket green; black bench, foot contacts, grips, chrome handle ends and pulley arrangement retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5022",
+      "assetId": "fm-gm-5022-63d08d347ccf39bf",
+      "sourceHash": "9a424aae757275673334325852ed9f66ca254c4878af9ed3a9d7cccffd187e79",
+      "inputPath": "src/assets/catalog/FM-GM-5022/primary-01-4ff609065a45.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5022.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5022.json",
+      "review": "Source and result visually inspected: kickback moving arm green; foot pad, chest and arm supports, grips, silver pivot cap and standing platform retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5022-1",
+      "assetId": "fm-gm-5022-1-596b4fb9ad54f931",
+      "sourceHash": "d02a2b20d8c8157f6d5c6a65511afe115bf51f08c9cbdb951c61a58a501a0074",
+      "inputPath": "src/assets/catalog/FM-GM-5022-1/primary-01-b6084cf6b7b9.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5022-1.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5022-1.json",
+      "review": "Source and result visually inspected: curved support and short pedal bracket green; original long linkage rods, black contact plates, grip shape and silver caps retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5033",
+      "assetId": "fm-gm-5033-9a5487d2206975e2",
+      "sourceHash": "f3ed9004ae05c10485eeaf7387f73fabee4e33846a3da2a1474ed1dde5c25226",
+      "inputPath": "src/assets/catalog/FM-GM-5033/primary-01-1dc84cb19e6f.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5033.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5033.json",
+      "review": "Source and result visually inspected: thigh-pad supports and moving linkage green; pads, grips, metal adjusters, circular pivot and fixed seat frame retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5037",
+      "assetId": "fm-gm-5037-498ec83bbd2c47f7",
+      "sourceHash": "ded63a550aa93054dac12a508657b5660b5b6dc3084224b21b6ef330b95f4353",
+      "inputPath": "src/assets/catalog/FM-GM-5037/primary-01-c3e7507e3551.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5037.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5037.json",
+      "review": "Source and result visually inspected: slanted torso lever green; black roller, seat and foot contacts, pivot cam and silver controls retained. Original geometry and white background consistent.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5044",
+      "assetId": "fm-gm-5044-2c9a9154e176329c",
+      "sourceHash": "6993eb7550fce4486845e39a837d57b795d0b0a921bd23682326a8e32ab8c50a",
+      "inputPath": "src/assets/catalog/FM-GM-5044/primary-01-af082f777479.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5044.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5044.json",
+      "review": "Source and result visually inspected: leg-curl short linkage green; single padded roller, black cam, silver controls, bench pads and grips retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5044-1",
+      "assetId": "fm-gm-5044-1-b61fb84e9eceec05",
+      "sourceHash": "1183b92e2ff94370a02a366c18a985129832d494c9aecb693001e22df6de5816",
+      "inputPath": "src/assets/catalog/FM-GM-5044-1/primary-01-e5653d3605b8.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5044-1.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5044-1.json",
+      "review": "Source and result visually inspected: horizontal leg-curl arm green; twin ankle pads, large black cam, pulleys and fixed bench preserved. Variant geometry remains distinct.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5046",
+      "assetId": "fm-gm-5046-eb3a2ce87370db3c",
+      "sourceHash": "06f487937443de6f58bd01020f689a331533ccbc7bb26cade47e88799ad56953",
+      "inputPath": "src/assets/catalog/FM-GM-5046/primary-01-eb41ff76e2a4.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5046.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5046.json",
+      "review": "Source and result visually inspected: biceps lever and lower crosslink green; original grip assembly, silver controls, cam and black preacher pad retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5047",
+      "assetId": "fm-gm-5047-83e3eba976ee983a",
+      "sourceHash": "99947c50fce271d2faa9559979ba8d47b9cacfe18219f22728fdab021c0a4e56",
+      "inputPath": "src/assets/catalog/FM-GM-5047/primary-01-e8e7f34a6bc5.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5047.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5047.json",
+      "review": "Source and result visually inspected: pec-fly moving arms green; grips without added elbow pads, upper pivots, collars, selector ring and fixed structure retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5049",
+      "assetId": "fm-gm-5049-08daa1479357d853",
+      "sourceHash": "1ba06baca6b799402f7139595c83e704d1311106329dd4d2d020dbeacd76c64d",
+      "inputPath": "src/assets/catalog/FM-GM-5049/primary-01-df8d4054aba9.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5049.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5049.json",
+      "review": "Source and result visually inspected: calf-raise moving linkage green; shoulder pads, adjustment knob, silver pivots, cables and textured silver step retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5050",
+      "assetId": "fm-gm-5050-9eae2b0e3ae93c9a",
+      "sourceHash": "ea3e4a6f6919108b7ceda006d711c278e8d06cd1c903c38bfdd197c27c5e9275",
+      "inputPath": "src/assets/catalog/FM-GM-5050/primary-01-5ec4ee896420.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5050.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5050.json",
+      "review": "Source and result visually inspected: paired diagonal lever links green; black handle tubes, grips, back pad, pulley routing and fixed rear frame retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5053-1",
+      "assetId": "fm-gm-5053-1-11db86e7a3250bb6",
+      "sourceHash": "6ca5fb76714a15e671a6d69a879c054a9b5c635328a2c6995e33132e76019ac3",
+      "inputPath": "src/assets/catalog/FM-GM-5053-1/primary-01-c8be30f3bbef.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5053-1.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5053-1.json",
+      "review": "Source and result visually inspected: thigh-pad posts and linkage green; large tubular handrails, black pads, silver controls and lower mechanism retained. Original instruction panel visible.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5054",
+      "assetId": "fm-gm-5054-ae92b826b3642b02",
+      "sourceHash": "e32b5c636e5138380f437d311b55b4559753fce9411772c3f9fe9e9f7a8d3680",
+      "inputPath": "src/assets/catalog/FM-GM-5054/primary-01-1d2bb5ef467c.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5054.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5054.json",
+      "review": "Source and result visually inspected: torso-roller lever green; original roller, cam, foot contacts, metal control knobs and fixed frame retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5055-1",
+      "assetId": "fm-gm-5055-1-b33ef73237adcc34",
+      "sourceHash": "35614f0c05f7163c22fb46cbae1f174c13c93298de3674e46585ce240299ee22",
+      "inputPath": "src/assets/catalog/FM-GM-5055-1/primary-01-9fe051552a65.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5055-1.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5055-1.json",
+      "review": "Source and result visually inspected: front leg lever green; both silver range-selector arcs, adjustment knobs, rollers, elbow pad and grip assembly retained. Original supplied instruction panel preserved.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5056",
+      "assetId": "fm-gm-5056-9ed8dc109af81321",
+      "sourceHash": "4713e3f66d180340c5de8e5567cb051c1665420e36092d67f786e77571fcfdcd",
+      "inputPath": "src/assets/catalog/FM-GM-5056/primary-01-3eb3a39f8386.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5056.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5056.json",
+      "review": "Source and result visually inspected: upper press arms green; black grips and end block, bench inclination linkage, perforated silver adjustment rail and fixed frame retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5057",
+      "assetId": "fm-gm-5057-142357230515535e",
+      "sourceHash": "1a5e837ccf460e32fa28672f27ba46c17f04f374c8d377b22084cdbe68565661",
+      "inputPath": "src/assets/catalog/FM-GM-5057/primary-01-004e71811902.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5057.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5057.json",
+      "review": "Source and result visually inspected: lat/row boom and bench supports green; hanging bars, grips, storage hooks, knee pads, chrome adjustment tube and cables retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5058",
+      "assetId": "fm-gm-5058-c58cafa5e402ae9b",
+      "sourceHash": "13cc79a01d5badce0cc4fad57f3ba60632890d80147b0d5a92a947ac58fd8a29",
+      "inputPath": "src/assets/catalog/FM-GM-5058/primary-01-65e59d2320d8.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5058.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5058.json",
+      "review": "Source and result visually inspected: front leg lever green; silver selector arcs and seat controls, black rollers, cams and grips retained. Machine geometry and white background consistent.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5067-1",
+      "assetId": "fm-gm-5067-1-8b18ea78b6a4e954",
+      "sourceHash": "c6137f470addb098238cc914a4a5e39c83b8c0442fdf594329050fff61b6e123",
+      "inputPath": "src/assets/catalog/FM-GM-5067-1/primary-01-0e0be3a5f9ed.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5067-1.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5067-1.json",
+      "review": "Source and result visually inspected: bent leg-press link rails green; perforated silver footplates, black seat pads, slide carriage and fixed base retained. Side view preserved.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5068",
+      "assetId": "fm-gm-5068-53b5c5ea136b9455",
+      "sourceHash": "0ea95ea0fee131007dbb78fce2ea4690bb8f3015655a928d42ac8c4cfb70039a",
+      "inputPath": "src/assets/catalog/FM-GM-5068/primary-01-be7de89e8bc0.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5068.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5068.json",
+      "review": "Source and result visually inspected: broad shoulder-pad support arm green; notched adjustment ladder and control handle remain black, original grips, rollers, footplates and silver pivots retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5086",
+      "assetId": "fm-gm-5086-bfb1449cb52b2c62",
+      "sourceHash": "2acc2893098f8bf41154cd9fa760af857f780de58436c1b96ce57e7974360399",
+      "inputPath": "src/assets/catalog/FM-GM-5086/primary-01-4b3fa290c0a3.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5086.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5086.json",
+      "review": "Source and result visually inspected: short preacher moving lever green; grip assembly, perforated silver selector arc, black cam, pads and seat adjustment retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5092",
+      "assetId": "fm-gm-5092-9269e7de4db7fa72",
+      "sourceHash": "d9f11170e42fe87efb03e3703f8c5b29972d068c1783c5c532da2ef9c5bcb020",
+      "inputPath": "src/assets/catalog/FM-GM-5092/primary-01-fabaf4d25adf.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5092.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5092.json",
+      "review": "Source and result visually inspected: inclined seat cradle and links green; black footplates and pads, silver weight sleeves and pivot caps, fixed supports retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-GM-5095",
+      "assetId": "fm-gm-5095-a9a631f340815c11",
+      "sourceHash": "ef93c09dccfbc56c919f0de81625ccea092990ea34e330544ef786bbfbc40c78",
+      "inputPath": "src/assets/catalog/FM-GM-5095/primary-01-b49147b004c0.webp",
+      "outputPath": "data/catalog-branding/generated/gm-batch-01/FM-GM-5095.png",
+      "promptPath": "data/catalog-branding/generated/gm-batch-01/prompts/FM-GM-5095.json",
+      "review": "Source and result visually inspected: paired vertical moving arms green; bent handles and rubber grips black, silver caps, upper axle and cam, tower and stabilizer retained.",
+      "status": "approved"
+    }
+  ],
+  "count": 39
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8133-a505b087d8bfb5e9",
+  "sku": "FM-8133",
+  "role": "primary",
+  "sourceHash": "8c266953a1b3d3ae2c1c0c0a10ed0c6aaab835f7ec2a0c0f68332c3268153e50",
+  "inputPath": "src/assets/catalog/FM-8133/primary-01-c12060fb5345.webp",
+  "originalPath": "data/catalog-assets/originals/8c/8c266953a1b3d3ae2c1c0c0a10ed0c6aaab835f7ec2a0c0f68332c3268153e50.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8133-a505b087d8bfb5e9.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8133 belt squat / seated lever machine: original red two upright lever brackets, connecting red crossbar and lower red linkage become green. Preserve both black weight plates, all chrome loading horns, black upright grips and silver tips, black seat/back pad and broad black restraint strap, black base, front foot/platform structures and red-bordered WARNING label. Logo on existing green horizontal crossbar face without obscuring any hardware.",
+  "review": "Compared belted seated-machine source: green only original red upright lever brackets/crossbar/lower linkage. Black plates, restraint strap, seat/back, base platform and black handles retained; chrome horns and original warning remain. Logo on existing crossbar, principal mechanism and camera unchanged. Source warning microtext is not a verified technical reproduction.",
+  "publicSku": "FM-8133",
+  "editTarget": "src/assets/catalog/FM-8133/primary-01-c12060fb5345.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:01:15.722Z",
+  "outputHash": "7eeea5c5dbc802106bea7b1c1fd01fcddadd27d71a1e763f421f9227aee025af",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

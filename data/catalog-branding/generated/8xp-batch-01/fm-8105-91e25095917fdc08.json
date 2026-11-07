@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8105-91e25095917fdc08",
+  "sku": "FM-8105",
+  "role": "primary",
+  "sourceHash": "a7549ab53ab7c02e962574d1f25968a5f9e675bb0bbfc2f838eb03617b3920e1",
+  "inputPath": "src/assets/catalog/FM-8105/primary-01-5a19a8772f87.webp",
+  "originalPath": "data/catalog-assets/originals/a7/a7549ab53ab7c02e962574d1f25968a5f9e675bb0bbfc2f838eb03617b3920e1.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8105-91e25095917fdc08.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8105 pulldown: red overhead loading-arm segments and long hanging levers become dark green, silver grip tips/horns unchanged, black fixed curved front pillars and triangular rear frame unchanged. Add small physical FullMuscle Equipment logo on existing black top crossbeam visible front face. Preserve all frame angles and small black seat/chest pad.",
+  "review": "Compared pulldown source: tall black triangular/curved fixed frame, small seat/chest pad, long hanging lever positions, silver handle tips and storage horns preserved. Former red overhead/hanging parts green, modest physical logo on black top crossbeam. Full silhouette and view retained.",
+  "publicSku": "FM-8105",
+  "editTarget": "src/assets/catalog/FM-8105/primary-01-5a19a8772f87.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:41:51.069Z",
+  "outputHash": "9e7e5187325c211c01ddb5984cf767e2a3afa44ca6944dca04d7fb45f5a33402",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

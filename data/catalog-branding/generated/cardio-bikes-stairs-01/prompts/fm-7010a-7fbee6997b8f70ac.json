@@ -1,0 +1,17 @@
+{
+  "initial": {
+    "referenced_image_paths": [
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-7010A/primary-01-9656bd829b41.webp",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Edit only first reference FM-7010A product image. Second reference is ONLY dark green and Full Muscle brand reference, never equipment design. Indoor spinning bike with fully enclosed black drive housing. Change ONLY the yellow painted upper frame/casing band (running from the handlebar post down through the saddle post mount) to satin dark forest green #356B35. Preserve the silver/chrome telescopic posts and long transverse feet, black saddle, complex black handlebars, black adjustment knobs and physical pedals. Replace oval TZ badge on upper black side panel with a single modest italic Full Muscle logo, white/green and tiny EQUIPMENT. Remove the lower decorative yellow Spinning Bike wordmarks and cyclist pictogram without changing the panel geometry; keep actual technical labels in place. No display added. Preserve exact camera, components, fasteners, dimensions, materials and pure white background. No captions, no people, no invention."
+  },
+  "correction": {
+    "referenced_image_paths": [
+      "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-26d366c1-85ae-43bb-9ed7-7205903a3f3b.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Make exactly one localized graphic cleanup on this existing product image. Remove the two yellow decorative graphics on the lower black drive casing: the central shield's Spinning Bike words/yellow swoosh and the lower-right yellow cyclist/INDOOR CYCLE/SPINNING BIKE circular pictogram. Restore those two small surfaces to clean matching black; preserve the physical shield shape and all casing geometry. Keep the Full Muscle logo above, dark forest green upper frame, every technical label on the green frame, silver posts and feet, handlebars, pedals, saddle and all lighting exactly unchanged. Do not add or remove physical equipment parts."
+  }
+}

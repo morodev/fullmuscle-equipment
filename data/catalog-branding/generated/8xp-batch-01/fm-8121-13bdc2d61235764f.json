@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8121-13bdc2d61235764f",
+  "sku": "FM-8121",
+  "role": "primary",
+  "sourceHash": "aa04089ec7d26ccd4eae46d406f20fbbcd7296b2418c333508370215f9aeaa72",
+  "inputPath": "src/assets/catalog/FM-8121/primary-01-8529119459be.webp",
+  "originalPath": "data/catalog-assets/originals/aa/aa04089ec7d26ccd4eae46d406f20fbbcd7296b2418c333508370215f9aeaa72.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8121-13bdc2d61235764f.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8121 flat bench press: red short upper moving lever beams and curved red handle supports become green, loading/grip sleeves remain silver. Keep long black flat bench, all fixed black frame and upper curved crossbar unchanged. Add one modest physical FullMuscle logo to existing black rear upper horizontal crossbar between arms. Preserve long bench orientation and both handles.",
+  "review": "Compared source flat bench press: long black bench orientation, fixed black rear frame, silver loading horns/grips and short lever geometry preserved. Red moving arms and curved grip supports forest green, one physical logo on original black upper crossbar.",
+  "publicSku": "FM-8121",
+  "editTarget": "src/assets/catalog/FM-8121/primary-01-8529119459be.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:53:15.588Z",
+  "outputHash": "a4be6eb9eba64ad0b8d2ec45a87b60fc3dd6de9597de5755ddd63deb3a7254d0",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

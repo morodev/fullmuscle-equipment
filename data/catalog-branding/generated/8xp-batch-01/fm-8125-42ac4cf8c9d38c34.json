@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8125-42ac4cf8c9d38c34",
+  "sku": "FM-8125",
+  "role": "primary",
+  "sourceHash": "626f7122e58744cbd82f29ab6db1f15796347755d3932536d98dbe564ee2dc09",
+  "inputPath": "src/assets/catalog/FM-8125/primary-01-886bcaf08701.webp",
+  "originalPath": "data/catalog-assets/originals/62/626f7122e58744cbd82f29ab6db1f15796347755d3932536d98dbe564ee2dc09.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8125-42ac4cf8c9d38c34.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8125 abdominal crunch: original red wide upper moving yoke and bent side levers plus thin red overhead grip supports become green. Keep two black back/seat pads, twin black lower rollers, black stationary frame and central mechanism, yellow adjustment handle and silver grips/horns unchanged. Small physical logo on existing green upper yoke visible face to right of central back pad; do not alter pad position.",
+  "review": "Compared abdominal-machine source: wide upper yoke, two black back pads, seat, twin rollers, central linkage and yellow adjustment retained. Red yoke/handle supports green, silver handle tips/horns unchanged. Physical logo on original upper yoke face; fixed black frame preserved.",
+  "publicSku": "FM-8125",
+  "editTarget": "src/assets/catalog/FM-8125/primary-01-886bcaf08701.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:55:04.414Z",
+  "outputHash": "ab230e06edbf3f9e49c00c63d6870337df1fa565166ad55c19b0c4c0d3bb396f",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

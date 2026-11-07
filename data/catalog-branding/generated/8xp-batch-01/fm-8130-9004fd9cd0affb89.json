@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8130-9004fd9cd0affb89",
+  "sku": "FM-8130",
+  "role": "primary",
+  "sourceHash": "8aa4e7062f019f0a492ae12ae4d04c69531b55934c8fb229fe426fd5734c52c1",
+  "inputPath": "src/assets/catalog/FM-8130/primary-01-c8a374b92366.webp",
+  "originalPath": "data/catalog-assets/originals/8a/8aa4e7062f019f0a492ae12ae4d04c69531b55934c8fb229fe426fd5734c52c1.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8130-9004fd9cd0affb89.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8130 seated calf machine: original red upper knee-pad bracket and its short rear linkage become green. Preserve black cylindrical knee cushion, black handgrips with silver caps, silver shin/foot roller, wide black seat, all black stationary chassis and silver loading horn. Logo on visible front face of existing green knee-pad crossbeam.",
+  "review": "Seated-calf source compared: upper red knee-pad bracket and small red rear link now green, black fixed chassis unchanged. Cylindrical knee cushion, black seat and handles, silver caps, lower foot roller and loading horn retained. Modest logo directly on existing front crossbeam face. Main geometry and pivot layout preserved.",
+  "publicSku": "FM-8130",
+  "editTarget": "src/assets/catalog/FM-8130/primary-01-c8a374b92366.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:59:27.549Z",
+  "outputHash": "2025d92b9a3180242c6647d8a9b7d344592e35f95c6e938fa205cf8ad1244153",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

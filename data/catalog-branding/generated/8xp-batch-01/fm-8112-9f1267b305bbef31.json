@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8112-9f1267b305bbef31",
+  "sku": "FM-8112",
+  "role": "primary",
+  "sourceHash": "3d43dc62aea5dd8f2d92823e92234746e963e6d7bb3934cbadf85758946244f3",
+  "inputPath": "src/assets/catalog/FM-8112/primary-01-b01b7bf2fc47.webp",
+  "originalPath": "data/catalog-assets/originals/3d/3d43dc62aea5dd8f2d92823e92234746e963e6d7bb3934cbadf85758946244f3.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8112-9f1267b305bbef31.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8112 tall pulldown: red upper long lever beams and descending portions become green. Silver grip tips/horns, black frame and seat/restraint assembly unchanged, including side adjustment posts and silver vertical adjustment rod. Place one small physical FullMuscle logo on existing black mid-upper horizontal crossbar below lever pivots. Preserve exact source view.",
+  "review": "Compared source: tall pulldown levers, black seat/restraint structure with side adjustment post and vertical silver rod, loading/storage horns retained. Original red lever paint dark green; one physical logo on existing mid-upper black crossbar. Geometry and side view maintained.",
+  "publicSku": "FM-8112",
+  "editTarget": "src/assets/catalog/FM-8112/primary-01-b01b7bf2fc47.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:47:12.578Z",
+  "outputHash": "8f3338a4e1f12103b873128c0a1d33fb07f79b17fb8ab3e82c6d8332b00c1425",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

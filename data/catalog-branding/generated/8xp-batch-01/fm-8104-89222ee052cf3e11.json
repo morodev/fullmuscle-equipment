@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8104-89222ee052cf3e11",
+  "sku": "FM-8104",
+  "role": "primary",
+  "sourceHash": "658bfdd9235c7968288c0b70b82b7249c7b6cb1a170e2afc022f9ed39783ba94",
+  "inputPath": "src/assets/catalog/FM-8104/primary-01-93ab81e05c5b.webp",
+  "originalPath": "data/catalog-assets/originals/65/658bfdd9235c7968288c0b70b82b7249c7b6cb1a170e2afc022f9ed39783ba94.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8104-89222ee052cf3e11.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8104 high row: red upper horizontal arms and long triangular hanging lever assemblies become dark green, black fixed uprights and chest/seat pads unchanged; silver grips/horns and ribbed twin foot supports unchanged. Small logo on visible existing green top horizontal near-side arm face. Preserve this exact asymmetrical three-quarter view.",
+  "review": "Compared high-row source: triangular hanging lever assemblies, silver low grips, upper loading horns, black chest/seat pads and twin slotted foot supports preserved. Former red painted arms green with modest upper-arm logo. Fixed black uprights and asymmetrical view retained.",
+  "publicSku": "FM-8104",
+  "editTarget": "src/assets/catalog/FM-8104/primary-01-93ab81e05c5b.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:41:08.699Z",
+  "outputHash": "07a63630bb08befea590e2ab4c606ee603597277463b35fea9dc457c9b78f624",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8135-c58b8fdf9b9cf726",
+  "sku": "FM-8135",
+  "role": "primary",
+  "sourceHash": "acb0ff1b4b0dce30f01a3b6030be53c628a1827092dd98bdd8880488811ab854",
+  "inputPath": "src/assets/catalog/FM-8135/primary-01-952308eb3e21.webp",
+  "originalPath": "data/catalog-assets/originals/ac/acb0ff1b4b0dce30f01a3b6030be53c628a1827092dd98bdd8880488811ab854.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8135-c58b8fdf9b9cf726.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8135 forearm/wrist stack machine: the single red vertical moving bar and its red top handle sleeve become dark forest green. Keep the full width horizontal chrome handle, both chrome guide rods, black weight stack and selector, black vertical support and black upper forearm pad unchanged. Very small FullMuscle logo oriented vertically along the existing green bar; do not create a panel.",
+  "review": "Wrist/forearm stack source compared: lone red moving bar and top handle sleeve now green; black upper pad, central support and weight stack, selector and two chrome guide rods preserved. Chrome horizontal grip and original narrow profile retained. Small vertical physical logo fits bar without extra panel.",
+  "publicSku": "FM-8135",
+  "editTarget": "src/assets/catalog/FM-8135/primary-01-952308eb3e21.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:01:58.727Z",
+  "outputHash": "5e92cdd0559027cd30436d4872993a53d34fdc13325b9f8dfd265f868d7aa029",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

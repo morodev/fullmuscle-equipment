@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8127-458b5cdedf2b9fb9",
+  "sku": "FM-8127",
+  "role": "primary",
+  "sourceHash": "5656cdcee63e5760a170a144f4ebca836037d9ad265556c0a1fc795697f4b9f7",
+  "inputPath": "src/assets/catalog/FM-8127/primary-01-dd34ca95eee2.webp",
+  "originalPath": "data/catalog-assets/originals/56/5656cdcee63e5760a170a144f4ebca836037d9ad265556c0a1fc795697f4b9f7.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8127-458b5cdedf2b9fb9.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8127 thigh machine alternate model: all red painted articulated lower beams, pad brackets and red handle shafts become green. Preserve exact distinct spread/angles of the multiple black thigh/knee pads, long black backrest and small lumbar/seat, chrome vertical rear loading horn and silver handles, black fixed base and all pivots/springs. One modest physical FullMuscle logo on existing black near-side lower base beam, no new panel. Keep THIS model geometry, not FM-8126.",
+  "review": "Compared alternate thigh-machine source: distinct pad spread/angles, paired small pads, seat/back/lumbar configuration and tall rear chrome loading horn retained. Original red articulated lower structure and handle shafts green, black fixed chassis unchanged; physical base-beam logo. Pivots and main mechanisms preserved.",
+  "publicSku": "FM-8127",
+  "editTarget": "src/assets/catalog/FM-8127/primary-01-dd34ca95eee2.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:56:38.093Z",
+  "outputHash": "e41eba8477020a5c19bfd15d1c56a178fe0d41b9bc3e4f06dbd507c0d2952d3c",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

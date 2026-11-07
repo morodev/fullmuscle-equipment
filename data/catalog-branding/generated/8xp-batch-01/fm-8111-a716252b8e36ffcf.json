@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8111-a716252b8e36ffcf",
+  "sku": "FM-8111",
+  "role": "primary",
+  "sourceHash": "575859afd3ef5f82f2c736f78cb8e33ea7645128479a547d39cd4cdfbfe4bb77",
+  "inputPath": "src/assets/catalog/FM-8111/primary-01-e0f214d7d964.webp",
+  "originalPath": "data/catalog-assets/originals/57/575859afd3ef5f82f2c736f78cb8e33ea7645128479a547d39cd4cdfbfe4bb77.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8111-a716252b8e36ffcf.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8111 standing lever machine: preserve open empty central working space; all original red diamond/triangular moving arm assemblies and thin red handle supports become green. Silver vertical grip tips and horns stay silver, black fixed base and bearing brackets unchanged. One small physical logo on broad face of upper near green horizontal/angular arm. Do not add a seat or pad.",
+  "review": "Compared source: open standing working area and diamond-shaped moving lever assemblies retained, with vertical silver grips and unchanged silver horns. Red paint becomes dark green; one physical logo on upper lever. Black base/bearing supports unchanged, no added seating.",
+  "publicSku": "FM-8111",
+  "editTarget": "src/assets/catalog/FM-8111/primary-01-e0f214d7d964.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:46:34.624Z",
+  "outputHash": "caf5d001d83cd4feeb76a8a36055fc2b7508f06845578daf947bea5e3d72ac9e",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

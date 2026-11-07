@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8113-f4c56fce12f11048",
+  "sku": "FM-8113",
+  "role": "primary",
+  "sourceHash": "89d469b7e01908307b716613e30a1ee7fae3a714cb354d7eb653873ae429916a",
+  "inputPath": "src/assets/catalog/FM-8113/primary-01-cd02e7a0c3bf.webp",
+  "originalPath": "data/catalog-assets/originals/89/89d469b7e01908307b716613e30a1ee7fae3a714cb354d7eb653873ae429916a.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8113-f4c56fce12f11048.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8113 incline press viewed from behind/side: both red upper bent lever arms and red grip supports become green. Keep black sloping bench seat/back, black fixed high pillars and front curved crossbrace unchanged; silver sleeves and grips remain silver. Small physical logo on visible near green lever broad face clear of loading horn and bolts. Preserve the source rear-side view, never rotate the bench or camera.",
+  "review": "Compared source rear-side incline-press view: sloping black bench, curved front brace and upright arrangement retained, silver grips/horns unchanged. Both red upper arms become dark green with small physical near-arm logo. Camera and source seat orientation preserved.",
+  "publicSku": "FM-8113",
+  "editTarget": "src/assets/catalog/FM-8113/primary-01-cd02e7a0c3bf.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:47:51.604Z",
+  "outputHash": "6802e43279c78bf71d30503c1f690a9f1ce12d0e8d35110489cefb20101fb7b0",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

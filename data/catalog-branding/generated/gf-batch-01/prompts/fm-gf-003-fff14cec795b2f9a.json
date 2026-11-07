@@ -1,0 +1,17 @@
+{
+  "initial": {
+    "referenced_image_paths": [
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-GF-003/gallery-02-3a266c5908d8.webp",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Precisely edit only main FM-GF-003 seated row machine in first reference. Second is color/branding reference ONLY. Change both WHITE painted bent lever arms and their white painted lower crossmember to satin dark forest green #356B35. Keep chrome/silver telescoping adjustments, weight horns and all pivots metallic; all grips, pads, seat, chest support, black base and linkage remain unchanged. Curved white handle stems may be green but black rubber grip sleeves and silver endcaps stay original. Put modest italic white Full Muscle lettering with tiny EQUIPMENT on the clear outward faces of the green lever arms, positioned at mid arm; same placement for both sides so alternate view is coherent. Correct spelling; no registered marks. Preserve EXACT equipment geometry, seat/chest-pad positions and camera angle. Keep indoor tiled-floor room, dark rear wall, shadows, loaded black weight plates and every physical detail as source. Do not whiten background or remove plates. No extra parts, new instructions, or people."
+  },
+  "correction": {
+    "referenced_image_paths": [
+      "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-2b6e80e2-864e-40a5-8958-3d0e673d4e14.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Localized tiny text correction ONLY. On the red circular weight label of the nearer black weight plate at bottom-right, change '20 KG' to '10 KG', matching the original source plate weight. Keep the red circle same size and position and black lettering style. Preserve EVERYTHING else exactly: both plates, chrome horn, black framework, forest green arms, white Full Muscle logos, upholstery, room, lighting and camera. No other modifications."
+  }
+}

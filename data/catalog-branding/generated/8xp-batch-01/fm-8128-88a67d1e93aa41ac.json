@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8128-88a67d1e93aa41ac",
+  "sku": "FM-8128",
+  "role": "primary",
+  "sourceHash": "a0d6d873abe80eadb02c2905f00e1d084f7c018b50600ee6699e9560d0c5e543",
+  "inputPath": "src/assets/catalog/FM-8128/primary-01-dc659dc3b650.webp",
+  "originalPath": "data/catalog-assets/originals/a0/a0d6d873abe80eadb02c2905f00e1d084f7c018b50600ee6699e9560d0c5e543.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8128-88a67d1e93aa41ac.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8128 seated upper body machine: red upper horizontal moving arms and rear horizontal connecting beam become green. Keep black angled handle loops, black seat/back and horizontal forearm supports, black fixed uprights and center adjustment column, all silver horns and small white original frame markings intact. Small physical FullMuscle logo on existing visible green rear connecting beam to right of back pad, preserving exact hardware and layout.",
+  "review": "Compared original upper-body machine: green limited to original red upper moving arms and rear connecting beam; black loop grips, forearm pads, seat/back, fixed uprights and central adjustment tower retained. Silver loading horns and small frame marks retained. Physical modest logo placed on existing rear beam. Principal geometry and perspective preserved.",
+  "publicSku": "FM-8128",
+  "editTarget": "src/assets/catalog/FM-8128/primary-01-dc659dc3b650.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:58:19.588Z",
+  "outputHash": "0f2b5a261abdf79eaae8c9c1d7edfa016274d5711049132c7020e503af18571f",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

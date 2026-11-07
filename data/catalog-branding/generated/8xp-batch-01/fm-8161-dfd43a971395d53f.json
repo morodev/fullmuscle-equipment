@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8161-dfd43a971395d53f",
+  "sku": "FM-8161",
+  "role": "primary",
+  "sourceHash": "ac68f6b21076a03659994abf500378c231220a9d9d44b5f3d9b5001402e59f7d",
+  "inputPath": "src/assets/catalog/FM-8161/primary-01-17b5c8633ccf.webp",
+  "originalPath": "data/catalog-assets/originals/ac/ac68f6b21076a03659994abf500378c231220a9d9d44b5f3d9b5001402e59f7d.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8161-dfd43a971395d53f.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8161 Smith machine has no red parts. For this image ONLY, recolor just the broad highest horizontal black painted crossbeam between the rear posts to dark forest green, keeping all other chassis black. Place one small physical FullMuscle logo centered on that existing top beam. Preserve exact rack silhouette, hooks and stainless hook ladders, silver guide rods, barbell, horns, curved top caps, black sliding assemblies and feet. No other recoloring, no invented panels or labels.",
+  "review": "Smith-machine original has no red paint; selected only existing highest painted horizontal crossbeam for forest green and modest logo. Remaining chassis stays black. Source view, curved tops, paired chrome guide rods, hook ladders, barbell, sliding assemblies, storage horns and feet visually retained. No extra panel or labels.",
+  "publicSku": "FM-8161",
+  "editTarget": "src/assets/catalog/FM-8161/primary-01-17b5c8633ccf.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:02:35.993Z",
+  "outputHash": "9cc5c4ae92306812ff0dd1734cc5801ee0589c3e2c573fff62b7027de6791ef2",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

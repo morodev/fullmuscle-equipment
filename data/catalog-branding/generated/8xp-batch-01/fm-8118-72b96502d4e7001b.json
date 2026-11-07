@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8118-72b96502d4e7001b",
+  "sku": "FM-8118",
+  "role": "primary",
+  "sourceHash": "26f94e59450cf8922f7b628128361ab266852b1df73f48d27c794296f04d43c6",
+  "inputPath": "src/assets/catalog/FM-8118/primary-01-dc5116b2cff4.webp",
+  "originalPath": "data/catalog-assets/originals/26/26f94e59450cf8922f7b628128361ab266852b1df73f48d27c794296f04d43c6.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8118-72b96502d4e7001b.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8118 horizontal leg press: two narrow red long moving lever beams and any existing red painted backing around footplate become green. Keep paired silver slotted footplate surfaces, black seat/back and curved main frame, silver adjustment/grab rods, black handles and all horns unchanged. Small physical logo on existing black top horizontal crossbar. Preserve exact leg-press geometry and seat tilt.",
+  "review": "Compared horizontal leg-press source: paired silver slotted footplates, black inclined seat/back, curved stationary frame and slide/grab rods retained. Two original red moving beams dark green, logo on original black top bar. Chrome horns, grips and main linkage arrangement preserved.",
+  "publicSku": "FM-8118",
+  "editTarget": "src/assets/catalog/FM-8118/primary-01-dc5116b2cff4.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:51:40.659Z",
+  "outputHash": "bf0d1849806937cdf1dd9b7c1376d594f3babb911436ad49ef50d3ad88eaf530",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

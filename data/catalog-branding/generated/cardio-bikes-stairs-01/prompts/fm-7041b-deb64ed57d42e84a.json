@@ -1,0 +1,17 @@
+{
+  "initial": {
+    "referenced_image_paths": [
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-7041B/primary-01-ef34304a23ae.webp",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Edit only first reference FM-7041B. Reference two is ONLY dark green and Full Muscle branding. Minimal vertical climber with a tall narrow black central mast, red dotted scale, open black frame, and side handrails, NO electronic console. Recolor only the painted central vertical mast and its small lower base plate satin dark forest green #356B35. Keep original red dotted measurement scale, silver four sliding posts/footrests, black side frame/handrails, every slot and fastener. Replace any supplier wordmark on mast with small white italic Full Muscle logo along clear side face. Do not add display, screen, console, new grips or enclosure; this is the no-console variant. White background and original slight three-quarter angle. Exact equipment geometry, viewpoint and composition, all mechanisms unchanged. No extra captions or people."
+  },
+  "correction": {
+    "referenced_image_paths": [
+      "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-dce3622d-41de-4d3a-9371-35b27353a542.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Localized text correction ONLY. On the narrow green vertical central mast, replace the malformed white brand lettering with the correctly spelled two words 'Full Muscle'. Exact spelling F-u-l-l space M-u-s-c-l-e. Use crisp simple bold italic white sans-serif lettering rotated 90 degrees to follow the length of the mast. Remove old malformed letters completely. Do not change any other pixel subject: dark forest green painted mast, red index dots, black side frame, silver handposts and footrests, bolts, silhouette, lighting and white background remain identical. No added console or accessories."
+  }
+}

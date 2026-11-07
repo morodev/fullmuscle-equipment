@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8107-88158131410893bc",
+  "sku": "FM-8107",
+  "role": "primary",
+  "sourceHash": "50fa92c4c935da9dc045470d930633dffe176ed1ff00be0c83f552dc64ff68aa",
+  "inputPath": "src/assets/catalog/FM-8107/primary-01-34c4b44f8524.webp",
+  "originalPath": "data/catalog-assets/originals/50/50fa92c4c935da9dc045470d930633dffe176ed1ff00be0c83f552dc64ff68aa.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8107-88158131410893bc.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8107 independent-arm machine: red tall tilted lever beams, short angled horizontal linkages and lower loading brackets become green. Keep black side bearing brackets, raised seat/back and separate small lumbar pad unchanged, all silver loading/storage sleeves unchanged. Small physical FullMuscle logo on broad face of near green horizontal bent linkage next to seat, no new panel.",
+  "review": "Compared original: independent tall levers, bent horizontal links, raised black seat/back and small lumbar pad preserved. Red parts converted to forest green, one physical logo on existing horizontal linkage. Silver sleeves, black caps/pivot brackets and fixed base retained.",
+  "publicSku": "FM-8107",
+  "editTarget": "src/assets/catalog/FM-8107/primary-01-34c4b44f8524.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:43:40.035Z",
+  "outputHash": "2c6721237c02934830c3587b49194f08694db085f6f5e184ec88346849215b64",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

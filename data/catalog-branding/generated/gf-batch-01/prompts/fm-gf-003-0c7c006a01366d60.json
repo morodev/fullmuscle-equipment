@@ -1,0 +1,17 @@
+{
+  "initial": {
+    "referenced_image_paths": [
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-GF-003/primary-01-87a009c75327.webp",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Precisely edit only main FM-GF-003 seated row machine in first reference. Second is color/branding reference ONLY. Change both WHITE painted bent lever arms and their white painted lower crossmember to satin dark forest green #356B35. Keep chrome/silver telescoping adjustments, weight horns and all pivots metallic; all grips, pads, seat, chest support, black base and linkage remain unchanged. Curved white handle stems may be green but black rubber grip sleeves and silver endcaps stay original. Put modest italic white Full Muscle lettering with tiny EQUIPMENT on the clear outward faces of the green lever arms, positioned at mid arm; same placement for both sides so alternate view is coherent. Correct spelling; no registered marks. Preserve EXACT equipment geometry, seat/chest-pad positions and camera angle. Maintain white background, complete product framing, do not add weight plates. No extra parts, new instructions, or people."
+  },
+  "correction": {
+    "referenced_image_paths": [
+      "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-2bcf94c8-820c-4886-9da4-ff3104ab8c9a.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Localized branding cleanup ONLY. The nearer right green lever arm currently has two white Full Muscle logos. Remove ONLY the lower long vertically oriented 'Full Muscle' wordmark on its straight central segment, restoring clean matching green paint there. Keep the smaller upper Full Muscle EQUIPMENT logo on its angled upper portion and keep the existing far-arm logo. Preserve all geometry, grips, chrome, black framework, padding, shadows and white background exactly. No other changes."
+  }
+}

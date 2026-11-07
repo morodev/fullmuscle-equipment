@@ -1,0 +1,5 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise catalogue rebranding. Image1 is the ONLY edit target. Images2/3 only reference dark forest green #356B35 and Full Muscle Equipment logo. Preserve exact geometry, camera view, black padding, belt, treaded footplates, handles, chrome sliding cylinder, black frame and weight tower, cables, white background and all parts. Recolor ONLY the red painted steel linkage under the inclined bench to satin dark forest green. Place one modest Full Muscle Equipment logo centered on the empty black top panel of the weight tower, italic white Full, green Muscle, tiny white EQUIPMENT. Leave silver guard and all other surfaces as they are. No exercise diagrams exist on the blank panel: do not invent any. No new parts, no extra text.",
+  "QA": "Inclined bench/footplate station preserves bench angle, belt, twin tread footplates, chrome cylinder, handles, cable and tower. Red bench linkage green; Full Muscle logo on previously empty top panel. No invented exercise diagrams. Small weight numerals illustrative. View/background preserved."
+}

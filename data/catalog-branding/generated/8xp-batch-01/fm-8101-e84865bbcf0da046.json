@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8101-e84865bbcf0da046",
+  "sku": "FM-8101",
+  "role": "primary",
+  "sourceHash": "6649264d787d5113b098efa98c792ec81709c6360309d1d200509394c421d38c",
+  "inputPath": "src/assets/catalog/FM-8101/primary-01-c13811613acc.webp",
+  "originalPath": "data/catalog-assets/originals/66/6649264d787d5113b098efa98c792ec81709c6360309d1d200509394c421d38c.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8101-e84865bbcf0da046.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8101 press: both red angular overhead arms and long downward moving sections become dark green, black bearing brackets remain black, all handles/horns silver. Put one small physical logo on the existing black horizontal upper crossbeam behind the seat, in available visible area. Preserve long hanging arms and their low inward silver grips exactly.",
+  "review": "Compared original: black fixed curved frame, seat/back and seat adjustment retained; red angular arms and long lower sections become forest green, with original silver inward grips/loading/storage horns intact. One physical logo on existing black upper crossbeam. Principal geometry preserved.",
+  "publicSku": "FM-8101",
+  "editTarget": "src/assets/catalog/FM-8101/primary-01-c13811613acc.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:37:37.309Z",
+  "outputHash": "581f50ed1b384d724e26b291a00f5ca658144409f5d27d42a36a43158502472a",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8115-66ba2e470a437fbb",
+  "sku": "FM-8115",
+  "role": "primary",
+  "sourceHash": "d57b7900d6bc1b89e1d2bd2e47a5f3c09069e54b864d8225909a3c2b3af5b9aa",
+  "inputPath": "src/assets/catalog/FM-8115/primary-01-b9753b2185f8.webp",
+  "originalPath": "data/catalog-assets/originals/d5/d57b7900d6bc1b89e1d2bd2e47a5f3c09069e54b864d8225909a3c2b3af5b9aa.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8115-66ba2e470a437fbb.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8115 prone leg curl: red tall moving lever beams, red pivot shafts and red bent roller support crosslink become green. Keep both black prone bench pads and two black ankle rollers unchanged, silver horns and side handle silver, black bearing brackets and base untouched. Small physical FullMuscle logo on visible face of near green vertical lever in lower clear section, no new plate.",
+  "review": "Compared prone-curl source: two black bench pads, twin ankle rollers, side silver handle, loading sleeves and pivot geometry retained. Red moving beams/crosslink green; logo is on existing lower near-side support face, also painted green by generator. Main black chassis and pads preserved; no added hardware.",
+  "publicSku": "FM-8115",
+  "editTarget": "src/assets/catalog/FM-8115/primary-01-b9753b2185f8.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:49:16.087Z",
+  "outputHash": "f70ffd40a8f9754f1d66245169797cfaa6c8ca1907bf91d2731cb31b733603a7",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

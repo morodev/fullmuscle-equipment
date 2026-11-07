@@ -1,0 +1,8 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-L100B/primary-01-ccfdc842b280.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Edit only first photo FM-L100B stair climber. Second reference dark green and Full Muscle brand only. Recolor ONLY the broad SILVER flat diagonal side panel currently labeled STAIR CLIMBER to satin forest green #356B35. Replace STAIR CLIMBER words with a well-proportioned italic white Full Muscle logo and tiny EQUIPMENT, aligned along panel diagonal. Keep exact outline, bolts and black edge border. Preserve all black steps/treads and their count, black rectangular rear support frame and feet, black tubular long handrails, silver heart-rate grip contacts, black upright/bottle holder and original monochrome button console. No new components, extra logos, color screen, people or text overlays. Exact source camera and white background."
+}

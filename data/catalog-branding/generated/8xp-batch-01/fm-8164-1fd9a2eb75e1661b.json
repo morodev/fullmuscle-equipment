@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8164-1fd9a2eb75e1661b",
+  "sku": "FM-8164",
+  "role": "primary",
+  "sourceHash": "df58c55337da87f81f29b851eeff60e22218a91c24649b9d0eee4a346645637d",
+  "inputPath": "src/assets/catalog/FM-8164/primary-01-5aae59196ee6.webp",
+  "originalPath": "data/catalog-assets/originals/df/df58c55337da87f81f29b851eeff60e22218a91c24649b9d0eee4a346645637d.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8164-1fd9a2eb75e1661b.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8164 vertical leg press: change only original red horizontal moving crossbeam and paired red guide-carriage sleeves to dark forest green. Preserve all black frame and curved feet, upper black crossbeam, chrome guides and side loading horns, two black bench pads and their inclined back section. Logo modest centered on front visible face of existing green moving crossbeam. Keep exact original mechanism and view.",
+  "review": "Vertical-leg-press source compared: existing red moving crossbeam and guide sleeves green, logo physical on beam. Twin black posts and arched top caps/feet, all chrome rods and loading horns, black upper crossbeam and both bench pads retained. Original principal mechanism, silhouette and perspective preserved.",
+  "publicSku": "FM-8164",
+  "editTarget": "src/assets/catalog/FM-8164/primary-01-5aae59196ee6.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:03:05.168Z",
+  "outputHash": "8a9a63701a3741a90a775a70dfffce1dd03e37eea3e449f6019b9a85a0c7da65",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

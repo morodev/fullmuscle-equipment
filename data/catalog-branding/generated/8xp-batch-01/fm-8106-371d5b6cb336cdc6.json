@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8106-371d5b6cb336cdc6",
+  "sku": "FM-8106",
+  "role": "primary",
+  "sourceHash": "3a7cd97c51c35f877892ffe0fd417d7f6086dc0baa691680cfe37bd7cbbbdcbb",
+  "inputPath": "src/assets/catalog/FM-8106/primary-01-09a291317ab0.webp",
+  "originalPath": "data/catalog-assets/originals/3a/3a7cd97c51c35f877892ffe0fd417d7f6086dc0baa691680cfe37bd7cbbbdcbb.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8106-371d5b6cb336cdc6.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8106 seated row: both tall red moving lever assemblies including red handle support tubes become green; silver multi-grip tips, silver loading sleeves and slotted foot supports stay silver. Black high seat/chest pad and angled fixed support unchanged. Put one small physical FullMuscle logo on near green lever flat side beneath its handles, clear of pivots.",
+  "review": "Compared source: tall rowing lever geometry, silver multi-grips and loading sleeve, twin slotted footplates and black elevated seat/chest support preserved. Original red arms now forest green with modest physical near-arm logo; fixed black frame and pivot brackets unchanged.",
+  "publicSku": "FM-8106",
+  "editTarget": "src/assets/catalog/FM-8106/primary-01-09a291317ab0.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:43:08.266Z",
+  "outputHash": "237b25e198e1f11fea9e953f1e2a0d9292ae9ca30d8a54681e78c3ad36ea257f",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

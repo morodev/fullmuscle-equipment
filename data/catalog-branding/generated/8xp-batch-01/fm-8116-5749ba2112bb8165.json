@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8116-5749ba2112bb8165",
+  "sku": "FM-8116",
+  "role": "primary",
+  "sourceHash": "9501397f6d6744f2c4013b7c01b1d2b086e289a5ba7a01ac08a9d6cbdf83d047",
+  "inputPath": "src/assets/catalog/FM-8116/primary-01-6fc075e63275.webp",
+  "originalPath": "data/catalog-assets/originals/95/9501397f6d6744f2c4013b7c01b1d2b086e289a5ba7a01ac08a9d6cbdf83d047.jpg",
+  "categoryId": "plate-loaded-machine",
+  "lineId": "fm-8xp-series",
+  "outputPath": "data/catalog-branding/generated/8xp-batch-01/fm-8116-5749ba2112bb8165.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful object image edit for Full Muscle equipment catalogue. Image 1 is ONLY edit target. Images 2/3 reference ONLY the satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' logo with tiny 'EQUIPMENT' below. Recolor the existing RED PAINTED metal parts of image 1 to this dark forest green, retaining their exact shape and surface shading. Keep all original BLACK fixed frame and black upholstery unchanged. Preserve exact camera, composition, square white opaque background, floor shadow, silhouette, dimensions, every pivot/link, bolt, hole, bearing, black cap, pad, grip, silver/chrome shaft, guide rail, footplate, loading/storage horn and safety/instruction label. NO new hardware, changes in geometry, additional labels, invented warnings, people or floating text. No bright lime paint. Add ONE modest physical FullMuscle Equipment logo on an existing flat painted face specified below, perspective aligned, readable and scaled to fit; never add or enlarge a panel. If an original vendor badge is present replace only vendor badge, never warnings. FM-8116 standing lever machine: all red triangular articulated arm assemblies, vertical moving beams and red grip-support tubing become green. Preserve empty central working area, rear black vertical post, black main base/bearing brackets, every silver handle/horn. One small physical logo on broad flat face of near green vertical moving beam above low handle connections; do not add a seat.",
+  "review": "Compared original: red articulated triangles and vertical beams converted to dark green, preserving every grip and sleeve location. Empty working space, rear black vertical post, fixed black base/pivot supports and silver handle ends retained. Physical logo fitted to existing near moving beam.",
+  "publicSku": "FM-8116",
+  "editTarget": "src/assets/catalog/FM-8116/primary-01-6fc075e63275.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T11:50:18.892Z",
+  "outputHash": "c14b5368265395b9b386ef3747e36e9f2c05b6fda9679239fcf793eba6e83fa4",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}
