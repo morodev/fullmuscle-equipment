@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5016-645ad56e0b6628ed",
+  "sku": "FM-GS-5016",
+  "role": "primary",
+  "sourceHash": "57c57046782aa0c0fd11f9757d7ba779e07b90ef92c13db05c33dd059df7cca1",
+  "inputPath": "src/assets/catalog/FM-GS-5016/primary-01-315aada1812d.webp",
+  "originalPath": "data/catalog-assets/originals/57/57c57046782aa0c0fd11f9757d7ba779e07b90ef92c13db05c33dd059df7cca1.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5016-645ad56e0b6628ed.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5016 leg press: only paired tall angled moving footplate support arms at front, plus narrow top header strip turn forest green. Preserve silver diamond-tread footplate entirely metallic, black seat/back, grips and stationary base/tower, all cables/pulleys and metallic pivots. Compact logo replaces header vendor badge. Preserve original red-bordered instruction chart and right-side warning.",
+  "review": "Leg-press source compared: angled front moving support arms green; silver diamond-tread footplate stays metallic. Black long seat/back, grips, base/tower and pulley housings remain; original cable paths and chrome fittings preserved. Header logo replaces badge and red-bordered instructions/right warning retained. Principal geometry matches source.",
+  "publicSku": "FM-GS-5016",
+  "editTarget": "src/assets/catalog/FM-GS-5016/primary-01-315aada1812d.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:13:00.752Z",
+  "outputHash": "028dea4770adc563af93da0f60482c708a222fa8d36762764770df19ecc0e0da",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5033-833e69ed6c6a3310",
+  "sku": "FM-GS-5033",
+  "role": "primary",
+  "sourceHash": "11963d4a3a6410760a9e9f7cc9ce8e7a085e942840b92dfa4533644c4220e265",
+  "inputPath": "src/assets/catalog/FM-GS-5033/primary-01-7a95faae596a.webp",
+  "originalPath": "data/catalog-assets/originals/11/11963d4a3a6410760a9e9f7cc9ce8e7a085e942840b92dfa4533644c4220e265.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5033-833e69ed6c6a3310.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5033 hip abductor: only existing L-shaped moving thigh-pad supports and short lower linkage to tower, plus narrow top header strip forest green. Keep both pad orientations DISTINCT as in original (near pad shows rear bolts), seat/back and side handles black. Base/legs/tower black, all chrome pivots and lower pulley/cable systems unchanged. Compact logo replaces header badge; retain chart and red warning.",
+  "review": "Hip-abductor source compared: distinct near rear-facing thigh pad with four rear bolts retained; green on its painted backing/support and L-shaped moving links, narrow header. Pad surfaces, seat/back, side handles and fixed black legs/base/tower unchanged. Chrome lower mechanisms and cable/pulley layout retained, chart/warning preserved; physical header logo replaces badge.",
+  "publicSku": "FM-GS-5033",
+  "editTarget": "src/assets/catalog/FM-GS-5033/primary-01-7a95faae596a.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:16:14.340Z",
+  "outputHash": "9f55cca7efdfa431efc296adf9869ef24e70ebe43586c63a0e85829072b12835",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

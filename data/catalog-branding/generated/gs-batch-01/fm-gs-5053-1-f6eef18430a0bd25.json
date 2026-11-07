@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5053-1-f6eef18430a0bd25",
+  "sku": "FM-GS-5053-1",
+  "role": "primary",
+  "sourceHash": "6f4cbbdf8a034f7546e8f4a12fc8fd52b02f4265a8589f192b6440bd03d9f908",
+  "inputPath": "src/assets/catalog/FM-GS-5053-1/primary-01-556f3a2e1456.webp",
+  "originalPath": "data/catalog-assets/originals/6f/6f4cbbdf8a034f7546e8f4a12fc8fd52b02f4265a8589f192b6440bd03d9f908.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5053-1-f6eef18430a0bd25.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5053-1 combined hip machine: only L-shaped moving thigh-pad supports and short lower linkage, plus narrow top header strip forest green. Preserve paired thicker double-faced thigh pads, tall auxiliary black handrails fixed to tower, black seat/back and side grips, black angled chassis/feet/base and exact chrome lower adjustment/pulley assembly. Logo replaces badge; preserve original red-bordered instruction panel and warning.",
+  "review": "Combined-hip source compared: double-faced thick thigh pads, tall auxiliary tower handrails, seat/back and original lower linkage/cable apparatus retained. Only moving pad supports/lower links and header green; fixed legs/base remain black and chrome adjustments intact. Original red-bordered instructions/warning kept; compact logo replaces supplier badge.",
+  "publicSku": "FM-GS-5053-1",
+  "editTarget": "src/assets/catalog/FM-GS-5053-1/primary-01-556f3a2e1456.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:21:29.669Z",
+  "outputHash": "dffc63652c1396b221cb709754dada92ecb5feb424052bd25888cf83ceb0d74b",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

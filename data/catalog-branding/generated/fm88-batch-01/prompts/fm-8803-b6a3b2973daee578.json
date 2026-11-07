@@ -1,0 +1,17 @@
+{
+  "initial": {
+    "referenced_image_paths": [
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-8803/primary-01-d594b4122a98.webp",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Precise product-photo recolor of first reference FM-8803; second is only dark forest green and Full Muscle brand reference. Change all RED PAINTED articulated upper arms and their red painted connecting sections to satin forest green #356B35. Do not recolor red diagrams/labels. Keep exact tall machine frame in dark charcoal, black seat and chest/thigh pads, all silver weight horns, handles with black grips and silver ends, pivots, seat adjustments and functional hardware. Preserve each arm's exact shape and bends, no mechanism changes. Add ONE modest white italic Full Muscle logo with tiny EQUIPMENT on the clear long outward face of nearest upper green arm, away from pivot/handles/caution decal. Keep exercise placard with original drawing and label, red warning stickers and yellow triangular cautions in place. Microtext should remain source-like, no new claims or text blocks. Same viewpoint, exact whole-machine framing on white background, no people or added weight plates. No trademark registration symbol."
+  },
+  "correction": {
+    "referenced_image_paths": [
+      "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-844462c2-30da-48ce-9e71-5c21f92f1cf1.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Localized cleanup only: remove the TWO small RED rectangular warning stickers that appear on the far LEFT upright behind/beside the central HIGH ROW exercise placard. These two stickers were not in the original image. Restore their surfaces to the same matching dark frame/green paint beneath. Keep the central HIGH ROW instruction placard and yellow triangular caution on the RIGHT green arm unchanged. Preserve Full Muscle logo, green arms, frame, handles, seat/pads, weight horns, every physical part, camera and white background exactly. No new labels or other edits."
+  }
+}

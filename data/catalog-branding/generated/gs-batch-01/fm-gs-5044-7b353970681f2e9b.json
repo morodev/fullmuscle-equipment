@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5044-7b353970681f2e9b",
+  "sku": "FM-GS-5044",
+  "role": "primary",
+  "sourceHash": "4a5ab85dca0037619ad0bc4ff06856e9bf98d778a78a1b8dc90b60e1855db3ff",
+  "inputPath": "src/assets/catalog/FM-GS-5044/primary-01-b173a4793436.webp",
+  "originalPath": "data/catalog-assets/originals/4a/4a5ab85dca0037619ad0bc4ff06856e9bf98d778a78a1b8dc90b60e1855db3ff.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5044-7b353970681f2e9b.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5044 prone leg curl: recolor only long near horizontal moving ankle-roller lever to right and narrow top header strip forest green. Preserve two-part angled black prone bench, single long black ankle roller, black curved cam shield, front grip pair with silver ends, black base/tower and exact upper-side pulley/cable route. Physical logo replaces supplier badge, chart unchanged.",
+  "review": "Prone-leg-curl source compared: two-part peaked bench, near-horizontal ankle-roller lever, single long roller, cam shield, front grip pair and three-side-pulley route retained. Green limited lever and top header; black padding/base/tower and chrome pivot/index parts preserved. Original chart kept, supplier badge replaced.",
+  "publicSku": "FM-GS-5044",
+  "editTarget": "src/assets/catalog/FM-GS-5044/primary-01-b173a4793436.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:17:41.480Z",
+  "outputHash": "4ee6fc2dad07c02f598fbd6f21ea4644e25726d03255c72fc186734d8071126d",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

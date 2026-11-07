@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5004-9614e88dc886106d",
+  "sku": "FM-GS-5004",
+  "role": "primary",
+  "sourceHash": "2a7894d59caf996dd40af49a2e62c3e879dcebddfb7bcddcd8f62c5e9e2382fb",
+  "inputPath": "src/assets/catalog/FM-GS-5004/primary-01-a58495024736.webp",
+  "originalPath": "data/catalog-assets/originals/2a/2a7894d59caf996dd40af49a2e62c3e879dcebddfb7bcddcd8f62c5e9e2382fb.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5004-9614e88dc886106d.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5004 seated row: only the two long angular hanging moving lever arms descending from upper pivots to grip assemblies and narrow header strip above exercise chart turn forest green. Keep black top fixed crossbeam, black grips with metallic caps, seat/chest pad, diagonal seat/chest support, tower and base original. Compact FullMuscle logo replaces supplier badge on existing top header; preserve exercise instructions and right red-bordered warning.",
+  "review": "Seated-row source compared: paired hanging angular arms now green and original compact top header carries logo. Black fixed top beam, grips, chest/seat pads and supporting linkage, tower/base, stack/cables and chrome adjustment pieces preserved. Existing right warning/chart retained. Principal geometry and view maintained.",
+  "publicSku": "FM-GS-5004",
+  "editTarget": "src/assets/catalog/FM-GS-5004/primary-01-a58495024736.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:06:28.608Z",
+  "outputHash": "89b2776c29b9866671a5b6cd3f3c4c830977e3ce3b0f5b1a414f4cae324cfea8",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

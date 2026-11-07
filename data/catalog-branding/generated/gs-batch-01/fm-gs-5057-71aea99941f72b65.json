@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5057-71aea99941f72b65",
+  "sku": "FM-GS-5057",
+  "role": "primary",
+  "sourceHash": "7b1f9002accfbf0ecb33acea526753f4bae3852994bdeac5463490326376f530",
+  "inputPath": "src/assets/catalog/FM-GS-5057/primary-01-6dcd9c07614d.webp",
+  "originalPath": "data/catalog-assets/originals/7b/7b1f9002accfbf0ecb33acea526753f4bae3852994bdeac5463490326376f530.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5057-71aea99941f72b65.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5057 combined lat pulldown/low row: only top cantilever beam over hanging lat bar and narrow header strip become forest green. Preserve full extra front pulley post, both high curved bar and low row bar, all hooks/pulleys/cables, long black bench, thigh rollers on silver adjustable post, low foot brace, tower/base/stack unchanged. Logo replaces header badge, chart and warning intact. Do not simplify the dual station.",
+  "review": "Combined lat/low-row source compared: extra front pulley post, high curved bar, low row bar and hooks, long bench, thigh rollers and low foot brace all retained. Only top cantilever/header green, remaining chassis/padding black and silver adjustments intact. Original cable routing and principal configuration preserved; header logo replaces badge.",
+  "publicSku": "FM-GS-5057",
+  "editTarget": "src/assets/catalog/FM-GS-5057/primary-01-6dcd9c07614d.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:24:13.292Z",
+  "outputHash": "68913a440720bc13f3a89b4d90841b118d5c068ce367e12e558f98369944085a",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

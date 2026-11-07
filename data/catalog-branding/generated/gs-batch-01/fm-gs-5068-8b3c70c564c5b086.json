@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5068-8b3c70c564c5b086",
+  "sku": "FM-GS-5068",
+  "role": "primary",
+  "sourceHash": "c0bb85dca8920304d3f06efbf8292c0594ea53b1ad7fdef364ca5f1c89cf58a5",
+  "inputPath": "src/assets/catalog/FM-GS-5068/primary-01-72f870d3250f.webp",
+  "originalPath": "data/catalog-assets/originals/c0/c0bb85dca8920304d3f06efbf8292c0594ea53b1ad7fdef364ca5f1c89cf58a5.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5068-8b3c70c564c5b086.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5068 adjustable back extension: only main near moving diagonal lever from lower left pivot toward underside of hip cushion and its short lower connecting link, plus narrow header strip forest green. Keep slotted/perforated black angle-adjustment rails black, paired upper hip cushions and two rear leg rollers black, black grip shafts/silver ends, ribbed twin footplates dark metal, all stationary tower/base/frame black. Preserve exact pivots and chrome parts, cables, original exercise chart. Compact logo replaces supplier badge.",
+  "review": "Loaded-back-extension source compared: near main moving diagonal lever and lower short link green, slotted black angle rail stays black. Paired hip cushions and rear rollers, ribbed footplates, grip tubes, chrome pivots and complete tower/base/cable mechanisms preserved. Header logo replaces badge, original exercise chart retained. Principal geometry matches.",
+  "publicSku": "FM-GS-5068",
+  "editTarget": "src/assets/catalog/FM-GS-5068/primary-01-72f870d3250f.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:26:51.537Z",
+  "outputHash": "6c858555f1019062b575d6c621573a583c9937d48d198db9493bf6168d1fd01d",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

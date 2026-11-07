@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5001-2696bb736e1ae662",
+  "sku": "FM-GS-5001",
+  "role": "primary",
+  "sourceHash": "8add66878e38a3eddf1a30f5d4e160450482f3076fad7f07bd1b14519e89055e",
+  "inputPath": "src/assets/catalog/FM-GS-5001/primary-01-2c9a4bd8f4c6.webp",
+  "originalPath": "data/catalog-assets/originals/8a/8add66878e38a3eddf1a30f5d4e160450482f3076fad7f07bd1b14519e89055e.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5001-2696bb736e1ae662.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5001 seated leg curl: make only the narrow painted top header strip above the exercise chart and the black moving side lever/bracket supporting front shin roller forest green. The large thigh roller, shin roller, long black backrest and seat, black stack tower, all pulleys/cables and chrome adjustments remain original. Modest logo on top header replaces supplier badge. Keep chart below entirely black and unchanged.",
+  "review": "Source/result compared: principal leg-curl roller positions, long seat/back, cable and pulley layout, stack and metallic adjustments retained. Forest green only narrow existing header and front roller lever; fixed chassis and all padding stay black. Small top FullMuscle logo replaces vendor badge; exercise chart retained in original position. Fine chart/weight lettering illustrative.",
+  "publicSku": "FM-GS-5001",
+  "editTarget": "src/assets/catalog/FM-GS-5001/primary-01-2c9a4bd8f4c6.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:04:03.947Z",
+  "outputHash": "cc46e73c17c5f4c86580e6207bb2054a8b1dbc4e881f6e95b47eac3673fe7a6f",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

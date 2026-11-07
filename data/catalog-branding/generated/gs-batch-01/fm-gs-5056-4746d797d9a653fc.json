@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5056-4746d797d9a653fc",
+  "sku": "FM-GS-5056",
+  "role": "primary",
+  "sourceHash": "7caa29df893d35bed6ccfc41fb2a7f3cf78b57f08ad53531fdb3296bfaa34a9e",
+  "inputPath": "src/assets/catalog/FM-GS-5056/primary-01-b023e00b5d2a.webp",
+  "originalPath": "data/catalog-assets/originals/7c/7caa29df893d35bed6ccfc41fb2a7f3cf78b57f08ad53531fdb3296bfaa34a9e.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5056-4746d797d9a653fc.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5056 adjustable chest press: only paired horizontal/angular moving press arms above the long adjustable bench and narrow top header strip forest green. Keep black rubber grips and silver ends, black seat and sloping back pad, all stationary rectangular frame/tower/base black, silver perforated bench-angle rail and other metallic adjustment hardware unchanged. Preserve full bench-adjustment links, cables and pulley system. Compact header logo replaces vendor badge; original chart/warning intact.",
+  "review": "Adjustable-chest-press source compared: paired upper moving arms green, full bench with separate seat/sloping back and original adjustment linkage retained. Silver perforated rail stays metallic, all fixed tower/frame/base black, grips and pulleys unchanged. Header remains black with compact replacement logo; chart/left warning preserved.",
+  "publicSku": "FM-GS-5056",
+  "editTarget": "src/assets/catalog/FM-GS-5056/primary-01-b023e00b5d2a.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:23:17.833Z",
+  "outputHash": "8815cc29ad6c08728179dd77f2dba10a0e7400aa982fa2f645bb26a905093b57",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

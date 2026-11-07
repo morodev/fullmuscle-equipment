@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5022-1-14634820d7505127",
+  "sku": "FM-GS-5022-1",
+  "role": "primary",
+  "sourceHash": "e37fe788ce55ac25f8d568b88464811cfabc9335d5b360304dd6c95f92a9081d",
+  "inputPath": "src/assets/catalog/FM-GS-5022-1/primary-01-eb1c165a5352.webp",
+  "originalPath": "data/catalog-assets/originals/e3/e37fe788ce55ac25f8d568b88464811cfabc9335d5b360304dd6c95f92a9081d.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5022-1-14634820d7505127.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5022-1 glute isolator rail variant: recolor only small central moving footplate carriage metal housing and narrow top header strip forest green. Preserve silver diamond-tread pedal face, two long chrome horizontal guide rails, black full-length base, tall curved black torso support and upper pad/handles, tower/stack/cables. Logo replaces supplier badge on existing header; preserve original chart and right warning. No recoloring rails.",
+  "review": "Rail glute-isolator variant source compared: small moving pedal carriage green, silver tread face and both long horizontal chrome rails preserved. Curved black chest support with pad/handles, long black base and right end-post, tower/stack and pulley layout retained. Header logo, original chart/right warning preserved; distinct variant geometry maintained.",
+  "publicSku": "FM-GS-5022-1",
+  "editTarget": "src/assets/catalog/FM-GS-5022-1/primary-01-eb1c165a5352.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:15:42.856Z",
+  "outputHash": "64a3cc1381e5686933df402425b2175fd31c27f323bbe1a1ea13236a6bdce578",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -3353,8 +3353,10 @@
       "originalPath": "data/catalog-assets/originals/42/426fa048972409ad8bd0f2835b3ec01494fc0636e13cdb0d24028c1012328713.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-83-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8301-6387f6fd07e62f2a.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm83-batch-01/fm-8301-6387f6fd07e62f2a.png",
+      "status": "integrated",
+      "review": "Incline press: due leve rosse verdi con singolo logo sul destro. Conservati struttura, tutte le rastrelliere/perni cromati, imbottiture, impugnature, molla, comando rosso seduta, diagramma e avviso giallo; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8301/primary-01-517b5278340a.webp"
     },
     {
       "assetId": "fm-8302-12dd0dc5a241abf6",
@@ -3365,8 +3367,10 @@
       "originalPath": "data/catalog-assets/originals/86/8671b4045b8aa37eae5b6aaa238f8bf157fc52960adbc642f3841dfb9a68b1dd.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-83-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8302-12dd0dc5a241abf6.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm83-batch-01/fm-8302-12dd0dc5a241abf6.png",
+      "status": "integrated",
+      "review": "Decline press: mantenuta vista frontale con montanti davanti alle leve; bracci rossi verdi con logo sul lato libero. Maniglie rosse originali, perni cromati, seduta, telaio, schema e avviso giallo conservati; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8302/primary-01-e2c4cc176507.webp"
     },
     {
       "assetId": "fm-8303-d52747cf3c33ae10",
@@ -3377,8 +3381,10 @@
       "originalPath": "data/catalog-assets/originals/33/333448fa6a85f666e42644e2f698a5dab2d75bd47e646772bdf5b34ac493f848.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-83-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8303-d52747cf3c33ae10.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm83-batch-01/fm-8303-d52747cf3c33ae10.png",
+      "status": "integrated",
+      "review": "High row: bracci alti e tiranti verniciati rossi convertiti verdi con logo singolo. Impugnature nere sospese, telaio, perni cromati, seduta/rulli, comando rosso, diagramma e avvertenze gialle conservati; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8303/primary-01-849c6a926df5.webp"
     },
     {
       "assetId": "fm-8304-1967c7064196ee50",
@@ -3389,8 +3395,10 @@
       "originalPath": "data/catalog-assets/originals/eb/ebbaa5eb7938ad2699bd2712d4a35bd0388fc0742c006ee6c44866da35446da1.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-83-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8304-1967c7064196ee50.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm83-batch-01/fm-8304-1967c7064196ee50.png",
+      "status": "integrated",
+      "review": "Pulldown: bracci alti verdi con singolo logo, barra nera, seduta e rulli, montanti, perni cromati e controllo rosso conservati. Diagramma e triangolo giallo mantenuti; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8304/primary-01-8912de841db6.webp"
     },
     {
       "assetId": "fm-8305-e87e1aaff11ab308",
@@ -3401,8 +3409,10 @@
       "originalPath": "data/catalog-assets/originals/1d/1dadc40317c31855c99ea4f5860c9cafc74dce998b0ef1918d681a143ff32b70.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-83-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8305-e87e1aaff11ab308.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm83-batch-01/fm-8305-e87e1aaff11ab308.png",
+      "status": "integrated",
+      "review": "Row: leve e traversine rosse verdi con singolo logo. Impugnature nere e terminali argento, supporto torace, seduta, perni, telaio curvo e pedane conservati. Piccoli avvisi gialli restano illustrativi; nessun nuovo pannello istruzioni.",
+      "stagedPath": "src/assets/catalog/FM-8305/primary-01-b0165395880a.webp"
     },
     {
       "assetId": "fm-8306-88e0ffa204266791",
@@ -3413,8 +3423,10 @@
       "originalPath": "data/catalog-assets/originals/02/02600fa3b0d082f293313b0a66aaefe0c801696a9fdf4300a91d4e9b6434b6aa.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-83-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8306-88e0ffa204266791.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm83-batch-01/fm-8306-88e0ffa204266791.png",
+      "status": "integrated",
+      "review": "Confrontata con sorgente: componenti mobili rossi resi verdi con logo bianco, leva rossa della seduta conservata. Telaio antracite, imbottiture/rulli, impugnature, perni cromati e meccanica invariati. Placche esercizio preservate nel layout; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8306/primary-01-80d7cabbe42f.webp"
     },
     {
       "assetId": "fm-8307-ac322ae1515ca634",
@@ -3425,8 +3437,10 @@
       "originalPath": "data/catalog-assets/originals/45/4532663b7b6410836e3bc5c712ec47a9796bb550fee6b219f92c6d7d41539c95.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-83-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8307-ac322ae1515ca634.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm83-batch-01/fm-8307-ac322ae1515ca634.png",
+      "status": "integrated",
+      "review": "Confrontata con sorgente: componenti mobili rossi resi verdi con logo bianco, leva rossa della seduta conservata. Telaio antracite, imbottiture/rulli, impugnature, perni cromati e meccanica invariati. Placche esercizio preservate nel layout; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8307/primary-01-d0ed4b8fb80d.webp"
     },
     {
       "assetId": "fm-8308-c17d6d7fdc180070",
@@ -3437,8 +3451,10 @@
       "originalPath": "data/catalog-assets/originals/57/5703aa8932ffb1b096590a45c0aee70de585d924db174609262520e438a64289.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-83-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8308-c17d6d7fdc180070.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm83-batch-01/fm-8308-c17d6d7fdc180070.png",
+      "status": "integrated",
+      "review": "Leg press: carrello/slitta rossi verdi e logo sul rinforzo laterale. Pedana scanalata argento, guide e perni cromati, telaio nero, seduta/schienale e meccanismi di arresto conservati. Pannello esercizio e avviso giallo mantenuti; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8308/primary-01-3a5e736c2729.webp"
     },
     {
       "assetId": "fm-8309-5911e55ae65ce8c3",
@@ -3449,8 +3465,10 @@
       "originalPath": "data/catalog-assets/originals/02/02a520a63cd17075824a271bae2e74d19a584b6f2481486974a47ba2e6e2e25b.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-83-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8309-5911e55ae65ce8c3.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm83-batch-01/fm-8309-5911e55ae65ce8c3.png",
+      "status": "integrated",
+      "review": "Bicipiti: braccio curvo e carico inferiore verdi, maniglie nere e metallici invariati. Pad gomiti, seduta, coperture snodi nere, telaio, pedana e controlli rossi conservati. Logo sul braccio, due avvertenze gialle mantenute; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8309/primary-01-a925ae4ffacf.webp"
     },
     {
       "assetId": "fm-8310-6f57ce11111c18ec",
@@ -3461,8 +3479,10 @@
       "originalPath": "data/catalog-assets/originals/21/21bc707572ccf58f05a2fbff39ecc011e92ea5af7bbb8ebde8146e86c8706aee.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-83-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8310-6f57ce11111c18ec.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm83-batch-01/fm-8310-6f57ce11111c18ec.png",
+      "status": "integrated",
+      "review": "Leg extension confrontata: leve frontali verdi e singolo logo, rulli/pad circolari, schienale/seduta, telaio, regolazioni e perni cromati conservati. Anche il supporto metallico sotto seduta risulta verde su componente esistente, senza modifica geometrica. Diagramma e avviso giallo presenti; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8310/primary-01-43d0f28d6c1c.webp"
     },
     {
       "assetId": "fm-8311-43910cfe3fa7312c",
@@ -3473,8 +3493,10 @@
       "originalPath": "data/catalog-assets/originals/c9/c9d55e3aa368b44505005b537864953206ef63b8bde67fb5e289710659e7c873.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-83-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8311-43910cfe3fa7312c.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm83-batch-01/fm-8311-43910cfe3fa7312c.png",
+      "status": "integrated",
+      "review": "Kneeling leg curl: leve, supporto e collegamento centrale rossi diventati verdi. Tutti i pad, rulli, maniglie, perni cromati, piedi e telaio invariati. Logo piccolo sulla leva sinistra, diagramma e triangolo giallo conservati; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8311/primary-01-359463ca0ad0.webp"
     },
     {
       "assetId": "fm-8312-70b93b315e4cdc22",
@@ -3485,8 +3507,10 @@
       "originalPath": "data/catalog-assets/originals/fb/fb18be426212c03eb0a3f40782603fb9a449ab2dc3c725905da53de75028b4a9.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-83-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8312-70b93b315e4cdc22.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm83-batch-01/fm-8312-70b93b315e4cdc22.png",
+      "status": "integrated",
+      "review": "Calf raise: parti rosse superiori e leveraggio resi verdi con singolo logo. Conservati pad, seduta, impugnature nere, perni cromati, pedana metallica, struttura antracite e regolazioni. Diagramma, adesivo rosso e avvisi gialli originali mantenuti; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8312/primary-01-44bd30bd3468.webp"
     },
     {
       "assetId": "fm-8801-d8f0f90ddd2dcc9d",
@@ -3497,8 +3521,10 @@
       "originalPath": "data/catalog-assets/originals/b1/b1f6cf8c1d3c729be46110e7e567e80547fe797431f6893358701b540a15d345.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-88-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8801-d8f0f90ddd2dcc9d.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm88-batch-01/fm-8801-d8f0f90ddd2dcc9d.png",
+      "status": "integrated",
+      "review": "Confronto con sorgente: leve rosse convertite verde scuro, logo bianco su braccio vicino. Conservati geometria press, telaio antracite, imbottiture, maniglie nere, perni cromati, regolazione seduta e appoggi. Diagramma superiore e avvertenze rossa/gialla presenti; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8801/primary-01-82e496ed1ad0.webp"
     },
     {
       "assetId": "fm-8802-2a7eb23729842f08",
@@ -3509,8 +3535,10 @@
       "originalPath": "data/catalog-assets/originals/51/51ef1e3696addeb8042b24ac1cb3f84284d82368bcbfce0fa9ce0ccefe21c9c9.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-88-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8802-2a7eb23729842f08.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm88-batch-01/fm-8802-2a7eb23729842f08.png",
+      "status": "integrated",
+      "review": "Confronto con sorgente: leve rosse convertite verde scuro, logo bianco su braccio vicino. Conservati geometria press, telaio antracite, imbottiture, maniglie nere, perni cromati, regolazione seduta e appoggi. Diagramma superiore e avvertenze rossa/gialla presenti; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8802/primary-01-ba1a797ab806.webp"
     },
     {
       "assetId": "fm-8803-b6a3b2973daee578",
@@ -3521,8 +3549,10 @@
       "originalPath": "data/catalog-assets/originals/4f/4fe685ac7d2199fe3da76f34b612f6ee5ec6d5ba110351444a01ad349b55aba1.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-88-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8803-b6a3b2973daee578.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm88-batch-01/fm-8803-b6a3b2973daee578.png",
+      "status": "integrated",
+      "review": "High row: leve rosse convertite verdi con logo, geometria, seduta/rulli, telaio scuro, perni metallici e diagramma mantenuti. Rimossi al secondo passaggio due adesivi rossi introdotti dal generatore, assenti in sorgente. Triangolo giallo originale conservato; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8803/primary-01-c2a68d11859c.webp"
     },
     {
       "assetId": "fm-8804-b780f0c25b786a16",
@@ -3533,8 +3563,10 @@
       "originalPath": "data/catalog-assets/originals/09/09e8a0e6c8e0de70d759fe6401511e83b5b55b2df51c18d2490c9cb47af49fb4.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-88-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8804-b780f0c25b786a16.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm88-batch-01/fm-8804-b780f0c25b786a16.png",
+      "status": "integrated",
+      "review": "Pulldown: bracci rossi diventati verdi con logo bianco singolo. Conservati montanti, seduta e rulli neri, regolazioni, perni argento, impugnature, diagramma e avvertenze originali. Microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8804/primary-01-d11f37263490.webp"
     },
     {
       "assetId": "fm-8806-07ed9cdc44a6caa1",
@@ -3545,8 +3577,10 @@
       "originalPath": "data/catalog-assets/originals/85/8537bf14041c27ac38bd917656bee9d9768f5bcd9b666c0c71fcd42ac538a874.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-88-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8806-07ed9cdc44a6caa1.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm88-batch-01/fm-8806-07ed9cdc44a6caa1.png",
+      "status": "integrated",
+      "review": "Press: leve e triangoli rossi verdi con singolo logo bianco. Telaio scuro, imbottiture, maniglie, perni, regolazione seduta e schema dietro schienale conservati. Etichetta rossa sul montante destro e triangolo giallo originali presenti; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8806/primary-01-2771ea185cfb.webp"
     },
     {
       "assetId": "fm-8810-08df85390bfa5a5c",
@@ -3557,8 +3591,10 @@
       "originalPath": "data/catalog-assets/originals/bf/bf320ccf7b2b40b0d0a6f6410ab0b31f44ad5ffe940dd56dd772f0361e6bdbea.jpg",
       "categoryId": "plate-loaded-machine",
       "lineId": "fm-88-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-8810-08df85390bfa5a5c.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/fm88-batch-01/fm-8810-08df85390bfa5a5c.png",
+      "status": "integrated",
+      "review": "Leg extension: parti metalliche rosse rese verdi; rulli, imbottiture, montanti, archi di regolazione, perni e maniglie conservati. Logo piccolo sotto adesivo originale senza coprirlo. Diagramma ed etichette rosse/gialle mantenuti; microtesti illustrativi.",
+      "stagedPath": "src/assets/catalog/FM-8810/primary-01-5b01b34f6b1d.webp"
     },
     {
       "assetId": "fm-8101-e84865bbcf0da046",
@@ -5249,8 +5285,10 @@
       "originalPath": "data/catalog-assets/originals/8a/8add66878e38a3eddf1a30f5d4e160450482f3076fad7f07bd1b14519e89055e.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5001-2696bb736e1ae662.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5001-2696bb736e1ae662.png",
+      "status": "integrated",
+      "review": "Source/result compared: principal leg-curl roller positions, long seat/back, cable and pulley layout, stack and metallic adjustments retained. Forest green only narrow existing header and front roller lever; fixed chassis and all padding stay black. Small top FullMuscle logo replaces vendor badge; exercise chart retained in original position. Fine chart/weight lettering illustrative.",
+      "stagedPath": "src/assets/catalog/FM-GS-5001/primary-01-80c8cd60014f.webp"
     },
     {
       "assetId": "fm-gs-5002-2729ca2d390cafc0",
@@ -5261,8 +5299,10 @@
       "originalPath": "data/catalog-assets/originals/3f/3f1a6943013474ea392cecc37186fcaa206b1bc0492322058e67e7f36bd080fc.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5002-2729ca2d390cafc0.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5002-2729ca2d390cafc0.png",
+      "status": "integrated",
+      "review": "Leg-extension source compared: green limited to original long moving ankle-roller lever and narrow header. Black cam guard, roller, seat/back, tower and base retained; metallic pivot discs and selector/adjustment hardware remain. Existing left warning and exercise chart preserved; compact logo replaces original supplier badge. Geometry and view consistent.",
+      "stagedPath": "src/assets/catalog/FM-GS-5002/primary-01-0324e8692c98.webp"
     },
     {
       "assetId": "fm-gs-5002-1-c86d920ae6103330",
@@ -5273,8 +5313,10 @@
       "originalPath": "data/catalog-assets/originals/a0/a01dc1b548492b27f0787f38cd94408378d0a204ed40231d513e4471dc7c9229.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5002-1-c86d920ae6103330.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5002-1-c86d920ae6103330.png",
+      "status": "integrated",
+      "review": "Variant 5002-1 source compared: taller tower, short front lever, separate paired ankle rollers, original lower pulley/cable route and long backrest retained. Only lever and top header green. Black cushions/chassis and chrome hardware preserved; original exercise chart and warning stay in place. Compact physical logo replaces supplier badge.",
+      "stagedPath": "src/assets/catalog/FM-GS-5002-1/primary-01-1a7e5d4c2318.webp"
     },
     {
       "assetId": "fm-gs-5003-81f010c0828a7c52",
@@ -5285,8 +5327,10 @@
       "originalPath": "data/catalog-assets/originals/e7/e7bf71c5bc8b54b760e106b9ee851f246096641e6994d1a91f6ea156a7862d25.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5003-81f010c0828a7c52.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5003-81f010c0828a7c52.png",
+      "status": "integrated",
+      "review": "Rotary-torso source compared: seat/knee pads, circular foot discs, overhead grips, tower, stack and pulley layout retained. Green on lower connecting linkage and long lower painted beam; header remains black with replacement FullMuscle logo (rather than green requested). Main posts/feet remain black. Existing chart/warning preserved; principal geometry unchanged.",
+      "stagedPath": "src/assets/catalog/FM-GS-5003/primary-01-0a4c2797819a.webp"
     },
     {
       "assetId": "fm-gs-5004-9614e88dc886106d",
@@ -5297,8 +5341,10 @@
       "originalPath": "data/catalog-assets/originals/2a/2a7894d59caf996dd40af49a2e62c3e879dcebddfb7bcddcd8f62c5e9e2382fb.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5004-9614e88dc886106d.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5004-9614e88dc886106d.png",
+      "status": "integrated",
+      "review": "Seated-row source compared: paired hanging angular arms now green and original compact top header carries logo. Black fixed top beam, grips, chest/seat pads and supporting linkage, tower/base, stack/cables and chrome adjustment pieces preserved. Existing right warning/chart retained. Principal geometry and view maintained.",
+      "stagedPath": "src/assets/catalog/FM-GS-5004/primary-01-10389593168f.webp"
     },
     {
       "assetId": "fm-gs-5005-3ec45eecd372e9f0",
@@ -5309,8 +5355,10 @@
       "originalPath": "data/catalog-assets/originals/71/71bc9a75a380e3531c59958e0e3d1c006b1c3f0d63ba6d6dce23ecec44ae2953.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5005-3ec45eecd372e9f0.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5005-3ec45eecd372e9f0.png",
+      "status": "integrated",
+      "review": "Chest-press source compared: characteristic paired tall angular arms, lower pivots/bearings, tall backrest, short seat and cable layout retained. Only press arms and narrow header green. Black base/tower, grip rubber, chrome grip ends and bearings preserved. Physical logo replaces top vendor badge; chart and left warning retained.",
+      "stagedPath": "src/assets/catalog/FM-GS-5005/primary-01-d2341cb6a0f0.webp"
     },
     {
       "assetId": "fm-gs-5006-a857c10a83c08545",
@@ -5321,8 +5369,10 @@
       "originalPath": "data/catalog-assets/originals/5a/5a01c3a0db557afdd6afec02eda8abca4437a5e62816ba79d5bb02388590d675.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5006-a857c10a83c08545.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5006-a857c10a83c08545.png",
+      "status": "integrated",
+      "review": "Back-extension source compared: upper cylindrical roller, independent lumbar cushion and seat, fixed lower foot bars, cam guard, stack and chrome index plate retained. Green only upper diagonal moving arm and narrow header; all main frame/padding black. Logo replaces supplier badge; existing chart/warning preserved.",
+      "stagedPath": "src/assets/catalog/FM-GS-5006/primary-01-6b35b470a65b.webp"
     },
     {
       "assetId": "fm-gs-5007-0dddf38b3da1e045",
@@ -5333,8 +5383,10 @@
       "originalPath": "data/catalog-assets/originals/b6/b6bad79c8bcbfcf72f9383ee2576671fa0f8944c016db4c0d1a53b03d6f3a72e.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5007-0dddf38b3da1e045.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5007-0dddf38b3da1e045.png",
+      "status": "integrated",
+      "review": "Pec-deck source compared: overhead circular pivots/pulleys and adjustment shafts, paired hanging arms with pads/grips, inclined seat/back and forward foot rest retained. Moving painted arms and header green, main chassis black; metallic hardware remains silver. Original diagram and warning retained, physical header logo replaces supplier badge.",
+      "stagedPath": "src/assets/catalog/FM-GS-5007/primary-01-1da24dd5278d.webp"
     },
     {
       "assetId": "fm-gs-5008-928ccdba5aac97d5",
@@ -5345,8 +5397,10 @@
       "originalPath": "data/catalog-assets/originals/9c/9c9e22d71c6588b8621db5f964b2a589bf4f7b5a3c83f47a8547fdfef347148c.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5008-928ccdba5aac97d5.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5008-928ccdba5aac97d5.png",
+      "status": "integrated",
+      "review": "Pulldown source compared: large paired angular overhead arms and connecting beam recolored green; exact principal shape/angle retained. Black tower/base, seat, paired thigh pads and support, grips, silver ends, bearing and cable routes preserved. Header logo replaces supplier badge; chart and existing warning retained.",
+      "stagedPath": "src/assets/catalog/FM-GS-5008/primary-01-d850026bd8fb.webp"
     },
     {
       "assetId": "fm-gs-5010-255cbdeb9ff6e70c",
@@ -5357,8 +5411,10 @@
       "originalPath": "data/catalog-assets/originals/51/51da1423a2cb8a883853412dce0b5da04945b1cf005b35eb14a7c2f2aa29e3a9.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5010-255cbdeb9ff6e70c.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5010-255cbdeb9ff6e70c.png",
+      "status": "integrated",
+      "review": "Delt-machine source compared: rear angled links and upper pivot link green, front broad elbow-pad beam remains black, pads/seat, tower, cams and pulley cluster retained. Metallic rods/bolts unchanged; original red-bordered chart and right warning preserved. Green header with replacement logo, principal geometry/view preserved.",
+      "stagedPath": "src/assets/catalog/FM-GS-5010/primary-01-0e738ecd8012.webp"
     },
     {
       "assetId": "fm-gs-5011-af0006098a07e4e6",
@@ -5369,8 +5425,10 @@
       "originalPath": "data/catalog-assets/originals/94/940b426e829f27626086a3c4f9b5c474ea139b539c5e9eff2310ba77fa4b690c.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5011-af0006098a07e4e6.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5011-af0006098a07e4e6.png",
+      "status": "integrated",
+      "review": "Arm-extension source compared: sloping preacher pad, forward seat, tall moving lever and upper grip-support shafts, black cam guard and cable route retained. Lever/upper painted shafts and narrow header green; grip rubber, chrome rings/discs and fixed black chassis unchanged. Original chart retained, compact replacement logo on header.",
+      "stagedPath": "src/assets/catalog/FM-GS-5011/primary-01-747d1e7524d8.webp"
     },
     {
       "assetId": "fm-gs-5012-62253b0b7b276626",
@@ -5381,8 +5439,10 @@
       "originalPath": "data/catalog-assets/originals/80/8060c5df806176ab302e1dc5e5c9cb60d96d3dec8be94f3cd1c5b7ce0f2954a5.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5012-62253b0b7b276626.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5012-62253b0b7b276626.png",
+      "status": "integrated",
+      "review": "Shoulder-press source compared: paired shoulder-height moving beams green with original shape and grip placement, tall backrest/seat and fixed black support/tower/base retained. Black grips, metallic caps, pulley group and cable routes unchanged. Header green with physical logo; original chart/left warning preserved.",
+      "stagedPath": "src/assets/catalog/FM-GS-5012/primary-01-bace1390bedb.webp"
     },
     {
       "assetId": "fm-gs-5014-8e6c20c60db2242a",
@@ -5393,8 +5453,10 @@
       "originalPath": "data/catalog-assets/originals/1b/1b9612290b4f015fda249e3a8b5f7e754a67b8a119bac698d34fd414219e0d03.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5014-8e6c20c60db2242a.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5014-8e6c20c60db2242a.png",
+      "status": "integrated",
+      "review": "Adductor source compared: tall angled seat/back, square thigh pads, side handles, cable routing and lower rotary discs retained. Green on existing moving pad-support arms and short links, header; stationary legs/tower/base black. Chrome adjustments/pivots remain metallic, chart/warning preserved and supplier logo replaced.",
+      "stagedPath": "src/assets/catalog/FM-GS-5014/primary-01-45243034b125.webp"
     },
     {
       "assetId": "fm-gs-5015-bfe7f521001edba7",
@@ -5405,8 +5467,10 @@
       "originalPath": "data/catalog-assets/originals/d8/d8931affec1d8df70738404c4ca74acf8587e087ec6bb9213a7c955665bd7ec1.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5015-bfe7f521001edba7.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5015-bfe7f521001edba7.png",
+      "status": "integrated",
+      "review": "Total-abdominal source compared: curved upper shoulder-pad lever and central link green, also slim painted connecting rod; black shoulder pads, grips, seat/back, main frame and lower foot mechanism retained. Silver index plates and seat adjustment unchanged. Header logo, existing chart/warning retained; principal mechanisms and framing preserved.",
+      "stagedPath": "src/assets/catalog/FM-GS-5015/primary-01-9dbc2eebf506.webp"
     },
     {
       "assetId": "fm-gs-5016-645ad56e0b6628ed",
@@ -5417,8 +5481,10 @@
       "originalPath": "data/catalog-assets/originals/57/57c57046782aa0c0fd11f9757d7ba779e07b90ef92c13db05c33dd059df7cca1.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5016-645ad56e0b6628ed.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5016-645ad56e0b6628ed.png",
+      "status": "integrated",
+      "review": "Leg-press source compared: angled front moving support arms green; silver diamond-tread footplate stays metallic. Black long seat/back, grips, base/tower and pulley housings remain; original cable paths and chrome fittings preserved. Header logo replaces badge and red-bordered instructions/right warning retained. Principal geometry matches source.",
+      "stagedPath": "src/assets/catalog/FM-GS-5016/primary-01-42d898e9390e.webp"
     },
     {
       "assetId": "fm-gs-5020-53981ed7c56627ba",
@@ -5429,8 +5495,10 @@
       "originalPath": "data/catalog-assets/originals/42/42c9e8b749b38c062b5429dff845838425fc68cfd28f77345a89dce95a39149f.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5020-53981ed7c56627ba.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5020-53981ed7c56627ba.png",
+      "status": "integrated",
+      "review": "Lat-pulldown source compared: top cantilever beam and narrow header forest green, original hanging curved bar/grips, cable connection, thigh rollers, silver adjustment post and black bench/tower retained. Main shape and pulley/stack configuration unchanged. Logo replaces top badge, chart and warning retained.",
+      "stagedPath": "src/assets/catalog/FM-GS-5020/primary-01-ed72e6e436d1.webp"
     },
     {
       "assetId": "fm-gs-5021-7b68028adf5b9c0a",
@@ -5441,8 +5509,10 @@
       "originalPath": "data/catalog-assets/originals/dc/dcf13bb194bc55f20adfeb2239e9a885d2002e0850904d006cb55c1f1e5c1378.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5021-7b68028adf5b9c0a.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5021-7b68028adf5b9c0a.png",
+      "status": "integrated",
+      "review": "Low-row source compared: narrow top header only green with compact physical logo. Long bench, foot brace, tower/feet and all structural beams remain black, chrome guide rods and grip ends unchanged. Original handle/pulley arrangement, stack and chart/warning retained. View and principal proportions preserved.",
+      "stagedPath": "src/assets/catalog/FM-GS-5021/primary-01-5e40f26359d4.webp"
     },
     {
       "assetId": "fm-gs-5022-fac8e2bb8103fdc4",
@@ -5453,8 +5523,10 @@
       "originalPath": "data/catalog-assets/originals/a2/a292eaccd6e93b4e8319192198854c0948ffcf187d792c9a7d48a492ace92624.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5022-fac8e2bb8103fdc4.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5022-fac8e2bb8103fdc4.png",
+      "status": "integrated",
+      "review": "Glute-isolator source compared: long right moving lever and top header green, pedal dark metallic. Black standing platform and round levelling feet, forearm/chest pads, handles and fixed chassis retained. Silver adjustment post, two side pulleys/cable and upper pivot unchanged. Header logo replaces badge, original diagram preserved; no extra panel.",
+      "stagedPath": "src/assets/catalog/FM-GS-5022/primary-01-6b621571f1d8.webp"
     },
     {
       "assetId": "fm-gs-5022-1-14634820d7505127",
@@ -5465,8 +5537,10 @@
       "originalPath": "data/catalog-assets/originals/e3/e37fe788ce55ac25f8d568b88464811cfabc9335d5b360304dd6c95f92a9081d.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5022-1-14634820d7505127.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5022-1-14634820d7505127.png",
+      "status": "integrated",
+      "review": "Rail glute-isolator variant source compared: small moving pedal carriage green, silver tread face and both long horizontal chrome rails preserved. Curved black chest support with pad/handles, long black base and right end-post, tower/stack and pulley layout retained. Header logo, original chart/right warning preserved; distinct variant geometry maintained.",
+      "stagedPath": "src/assets/catalog/FM-GS-5022-1/primary-01-58a4cf2d9ab1.webp"
     },
     {
       "assetId": "fm-gs-5033-833e69ed6c6a3310",
@@ -5477,8 +5551,10 @@
       "originalPath": "data/catalog-assets/originals/11/11963d4a3a6410760a9e9f7cc9ce8e7a085e942840b92dfa4533644c4220e265.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5033-833e69ed6c6a3310.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5033-833e69ed6c6a3310.png",
+      "status": "integrated",
+      "review": "Hip-abductor source compared: distinct near rear-facing thigh pad with four rear bolts retained; green on its painted backing/support and L-shaped moving links, narrow header. Pad surfaces, seat/back, side handles and fixed black legs/base/tower unchanged. Chrome lower mechanisms and cable/pulley layout retained, chart/warning preserved; physical header logo replaces badge.",
+      "stagedPath": "src/assets/catalog/FM-GS-5033/primary-01-007a3880f15a.webp"
     },
     {
       "assetId": "fm-gs-5037-0d77ed7b81d192e8",
@@ -5489,8 +5565,10 @@
       "originalPath": "data/catalog-assets/originals/06/06051c8e7b2a1f0041b919b114fc9d8ad3558c930b1385c8a804193ae472100b.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5037-0d77ed7b81d192e8.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5037-0d77ed7b81d192e8.png",
+      "status": "integrated",
+      "review": "Abdominal 5037 source compared: original lever slopes opposite back-extension and retains that orientation, now green with header. Black upper cylindrical roller, lumbar/seat cushions, cam shield and two lower foot bars preserved. Fixed frame/stack remain black, chrome pivots intact. Original chart/warning retained, compact physical top logo.",
+      "stagedPath": "src/assets/catalog/FM-GS-5037/primary-01-5ce36b43f3f0.webp"
     },
     {
       "assetId": "fm-gs-5044-7b353970681f2e9b",
@@ -5501,8 +5579,10 @@
       "originalPath": "data/catalog-assets/originals/4a/4a5ab85dca0037619ad0bc4ff06856e9bf98d778a78a1b8dc90b60e1855db3ff.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5044-7b353970681f2e9b.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5044-7b353970681f2e9b.png",
+      "status": "integrated",
+      "review": "Prone-leg-curl source compared: two-part peaked bench, near-horizontal ankle-roller lever, single long roller, cam shield, front grip pair and three-side-pulley route retained. Green limited lever and top header; black padding/base/tower and chrome pivot/index parts preserved. Original chart kept, supplier badge replaced.",
+      "stagedPath": "src/assets/catalog/FM-GS-5044/primary-01-3da5598385bd.webp"
     },
     {
       "assetId": "fm-gs-5046-60ed513443323f73",
@@ -5513,8 +5593,10 @@
       "originalPath": "data/catalog-assets/originals/d1/d1ebf92a353b4be96a71b0ee09fcfce35784a6f9bc07e92fb35244c0365ec2c0.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5046-60ed513443323f73.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5046-60ed513443323f73.png",
+      "status": "integrated",
+      "review": "Arm-curl source compared: low handles, long sloping lever, preacher pad/seat, cam shield, tower and pivots retained. Generation colored the existing front angled pad-support post green instead of the long moving lever, which stays black; also lower painted handle supports and header green. This is a paint-only zone deviation on existing metal, noted for final selection. Base beam and padding remain black, physical header logo/chart preserved.",
+      "stagedPath": "src/assets/catalog/FM-GS-5046/primary-01-39e5d9470a88.webp"
     },
     {
       "assetId": "fm-gs-5047-2a1c9668c385c909",
@@ -5525,8 +5607,10 @@
       "originalPath": "data/catalog-assets/originals/8a/8a6636e3ed8f023533ab8279d6f2cf603fa646bee0732d984cb6eb6a521082b5.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5047-2a1c9668c385c909.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5047-2a1c9668c385c909.png",
+      "status": "integrated",
+      "review": "Butterfly source compared: distinctive multi-direction grip ends retained without added elbow pads, paired hanging arms and upper painted pivot links green. Overhead circular pulley/adjustment assemblies remain black and metallic, fixed tower/base/seat/back preserved. Compact header logo replaces supplier badge; chart/warning retained and principal geometry consistent.",
+      "stagedPath": "src/assets/catalog/FM-GS-5047/primary-01-53aa0e044b23.webp"
     },
     {
       "assetId": "fm-gs-5049-ff37e047b49d92a5",
@@ -5537,8 +5621,10 @@
       "originalPath": "data/catalog-assets/originals/e0/e0e32469f6eb8010a7480800bd591ccdeb3ce5068673512b45c92174f4b565fc.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5049-ff37e047b49d92a5.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5049-ff37e047b49d92a5.png",
+      "status": "integrated",
+      "review": "Standing-calf source compared: paired upper shoulder-yoke levers and header green, two black shoulder pads and grip preserved. Tall silver adjustment shaft, middle black linkage, tower, foot platform/base and pulley/cable arrangement retained. Original chart/right warning preserved, compact physical top logo replaces badge. Principal geometry and camera unchanged.",
+      "stagedPath": "src/assets/catalog/FM-GS-5049/primary-01-3bfb9c9ac834.webp"
     },
     {
       "assetId": "fm-gs-5050-6cb374b9d8536d77",
@@ -5549,8 +5635,10 @@
       "originalPath": "data/catalog-assets/originals/e1/e19db5f2d459823a4fc67b3700f5aabae0e64bdc27184d9cccfdd074c9547060.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5050-6cb374b9d8536d77.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5050-6cb374b9d8536d77.png",
+      "status": "integrated",
+      "review": "Seated-dip source compared: V-shaped moving lever and header green, also original upper horizontal painted crossbeam and slim central hanging link; all are existing painted metal. Black long handle shafts, seat/back, tower/posts/base and pulley/cables preserved. Silver caps/pivots retained, original chart/warning kept. No geometry alteration identified.",
+      "stagedPath": "src/assets/catalog/FM-GS-5050/primary-01-d35ceefaa9a6.webp"
     },
     {
       "assetId": "fm-gs-5053-1-f6eef18430a0bd25",
@@ -5561,8 +5649,10 @@
       "originalPath": "data/catalog-assets/originals/6f/6f4cbbdf8a034f7546e8f4a12fc8fd52b02f4265a8589f192b6440bd03d9f908.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5053-1-f6eef18430a0bd25.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5053-1-f6eef18430a0bd25.png",
+      "status": "integrated",
+      "review": "Combined-hip source compared: double-faced thick thigh pads, tall auxiliary tower handrails, seat/back and original lower linkage/cable apparatus retained. Only moving pad supports/lower links and header green; fixed legs/base remain black and chrome adjustments intact. Original red-bordered instructions/warning kept; compact logo replaces supplier badge.",
+      "stagedPath": "src/assets/catalog/FM-GS-5053-1/primary-01-0bef411fa48d.webp"
     },
     {
       "assetId": "fm-gs-5054-4b441c07665ea782",
@@ -5573,8 +5663,10 @@
       "originalPath": "data/catalog-assets/originals/13/13cd31fdb16f0a930a9a5aa232c9afb055a1b9a523a77c703c50f3c7262880aa.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5054-4b441c07665ea782.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5054-4b441c07665ea782.png",
+      "status": "integrated",
+      "review": "Combined back/abdominal source compared: angled roller arm, small adjacent painted cam link and horizontal connector green; header remains black with replacement logo. Original double cam/pulley layout, top roller, lumbar/seat pads, fixed foot bars/chassis and metallic pivots retained. Existing chart/warning remain; geometry preserved.",
+      "stagedPath": "src/assets/catalog/FM-GS-5054/primary-01-06a9db5edab8.webp"
     },
     {
       "assetId": "fm-gs-5055-1-79f26022f3e6809f",
@@ -5585,8 +5677,10 @@
       "originalPath": "data/catalog-assets/originals/94/94968de2a15f7e70b3b9041d7ee6bda76eb2292eb96ca28179ffba4b1f9824eb.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5055-1-79f26022f3e6809f.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5055-1-79f26022f3e6809f.png",
+      "status": "integrated",
+      "review": "Combined leg curl/extension source compared: full upper control handle and thigh restraint pad, lower ankle roller, seat/back and extra cam/pulley group all retained. Green on lower moving lever, short adjacent pivot link and header; black fixed frame/pads and silver adjustments remain. Original chart/warning preserved and compact logo replaces badge.",
+      "stagedPath": "src/assets/catalog/FM-GS-5055-1/primary-01-25b795e89c73.webp"
     },
     {
       "assetId": "fm-gs-5056-4746d797d9a653fc",
@@ -5597,8 +5691,10 @@
       "originalPath": "data/catalog-assets/originals/7c/7caa29df893d35bed6ccfc41fb2a7f3cf78b57f08ad53531fdb3296bfaa34a9e.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5056-4746d797d9a653fc.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5056-4746d797d9a653fc.png",
+      "status": "integrated",
+      "review": "Adjustable-chest-press source compared: paired upper moving arms green, full bench with separate seat/sloping back and original adjustment linkage retained. Silver perforated rail stays metallic, all fixed tower/frame/base black, grips and pulleys unchanged. Header remains black with compact replacement logo; chart/left warning preserved.",
+      "stagedPath": "src/assets/catalog/FM-GS-5056/primary-01-cbb4d823afb4.webp"
     },
     {
       "assetId": "fm-gs-5057-71aea99941f72b65",
@@ -5609,8 +5705,10 @@
       "originalPath": "data/catalog-assets/originals/7b/7b1f9002accfbf0ecb33acea526753f4bae3852994bdeac5463490326376f530.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5057-71aea99941f72b65.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5057-71aea99941f72b65.png",
+      "status": "integrated",
+      "review": "Combined lat/low-row source compared: extra front pulley post, high curved bar, low row bar and hooks, long bench, thigh rollers and low foot brace all retained. Only top cantilever/header green, remaining chassis/padding black and silver adjustments intact. Original cable routing and principal configuration preserved; header logo replaces badge.",
+      "stagedPath": "src/assets/catalog/FM-GS-5057/primary-01-be77702ee229.webp"
     },
     {
       "assetId": "fm-gs-5058-fd63dde4c97cc5bf",
@@ -5621,8 +5719,10 @@
       "originalPath": "data/catalog-assets/originals/14/14e542d8b43e866307900886d3a6fc718a3f16c47ffb08c7a80e8e6856163157.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5058-fd63dde4c97cc5bf.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5058-fd63dde4c97cc5bf.png",
+      "status": "integrated",
+      "review": "Leg-extension/prone-curl source compared: unusual right-facing double adjustable pad arrangement and left front roller retained. Long moving roller lever/header green, cam guard black with silver perforated index ring. All stationary frame, extra grips, chrome pivots and side pulleys preserved. Compact header logo and original chart maintained.",
+      "stagedPath": "src/assets/catalog/FM-GS-5058/primary-01-4e6befba2dae.webp"
     },
     {
       "assetId": "fm-gs-5067-9c7ba2f899eca08f",
@@ -5633,8 +5733,10 @@
       "originalPath": "data/catalog-assets/originals/f4/f4001a8a1ab0099f76ec9f0164736a3854e92b71b84d7470e2fc90d1d51d3b10.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5067-9c7ba2f899eca08f.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5067-9c7ba2f899eca08f.png",
+      "status": "integrated",
+      "review": "Hip-thrust source compared: original left-rear viewpoint and full carriage/bench preserved; two backrest-support uprights green, header green. Silver perforated split footplate and curved tread surfaces, chrome horizontal slide rods, black seat/belt with metallic clasp, base/tower and pulleys retained. Principal mechanisms match, original warning/chart kept.",
+      "stagedPath": "src/assets/catalog/FM-GS-5067/primary-01-f9f48bbfc0c6.webp"
     },
     {
       "assetId": "fm-gs-5067-1-dd49fb3a183e6e62",
@@ -5645,8 +5747,10 @@
       "originalPath": "data/catalog-assets/originals/fe/fec5c0786ea81783703c6606a5007ee6b90da71412792a398aa16d9cc1d5510c.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5067-1-dd49fb3a183e6e62.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5067-1-dd49fb3a183e6e62.png",
+      "status": "integrated",
+      "review": "Opposite-view hip-thrust variant source compared: footplate left and backrest right retained, with distinct seat/carriage view. Green only backrest-support uprights/header. Silver perforated footplate/curved treads, chrome rods and belt clasp, black seat/belt, frame/base/tower and pulley mechanisms retained. Original warning/chart present; no main geometry change.",
+      "stagedPath": "src/assets/catalog/FM-GS-5067-1/primary-01-627ac86cc632.webp"
     },
     {
       "assetId": "fm-gs-5068-8b3c70c564c5b086",
@@ -5657,8 +5761,10 @@
       "originalPath": "data/catalog-assets/originals/c0/c0bb85dca8920304d3f06efbf8292c0594ea53b1ad7fdef364ca5f1c89cf58a5.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5068-8b3c70c564c5b086.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5068-8b3c70c564c5b086.png",
+      "status": "integrated",
+      "review": "Loaded-back-extension source compared: near main moving diagonal lever and lower short link green, slotted black angle rail stays black. Paired hip cushions and rear rollers, ribbed footplates, grip tubes, chrome pivots and complete tower/base/cable mechanisms preserved. Header logo replaces badge, original exercise chart retained. Principal geometry matches.",
+      "stagedPath": "src/assets/catalog/FM-GS-5068/primary-01-d39c12bb3912.webp"
     },
     {
       "assetId": "fm-gs-5071-e665b2338a5adb4d",
@@ -5669,8 +5775,10 @@
       "originalPath": "data/catalog-assets/originals/aa/aa51ac08e57e34c1ace48f1114b5b2f8d3f5b4907d990d2f86082b022b397a1d.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5071-e665b2338a5adb4d.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5071-e665b2338a5adb4d.png",
+      "status": "integrated",
+      "review": "Standing hip-abductor source compared: two inclined pad-support arms green, pad orientations retained with rear-facing bolts on near pad. Four slotted foot surfaces remain metallic, long black tower handrails, base/stack/cables and chrome pivots intact. Narrow header green with replacement logo; chart/right warning preserved.",
+      "stagedPath": "src/assets/catalog/FM-GS-5071/primary-01-327dd9d5ed5d.webp"
     },
     {
       "assetId": "fm-gs-5075-60d579b0c18c9bce",
@@ -5681,8 +5789,10 @@
       "originalPath": "data/catalog-assets/originals/2a/2a5c44a56c40c4ea19826081fd6fc52997f919a71750505549fc9bfe06798c1d.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5075-60d579b0c18c9bce.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5075-60d579b0c18c9bce.png",
+      "status": "integrated",
+      "review": "Standing leg-curl source compared: upper paired rollers, lower long roller, separate front kneeling pad, long tower handles and silver perforated selector retained. Main diagonal moving lever/header green; black chassis/base, patterned foot platforms and metallic adjustments preserved. Original chart/right warning retained, physical logo replaces badge.",
+      "stagedPath": "src/assets/catalog/FM-GS-5075/primary-01-96c511f879de.webp"
     },
     {
       "assetId": "fm-gs-5086-7d70d53bd317b36e",
@@ -5693,8 +5803,10 @@
       "originalPath": "data/catalog-assets/originals/56/5627bcce412970ad95bd61b8169e59a6069918473603873e10ee4d57a7da9fb7.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5086-7d70d53bd317b36e.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5086-7d70d53bd317b36e.png",
+      "status": "integrated",
+      "review": "Biceps/triceps source compared: sloping preacher cushion with curved upper edge and lower paired grip assembly retained; upper painted lever and adjacent short link green. Fixed bench supports/base/tower black, silver perforated selector and pivot hardware preserved. Header recolored green with compact logo, original red-bordered chart/right warning maintained.",
+      "stagedPath": "src/assets/catalog/FM-GS-5086/primary-01-23060f9a3d49.webp"
     },
     {
       "assetId": "fm-gs-5090-fb9443603ab8f49f",
@@ -5705,8 +5817,10 @@
       "originalPath": "data/catalog-assets/originals/17/175550a27b175570eb72b97d09ac684d4bfe5f3bd56a1d696d604a7e772d76b6.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5090-fb9443603ab8f49f.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5090-fb9443603ab8f49f.png",
+      "status": "integrated",
+      "review": "Dual-pulley source compared: both towers, two weight stacks and outside silver adjustable rails retained. Both central stored silver bars (straight and zigzag) and clips, pulley carriages/triangular handles and black chin-up grip sections preserved. Green only original top bridge painted section and two narrow headers, each replacing an original vendor badge with modest FullMuscle logo. Both charts retained.",
+      "stagedPath": "src/assets/catalog/FM-GS-5090/primary-01-8129b3625f72.webp"
     },
     {
       "assetId": "fm-gs-5092-d0d137b9b3a1a7a5",
@@ -5717,8 +5831,10 @@
       "originalPath": "data/catalog-assets/originals/88/8809eef1d594957ce38d9717d3b5b1abc9926ffaeb639ba6d2fb35a0fdafa6a6.jpg",
       "categoryId": "pin-loaded-machine",
       "lineId": "fm-gs-series",
-      "outputPath": "data/catalog-branding/generated/catalog/fm-gs-5092-d0d137b9b3a1a7a5.png",
-      "status": "pending"
+      "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5092-d0d137b9b3a1a7a5.png",
+      "status": "integrated",
+      "review": "Hip-thrust inclined-seat source compared: long angled backrest, contoured seat and lap belt, two ribbed footplates, large horizontal silver cylinder and upper tower handles retained. Green on existing diagonal links beneath backrest/header, fixed rear support/base/tower black. Chrome components and cable/pulley/stack layout preserved, chart/left warning retained and physical logo replaces badge.",
+      "stagedPath": "src/assets/catalog/FM-GS-5092/primary-01-1b2c4156b9c6.webp"
     },
     {
       "assetId": "fm-gt-5001-4f688e83ffabf5b6",

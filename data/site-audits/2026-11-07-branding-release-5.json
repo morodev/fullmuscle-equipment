@@ -1,0 +1,36 @@
+{
+  "commit": "82269c5",
+  "integrated": 442,
+  "samples": [
+    {
+      "sku": "FM-8164",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/leg-press-fm-8164/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-GB-5092",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/hip-thrust-e-glute-machine-fm-gb-5092/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-GM-5095",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/shoulder-press-fm-gm-5095/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-GF-004",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/macchina-a-carico-libero-fm-gf-004/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-2020A",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/bike-reclinata-fm-2020a/",
+      "status": 200,
+      "updatedImage": true
+    }
+  ]
+}

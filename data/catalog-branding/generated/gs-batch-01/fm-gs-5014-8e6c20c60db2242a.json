@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5014-8e6c20c60db2242a",
+  "sku": "FM-GS-5014",
+  "role": "primary",
+  "sourceHash": "1b9612290b4f015fda249e3a8b5f7e754a67b8a119bac698d34fd414219e0d03",
+  "inputPath": "src/assets/catalog/FM-GS-5014/primary-01-6fcd4327295e.webp",
+  "originalPath": "data/catalog-assets/originals/1b/1b9612290b4f015fda249e3a8b5f7e754a67b8a119bac698d34fd414219e0d03.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5014-8e6c20c60db2242a.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5014 adductor: only existing L-shaped moving pad-support arms below square thigh pads and their short lower connecting links, plus narrow top header strip turn forest green. Keep tall angled backrest, seat, both square thigh pads and side handles black; fixed legs/base/tower black, chrome foot/index/adjustment pieces metallic. Preserve lower pulley discs and cables exactly. Compact header logo replaces badge, chart/warning retained.",
+  "review": "Adductor source compared: tall angled seat/back, square thigh pads, side handles, cable routing and lower rotary discs retained. Green on existing moving pad-support arms and short links, header; stationary legs/tower/base black. Chrome adjustments/pivots remain metallic, chart/warning preserved and supplier logo replaced.",
+  "publicSku": "FM-GS-5014",
+  "editTarget": "src/assets/catalog/FM-GS-5014/primary-01-6fcd4327295e.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:11:37.285Z",
+  "outputHash": "ee78bef790ec817d0a89883ea8ba1a6cfd415f4236115e14402be4104b406ba9",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

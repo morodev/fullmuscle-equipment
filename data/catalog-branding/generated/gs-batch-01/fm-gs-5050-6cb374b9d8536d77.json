@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5050-6cb374b9d8536d77",
+  "sku": "FM-GS-5050",
+  "role": "primary",
+  "sourceHash": "e19db5f2d459823a4fc67b3700f5aabae0e64bdc27184d9cccfdd074c9547060",
+  "inputPath": "src/assets/catalog/FM-GS-5050/primary-01-aa7bdeaa4648.webp",
+  "originalPath": "data/catalog-assets/originals/e1/e19db5f2d459823a4fc67b3700f5aabae0e64bdc27184d9cccfdd074c9547060.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5050-6cb374b9d8536d77.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5050 seated dip machine: recolor only V-shaped moving lever behind the long backrest which carries the two long horizontal handle shafts, plus narrow header strip forest green. Keep handle tubes black with metallic ends, seat/back black, rectangular stationary upper frame and tower/base black, pulley groups and cables unchanged. Compact logo replaces header badge, preserve chart/warning.",
+  "review": "Seated-dip source compared: V-shaped moving lever and header green, also original upper horizontal painted crossbeam and slim central hanging link; all are existing painted metal. Black long handle shafts, seat/back, tower/posts/base and pulley/cables preserved. Silver caps/pivots retained, original chart/warning kept. No geometry alteration identified.",
+  "publicSku": "FM-GS-5050",
+  "editTarget": "src/assets/catalog/FM-GS-5050/primary-01-aa7bdeaa4648.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:20:42.062Z",
+  "outputHash": "379134c89b534958aaf1ecc4b1910542315de00ee1fd2f3bdb780e141b4c573d",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5005-3ec45eecd372e9f0",
+  "sku": "FM-GS-5005",
+  "role": "primary",
+  "sourceHash": "71bc9a75a380e3531c59958e0e3d1c006b1c3f0d63ba6d6dce23ecec44ae2953",
+  "inputPath": "src/assets/catalog/FM-GS-5005/primary-01-d1e0fd8e7479.webp",
+  "originalPath": "data/catalog-assets/originals/71/71bc9a75a380e3531c59958e0e3d1c006b1c3f0d63ba6d6dce23ecec44ae2953.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5005-3ec45eecd372e9f0.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5005 chest press: recolor only the two tall angular moving press arms rising from front base pivots to grips, and narrow header strip above chart. Keep black base and tower, grip rubber/silver caps, long black back pad and small seat, all bearings/cables and chrome metal original. Compact logo replaces top supplier badge. Preserve principal arm geometry, no added links.",
+  "review": "Chest-press source compared: characteristic paired tall angular arms, lower pivots/bearings, tall backrest, short seat and cable layout retained. Only press arms and narrow header green. Black base/tower, grip rubber, chrome grip ends and bearings preserved. Physical logo replaces top vendor badge; chart and left warning retained.",
+  "publicSku": "FM-GS-5005",
+  "editTarget": "src/assets/catalog/FM-GS-5005/primary-01-d1e0fd8e7479.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:07:19.592Z",
+  "outputHash": "3d5f97030003af682f69f8d97a013a8f80a391d00deb533f9f57eb703bc52366",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

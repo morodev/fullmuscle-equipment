@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5006-a857c10a83c08545",
+  "sku": "FM-GS-5006",
+  "role": "primary",
+  "sourceHash": "5a01c3a0db557afdd6afec02eda8abca4437a5e62816ba79d5bb02388590d675",
+  "inputPath": "src/assets/catalog/FM-GS-5006/primary-01-6137b5658b28.webp",
+  "originalPath": "data/catalog-assets/originals/5a/5a01c3a0db557afdd6afec02eda8abca4437a5e62816ba79d5bb02388590d675.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5006-a857c10a83c08545.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5006 back extension: recolor only diagonal moving lever supporting the upper long cylindrical back roller and narrow top header strip forest green. Keep black curved cam guard, roller, separate contoured lumbar pad and seat, two fixed low foot bars and black chassis, silver index plate and all cables intact. Logo on original top header replaces supplier badge; chart/warning preserved.",
+  "review": "Back-extension source compared: upper cylindrical roller, independent lumbar cushion and seat, fixed lower foot bars, cam guard, stack and chrome index plate retained. Green only upper diagonal moving arm and narrow header; all main frame/padding black. Logo replaces supplier badge; existing chart/warning preserved.",
+  "publicSku": "FM-GS-5006",
+  "editTarget": "src/assets/catalog/FM-GS-5006/primary-01-6137b5658b28.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:07:57.694Z",
+  "outputHash": "870562b9763d8efb75f1c929f7bbf8f9bfb67824605d71b4cbcc11eda56872a3",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

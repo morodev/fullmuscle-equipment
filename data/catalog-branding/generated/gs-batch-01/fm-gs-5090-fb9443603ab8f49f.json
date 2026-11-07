@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5090-fb9443603ab8f49f",
+  "sku": "FM-GS-5090",
+  "role": "primary",
+  "sourceHash": "175550a27b175570eb72b97d09ac684d4bfe5f3bd56a1d696d604a7e772d76b6",
+  "inputPath": "src/assets/catalog/FM-GS-5090/primary-01-98bd30f03211.webp",
+  "originalPath": "data/catalog-assets/originals/17/175550a27b175570eb72b97d09ac684d4bfe5f3bd56a1d696d604a7e772d76b6.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5090-fb9443603ab8f49f.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5090 dual adjustable pulley: SPECIAL two towers each have original supplier badges, so replace BOTH badges with two small identical physical FullMuscle logos, one per existing narrow header strip. Recolor ONLY these two narrow header strips and existing top bridging chin-up crossbeam painted sections forest green. Preserve black rubber chin-up grips, all main black tower frames/base, two long silver outside adjustable rails, adjustable pulley carriages/handles, both weight stacks and all inner guides. Keep both central stored silver bars (straight and zigzag), their exact shapes and clips, two black exercise charts. No new components.",
+  "review": "Dual-pulley source compared: both towers, two weight stacks and outside silver adjustable rails retained. Both central stored silver bars (straight and zigzag) and clips, pulley carriages/triangular handles and black chin-up grip sections preserved. Green only original top bridge painted section and two narrow headers, each replacing an original vendor badge with modest FullMuscle logo. Both charts retained.",
+  "publicSku": "FM-GS-5090",
+  "editTarget": "src/assets/catalog/FM-GS-5090/primary-01-98bd30f03211.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:30:15.015Z",
+  "outputHash": "07abb46997de9081fdf3f8f37bc83245d719c8276ed01b017f5b4fd4f0255440",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

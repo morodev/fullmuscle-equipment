@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5054-4b441c07665ea782",
+  "sku": "FM-GS-5054",
+  "role": "primary",
+  "sourceHash": "13cd31fdb16f0a930a9a5aa232c9afb055a1b9a523a77c703c50f3c7262880aa",
+  "inputPath": "src/assets/catalog/FM-GS-5054/primary-01-9535cadaa4d5.webp",
+  "originalPath": "data/catalog-assets/originals/13/13cd31fdb16f0a930a9a5aa232c9afb055a1b9a523a77c703c50f3c7262880aa.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5054-4b441c07665ea782.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5054 combined back extension/abdominal: only angled moving lever supporting top cylindrical roller and narrow header strip become green. Keep its double cam/pulley arrangement, separate contoured lumbar and seat pads, black fixed tower/base and two low foot bars, metallic adjustments and all cables original. Logo replaces badge and chart/warning remain; no changes in pose.",
+  "review": "Combined back/abdominal source compared: angled roller arm, small adjacent painted cam link and horizontal connector green; header remains black with replacement logo. Original double cam/pulley layout, top roller, lumbar/seat pads, fixed foot bars/chassis and metallic pivots retained. Existing chart/warning remain; geometry preserved.",
+  "publicSku": "FM-GS-5054",
+  "editTarget": "src/assets/catalog/FM-GS-5054/primary-01-9535cadaa4d5.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:22:07.143Z",
+  "outputHash": "4b42996ef6d42471960189e56ec4e66848bbb220ce3d676c6e82b15019fa1e95",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

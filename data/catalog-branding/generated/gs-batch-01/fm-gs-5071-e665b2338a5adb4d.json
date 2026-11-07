@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5071-e665b2338a5adb4d",
+  "sku": "FM-GS-5071",
+  "role": "primary",
+  "sourceHash": "aa51ac08e57e34c1ace48f1114b5b2f8d3f5b4907d990d2f86082b022b397a1d",
+  "inputPath": "src/assets/catalog/FM-GS-5071/primary-01-593e3e5102a4.webp",
+  "originalPath": "data/catalog-assets/originals/aa/aa51ac08e57e34c1ace48f1114b5b2f8d3f5b4907d990d2f86082b022b397a1d.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5071-e665b2338a5adb4d.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5071 standing hip abductor: only paired long inclined moving pad-support arms in front of tower and narrow top header strip become green. Keep both vertical black pads, four slotted metallic standing/pedal surfaces, long black tower handrails, all black base/stack, chrome pivots and cables original. Preserve exact pad orientation and foot-platform layout. Compact logo replaces supplier badge; chart/right warning retained.",
+  "review": "Standing hip-abductor source compared: two inclined pad-support arms green, pad orientations retained with rear-facing bolts on near pad. Four slotted foot surfaces remain metallic, long black tower handrails, base/stack/cables and chrome pivots intact. Narrow header green with replacement logo; chart/right warning preserved.",
+  "publicSku": "FM-GS-5071",
+  "editTarget": "src/assets/catalog/FM-GS-5071/primary-01-593e3e5102a4.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:27:50.524Z",
+  "outputHash": "d0d8775a2502b87b5fc51ae8b36a73e89a7fd8b75ec0cadc3f6878041bef15a3",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5022-fac8e2bb8103fdc4",
+  "sku": "FM-GS-5022",
+  "role": "primary",
+  "sourceHash": "a292eaccd6e93b4e8319192198854c0948ffcf187d792c9a7d48a492ace92624",
+  "inputPath": "src/assets/catalog/FM-GS-5022/primary-01-4a515d27e852.webp",
+  "originalPath": "data/catalog-assets/originals/a2/a292eaccd6e93b4e8319192198854c0948ffcf187d792c9a7d48a492ace92624.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5022-fac8e2bb8103fdc4.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5022 glute isolator: recolor only long right-hand moving lever from high pivot down to footplate, and narrow header strip forest green. Keep pedal/footplate original dark metal, full platform black, chest/forearm pads, handles, tower and side support black, all chrome adjustments and pulleys original. Logo replaces top badge; preserve exact wide front platform/round adjustable feet and chart.",
+  "review": "Glute-isolator source compared: long right moving lever and top header green, pedal dark metallic. Black standing platform and round levelling feet, forearm/chest pads, handles and fixed chassis retained. Silver adjustment post, two side pulleys/cable and upper pivot unchanged. Header logo replaces badge, original diagram preserved; no extra panel.",
+  "publicSku": "FM-GS-5022",
+  "editTarget": "src/assets/catalog/FM-GS-5022/primary-01-4a515d27e852.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:15:01.145Z",
+  "outputHash": "6a2a88a5056162ff777505abf2b2aa7f159feb842e56e71cbcd60a5bde67e874",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

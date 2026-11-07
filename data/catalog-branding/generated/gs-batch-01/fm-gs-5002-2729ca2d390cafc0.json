@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5002-2729ca2d390cafc0",
+  "sku": "FM-GS-5002",
+  "role": "primary",
+  "sourceHash": "3f1a6943013474ea392cecc37186fcaa206b1bc0492322058e67e7f36bd080fc",
+  "inputPath": "src/assets/catalog/FM-GS-5002/primary-01-7313760ce204.webp",
+  "originalPath": "data/catalog-assets/originals/3f/3f1a6943013474ea392cecc37186fcaa206b1bc0492322058e67e7f36bd080fc.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5002-2729ca2d390cafc0.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5002 leg extension: make only narrow top header strip above exercise chart and the long near diagonal moving lever from knee pivot to ankle roller forest green. Keep rounded black cam shield behind it, roller, seat/back pads, chrome pivot discs and adjustment bars, base/tower and cables intact. Compact logo replaces supplier badge on existing top header; preserve all original warnings/chart.",
+  "review": "Leg-extension source compared: green limited to original long moving ankle-roller lever and narrow header. Black cam guard, roller, seat/back, tower and base retained; metallic pivot discs and selector/adjustment hardware remain. Existing left warning and exercise chart preserved; compact logo replaces original supplier badge. Geometry and view consistent.",
+  "publicSku": "FM-GS-5002",
+  "editTarget": "src/assets/catalog/FM-GS-5002/primary-01-7313760ce204.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:04:44.945Z",
+  "outputHash": "82cae7de5391144964090e4546922b981fdfcc1e36894d5f6ce1e198d4e0906b",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

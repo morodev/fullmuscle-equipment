@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5055-1-79f26022f3e6809f",
+  "sku": "FM-GS-5055-1",
+  "role": "primary",
+  "sourceHash": "94968de2a15f7e70b3b9041d7ee6bda76eb2292eb96ca28179ffba4b1f9824eb",
+  "inputPath": "src/assets/catalog/FM-GS-5055-1/primary-01-52df99a6f2c6.webp",
+  "originalPath": "data/catalog-assets/originals/94/94968de2a15f7e70b3b9041d7ee6bda76eb2292eb96ca28179ffba4b1f9824eb.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5055-1-79f26022f3e6809f.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5055-1 leg curl/extension combination: only long near moving lever carrying lower ankle roller, its short upper painted pivot link, and narrow top header strip become green. Keep ALL original upper control handle and separate thick thigh cushion, lower black ankle roller, seat/back, black stationary frame/stack, cam/pulley group and silver adjustment pieces intact. Compact logo replaces supplier badge; preserve exercise chart and warning. Do not remove or merge any rollers or extra mechanism.",
+  "review": "Combined leg curl/extension source compared: full upper control handle and thigh restraint pad, lower ankle roller, seat/back and extra cam/pulley group all retained. Green on lower moving lever, short adjacent pivot link and header; black fixed frame/pads and silver adjustments remain. Original chart/warning preserved and compact logo replaces badge.",
+  "publicSku": "FM-GS-5055-1",
+  "editTarget": "src/assets/catalog/FM-GS-5055-1/primary-01-52df99a6f2c6.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:22:36.050Z",
+  "outputHash": "1ca00018896ab9cfb9ae9a50840dcc6ad665dca3a62ccd3f820c4552ce099e40",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

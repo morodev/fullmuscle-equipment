@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5011-af0006098a07e4e6",
+  "sku": "FM-GS-5011",
+  "role": "primary",
+  "sourceHash": "940b426e829f27626086a3c4f9b5c474ea139b539c5e9eff2310ba77fa4b690c",
+  "inputPath": "src/assets/catalog/FM-GS-5011/primary-01-af7d2247ba23.webp",
+  "originalPath": "data/catalog-assets/originals/94/940b426e829f27626086a3c4f9b5c474ea139b539c5e9eff2310ba77fa4b690c.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5011-af0006098a07e4e6.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5011 arm extension: only tall moving lever left of sloping preacher pad and its two upper painted grip-support arms, plus narrow top header strip turn forest green. Keep both black grips/silver rings, black curved cam shield, black sloping forearm pad and seat, black base/tower/frame and chrome pivots unchanged. Modest logo replaces supplier badge at header; preserve exercise chart.",
+  "review": "Arm-extension source compared: sloping preacher pad, forward seat, tall moving lever and upper grip-support shafts, black cam guard and cable route retained. Lever/upper painted shafts and narrow header green; grip rubber, chrome rings/discs and fixed black chassis unchanged. Original chart retained, compact replacement logo on header.",
+  "publicSku": "FM-GS-5011",
+  "editTarget": "src/assets/catalog/FM-GS-5011/primary-01-af7d2247ba23.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:10:20.725Z",
+  "outputHash": "02391a85b180a68fa58f4d882fd19412c67277949d5542e1f5a7e4de891c6fed",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

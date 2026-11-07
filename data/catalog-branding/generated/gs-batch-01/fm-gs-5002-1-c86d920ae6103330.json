@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5002-1-c86d920ae6103330",
+  "sku": "FM-GS-5002-1",
+  "role": "primary",
+  "sourceHash": "a01dc1b548492b27f0787f38cd94408378d0a204ed40231d513e4471dc7c9229",
+  "inputPath": "src/assets/catalog/FM-GS-5002-1/primary-01-152d06e057fc.webp",
+  "originalPath": "data/catalog-assets/originals/a0/a01dc1b548492b27f0787f38cd94408378d0a204ed40231d513e4471dc7c9229.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5002-1-c86d920ae6103330.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5002-1 leg-extension variant: preserve its distinctive lower paired cylindrical rollers, short front lever, low pulley/cable route, tall stack and long back pad. Recolor only narrow top header strip and the front moving lever plate joining knee pivot to ankle rollers forest green. Keep pads, cams and chassis black. Compact top-header logo replaces supplier badge, preserve original exercise chart and left warning.",
+  "review": "Variant 5002-1 source compared: taller tower, short front lever, separate paired ankle rollers, original lower pulley/cable route and long backrest retained. Only lever and top header green. Black cushions/chassis and chrome hardware preserved; original exercise chart and warning stay in place. Compact physical logo replaces supplier badge.",
+  "publicSku": "FM-GS-5002-1",
+  "editTarget": "src/assets/catalog/FM-GS-5002-1/primary-01-152d06e057fc.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:05:13.672Z",
+  "outputHash": "f5da3ca2c507a48d2a93ead282b1ce964382ea3dbe0909d9e9702217ec8e0cda",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

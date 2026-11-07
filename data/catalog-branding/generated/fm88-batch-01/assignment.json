@@ -1,0 +1,74 @@
+[
+  {
+    "assetId": "fm-8801-d8f0f90ddd2dcc9d",
+    "sku": "FM-8801",
+    "role": "primary",
+    "sourceHash": "b1f6cf8c1d3c729be46110e7e567e80547fe797431f6893358701b540a15d345",
+    "inputPath": "src/assets/catalog/FM-8801/primary-01-c408fff4039e.webp",
+    "originalPath": "data/catalog-assets/originals/b1/b1f6cf8c1d3c729be46110e7e567e80547fe797431f6893358701b540a15d345.jpg",
+    "categoryId": "plate-loaded-machine",
+    "lineId": "fm-88-series",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-8801-d8f0f90ddd2dcc9d.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-8802-2a7eb23729842f08",
+    "sku": "FM-8802",
+    "role": "primary",
+    "sourceHash": "51ef1e3696addeb8042b24ac1cb3f84284d82368bcbfce0fa9ce0ccefe21c9c9",
+    "inputPath": "src/assets/catalog/FM-8802/primary-01-6b68c994146a.webp",
+    "originalPath": "data/catalog-assets/originals/51/51ef1e3696addeb8042b24ac1cb3f84284d82368bcbfce0fa9ce0ccefe21c9c9.jpg",
+    "categoryId": "plate-loaded-machine",
+    "lineId": "fm-88-series",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-8802-2a7eb23729842f08.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-8803-b6a3b2973daee578",
+    "sku": "FM-8803",
+    "role": "primary",
+    "sourceHash": "4fe685ac7d2199fe3da76f34b612f6ee5ec6d5ba110351444a01ad349b55aba1",
+    "inputPath": "src/assets/catalog/FM-8803/primary-01-d594b4122a98.webp",
+    "originalPath": "data/catalog-assets/originals/4f/4fe685ac7d2199fe3da76f34b612f6ee5ec6d5ba110351444a01ad349b55aba1.jpg",
+    "categoryId": "plate-loaded-machine",
+    "lineId": "fm-88-series",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-8803-b6a3b2973daee578.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-8804-b780f0c25b786a16",
+    "sku": "FM-8804",
+    "role": "primary",
+    "sourceHash": "09e8a0e6c8e0de70d759fe6401511e83b5b55b2df51c18d2490c9cb47af49fb4",
+    "inputPath": "src/assets/catalog/FM-8804/primary-01-39cc054e2f7c.webp",
+    "originalPath": "data/catalog-assets/originals/09/09e8a0e6c8e0de70d759fe6401511e83b5b55b2df51c18d2490c9cb47af49fb4.jpg",
+    "categoryId": "plate-loaded-machine",
+    "lineId": "fm-88-series",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-8804-b780f0c25b786a16.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-8806-07ed9cdc44a6caa1",
+    "sku": "FM-8806",
+    "role": "primary",
+    "sourceHash": "8537bf14041c27ac38bd917656bee9d9768f5bcd9b666c0c71fcd42ac538a874",
+    "inputPath": "src/assets/catalog/FM-8806/primary-01-3187a51046e2.webp",
+    "originalPath": "data/catalog-assets/originals/85/8537bf14041c27ac38bd917656bee9d9768f5bcd9b666c0c71fcd42ac538a874.jpg",
+    "categoryId": "plate-loaded-machine",
+    "lineId": "fm-88-series",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-8806-07ed9cdc44a6caa1.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-8810-08df85390bfa5a5c",
+    "sku": "FM-8810",
+    "role": "primary",
+    "sourceHash": "bf320ccf7b2b40b0d0a6f6410ab0b31f44ad5ffe940dd56dd772f0361e6bdbea",
+    "inputPath": "src/assets/catalog/FM-8810/primary-01-8a27bee18af1.webp",
+    "originalPath": "data/catalog-assets/originals/bf/bf320ccf7b2b40b0d0a6f6410ab0b31f44ad5ffe940dd56dd772f0361e6bdbea.jpg",
+    "categoryId": "plate-loaded-machine",
+    "lineId": "fm-88-series",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-8810-08df85390bfa5a5c.png",
+    "status": "pending"
+  }
+]

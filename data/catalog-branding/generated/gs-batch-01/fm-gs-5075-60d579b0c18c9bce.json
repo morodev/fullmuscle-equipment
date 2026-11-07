@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5075-60d579b0c18c9bce",
+  "sku": "FM-GS-5075",
+  "role": "primary",
+  "sourceHash": "2a5c44a56c40c4ea19826081fd6fc52997f919a71750505549fc9bfe06798c1d",
+  "inputPath": "src/assets/catalog/FM-GS-5075/primary-01-0470090fc074.webp",
+  "originalPath": "data/catalog-assets/originals/2a/2a5c44a56c40c4ea19826081fd6fc52997f919a71750505549fc9bfe06798c1d.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5075-60d579b0c18c9bce.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5075 standing leg-curl machine: only main near diagonal moving roller lever between low front pivot and upper central pivot, plus narrow top header strip green. Keep upper twin black rollers, lower long black roller, small separate front kneeling pad, black tower handrails, silver perforated circular angle selector, textured foot platforms, base/tower and cables intact. Compact header logo replaces vendor badge, original chart/right warning preserved.",
+  "review": "Standing leg-curl source compared: upper paired rollers, lower long roller, separate front kneeling pad, long tower handles and silver perforated selector retained. Main diagonal moving lever/header green; black chassis/base, patterned foot platforms and metallic adjustments preserved. Original chart/right warning retained, physical logo replaces badge.",
+  "publicSku": "FM-GS-5075",
+  "editTarget": "src/assets/catalog/FM-GS-5075/primary-01-0470090fc074.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:28:32.124Z",
+  "outputHash": "6a45cbc0b3aec57f044f6daf5ba39ea4f34b83f3dbba2474a75d917d1ac0289f",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

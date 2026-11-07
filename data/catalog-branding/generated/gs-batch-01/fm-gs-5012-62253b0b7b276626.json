@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5012-62253b0b7b276626",
+  "sku": "FM-GS-5012",
+  "role": "primary",
+  "sourceHash": "8060c5df806176ab302e1dc5e5c9cb60d96d3dec8be94f3cd1c5b7ce0f2954a5",
+  "inputPath": "src/assets/catalog/FM-GS-5012/primary-01-4207d13e8c5a.webp",
+  "originalPath": "data/catalog-assets/originals/80/8060c5df806176ab302e1dc5e5c9cb60d96d3dec8be94f3cd1c5b7ce0f2954a5.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5012-62253b0b7b276626.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5012 shoulder press: only the paired horizontal moving press beams beside the tall backrest and narrow header strip turn forest green. Keep black angled grip tubes and rubber grips/silver caps, long back pad/seat, stationary frame/tower/base, pulley system and all cables original. Small logo replaces vendor mark on top header, chart and left warning unchanged.",
+  "review": "Shoulder-press source compared: paired shoulder-height moving beams green with original shape and grip placement, tall backrest/seat and fixed black support/tower/base retained. Black grips, metallic caps, pulley group and cable routes unchanged. Header green with physical logo; original chart/left warning preserved.",
+  "publicSku": "FM-GS-5012",
+  "editTarget": "src/assets/catalog/FM-GS-5012/primary-01-4207d13e8c5a.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:10:59.502Z",
+  "outputHash": "9c69bfb4f9435beb224857fb248f660d9ecbb6f97d1a014052fafc7299e92998",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

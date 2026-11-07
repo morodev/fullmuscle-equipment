@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5010-255cbdeb9ff6e70c",
+  "sku": "FM-GS-5010",
+  "role": "primary",
+  "sourceHash": "51da1423a2cb8a883853412dce0b5da04945b1cf005b35eb14a7c2f2aa29e3a9",
+  "inputPath": "src/assets/catalog/FM-GS-5010/primary-01-72e783c11e21.webp",
+  "originalPath": "data/catalog-assets/originals/51/51da1423a2cb8a883853412dce0b5da04945b1cf005b35eb14a7c2f2aa29e3a9.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5010-255cbdeb9ff6e70c.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5010 delt machine: recolor only the two angled painted lever links behind the front elbow-pad beam and narrow top header strip forest green. Keep front broad horizontal arm-pad beam black, all cylindrical pads, black seat and chassis/tower, cams and pulley cluster, chrome rods and bolts unchanged. Compact logo replaces supplier mark on header above original red-bordered instruction panel; preserve original chart red border and right warning.",
+  "review": "Delt-machine source compared: rear angled links and upper pivot link green, front broad elbow-pad beam remains black, pads/seat, tower, cams and pulley cluster retained. Metallic rods/bolts unchanged; original red-bordered chart and right warning preserved. Green header with replacement logo, principal geometry/view preserved.",
+  "publicSku": "FM-GS-5010",
+  "editTarget": "src/assets/catalog/FM-GS-5010/primary-01-72e783c11e21.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:09:29.599Z",
+  "outputHash": "427b5cc081eeb8c753bfa5b9f9304eb40066c815752e694362b14868963ae014",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

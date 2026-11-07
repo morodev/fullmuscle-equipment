@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5015-bfe7f521001edba7",
+  "sku": "FM-GS-5015",
+  "role": "primary",
+  "sourceHash": "d8931affec1d8df70738404c4ca74acf8587e087ec6bb9213a7c955665bd7ec1",
+  "inputPath": "src/assets/catalog/FM-GS-5015/primary-01-a547f1bd8435.webp",
+  "originalPath": "data/catalog-assets/originals/d8/d8931affec1d8df70738404c4ca74acf8587e087ec6bb9213a7c955665bd7ec1.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5015-bfe7f521001edba7.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5015 total abdominal: only curved upper moving lever supporting shoulder pads and its short central linkage, plus narrow header strip turn forest green. Keep shoulder pads, rubber grip tubes and silver ends, contoured seat/back, black fixed frame and lower foot-lever mechanism, chrome adjustment pieces and cables unchanged. Small header logo replaces badge; retain chart/warning.",
+  "review": "Total-abdominal source compared: curved upper shoulder-pad lever and central link green, also slim painted connecting rod; black shoulder pads, grips, seat/back, main frame and lower foot mechanism retained. Silver index plates and seat adjustment unchanged. Header logo, existing chart/warning retained; principal mechanisms and framing preserved.",
+  "publicSku": "FM-GS-5015",
+  "editTarget": "src/assets/catalog/FM-GS-5015/primary-01-a547f1bd8435.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:12:17.474Z",
+  "outputHash": "e6cefd42934587a83a7c2051f2985b27035f53e74e322ac380ce793b74877133",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

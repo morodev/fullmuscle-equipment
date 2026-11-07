@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5049-ff37e047b49d92a5",
+  "sku": "FM-GS-5049",
+  "role": "primary",
+  "sourceHash": "e0e32469f6eb8010a7480800bd591ccdeb3ce5068673512b45c92174f4b565fc",
+  "inputPath": "src/assets/catalog/FM-GS-5049/primary-01-e1ed3e4b638a.webp",
+  "originalPath": "data/catalog-assets/originals/e0/e0e32469f6eb8010a7480800bd591ccdeb3ce5068673512b45c92174f4b565fc.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5049-ff37e047b49d92a5.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5049 standing calf: recolor only paired upper moving shoulder-yoke beams which carry the TWO black shoulder cushions and their short connecting links, plus narrow header strip forest green. Keep pads and grip rubber black, chrome grip ends and tall central silver adjustment shaft metallic, black main tower/base/foot platform and mid-level mechanism original. Compact logo replaces header supplier mark; chart/warning preserved, no invented labels.",
+  "review": "Standing-calf source compared: paired upper shoulder-yoke levers and header green, two black shoulder pads and grip preserved. Tall silver adjustment shaft, middle black linkage, tower, foot platform/base and pulley/cable arrangement retained. Original chart/right warning preserved, compact physical top logo replaces badge. Principal geometry and camera unchanged.",
+  "publicSku": "FM-GS-5049",
+  "editTarget": "src/assets/catalog/FM-GS-5049/primary-01-e1ed3e4b638a.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:19:44.330Z",
+  "outputHash": "44f474a05b3e396a82639cbc58abfe37c18c28f4eb04097fd149a1b14bdc2556",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

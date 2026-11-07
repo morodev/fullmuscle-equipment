@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5037-0d77ed7b81d192e8",
+  "sku": "FM-GS-5037",
+  "role": "primary",
+  "sourceHash": "06051c8e7b2a1f0041b919b114fc9d8ad3558c930b1385c8a804193ae472100b",
+  "inputPath": "src/assets/catalog/FM-GS-5037/primary-01-c6a8c8b5040c.webp",
+  "originalPath": "data/catalog-assets/originals/06/06051c8e7b2a1f0041b919b114fc9d8ad3558c930b1385c8a804193ae472100b.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5037-0d77ed7b81d192e8.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5037 abdominal machine: recolor ONLY near angled moving lever supporting upper long cylindrical roller and narrow header strip forest green. Preserve opposite lever slope compared to back-extension model, separate contoured lumbar pad/seat, black cam shield and lower two foot bars. Keep all main chassis/stack black, metallic adjustments and original chart/warning unchanged. Logo replaces supplier badge on header.",
+  "review": "Abdominal 5037 source compared: original lever slopes opposite back-extension and retains that orientation, now green with header. Black upper cylindrical roller, lumbar/seat cushions, cam shield and two lower foot bars preserved. Fixed frame/stack remain black, chrome pivots intact. Original chart/warning retained, compact physical top logo.",
+  "publicSku": "FM-GS-5037",
+  "editTarget": "src/assets/catalog/FM-GS-5037/primary-01-c6a8c8b5040c.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:16:59.252Z",
+  "outputHash": "0df0695cf673a93b4024712dc15e2fb6a5dfb3ae61182ef2e7e94163ce6f6f14",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

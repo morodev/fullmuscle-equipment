@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5058-fd63dde4c97cc5bf",
+  "sku": "FM-GS-5058",
+  "role": "primary",
+  "sourceHash": "14e542d8b43e866307900886d3a6fc718a3f16c47ffb08c7a80e8e6856163157",
+  "inputPath": "src/assets/catalog/FM-GS-5058/primary-01-b92c257196e3.webp",
+  "originalPath": "data/catalog-assets/originals/14/14e542d8b43e866307900886d3a6fc718a3f16c47ffb08c7a80e8e6856163157.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5058-fd63dde4c97cc5bf.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5058 leg-extension/prone-leg-curl combination: only long near moving roller lever and narrow header strip green. Preserve unusual bench orientation with two inclined adjustable pads on RIGHT, front black roller on LEFT, curved cam shield and perforated silver adjustment disc, all black frame, side grip ends, pulleys/cables and chrome pivots. Logo replaces supplier badge, original chart retained.",
+  "review": "Leg-extension/prone-curl source compared: unusual right-facing double adjustable pad arrangement and left front roller retained. Long moving roller lever/header green, cam guard black with silver perforated index ring. All stationary frame, extra grips, chrome pivots and side pulleys preserved. Compact header logo and original chart maintained.",
+  "publicSku": "FM-GS-5058",
+  "editTarget": "src/assets/catalog/FM-GS-5058/primary-01-b92c257196e3.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:24:54.648Z",
+  "outputHash": "72f61158b18c5aa9070bd4dc1b2a84a649f6fe917bb0ce7ec6331289c932af71",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

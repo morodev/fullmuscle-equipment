@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5046-60ed513443323f73",
+  "sku": "FM-GS-5046",
+  "role": "primary",
+  "sourceHash": "d1ebf92a353b4be96a71b0ee09fcfce35784a6f9bc07e92fb35244c0365ec2c0",
+  "inputPath": "src/assets/catalog/FM-GS-5046/primary-01-6ec964187d44.webp",
+  "originalPath": "data/catalog-assets/originals/d1/d1ebf92a353b4be96a71b0ee09fcfce35784a6f9bc07e92fb35244c0365ec2c0.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5046-60ed513443323f73.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5046 arm curl: only long near sloping moving lever and short painted handle-support shafts at its LOWER end, plus narrow header strip become green. Keep black preacher pad and seat, rubber grips/silver rings, black cam shield, tower/chassis and all pivot hardware. Preserve this curl variant's low handle position (do not turn into arm extension). Logo replaces top badge; chart retained.",
+  "review": "Arm-curl source compared: low handles, long sloping lever, preacher pad/seat, cam shield, tower and pivots retained. Generation colored the existing front angled pad-support post green instead of the long moving lever, which stays black; also lower painted handle supports and header green. This is a paint-only zone deviation on existing metal, noted for final selection. Base beam and padding remain black, physical header logo/chart preserved.",
+  "publicSku": "FM-GS-5046",
+  "editTarget": "src/assets/catalog/FM-GS-5046/primary-01-6ec964187d44.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:18:25.908Z",
+  "outputHash": "e7d31dab39842835cbd266f4835275015dabec0876b492722c8f0fab59a33fd7",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

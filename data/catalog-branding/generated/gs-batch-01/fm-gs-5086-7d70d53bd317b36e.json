@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5086-7d70d53bd317b36e",
+  "sku": "FM-GS-5086",
+  "role": "primary",
+  "sourceHash": "5627bcce412970ad95bd61b8169e59a6069918473603873e10ee4d57a7da9fb7",
+  "inputPath": "src/assets/catalog/FM-GS-5086/primary-01-725d6b95bd17.webp",
+  "originalPath": "data/catalog-assets/originals/56/5627bcce412970ad95bd61b8169e59a6069918473603873e10ee4d57a7da9fb7.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5086-7d70d53bd317b36e.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5086 biceps/triceps machine: only long upper-left moving painted lever beside sloping preacher pad and short adjoining cam link, plus narrow top header strip forest green. Keep large black sloping preacher cushion with curved top, lower paired grip mechanism and metallic ends, fixed black bench supports/base/tower, chrome perforated index plate and pulleys unchanged. Logo replaces faded supplier mark on original header; preserve original red-bordered instruction panel and right warning.",
+  "review": "Biceps/triceps source compared: sloping preacher cushion with curved upper edge and lower paired grip assembly retained; upper painted lever and adjacent short link green. Fixed bench supports/base/tower black, silver perforated selector and pivot hardware preserved. Header recolored green with compact logo, original red-bordered chart/right warning maintained.",
+  "publicSku": "FM-GS-5086",
+  "editTarget": "src/assets/catalog/FM-GS-5086/primary-01-725d6b95bd17.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:29:30.337Z",
+  "outputHash": "bbfda895a7dff6c82d7fc0bd45174a33a65e2e4d5e630d91ef8e1e9e2cd6c577",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

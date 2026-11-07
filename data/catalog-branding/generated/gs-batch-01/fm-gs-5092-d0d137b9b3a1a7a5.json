@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5092-d0d137b9b3a1a7a5",
+  "sku": "FM-GS-5092",
+  "role": "primary",
+  "sourceHash": "8809eef1d594957ce38d9717d3b5b1abc9926ffaeb639ba6d2fb35a0fdafa6a6",
+  "inputPath": "src/assets/catalog/FM-GS-5092/primary-01-bb8152759e31.webp",
+  "originalPath": "data/catalog-assets/originals/88/8809eef1d594957ce38d9717d3b5b1abc9926ffaeb639ba6d2fb35a0fdafa6a6.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5092-d0d137b9b3a1a7a5.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5092 hip-thrust / inclined seat machine: only two existing painted diagonal moving link bars under the long sloping backrest, plus narrow top header strip green. Preserve the long black angled back pad, contoured black seat and lap belt, tall fixed rear support/base black, large silver horizontal cylinder below seat metallic, two black ribbed front footplates, wide black fixed tower handles with chrome tips, all cable/pulley/stack mechanisms. Compact logo replaces original top badge; chart/left warning retained. Preserve exact frame silhouette.",
+  "review": "Hip-thrust inclined-seat source compared: long angled backrest, contoured seat and lap belt, two ribbed footplates, large horizontal silver cylinder and upper tower handles retained. Green on existing diagonal links beneath backrest/header, fixed rear support/base/tower black. Chrome components and cable/pulley/stack layout preserved, chart/left warning retained and physical logo replaces badge.",
+  "publicSku": "FM-GS-5092",
+  "editTarget": "src/assets/catalog/FM-GS-5092/primary-01-bb8152759e31.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:30:56.013Z",
+  "outputHash": "5bf5fe3c21dc4448bbd664d247da8e83f336d4674f6813532e0498cea219e44f",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

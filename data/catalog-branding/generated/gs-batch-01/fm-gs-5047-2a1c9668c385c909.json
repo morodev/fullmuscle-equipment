@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5047-2a1c9668c385c909",
+  "sku": "FM-GS-5047",
+  "role": "primary",
+  "sourceHash": "8a6636e3ed8f023533ab8279d6f2cf603fa646bee0732d984cb6eb6a521082b5",
+  "inputPath": "src/assets/catalog/FM-GS-5047/primary-01-39ea4d14c6fe.webp",
+  "originalPath": "data/catalog-assets/originals/8a/8a6636e3ed8f023533ab8279d6f2cf603fa646bee0732d984cb6eb6a521082b5.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5047-2a1c9668c385c909.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5047 butterfly machine: only paired long hanging painted arms and short upper pivot links, plus narrow header strip become green. Preserve all distinctive multi-direction black handgrips and silver ends (no elbow pads), black seat/back, tower/base, overhead circular pulleys and adjustment shafts, cable route and weight stack. Compact logo replaces top badge; original warning/chart intact.",
+  "review": "Butterfly source compared: distinctive multi-direction grip ends retained without added elbow pads, paired hanging arms and upper painted pivot links green. Overhead circular pulley/adjustment assemblies remain black and metallic, fixed tower/base/seat/back preserved. Compact header logo replaces supplier badge; chart/warning retained and principal geometry consistent.",
+  "publicSku": "FM-GS-5047",
+  "editTarget": "src/assets/catalog/FM-GS-5047/primary-01-39ea4d14c6fe.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:19:03.426Z",
+  "outputHash": "b4a9e8412e342aab742f0aa43d8bb3bd7d789bd6b4acf0c70ce1d0c367cbbfd2",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

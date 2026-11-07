@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5021-7b68028adf5b9c0a",
+  "sku": "FM-GS-5021",
+  "role": "primary",
+  "sourceHash": "dcf13bb194bc55f20adfeb2239e9a885d2002e0850904d006cb55c1f1e5c1378",
+  "inputPath": "src/assets/catalog/FM-GS-5021/primary-01-5d5fdced93f0.webp",
+  "originalPath": "data/catalog-assets/originals/dc/dcf13bb194bc55f20adfeb2239e9a885d2002e0850904d006cb55c1f1e5c1378.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5021-7b68028adf5b9c0a.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5021 low row: this machine has no large moving painted lever, so recolor ONLY the narrow existing top header strip forest green and replace supplier badge there with compact physical FullMuscle logo. Preserve entirely black long bench and structural arms/feet, low foot brace, tower, stack and cable pulleys, black row handle with chrome ends. Do not recolor base or add accent panels. Original warning/chart retained.",
+  "review": "Low-row source compared: narrow top header only green with compact physical logo. Long bench, foot brace, tower/feet and all structural beams remain black, chrome guide rods and grip ends unchanged. Original handle/pulley arrangement, stack and chart/warning retained. View and principal proportions preserved.",
+  "publicSku": "FM-GS-5021",
+  "editTarget": "src/assets/catalog/FM-GS-5021/primary-01-5d5fdced93f0.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:14:22.232Z",
+  "outputHash": "a1f449d2ae63dd31a2bb822511b2117361d6e849951b77a40cdf21b500ef39ab",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

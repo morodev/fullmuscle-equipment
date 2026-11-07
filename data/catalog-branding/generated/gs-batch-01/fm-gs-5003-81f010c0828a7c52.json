@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-gs-5003-81f010c0828a7c52",
+  "sku": "FM-GS-5003",
+  "role": "primary",
+  "sourceHash": "e7bf71c5bc8b54b760e106b9ee851f246096641e6994d1a91f6ea156a7862d25",
+  "inputPath": "src/assets/catalog/FM-GS-5003/primary-01-b168002c00cc.webp",
+  "originalPath": "data/catalog-assets/originals/e7/e7bf71c5bc8b54b760e106b9ee851f246096641e6994d1a91f6ea156a7862d25.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-gs-series",
+  "outputPath": "data/catalog-branding/generated/gs-batch-01/fm-gs-5003-81f010c0828a7c52.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful product photograph edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target. Images 2 and 3 reference ONLY satin DARK FOREST GREEN ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original view, composition, square opaque white background, silhouette and all principal geometry. Keep original black main frame, every pad and upholstery, rubber grips, black cables/pulleys/weight stack, chrome guide rods and adjustment shafts, bolts, holes, bearings and mechanisms unchanged. Recolor ONLY the explicitly specified existing painted metal zones to forest green, never lime or metallic surfaces. Replace original small red-and-white supplier brand badge at the very top with ONE compact physical FullMuscle Equipment logo on the same existing header surface; no added panels. Preserve original black exercise-chart panel and illustrated instructions, existing red-bordered warnings and weight-selector markings: no invented labels, warnings, text or hardware. No people, no scene changes. FM-GS-5003 rotary-torso machine: only the narrow top header strip above chart and the two existing near horizontal/diagonal lower linkage bars between tower and seat turn forest green. Keep all black seat/knee pads, foot discs, upright frame and overhead grips, chrome rods, weight stack and pulleys unchanged. Logo replaces supplier badge on original header strip, chart/warning retained.",
+  "review": "Rotary-torso source compared: seat/knee pads, circular foot discs, overhead grips, tower, stack and pulley layout retained. Green on lower connecting linkage and long lower painted beam; header remains black with replacement FullMuscle logo (rather than green requested). Main posts/feet remain black. Existing chart/warning preserved; principal geometry unchanged.",
+  "publicSku": "FM-GS-5003",
+  "editTarget": "src/assets/catalog/FM-GS-5003/primary-01-b168002c00cc.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:05:56.752Z",
+  "outputHash": "74e2efb23dc81bf422c429de132078354474be66f0f5b39a1321d6353e5f440a",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}
