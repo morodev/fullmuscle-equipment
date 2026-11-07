@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1024a-a01e95b5182125ba",
+  "sku": "FM-Q1024A",
+  "role": "primary",
+  "sourceHash": "362d572aaaf2605f39115fadf0145311ed3c078c22ce32b934c52e305017c6ba",
+  "inputPath": "src/assets/catalog/FM-Q1024A/primary-01-23e05ed50789.webp",
+  "originalPath": "data/catalog-assets/originals/36/362d572aaaf2605f39115fadf0145311ed3c078c22ce32b934c52e305017c6ba.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1024a-a01e95b5182125ba.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1024A: This is an accessory illustration with a deliberately washed-out translucent GRAY CONTEXT BENCH behind it. Preserve that ghosted bench exactly: do NOT restore its contrast/color. Recolor ONLY the opaque front attachment's existing straight vertical lever tube and short upper linkage DARK FOREST GREEN. Put one tiny vertical physical logo on the opaque vertical tube. Keep all opaque black rollers, black weight plate, silver loading shaft, pivot and pin details unchanged. No new attachments; exact accessory/bench positions.",
+  "review": "Q1024A: confronto visivo mantiene panca contestuale volutamente attenuata/grigia, accessorio opaco con rulli neri, disco peso nero e perno cromato. Verde solo trave verticale e breve link superiore; logo piccolo verticale sul tubo. Vista, margini e giunto principale conservati. Dettagli minuscoli della panca contestuale illustrativi.",
+  "publicSku": "FM-Q1024A",
+  "editTarget": "src/assets/catalog/FM-Q1024A/primary-01-23e05ed50789.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:57:17.785Z",
+  "outputHash": "6d8b93a2e2c3a52e357d70b6a2e332a46017ffc899cb2e31adc6a03a77a35b68",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

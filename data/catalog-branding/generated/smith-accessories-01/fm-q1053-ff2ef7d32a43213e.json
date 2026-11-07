@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1053-ff2ef7d32a43213e",
+  "sku": "FM-Q1053",
+  "role": "primary",
+  "sourceHash": "0e7401e4677936a38984a845dbb1e6b1f87a9e78967e805eba244f9430891977",
+  "inputPath": "src/assets/catalog/FM-Q1053/primary-01-9daba682bbb7.webp",
+  "originalPath": "data/catalog-assets/originals/0e/0e7401e4677936a38984a845dbb1e6b1f87a9e78967e805eba244f9430891977.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1053-ff2ef7d32a43213e.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1053: Recolor ONLY the two long straight main rectangular jammer lever arms DARK FOREST GREEN. Keep adjustable handle brackets, bent handles, top pivot brackets, cross-connecting lower round bar, knobs and collars black; loading horns remain chrome. Add one small vertical physical logo on a free upper section of the near-left arm without covering any holes or bolts. Preserve exact two-arm arrangement and all joints.",
+  "review": "Q1053: confronto mantiene due leve lunghe, due maniglie piegate, attacchi alti, pomelli e ganci bassi, barra tonda trasversale e due corni di carico cromati. Leve verdi, altri componenti neri/argento; logo verticale sul tratto alto sinistro. Geometria principale e prospettiva coerenti, nessuna aggiunta.",
+  "publicSku": "FM-Q1053",
+  "editTarget": "src/assets/catalog/FM-Q1053/primary-01-9daba682bbb7.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:01:53.672Z",
+  "outputHash": "9c9c6216c53aa16fdaf5d2f0d5aa185f784e6025bf2c98584b738633bd848d2a",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

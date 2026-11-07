@@ -1,0 +1,17 @@
+{
+  "previous": {
+    "referenced_image_paths": [
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/multi-stations-01/FM-Q1079.png",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-Q1079/primary-01-4de47c265c02.webp"
+    ],
+    "transparent_background": false,
+    "prompt": "Narrowly localized correction of FIRST already branded photo. SECOND original is reference. Do not regenerate or redesign equipment. Restore ONLY the adjustment holes and scale of LEFT silver upright using second original. In first image the large black numerals incorrectly occupy where the holes should be. Replace those large numeral positions with original round dark adjustment holes matching original spacing/diameter. Put the same existing17,16,15,14,13,12,9,6,5,2,1 values in very small subtle dark printing on narrow RIGHT side of the rail, between holes as in second reference; values behind brackets remain obscured. Also remove faint FITNESS lettering on the top right black upper plate between pulley wheels, leaving plain black, retaining bolts/pulleys. All green panels and Full Muscle logos unchanged. White background unchanged. Do not alter any unmentioned label or machine part."
+  },
+  "correction": {
+    "referenced_image_paths": [
+      "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-f9dfbb4b-85ca-49b0-a8ec-7c282a91aa7d.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Perform a precise tiny text correction on the supplied edited product photograph. No redesign or general regeneration. Exactly TWO tiny text corrections on LEFT silver upright, preserving all restored holes: (1) remove the stray small digit '2' immediately under '12' beside the upper edge of the black J-hook bracket, leaving that silver sliver unprinted since its true number is obscured by bracket. (2) change the small '6' directly under '9' and just above the DIP HANDLE bracket to '8'. Keep the lower '6' below the dip handle unchanged. All other numbers, round holes, green paint, Full Muscle logos and absence of FITNESS at top right remain untouched."
+  }
+}

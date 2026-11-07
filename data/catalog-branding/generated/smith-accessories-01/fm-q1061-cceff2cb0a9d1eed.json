@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1061-cceff2cb0a9d1eed",
+  "sku": "FM-Q1061",
+  "role": "primary",
+  "sourceHash": "07c3902ca5b6d1da5ba5d7d9a78d71b208d09699fdb0a03de147beca10fd2636",
+  "inputPath": "src/assets/catalog/FM-Q1061/primary-01-83dc35864aa4.webp",
+  "originalPath": "data/catalog-assets/originals/07/07c3902ca5b6d1da5ba5d7d9a78d71b208d09699fdb0a03de147beca10fd2636.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1061-cceff2cb0a9d1eed.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1061: Recolor ONLY the large existing angled cylindrical landmine sleeve DARK FOREST GREEN on its OUTER painted metal surface. Keep smaller welded parallel sleeve BLACK and both sleeve interiors black, all base pivot brackets and horizontal mounting rod black, large pivot and end bolt metallic silver. One tiny physical vertical FullMuscle logo along the broad outer side of the large green sleeve. Exact tube lengths/openings/angle, pivot and view, no additions.",
+  "review": "Q1061: confronto conserva doppio manicotto cilindrico di diametri diversi, inclinazione e aperture, forcella a perno bassa e asta di fissaggio orizzontale. Solo cilindro grande verde con logo proporzionato, tubo piccolo e struttura neri, bulloni argento. Nessuna modifica di meccanismo o aggiunta.",
+  "publicSku": "FM-Q1061",
+  "editTarget": "src/assets/catalog/FM-Q1061/primary-01-83dc35864aa4.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:07:34.281Z",
+  "outputHash": "5bacb670c839aec98f49092ff70ce180d60358c3cbd99b2dd2cf952a3a73a8db",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

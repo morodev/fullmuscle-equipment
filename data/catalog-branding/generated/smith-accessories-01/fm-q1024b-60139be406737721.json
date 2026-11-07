@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1024b-60139be406737721",
+  "sku": "FM-Q1024B",
+  "role": "primary",
+  "sourceHash": "d24bcc1fefa6647c7a2b589bcf6b89a9c301c597cad8d29c962705df625822a2",
+  "inputPath": "src/assets/catalog/FM-Q1024B/primary-01-6bc1d4e2376a.webp",
+  "originalPath": "data/catalog-assets/originals/d2/d24bcc1fefa6647c7a2b589bcf6b89a9c301c597cad8d29c962705df625822a2.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1024b-60139be406737721.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1024B: This is an accessory illustration: keep context bench behind deliberately pale ghosted GRAY with identical opacity, no restoration. Recolor ONLY the opaque long diagonal moving arm from weight plates to the upper elbow-pad pivot DARK FOREST GREEN. Small physical logo along its face, leave grips black, all weight plates black and loading shaft/pivot silver. Preserve notched black preacher elbow cushion shape and all bracket geometry.",
+  "review": "Q1024B: confronto positivo su pad predicatore sagomato con apertura, doppie impugnature, braccio inclinato, dischi neri e perno argentato. Verde sulla sola leva con logo fisico lungo il fianco, panca contestuale grigia e attenuata mantenuta. Numerazioni minuscole dei dischi/panca illustrative.",
+  "publicSku": "FM-Q1024B",
+  "editTarget": "src/assets/catalog/FM-Q1024B/primary-01-6bc1d4e2376a.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:57:51.205Z",
+  "outputHash": "a75d27bc39e8403fad610af73717b7b18e3917bf9019b0c6b082e54da8128a34",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

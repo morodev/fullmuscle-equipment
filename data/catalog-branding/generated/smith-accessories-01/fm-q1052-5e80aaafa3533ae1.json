@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1052-5e80aaafa3533ae1",
+  "sku": "FM-Q1052",
+  "role": "primary",
+  "sourceHash": "9783ae5d5653998e4739059a9eeca196f7df9a023b2140280eadaec9604d22ba",
+  "inputPath": "src/assets/catalog/FM-Q1052/primary-01-f597a2a35c9f.webp",
+  "originalPath": "data/catalog-assets/originals/97/9783ae5d5653998e4739059a9eeca196f7df9a023b2140280eadaec9604d22ba.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1052-5e80aaafa3533ae1.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1052: Recolor ONLY the long thin horizontal rectangular crossbeam across the middle DARK FOREST GREEN. Keep large slotted rectangular footplate black, both curved parallel rails black, end hardware black/chrome and yellow locking knobs yellow. Place one tiny physical logo at center of green crossbeam between the two curved rails. Exact front view, every slot, corner notch and attachment preserved.",
+  "review": "Q1052: vista frontale e dimensioni relative confermate; piastra nera sagomata con due colonne di asole, doppio arco nero e attacchi terminali metallici/neri con pomelli gialli preservati. Solo traversa centrale verde, logo minuto al centro fra gli archi. Nessun componente aggiunto.",
+  "publicSku": "FM-Q1052",
+  "editTarget": "src/assets/catalog/FM-Q1052/primary-01-f597a2a35c9f.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:01:13.514Z",
+  "outputHash": "dc1f20327692d89229665006ada4ce545d69dfec6e373226ea44a1b27bfb33f7",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

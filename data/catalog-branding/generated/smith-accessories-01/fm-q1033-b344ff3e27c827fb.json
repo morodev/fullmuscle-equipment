@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1033-b344ff3e27c827fb",
+  "sku": "FM-Q1033",
+  "role": "primary",
+  "sourceHash": "3180ee859600685f0ceac85b94633e8d6db6da7f62738bc4b0c0744efa24d6d1",
+  "inputPath": "src/assets/catalog/FM-Q1033/primary-01-4d6a9fd94b66.webp",
+  "originalPath": "data/catalog-assets/originals/31/3180ee859600685f0ceac85b94633e8d6db6da7f62738bc4b0c0744efa24d6d1.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1033-b344ff3e27c827fb.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1033: Recolor ONLY the existing long rectangular perforated structural beam DARK FOREST GREEN. Keep cylindrical parallel handle bar, its brackets and end mounting plates black, bolt heads metallic. Preserve every hole, spacing, bracket and the same diagonal product view. Place one small physical FullMuscle logo on the existing unperforated upper broad face at the center, without covering holes or hardware. Exact square white canvas/margins.",
+  "review": "Q1033: confronto visivo mantiene trave rettangolare lunga, foratura lungo il fianco, due piastre terminali nere con fori, maniglione cilindrico parallelo e staffe nere con bulloni metallici. Verde sulla trave e logo sulla faccia superiore libera, senza coprire i fori. Geometria e vista diagonale coerenti; solo resa/scala del dettaglio migliorata dall'originale.",
+  "publicSku": "FM-Q1033",
+  "editTarget": "src/assets/catalog/FM-Q1033/primary-01-4d6a9fd94b66.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:59:30.761Z",
+  "outputHash": "4dc11159fc46c98ca577b28eef983702e21a1fff8c55cba1cb48c428eaa1daaf",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

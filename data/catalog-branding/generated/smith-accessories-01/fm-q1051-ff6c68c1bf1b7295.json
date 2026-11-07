@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1051-ff6c68c1bf1b7295",
+  "sku": "FM-Q1051",
+  "role": "primary",
+  "sourceHash": "e27210c9c247a6987675a1d0748c78ca56b7c0b450509fa0df5152987c1fd470",
+  "inputPath": "src/assets/catalog/FM-Q1051/primary-01-a0c0b6566540.webp",
+  "originalPath": "data/catalog-assets/originals/e2/e27210c9c247a6987675a1d0748c78ca56b7c0b450509fa0df5152987c1fd470.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1051-ff6c68c1bf1b7295.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1051: Recolor ONLY the existing horizontal painted support beam directly beneath the black seat pad and extending to its rear mounting bracket DARK FOREST GREEN. One modest physical logo on the visible side face near the right of the seat. Keep black seat and twin rollers, vertical square chrome height-adjustment stem, black stem sleeve/knob and all rack mounting hardware unchanged. Preserve exact geometry and view; no additions.",
+  "review": "Q1051: confronto mantiene seduta rettangolare nera, due rulli neri, stelo quadrato metallico di regolazione, manicotto/knob e staffa rack con due perni. Verde sulla trave di supporto orizzontale, logo sulla faccia libera vicino all'attacco. Geometria, materiali e punto di vista conservati.",
+  "publicSku": "FM-Q1051",
+  "editTarget": "src/assets/catalog/FM-Q1051/primary-01-a0c0b6566540.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:00:52.227Z",
+  "outputHash": "8d831262667aa89c6ae54f31fa4ed30c6bfaa8d02025c131fb9604409b65e87a",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

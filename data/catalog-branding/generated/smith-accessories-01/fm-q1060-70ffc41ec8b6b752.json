@@ -1,0 +1,28 @@
+{
+  "assetId": "fm-q1060-70ffc41ec8b6b752",
+  "sku": "FM-Q1060",
+  "role": "primary",
+  "sourceHash": "bdaf44576183989ffead092cdd9a9db308150c43ca3ac70171bf8f86d12d7818",
+  "inputPath": "src/assets/catalog/FM-Q1060/primary-01-4d378326b437.webp",
+  "originalPath": "data/catalog-assets/originals/bd/bdaf44576183989ffead092cdd9a9db308150c43ca3ac70171bf8f86d12d7818.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1060-70ffc41ec8b6b752.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1060: Recolor ONLY the outer painted metal J-hook side plates on BOTH assemblies DARK FOREST GREEN, leaving their black protective contact liners and black rear rack mounting plates/pins unchanged. One tiny physical logo on the broad side face of the near-left hook clear of bolts. Do not recolor rubber/plastic contact surfaces or silver bolts. Preserve exact hooked shape, brackets, spacing and original view.",
+  "corrections": [
+    {
+      "reason": "Remove invented duplicated open round holes on near J-hook side face; restore source fasteners.",
+      "prompt": "Precise local correction of image 1, the existing green FullMuscle J-hook edit. Image 2 is the exact original hardware reference. Preserve ALL image-1 branding, green paint, geometry, contact liners, camera, background and materials unchanged. Correct ONLY the small black fastener/hole pattern on the broad LEFT green J-hook side plate: the current edit has invented four prominent open round holes in two pairs. Restore the original source's discreet black fasteners exactly as image 2, with NO extra paired holes: one small dark recessed fastener near the upper-left side below the rounded top edge, one dark recessed fastener near mid-left, and the original discreet lower dark fasteners near the lower-left edges. Fill every invented extra round opening flush with the same satin forest-green metal. Keep all existing silver hex bolts untouched. Do not change any other pixel region. This is catalog hardware retouch only."
+    }
+  ],
+  "review": "Q1060: confronto finale dopo correzione locale nativa conferma forma a J, due attacchi posteriori neri, liners protettivi neri e tre viti argentate principali per gancio. Piastre laterali verdi e piccolo logo su gancio sinistro. Rimossi i fori doppi inventati nella prima elaborazione, ripristinati piccoli fissaggi neri coerenti con fonte. Geometria complessiva/vista mantenute.",
+  "publicSku": "FM-Q1060",
+  "editTarget": "src/assets/catalog/FM-Q1060/primary-01-4d378326b437.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:06:39.514Z",
+  "outputHash": "f42d0ee820332174c60d965295dd9635a92fbf276f64f056ea1ac556f32cabb3",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

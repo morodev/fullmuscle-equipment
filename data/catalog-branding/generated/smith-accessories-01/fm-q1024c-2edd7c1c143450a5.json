@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1024c-2edd7c1c143450a5",
+  "sku": "FM-Q1024C",
+  "role": "primary",
+  "sourceHash": "f4fc47a5bef9a9053a951fbcfd51bc743eb32faef8b196b88247928624a01c36",
+  "inputPath": "src/assets/catalog/FM-Q1024C/primary-01-94ae2ee12fca.webp",
+  "originalPath": "data/catalog-assets/originals/f4/f4fc47a5bef9a9053a951fbcfd51bc743eb32faef8b196b88247928624a01c36.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1024c-2edd7c1c143450a5.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1024C: Keep rear context bench deliberately pale ghosted GRAY, exactly its original opacity/geometry. Recolor ONLY the opaque accessory's pair of long diagonal moving lever beams DARK FOREST GREEN. Replace the tiny vendor sticker on the existing short upper-front horizontal mounting beam with ONE small readable physical FullMuscle logo; keep that beam black. All grips, plates, upright bracket and pads stay black; chrome loading rods stay silver. No additions, exact silhouette and view.",
+  "review": "Q1024C: confronto preserva doppio braccio inclinato, montante/supporto centrale, maniglia alta e grip laterale piegato, dischi neri con corni cromati, panca grigia attenuata. Verde sulle due leve; vendor sulla traversa nera sostituito da piccolo logo FullMuscle. Silhouette e posizioni principali mantenute; numerazioni minute illustrative.",
+  "publicSku": "FM-Q1024C",
+  "editTarget": "src/assets/catalog/FM-Q1024C/primary-01-94ae2ee12fca.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:58:23.768Z",
+  "outputHash": "a97dd085b40b1df816d88e3f0803f5d3c865514115b51ab5cfd5b2f8465f3823",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1055-04b4327c38c07783",
+  "sku": "FM-Q1055",
+  "role": "primary",
+  "sourceHash": "a71e46d2da20dcd630f825a23ad70ef93a88c4c6d494b6df8e574515d785157a",
+  "inputPath": "src/assets/catalog/FM-Q1055/primary-01-ce574c8fd955.webp",
+  "originalPath": "data/catalog-assets/originals/a7/a71e46d2da20dcd630f825a23ad70ef93a88c4c6d494b6df8e574515d785157a.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1055-04b4327c38c07783.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1055: Recolor ONLY the existing broad rectangular horizontal crossbeam DARK FOREST GREEN. Add one small physical logo on its broad front face between the original two black fasteners, slightly left of center mounting link if needed. Keep two long cylindrical support prongs black, central square mounting link/clamp and knobs black, two chrome lockpins silver. Exact view, dimensions and all hardware unchanged.",
+  "review": "Q1055: confronto mantiene doppio prong cilindrico nero, traversa rettangolare con due fissaggi neri, collegamento e staffa rack neri, due perni argento con pomelli. Verde sulla sola traversa, logo nella faccia libera sinistra fra fissaggio e attacco centrale. Dimensioni e vista coerenti.",
+  "publicSku": "FM-Q1055",
+  "editTarget": "src/assets/catalog/FM-Q1055/primary-01-ce574c8fd955.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:02:31.003Z",
+  "outputHash": "127e6d8be7178502dda7e900869973e589b96555e157a491d3b817e43ce6d502",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

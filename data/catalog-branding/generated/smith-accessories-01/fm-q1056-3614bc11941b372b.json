@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1056-3614bc11941b372b",
+  "sku": "FM-Q1056",
+  "role": "primary",
+  "sourceHash": "5a939d182239d2ebbd7165a837c22b76582951459545ec7402d54cdced20b242",
+  "inputPath": "src/assets/catalog/FM-Q1056/primary-01-937c25c552d8.webp",
+  "originalPath": "data/catalog-assets/originals/5a/5a939d182239d2ebbd7165a837c22b76582951459545ec7402d54cdced20b242.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1056-3614bc11941b372b.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1056: Recolor ONLY the existing horizontal support beam directly beneath the seat and extending to the rear mounting bracket DARK FOREST GREEN. One modest physical logo on the visible side face near the right of the seat, consistent with Q1051. Black seat and twin rollers, vertical square chrome adjustable stem, black stem sleeve/knob and all rack mounting hardware remain unchanged. Exact silhouette, materials and view.",
+  "review": "Q1056: geometria e vista originali conservate, cuscino rettangolare e rulli neri, stelo metallico, manicotto e pomello neri, due perni e staffa di montaggio mantenuti. Trave sotto sedile verde con logo sulla porzione esposta, coerente con Q1051.",
+  "publicSku": "FM-Q1056",
+  "editTarget": "src/assets/catalog/FM-Q1056/primary-01-937c25c552d8.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:03:19.515Z",
+  "outputHash": "c0d30e44337e76211fed006b742f7a1dd82751aac3e364f063a61fa7bd66a553",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

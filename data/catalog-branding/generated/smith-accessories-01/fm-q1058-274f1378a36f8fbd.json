@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1058-274f1378a36f8fbd",
+  "sku": "FM-Q1058",
+  "role": "primary",
+  "sourceHash": "243137006acddf82563e29a55a4df6ad29441368a08e4a42287d18995f12b060",
+  "inputPath": "src/assets/catalog/FM-Q1058/primary-01-c0b23564a24f.webp",
+  "originalPath": "data/catalog-assets/originals/24/243137006acddf82563e29a55a4df6ad29441368a08e4a42287d18995f12b060.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1058-274f1378a36f8fbd.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1058: Keep ALL round multi-grip bar tubing BLACK, because these are contact grip surfaces. Recolor ONLY the two existing flat rectangular end mounting plates DARK FOREST GREEN. One tiny physical FullMuscle logo on the broad face of the nearer/right end plate in correct perspective, without covering mounting holes/pins. All four silver pins/bolts remain metallic, exact tube bends and four interior angled grip rungs preserved.",
+  "review": "Q1058: confronto mantiene esattamente configurazione della barra multipresa, due tubi lunghi piegati e quattro traversine interne, piastre terminali e quattro perni argento. Tubolari interamente neri; verde solo piastre e logo minuto sulla piastra destra. Vista diagonale e materiali coerenti.",
+  "publicSku": "FM-Q1058",
+  "editTarget": "src/assets/catalog/FM-Q1058/primary-01-c0b23564a24f.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:04:39.698Z",
+  "outputHash": "3830997a17e57f04d9be761c78b7fd1a5ba90f240c90a480ec53846320c72de4",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,8 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/multi-stations-01/FM-Q1009C.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-Q1009C/primary-01-eb9233c95888.webp"
+  ],
+  "transparent_background": false,
+  "prompt": "Narrowly localized correction of FIRST already branded photo. SECOND original is reference. Do not regenerate or redesign equipment. Correct ONLY tiny numerical labels on LEFT silver front column to match second original reference. Above barbell, visible labels from top down are16,15,14,13,12. Below the J-hook and above dip-handle bracket the exposed label is9. Below dip handle visible labels6,5. Below bottom safety arm visible labels2,1. Other labels are obscured by existing black brackets and must stay obscured. Keep every round drilled hole, same scale small type and all branding/geometry unchanged. White background unchanged. Do not alter any unmentioned label or machine part."
+}

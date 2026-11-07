@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1064-ebc5daf93b3790ec",
+  "sku": "FM-Q1064",
+  "role": "primary",
+  "sourceHash": "212ab9e9b2e2e04d9dcdad8c3367dda4ccc7e7ed76fef0df696d390bfe5fc096",
+  "inputPath": "src/assets/catalog/FM-Q1064/primary-01-b01c3e0739b6.webp",
+  "originalPath": "data/catalog-assets/originals/21/212ab9e9b2e2e04d9dcdad8c3367dda4ccc7e7ed76fef0df696d390bfe5fc096.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1064-ebc5daf93b3790ec.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1064: Recolor ONLY the existing long horizontal rectangular crossbeam across the middle DARK FOREST GREEN. Keep large slotted black footplate with top/bottom notches, both curved black parallel rails and black end brackets unchanged, metallic pins/knobs at ends remain silver. Place one tiny physical logo centered on green crossbeam between curved rails, perspective aligned. Exact original slightly angled front view, all slots and hardware unchanged.",
+  "review": "Q1064: confronto conferma piastra sagomata nera, due colonne di sei asole, due archi neri e attacchi terminali con perni argento. Verde sulla sola traversa orizzontale, logo minimo al centro senza coprire asole o hardware. Vista lievemente inclinata e configurazione principale mantenute.",
+  "publicSku": "FM-Q1064",
+  "editTarget": "src/assets/catalog/FM-Q1064/primary-01-b01c3e0739b6.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:10:17.465Z",
+  "outputHash": "fa5b8c118c17d428158a4fc8325fc2fb6faae756027ad61682fb8c3ba59e440e",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

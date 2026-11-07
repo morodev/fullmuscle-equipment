@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1024d-1598585377b252b1",
+  "sku": "FM-Q1024D",
+  "role": "primary",
+  "sourceHash": "afc473db09238ec1e167f37dec413ef73b1313a8a2d1360f8db89708644a2c92",
+  "inputPath": "src/assets/catalog/FM-Q1024D/primary-01-2d42c0a2ca08.webp",
+  "originalPath": "data/catalog-assets/originals/af/afc473db09238ec1e167f37dec413ef73b1313a8a2d1360f8db89708644a2c92.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1024d-1598585377b252b1.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1024D: Preserve the deliberately pale ghosted GRAY context bench behind, never restore its contrast. Recolor ONLY the opaque front attachment's existing long vertical lever tube DARK FOREST GREEN. Put one tiny vertical physical logo on this tube. Keep upper pair and lower pair of black rollers, black loading plate, chrome loading shaft, silver pivot and yellow thin accent at pivot exactly. No new rollers or geometry.",
+  "review": "Q1024D: fonte/risultato coerenti su rulli neri superiori/inferiori, perno alto argento e filetti gialli, disco nero e corno cromato. Tubo verticale verde e logo piccolo verticale. Panca di contesto conserva trattamento grigio attenuato e vista; dimensioni e struttura principali mantenute. Numerazioni piccole illustrative.",
+  "publicSku": "FM-Q1024D",
+  "editTarget": "src/assets/catalog/FM-Q1024D/primary-01-2d42c0a2ca08.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:59:02.189Z",
+  "outputHash": "8db04cf21f3e53324cd66ffaead56e979010c98ad393c7de1d4cbb72627daf39",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

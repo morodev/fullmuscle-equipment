@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1040-cd4675019346277b",
+  "sku": "FM-Q1040",
+  "role": "primary",
+  "sourceHash": "0562f20496f4e1d4b1eac1e0571db580fb87bd6773ba2445ec035b9701c46a8f",
+  "inputPath": "src/assets/catalog/FM-Q1040/primary-01-9640475428b3.webp",
+  "originalPath": "data/catalog-assets/originals/05/0562f20496f4e1d4b1eac1e0571db580fb87bd6773ba2445ec035b9701c46a8f.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1040-cd4675019346277b.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1040: Keep the two separate squat stands in their exact positions. Recolor ONLY the existing triangular reinforcement gusset plates at the bases of BOTH uprights DARK FOREST GREEN; all tall perforated uprights, J-hooks and base foot tubes remain black. Put one tiny physical logo on the near stand's broad triangular plate clear of the bolts. Preserve all holes, spacing, screws, rubber foot caps and silhouette.",
+  "review": "Q1040: due stand separati conservati nella stessa vista, montanti forati, ganci J e basi nere con terminali gomma invariati nel confronto. Verde sulle sole piastre triangolari di rinforzo e logo piccolo sulla piastra vicina. Nessun collegamento aggiunto; bulloneria metallica mantenuta. Forature fini illustrative coerenti con fonte.",
+  "publicSku": "FM-Q1040",
+  "editTarget": "src/assets/catalog/FM-Q1040/primary-01-9640475428b3.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:00:16.488Z",
+  "outputHash": "be9ed6a6b55d8b5b5c0bc959f1c8376a0cb69633663a0c69779ba2cb89dd08fb",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1063-c4790a5d8f492ba0",
+  "sku": "FM-Q1063",
+  "role": "primary",
+  "sourceHash": "0ca4a911bd49933dd944e455fbd74c70d8b80c7cfa94cb1eeedc53d487b283e1",
+  "inputPath": "src/assets/catalog/FM-Q1063/primary-01-8766d97a9199.webp",
+  "originalPath": "data/catalog-assets/originals/0c/0ca4a911bd49933dd944e455fbd74c70d8b80c7cfa94cb1eeedc53d487b283e1.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1063-c4790a5d8f492ba0.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1063: Recolor ONLY the two existing horizontal rectangular extension beams DARK FOREST GREEN. Keep their angled downward legs, foot plates and rear vertical mounting plates BLACK. All holes remain open and identical. One small physical logo on the solid TOP face of the near horizontal beam, so no side hole is covered. Preserve the exact paired supports, angles, number of holes, silhouettes and view.",
+  "review": "Q1063: confronto mantiene coppia di prolunghe con sei fori laterali visibili ciascuna, piastre montaggio posteriori e gambe oblique con piedi neri. Travi orizzontali verdi, logo sulla faccia superiore piena del supporto vicino; nessun foro coperto. Sagoma, numero componenti, angoli e prospettiva coerenti.",
+  "publicSku": "FM-Q1063",
+  "editTarget": "src/assets/catalog/FM-Q1063/primary-01-8766d97a9199.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:09:38.663Z",
+  "outputHash": "bf9a42748d4ae9123c502fe4a545ffa0182b9f371f3059babfd973c743dedead",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "status": "complete",
+  "count": 1,
+  "items": [
+    {
+      "assetId": "fm-q1008a-d2282f7f0d2867b3",
+      "sku": "FM-Q1008A",
+      "role": "primary",
+      "sourceHash": "dc4431ff4e41183cf21381a8a284c831c5fc3a54c3d9b4cded41e56932d93749",
+      "inputPath": "src/assets/catalog/FM-Q1008A/primary-01-77971a424203.webp",
+      "originalPath": "data/catalog-assets/originals/dc/dc4431ff4e41183cf21381a8a284c831c5fc3a54c3d9b4cded41e56932d93749.jpg",
+      "categoryId": "multi-functional-smith-machine-trainer",
+      "lineId": "fm-multi-functional-smith-machine",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/corrections-root/q1008a-final/fm-q1008a-d2282f7f0d2867b3.png",
+      "status": "visually-reviewed",
+      "editTarget": "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-ad1e4d78-cb9e-422e-9428-5fdec67fc5c3.png",
+      "prompt": "MICRO RETOUCH: change exactly ONE printed numeral in this 1254?1254 product photo. Do not redraw the machine. On the LEFT FRONT SILVER UPRIGHT, just BELOW the barbell and its black carriage, there is a tiny black printed digit '2' centered at pixel (297,623), on the NARROW RIGHT-HAND SILVER FACE. Erase precisely that incorrect printed '2' and print '10' in its place, matching the same tiny font, black ink, height and perspective. The edit box for lettering is approximately x=290..304, y=617..633. This is the exposed numeral immediately ABOVE the existing '9' at (297,667), and well ABOVE the lower correctly numbered '6,5,2,1'. The desired local text sequence is '10' then '9'. CRITICAL: the two dark ROUND PHYSICAL HOLES at approximately (281,600) and (281,646) are on the adjoining WIDER LEFT face and must remain completely untouched, open, round and identical; NEVER put ink or '10' over either hole. Modify only the old numeral's ink on the narrow right silver face, NOT the hole face. Do not add a second label. Do not alter any other numeral, part, logo, paint, texture, shadow, geometry, framing or background. All existing 17,16,15,14,13 and 9,6,5,2,1 must remain exactly unchanged. Output the entire same product photo with only this microscopic replacement.",
+      "review": "Correzione localizzata nativa verificata: l'errato 2 sul segmento del montante sinistro appena sotto il bilanciere ? sostituito con 10, seguito da 9. Conservati entrambi i fori fisici adiacenti (sopra e sotto) e la fila restanti fori. Sequenza superiore leggibile 17,16,15,14,13, segmenti inferiori 6,5,2,1 coerenti con fonte e occlusioni da carrelli. Il 10 risulta leggermente pi? grande delle altre cifre, ma resta sulla faccia stretta e non invade i fori. Colore verde, logo, telai, accessori e vista principale invariati nel confronto.",
+      "priorCorrectionHistory": {
+        "previous": {
+          "referenced_image_paths": [
+            "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/multi-stations-01/FM-Q1008A.png",
+            "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-Q1008A/primary-01-77971a424203.webp",
+            "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/.catalog-cache/q1008a-scale.png"
+          ],
+          "transparent_background": false,
+          "prompt": "LOCALIZED correction to FIRST edited product photo; SECOND is original machine and THIRD is magnified original left adjustment scale for exact reference. Keep all green paint, Full Muscle branding, machine geometry and all hardware in FIRST unchanged. Correct ONLY the small dark printed numerical height scale on the LEFT SILVER vertical front column: numbers should count consecutively DOWNWARD from 17 at top to 1 at bottom (or upward from1 at bottom), with one number for each existing hole level; labels hidden beneath black brackets remain hidden. No repetitions, no reversed sequence, no new holes. Visible source labels above main bar 17,16,15,14,13; near bottom visible6,5 then2,1 with intermediate numbers obscured by attachments. Keep this print as SMALL and low-contrast as the source reference, not enlarged bold text. Preserve original circular holes and the unmarked right rail. No other branding changes."
+        },
+        "correction": {
+          "referenced_image_paths": [
+            "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-c88e39c0-1833-45ac-bff0-52a41798b8d8.png",
+            "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-Q1008A/primary-01-77971a424203.webp"
+          ],
+          "transparent_background": false,
+          "prompt": "Narrowly localized correction of FIRST already branded photo. SECOND original is reference. Do not regenerate or redesign equipment. Modify ONLY three tiny printed labels on the LEFT silver front upright. In the visible upper sequence currently17,16,15,15,13 change the LOWER duplicate15 (fourth visible label from top) to14 so it reads17,16,15,14,13. On the exposed silver segment just below the horizontal barbell mounting bracket, change the incorrect tiny2 to10; the next tiny label below it should be9 where visible. Keep correct6,5,2,1 farther down, and keep all holes unchanged. Everything else exactly untouched. White background unchanged. Do not alter any unmentioned label or machine part."
+        }
+      },
+      "outputHash": "c77c05e106cc8d6516e413f570b987228a62483459cbb8c18d71a6752fb10a92",
+      "checkedAt": "2026-11-07T13:13:14.165Z",
+      "tool": "image_gen.imagegen",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/corrections-root/q1008a-final/prompt.json"
+    }
+  ]
+}

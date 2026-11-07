@@ -1,0 +1,24 @@
+{
+  "commit": "7e280a3",
+  "integrated": 651,
+  "samples": [
+    {
+      "sku": "FM-N8058",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/leg-extension-e-leg-curl-fm-n8058/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-360XL",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/stazione-cross-training-fm-360xl/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-Q1106",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/stazione-multifunzione-fm-q1106/",
+      "status": 200,
+      "updatedImage": true
+    }
+  ]
+}

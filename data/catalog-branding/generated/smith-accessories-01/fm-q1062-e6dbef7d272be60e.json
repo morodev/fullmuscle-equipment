@@ -1,0 +1,28 @@
+{
+  "assetId": "fm-q1062-e6dbef7d272be60e",
+  "sku": "FM-Q1062",
+  "role": "primary",
+  "sourceHash": "1cb8e76259469dd60f6ccec4d0b802fe12a52bb153507cd53e3529c9e44a2e2f",
+  "inputPath": "src/assets/catalog/FM-Q1062/primary-01-6cf7aaba6c79.webp",
+  "originalPath": "data/catalog-assets/originals/1c/1cb8e76259469dd60f6ccec4d0b802fe12a52bb153507cd53e3529c9e44a2e2f.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1062-e6dbef7d272be60e.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1062: Recolor ONLY the two existing RED long perforated main jammer arms to satin DARK FOREST GREEN. Keep all perforations clear, black upper pivot brackets, lower handle mounting sleeves and triangular rounded handgrips black. Chrome weight horns and bolts stay silver; little original red locking clips/pins stay red for visibility. One small vertical physical FullMuscle logo on an unperforated upper side face of the near-left arm, never covering holes. Exact spacing/pose/geometry.",
+  "corrections": [
+    {
+      "reason": "Restore original upper adjustment holes and relocate branding clear of them onto existing black pivot plate.",
+      "prompt": "Precise small correction of image 1 green FullMuscle jammer arms. Image 2 is original hardware reference. Preserve green paint, exact overall geometry, black grips/brackets, silver horns/bolts, red locking pins and all composition unchanged. The green near-left arm's upper FullMuscle lettering currently obscures the top original circular adjustment holes. REMOVE that logo from the GREEN arm and restore the original top three holes in that front face at the same regular spacing as image 2, continuing the existing vertical row all the way up. Do not fill, omit or relocate any original holes. Put ONE tiny physical white/green italic FullMuscle Equipment logo instead on the existing BLACK upper pivot mounting plate of the near-left assembly, in the blank space BELOW the silver bolt and ABOVE the red locking pin, without covering either. No added badge/panel, just small printed logo. Keep all else exactly unchanged."
+    }
+  ],
+  "review": "Q1062: confronto finale dopo correzione locale nativa: bracci originariamente rossi ora verdi, maniglie triangolari arrotondate e manicotti neri, corni cromati e clip rosse conservati. Ripristinati i fori alti inizialmente oscurati dal logo; logo trasferito alla piastra nera superiore sinistra, libero da perni e clip. Vista, geometria principale e configurazione mantenute.",
+  "publicSku": "FM-Q1062",
+  "editTarget": "src/assets/catalog/FM-Q1062/primary-01-6cf7aaba6c79.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:09:01.158Z",
+  "outputHash": "12bd264bb319fe95e57860ca1a77365111250aea59f74195a62efd99455e5c66",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

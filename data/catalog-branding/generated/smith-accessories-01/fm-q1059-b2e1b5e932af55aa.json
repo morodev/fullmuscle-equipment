@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1059-b2e1b5e932af55aa",
+  "sku": "FM-Q1059",
+  "role": "primary",
+  "sourceHash": "b6ba1711782ea63e539df42ccfbd929aa0af543e6f9704ecfb73012dcb1f9ed5",
+  "inputPath": "src/assets/catalog/FM-Q1059/primary-01-f4578c030f43.webp",
+  "originalPath": "data/catalog-assets/originals/b6/b6ba1711782ea63e539df42ccfbd929aa0af543e6f9704ecfb73012dcb1f9ed5.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1059-b2e1b5e932af55aa.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1059: Recolor ONLY the two existing long rectangular safety arm beam metal side faces DARK FOREST GREEN. Keep ribbed top contact liners BLACK, raised rounded end stops BLACK, rear rack mounting plates/pins BLACK and all holes open. Add one small physical logo on the near arm's side face above holes, clear of hardware. Preserve exact two-arm arrangement, lengths, tube outlines and every attachment.",
+  "review": "Q1059: confronto visivo conferma due bracci di sicurezza, rivestimenti superiori rigati neri, fermate terminali arrotondate nere, attacchi rack neri e fila fori laterali. Solo facce metalliche lunghe verdi con logo sulla vicina, libero dai fori. Forma, vista e numero di componenti principali mantenuti.",
+  "publicSku": "FM-Q1059",
+  "editTarget": "src/assets/catalog/FM-Q1059/primary-01-f4578c030f43.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:05:06.557Z",
+  "outputHash": "2711102505c2862b1773ad87db73948fa57c7108d78f0594616c92264fbc5302",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

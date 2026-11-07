@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-q1057-c9c97db07a9586f8",
+  "sku": "FM-Q1057",
+  "role": "primary",
+  "sourceHash": "523a0b4911099e808cf7c3696472c065f3afa6665ce8d0515b215ca0b4b0c464",
+  "inputPath": "src/assets/catalog/FM-Q1057/primary-01-9b6994fa05a0.webp",
+  "originalPath": "data/catalog-assets/originals/52/523a0b4911099e808cf7c3696472c065f3afa6665ce8d0515b215ca0b4b0c464.jpg",
+  "categoryId": "multi-functional-smith-machine-trainer",
+  "lineId": "fm-multi-functional-smith-accessories",
+  "outputPath": "data/catalog-branding/generated/smith-accessories-01/fm-q1057-c9c97db07a9586f8.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original black and gray parts unchanged EXCEPT the explicit painted metal zones below; keep upholstery, rubber, chrome/steel rods/rails/loading horns, bolts, pivots, holes and endcaps exactly. Recolor only specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels/hardware, no people. Replace vendor mark when present; preserve existing safety/instruction labels. FM-Q1057: Recolor ONLY the existing pair of long diagonal hanging linkage side plates and the existing lower hook body side faces DARK FOREST GREEN. Preserve black protective contact liners on hooks, black upper horizontal arms, black rear vertical mounting brackets, all silver pivots and bolts unchanged. One tiny physical logo on the broad near diagonal side plate without covering a pivot or cutout. Exact two mirrored assemblies and original geometry.",
+  "review": "Q1057: confronto mantiene coppia di ganci articolati e piastre diagonali sagomate con aperture, attacchi rack posteriori e bracci orizzontali alti neri. Piastra diagonale e facce laterali ganci verdi, liners di contatto neri, bulloni argento. Logo modesto sulla piastra sinistra, senza occupare giunti. Geometria principale preservata.",
+  "publicSku": "FM-Q1057",
+  "editTarget": "src/assets/catalog/FM-Q1057/primary-01-9b6994fa05a0.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T13:04:01.355Z",
+  "outputHash": "5ea04a66181ce40d2449886ecaace5306658161f4eb0571ee9e9db0be46bb3a8",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

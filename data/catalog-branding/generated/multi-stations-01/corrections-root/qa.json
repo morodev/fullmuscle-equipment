@@ -1,0 +1,48 @@
+{
+  "tool": "image_gen.imagegen",
+  "referenceGreen": "#356B35",
+  "items": [
+    {
+      "assetId": "fm-q1009a-db79a5e7391aa0bf",
+      "sku": "FM-Q1009A",
+      "role": "primary",
+      "sourceHash": "dc50ef3848244d306e614a52337666483231c313321746eb5158d30ebe9d4925",
+      "inputPath": "src/assets/catalog/FM-Q1009A/primary-01-03cc9861a0aa.webp",
+      "originalPath": "data/catalog-assets/originals/dc/dc50ef3848244d306e614a52337666483231c313321746eb5158d30ebe9d4925.jpg",
+      "categoryId": "multi-functional-smith-machine-trainer",
+      "lineId": "fm-multi-functional-smith-machine",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/corrections-root/fm-q1009a-db79a5e7391aa0bf.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/corrections-root/prompts/fm-q1009a-db79a5e7391aa0bf.json",
+      "review": "Scala sinistra corretta da confronto fonte ingrandita:16,15,14,13,12 sopra barra;9 e8 dove non coperti;6,5 poi2,1 inferiori. Fori conservati. Marchi fornitore rimossi, Full Muscle e parti verdi, guide metalliche e geometria preservati."
+    },
+    {
+      "assetId": "fm-q1009c-c07fc1f089681536",
+      "sku": "FM-Q1009C",
+      "role": "primary",
+      "sourceHash": "eae205e4e3a7467e273b290a6ec65ee9db024684990d2f1784ecba3ec678d6fa",
+      "inputPath": "src/assets/catalog/FM-Q1009C/primary-01-eb9233c95888.webp",
+      "originalPath": "data/catalog-assets/originals/ea/eae205e4e3a7467e273b290a6ec65ee9db024684990d2f1784ecba3ec678d6fa.jpg",
+      "categoryId": "multi-functional-smith-machine-trainer",
+      "lineId": "fm-multi-functional-smith-machine",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/corrections-root/fm-q1009c-c07fc1f089681536.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/corrections-root/prompts/fm-q1009c-c07fc1f089681536.json",
+      "review": "Scala sinistra corretta da confronto fonte ingrandita:16,15,14,13,12 sopra barra;9 e8 dove non coperti;6,5 poi2,1 inferiori. Fori conservati. Marchi fornitore rimossi, Full Muscle e parti verdi, guide metalliche e geometria preservati."
+    },
+    {
+      "assetId": "fm-q1079-67f0040d9d8763bc",
+      "sku": "FM-Q1079",
+      "role": "primary",
+      "sourceHash": "a24ff23a1a1ab59db6df4b98be8755240c54717e23c3b39bd8ff47675902d61d",
+      "inputPath": "src/assets/catalog/FM-Q1079/primary-01-4de47c265c02.webp",
+      "originalPath": "data/catalog-assets/originals/a2/a24ff23a1a1ab59db6df4b98be8755240c54717e23c3b39bd8ff47675902d61d.jpg",
+      "categoryId": "multi-functional-smith-machine-trainer",
+      "lineId": "fm-multi-functional-smith-machine",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/corrections-root/fm-q1079-67f0040d9d8763bc.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/corrections-root/prompts/fm-q1079-67f0040d9d8763bc.json",
+      "review": "Ripristinati i fori tondi sul montante sinistro, numerazione17?1 spostata sul lato come fonte con valori coperti dalle staffe. Corrette due cifre residue locali. FITNESS superiore rimosso, geometria e marchi Full Muscle conservati."
+    }
+  ]
+}

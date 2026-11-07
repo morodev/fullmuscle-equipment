@@ -1,0 +1,50 @@
+[
+  {
+    "assetId": "fm-q1008a-d2282f7f0d2867b3",
+    "sku": "FM-Q1008A",
+    "role": "primary",
+    "sourceHash": "dc4431ff4e41183cf21381a8a284c831c5fc3a54c3d9b4cded41e56932d93749",
+    "inputPath": "src/assets/catalog/FM-Q1008A/primary-01-77971a424203.webp",
+    "originalPath": "data/catalog-assets/originals/dc/dc4431ff4e41183cf21381a8a284c831c5fc3a54c3d9b4cded41e56932d93749.jpg",
+    "categoryId": "multi-functional-smith-machine-trainer",
+    "lineId": "fm-multi-functional-smith-machine",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-q1008a-d2282f7f0d2867b3.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-q1009a-db79a5e7391aa0bf",
+    "sku": "FM-Q1009A",
+    "role": "primary",
+    "sourceHash": "dc50ef3848244d306e614a52337666483231c313321746eb5158d30ebe9d4925",
+    "inputPath": "src/assets/catalog/FM-Q1009A/primary-01-03cc9861a0aa.webp",
+    "originalPath": "data/catalog-assets/originals/dc/dc50ef3848244d306e614a52337666483231c313321746eb5158d30ebe9d4925.jpg",
+    "categoryId": "multi-functional-smith-machine-trainer",
+    "lineId": "fm-multi-functional-smith-machine",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-q1009a-db79a5e7391aa0bf.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-q1009c-c07fc1f089681536",
+    "sku": "FM-Q1009C",
+    "role": "primary",
+    "sourceHash": "eae205e4e3a7467e273b290a6ec65ee9db024684990d2f1784ecba3ec678d6fa",
+    "inputPath": "src/assets/catalog/FM-Q1009C/primary-01-eb9233c95888.webp",
+    "originalPath": "data/catalog-assets/originals/ea/eae205e4e3a7467e273b290a6ec65ee9db024684990d2f1784ecba3ec678d6fa.jpg",
+    "categoryId": "multi-functional-smith-machine-trainer",
+    "lineId": "fm-multi-functional-smith-machine",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-q1009c-c07fc1f089681536.png",
+    "status": "pending"
+  },
+  {
+    "assetId": "fm-q1079-67f0040d9d8763bc",
+    "sku": "FM-Q1079",
+    "role": "primary",
+    "sourceHash": "a24ff23a1a1ab59db6df4b98be8755240c54717e23c3b39bd8ff47675902d61d",
+    "inputPath": "src/assets/catalog/FM-Q1079/primary-01-4de47c265c02.webp",
+    "originalPath": "data/catalog-assets/originals/a2/a24ff23a1a1ab59db6df4b98be8755240c54717e23c3b39bd8ff47675902d61d.jpg",
+    "categoryId": "multi-functional-smith-machine-trainer",
+    "lineId": "fm-multi-functional-smith-machine",
+    "outputPath": "data/catalog-branding/generated/catalog/fm-q1079-67f0040d9d8763bc.png",
+    "status": "pending"
+  }
+]

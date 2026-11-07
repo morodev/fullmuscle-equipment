@@ -1,0 +1,271 @@
+{
+  "batch": "multi-stations-01",
+  "tool": "image_gen.imagegen",
+  "referenceGreen": "#356B35",
+  "items": [
+    {
+      "sku": "FM-Q1001",
+      "assetId": "fm-q1001-d013924e04c1dc98",
+      "sourceHash": "8082e1be5cb2497138585aed165f06e3836add26a6a99c21d171fbe390ffbcbb",
+      "inputPath": "src/assets/catalog/FM-Q1001/primary-01-0afefff18da0.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1001.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1001.json",
+      "review": "Source and result visually inspected: blue structural headers, base panels and pulley housings green; blue functional knobs and selector pin retained, silver uprights and guides, black stacks and four discs, accessories and exercise board preserved.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1002",
+      "assetId": "fm-q1002-70d6b81bdd68c33c",
+      "sourceHash": "58a9b1105c27362d6d0fd8ec0f6d7cec90eee141604cf0be0f20e8cf661df06e",
+      "inputPath": "src/assets/catalog/FM-Q1002/primary-01-c81697dd9dde.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1002.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1002.json",
+      "review": "Source and final corrected result visually inspected: red structural headers, bases and carriage housings green; blue knobs retained. Corrected invented scale digits using original inspection crops: left visible descending sequence restored and right secondary square holes restored. Plate-loading lower mechanism and all existing accessories preserved; no weight stack added.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1003",
+      "assetId": "fm-q1003-d286b6e17fc31196",
+      "sourceHash": "a8def1799e7ea5431bfccffac7fb4f09a7c2959dea42db54c4139adecd4f2bb0",
+      "inputPath": "src/assets/catalog/FM-Q1003/primary-01-2f8d170a9b68.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1003.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1003.json",
+      "review": "Source and result visually inspected: existing blue press beam and inner diagonal linkage green; black press grips/roller, knee rollers, plates and main frame retained, silver sleeves/chain preserved. Upper lat bar and low cable bar retained, central brand badge replaced.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1004",
+      "assetId": "fm-q1004-73a4edfb0b6cc193",
+      "sourceHash": "e8157fa4af2ccde17dd48a51ae7c1e9370698ff1caf01fb30db3e61caedc3059",
+      "inputPath": "src/assets/catalog/FM-Q1004/primary-01-98777de63856.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1004.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1004.json",
+      "review": "Source and result visually inspected: blue structural lever arms and leg-extension support green; all yellow functional knobs/releases retained, original black pads, weight discs, adjustment ladder and frame preserved, chrome sleeves unchanged.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1005",
+      "assetId": "fm-q1005-84a97223c96ce6ca",
+      "sourceHash": "0b81f2d30b4fa24c2208205c63c371876a588f2ed5e5935d35becbe6243c3c9b",
+      "inputPath": "src/assets/catalog/FM-Q1005/primary-01-3b1b3a75b533.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1005.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1005.json",
+      "review": "Source and result visually inspected: blue moving arms and linkages green; both source bench configurations, adjustment mechanisms and preacher/roller pads preserved. Yellow upper release handle retained, black discs and silver loading sleeves unchanged.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1007",
+      "assetId": "fm-q1007-53b9bea10b8f7021",
+      "sourceHash": "58223d6cffea52a54f1d80cca442306f52d9ffeb27f6a4a70b901f4c2d103517",
+      "inputPath": "src/assets/catalog/FM-Q1007/primary-01-8946685afa8a.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1007.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1007.json",
+      "review": "Source and result visually inspected: blue top and foot gussets green, black carriage housings and blue functional knobs retained. Silver uprights, chrome guides, four stored discs, exposed cable-loading mechanism and all attachments preserved.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1008A",
+      "assetId": "fm-q1008a-d2282f7f0d2867b3",
+      "sourceHash": "dc4431ff4e41183cf21381a8a284c831c5fc3a54c3d9b4cded41e56932d93749",
+      "inputPath": "src/assets/catalog/FM-Q1008A/primary-01-77971a424203.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1008A.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1008A.json",
+      "review": "Final native image correction visually reviewed by root and featured_rebranding: left upright source scale restored; incorrect2 below Smith carriage replaced by10, followed by9. Both adjacent circular holes preserved.10 slightly larger than neighboring microprint but stays on narrow numbered face and clear of holes. Green finish, branding, model geometry and attachments retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1009A",
+      "assetId": "fm-q1009a-db79a5e7391aa0bf",
+      "sourceHash": "dc50ef3848244d306e614a52337666483231c313321746eb5158d30ebe9d4925",
+      "inputPath": "src/assets/catalog/FM-Q1009A/primary-01-03cc9861a0aa.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1009A.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1009A.json",
+      "review": "Root visual review of corrected result: Scala sinistra corretta da confronto fonte ingrandita:16,15,14,13,12 sopra barra;9 e8 dove non coperti;6,5 poi2,1 inferiori. Fori conservati. Marchi fornitore rimossi, Full Muscle e parti verdi, guide metalliche e geometria preservati.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1009C",
+      "assetId": "fm-q1009c-c07fc1f089681536",
+      "sourceHash": "eae205e4e3a7467e273b290a6ec65ee9db024684990d2f1784ecba3ec678d6fa",
+      "inputPath": "src/assets/catalog/FM-Q1009C/primary-01-eb9233c95888.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1009C.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1009C.json",
+      "review": "Root visual review of corrected result: Scala sinistra corretta da confronto fonte ingrandita:16,15,14,13,12 sopra barra;9 e8 dove non coperti;6,5 poi2,1 inferiori. Fori conservati. Marchi fornitore rimossi, Full Muscle e parti verdi, guide metalliche e geometria preservati.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1010",
+      "assetId": "fm-q1010-ce19f494e6328c8d",
+      "sourceHash": "8d7c2067c3d77cc18ea4cb080c070214d5d393d8065437d0687ea8db74323115",
+      "inputPath": "src/assets/catalog/FM-Q1010/primary-01-bd62d3226348.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1010.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1010.json",
+      "review": "Source and result visually inspected: yellow top boom and pulley guard shells green; original black arms and pads unchanged, blue controls retained. Silver chains, top lat bar and low straight bar preserved, blue TZ replaced on shroud.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1011",
+      "assetId": "fm-q1011-5e9c7720ed0915e4",
+      "sourceHash": "ee006a7a2b469ec6c6084b966d6c112c99da0839bd84ecba1923f2447753a84e",
+      "inputPath": "src/assets/catalog/FM-Q1011/primary-01-49258c687af6.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1011.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1011.json",
+      "review": "Source and result visually inspected: blue boom, press/cable arms, load lever and leg-extension frame green; blue functional controls retained. Source rear dip station, black weight discs, all pads, silver chains and both charts preserved, TZ brand replaced.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1013",
+      "assetId": "fm-q1013-ec5172fe0956f189",
+      "sourceHash": "022a7293a85321df5a2d7fc8f29d3edb7d6f7e3e8cd224a80f5cf029ebd648cd",
+      "inputPath": "src/assets/catalog/FM-Q1013/primary-01-a51e31639583.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1013.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1013.json",
+      "review": "Source and result visually inspected: blue boom, curved press arm, leg-extension and left leg-press structure green; both black footplates, pads and source cable routing retained, blue functional controls unchanged, TZ replaced above chart.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1016",
+      "assetId": "fm-q1016-4299c540adf1e439",
+      "sourceHash": "72fdcc982893e87434e591f7317f0c31f2b5d07e7060cedaa163abc2e21519fe",
+      "inputPath": "src/assets/catalog/FM-Q1016/primary-01-00aa0cd913ca.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1016.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1016.json",
+      "review": "Source and result visually inspected: blue upper and lower lever assemblies green; blue/yellow functional controls, original black frame/pads/stack and all chrome rods/sleeves preserved. Treaded platform, rollers, two upper bars and original stations retained.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1017",
+      "assetId": "fm-q1017-ed609f37224ee875",
+      "sourceHash": "5031d5c6681eb6e35ca006d301e5ca0bc68ad8e2c9387b96ada6d59e2d7e059d",
+      "inputPath": "src/assets/catalog/FM-Q1017/primary-01-6cd9911b75ae.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1017.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1017.json",
+      "review": "Source and final corrected result visually inspected. Intended green accents, all hardware and exercise diagrams retained. Localized imagegen edit removed the residual TZ monogram below Full Muscle; no source brand remains.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1018",
+      "assetId": "fm-q1018-928b1aeb2e5af26d",
+      "sourceHash": "6f8f3099ff8441b7838eac674ecee48e9f899293b11535c625a8af4c9f572b57",
+      "inputPath": "src/assets/catalog/FM-Q1018/primary-01-4def63076da0.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1018.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1018.json",
+      "review": "Source and result visually inspected: top gussets, base beams and carriage shells green; both red selector knobs retained. Both upright numeric sequences match visible source1,2,3 then5 through16 with4 occluded. Central Full Muscle replaces TZ, original chart and black stacks preserved.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1019",
+      "assetId": "fm-q1019-4795abee77193991",
+      "sourceHash": "a415ec28eecedfec91980cb734a7be30277f5d9cbe00c6b2104dfe76c6ba2ce3",
+      "inputPath": "src/assets/catalog/FM-Q1019/primary-01-4c28a32832fd.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1019.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1019.json",
+      "review": "Source and result visually inspected: top/base side beams green; all chrome chains, safety pegs, guide rails, sleeves, source stack and accessories retained. X/TZ branding replaced and exercise diagram panel remains.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1027",
+      "assetId": "fm-q1027-b609df0f55d91a94",
+      "sourceHash": "0d533e763b19b0516d0c9edff90d509204e37373c1784fd9af73c61fef7308ca",
+      "inputPath": "src/assets/catalog/FM-Q1027/primary-01-0492dd3dc67a.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1027.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1027.json",
+      "review": "Source and final corrected result visually inspected. Green arms/base and Full Muscle labels retained. Restored source dark upright scale16,15,14,13 above carriage and10 through1 below, with12/11 occluded; round holes remain. Micro exercise labels remain illustrative at source scale.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1028",
+      "assetId": "fm-q1028-578eb1b14344ca7d",
+      "sourceHash": "76b38a65a054fa72f21d34ca41ac3db524f3b7c5b144c830719054a07bdf47a6",
+      "inputPath": "src/assets/catalog/FM-Q1028/primary-01-9634a09ab488.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1028.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1028.json",
+      "review": "Source and final corrected result visually inspected. Intended green accents, all hardware and exercise diagrams retained. Localized imagegen edit removed the residual TZ monogram below Full Muscle; no source brand remains.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1035",
+      "assetId": "fm-q1035-2ddd0c69b5f2380a",
+      "sourceHash": "2a1197c5d406af03e1565225507e93d9973beb9508489306114acdbec2426b85",
+      "inputPath": "src/assets/catalog/FM-Q1035/primary-01-84ddf02999c8.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1035.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1035.json",
+      "review": "Source and result visually inspected: side beams and carriage shells green, black perforated uprights/shrouds and pull-up grip balls retained. Vertical and large X branding replaced; small X ventilation perforations, stacks, chrome guides and accessories preserved.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1071",
+      "assetId": "fm-q1071-af7945dc7511e0a4",
+      "sourceHash": "ca9f0cbcb0937df0493215b0c83a5f12693bc6ceec0d311770f01509d60b599c",
+      "inputPath": "src/assets/catalog/FM-Q1071/primary-01-878909ee4387.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1071.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1071.json",
+      "review": "Source and final corrected result visually inspected. Green outer frame and original brushed silver panel retained. Corrected duplicated12 to11 using enlarged original/current comparison references; visible sequence12,11,10 through1 and all round holes preserved. White selector knob and black handles unchanged.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1073",
+      "assetId": "fm-q1073-80d4dab8ad7995f1",
+      "sourceHash": "c1bd296435cb3c03ab017b19339daae47e304055dd9c2546b739c1ff1b3d0fb1",
+      "inputPath": "src/assets/catalog/FM-Q1073/primary-01-a2cc521f73b7.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1073.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1073.json",
+      "review": "Source and result visually inspected: selected upper/base beams and carriage housings green, long stitched strap and all pulleys/attachments preserved, separate straight cable bar and triceps rope remain at upper right. No discs or stacks added.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1079",
+      "assetId": "fm-q1079-67f0040d9d8763bc",
+      "sourceHash": "a24ff23a1a1ab59db6df4b98be8755240c54717e23c3b39bd8ff47675902d61d",
+      "inputPath": "src/assets/catalog/FM-Q1079/primary-01-4de47c265c02.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1079.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1079.json",
+      "review": "Root visual review of corrected result: Ripristinati i fori tondi sul montante sinistro, numerazione17?1 spostata sul lato come fonte con valori coperti dalle staffe. Corrette due cifre residue locali. FITNESS superiore rimosso, geometria e marchi Full Muscle conservati.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1090",
+      "assetId": "fm-q1090-c64f1720714a6586",
+      "sourceHash": "aaf9f552790d7c68c94efb65a8da72a81fd6d1c11a487e5cb26d1a32b46503b8",
+      "inputPath": "src/assets/catalog/FM-Q1090/primary-01-3d9d7b3f5455.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1090.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1090.json",
+      "review": "Source and result visually inspected: curved side frame members, base beams and carriage shells green; yellow locking handles, black front uprights with holes, twin stacks, pads and footplates retained, chrome rods/springs/sleeves unchanged.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1105",
+      "assetId": "fm-q1105-6ce446f03b6d10a3",
+      "sourceHash": "04ad3fd8c1b0a932aa50251ab2dc8ef50c6f36d5090cd4d8d9a146e4c0739839",
+      "inputPath": "src/assets/catalog/FM-Q1105/primary-01-f207a3a2f982.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1105.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1105.json",
+      "review": "Source and result visually inspected: top gussets, base beams and carriage brackets green; both original upright scales preserved1,2 then4 through16 with3 hidden. Original exposed plate-loading pulleys retained without added stacks; source badge replaced.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1108",
+      "assetId": "fm-q1108-0d9552003d6c1de6",
+      "sourceHash": "1ad528b9c66770aeaa07c2f109b8c74bd4b4d946262518c938ec17de44db9c68",
+      "inputPath": "src/assets/catalog/FM-Q1108/primary-01-1d325a83b9f7.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1108.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1108.json",
+      "review": "Source and result visually inspected: front header, upper side beams and carriage shells green; all blue functional knobs retained, silver perforated uprights and guides preserved, black catches and attachments unchanged, header branding replaced.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-Q1113",
+      "assetId": "fm-q1113-823b6a7656a92a72",
+      "sourceHash": "874adad865f981cecf5a98a1c6a229c2c9b572ee912cdc6dc0017af82599c961",
+      "inputPath": "src/assets/catalog/FM-Q1113/primary-01-0060f95c3359.webp",
+      "outputPath": "data/catalog-branding/generated/multi-stations-01/FM-Q1113.png",
+      "promptPath": "data/catalog-branding/generated/multi-stations-01/prompts/FM-Q1113.json",
+      "review": "Source and result visually inspected: top connecting beam, curved feet and carriage shells green; both pairs of hanging grips, four separate left-side accessories, overhead slider hooks, black shrouds, stack and chrome hardware preserved.",
+      "status": "approved"
+    }
+  ],
+  "count": 26,
+  "approvedCount": 26,
+  "reviewCount": 0,
+  "status": "complete"
+}
