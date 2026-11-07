@@ -23,6 +23,7 @@
     "test": "tsx --test scripts/catalog/**/*.test.ts",
     "test:output": "tsx --test scripts/site/output.test.ts",
     "test:e2e": "playwright test",
+    "brochure:test": "node --test brochures/fullmuscle-g5/scripts/pricing.test.mjs",
     "brochure:build": "node brochures/fullmuscle-g5/scripts/build.mjs",
     "brochure:check": "node brochures/fullmuscle-g5/scripts/check.mjs"
   },

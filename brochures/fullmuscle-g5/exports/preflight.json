@@ -1,7 +1,12 @@
 {
-  "generatedAt": "2026-11-07T09:40:15.143Z",
+  "generatedAt": "2026-11-07T14:06:59.658Z",
   "mode": "final-export",
   "catalogModels": 105,
+  "pricingInputs": {
+    "content/catalog.json": "0e0e3cff596bbac708f32b4c4f71d35fdf160333cfa0832663ef52f89ccea2e7",
+    "content/pricing-config.json": "40b1e026637fd2a7d6e0978d09ef91b7a4b89be440fedf8bcefcf054f3e6fb36",
+    "content/purchase-prices.json": "42a50fb9030d858fed91b2c644b26f1d953bae7eca970c4afb2ad1458d88c244"
+  },
   "brochureModels": [
     "FM-GC-5016",
     "FM-GC-5002",
@@ -17,10 +22,8 @@
   "qr": {
     "destination": "https://fullmuscle-equipment.com/cataloghi/fullmuscle-g5.pdf",
     "encoded": true,
-    "publicHttpStatus": 200,
-    "physicalPrintScan": "not-performed",
-    "publicFileMatchesExport": true,
-    "publicCheckedAt": "2026-11-07T09:43:10.200Z"
+    "publicHttpStatus": "not-verified",
+    "physicalPrintScan": "not-performed"
   },
   "print": {
     "trimMm": [
@@ -43,17 +46,17 @@
       "colorSpace": "RGB / sRGB image assets; not certified PDF/X",
       "embeddedFonts": [
         {
-          "reference": "688 0 R",
+          "reference": "712 0 R",
           "name": "/AAAAAA+Arial-BoldMT",
           "embedded": true
         },
         {
-          "reference": "692 0 R",
+          "reference": "716 0 R",
           "name": "/BAAAAA+ArialNarrow-Bold",
           "embedded": true
         },
         {
-          "reference": "696 0 R",
+          "reference": "720 0 R",
           "name": "/CAAAAA+ArialMT",
           "embedded": true
         }
@@ -79,9 +82,9 @@
           "asset": "legpress-training",
           "page": 3,
           "loaded": true,
-          "ppi": 629,
+          "ppi": 813,
           "widthMm": 62,
-          "heightMm": 42
+          "heightMm": 32
         },
         {
           "asset": "FM-GC-5002",
@@ -111,9 +114,9 @@
           "asset": "chest-training",
           "page": 6,
           "loaded": true,
-          "ppi": 629,
+          "ppi": 813,
           "widthMm": 62,
-          "heightMm": 42
+          "heightMm": 32
         },
         {
           "asset": "FM-GC-5008",
@@ -158,8 +161,55 @@
       ],
       "overflow": [],
       "issues": [],
-      "sha256": "b4e373a308dc25a63cdef119a2cc21b3015345d97d277a9b645e06611a0bbf65",
-      "bytes": 3866982
+      "sha256": "0d1bb3e8378901ad406736183a8f71df2c55d78a01a89d80bf859e0875a08829",
+      "bytes": 3869014,
+      "priceChecks": {
+        "expectedCount": 8,
+        "renderedCount": 8,
+        "entries": [
+          {
+            "sku": "FM-GC-5016",
+            "amountEur": 1662,
+            "text": "Prezzo di listino 1.662 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5002",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5001",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5005",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5008",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5004",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5012",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5010",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          }
+        ],
+        "issues": []
+      }
     },
     {
       "filename": "catalogo-completo.pdf",
@@ -169,17 +219,17 @@
       "colorSpace": "RGB / sRGB image assets; not certified PDF/X",
       "embeddedFonts": [
         {
-          "reference": "3940 0 R",
+          "reference": "4255 0 R",
           "name": "/AAAAAA+Arial-BoldMT",
           "embedded": true
         },
         {
-          "reference": "3944 0 R",
+          "reference": "4259 0 R",
           "name": "/BAAAAA+ArialNarrow-Bold",
           "embedded": true
         },
         {
-          "reference": "3948 0 R",
+          "reference": "4263 0 R",
           "name": "/CAAAAA+ArialMT",
           "embedded": true
         }
@@ -205,17 +255,17 @@
           "asset": "FM-G-42",
           "page": 3,
           "loaded": true,
-          "ppi": 412,
-          "widthMm": 63,
-          "heightMm": 68.73
+          "ppi": 472,
+          "widthMm": 54.99,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5017",
           "page": 4,
           "loaded": true,
-          "ppi": 389,
-          "widthMm": 62.71,
-          "heightMm": 75
+          "ppi": 486,
+          "widthMm": 50.17,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5018",
@@ -229,17 +279,17 @@
           "asset": "FM-GC-5038",
           "page": 5,
           "loaded": true,
-          "ppi": 383,
-          "widthMm": 62.66,
-          "heightMm": 75
+          "ppi": 479,
+          "widthMm": 50.13,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5090",
           "page": 5,
           "loaded": true,
-          "ppi": 363,
-          "widthMm": 60.99,
-          "heightMm": 75
+          "ppi": 453,
+          "widthMm": 48.79,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5097",
@@ -253,9 +303,9 @@
           "asset": "FM-GC-5097A",
           "page": 6,
           "loaded": true,
-          "ppi": 408,
-          "widthMm": 63,
-          "heightMm": 62.44
+          "ppi": 424,
+          "widthMm": 60.54,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5098",
@@ -269,9 +319,9 @@
           "asset": "FM-GC-5098A-5200",
           "page": 7,
           "loaded": true,
-          "ppi": 381,
-          "widthMm": 30.3,
-          "heightMm": 75
+          "ppi": 477,
+          "widthMm": 24.24,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5098A-5202",
@@ -285,9 +335,9 @@
           "asset": "FM-GC-5098A-5203",
           "page": 8,
           "loaded": true,
-          "ppi": 398,
-          "widthMm": 63,
-          "heightMm": 65.87
+          "ppi": 437,
+          "widthMm": 57.38,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5099",
@@ -301,41 +351,41 @@
           "asset": "FM-GC-5003",
           "page": 9,
           "loaded": true,
-          "ppi": 330,
-          "widthMm": 50.56,
-          "heightMm": 75
+          "ppi": 412,
+          "widthMm": 40.45,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5006",
           "page": 10,
           "loaded": true,
-          "ppi": 318,
-          "widthMm": 60.64,
-          "heightMm": 75
+          "ppi": 398,
+          "widthMm": 48.51,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5015",
           "page": 10,
           "loaded": true,
-          "ppi": 388,
-          "widthMm": 58.37,
-          "heightMm": 75
+          "ppi": 485,
+          "widthMm": 46.7,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5019-1",
           "page": 11,
           "loaded": true,
-          "ppi": 413,
-          "widthMm": 48.48,
-          "heightMm": 75
+          "ppi": 516,
+          "widthMm": 38.78,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5019-2",
           "page": 11,
           "loaded": true,
-          "ppi": 370,
-          "widthMm": 35.74,
-          "heightMm": 75
+          "ppi": 462,
+          "widthMm": 28.6,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5026",
@@ -357,97 +407,97 @@
           "asset": "FM-GC-5037",
           "page": 13,
           "loaded": true,
-          "ppi": 373,
-          "widthMm": 60.84,
-          "heightMm": 75
+          "ppi": 467,
+          "widthMm": 48.67,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5054",
           "page": 13,
           "loaded": true,
-          "ppi": 379,
-          "widthMm": 61.04,
-          "heightMm": 75
+          "ppi": 473,
+          "widthMm": 48.84,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5088",
           "page": 14,
           "loaded": true,
-          "ppi": 382,
-          "widthMm": 59.31,
-          "heightMm": 75
+          "ppi": 478,
+          "widthMm": 47.44,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5113",
           "page": 14,
           "loaded": true,
-          "ppi": 376,
-          "widthMm": 50.68,
-          "heightMm": 75
+          "ppi": 470,
+          "widthMm": 40.54,
+          "heightMm": 60
         },
         {
           "asset": "FM-G-45",
           "page": 15,
           "loaded": true,
-          "ppi": 409,
-          "widthMm": 63,
-          "heightMm": 65.17
+          "ppi": 444,
+          "widthMm": 58,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5001",
           "page": 15,
           "loaded": true,
-          "ppi": 341,
-          "widthMm": 63,
-          "heightMm": 69.93
+          "ppi": 397,
+          "widthMm": 54.05,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5002",
           "page": 16,
           "loaded": true,
-          "ppi": 325,
-          "widthMm": 61.64,
-          "heightMm": 75
+          "ppi": 406,
+          "widthMm": 49.31,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5002-1",
           "page": 16,
           "loaded": true,
-          "ppi": 387,
-          "widthMm": 49.15,
-          "heightMm": 75
+          "ppi": 484,
+          "widthMm": 39.32,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5009",
           "page": 17,
           "loaded": true,
-          "ppi": 370,
-          "widthMm": 53,
-          "heightMm": 75
+          "ppi": 462,
+          "widthMm": 42.4,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5014",
           "page": 17,
           "loaded": true,
-          "ppi": 378,
-          "widthMm": 62.09,
-          "heightMm": 75
+          "ppi": 472,
+          "widthMm": 49.68,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5016",
           "page": 18,
           "loaded": true,
-          "ppi": 404,
-          "widthMm": 63,
-          "heightMm": 71.8
+          "ppi": 483,
+          "widthMm": 52.64,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5022",
           "page": 18,
           "loaded": true,
-          "ppi": 393,
-          "widthMm": 63,
-          "heightMm": 72.56
+          "ppi": 475,
+          "widthMm": 52.09,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5022-1",
@@ -461,73 +511,73 @@
           "asset": "FM-GC-5033",
           "page": 19,
           "loaded": true,
-          "ppi": 396,
-          "widthMm": 63,
-          "heightMm": 71.4
+          "ppi": 471,
+          "widthMm": 52.94,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5039",
           "page": 20,
           "loaded": true,
-          "ppi": 338,
-          "widthMm": 60.71,
-          "heightMm": 75
+          "ppi": 422,
+          "widthMm": 48.56,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5044",
           "page": 20,
           "loaded": true,
-          "ppi": 460,
-          "widthMm": 63,
-          "heightMm": 62.83
+          "ppi": 482,
+          "widthMm": 60.16,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5044-1",
           "page": 21,
           "loaded": true,
-          "ppi": 445,
-          "widthMm": 63,
-          "heightMm": 64.03
+          "ppi": 475,
+          "widthMm": 59.04,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5049",
           "page": 21,
           "loaded": true,
-          "ppi": 395,
-          "widthMm": 48.65,
-          "heightMm": 75
+          "ppi": 494,
+          "widthMm": 38.92,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5053",
           "page": 22,
           "loaded": true,
-          "ppi": 406,
-          "widthMm": 63,
-          "heightMm": 70.07
+          "ppi": 474,
+          "widthMm": 53.94,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5053-1",
           "page": 22,
           "loaded": true,
-          "ppi": 392,
-          "widthMm": 63,
-          "heightMm": 72.79
+          "ppi": 475,
+          "widthMm": 51.92,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5055",
           "page": 23,
           "loaded": true,
-          "ppi": 450,
-          "widthMm": 63,
-          "heightMm": 65.03
+          "ppi": 488,
+          "widthMm": 58.13,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5055-1",
           "page": 23,
           "loaded": true,
-          "ppi": 399,
-          "widthMm": 62.53,
-          "heightMm": 75
+          "ppi": 499,
+          "widthMm": 50.02,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5058",
@@ -541,33 +591,33 @@
           "asset": "FM-GC-5061",
           "page": 24,
           "loaded": true,
-          "ppi": 444,
-          "widthMm": 63,
-          "heightMm": 61.34
+          "ppi": 454,
+          "widthMm": 61.62,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5062",
           "page": 25,
           "loaded": true,
-          "ppi": 441,
-          "widthMm": 63,
-          "heightMm": 62.94
+          "ppi": 463,
+          "widthMm": 60.05,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5074",
           "page": 25,
           "loaded": true,
-          "ppi": 389,
-          "widthMm": 63,
-          "heightMm": 70.31
+          "ppi": 456,
+          "widthMm": 53.76,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5079",
           "page": 26,
           "loaded": true,
-          "ppi": 426,
-          "widthMm": 63,
-          "heightMm": 60.31
+          "ppi": 428,
+          "widthMm": 62.67,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5081",
@@ -597,17 +647,17 @@
           "asset": "FM-GC-5087",
           "page": 28,
           "loaded": true,
-          "ppi": 430,
-          "widthMm": 63,
-          "heightMm": 65.12
+          "ppi": 467,
+          "widthMm": 58.04,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5089",
           "page": 28,
           "loaded": true,
-          "ppi": 421,
-          "widthMm": 63,
-          "heightMm": 62.15
+          "ppi": 436,
+          "widthMm": 60.81,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5092",
@@ -621,9 +671,9 @@
           "asset": "FM-GC-5115",
           "page": 29,
           "loaded": true,
-          "ppi": 381,
-          "widthMm": 63,
-          "heightMm": 71.92
+          "ppi": 457,
+          "widthMm": 52.55,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5023",
@@ -637,9 +687,9 @@
           "asset": "FM-GC-5024",
           "page": 30,
           "loaded": true,
-          "ppi": 329,
-          "widthMm": 63,
-          "heightMm": 71.04
+          "ppi": 389,
+          "widthMm": 53.21,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5024-1",
@@ -661,17 +711,17 @@
           "asset": "FM-GC-5025",
           "page": 32,
           "loaded": true,
-          "ppi": 401,
-          "widthMm": 58.01,
-          "heightMm": 75
+          "ppi": 501,
+          "widthMm": 46.41,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5025A",
           "page": 32,
           "loaded": true,
-          "ppi": 338,
-          "widthMm": 63,
-          "heightMm": 69.61
+          "ppi": 392,
+          "widthMm": 54.3,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5030",
@@ -685,17 +735,17 @@
           "asset": "FM-GC-5031",
           "page": 33,
           "loaded": true,
-          "ppi": 392,
-          "widthMm": 63,
-          "heightMm": 62.87
+          "ppi": 411,
+          "widthMm": 60.12,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5034",
           "page": 34,
           "loaded": true,
-          "ppi": 368,
-          "widthMm": 63,
-          "heightMm": 73.77
+          "ppi": 452,
+          "widthMm": 51.23,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5043",
@@ -709,9 +759,9 @@
           "asset": "FM-GC-5052",
           "page": 35,
           "loaded": true,
-          "ppi": 376,
-          "widthMm": 63,
-          "heightMm": 67.93
+          "ppi": 426,
+          "widthMm": 55.65,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5091",
@@ -725,57 +775,57 @@
           "asset": "FM-GC-5005",
           "page": 36,
           "loaded": true,
-          "ppi": 317,
-          "widthMm": 61.31,
-          "heightMm": 75
+          "ppi": 397,
+          "widthMm": 49.05,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5007",
           "page": 36,
           "loaded": true,
-          "ppi": 395,
-          "widthMm": 56.1,
-          "heightMm": 75
+          "ppi": 494,
+          "widthMm": 44.88,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5010",
           "page": 37,
           "loaded": true,
-          "ppi": 344,
-          "widthMm": 63,
-          "heightMm": 73.12
+          "ppi": 419,
+          "widthMm": 51.69,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5012",
           "page": 37,
           "loaded": true,
-          "ppi": 385,
-          "widthMm": 63,
-          "heightMm": 73.1
+          "ppi": 469,
+          "widthMm": 51.71,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5047",
           "page": 38,
           "loaded": true,
-          "ppi": 399,
-          "widthMm": 48.04,
-          "heightMm": 75
+          "ppi": 498,
+          "widthMm": 38.43,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5056",
           "page": 38,
           "loaded": true,
-          "ppi": 444,
-          "widthMm": 63,
-          "heightMm": 61.16
+          "ppi": 452,
+          "widthMm": 61.8,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5084",
           "page": 39,
           "loaded": true,
-          "ppi": 387,
-          "widthMm": 45.8,
-          "heightMm": 75
+          "ppi": 484,
+          "widthMm": 36.64,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5085",
@@ -789,41 +839,41 @@
           "asset": "FM-GC-5095",
           "page": 40,
           "loaded": true,
-          "ppi": 379,
-          "widthMm": 55.09,
-          "heightMm": 75
+          "ppi": 474,
+          "widthMm": 44.07,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5101",
           "page": 40,
           "loaded": true,
-          "ppi": 391,
-          "widthMm": 63,
-          "heightMm": 71.17
+          "ppi": 464,
+          "widthMm": 53.11,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5103",
           "page": 41,
           "loaded": true,
-          "ppi": 373,
-          "widthMm": 54.72,
-          "heightMm": 75
+          "ppi": 467,
+          "widthMm": 43.77,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5106",
           "page": 41,
           "loaded": true,
-          "ppi": 371,
-          "widthMm": 63,
-          "heightMm": 70.2
+          "ppi": 434,
+          "widthMm": 53.85,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5107",
           "page": 42,
           "loaded": true,
-          "ppi": 398,
-          "widthMm": 63,
-          "heightMm": 66.89
+          "ppi": 444,
+          "widthMm": 56.51,
+          "heightMm": 60
         },
         {
           "asset": "FM-GA-5073-1",
@@ -845,17 +895,17 @@
           "asset": "FM-GC-5028",
           "page": 43,
           "loaded": true,
-          "ppi": 371,
-          "widthMm": 59.66,
-          "heightMm": 75
+          "ppi": 464,
+          "widthMm": 47.72,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5029",
           "page": 44,
           "loaded": true,
-          "ppi": 358,
-          "widthMm": 52.15,
-          "heightMm": 75
+          "ppi": 447,
+          "widthMm": 41.72,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5032",
@@ -869,9 +919,9 @@
           "asset": "FM-GC-5035",
           "page": 45,
           "loaded": true,
-          "ppi": 379,
-          "widthMm": 63,
-          "heightMm": 69.1
+          "ppi": 436,
+          "widthMm": 54.7,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5045",
@@ -885,17 +935,17 @@
           "asset": "FM-GC-5051",
           "page": 46,
           "loaded": true,
-          "ppi": 405,
-          "widthMm": 63,
-          "heightMm": 61.87
+          "ppi": 417,
+          "widthMm": 61.09,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5073",
           "page": 46,
           "loaded": true,
-          "ppi": 335,
-          "widthMm": 55.53,
-          "heightMm": 75
+          "ppi": 419,
+          "widthMm": 44.42,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5096",
@@ -925,73 +975,73 @@
           "asset": "FM-GC-5004",
           "page": 48,
           "loaded": true,
-          "ppi": 328,
-          "widthMm": 52.07,
-          "heightMm": 75
+          "ppi": 410,
+          "widthMm": 41.65,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5008",
           "page": 49,
           "loaded": true,
-          "ppi": 316,
-          "widthMm": 51.61,
-          "heightMm": 75
+          "ppi": 395,
+          "widthMm": 41.28,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5011",
           "page": 49,
           "loaded": true,
-          "ppi": 365,
-          "widthMm": 62.35,
-          "heightMm": 75
+          "ppi": 457,
+          "widthMm": 49.88,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5019",
           "page": 50,
           "loaded": true,
-          "ppi": 396,
-          "widthMm": 47.96,
-          "heightMm": 75
+          "ppi": 494,
+          "widthMm": 38.37,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5020",
           "page": 50,
           "loaded": true,
-          "ppi": 381,
-          "widthMm": 50.66,
-          "heightMm": 75
+          "ppi": 476,
+          "widthMm": 40.53,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5021",
           "page": 51,
           "loaded": true,
-          "ppi": 444,
-          "widthMm": 63,
-          "heightMm": 63.17
+          "ppi": 467,
+          "widthMm": 59.83,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5046",
           "page": 51,
           "loaded": true,
-          "ppi": 364,
-          "widthMm": 52.88,
-          "heightMm": 75
+          "ppi": 455,
+          "widthMm": 42.3,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5050",
           "page": 52,
           "loaded": true,
-          "ppi": 380,
-          "widthMm": 62.42,
-          "heightMm": 75
+          "ppi": 475,
+          "widthMm": 49.94,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5057",
           "page": 52,
           "loaded": true,
-          "ppi": 404,
-          "widthMm": 63,
-          "heightMm": 72.94
+          "ppi": 491,
+          "widthMm": 51.82,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5080",
@@ -1005,17 +1055,17 @@
           "asset": "FM-GC-5086",
           "page": 53,
           "loaded": true,
-          "ppi": 365,
-          "widthMm": 53.71,
-          "heightMm": 75
+          "ppi": 456,
+          "widthMm": 42.97,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5093",
           "page": 54,
           "loaded": true,
-          "ppi": 386,
-          "widthMm": 52.48,
-          "heightMm": 75
+          "ppi": 482,
+          "widthMm": 41.98,
+          "heightMm": 60
         },
         {
           "asset": "FM-GC-5094",
@@ -1036,8 +1086,540 @@
       ],
       "overflow": [],
       "issues": [],
-      "sha256": "5f505dcc78927e5fcb3a256bd460a13de02790e8a5902d9a062d3dff892797de",
-      "bytes": 23239708
+      "sha256": "eeab95614c22b2c1c1b92a7c11d9f3e836c4f38a4479e97de99e4f16deadc31e",
+      "bytes": 23257018,
+      "priceChecks": {
+        "expectedCount": 105,
+        "renderedCount": 105,
+        "entries": [
+          {
+            "sku": "FM-G-41",
+            "amountEur": 2822,
+            "text": "Prezzo di listino 2.822 € + IVA"
+          },
+          {
+            "sku": "FM-G-42",
+            "amountEur": 2589,
+            "text": "Prezzo di listino 2.589 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5017",
+            "amountEur": 1559,
+            "text": "Prezzo di listino 1.559 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5018",
+            "amountEur": 1965,
+            "text": "Prezzo di listino 1.965 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5038",
+            "amountEur": 2542,
+            "text": "Prezzo di listino 2.542 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5090",
+            "amountEur": 1844,
+            "text": "Prezzo di listino 1.844 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5097",
+            "amountEur": 2589,
+            "text": "Prezzo di listino 2.589 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5097A",
+            "amountEur": 2724,
+            "text": "Prezzo di listino 2.724 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5098",
+            "amountEur": 3346,
+            "text": "Prezzo di listino 3.346 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5098A-5200",
+            "amountEur": 1052,
+            "text": "Prezzo di listino 1.052 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5098A-5202",
+            "amountEur": 3169,
+            "text": "Prezzo di listino 3.169 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5098A-5203",
+            "amountEur": 3672,
+            "text": "Prezzo di listino 3.672 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5099",
+            "amountEur": 4985,
+            "text": "Prezzo di listino 4.985 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5003",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5006",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5015",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5019-1",
+            "amountEur": 584,
+            "text": "Prezzo di listino 584 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5019-2",
+            "amountEur": 807,
+            "text": "Prezzo di listino 807 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5026",
+            "amountEur": 640,
+            "text": "Prezzo di listino 640 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5027",
+            "amountEur": 598,
+            "text": "Prezzo di listino 598 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5037",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5054",
+            "amountEur": 1247,
+            "text": "Prezzo di listino 1.247 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5088",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5113",
+            "amountEur": 831,
+            "text": "Prezzo di listino 831 € + IVA"
+          },
+          {
+            "sku": "FM-G-45",
+            "amountEur": 1820,
+            "text": "Prezzo di listino 1.820 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5001",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5002",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5002-1",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5009",
+            "amountEur": 1247,
+            "text": "Prezzo di listino 1.247 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5014",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5016",
+            "amountEur": 1662,
+            "text": "Prezzo di listino 1.662 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5022",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5022-1",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5033",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5039",
+            "amountEur": 1098,
+            "text": "Prezzo di listino 1.098 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5044",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5044-1",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5049",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5053",
+            "amountEur": 1247,
+            "text": "Prezzo di listino 1.247 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5053-1",
+            "amountEur": 1271,
+            "text": "Prezzo di listino 1.271 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5055",
+            "amountEur": 1247,
+            "text": "Prezzo di listino 1.247 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5055-1",
+            "amountEur": 1247,
+            "text": "Prezzo di listino 1.247 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5058",
+            "amountEur": 1247,
+            "text": "Prezzo di listino 1.247 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5061",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5062",
+            "amountEur": 900,
+            "text": "Prezzo di listino 900 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5074",
+            "amountEur": 954,
+            "text": "Prezzo di listino 954 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5079",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5081",
+            "amountEur": 1466,
+            "text": "Prezzo di listino 1.466 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5082",
+            "amountEur": 1466,
+            "text": "Prezzo di listino 1.466 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5083",
+            "amountEur": 1541,
+            "text": "Prezzo di listino 1.541 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5087",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5089",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5092",
+            "amountEur": 1247,
+            "text": "Prezzo di listino 1.247 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5115",
+            "amountEur": 954,
+            "text": "Prezzo di listino 954 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5023",
+            "amountEur": 705,
+            "text": "Prezzo di listino 705 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5024",
+            "amountEur": 628,
+            "text": "Prezzo di listino 628 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5024-1",
+            "amountEur": 551,
+            "text": "Prezzo di listino 551 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5024B",
+            "amountEur": 584,
+            "text": "Prezzo di listino 584 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5025",
+            "amountEur": 705,
+            "text": "Prezzo di listino 705 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5025A",
+            "amountEur": 574,
+            "text": "Prezzo di listino 574 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5030",
+            "amountEur": 749,
+            "text": "Prezzo di listino 749 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5031",
+            "amountEur": 418,
+            "text": "Prezzo di listino 418 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5034",
+            "amountEur": 791,
+            "text": "Prezzo di listino 791 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5043",
+            "amountEur": 749,
+            "text": "Prezzo di listino 749 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5052",
+            "amountEur": 411,
+            "text": "Prezzo di listino 411 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5091",
+            "amountEur": 900,
+            "text": "Prezzo di listino 900 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5005",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5007",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5010",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5012",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5047",
+            "amountEur": 1247,
+            "text": "Prezzo di listino 1.247 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5056",
+            "amountEur": 1247,
+            "text": "Prezzo di listino 1.247 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5084",
+            "amountEur": 1247,
+            "text": "Prezzo di listino 1.247 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5085",
+            "amountEur": 1559,
+            "text": "Prezzo di listino 1.559 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5095",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5101",
+            "amountEur": 1168,
+            "text": "Prezzo di listino 1.168 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5103",
+            "amountEur": 761,
+            "text": "Prezzo di listino 761 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5106",
+            "amountEur": 1052,
+            "text": "Prezzo di listino 1.052 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5107",
+            "amountEur": 1052,
+            "text": "Prezzo di listino 1.052 € + IVA"
+          },
+          {
+            "sku": "FM-GA-5073-1",
+            "amountEur": 1783,
+            "text": "Prezzo di listino 1.783 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5013",
+            "amountEur": 714,
+            "text": "Prezzo di listino 714 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5028",
+            "amountEur": 451,
+            "text": "Prezzo di listino 451 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5029",
+            "amountEur": 574,
+            "text": "Prezzo di listino 574 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5032",
+            "amountEur": 602,
+            "text": "Prezzo di listino 602 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5035",
+            "amountEur": 1096,
+            "text": "Prezzo di listino 1.096 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5045",
+            "amountEur": 721,
+            "text": "Prezzo di listino 721 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5051",
+            "amountEur": 770,
+            "text": "Prezzo di listino 770 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5073",
+            "amountEur": 1040,
+            "text": "Prezzo di listino 1.040 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5096",
+            "amountEur": 467,
+            "text": "Prezzo di listino 467 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5105",
+            "amountEur": 325,
+            "text": "Prezzo di listino 325 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5114",
+            "amountEur": 423,
+            "text": "Prezzo di listino 423 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5004",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5008",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5011",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5019",
+            "amountEur": 1408,
+            "text": "Prezzo di listino 1.408 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5020",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5021",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5046",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5050",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5057",
+            "amountEur": 1247,
+            "text": "Prezzo di listino 1.247 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5080",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5086",
+            "amountEur": 1247,
+            "text": "Prezzo di listino 1.247 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5093",
+            "amountEur": 1187,
+            "text": "Prezzo di listino 1.187 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5094",
+            "amountEur": 796,
+            "text": "Prezzo di listino 796 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5102",
+            "amountEur": 1273,
+            "text": "Prezzo di listino 1.273 € + IVA"
+          }
+        ],
+        "issues": []
+      }
     }
   ],
   "assets": [

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "currency": "EUR",
+  "vatIncluded": false,
+  "exchangeRate": {
+    "baseCurrency": "EUR",
+    "quoteCurrency": "USD",
+    "usdPerEur": 1.1165,
+    "date": "2026-11-06",
+    "source": "European Central Bank",
+    "sourceUrl": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.eu.html"
+  },
+  "surchargeEur": 100,
+  "multiplier": 2.6,
+  "rounding": "nearest-euro-half-up",
+  "aliases": {
+    "G-45": {
+      "sourceSku": "G45",
+      "reason": "Nome, dimensioni 2210 x 750 x 1990 mm, peso 315 kg e pacco pesi 165 kg coincidono."
+    },
+    "GC-5017": {
+      "sourceSku": "GC-5017-1",
+      "reason": "Smith Machine: dimensioni 1375 x 1930 x 2180 mm e peso 265 kg coincidono. Stessa fotografia; metadato immagine XLSX: 5017."
+    }
+  }
+}

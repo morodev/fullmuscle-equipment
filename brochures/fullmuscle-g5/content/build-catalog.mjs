@@ -1,7 +1,9 @@
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { resolve, dirname } from 'node:path';
 import { editorial, featured, featuredFeatures } from './editorial.mjs';
+import { buildPriceMap, buildRetailCsv } from './pricing.mjs';
 
 const contentDir = dirname(fileURLToPath(import.meta.url));
 const root = resolve(contentDir, '../../..');
@@ -13,6 +15,13 @@ if (source.length !== 105 || new Set(source.map(p => p.sourceSku)).size !== 105)
 if (source.filter(p => p.sourceSku.startsWith('GC-')).length !== 101) throw new Error('Attesi 101 codici GC nella categoria G5.');
 const missingText = source.filter(p => !editorial[p.sourceSku]).map(p => p.sourceSku);
 if (missingText.length) throw new Error(`Testi editoriali mancanti: ${missingText.join(', ')}`);
+const pricingConfig = JSON.parse(await readFile(resolve(contentDir, 'pricing-config.json'), 'utf8'));
+const purchasePrices = JSON.parse(await readFile(resolve(contentDir, 'purchase-prices.json'), 'utf8'));
+const purchaseFile = await readFile(resolve(root, purchasePrices.source.filename));
+if (createHash('sha256').update(purchaseFile).digest('hex') !== purchasePrices.source.sha256) {
+  throw new Error('Il listino Excel è cambiato: eseguire scripts/import-prices.ps1 prima di rigenerare il catalogo.');
+}
+const listPrices = buildPriceMap(source, purchasePrices, pricingConfig);
 
 const unavailable = 'Su richiesta';
 const publicSku = sku => `FM-${sku.toUpperCase().replace(/\s+/g, '-').replace(/^-+|-+$/g, '')}`;
@@ -62,6 +71,7 @@ const products = source.map(product => {
     sku, sourceSku:product.sourceSku, name:text.name, description:text.description,
     features:featuredFeatures[product.sourceSku] || [text.description.split('. ')[0].replace(/\.$/, '')],
     category:text.category, ...fields, technicalRows,
+    listPriceEur:listPrices.get(product.sourceSku),
     image:`assets/products/${sku}.png`,
     sourceUrl:product.sourceUrl, sourceImage:primary.sourceUrl, sourceImagePath:asset.originalPath,
     sourceCrawledAt:product.crawledAt,
@@ -77,4 +87,6 @@ const catalog = {
   products,
 };
 await writeFile(resolve(contentDir,'catalog.json'), `${JSON.stringify(catalog,null,2)}\n`, 'utf8');
-console.log(`Catalogo G5: ${products.length} modelli, ${catalog.featuredSkus.length} schede selezionate. Dati interni e fonti non destinati al PDF.`);
+await mkdir(resolve(contentDir, '../exports'), { recursive:true });
+await writeFile(resolve(contentDir, '../exports/listino-rivendita.csv'), buildRetailCsv(products), 'utf8');
+console.log(`Catalogo G5: ${products.length} modelli con prezzi, ${catalog.featuredSkus.length} schede selezionate. CSV di rivendita aggiornato. Dati interni e fonti non destinati al PDF.`);

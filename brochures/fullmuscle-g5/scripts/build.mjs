@@ -7,11 +7,13 @@ import { PDFDocument, PDFName, PDFString, PDFNumber, PDFDict } from 'pdf-lib';
 import QRCode from 'qrcode';
 import opentype from 'opentype.js';
 import sharp from 'sharp';
+import { formatListPrice } from '../content/pricing.mjs';
 
 const base = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const root = path.resolve(base, '../..');
 const proof = process.argv.includes('--proof');
 const onlyBrochure = process.argv.includes('--brochure-only');
+await import('../content/build-catalog.mjs');
 const catalogue = JSON.parse(await fs.readFile(path.join(base, 'content/catalog.json'), 'utf8'));
 const css = await fs.readFile(path.join(base, 'layout/editorial.css'), 'utf8');
 const outputs = path.join(base, 'exports');
@@ -22,6 +24,10 @@ const media = new Map();
 const pt = mm => mm * 72 / 25.4;
 const esc = text => String(text ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
+const pricingInputs = Object.fromEntries(await Promise.all(
+  ['content/catalog.json','content/pricing-config.json','content/purchase-prices.json']
+    .map(async file => [file, hash(await fs.readFile(path.join(base,file)))]),
+));
 const url = 'https://fullmuscle-equipment.com/cataloghi/fullmuscle-g5.pdf';
 const sourcePaths = [];
 for (const dir of [outputs,proofDir,preparedDir,path.join(base,'assets/fonts'),path.join(base,'assets/brand')]) await fs.mkdir(dir,{recursive:true});
@@ -95,14 +101,21 @@ function page(body,n,{digital=false,dark=false,cls=''}={}){return `<section clas
 function cover(digital=false){return page(`<div class="inner">${logo(true,'cover-logo')}<div class="edition">${digital?'Catalogo completo':'Selezione professionale'}<br>Edizione italiana</div><p class="eyebrow cover-kicker">Attrezzature per la tua area forza</p><h1 class="display cover-title">G5</h1><h2 class="cover-subtitle">La forza prende forma.</h2><div class="cover-image-wrap">${scene('gym',158,103,'cover-image scene')}<p class="render-caption">Rendering illustrativo di ambientazione.</p></div><div class="cover-bottom"><p>${digital?'Macchine, panche, rack e stazioni multifunzione. Una linea da esplorare, modello per modello.':'Otto macchine. Un’identità comune.<br>Scopri una selezione della linea Full Muscle G5.'}</p><div class="badge">${digital?catalogue.products.length:'08'}<small>modelli${digital?' in catalogo':' selezionati'}</small></div></div></div>`,1,{digital,dark:true,cls:'cover'});}
 function brochureIntro(){return page(`<div class="inner">${top()}<p class="eyebrow" style="margin-top:11mm">La linea Full Muscle G5</p><h1 class="display intro-title">Scegli le macchine.<br>Dai forma al tuo spazio.</h1><p class="intro-copy">La linea G5 comprende macchine a pacco pesi, attrezzature a dischi, panche, rack e stazioni multifunzione. Questa selezione presenta otto modelli per organizzare il lavoro su gambe, petto, schiena e spalle.</p><div class="intro-band"><div><b>Gambe</b><span>Pressa, estensione<br>e flessione</span></div><div><b>Petto</b><span>Spinta<br>da seduti</span></div><div><b>Schiena</b><span>Trazione verticale<br>e remata</span></div><div><b>Spalle</b><span>Spinta e<br>alzate laterali</span></div></div><div class="contents"><h2>La selezione, in dettaglio.</h2>${catalogue.featuredSkus.map((sku,i)=>{const p=catalogue.products.find(p=>p.sku===sku);return `<a class="contents-row" href="#page-${i+3}"><span class="code">${esc(sku)}</span><span>${esc(p.name)}</span><span class="num">${String(i+3).padStart(2,'0')}</span></a>`;}).join('')}</div><p class="intro-note">La selezione continua online: il catalogo completo G5 raccoglie le altre macchine e le varianti disponibili. Scansiona il QR sul retro per consultarlo.</p></div>`,2,{cls:'introduction'});}
 function technicalRows(p){return p.technicalRows?.length?p.technicalRows:[{label:'Dimensioni (L × P × H)',value:p.dimensions},{label:'Peso macchina',value:p.weight},{label:'Pacco pesi',value:p.stack}];}
-function featured(p,n){const human=p.sku==='FM-GC-5016'?'legpress-training':p.sku==='FM-GC-5005'?'chest-training':null;return page(`<div class="inner">${top()}<header class="product-heading"><p class="product-code">${esc(p.sku)}</p><h1 class="product-title">${esc(p.name)}</h1><p class="product-category">${esc(p.category)} / Serie G5</p></header><div class="product-stage"><div class="product-image-area">${img(p.sku,105,132,'product-photo')}</div><aside><div class="spec-panel"><h2 class="panel-title">Dati tecnici</h2>${technicalRows(p).slice(0,6).map(r=>`<div class="spec-row"><span class="spec-label">${esc(r.label)}</span><strong class="spec-value ${String(r.value).length>22?'long':''}">${esc(r.value)}</strong></div>`).join('')}</div>${human?`<div class="training-scene">${scene(human,62,42)}<p class="render-caption">Rendering illustrativo.</p></div>`:''}</aside></div><p class="product-description">${esc(p.description)}</p><div class="feature-grid">${p.features.slice(0,3).map((f,i)=>`<div><b>${['Movimento','Configurazione','Allenamento'][i]}</b>${esc(f)}</div>`).join('')}</div></div>`,n,{cls:'featured'});}
+function priceBlock(p){
+  if(!Number.isSafeInteger(p.listPriceEur)||p.listPriceEur<=0)throw new Error('Invalid list price: '+p.sku);
+  const label=formatListPrice(p.listPriceEur);
+  const prefix='Prezzo di listino ';
+  if(!label.startsWith(prefix))throw new Error('Unexpected list price format: '+p.sku);
+  return `<p class="product-price" data-price-sku="${esc(p.sku)}" data-price-eur="${p.listPriceEur}"><span>${prefix.trim()}</span> <strong>${esc(label.slice(prefix.length))}</strong></p>`;
+}
+function featured(p,n){const human=p.sku==='FM-GC-5016'?'legpress-training':p.sku==='FM-GC-5005'?'chest-training':null;return page(`<div class="inner">${top()}<header class="product-heading"><p class="product-code">${esc(p.sku)}</p><h1 class="product-title">${esc(p.name)}</h1><p class="product-category">${esc(p.category)} / Serie G5</p></header><div class="product-stage"><div class="product-image-area">${img(p.sku,105,132,'product-photo')}</div><aside><div class="spec-panel"><h2 class="panel-title">Dati tecnici</h2>${technicalRows(p).slice(0,6).map(r=>`<div class="spec-row"><span class="spec-label">${esc(r.label)}</span><strong class="spec-value ${String(r.value).length>22?'long':''}">${esc(r.value)}</strong></div>`).join('')}</div>${priceBlock(p)}${human?`<div class="training-scene">${scene(human,62,32)}<p class="render-caption">Rendering illustrativo.</p></div>`:''}</aside></div><p class="product-description">${esc(p.description)}</p><div class="feature-grid">${p.features.slice(0,3).map((f,i)=>`<div><b>${['Movimento','Configurazione','Allenamento'][i]}</b>${esc(f)}</div>`).join('')}</div></div>`,n,{cls:'featured'});}
 function project(){return page(`<div class="inner">${logo(true)}<p class="eyebrow" style="margin-top:14mm">Dalla selezione al progetto</p><h1 class="display project-title">La tua area forza.<br>La tua combinazione.</h1><div class="project-scene">${scene('gym',158,103)}</div><p class="render-caption project-caption">Rendering illustrativo di ambientazione.</p><p class="project-copy">Confronta i modelli in base agli spazi e al lavoro che vuoi proporre. Verifica con noi colori, finiture e configurazione di ciascun modello.</p><div class="steps"><div><b>01</b><h3>Esplora</h3><p>Consulta il catalogo completo e scegli i modelli di interesse.</p></div><div><b>02</b><h3>Definisci</h3><p>Indica quantità, spazi e priorità della tua area fitness.</p></div><div><b>03</b><h3>Contattaci</h3><p>Invia la selezione a Matteo e richiedi un preventivo.</p></div></div></div>`,11,{dark:true,cls:'project'});}
 function contact(n,digital=false){return page(`<div class="green-stripe"></div><div class="inner">${logo(false,'cover-logo')}<p class="eyebrow" style="margin-top:18mm">Full Muscle Equipment</p><h1 class="display contact-title">Parliamo della tua<br>prossima palestra.</h1><p class="contact-intro">Per informazioni sui modelli, sulle configurazioni e per una richiesta di preventivo, contatta il nostro riferimento commerciale.</p><div class="contact-person"><h2>Matteo</h2><a class="contact-phone" href="tel:+393925501779">392 550 1779</a><a class="contact-email" href="mailto:info@fullmuscle-equipment.com">info@fullmuscle-equipment.com</a><a class="contact-web" href="https://fullmuscle-equipment.com">fullmuscle-equipment.com</a></div><div class="qr-area"><a href="${url}"><img class="qr" src="../assets/brand/qr-catalogo.svg" alt="QR catalogo completo G5"></a><div><h3>Tutta la linea G5,<br>sempre con te.</h3><p>Scansiona il QR e apri il catalogo completo in PDF.</p></div></div><p class="contact-bottom">Catalogo B2B · Preventivo su richiesta.<br>Dimensioni espresse come lunghezza × profondità × altezza.</p></div>`,n,{digital,cls:'contact'});}
 
 const grouped=[...catalogue.products].sort((a,b)=>a.category.localeCompare(b.category,'it')||a.sku.localeCompare(b.sku,'it',{numeric:true}));
 const categoryPages=new Map();grouped.forEach((p,i)=>{if(!categoryPages.has(p.category))categoryPages.set(p.category,{page:3+Math.floor(i/2),count:grouped.filter(x=>x.category===p.category).length});});
 function catalogueIntro(){return page(`<div class="inner">${top()}<p class="eyebrow" style="margin-top:13mm">Catalogo completo G5</p><h1 class="display intro-title">Trova il modello<br>per il tuo progetto.</h1><p class="intro-copy">${catalogue.products.length} modelli della linea G5, organizzati per tipologia. Ogni scheda riunisce codice, descrizione, caratteristiche e dati tecnici disponibili.</p><nav class="catalogue-index">${[...categoryPages].map(([name,data])=>`<a href="#page-${data.page}"><b>${esc(name)}</b><span>${data.count} modelli · p. ${data.page}</span></a>`).join('')}</nav><div class="catalogue-info"><p><strong>Come leggere le schede</strong><br>Le dimensioni sono indicate in millimetri, nell’ordine lunghezza × profondità × altezza. Il peso macchina è distinto dal pacco pesi. Per le stazioni multifunzione i carichi sono riportati per singola stazione quando disponibili.</p><p>I valori indicati come “su richiesta” sono da confermare in fase di preventivo. Le immagini mostrano una proposta di personalizzazione Full Muscle. Finiture, accessori e carichi raffigurati vanno verificati nella configurazione richiesta.</p><p><strong>Un riferimento semplice.</strong><br>Comunica il codice Full Muscle del modello e la quantità desiderata: Matteo · 392 550 1779 · info@fullmuscle-equipment.com.</p></div></div>`,2,{digital:true,cls:'catalogue-intro'});}
-function catalogueCard(p){if(!p)return `<div class="catalogue-card empty-card">La tua selezione<br>comincia da qui.</div>`;const rows=technicalRows(p);const features=p.features.filter(f=>!p.description.toLocaleLowerCase('it').includes(f.toLocaleLowerCase('it')));return `<article class="catalogue-card ${rows.length>7?'many-specs':''}" data-sku="${esc(p.sku)}"><header class="catalogue-card-head"><div><p class="product-code">${esc(p.sku)}</p><h2>${esc(p.name)}</h2></div><span class="category-chip">${esc(p.category)}</span></header><div class="catalogue-card-body"><div class="catalogue-image">${img(p.sku,63,75,'product-photo')}</div><div><p class="catalogue-description">${esc(p.description)}</p><div class="catalogue-specs">${rows.map(r=>`<div class="catalogue-spec"><span>${esc(r.label)}</span><b>${esc(r.value)}</b></div>`).join('')}</div><p class="catalogue-features">${esc(features.slice(0,2).join(' · '))}</p></div></div></article>`;}
+function catalogueCard(p){if(!p)return `<div class="catalogue-card empty-card">La tua selezione<br>comincia da qui.</div>`;const rows=technicalRows(p);const features=p.features.filter(f=>!p.description.toLocaleLowerCase('it').includes(f.toLocaleLowerCase('it')));return `<article class="catalogue-card ${rows.length>7?'many-specs':''}" data-sku="${esc(p.sku)}"><header class="catalogue-card-head"><div><p class="product-code">${esc(p.sku)}</p><h2>${esc(p.name)}</h2></div><span class="category-chip">${esc(p.category)}</span></header><div class="catalogue-card-body"><div class="catalogue-visual"><div class="catalogue-image">${img(p.sku,63,60,'product-photo')}</div>${priceBlock(p)}</div><div><p class="catalogue-description">${esc(p.description)}</p><div class="catalogue-specs">${rows.map(r=>`<div class="catalogue-spec"><span>${esc(r.label)}</span><b>${esc(r.value)}</b></div>`).join('')}</div><p class="catalogue-features">${esc(features.slice(0,2).join(' · '))}</p></div></div></article>`;}
 function cataloguePages(){const out=[];for(let i=0;i<grouped.length;i+=2)out.push(page(`<div class="inner">${top()}<div class="catalogue-cards">${catalogueCard(grouped[i])}${catalogueCard(grouped[i+1])}</div></div>`,3+i/2,{digital:true,cls:'catalogue-products'}));return out;}
 const brochure=[cover(),brochureIntro(),...catalogue.featuredSkus.map((sku,i)=>featured(catalogue.products.find(p=>p.sku===sku),3+i)),project(),contact(12)];
 const full=[cover(true),catalogueIntro(),...cataloguePages(),contact(3+Math.ceil(grouped.length/2),true)];
@@ -118,14 +131,44 @@ for(const doc of docs){
   await tab.goto(pathToFileURL(htmlPath).href,{waitUntil:'networkidle'});
   await tab.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));});
   await tab.emulateMedia({media:'print'});
-  const inspected=await tab.evaluate(()=>{
+  const expectedProducts=doc.digital?catalogue.products:catalogue.featuredSkus.map(sku=>catalogue.products.find(p=>p.sku===sku));
+  const inspected=await tab.evaluate((expectedPrices)=>{
     const imageChecks=[...document.querySelectorAll('img[data-asset]')].map(img=>{const r=img.getBoundingClientRect(),contain=getComputedStyle(img).objectFit==='contain';const scale=(contain?Math.min:Math.max)(r.width/img.naturalWidth,r.height/img.naturalHeight);return {asset:img.dataset.asset,page:Number(img.closest('.page').dataset.page),loaded:img.complete&&img.naturalWidth>0,ppi:Math.round(96/scale),widthMm:Number((r.width*25.4/96).toFixed(2)),heightMm:Number((r.height*25.4/96).toFixed(2))};});
     const overflow=[];
     for(const page of document.querySelectorAll('.page')){const trim=page.querySelector('.trim').getBoundingClientRect();for(const el of page.querySelectorAll('.inner p,.inner h1,.inner h2,.inner h3,.contents,.feature-grid,.catalogue-card-body,.qr-area,.steps')){const r=el.getBoundingClientRect();if(r.bottom>trim.bottom-12*96/25.4||r.left<trim.left+10*96/25.4||r.right>trim.right-10*96/25.4)overflow.push({page:page.dataset.page,tag:el.className||el.tagName,text:el.textContent.slice(0,100),bottomMm:(r.bottom-trim.top)*25.4/96});}}
     for(const page of document.querySelectorAll('.featured')){const aside=page.querySelector('.product-stage aside').getBoundingClientRect();const text=page.querySelector('.product-description').getBoundingClientRect();if(aside.bottom>text.top-5)overflow.push({page:page.dataset.page,tag:'product-stage aside',text:'Technical panel or scene overlaps description'});}
     for(const card of document.querySelectorAll('.catalogue-card')){const body=card.querySelector('.catalogue-card-body');if(body&&body.getBoundingClientRect().bottom>card.getBoundingClientRect().bottom-2)overflow.push({page:card.closest('.page').dataset.page,tag:'catalogue-card-body',text:card.dataset.sku+' card content exceeds allotted space'});}
-    return {pages:document.querySelectorAll('.page').length,images:imageChecks,overflow,fontStatus:document.fonts.status,text:document.body.textContent};
-  });
+    const priceElements=[...document.querySelectorAll('[data-price-sku]')];
+    const normalize=text=>text.replace(/\s+/g,' ').trim();
+    const entries=priceElements.map(el=>({sku:el.dataset.priceSku,amountEur:Number(el.dataset.priceEur),text:normalize(el.textContent)}));
+    const priceIssues=[];
+    if(entries.length!==expectedPrices.length)priceIssues.push('Unexpected rendered price count');
+    for(const expected of expectedPrices){
+      const matches=entries.filter(entry=>entry.sku===expected.sku);
+      if(matches.length!==1){priceIssues.push(`Expected one price for ${expected.sku}, found ${matches.length}`);continue;}
+      const actual=matches[0];
+      if(actual.amountEur!==expected.amountEur||actual.text!==normalize(expected.text)||!actual.text.endsWith('+ IVA'))priceIssues.push(`Incorrect rendered price for ${expected.sku}`);
+    }
+    for(const [index,el] of priceElements.entries()){
+      const entry=entries[index];
+      const container=el.closest('.catalogue-card,.featured');
+      const containerSku=container?.dataset.sku||container?.querySelector('.product-code')?.textContent;
+      if(!expectedPrices.some(expected=>expected.sku===entry.sku)||entry.sku!==containerSku)priceIssues.push(`Unexpected price association: ${entry.sku}`);
+      const r=el.getBoundingClientRect();
+      const value=el.querySelector('strong')?.getBoundingClientRect();
+      const style=getComputedStyle(el);
+      if(!r.width||!r.height||style.visibility==='hidden'||style.display==='none')priceIssues.push(`Invisible price for ${entry.sku}`);
+      if(el.scrollWidth>el.clientWidth+1||value&&(value.left<r.left-1||value.right>r.right+1))overflow.push({page:el.closest('.page').dataset.page,tag:'product-price',text:entry.sku+' price exceeds allotted width'});
+      const visual=el.closest('.catalogue-visual');
+      if(visual){
+        const image=visual.querySelector('.catalogue-image').getBoundingClientRect();
+        const card=container.getBoundingClientRect();
+        if(image.bottom>r.top+1||r.bottom>card.bottom-2)overflow.push({page:el.closest('.page').dataset.page,tag:'product-price',text:entry.sku+' price overlaps image or exceeds card'});
+      }
+    }
+    const priceChecks={expectedCount:expectedPrices.length,renderedCount:entries.length,entries,issues:priceIssues};
+    return {pages:document.querySelectorAll('.page').length,images:imageChecks,overflow,priceChecks,fontStatus:document.fonts.status,text:document.body.textContent};
+  },expectedProducts.map(p=>({sku:p.sku,amountEur:p.listPriceEur,text:formatListPrice(p.listPriceEur)})));
   const raw=await tab.pdf({preferCSSPageSize:true,printBackground:true,displayHeaderFooter:false,tagged:true,outline:true});
   const pdf=await PDFDocument.load(raw);
   pdf.setTitle(doc.title);pdf.setAuthor('FullMuscle Equipment');pdf.setSubject('Attrezzature professionali · Serie G5');pdf.setCreator('FullMuscle · impaginazione editoriale');pdf.setProducer('FullMuscle / Chromium + pdf-lib');pdf.setLanguage('it-IT');
@@ -140,12 +183,14 @@ for(const doc of docs){
   const checks={filename,pages:pdf.getPageCount(),expectedPages:doc.pages.length,format:doc.digital?'A4 210 × 297 mm':'A4 trim 210 × 297 mm / bleed 216 × 303 mm',colorSpace:'RGB / sRGB image assets; not certified PDF/X',embeddedFonts,images:inspected.images,overflow:inspected.overflow,issues:[...badImages.map(i=>`Image ${i.asset} page ${i.page}: ${i.loaded?i.ppi+' ppi':'missing'}`),...inspected.overflow.map(o=>`Content exceeds safety area on page ${o.page}: ${o.tag}`)],sha256:hash(pdfBytes),bytes:pdfBytes.length};
   if(inspected.pages!==doc.pages.length||pdf.getPageCount()!==doc.pages.length)checks.issues.push('Unexpected PDF page count');
   if(embeddedFonts.some(f=>!f.embedded))checks.issues.push('Unembedded fonts found');
+  checks.priceChecks=inspected.priceChecks;
+  checks.issues.push(...inspected.priceChecks.issues);
   if(/tzfit|tianzhan|\bTZ\s?FIT(?:NESS)?\b/i.test(inspected.text))checks.issues.push('Supplier identity present in customer text');
   results.push(checks);await tab.close();
   await contactSheet(pagesDir,path.join(proofDir,`${doc.key}-contact-sheet.jpg`),doc.pages.length);
 }
 }finally{await browser.close();}
-const report={generatedAt:new Date().toISOString(),mode:proof?'internal-proof':'final-export',catalogModels:catalogue.products.length,brochureModels:catalogue.featuredSkus,originalSourcesModified:false,pendingImages:pending,qr:{destination:url,encoded:true,publicHttpStatus:'not-verified',physicalPrintScan:'not-performed'},print:{trimMm:[210,297],bleedMm:3,safeMarginMm:12,minimumImagePpi:240,targetImagePpi:300,profile:'sRGB; printer-specific CMYK/PDF-X conversion pending printer requirements',imposition:'single pages in reading order'},documents:results,assets:sourcePaths,issues:results.flatMap(d=>d.issues.map(s=>`${d.filename}: ${s}`))};
+const report={generatedAt:new Date().toISOString(),mode:proof?'internal-proof':'final-export',catalogModels:catalogue.products.length,pricingInputs,brochureModels:catalogue.featuredSkus,originalSourcesModified:false,pendingImages:pending,qr:{destination:url,encoded:true,publicHttpStatus:'not-verified',physicalPrintScan:'not-performed'},print:{trimMm:[210,297],bleedMm:3,safeMarginMm:12,minimumImagePpi:240,targetImagePpi:300,profile:'sRGB; printer-specific CMYK/PDF-X conversion pending printer requirements',imposition:'single pages in reading order'},documents:results,assets:sourcePaths,issues:results.flatMap(d=>d.issues.map(s=>`${d.filename}: ${s}`))};
 await fs.writeFile(path.join(outputs,`preflight${proof?'-bozza':''}.json`),JSON.stringify(report,null,2));
 if(!proof&&report.issues.length===0&&!onlyBrochure){await fs.mkdir(path.join(root,'public/cataloghi'),{recursive:true});await fs.copyFile(path.join(outputs,'catalogo-completo.pdf'),path.join(root,'public/cataloghi/fullmuscle-g5.pdf'));}
 console.log(JSON.stringify({mode:report.mode,documents:results.map(d=>({file:d.filename,pages:d.pages,bytes:d.bytes,issues:d.issues})),pendingImages:pending.length},null,2));

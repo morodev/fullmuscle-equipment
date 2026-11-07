@@ -1,0 +1,902 @@
+{
+    "schemaVersion":  1,
+    "source":  {
+                   "filename":  "TZFITNESS Price List for GC Series-20261103.xlsx",
+                   "sha256":  "632cf5af9cb227630494cbe1da66d5ba2fcec3fee54749fd675f8ab9fd0315ee",
+                   "sheet":  "Sheet1",
+                   "priceColumn":  "G",
+                   "priceLabel":  "FOB Tianjin",
+                   "currency":  "USD"
+               },
+    "rows":  [
+                 {
+                     "sourceSku":  "GC-5001",
+                     "row":  9,
+                     "name":  "Seated Leg Curl",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5002",
+                     "row":  10,
+                     "name":  "Seated Leg Extension",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5002-1",
+                     "row":  11,
+                     "name":  "Seated Leg Extension",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5003",
+                     "row":  12,
+                     "name":  "Rotary Torso",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5004",
+                     "row":  13,
+                     "name":  "Seated Row",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5005",
+                     "row":  14,
+                     "name":  "Seated Chest Press",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5006",
+                     "row":  15,
+                     "name":  "Back Extension",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5007",
+                     "row":  16,
+                     "name":  "Pectoral Fly",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5008",
+                     "row":  17,
+                     "name":  "Lat Pulldown",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5009",
+                     "row":  18,
+                     "name":  "Multi Hip",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5010",
+                     "row":  19,
+                     "name":  "Delt Machine",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5011",
+                     "row":  20,
+                     "name":  "Triceps Extension",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5012",
+                     "row":  21,
+                     "name":  "Shoulder Press",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5014",
+                     "row":  22,
+                     "name":  "Adductor/Inner thigh",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5033",
+                     "row":  23,
+                     "name":  "Abductor/Outer thigh",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5015",
+                     "row":  24,
+                     "name":  "Total Abdominal",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5016",
+                     "row":  25,
+                     "name":  "Horizontal Leg Press",
+                     "currency":  "USD",
+                     "amountUsd":  602
+                 },
+                 {
+                     "sourceSku":  "GC-5019",
+                     "row":  26,
+                     "name":  "Assisted Chin Up/Dip",
+                     "currency":  "USD",
+                     "amountUsd":  493
+                 },
+                 {
+                     "sourceSku":  "GC-5020",
+                     "row":  27,
+                     "name":  "Lat Pulldown",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5021",
+                     "row":  28,
+                     "name":  "Low Row",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5022",
+                     "row":  29,
+                     "name":  "Glute Machine",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5022-1",
+                     "row":  30,
+                     "name":  "Glute Machine",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5037",
+                     "row":  31,
+                     "name":  "Abdominal Crunch",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5044",
+                     "row":  32,
+                     "name":  "Prone Leg Curl",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5044-1",
+                     "row":  33,
+                     "name":  "Prone Leg Curl",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5046",
+                     "row":  34,
+                     "name":  "Biceps Machine",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5047",
+                     "row":  35,
+                     "name":  "Butterfly Machine",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5049",
+                     "row":  36,
+                     "name":  "Standing Calf",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5050",
+                     "row":  37,
+                     "name":  "Triceps Dip",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5053",
+                     "row":  38,
+                     "name":  "Inner \u0026 Outer Thigh",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5053-1",
+                     "row":  39,
+                     "name":  "Inner \u0026 Outer Thigh",
+                     "currency":  "USD",
+                     "amountUsd":  434
+                 },
+                 {
+                     "sourceSku":  "GC-5054",
+                     "row":  40,
+                     "name":  "Back \u0026 Abdominal Combo",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5055",
+                     "row":  41,
+                     "name":  "Leg Curl \u0026Extension",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5055-1",
+                     "row":  42,
+                     "name":  "Leg Curl \u0026Extension",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5056",
+                     "row":  43,
+                     "name":  "Adjustable Chest Press",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5057",
+                     "row":  44,
+                     "name":  "Lat Pulldown\u0026Low Row",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5058",
+                     "row":  45,
+                     "name":  "Combo Leg Exercise Machine",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5084",
+                     "row":  46,
+                     "name":  "Standing Multi Flight",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5086",
+                     "row":  47,
+                     "name":  "Biceps \u0026 Triceps Machine",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5092",
+                     "row":  48,
+                     "name":  "Hip Thrust Glute Machine",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5095",
+                     "row":  49,
+                     "name":  "Lateral Shoulder\nPress",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "G45",
+                     "row":  50,
+                     "name":  "Squat Machine C.O.D(Change of Direction)",
+                     "currency":  "USD",
+                     "amountUsd":  670
+                 },
+                 {
+                     "sourceSku":  "GC-5038",
+                     "row":  51,
+                     "name":  "Cable Jungle",
+                     "currency":  "USD",
+                     "amountUsd":  980
+                 },
+                 {
+                     "sourceSku":  "G-41",
+                     "row":  52,
+                     "name":  "Dual Cable Cross",
+                     "currency":  "USD",
+                     "amountUsd":  1100
+                 },
+                 {
+                     "sourceSku":  "G-42",
+                     "row":  53,
+                     "name":  "Dual Cable Cross",
+                     "currency":  "USD",
+                     "amountUsd":  1000
+                 },
+                 {
+                     "sourceSku":  "GC-5090",
+                     "row":  54,
+                     "name":  "Functional Trainer",
+                     "currency":  "USD",
+                     "amountUsd":  680
+                 },
+                 {
+                     "sourceSku":  "GC-5039",
+                     "row":  55,
+                     "name":  "Hip Glute",
+                     "currency":  "USD",
+                     "amountUsd":  360
+                 },
+                 {
+                     "sourceSku":  "GC-5017-1",
+                     "row":  56,
+                     "name":  "Smith Machine",
+                     "currency":  "USD",
+                     "amountUsd":  558
+                 },
+                 {
+                     "sourceSku":  "GC-5073",
+                     "row":  57,
+                     "name":  "Power Rack",
+                     "currency":  "USD",
+                     "amountUsd":  335
+                 },
+                 {
+                     "sourceSku":  "ABK2042",
+                     "row":  58,
+                     "name":  "Weight LiftingPlatform T(matchingfor GC-5073)",
+                     "currency":  "USD",
+                     "amountUsd":  319
+                 },
+                 {
+                     "sourceSku":  "GA-5073-1",
+                     "row":  59,
+                     "name":  "Power Rack with WeightLifting Platform",
+                     "currency":  "USD",
+                     "amountUsd":  654
+                 },
+                 {
+                     "sourceSku":  "GC-5018",
+                     "row":  60,
+                     "name":  "Cable Crossover",
+                     "currency":  "USD",
+                     "amountUsd":  732
+                 },
+                 {
+                     "sourceSku":  "GC-5080",
+                     "row":  61,
+                     "name":  "Smith Rower",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5081",
+                     "row":  62,
+                     "name":  "45 Degree Leg Press",
+                     "currency":  "USD",
+                     "amountUsd":  518
+                 },
+                 {
+                     "sourceSku":  "GC-5082",
+                     "row":  63,
+                     "name":  "45 Degree Hack Squat",
+                     "currency":  "USD",
+                     "amountUsd":  518
+                 },
+                 {
+                     "sourceSku":  "GC-5083",
+                     "row":  64,
+                     "name":  "45 Degree Leg Press Hack Squat Combo",
+                     "currency":  "USD",
+                     "amountUsd":  550
+                 },
+                 {
+                     "sourceSku":  "GC-5085",
+                     "row":  65,
+                     "name":  "Bench Press",
+                     "currency":  "USD",
+                     "amountUsd":  558
+                 },
+                 {
+                     "sourceSku":  "GC-5087",
+                     "row":  66,
+                     "name":  "Belt Squat",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5088",
+                     "row":  67,
+                     "name":  "Abdominal Oblique Crunch",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5089",
+                     "row":  68,
+                     "name":  "Power Squat",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5061",
+                     "row":  69,
+                     "name":  "Power Squat",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5062",
+                     "row":  70,
+                     "name":  "Reverse Hyper",
+                     "currency":  "USD",
+                     "amountUsd":  275
+                 },
+                 {
+                     "sourceSku":  "GC-5079",
+                     "row":  71,
+                     "name":  "Pendulum Squat",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5091",
+                     "row":  72,
+                     "name":  "Adjustable FID Bench Press",
+                     "currency":  "USD",
+                     "amountUsd":  275
+                 },
+                 {
+                     "sourceSku":  "GC-5093",
+                     "row":  73,
+                     "name":  "Lat Pulldown",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5094",
+                     "row":  74,
+                     "name":  "Adjustable T-Bar",
+                     "currency":  "USD",
+                     "amountUsd":  230
+                 },
+                 {
+                     "sourceSku":  "GC-5019-1",
+                     "row":  75,
+                     "name":  "Knee Raise",
+                     "currency":  "USD",
+                     "amountUsd":  139
+                 },
+                 {
+                     "sourceSku":  "GC-5019-2",
+                     "row":  76,
+                     "name":  "Knee Raise",
+                     "currency":  "USD",
+                     "amountUsd":  235
+                 },
+                 {
+                     "sourceSku":  "GC-5023",
+                     "row":  77,
+                     "name":  "Weight Bench Press",
+                     "currency":  "USD",
+                     "amountUsd":  191
+                 },
+                 {
+                     "sourceSku":  "GC-5024",
+                     "row":  78,
+                     "name":  "Adjustable Dumbbell Bench",
+                     "currency":  "USD",
+                     "amountUsd":  158
+                 },
+                 {
+                     "sourceSku":  "GC-5024-1",
+                     "row":  79,
+                     "name":  "Adjustable Dumbbell Bench",
+                     "currency":  "USD",
+                     "amountUsd":  125
+                 },
+                 {
+                     "sourceSku":  "GC-5024B",
+                     "row":  80,
+                     "name":  "Adjustable Bench",
+                     "currency":  "USD",
+                     "amountUsd":  139
+                 },
+                 {
+                     "sourceSku":  "GC-5025",
+                     "row":  81,
+                     "name":  "Preacher Curl",
+                     "currency":  "USD",
+                     "amountUsd":  191
+                 },
+                 {
+                     "sourceSku":  "GC-5025A",
+                     "row":  82,
+                     "name":  "Preacher Curl",
+                     "currency":  "USD",
+                     "amountUsd":  135
+                 },
+                 {
+                     "sourceSku":  "GC-5026",
+                     "row":  83,
+                     "name":  "Roman Chair",
+                     "currency":  "USD",
+                     "amountUsd":  163
+                 },
+                 {
+                     "sourceSku":  "GC-5027",
+                     "row":  84,
+                     "name":  "Adjustable Abdominal Bench",
+                     "currency":  "USD",
+                     "amountUsd":  145
+                 },
+                 {
+                     "sourceSku":  "GC-5028",
+                     "row":  85,
+                     "name":  "Weight Plate Tree",
+                     "currency":  "USD",
+                     "amountUsd":  82
+                 },
+                 {
+                     "sourceSku":  "GC-5029",
+                     "row":  86,
+                     "name":  "Barbell rack",
+                     "currency":  "USD",
+                     "amountUsd":  135
+                 },
+                 {
+                     "sourceSku":  "GC-5029-1",
+                     "row":  87,
+                     "name":  "Barbell RacK",
+                     "currency":  "USD",
+                     "amountUsd":  135
+                 },
+                 {
+                     "sourceSku":  "GC-5030",
+                     "row":  88,
+                     "name":  "Incline Bench Press",
+                     "currency":  "USD",
+                     "amountUsd":  210
+                 },
+                 {
+                     "sourceSku":  "GC-5031",
+                     "row":  89,
+                     "name":  "Flat Bench",
+                     "currency":  "USD",
+                     "amountUsd":  68
+                 },
+                 {
+                     "sourceSku":  "GC-5032",
+                     "row":  90,
+                     "name":  "Dumbbell Rack",
+                     "currency":  "USD",
+                     "amountUsd":  147
+                 },
+                 {
+                     "sourceSku":  "GC-5045",
+                     "row":  91,
+                     "name":  "Dumbbell Rack\n(15 pairs)",
+                     "currency":  "USD",
+                     "amountUsd":  198
+                 },
+                 {
+                     "sourceSku":  "GC-5013",
+                     "row":  92,
+                     "name":  "Dumbbell Rack for Hex Dumbbell",
+                     "currency":  "USD",
+                     "amountUsd":  195
+                 },
+                 {
+                     "sourceSku":  "GC-5034",
+                     "row":  93,
+                     "name":  "Military Bench",
+                     "currency":  "USD",
+                     "amountUsd":  228
+                 },
+                 {
+                     "sourceSku":  "GC-5035",
+                     "row":  94,
+                     "name":  "Bench Press \u0026 Squat Combo",
+                     "currency":  "USD",
+                     "amountUsd":  359
+                 },
+                 {
+                     "sourceSku":  "GC-5043",
+                     "row":  95,
+                     "name":  "Decline Bench Press",
+                     "currency":  "USD",
+                     "amountUsd":  210
+                 },
+                 {
+                     "sourceSku":  "GC-5051",
+                     "row":  96,
+                     "name":  "Squat Rack",
+                     "currency":  "USD",
+                     "amountUsd":  219
+                 },
+                 {
+                     "sourceSku":  "GC-5052",
+                     "row":  97,
+                     "name":  "Utility Bench",
+                     "currency":  "USD",
+                     "amountUsd":  65
+                 },
+                 {
+                     "sourceSku":  "GC-5074",
+                     "row":  98,
+                     "name":  "Compact Leg Press",
+                     "currency":  "USD",
+                     "amountUsd":  298
+                 },
+                 {
+                     "sourceSku":  "GC-5096",
+                     "row":  99,
+                     "name":  "Kettlebell Rack",
+                     "currency":  "USD",
+                     "amountUsd":  89
+                 },
+                 {
+                     "sourceSku":  "GC-5101",
+                     "row":  100,
+                     "name":  "Standing Chest Press",
+                     "currency":  "USD",
+                     "amountUsd":  390
+                 },
+                 {
+                     "sourceSku":  "GC-5102",
+                     "row":  101,
+                     "name":  "Anchor Row",
+                     "currency":  "USD",
+                     "amountUsd":  435
+                 },
+                 {
+                     "sourceSku":  "GC-5103",
+                     "row":  102,
+                     "name":  "Shoulder Press",
+                     "currency":  "USD",
+                     "amountUsd":  215
+                 },
+                 {
+                     "sourceSku":  "GC-5105",
+                     "row":  103,
+                     "name":  "Squat and Calf Block",
+                     "currency":  "USD",
+                     "amountUsd":  28
+                 },
+                 {
+                     "sourceSku":  "GC-5106",
+                     "row":  104,
+                     "name":  "Flat Bench Press",
+                     "currency":  "USD",
+                     "amountUsd":  340
+                 },
+                 {
+                     "sourceSku":  "GC-5107",
+                     "row":  105,
+                     "name":  "Incline Bench Press",
+                     "currency":  "USD",
+                     "amountUsd":  340
+                 },
+                 {
+                     "sourceSku":  "GC-5113",
+                     "row":  106,
+                     "name":  "Vertical Crunch Station",
+                     "currency":  "USD",
+                     "amountUsd":  245
+                 },
+                 {
+                     "sourceSku":  "GC-5114",
+                     "row":  107,
+                     "name":  "Adjustable Dumbbell Stand",
+                     "currency":  "USD",
+                     "amountUsd":  70
+                 },
+                 {
+                     "sourceSku":  "GC-5115",
+                     "row":  108,
+                     "name":  "Standing Calf Raise Machine",
+                     "currency":  "USD",
+                     "amountUsd":  298
+                 },
+                 {
+                     "sourceSku":  "GC-5097",
+                     "row":  109,
+                     "name":  "4 Multi-Station",
+                     "currency":  "USD",
+                     "amountUsd":  1000
+                 },
+                 {
+                     "sourceSku":  "GC-5097C",
+                     "row":  110,
+                     "name":  "4 Multi Gym Station",
+                     "currency":  "USD",
+                     "amountUsd":  1098
+                 },
+                 {
+                     "sourceSku":  "GC-5098",
+                     "row":  111,
+                     "name":  "5 Multi-Station",
+                     "currency":  "USD",
+                     "amountUsd":  1325
+                 },
+                 {
+                     "sourceSku":  "GC-5099",
+                     "row":  112,
+                     "name":  "8 Multi-Station",
+                     "currency":  "USD",
+                     "amountUsd":  2029
+                 },
+                 {
+                     "sourceSku":  "GC-5097A",
+                     "row":  113,
+                     "name":  "4 Multi-Station",
+                     "currency":  "USD",
+                     "amountUsd":  1058
+                 },
+                 {
+                     "sourceSku":  "GC-5098A-5200",
+                     "row":  114,
+                     "name":  "Single Pulley",
+                     "currency":  "USD",
+                     "amountUsd":  340
+                 },
+                 {
+                     "sourceSku":  "GC-5098A-5201",
+                     "row":  115,
+                     "name":  "Connector",
+                     "currency":  "USD",
+                     "amountUsd":  68
+                 },
+                 {
+                     "sourceSku":  "GC-5098A-5202",
+                     "row":  116,
+                     "name":  "4 Multi-Station",
+                     "currency":  "USD",
+                     "amountUsd":  1249
+                 },
+                 {
+                     "sourceSku":  "GC-5098A-5203",
+                     "row":  117,
+                     "name":  "4 Multi-Station",
+                     "currency":  "USD",
+                     "amountUsd":  1465
+                 },
+                 {
+                     "sourceSku":  "GC-5063",
+                     "row":  119,
+                     "name":  "Standing Abductor",
+                     "currency":  "USD",
+                     "amountUsd":  335
+                 },
+                 {
+                     "sourceSku":  "GC-5063-1",
+                     "row":  120,
+                     "name":  "Standing Abductor",
+                     "currency":  "USD",
+                     "amountUsd":  335
+                 },
+                 {
+                     "sourceSku":  "GC-5064",
+                     "row":  121,
+                     "name":  "Standing Hip Thrust",
+                     "currency":  "USD",
+                     "amountUsd":  260
+                 },
+                 {
+                     "sourceSku":  "GC-5065",
+                     "row":  122,
+                     "name":  "Belt Squat",
+                     "currency":  "USD",
+                     "amountUsd":  350
+                 },
+                 {
+                     "sourceSku":  "GC-5066",
+                     "row":  123,
+                     "name":  "Hack Squat",
+                     "currency":  "USD",
+                     "amountUsd":  470
+                 },
+                 {
+                     "sourceSku":  "GC-5067",
+                     "row":  124,
+                     "name":  "Hip Thrust Glute Machine",
+                     "currency":  "USD",
+                     "amountUsd":  520
+                 },
+                 {
+                     "sourceSku":  "GC-5067-1",
+                     "row":  125,
+                     "name":  "Hip Thrust Glute Machine",
+                     "currency":  "USD",
+                     "amountUsd":  520
+                 },
+                 {
+                     "sourceSku":  "GC-5068",
+                     "row":  126,
+                     "name":  "Loaded Back Extension",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5069",
+                     "row":  127,
+                     "name":  "Hip Thrust Glute Machine",
+                     "currency":  "USD",
+                     "amountUsd":  375
+                 },
+                 {
+                     "sourceSku":  "GC-5070",
+                     "row":  128,
+                     "name":  "Kick Back",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5071",
+                     "row":  129,
+                     "name":  "Standing Abductor",
+                     "currency":  "USD",
+                     "amountUsd":  398
+                 },
+                 {
+                     "sourceSku":  "GC-5075",
+                     "row":  130,
+                     "name":  "Standing Hip Thrust",
+                     "currency":  "USD",
+                     "amountUsd":  424
+                 },
+                 {
+                     "sourceSku":  "GC-5076",
+                     "row":  131,
+                     "name":  "Hip Thrust",
+                     "currency":  "USD",
+                     "amountUsd":  259
+                 },
+                 {
+                     "sourceSku":  "GC-5104",
+                     "row":  132,
+                     "name":  "Selectorized Step-Up",
+                     "currency":  "USD",
+                     "amountUsd":  550
+                 },
+                 {
+                     "sourceSku":  "GC-5077",
+                     "row":  133,
+                     "name":  "Reverse Hyper Extension",
+                     "currency":  "USD",
+                     "amountUsd":  259
+                 },
+                 {
+                     "sourceSku":  "GC-5040",
+                     "row":  134,
+                     "name":  "Split Squat Stand",
+                     "currency":  "USD",
+                     "amountUsd":  69
+                 },
+                 {
+                     "sourceSku":  "GC-5041",
+                     "row":  135,
+                     "name":  "Dual 45 Hip Extension",
+                     "currency":  "USD",
+                     "amountUsd":  368
+                 },
+                 {
+                     "sourceSku":  "GC-5042",
+                     "row":  136,
+                     "name":  "Plate Loaded Glute Lunge",
+                     "currency":  "USD",
+                     "amountUsd":  420
+                 }
+             ]
+}
