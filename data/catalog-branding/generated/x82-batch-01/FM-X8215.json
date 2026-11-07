@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8215-9d11973fc4ce767d",
+  "sku": "FM-X8215",
+  "role": "primary",
+  "sourceHash": "28b104e80d37537ba7379be28ed63e847ee142652fd29fff7b5ee86bdc6d98a9",
+  "inputPath": "src/assets/catalog/FM-X8215/primary-01-264b555c70aa.webp",
+  "originalPath": "data/catalog-assets/originals/28/28b104e80d37537ba7379be28ed63e847ee142652fd29fff7b5ee86bdc6d98a9.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8215.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8215",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8215 standing assisted extension/hip machine with two black angled pads at right and a tall rotating handle arm at left. Recolor ONLY the tall central moving arm that rises from the round base pivot and bends to carry the two upright handgrips dark forest green. Keep black grip rubbers and silver caps, yellow adjustment knob, silver perforated adjustment arc, all black support pads and foot rollers unchanged. Fixed right pad-support frame and low chassis remain grey. Preserve exact machine stance and all lever/pad relationships; no invented instruction plaque.",
+  "review": "Source/result compared: original tall handle arm, pad arrangement, perforated adjustment arc and front roller support maintained. Green only central moving arm, black pads/grips and grey static frame retained.",
+  "editTarget": "src/assets/catalog/FM-X8215/primary-01-264b555c70aa.webp",
+  "checkedAt": "2026-11-07T11:10:46.996Z",
+  "outputHash": "6633513060d6d047a82ee88bfa4cc83b5772ead3707843e899fb8a18ea72b048",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

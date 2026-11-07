@@ -28,6 +28,7 @@ const workspace = process.cwd();
 const sourcePath = resolve(workspace, 'data/catalog-drafts/products.json');
 const inventoryPath = resolve(workspace, 'data/catalog-source/tzfit/inventory.json');
 const assetManifestPath = resolve(workspace, 'data/catalog-assets/manifest.json');
+const editorialPath = resolve(workspace, 'data/catalog-editorial/descriptions.json');
 const outputPath = resolve(workspace, 'data/catalog-public/products.json');
 const unsafeContent = /tz\s*[-_]?\s*fit|tzfit|tianzh|factory|manufacturer|oem|odm|warranty|guarantee|certificat|patent|brand|logo|customer|production line/i;
 const supplierReference = /\b(?:tz\s*fitness|tzfit|tianzh\w*)\b|\bTZ[-\s]?[A-Z0-9-]+\b/gi;
@@ -52,10 +53,11 @@ function cleanTechnicalDescription(value: unknown, sourceSku: string, publicSku:
 }
 
 export async function generatePublicCatalog(): Promise<void> {
-  const [document, inventory, assetManifest] = await Promise.all([
+  const [document, inventory, assetManifest, editorial] = await Promise.all([
     readFile(sourcePath, 'utf8').then((value) => JSON.parse(value) as SourceDocument),
     readFile(inventoryPath, 'utf8').then((value) => JSON.parse(value) as InventoryDocument),
     readFile(assetManifestPath, 'utf8').then((value) => JSON.parse(value) as AssetManifest),
+    readFile(editorialPath, 'utf8').then((value) => JSON.parse(value) as Record<string, { technicalDescription: string }>),
   ]);
   const inventoryBySku = new Map((inventory.products ?? []).map((product) => [cleanText(product.sourceSku).toUpperCase(), product]));
   const dimensionsByPath = new Map((assetManifest.items ?? []).filter((item) => item.stagedPath).map((item) => [cleanText(item.stagedPath).replaceAll('\\', '/'), { width: item.width ?? 900, height: item.height ?? 900 }]));
@@ -80,7 +82,7 @@ export async function generatePublicCatalog(): Promise<void> {
       });
     const descriptor = cleanText(product.localization?.en?.name || product.localization?.it?.name || '');
     const sourceProduct = inventoryBySku.get(sourceSku);
-    const technicalDescription = cleanTechnicalDescription(sourceProduct?.sourceDescription, sourceSku, publicSku);
+    const technicalDescription = cleanTechnicalDescription(editorial[publicSku]?.technicalDescription ?? sourceProduct?.sourceDescription, sourceSku, publicSku);
 
     return {
       publicSku,

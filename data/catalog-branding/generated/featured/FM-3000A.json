@@ -1,0 +1,18 @@
+{
+  "sku": "FM-3000A",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle commercial gym equipment catalogue. Image 1 is the ONLY edit target, the black FM-3000A non-motorized curved slat treadmill viewed from above at three-quarter angle on white. Images 2 and 3 are references ONLY for dark satin forest-green paint (~#356B35) and white/green italic Full Muscle Equipment logo. Preserve the exact distinctive curved running deck, individual slats and grooves, foot rails, two wide front support uprights, all handrails, console, lower rear transport handle, screw placements, wheel guards, perspective, original square framing and white background. Recolor ONLY the blue decorative stripe/circular accent on the near-facing lower side housing and the broad painted faces of the two front console-support uprights dark forest green; keep all black rubber grips, handlebar tubes, running belt/slats, foot rails and side housing black, and metal caps/fasteners silver. Add a compact physical italic white/green 'Full Muscle' logo with tiny 'EQUIPMENT' below on the near-facing black side housing above the decorative green stripe. Size it modestly to fit the existing uninterrupted surface, follow its perspective, no floating watermark. Do not invent parts, do not alter handrail shape or display, do not make a motorized treadmill. Keep complete original machine inside canvas.",
+  "outputPath": "data/catalog-branding/generated/featured/FM-3000A.png",
+  "review": "Source and result inspected. Curved slat deck, complete handrail shape, two uprights, console and rear transport handle retained. Green upright panels and accent stripe with modest side logo. Original black running surfaces and silver caps preserved; fine microtext illustrative.",
+  "assetId": "fm-3000a-2edcacffb49ecb2d",
+  "publicSku": "FM-3000A",
+  "sourceHash": "530c5b63816fadbbc275e212dd19037c899704d143ab893ae3b4b47926ab7fd8",
+  "originalPath": "data/catalog-assets/originals/53/530c5b63816fadbbc275e212dd19037c899704d143ab893ae3b4b47926ab7fd8.jpg",
+  "editTarget": "src/assets/catalog/FM-3000A/primary-01-432d84eeefcd.webp",
+  "status": "visually-reviewed",
+  "checkedAt": "2026-11-07T10:57:16.622Z",
+  "outputHash": "2b233033a0d9affb6de64a39bf511ce5d9762ea571c87b1f7da5dd79ada4f2ab",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

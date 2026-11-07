@@ -9,9 +9,10 @@ interface Props {
   locale: Locale;
   prominent?: boolean;
   eager?: boolean;
+  sizes?: string;
 }
 
-const { solution, locale, prominent = false, eager = false } = Astro.props;
+const { solution, locale, prominent = false, eager = false, sizes } = Astro.props;
 const isIt = locale === 'it';
 ---
 <a class:list={['solution-card', { prominent }]} href={solutionUrl(locale, solution)}>
@@ -19,7 +20,7 @@ const isIt = locale === 'it';
     src={solution.image}
     alt={solution.imageAlt[locale]}
     widths={[480, 720, 960, 1280]}
-    sizes={prominent ? '(max-width: 760px) 100vw, 66vw' : '(max-width: 760px) 100vw, 40vw'}
+    sizes={sizes ?? (prominent ? '(max-width: 1280px) 100vw, 1240px' : '(max-width: 760px) 100vw, (max-width: 1280px) 50vw, 620px')}
     loading={eager ? 'eager' : 'lazy'}
     fetchpriority={eager ? 'high' : 'auto'}
   />

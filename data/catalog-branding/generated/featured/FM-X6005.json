@@ -1,0 +1,18 @@
+{
+  "sku": "FM-X6005",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for the Full Muscle gym-equipment catalogue. Image 1 is the ONLY edit target: the black X6005 seated chest press machine on a white square canvas. Images 2 and 3 are style references ONLY for the dark satin forest-green painted finish (approximately #356B35) and white/green italic Full Muscle Equipment logo. Preserve the exact camera view, machine silhouette, arrangement and number of beams, arms, pulleys, cables, screws, upholstery and pads, same shadows and white background. Recolor ONLY the blue decorative strips on the weight tower and the two long moving overhead chest-press arms (the tall bent steel arms carrying the left and right handles) to dark forest green. Keep stationary frame and tower black, seat and back pads black, grip rubber black and chrome bars silver. Keep yellow adjustment lever and all safety/usage labels. Remove the small TZ badge and vertical CURVE lettering from tower, replacing the upper badge with a modest physical italic white/green 'Full Muscle' logo and tiny 'EQUIPMENT' below, matching reference 3. Restore clean black panel where CURVE was. Do not change mechanical shape or exercise movement, do not add panels, rods or typography elsewhere. Machine fully contained in original square composition.",
+  "outputPath": "data/catalog-branding/generated/featured/FM-X6005.png",
+  "review": "Source and result visually inspected: main structure, handle shape, pads, cable arrangement, yellow adjustment lever and original view preserved. Dark green painted arms and trim, Full Muscle logo applied; supplier marks removed. Fine microtext illustrative.",
+  "assetId": "fm-x6005-0f7a4c74d611d89e",
+  "publicSku": "FM-X6005",
+  "sourceHash": "75ce0553f9d93c2a2a96647e49c29782196e178cee1dafa8e60e6e680395b748",
+  "originalPath": "data/catalog-assets/originals/75/75ce0553f9d93c2a2a96647e49c29782196e178cee1dafa8e60e6e680395b748.jpg",
+  "editTarget": "src/assets/catalog/FM-X6005/primary-01-08a35c5c4410.webp",
+  "status": "visually-reviewed",
+  "checkedAt": "2026-11-07T10:57:16.609Z",
+  "outputHash": "e0ebad54fd884f466d8d45eabde6e982a4dd38657fbab63322582af527d524bf",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

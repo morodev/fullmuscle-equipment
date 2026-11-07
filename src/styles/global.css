@@ -13,7 +13,7 @@
 :root {
   color-scheme: light;
   --green: #69be28;
-  --green-dark: #347a1b;
+  --green-dark: #32751a;
   --ink: #090c0a;
   --carbon: #111512;
   --carbon-soft: #182019;
@@ -112,7 +112,7 @@ button, select { cursor: pointer; }
 .taxonomy-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
 .taxonomy-card strong { display: block; max-width: 14ch; font-size: 1.55rem; letter-spacing: -.03em; line-height: 1.08; }
 .taxonomy-card p { max-width: 34ch; margin: .75rem 0; color: var(--muted); font-size: .94rem; }
-.taxonomy-card .count { position: absolute; right: 1.25rem; bottom: 1.2rem; color: var(--green-dark); font-size: 3.8rem; font-weight: 850; letter-spacing: -.08em; opacity: .18; }
+.taxonomy-card .count { position: absolute; right: 1.25rem; bottom: 1.2rem; color: var(--green-dark); font-size: 1.15rem; font-weight: 850; letter-spacing: -.03em; }
 .taxonomy-card .link-label { position: absolute; left: 1.5rem; bottom: 1.5rem; color: var(--green-dark); font-size: .8rem; font-weight: 800; text-transform: uppercase; }
 
 .product-card {

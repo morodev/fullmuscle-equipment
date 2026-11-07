@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8210-60d1a4a759144a66",
+  "sku": "FM-X8210",
+  "role": "primary",
+  "sourceHash": "1f1b89429233e585ac7776f2c7858b5b444eb96737cbe11ac04d8a0700a699ca",
+  "inputPath": "src/assets/catalog/FM-X8210/primary-01-ae210beb3afe.webp",
+  "originalPath": "data/catalog-assets/originals/1f/1f1b89429233e585ac7776f2c7858b5b444eb96737cbe11ac04d8a0700a699ca.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8210.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8210",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8210 prone lying leg curl, NOT seated leg curl. Preserve long angled black body bench at left and two black ankle rollers at right. Recolor ONLY the moving steel ankle-roller lever and its outer circular pivot/cam cover dark forest green. Keep fixed bench-support legs grey, upholstery and roller caps black, yellow/black roller adjustment knob unchanged and cable routing intact. Do not add seat or backrest. Preserve exact bench profile and original handles.",
+  "review": "Source/result compared: prone bench profile, roller pair, left grip, support frame and cable routing preserved. Green ankle lever and cam cover; original grey fixed structure retained.",
+  "editTarget": "src/assets/catalog/FM-X8210/primary-01-ae210beb3afe.webp",
+  "checkedAt": "2026-11-07T11:10:46.970Z",
+  "outputHash": "de364c938b9ce873e5e1d39bf35bba116c90a6056ee63819966ce9c68057b0c1",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

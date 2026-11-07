@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8211-25bc139ce273d542",
+  "sku": "FM-X8211",
+  "role": "primary",
+  "sourceHash": "9857ca3be411cc91df3d2cc8e092495b349f116d7f8d9a3bdb1884225e0e5a1e",
+  "inputPath": "src/assets/catalog/FM-X8211/primary-01-4c9b509cfa41.webp",
+  "originalPath": "data/catalog-assets/originals/98/9857ca3be411cc91df3d2cc8e092495b349f116d7f8d9a3bdb1884225e0e5a1e.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8211.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8211",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8211 seated arm-curl machine with wide inclined black elbow pad. Recolor ONLY the curved moving steel arm rising over the elbow pad and carrying the two short black grips dark forest green, plus its external moving pivot bracket. Keep the long elbow cushion black, seat black, stationary upright/support frame grey, yellow seat adjustment yellow, counterweight black and chrome tips silver. Preserve empty grey tower surface; do not invent an exercise instruction plaque or change handle positions.",
+  "review": "Source/result compared: elbow pad, paired grips, seat, stationary A-frame and blank tower front preserved. Green moving arm/pivot; generated result also paints the metal counterweight green without geometry changes.",
+  "editTarget": "src/assets/catalog/FM-X8211/primary-01-4c9b509cfa41.webp",
+  "checkedAt": "2026-11-07T11:10:46.976Z",
+  "outputHash": "b59690a732bccf6b6bce08d99fef224ebea3a1404daa9d2c7b320635513d7ecb",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8201-e92c4a81dd444809",
+  "sku": "FM-X8201",
+  "role": "primary",
+  "sourceHash": "6000724ee5b1174a92dfc01e46f6285c8f3d5578d250fd817666be791c91816c",
+  "inputPath": "src/assets/catalog/FM-X8201/primary-01-25226a4b6786.webp",
+  "originalPath": "data/catalog-assets/originals/60/6000724ee5b1174a92dfc01e46f6285c8f3d5578d250fd817666be791c91816c.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8201.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8201",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8201 seated hip abduction/adduction machine. Recolor ONLY the low moving grey thigh lever bars under the seat and their knee-pad support brackets dark forest green. Keep the outer curved stationary support around the seat and the backrest support grey, both knee cushions black, the central pivot mechanism and all chrome rods unchanged. Do not change the shape or position of thigh pads, foot supports or seat.",
+  "review": "Source/result compared: knee-pad supports and low moving levers green; chassis, central mechanism, grey tower and original framing preserved.",
+  "editTarget": "src/assets/catalog/FM-X8201/primary-01-25226a4b6786.webp",
+  "checkedAt": "2026-11-07T11:10:46.933Z",
+  "outputHash": "f2268d959787a5fc0a5b5a102b8a8ff672c0b6002425e71e38e4576af3ae95cd",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

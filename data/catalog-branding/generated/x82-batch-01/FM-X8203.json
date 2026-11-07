@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8203-3f3f83edab6104a0",
+  "sku": "FM-X8203",
+  "role": "primary",
+  "sourceHash": "543574743e7242f8e05c51087eb5976f97047cd300257da92e180630e549e3ef",
+  "inputPath": "src/assets/catalog/FM-X8203/primary-01-6e09ffbdde13.webp",
+  "originalPath": "data/catalog-assets/originals/54/543574743e7242f8e05c51087eb5976f97047cd300257da92e180630e549e3ef.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8203.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8203",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8203 seated leg exercise machine with upper and lower black roller pads. Recolor ONLY the long bent lower moving lever that carries the lower pair of roller pads and curves toward the right-hand pivot, plus its adjacent painted linkage plates, dark forest green. Keep the upper thigh restraint bar, all roller upholstery, chrome adjustment shafts and handles, grey stationary supports, seat/backrest and yellow safety markers unchanged. Preserve number, position and shape of all rollers.",
+  "review": "Source/result compared: roller count, lever layout, upper thigh restraint and chrome adjustment shafts preserved; lower lever and moving linkage painted green. Original upper plate title retained as supplied.",
+  "editTarget": "src/assets/catalog/FM-X8203/primary-01-6e09ffbdde13.webp",
+  "checkedAt": "2026-11-07T11:10:46.939Z",
+  "outputHash": "8a6190f877930059e8dff4e6902e2698142d08e920812ab39d2aa02c28c9bd34",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8217-3b06d5cb0be34977",
+  "sku": "FM-X8217",
+  "role": "primary",
+  "sourceHash": "ce4df8b596f4c473d8c06a2a7aab5ef1605114b7c585741af16e25b4422cd3a3",
+  "inputPath": "src/assets/catalog/FM-X8217/primary-01-1a8ddad517dd.webp",
+  "originalPath": "data/catalog-assets/originals/ce/ce4df8b596f4c473d8c06a2a7aab5ef1605114b7c585741af16e25b4422cd3a3.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8217.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8217",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8217 seated leg-curl machine with one long upper thigh roller and one long lower shin roller. Recolor ONLY the diagonal moving steel lower-roller lever and its exposed outer cam/pivot plate dark forest green. Keep the long upper thigh-restraint roller and its support grey/black, both roller cushions black, backrest/seat black, stationary legs grey, cables/pulleys black and yellow knobs unchanged. Preserve the exact complex linkage, every pivot and visible handle; do not simplify it or change the roller count/positions. No invented instruction plaque.",
+  "review": "Source/result compared: complex front linkage, long thigh/shin rollers, separate counterweight, seat/back and grey legs preserved. Green moving diagonal roller lever and outer cam plate only.",
+  "editTarget": "src/assets/catalog/FM-X8217/primary-01-1a8ddad517dd.webp",
+  "checkedAt": "2026-11-07T11:10:47.006Z",
+  "outputHash": "b65382def6e45cf52242bb7af2a2f6e94da49c3dac30484a3cb4554e8af0d569",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

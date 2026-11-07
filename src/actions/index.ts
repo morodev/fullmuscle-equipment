@@ -4,6 +4,7 @@ import { ActionError, defineAction } from 'astro:actions';
 import { z } from 'astro/zod';
 import { PRODUCTS } from '../lib/catalog';
 import { PROJECT_TYPE_VALUES, projectTypeLabel } from '../lib/project-types';
+import { isLocalQuoteTestMode } from '../lib/quote-test-mode';
 
 const publicProducts = new Map(PRODUCTS.map((product) => [product.sku, product]));
 const attempts = new Map<string, number[]>();
@@ -37,7 +38,8 @@ export const server = {
       const requestId = randomUUID();
       if (input.website) return { requestId };
       enforceRateLimit(context.request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || context.clientAddress || 'unknown');
-      await verifyTurnstile(input.turnstileToken, context.clientAddress);
+      const localTest = isLocalQuoteTestMode(process.env);
+      if (!localTest) await verifyTurnstile(input.turnstileToken, context.clientAddress);
 
       const resolvedItems = input.items.map((item) => {
         const product = publicProducts.get(item.sku);
@@ -45,12 +47,12 @@ export const server = {
         return { sku: product.sku, name: product.name[input.locale], quantity: item.quantity };
       });
 
-      if (smtpConfigured()) {
+      if (localTest) {
+        console.info(`[quote:${requestId}] richiesta di test locale con ${resolvedItems.length} prodotti`);
+      } else if (smtpConfigured()) {
         await sendQuoteEmail({ ...input, items: resolvedItems, requestId });
-      } else if (import.meta.env.PROD && import.meta.env.PUBLIC_SITE_READY === 'true') {
-        throw new ActionError({ code: 'INTERNAL_SERVER_ERROR', message: 'Servizio email non configurato.' });
       } else {
-        console.info(`[quote:${requestId}] richiesta di test con ${resolvedItems.length} prodotti`);
+        throw new ActionError({ code: 'INTERNAL_SERVER_ERROR', message: 'Servizio email non configurato.' });
       }
       return { requestId };
     },
@@ -68,7 +70,7 @@ function enforceRateLimit(identifier: string): void {
 async function verifyTurnstile(token: string | undefined, remoteIp: string | undefined): Promise<void> {
   const secret = import.meta.env.TURNSTILE_SECRET_KEY;
   if (!secret) {
-    if (import.meta.env.PROD && import.meta.env.PUBLIC_SITE_READY === 'true') {
+    if (import.meta.env.PROD) {
       throw new ActionError({ code: 'INTERNAL_SERVER_ERROR', message: 'Protezione antispam non configurata.' });
     }
     return;

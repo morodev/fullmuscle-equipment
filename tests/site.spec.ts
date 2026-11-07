@@ -6,7 +6,7 @@ test('homepage e navigazione bilingue sono disponibili', async ({ page }) => {
     if (message.type() === 'error') consoleErrors.push(message.text());
   });
   await page.goto('/it/');
-  await expect(page.getByRole('heading', { level: 1 })).toContainText('più forti');
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('fornitura completa');
   await expect(page).toHaveTitle(/Attrezzature professionali per palestre/);
   if ((page.viewportSize()?.width ?? 1280) < 1180) {
     await page.getByRole('button', { name: 'Apri il menu' }).click();
@@ -77,16 +77,23 @@ test('la home presenta serie X6, X82 e tapis roulant', async ({ page }) => {
   for (const [index, sku] of featuredSkus.entries()) await expect(cards.nth(index)).toContainText(sku);
 });
 
-test('la home e il nuovo hub presentano i settori professionali', async ({ page }) => {
+test('la home dà priorità a nuove palestre e rinnovi e mantiene accessibili tutte le soluzioni', async ({ page }) => {
   await page.goto('/it/');
   const homeSolutions = page.locator('.home-solutions .solution-card');
-  await expect(homeSolutions).toHaveCount(5);
-  await expect(page.locator('.home-solutions a[href="/it/soluzioni/navi-da-crociera/"]')).toHaveCount(1);
-  await expect(page.locator('.home-solutions a[href="/it/soluzioni/centri-medicali-riabilitazione/"]')).toHaveCount(1);
+  const primarySolutions = [
+    '/it/soluzioni/apertura-nuova-palestra/',
+    '/it/soluzioni/rinnovo-palestra/',
+    '/it/soluzioni/centri-medicali-riabilitazione/',
+  ];
+  await expect(homeSolutions).toHaveCount(3);
+  expect(await homeSolutions.evaluateAll((links) => links.map((link) => link.getAttribute('href')))).toEqual(primarySolutions);
+  expect(await page.locator('.home-solutions').evaluate((section) => Boolean(section.compareDocumentPosition(document.querySelector('.category-grid')!) & Node.DOCUMENT_POSITION_FOLLOWING))).toBe(true);
 
-  await page.goto('/it/soluzioni/');
-  await expect(page.getByRole('heading', { level: 1 })).toContainText('Ogni spazio fitness');
+  await page.locator('.home-solutions').getByRole('link', { name: /Scopri tutte le soluzioni/ }).click();
+  await expect(page).toHaveURL('/it/soluzioni/');
   await expect(page.locator('.solutions-grid .solution-card')).toHaveCount(9);
+  expect((await page.locator('.solutions-grid .solution-card').evaluateAll((links) => links.map((link) => link.getAttribute('href')))).slice(0, 3)).toEqual(primarySolutions);
+  await expect(page.locator('.solutions-grid a[href="/it/soluzioni/navi-da-crociera/"]')).toHaveCount(1);
   await expect(page.locator('link[rel="alternate"][hreflang="en"]')).toHaveAttribute('href', /\/en\/solutions\/$/);
   const firstImage = page.locator('.solutions-grid .solution-card img').first();
   await firstImage.scrollIntoViewIfNeeded();
@@ -100,15 +107,30 @@ test('la home e il nuovo hub presentano i settori professionali', async ({ page 
   expect(await page.locator('script[type="application/ld+json"]').textContent()).toContain('Service');
 });
 
-test('una richiesta di progetto può essere inviata senza prodotti', async ({ page }) => {
-  await page.goto('/it/richiesta/?project=medical');
+test('apertura e rinnovo portano a richieste con il tipo di progetto corretto', async ({ page }) => {
+  for (const project of [
+    { slug: 'apertura-nuova-palestra', type: 'new-gym' },
+    { slug: 'rinnovo-palestra', type: 'renovation' },
+  ]) {
+    await page.goto('/it/');
+    await page.locator(`.home-solutions a[href="/it/soluzioni/${project.slug}/"]`).click();
+    await page.getByRole('link', { name: /Parliamo del progetto/ }).click();
+    await expect(page).toHaveURL(`/it/richiesta/?project=${project.type}`);
+    await expect(page.getByLabel('Tipo di progetto *')).toHaveValue(project.type);
+  }
+});
+
+test('la richiesta di fornitura dalla homepage può essere inviata senza prodotti', async ({ page }) => {
+  await page.goto('/it/');
+  await page.locator('.hero-actions').getByRole('link', { name: /Richiedi una fornitura completa/ }).click();
+  await expect(page).toHaveURL('/it/richiesta/?project=gym');
   await expect(page.getByRole('heading', { name: 'Puoi iniziare anche senza una lista di prodotti.' })).toBeVisible();
-  await expect(page.getByLabel('Tipo di progetto *')).toHaveValue('medical');
+  await expect(page.getByLabel('Tipo di progetto *')).toHaveValue('gym');
   await page.getByLabel('Nome *', { exact: true }).fill('Mario');
   await page.getByLabel('Cognome *').fill('Rossi');
   await page.getByLabel('Email *').fill('mario@example.com');
   await page.getByLabel('Paese *').fill('Italia');
-  await page.getByLabel('Messaggio *').fill('Vorrei progettare un centro medicale di circa 250 metri quadrati.');
+  await page.getByLabel('Messaggio *').fill('Vorrei una fornitura completa per una nuova palestra di circa 250 metri quadrati.');
   await page.getByLabel(/Ho letto l’informativa/).check();
   await page.getByRole('button', { name: 'Invia richiesta di preventivo' }).click();
   await page.waitForURL('**/it/conferma/');

@@ -1,0 +1,27 @@
+{
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "items": [
+    {
+      "sku": "FM-X6053",
+      "input": "data/catalog-branding/generated/featured/FM-X6053.png",
+      "output": "src/assets/home/FM-X6053.png",
+      "prompt": "Background-extraction edit. Remove ONLY the white studio background of this exact Full Muscle X6053 machine, including white negative spaces between the metal members, to genuine transparent alpha. Keep the entire existing machine, all its geometry, upholstery, forest green painted accents, black surfaces, reflective chrome, cables, controls, labels and Full Muscle Equipment logo pixel-faithful in the same camera view and framing. Do not redraw, redesign, recolor, or add anything. Keep all feet and edges intact. Square transparent product cutout for a dark website hero. No white rectangle, no checkerboard painted into the image, no new shadow background.",
+      "review": "Visually inspected: object retained, transparent exterior and openings, source colouring and logo preserved."
+    },
+    {
+      "sku": "FM-X8202",
+      "input": "data/catalog-branding/generated/featured/FM-X8202.png",
+      "output": "src/assets/home/FM-X8202.png",
+      "prompt": "Background extraction ONLY: remove the white studio backdrop around and through the negative spaces of this exact Full Muscle X8202 shoulder press, leaving genuine transparent alpha. Preserve the entire existing machine pixel-faithfully: silver-grey tower and frame, black cushions, forest-green lever arms, chrome hardware, cables, Full Muscle logo and existing labels. Keep exact camera viewpoint, proportions, framing and all components. Do not redraw or recolor any part. Include clean edges and every foot. This is a transparent product cutout for a dark website hero. No opaque white areas outside the machine, no new background, no checkerboard pattern.",
+      "review": "Visually inspected: object retained, transparent exterior and openings, source colouring and logo preserved."
+    },
+    {
+      "sku": "FM-2000B",
+      "input": "data/catalog-branding/generated/featured/FM-2000B.png",
+      "output": "src/assets/home/FM-2000B.png",
+      "prompt": "Background extraction ONLY. Remove the white studio background around this exact Full Muscle treadmill and the white open space between its upright supports, with genuine transparent alpha. Preserve the entire treadmill pixel-faithfully, especially the forest-green side panels, Full Muscle Equipment logo, exact control console, black belt and handrails, red emergency stop, support legs and chrome feet. Keep original camera view, geometry, framing, color and all components unchanged. Do not redraw or add anything, no background or opaque checkerboard. Clean transparent product cutout for a dark website hero.",
+      "review": "Visually inspected: object retained, transparent exterior and openings, source colouring and logo preserved."
+    }
+  ]
+}

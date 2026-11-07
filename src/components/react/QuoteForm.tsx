@@ -74,7 +74,9 @@ export default function QuoteForm({ locale, products, turnstileSiteKey = '' }: P
       turnstileToken: String(form.get('cf-turnstile-response') || '') || undefined,
     });
     if (actionError) {
-      setError(isIt ? 'Non è stato possibile inviare la richiesta. Controlla i campi e riprova.' : 'We could not send your request. Check the fields and try again.');
+      setError(actionError.code === 'INTERNAL_SERVER_ERROR'
+        ? (isIt ? 'Il servizio richieste non è disponibile al momento. Riprova più tardi; i prodotti selezionati sono stati conservati.' : 'The enquiry service is currently unavailable. Please try again later; your selected products have been saved.')
+        : (isIt ? 'Non è stato possibile inviare la richiesta. Controlla i campi e riprova.' : 'We could not send your request. Check the fields and try again.'));
       setSubmitting(false);
       return;
     }

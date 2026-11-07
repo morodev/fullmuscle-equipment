@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8206-227537461c75ea88",
+  "sku": "FM-X8206",
+  "role": "primary",
+  "sourceHash": "3e3c66b73ceefb19db477b891017ab2fc740ae07689976866a3ad6e3d579a26f",
+  "inputPath": "src/assets/catalog/FM-X8206/primary-01-a5860df1e92e.webp",
+  "originalPath": "data/catalog-assets/originals/3e/3e3c66b73ceefb19db477b891017ab2fc740ae07689976866a3ad6e3d579a26f.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8206.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8206",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8206 pec fly/rear delt machine with two overhead pivot arms and long hanging arm sections carrying black grips. Recolor ONLY the two moving overhead horizontal arms and their long hanging steel sections dark forest green. Keep circular pulley/cam plates black, both yellow adjustment pins yellow, cables black, handles black, the stationary tower upright and rear diagonal brace grey. Preserve seat, narrow back pad and existing empty grey housing surfaces. Put logo only on the visible black top cap, no new instruction plaque.",
+  "review": "Source/result compared: overhead pivot/cam assembly, hanging arms, seat and backrest, yellow pins and grey casing retained. Arms green, tower cap branded, no new instruction panel.",
+  "editTarget": "src/assets/catalog/FM-X8206/primary-01-a5860df1e92e.webp",
+  "checkedAt": "2026-11-07T11:10:46.949Z",
+  "outputHash": "004081c5325f08cfdffa5ec83331e9e167c000287f78f6d57f30446bbdd19a56",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

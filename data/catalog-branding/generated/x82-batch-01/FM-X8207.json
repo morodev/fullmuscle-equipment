@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8207-bc71fb04a09ae2aa",
+  "sku": "FM-X8207",
+  "role": "primary",
+  "sourceHash": "f162382fb7551467d9da5812c9c1c5b0929e8abfc3d9545908d02390003316f3",
+  "inputPath": "src/assets/catalog/FM-X8207/primary-01-7f305b1cec68.webp",
+  "originalPath": "data/catalog-assets/originals/f1/f162382fb7551467d9da5812c9c1c5b0929e8abfc3d9545908d02390003316f3.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8207.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8207",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8207 adjustable chest press. Recolor ONLY the pair of long diagonal moving press arms extending from upper rear pivots toward the hand grips, and their upper moving connecting links, dark forest green. Keep the tall rear stationary upright, low base frame, seat-adjustment structure and weight tower grey. Keep both black grip pairs, black pads, cable lines, chrome fasteners and all yellow safety triangles unchanged. Preserve the distinctive upper multi-pivot linkage and all existing holes in the moving arms.",
+  "review": "Source/result compared: upper adjustable linkage, handle pairs, seat mechanism, pad shape and base maintained. Moving press arms green; stationary frame grey.",
+  "editTarget": "src/assets/catalog/FM-X8207/primary-01-7f305b1cec68.webp",
+  "checkedAt": "2026-11-07T11:10:46.955Z",
+  "outputHash": "f85bbb0cfa4af7ce79906aff04a298db14e3ec117625966792bd6f865b7d1186",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

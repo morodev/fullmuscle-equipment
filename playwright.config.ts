@@ -17,7 +17,7 @@ export default defineConfig({
   webServer: {
     command: 'npm start',
     url: 'http://127.0.0.1:4321/it/',
-    env: { ...process.env, HOST: '127.0.0.1', PUBLIC_SITE_READY: 'false' },
+    env: { ...process.env, HOST: '127.0.0.1', NODE_ENV: 'test', FULLMUSCLE_QUOTE_TEST_MODE: 'true', PUBLIC_SITE_READY: 'false' },
     reuseExistingServer: false,
     timeout: 120_000,
   },

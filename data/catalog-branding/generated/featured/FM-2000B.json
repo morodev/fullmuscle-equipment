@@ -1,0 +1,18 @@
+{
+  "sku": "FM-2000B",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle commercial gym equipment catalogue. Image 1 is the ONLY edit target: FM-2000B black motorized treadmill on a white square background. Images 2 and 3 are reference ONLY for dark satin forest green paint (about #356B35) and white/green italic Full Muscle Equipment logo. Preserve exact geometry, perspective, proportions and square framing. Keep all treadmill components unchanged: digital console with its exact black bezel and button layout, emergency stop yellow/red control, two upright posts, handles, running belt, raised side foot rails, front hood, rollers, rear crossbar, transport wheels and silver leveling feet. Recolor ONLY the broad outer vertical lower side-chassis panels forest green, including the long near-facing vertical side panel below the running deck. Keep the horizontal foot-rail surfaces, running belt, upright posts, handles and front motor hood black. Add one modest physical white/green italic 'Full Muscle' logo with tiny 'EQUIPMENT' beneath printed on the near-facing green chassis side panel toward its left/front portion. Preserve all bolts and panel boundaries; logo follows perspective and is not a floating watermark. No added parts, no brand letters anywhere else, no change to display or belt pattern. Keep original white background and soft shadow and whole treadmill inside frame.",
+  "outputPath": "data/catalog-branding/generated/featured/FM-2000B.png",
+  "review": "Source and result inspected. Deck, handrails, display, controls, emergency stop, wheels and leveling feet preserved. Forest-green lower side panels and physical Full Muscle logo added; belt and foot rails remain black. Fine display microtext illustrative.",
+  "assetId": "fm-2000b-d629011eaa00de5b",
+  "publicSku": "FM-2000B",
+  "sourceHash": "83731ff5bc5d451a47aef9b47613801ae41c63b79f4c250d73fbd9f97e49d905",
+  "originalPath": "data/catalog-assets/originals/83/83731ff5bc5d451a47aef9b47613801ae41c63b79f4c250d73fbd9f97e49d905.jpg",
+  "editTarget": "src/assets/catalog/FM-2000B/primary-01-de5b79858daa.webp",
+  "status": "visually-reviewed",
+  "checkedAt": "2026-11-07T10:57:16.617Z",
+  "outputHash": "f4a6b9d021f23023b8ecbdf21e0fc59d57f0b1f3c3f2ec56ddb1fda85d51a5e5",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

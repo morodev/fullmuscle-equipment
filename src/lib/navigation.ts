@@ -90,18 +90,18 @@ export function navigation(locale: Locale) {
     {
       label: isIt ? 'Progetti' : 'Projects',
       links: [
-        { label: isIt ? 'Tutte le soluzioni' : 'All solutions', href: solutionsHubUrl(locale) },
         solutionLink(locale, 'new-gym'),
         solutionLink(locale, 'renovation'),
+        { label: isIt ? 'Tutte le soluzioni' : 'All solutions', href: solutionsHubUrl(locale) },
       ],
+    },
+    {
+      label: isIt ? 'Salute e lavoro' : 'Health and workplace',
+      links: [solutionLink(locale, 'medical'), solutionLink(locale, 'studio'), solutionLink(locale, 'corporate-wellness')],
     },
     {
       label: isIt ? 'Ospitalità' : 'Hospitality',
       links: [solutionLink(locale, 'hospitality'), solutionLink(locale, 'cruise'), solutionLink(locale, 'private-club')],
-    },
-    {
-      label: isIt ? 'Salute e lavoro' : 'Health and workplace',
-      links: [solutionLink(locale, 'studio'), solutionLink(locale, 'medical'), solutionLink(locale, 'corporate-wellness')],
     },
     {
       label: isIt ? 'Formazione' : 'Education',

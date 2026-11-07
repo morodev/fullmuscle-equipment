@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8208-cca3f87ce3702770",
+  "sku": "FM-X8208",
+  "role": "primary",
+  "sourceHash": "837d605ef503821175904537e94fdda0094a1ce5a4c98a4793be2bfbcaf99e24",
+  "inputPath": "src/assets/catalog/FM-X8208/primary-01-f0a5c2b7acc7.webp",
+  "originalPath": "data/catalog-assets/originals/83/837d605ef503821175904537e94fdda0094a1ce5a4c98a4793be2bfbcaf99e24.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8208.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8208",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8208 seated row machine with long seat bench and two black textured foot plates. Recolor ONLY the central curved moving rowing lever that rises from the low pivot to the pair of handgrips dark forest green, including the short painted crossmember joining those grips. Keep rubber handles black, silver end caps silver, two textured foot plates black, stationary rear vertical post and cable pulley grey/black, seat and frame unchanged. Preserve exact bench length and the original gap between foot plates.",
+  "review": "Source/result compared: curved rowing arm, double grips, long bench and foot plates retain arrangement. Only moving central lever green and top cap branded.",
+  "editTarget": "src/assets/catalog/FM-X8208/primary-01-f0a5c2b7acc7.webp",
+  "checkedAt": "2026-11-07T11:10:46.960Z",
+  "outputHash": "a2578292f757e6b142501364bf60d7ea8abed140a2ec80d7bc2cf07decb1760e",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

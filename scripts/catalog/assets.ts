@@ -357,21 +357,26 @@ export function applyAssetReviewDecisions(
   return summary;
 }
 
+export async function prepareCatalogImage(input: string | Buffer) {
+  return sharp(input, { failOn: 'error' })
+    .rotate()
+    .webp({ quality: 90, effort: 4 })
+    .toBuffer({ resolveWithObject: true });
+}
+
 export async function stageApprovedAssets(
   manifest: CatalogAssetManifest,
   publishableSkus: Set<string>,
   onProgress: (completed: number, total: number) => void = () => undefined,
+  assetIds?: ReadonlySet<string>,
 ): Promise<number> {
-  const approved = manifest.items.filter((item) => publishableSkus.has(item.publicSku) && PUBLIC_STATUSES.has(item.status));
+  const approved = manifest.items.filter((item) => publishableSkus.has(item.publicSku) && PUBLIC_STATUSES.has(item.status) && (!assetIds || assetIds.has(item.assetId)));
   let completed = 0;
   for (const item of approved) {
     const sourcePath = item.editedPath ?? item.originalPath;
     if (!sourcePath) throw new Error(`Asset approvato senza file locale: ${item.assetId}`);
     const checkedPath = await checkedWorkspaceImagePath(sourcePath);
-    const buffer = await sharp(checkedPath, { failOn: 'error' })
-      .rotate()
-      .webp({ quality: 90, effort: 4 })
-      .toBuffer();
+    const { data: buffer, info } = await prepareCatalogImage(checkedPath);
     const outputHash = hash(buffer);
     const filename = `${item.role}-${String(item.sortOrder + 1).padStart(2, '0')}-${outputHash.slice(0, 12)}.webp`;
     const outputPath = path.join(PATHS.stagedAssets, item.publicSku, filename);
@@ -379,6 +384,8 @@ export async function stageApprovedAssets(
     if (!await fileExists(outputPath)) await writeFile(outputPath, buffer);
     item.stagedPath = toPortablePath(path.relative(process.cwd(), outputPath));
     item.outputHash = outputHash;
+    item.width = info.width;
+    item.height = info.height;
     completed += 1;
     onProgress(completed, approved.length);
   }

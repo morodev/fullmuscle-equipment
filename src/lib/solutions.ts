@@ -38,11 +38,11 @@ export const SOLUTIONS: Solution[] = [
   {
     id: 'new-gym', group: 'projects', slug: { it: 'apertura-nuova-palestra', en: 'new-gym-opening' },
     name: { it: 'Apertura nuova palestra', en: 'New gym opening' }, eyebrow: { it: 'Dall’idea all’apertura', en: 'From concept to opening' },
-    title: { it: 'Dallo spazio vuoto a una palestra pronta ad accogliere.', en: 'From an empty space to a gym ready to perform.' },
-    intro: { it: 'Costruiamo una selezione di attrezzature coerente con metratura, pubblico, posizionamento e budget del nuovo centro fitness.', en: 'We build an equipment mix around the space, audience, positioning and budget of your new fitness facility.' },
+    title: { it: 'La fornitura completa per aprire la tua palestra.', en: 'A complete equipment supply for your new gym.' },
+    intro: { it: 'Dalla sala pesi al cardio e al functional, costruiamo la fornitura della nuova palestra in Italia in base a metratura, pubblico, posizionamento e budget.', en: 'From strength to cardio and functional training, we build the equipment supply for your new gym in Italy around its space, audience, positioning and budget.' },
     challenge: { it: 'Aprire una palestra richiede equilibrio tra varietà, capacità nelle ore di punta, flussi chiari e investimenti concentrati sulle attrezzature che generano valore.', en: 'Opening a gym requires balance across variety, peak-time capacity, clear circulation and investment focused on equipment that creates value.' },
-    metaTitle: { it: 'Attrezzature per apertura nuova palestra | FullMuscle', en: 'Equipment for a new gym opening | FullMuscle' },
-    metaDescription: { it: 'Attrezzature professionali e selezione su misura per aprire una nuova palestra: forza, cardio, functional e preventivo dedicato.', en: 'Professional equipment and a tailored mix for a new gym opening, covering strength, cardio and functional areas.' },
+    metaTitle: { it: 'Fornitura completa per apertura palestra | FullMuscle', en: 'Complete equipment for a new gym | FullMuscle' },
+    metaDescription: { it: 'Apri la tua palestra con una fornitura completa di attrezzature per forza, cardio e functional. Selezione per spazi, budget e obiettivi.', en: 'Open your gym in Italy with a complete strength, cardio and functional equipment supply, selected around your space, budget and goals.' },
     image: newGymImage, imageAlt: { it: 'Nuova palestra professionale con aree forza e cardio', en: 'New professional gym with strength and cardio areas' }, quoteType: 'new-gym',
     categoryIds: ['pin-loaded-machine', 'plate-loaded-machine', 'treadmill', 'multi-functional-smith-machine-trainer', 'exercise-bike', 'free-weight'],
     steps: [
@@ -59,9 +59,9 @@ export const SOLUTIONS: Solution[] = [
   },
   {
     id: 'renovation', group: 'projects', slug: { it: 'rinnovo-palestra', en: 'gym-renovation' },
-    name: { it: 'Rinnovo palestra', en: 'Gym renovation' }, eyebrow: { it: 'Rinnovo e ampliamento', en: 'Renovation and expansion' },
+    name: { it: 'Rinnovo e ampliamento palestra', en: 'Gym renovation and expansion' }, eyebrow: { it: 'Rinnovo e ampliamento', en: 'Renovation and expansion' },
     title: { it: 'Rinnova la sala senza perdere ciò che funziona.', en: 'Upgrade your gym without losing what already works.' },
-    intro: { it: 'Valutiamo le aree esistenti e costruiamo un aggiornamento mirato per migliorare esperienza, capacità e identità dello spazio.', en: 'We assess your current training areas and create a targeted upgrade to improve experience, capacity and identity.' },
+    intro: { it: 'Valutiamo la dotazione esistente e prepariamo una fornitura per sostituire le macchine, ampliare le aree o rinnovare l’intera palestra.', en: 'We assess your current equipment and prepare a supply to replace machines, expand training areas or renovate the whole gym.' },
     challenge: { it: 'Un rinnovo efficace parte dai colli di bottiglia reali: attrezzature sovraccariche, percorsi confusi, zone poco utilizzate o un’offerta non più allineata ai clienti.', en: 'An effective renovation starts from real bottlenecks: overloaded equipment, unclear circulation, underused areas or an offer that no longer fits members.' },
     metaTitle: { it: 'Rinnovo palestra e nuove attrezzature | FullMuscle', en: 'Gym renovation and equipment upgrade | FullMuscle' },
     metaDescription: { it: 'Rinnova o amplia la palestra con una selezione mirata di attrezzature professionali costruita su spazi, utilizzo e budget.', en: 'Renovate or expand your gym with professional equipment selected around space, usage and budget.' },
@@ -77,6 +77,28 @@ export const SOLUTIONS: Solution[] = [
       { it: 'Quali zone risultano poco utilizzate?', en: 'Which areas are underused?' },
       { it: 'Quali modelli possono restare e quali limitano il servizio?', en: 'Which models can remain and which limit the service?' },
       { it: 'Come intervenire per fasi senza perdere coerenza?', en: 'How can the upgrade be phased without losing consistency?' },
+    ],
+  },
+  {
+    id: 'medical', group: 'health-work', slug: { it: 'centri-medicali-riabilitazione', en: 'medical-rehabilitation-centres' },
+    name: { it: 'Centri medicali, fisioterapia e riabilitazione', en: 'Medical, physiotherapy and rehabilitation centres' }, eyebrow: { it: 'Medical fitness e riabilitazione', en: 'Medical fitness and rehabilitation' },
+    title: { it: 'Spazi di esercizio pensati intorno al percorso della persona.', en: 'Exercise spaces shaped around each person’s pathway.' },
+    intro: { it: 'Supportiamo la selezione di attrezzature per centri medicali, fisioterapia e riabilitazione, partendo da accessibilità, controllo del movimento e modalità di supervisione.', en: 'We support equipment selection for medical, physiotherapy and rehabilitation centres around accessibility, movement control and supervision.' },
+    challenge: { it: 'In un ambiente medicale la scelta deve seguire i protocolli definiti dai professionisti, facilitare l’assistenza e lasciare passaggi chiari intorno alle postazioni.', en: 'In a medical setting, selection must follow professional protocols, support assisted work and preserve clear access around stations.' },
+    metaTitle: { it: 'Attrezzature per centri medicali e riabilitazione', en: 'Equipment for medical and rehabilitation centres' },
+    metaDescription: { it: 'Attrezzature per medical fitness e centri riabilitativi selezionate in base a protocolli, accessibilità, spazi e supervisione professionale.', en: 'Equipment for medical fitness and rehabilitation centres selected around protocols, accessibility, space and professional supervision.' },
+    image: medicalImage, imageAlt: { it: 'Professionista che supervisiona un esercizio in un centro riabilitativo', en: 'Professional supervising exercise in a rehabilitation centre' }, quoteType: 'medical',
+    categoryIds: ['exercise-bike', 'treadmill', 'elliptical', 'pin-loaded-machine', 'multi-functional-smith-machine-trainer', 'free-weight'],
+    steps: [
+      { title: { it: 'Protocolli e utenti', en: 'Protocols and users' }, text: { it: 'Raccogliamo modalità di lavoro, profili delle persone e necessità di assistenza.', en: 'We gather working methods, user profiles and supervision needs.' } },
+      { title: { it: 'Accessibilità operativa', en: 'Practical accessibility' }, text: { it: 'Valutiamo accessi, regolazioni e spazio utile intorno alle macchine.', en: 'We review access, adjustments and usable room around equipment.' } },
+      { title: { it: 'Selezione verificabile', en: 'Reviewable selection' }, text: { it: 'Prepariamo una proposta che il team professionale possa valutare nel dettaglio.', en: 'We prepare a proposal the professional team can assess in detail.' } },
+    ],
+    checks: [
+      { it: 'Quali protocolli devono supportare le attrezzature?', en: 'Which protocols must the equipment support?' },
+      { it: 'Quali livelli di assistenza e supervisione sono previsti?', en: 'What levels of assistance and supervision are expected?' },
+      { it: 'Quanto spazio serve intorno a ogni postazione?', en: 'How much space is needed around each station?' },
+      { it: 'Quali specifiche devono essere verificate dal responsabile clinico?', en: 'Which specifications need review by the clinical lead?' },
     ],
   },
   {
@@ -143,28 +165,6 @@ export const SOLUTIONS: Solution[] = [
       { it: 'Quali viste e percorsi caratterizzano l’area fitness?', en: 'Which views and circulation routes define the fitness area?' },
       { it: 'Quale equilibrio serve tra cardio, forza e spazio libero?', en: 'What balance is needed across cardio, strength and open space?' },
       { it: 'Quali ingombri e accessi condizionano la selezione?', en: 'Which footprints and access constraints affect the selection?' },
-    ],
-  },
-  {
-    id: 'medical', group: 'health-work', slug: { it: 'centri-medicali-riabilitazione', en: 'medical-rehabilitation-centres' },
-    name: { it: 'Centri medicali', en: 'Medical centres' }, eyebrow: { it: 'Medical fitness e riabilitazione', en: 'Medical fitness and rehabilitation' },
-    title: { it: 'Spazi di esercizio pensati intorno al percorso della persona.', en: 'Exercise spaces shaped around each person’s pathway.' },
-    intro: { it: 'Supportiamo la selezione di attrezzature per centri medicali e riabilitativi, partendo da accessibilità, controllo del movimento e modalità di supervisione.', en: 'We support equipment selection for medical and rehabilitation centres around accessibility, movement control and supervision.' },
-    challenge: { it: 'In un ambiente medicale la scelta deve seguire i protocolli definiti dai professionisti, facilitare l’assistenza e lasciare passaggi chiari intorno alle postazioni.', en: 'In a medical setting, selection must follow professional protocols, support assisted work and preserve clear access around stations.' },
-    metaTitle: { it: 'Attrezzature per centri medicali e riabilitazione', en: 'Equipment for medical and rehabilitation centres' },
-    metaDescription: { it: 'Attrezzature per medical fitness e centri riabilitativi selezionate in base a protocolli, accessibilità, spazi e supervisione professionale.', en: 'Equipment for medical fitness and rehabilitation centres selected around protocols, accessibility, space and professional supervision.' },
-    image: medicalImage, imageAlt: { it: 'Professionista che supervisiona un esercizio in un centro riabilitativo', en: 'Professional supervising exercise in a rehabilitation centre' }, quoteType: 'medical',
-    categoryIds: ['exercise-bike', 'treadmill', 'elliptical', 'pin-loaded-machine', 'multi-functional-smith-machine-trainer', 'free-weight'],
-    steps: [
-      { title: { it: 'Protocolli e utenti', en: 'Protocols and users' }, text: { it: 'Raccogliamo modalità di lavoro, profili delle persone e necessità di assistenza.', en: 'We gather working methods, user profiles and supervision needs.' } },
-      { title: { it: 'Accessibilità operativa', en: 'Practical accessibility' }, text: { it: 'Valutiamo accessi, regolazioni e spazio utile intorno alle macchine.', en: 'We review access, adjustments and usable room around equipment.' } },
-      { title: { it: 'Selezione verificabile', en: 'Reviewable selection' }, text: { it: 'Prepariamo una proposta che il team professionale possa valutare nel dettaglio.', en: 'We prepare a proposal the professional team can assess in detail.' } },
-    ],
-    checks: [
-      { it: 'Quali protocolli devono supportare le attrezzature?', en: 'Which protocols must the equipment support?' },
-      { it: 'Quali livelli di assistenza e supervisione sono previsti?', en: 'What levels of assistance and supervision are expected?' },
-      { it: 'Quanto spazio serve intorno a ogni postazione?', en: 'How much space is needed around each station?' },
-      { it: 'Quali specifiche devono essere verificate dal responsabile clinico?', en: 'Which specifications need review by the clinical lead?' },
     ],
   },
   {
@@ -236,7 +236,7 @@ export const SOLUTIONS: Solution[] = [
 ];
 
 export const SOLUTION_BY_ID = new Map<SolutionId, Solution>(SOLUTIONS.map((solution) => [solution.id, solution]));
-export const HOME_SOLUTIONS = SOLUTIONS.filter((solution) => ['cruise', 'medical', 'private-club', 'corporate-wellness', 'education'].includes(solution.id));
+export const HOME_SOLUTIONS = SOLUTIONS.filter((solution) => ['new-gym', 'renovation', 'medical'].includes(solution.id));
 
 export function solutionsHubUrl(locale: Locale): string {
   return `${route(locale).solutions}/`;

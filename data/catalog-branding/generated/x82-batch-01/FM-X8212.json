@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8212-968f607c8583a777",
+  "sku": "FM-X8212",
+  "role": "primary",
+  "sourceHash": "e3f11be351649df6fae11b561d59cb3be00d98143a0e42420694bcf7067b68be",
+  "inputPath": "src/assets/catalog/FM-X8212/primary-01-a78af521965c.webp",
+  "originalPath": "data/catalog-assets/originals/e3/e3f11be351649df6fae11b561d59cb3be00d98143a0e42420694bcf7067b68be.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8212.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8212",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8212 lever lat pulldown machine. Recolor ONLY the tall angular moving pull-down lever/yoke, including both upward handle supports and their cross-link, dark forest green. Keep black grips and chrome tips, knee rollers, seat, cables and pulleys unchanged; keep the upright chassis and stationary frame grey. Preserve exact asymmetric-looking three-quarter view, the two knee rolls and every existing beam. The original tower front has no instruction plaque: do not invent one.",
+  "review": "Source/result compared: angular upper yoke and grip positions, paired knee pads, seat and external cable routing retained. Green moving yoke, grey chassis; blank tower face preserved.",
+  "editTarget": "src/assets/catalog/FM-X8212/primary-01-a78af521965c.webp",
+  "checkedAt": "2026-11-07T11:10:46.981Z",
+  "outputHash": "4c367a10000076cb01ede91925413ecb61ee536576a7ef0c864f8dc75e0ed0bf",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

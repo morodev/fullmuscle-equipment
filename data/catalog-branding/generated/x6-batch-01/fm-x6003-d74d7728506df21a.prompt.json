@@ -1,0 +1,8 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target: the exact black rotary torso gym machine with a tall left weight tower, upper paired padded arm loops and low rotating seat, on a pure white square background. Preserve the exact machine silhouette, camera angle, framing, every pad, handle, lever, cable, adjustment pin, round base, bolt and foot. Images 2 and 3 are ONLY color/logo references; never copy their machine structures. Change ONLY all blue decorative trim to the rich dark satin forest green of reference 2, approximately #356B35; retain all black surfaces black, all padding and rubber black, adjustment handles yellow and metal unchanged. Replace the small TZ logo at the top of the tower with a compact authentic italic Full Muscle Equipment logo matching reference 3, white Full and green Muscle with small white EQUIPMENT underneath, integrated into the same panel. Remove the vertical decorative CURVE letters and stripes, restoring the underlying black tower surface without changing contours. Preserve the real exercise instruction panel and safety labels, do not add text or fake specifications. No other color changes, no new parts, no people, no crop, no shadow or background changes.",
+  "referencePaths": [
+    "brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ]
+}

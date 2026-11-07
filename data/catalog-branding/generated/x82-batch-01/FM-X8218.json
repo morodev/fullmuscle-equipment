@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8218-e4db237d5e0d303a",
+  "sku": "FM-X8218",
+  "role": "primary",
+  "sourceHash": "83fb47bf5e0b5a72794d2c0beeacbf39b436fbddede4675e479c2fb22e88ffb8",
+  "inputPath": "src/assets/catalog/FM-X8218/primary-01-8192750e6612.webp",
+  "originalPath": "data/catalog-assets/originals/83/83fb47bf5e0b5a72794d2c0beeacbf39b436fbddede4675e479c2fb22e88ffb8.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8218.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8218",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8218 seated combined arm machine with a wide black inclined elbow pad and upward angled silver hand grips. Recolor ONLY the curved moving painted steel lever behind/above the elbow pad, from its side pivot toward the grip crossbar, dark forest green. Preserve both exposed silver angled grip shafts and black grip collars, black pivot/cam plates, black hanging counterweight, yellow seat adjustment, black pads and stationary grey A-frame. Keep the existing tower front translucent/grey panel appearance and original weight-stack window; do not invent an instruction plaque. Preserve precise relative positions of grips, elbow pad and pivot.",
+  "review": "Source/result compared: angled silver handles, elbow pad, translucent tower panel, hanging counterweight and grey support frame retained. Green moving curved lever and outer pivot link, black pads/cam preserved.",
+  "editTarget": "src/assets/catalog/FM-X8218/primary-01-8192750e6612.webp",
+  "checkedAt": "2026-11-07T11:10:47.012Z",
+  "outputHash": "511031e7a44615ece58766bc12bcb677828b901009f549a3749168ef986a31c7",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

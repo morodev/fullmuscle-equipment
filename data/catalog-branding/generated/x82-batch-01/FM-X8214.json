@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8214-c323eb8af794b746",
+  "sku": "FM-X8214",
+  "role": "primary",
+  "sourceHash": "e2636f7734b9a7e52996e455970a4a7948c7bfd6cd3786e29eed64ecf2e02d9f",
+  "inputPath": "src/assets/catalog/FM-X8214/primary-01-7bb101fc67d8.webp",
+  "originalPath": "data/catalog-assets/originals/e2/e2636f7734b9a7e52996e455970a4a7948c7bfd6cd3786e29eed64ecf2e02d9f.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8214.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8214",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8214 seated abdominal crunch machine with two separate black back cushions and long black upper curved hand grips. Recolor ONLY the painted metal upper pivot plate and its moving support linkage behind the upper back cushion dark forest green. Keep the two long rubberized curved hand grips black, both back cushions black, the lower seat and front foot rollers black, stationary curved rear frame grey and every cable/pulley unchanged. Do not add an instruction plaque on the blank tower. Green should remain a restrained accent at the upper mechanical pivot, not on upholstery or grip rubber.",
+  "review": "Source/result compared: two back pads, black curved grips, lower foot rollers and cable/pulley positions preserved. Restricted green upper pivot/support; grey body retained.",
+  "editTarget": "src/assets/catalog/FM-X8214/primary-01-7bb101fc67d8.webp",
+  "checkedAt": "2026-11-07T11:10:46.991Z",
+  "outputHash": "104c074c8280f4274ca65bd70c583f4b56b81a1624483cc5932180b68e990a4b",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

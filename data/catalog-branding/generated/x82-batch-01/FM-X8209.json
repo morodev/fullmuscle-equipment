@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8209-76ea5a34b7185983",
+  "sku": "FM-X8209",
+  "role": "primary",
+  "sourceHash": "9d92dc21fff423abeea9527197efa5d51dd149a029a8d13cde3e9cc0ad13de53",
+  "inputPath": "src/assets/catalog/FM-X8209/primary-01-1612cc25626d.webp",
+  "originalPath": "data/catalog-assets/originals/9d/9d92dc21fff423abeea9527197efa5d51dd149a029a8d13cde3e9cc0ad13de53.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8209.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8209",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8209 seated leg extension machine. Recolor ONLY the moving front shin-roller lever and its round outer pivot plate dark forest green. Keep both shin pads black, the exposed adjustable chrome shaft silver, the front fixed supporting leg grey, seat rails and stationary chassis grey, backrest adjustment hardware unchanged. Preserve exact pad count, roller shaft shape, cables and rear upright. Do not turn this into a seated leg curl or add a thigh restraint.",
+  "review": "Source/result compared: front roller lever, black paired rollers, adjustable shaft, seat/back and cable layout maintained. Green limited to lever/pivot, grey frame retained.",
+  "editTarget": "src/assets/catalog/FM-X8209/primary-01-1612cc25626d.webp",
+  "checkedAt": "2026-11-07T11:10:46.965Z",
+  "outputHash": "7ab2fb816cebb12eaef322eb58cc8e42980471f3025e1396da2ebc8c8c5b0f90",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

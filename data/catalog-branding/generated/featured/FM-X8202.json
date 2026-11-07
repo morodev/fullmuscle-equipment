@@ -1,0 +1,18 @@
+{
+  "sku": "FM-X8202",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle equipment catalogue. Image 1 is the ONLY edit target, the X8202 Shoulder Press on white. Images 2 and 3 are reference ONLY for dark satin forest green paint around #356B35 and italic Full Muscle Equipment logo. Keep the exact geometry, camera angle, framing, white background and shadows. Recolor ONLY the two grey moving shoulder press arms green: the long horizontal arm extending from the tower and the angular arm projecting toward the right, including the short handle-support painted metal links. Keep grip rubbers black and exposed metallic end caps/chrome silver. Preserve grey stationary structural frame, grey weight-stack housing, black upholstery, cable routes, pulleys, adjustment controls, all bolts and safety/instruction label positions unchanged. Add a compact physical white-and-green italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath on the existing upper black horizontal cap of the tower, above the instruction plaque. The logo should fit this existing black surface and follow its perspective; do not create a new panel. Do not change the exercise diagram, do not add parts, and do not redesign the machine. Machine must remain fully in the square canvas with original composition.",
+  "outputPath": "data/catalog-branding/generated/featured/FM-X8202.png",
+  "review": "Inspected source and result; overall geometry, components and original view preserved. Paint accents and physical Full Muscle logo applied. Fine microtext remains illustrative.",
+  "assetId": "fm-x8202-18dfef42f6bff25d",
+  "publicSku": "FM-X8202",
+  "sourceHash": "c0276c8dd698cea4a9d5b7f0f32dcde75b1bfbe9a6d90b9b8fb31d5e13e3d7dd",
+  "originalPath": "data/catalog-assets/originals/c0/c0276c8dd698cea4a9d5b7f0f32dcde75b1bfbe9a6d90b9b8fb31d5e13e3d7dd.jpg",
+  "editTarget": "src/assets/catalog/FM-X8202/primary-01-dec87b206801.webp",
+  "status": "visually-reviewed",
+  "checkedAt": "2026-11-07T10:57:16.603Z",
+  "outputHash": "3353070e84e322b3a5b2ba30e7a0de80ee208ca09bfb3e30ec8a5647ef0619f7",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

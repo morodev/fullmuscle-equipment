@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8205-0522e728b2ab7094",
+  "sku": "FM-X8205",
+  "role": "primary",
+  "sourceHash": "f40a1d6b18511d49bc8f8309d4855ff02d89f154e955608c34dcdd661726f64a",
+  "inputPath": "src/assets/catalog/FM-X8205/primary-01-f9dd02a3a1d0.webp",
+  "originalPath": "data/catalog-assets/originals/f4/f40a1d6b18511d49bc8f8309d4855ff02d89f154e955608c34dcdd661726f64a.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8205.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8205",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8205 lat pulldown/low row combination with a long flat bench and an overhead cable boom. Recolor ONLY the angled upper steel boom projecting forward from the weight tower and its external painted support link dark forest green. Keep its pulleys and cable black, suspended lat bar and row handle unchanged, knee rollers black, long bench black, lower bench frame grey and rear brace grey. Preserve the separate vertical cable lengths and original gaps.",
+  "review": "Source/result compared: long bench, overhead boom, suspended handles, cable routing and grey tower maintained; upper boom green and tower cap branded. Fine instructional lettering illustrative.",
+  "editTarget": "src/assets/catalog/FM-X8205/primary-01-f9dd02a3a1d0.webp",
+  "checkedAt": "2026-11-07T11:10:46.944Z",
+  "outputHash": "d2d3422b4ff2c685cb27c533597da5e058a419ffa8fae9ab924a6004c7c89856",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

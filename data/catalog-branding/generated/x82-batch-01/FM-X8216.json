@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8216-87bd39ae91d638e7",
+  "sku": "FM-X8216",
+  "role": "primary",
+  "sourceHash": "5bfbd118624e3ccbbb4dffc939f743548c436e5ddf74f1b2e1ad464ced69a9fb",
+  "inputPath": "src/assets/catalog/FM-X8216/primary-01-b993583d412d.webp",
+  "originalPath": "data/catalog-assets/originals/5b/5bfbd118624e3ccbbb4dffc939f743548c436e5ddf74f1b2e1ad464ced69a9fb.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8216.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8216",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8216 seated horizontal leg press with a small black front footplate, long low base and adjustable backrest. Recolor ONLY the moving painted seat-carriage linkage: the diagonal bars connecting beneath the seat to the lower pivots, including the curved painted support of the backrest attached to that moving carriage. Keep stationary base rails, front footplate support column and tower grey. Leave the actual footplate black, seat/back pads black, chrome backrest adjustment rail silver and yellow knobs unchanged. Preserve original seat angle, footprint and cable routes; no new parts or extra handles.",
+  "review": "Source/result compared: horizontal leg press seat carriage, front footplate, low rails and adjustable backrest maintained. Green painted carriage links; footplate/pads black and chrome adjustment rail preserved.",
+  "editTarget": "src/assets/catalog/FM-X8216/primary-01-b993583d412d.webp",
+  "checkedAt": "2026-11-07T11:10:47.002Z",
+  "outputHash": "79e226591235687876fed83ea9f858e3f44e33d00ce93dabddbf3e2a54ad8185",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

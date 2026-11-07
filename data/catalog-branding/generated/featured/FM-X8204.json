@@ -1,0 +1,18 @@
+{
+  "sku": "FM-X8204",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle professional gym equipment catalogue. Image 1 is the ONLY edit target: grey X8204 Chest Press on white square background. Images 2 and 3 are references ONLY for dark satin forest-green painted metal (~#356B35) and physical white/green italic Full Muscle Equipment logo. Preserve exact viewpoint, framing, proportions, silhouette, mechanical parts, seat/back pads, cables, pulleys, screws, chrome ends and original white background. Recolor ONLY both long curved moving chest-press lever arms and the low transverse moving link joining them dark forest green. These are the two curved metal levers directly connected to the black hand grips, curving down to the bottom front pivot. Leave the rear stationary chassis, tower enclosure and seat support their original grey; do not recolor rubber grips, chrome end caps, black pads, yellow safety triangle, bolts or safety/instruction labels. Add a modest italic white/green 'Full Muscle' logo with small 'EQUIPMENT' beneath on the existing black top cap above the exercise instruction plaque. Preserve all visible exercise diagrams and warning labels. Do not change mechanism, add extra rods, enlarge panels or crop the product. Logo follows the original surface perspective.",
+  "outputPath": "data/catalog-branding/generated/featured/FM-X8204.png",
+  "review": "Source and result inspected. Curved moving arms and front pivot preserved, green applied to lever assembly; stationary grey housing/frame, chrome ends, black pads and cable routing retained. Full Muscle logo fits black tower cap. Fine microtext illustrative.",
+  "assetId": "fm-x8204-f1e869279c91cd4d",
+  "publicSku": "FM-X8204",
+  "sourceHash": "aed4821f5cbd0e02868b20e77aa8cfbf175deda68691202b36173d3c3786ecf5",
+  "originalPath": "data/catalog-assets/originals/ae/aed4821f5cbd0e02868b20e77aa8cfbf175deda68691202b36173d3c3786ecf5.jpg",
+  "editTarget": "src/assets/catalog/FM-X8204/primary-01-ceace01086b7.webp",
+  "status": "visually-reviewed",
+  "checkedAt": "2026-11-07T10:57:16.616Z",
+  "outputHash": "a0afc827fdd7d2edb80f5645de6e3687ff200b46965b1a58b0f39e48fb83fee0",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

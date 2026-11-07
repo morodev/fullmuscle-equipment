@@ -1,0 +1,18 @@
+{
+  "sku": "FM-X6053",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for the Full Muscle gym-equipment catalogue. Image 1 is the ONLY edit target: the X6053 seated inner/outer thigh machine on white. Images 2 and 3 are references ONLY for the dark satin forest-green paint (approximately #356B35) and compact italic Full Muscle Equipment logo. Preserve the exact machine geometry, seat/back/knee-pad shapes, linkages, screws, handles, chrome rods, perspective, framing, white background and shadow. Recolor ONLY the blue decorative tower trim and the two low black moving steel thigh levers to the dark forest green from reference 2. Retain all other frame and panels black, upholstery black, chrome metal silver, adjustment controls and instruction/safety labels unchanged. Replace the small TZ badge at the top of the black tower with a physical compact white/green italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath, matching reference 3. Remove the large vertical CURVE lettering and blue decorative slashes from the tower and reconstruct clean black panel; no other new typography. Preserve the machine fully inside the original square canvas, same viewpoint and scale. Do not add components or alter mechanical design.",
+  "outputPath": "data/catalog-branding/generated/featured/FM-X6053.png",
+  "review": "Inspected source and result; overall geometry, components and original view preserved. Paint accents and physical Full Muscle logo applied. Fine microtext remains illustrative.",
+  "assetId": "fm-x6053-8d833fd3d007a10c",
+  "publicSku": "FM-X6053",
+  "sourceHash": "60a3dd42a6be37bc10df4f67fb404b43def90acc608e747b502b1b986706a7e1",
+  "originalPath": "data/catalog-assets/originals/60/60a3dd42a6be37bc10df4f67fb404b43def90acc608e747b502b1b986706a7e1.jpg",
+  "editTarget": "src/assets/catalog/FM-X6053/primary-01-ef5ab7733749.webp",
+  "status": "visually-reviewed",
+  "checkedAt": "2026-11-07T10:57:16.597Z",
+  "outputHash": "e25d460e17e7ee13ace1177a62411308a64a01a52773b4722f5dbff1da26d260",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

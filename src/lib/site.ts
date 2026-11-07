@@ -1,4 +1,5 @@
 import type { Locale } from './types';
+import { parseShowroomHours } from './showroom-hours';
 
 export const SITE = {
   name: 'FullMuscle Equipment',
@@ -12,6 +13,7 @@ export const SITE = {
   email: import.meta.env.COMPANY_EMAIL || '',
   phone: import.meta.env.COMPANY_PHONE || '',
   showroomHours: import.meta.env.COMPANY_SHOWROOM_HOURS || '',
+  openingHoursSpecification: parseShowroomHours(import.meta.env.COMPANY_SHOWROOM_HOURS || ''),
   socialUrls: String(import.meta.env.COMPANY_SOCIAL_URLS || '').split(',').map((value: string) => value.trim()).filter(Boolean),
   turnstileSiteKey: import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '',
 } as const;

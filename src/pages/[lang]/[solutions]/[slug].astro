@@ -32,7 +32,7 @@ const quoteUrl = `${r.quote}?project=${solution.quoteType}`;
 const structuredData = {
   '@context': 'https://schema.org', '@graph': [
     { '@type': 'WebPage', name: solution.metaTitle[locale], description: solution.metaDescription[locale], url: new URL(canonicalPath, Astro.site), primaryImageOfPage: { '@type': 'ImageObject', url: new URL(solution.image.src, Astro.site) } },
-    { '@type': 'Service', name: solution.name[locale], description: solution.intro[locale], provider: { '@type': 'Organization', name: 'FullMuscle Equipment', url: new URL(r.home, Astro.site) }, areaServed: ['IT', 'Europe'], url: new URL(canonicalPath, Astro.site) },
+    { '@type': 'Service', name: solution.name[locale], description: solution.intro[locale], provider: { '@type': 'Organization', name: 'FullMuscle Equipment', url: new URL(r.home, Astro.site) }, areaServed: 'IT', url: new URL(canonicalPath, Astro.site) },
     { '@type': 'BreadcrumbList', itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: new URL(r.home, Astro.site) },
       { '@type': 'ListItem', position: 2, name: isIt ? 'Soluzioni' : 'Solutions', item: new URL(solutionsHubUrl(locale), Astro.site) },

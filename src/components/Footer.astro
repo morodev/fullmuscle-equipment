@@ -7,13 +7,13 @@ import Logo from './Logo.astro';
 interface Props { locale: Locale }
 const { locale } = Astro.props;
 const r = route(locale);
-const footerSolutions = ['new-gym', 'medical', 'corporate-wellness'] as const;
+const footerSolutions = ['new-gym', 'renovation', 'medical'] as const;
 ---
 <footer class="site-footer">
   <div class="shell footer-grid">
     <div class="footer-brand">
       <a href={r.home}><Logo /></a>
-      <p>{locale === 'it' ? 'Attrezzature professionali e supporto alla progettazione di spazi fitness.' : 'Professional equipment and support for planning fitness spaces.'}</p>
+      <p>{locale === 'it' ? 'Forniture complete di attrezzature per nuove palestre, rinnovi e ampliamenti in Italia.' : 'Complete equipment supplies for new gyms, renovations and expansions in Italy.'}</p>
     </div>
     <nav aria-label="Catalogo">
       <strong>{locale === 'it' ? 'Esplora' : 'Explore'}</strong>

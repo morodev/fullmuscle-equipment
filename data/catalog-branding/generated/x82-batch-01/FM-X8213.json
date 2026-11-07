@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-x8213-dd8f4ffd7ff229ba",
+  "sku": "FM-X8213",
+  "role": "primary",
+  "sourceHash": "4e92bf8448cdaace8ec6d4b22e576f17cff1cd1c5295607cb5e91a89d9676e8c",
+  "inputPath": "src/assets/catalog/FM-X8213/primary-01-91ee6ec456dc.webp",
+  "originalPath": "data/catalog-assets/originals/4e/4e92bf8448cdaace8ec6d4b22e576f17cff1cd1c5295607cb5e91a89d9676e8c.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-x82-series",
+  "outputPath": "data/catalog-branding/generated/x82-batch-01/FM-X8213.png",
+  "status": "visually-reviewed",
+  "publicSku": "FM-X8213",
+  "tool": "image_gen.imagegen",
+  "prompt": "Precise-object-edit for Full Muscle catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are reference ONLY for dark satin forest green paint (#356B35 approximately) and compact italic white/green Full Muscle Equipment logo. Preserve EXACT camera viewpoint, square framing, white background, shadows, mechanical geometry, bolts, pulleys, cables, black upholstery, chrome/silver metal, adjustment controls and safety/usage labels. Keep stationary structure and weight-stack housing their original grey. No new components, no changed silhouette, no floating text. Add a modest physical italic 'Full Muscle' logo with tiny 'EQUIPMENT' underneath to the existing black top cap of the weight tower, following perspective and fitting the surface without adding a panel. Target FM-X8213 seated triceps press machine with a wide inclined black elbow pad and a small rectangular counterweight above it. Recolor ONLY the curved moving lever under the elbow pad carrying the black grips, and the short painted stem supporting the upper counterweight, dark forest green. Preserve the rectangular counterweight black, black elbow pad and seat, all black grip surfaces and silver ends, the stationary grey front column and rear curved brace. Keep the original empty tower front; no invented instruction plaque.",
+  "review": "Source/result compared: triceps grip lever below elbow pad, black upper counterweight, pad shapes and seat preserved. Moving lever/counterweight stem green; stationary frame remains grey.",
+  "editTarget": "src/assets/catalog/FM-X8213/primary-01-91ee6ec456dc.webp",
+  "checkedAt": "2026-11-07T11:10:46.986Z",
+  "outputHash": "998ddf2918d4be3d31e9441aff1ffc5b2ef6a8f4338bdd7582660283e211b734",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}
