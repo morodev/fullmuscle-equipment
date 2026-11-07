@@ -1,13 +1,106 @@
 {
-  "reviewedAt": "2026-11-07",
+  "reviewedAt": "2026-11-07T20:46:52.426Z",
   "status": "visually-reviewed",
-  "reviewedArtifacts": ["catalogo-contact-sheet.jpg", "catalogo/02.png", "catalogo/07.png"],
+  "scope": "Independent final check after G5 bicolor logo correction and PDF rebuild.",
+  "reviewedArtifacts": [
+    {
+      "path": "catalogo/03.png",
+      "sha256": "0bb7b28a4957fb7718271f7015918aa91d32c2510d27cc167f71bb5871ab735c"
+    },
+    {
+      "path": "catalogo/04.png",
+      "sha256": "5bfbd375cc0d100b75fcd42b5b662e3350f7cf23276e7e3b1bc87c049422f100"
+    },
+    {
+      "path": "catalogo/05.png",
+      "sha256": "d18fb69c5efa8547e2ee7480daa8f4e994761707aae05b14e5db7b503dc18b95"
+    },
+    {
+      "path": "catalogo/06.png",
+      "sha256": "3cbb3ca90e007e28daa21ce3969226ef77ecfc5a61b016d7beceaa9f4cc183fc"
+    },
+    {
+      "path": "catalogo/07.png",
+      "sha256": "f780202a9b8bbd10b266cab64dfc11ba690186cc2aa7d6716351d1bb40367333"
+    }
+  ],
+  "preflightHash": "9801c54cca3f883faee65df98558b436f1e7bc42868fc946df60634289b1d709",
+  "documents": [
+    {
+      "filename": "brochure-stampa.pdf",
+      "sha256": "8253e0cd0dcbed02220209fc345e4b093df5add229e054a8c6b57046a85c2e2a",
+      "pages": 8,
+      "priceCount": 5,
+      "priceEurExVat": 1870
+    },
+    {
+      "filename": "catalogo-completo.pdf",
+      "sha256": "8d94c020a97e66c9bde2ecbe9754b0627f3fa123028da6188c391318a939367f",
+      "pages": 8,
+      "priceCount": 5,
+      "priceEurExVat": 1870
+    }
+  ],
+  "productImages": [
+    {
+      "sku": "FM-GF-001",
+      "source": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-001-5286876353a3278b.png",
+      "sourceHash": "df3e164db6695e37f3fdcf7fa1a6c19e3a3ab9f5a3698def50991d8db43846da",
+      "prepared": "layout/prepared/FM-GF-001.jpg",
+      "preparedHash": "c7f72f0e96b52e77ed13da28e9eadf0a93f3e4a8b7b80acb6dc6383f6283ec2d",
+      "bicolorG5LogoVisible": true
+    },
+    {
+      "sku": "FM-GF-002",
+      "source": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-002-f4682a47f2745fe4.png",
+      "sourceHash": "f90e164a5a07d83e5d7ee140e0d9de66a5e53421d3bc0e78a1f3e03cc0755cf1",
+      "prepared": "layout/prepared/FM-GF-002.jpg",
+      "preparedHash": "7abd1e66a45f48a99f9aad1f0ed3e0472452ecb385266da4b9e926dbfb3a1afe",
+      "bicolorG5LogoVisible": true
+    },
+    {
+      "sku": "FM-GF-003",
+      "source": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-003-0c7c006a01366d60.png",
+      "sourceHash": "c0bd10c84a51067edbec0a95d621c50b0624cfec0a844aaa0167a2a04e87287c",
+      "prepared": "layout/prepared/FM-GF-003.jpg",
+      "preparedHash": "487fa6abf5fddc3c61da39223c9bd9fa6e7b31f807531286f9d0f7c60d75983f",
+      "bicolorG5LogoVisible": true
+    },
+    {
+      "sku": "FM-GF-004",
+      "source": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-004-b843ca71e84f5106.png",
+      "sourceHash": "608452133cd6e0522fe80f40599768e701973e053ac7da1114aa3842ca65a5db",
+      "prepared": "layout/prepared/FM-GF-004.jpg",
+      "preparedHash": "00a1f3bbc96ced24e003b33c420ae68642304e57c0378acbc1735e5942aec2da",
+      "bicolorG5LogoVisible": true
+    },
+    {
+      "sku": "FM-GF-005",
+      "source": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-005-952ed3db0311d168.png",
+      "sourceHash": "3e19b56f3e74732cfb1dbe01ac597fdc41c92352ee097ddcd2a416622c77f3a1",
+      "prepared": "layout/prepared/FM-GF-005.jpg",
+      "preparedHash": "219cea691159de4174ce9fc92316d0b8f6d44f4590a73de58eeb96c7b51a1217",
+      "bicolorG5LogoVisible": true
+    }
+  ],
+  "checks": {
+    "preflightCheckPassed": true,
+    "allFiveProductPagesVisuallyChecked": true,
+    "oneProductPerPage": true,
+    "fivePricesAt1870PlusVatPerDocument": true,
+    "brandedSourceAndBrochureCopyHashesMatch": true,
+    "sourceFilesFromBicolorRevision": true,
+    "noVisibleOverlapsOrClipping": true,
+    "pdfPageAndBleedChecksPassed": true,
+    "fontsEmbedded": true,
+    "imageResolutionAtLeast240Ppi": true
+  },
   "notes": [
-    "Otto pagine: copertina GF, indice, cinque modelli univoci e contatti.",
-    "Grafica coerente con la brochure G5: antracite, verde, loghi, caratteri e schede a pagina intera.",
-    "Immagini con leve verdi, telaio nero e personalizzazione Full Muscle; GF-005 completo e visibile nella scheda dedicata.",
-    "Ogni pagina macchina mostra 1.870 € + IVA, dimensioni, peso e carico a dischi.",
-    "Indice e pagina GF-005 verificati anche a dimensione leggibile; nessuna sovrapposizione o ritaglio rilevato.",
-    "Preflight e controllo indipendente verificano tutte le pagine di entrambi i PDF; scansione fisica del QR non eseguita."
-  ]
+    "Visionate integralmente le pagine prodotto 03?07: Chest Press, Shoulder Press, Seated Row, Lat Pulldown e Incline Chest Press.",
+    "Logo macchina coerente con G5: Full bianco, Muscle verde chiaro e sottotitolo bianco; verificati anche i due marchi visibili della GF-003.",
+    "Tutte le cinque schede mostrano 1.870 ? + IVA, codice corretto, dimensioni, peso e carico a dischi. Nessun taglio o sovrapposizione visibile.",
+    "Check indipendente eseguito con scripts/check.mjs: PDF stampa e digitale di otto pagine ciascuno, cinque prezzi ciascuno, hash sorgenti/copie/preparati/PDF coerenti, font incorporati e dimensioni/abbondanze valide.",
+    "Verifica limitata agli artefatti locali; pubblicazione del PDF e scansione fisica del QR non verificate."
+  ],
+  "issues": []
 }

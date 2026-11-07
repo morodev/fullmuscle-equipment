@@ -1,0 +1,122 @@
+{
+  "checkedAt": "2026-11-07T20:47:08.571Z",
+  "scope": "GF logos corrected to G5 two-color identity",
+  "reference": "brochures/fullmuscle-g5/assets/brand/fullmuscle-wordmark-white.svg",
+  "logoColors": {
+    "Full": "#FFFFFF",
+    "Muscle": "#79a64b",
+    "Equipment": "#FFFFFF"
+  },
+  "tool": "image_gen.imagegen",
+  "reviewReport": "data/catalog-branding/generated/gf-logo-bicolor-01/qa.json",
+  "revisedImages": [
+    {
+      "assetId": "fm-gf-001-5286876353a3278b",
+      "sku": "FM-GF-001",
+      "role": "primary",
+      "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-001-5286876353a3278b.png",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-001-5286876353a3278b.png",
+      "outputHash": "df3e164db6695e37f3fdcf7fa1a6c19e3a3ab9f5a3698def50991d8db43846da"
+    },
+    {
+      "assetId": "fm-gf-001-a69cc69116af4561",
+      "sku": "FM-GF-001",
+      "role": "gallery",
+      "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-001-a69cc69116af4561.png",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-001-a69cc69116af4561.png",
+      "outputHash": "cd4a068194bc7c74eb91780e4362957057b27e212a9f9d703bde9b9ab49ff20f"
+    },
+    {
+      "assetId": "fm-gf-002-b6dd7cb277248cc6",
+      "sku": "FM-GF-002",
+      "role": "gallery",
+      "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-002-b6dd7cb277248cc6.png",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-002-b6dd7cb277248cc6.png",
+      "outputHash": "db76b7e4b38f0447f810c1bbcb2828670ecf5180a06ac1cc26df0bcb01d2bd2d"
+    },
+    {
+      "assetId": "fm-gf-002-f4682a47f2745fe4",
+      "sku": "FM-GF-002",
+      "role": "primary",
+      "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-002-f4682a47f2745fe4.png",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-002-f4682a47f2745fe4.png",
+      "outputHash": "f90e164a5a07d83e5d7ee140e0d9de66a5e53421d3bc0e78a1f3e03cc0755cf1"
+    },
+    {
+      "assetId": "fm-gf-003-0c7c006a01366d60",
+      "sku": "FM-GF-003",
+      "role": "primary",
+      "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-003-0c7c006a01366d60.png",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-003-0c7c006a01366d60.png",
+      "outputHash": "c0bd10c84a51067edbec0a95d621c50b0624cfec0a844aaa0167a2a04e87287c"
+    },
+    {
+      "assetId": "fm-gf-003-fff14cec795b2f9a",
+      "sku": "FM-GF-003",
+      "role": "gallery",
+      "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-003-fff14cec795b2f9a.png",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-003-fff14cec795b2f9a.png",
+      "outputHash": "062585095cd2dee4efb457640077e1fb8964194581c6797781d7eb81890752aa"
+    },
+    {
+      "assetId": "fm-gf-004-2e22cfda7137a5fb",
+      "sku": "FM-GF-004",
+      "role": "gallery",
+      "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-004-2e22cfda7137a5fb.png",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-004-2e22cfda7137a5fb.png",
+      "outputHash": "63e4fafa088d7966fb406eae5dd2c6364e74a9fed170eca168929b9ae44e249d"
+    },
+    {
+      "assetId": "fm-gf-004-b843ca71e84f5106",
+      "sku": "FM-GF-004",
+      "role": "primary",
+      "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-004-b843ca71e84f5106.png",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-004-b843ca71e84f5106.png",
+      "outputHash": "608452133cd6e0522fe80f40599768e701973e053ac7da1114aa3842ca65a5db"
+    },
+    {
+      "assetId": "fm-gf-005-23e5bd86f06b0883",
+      "sku": "FM-GF-005",
+      "role": "gallery",
+      "previousOutputPath": "data/catalog-branding/generated/gf-completion-01/fm-gf-005-gallery.png",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-005-23e5bd86f06b0883.png",
+      "outputHash": "48b35a0af88ed2ae0b4b663c254959e0e1cb9084fc13d06d6084217c7b6053f2"
+    },
+    {
+      "assetId": "fm-gf-005-952ed3db0311d168",
+      "sku": "FM-GF-005",
+      "role": "primary",
+      "previousOutputPath": "data/catalog-branding/generated/gf-completion-01/fm-gf-005-primary.png",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-005-952ed3db0311d168.png",
+      "outputHash": "3e19b56f3e74732cfb1dbe01ac597fdc41c92352ee097ddcd2a416622c77f3a1"
+    }
+  ],
+  "integratedImages": 756,
+  "publicGFViews": 10,
+  "archivedGFImages": 18,
+  "staleGFImagesInBuild": 0,
+  "pdfs": [
+    {
+      "filename": "brochure-stampa.pdf",
+      "pages": 8,
+      "sha256": "8253e0cd0dcbed02220209fc345e4b093df5add229e054a8c6b57046a85c2e2a",
+      "priceCount": 5
+    },
+    {
+      "filename": "catalogo-completo.pdf",
+      "pages": 8,
+      "sha256": "8d94c020a97e66c9bde2ecbe9754b0627f3fa123028da6188c391318a939367f",
+      "priceCount": 5
+    }
+  ],
+  "priceEurExVat": 1870,
+  "checks": {
+    "catalogTests": 20,
+    "outputTests": 12,
+    "browserDownloadTests": 4,
+    "typeErrors": 0,
+    "pdfPreflight": "passed",
+    "build": "passed"
+  },
+  "deployment": "not-published: previous automatic approval review rejected push to origin/master; awaiting explicit destination approval"
+}

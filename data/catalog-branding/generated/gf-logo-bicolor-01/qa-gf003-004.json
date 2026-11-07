@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-07T20:39:56.304Z",
+  "tool": "image_gen.imagegen",
+  "referenceLogo": "data/catalog-branding/generated/gf-logo-bicolor-01/references/fullmuscle-g5-white-green.png",
+  "referenceProduct": "brochures/fullmuscle-g5/assets/products/FM-GC-5001.png",
+  "jobs": [
+    {
+      "assetId": "fm-gf-003-0c7c006a01366d60",
+      "sku": "FM-GF-003",
+      "role": "primary",
+      "sourceHash": "42868927bc116d93242513c5f45ccc7dbb19ef9b0652552b7e94f21fb6f1f1c4",
+      "originalPath": "data/catalog-assets/originals/42/42868927bc116d93242513c5f45ccc7dbb19ef9b0652552b7e94f21fb6f1f1c4.jpg",
+      "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-003-0c7c006a01366d60.png",
+      "previousOutputHash": "f0fdc97b633ab17a6b69d1421750f5938296e0c2fca1f4af4ec6063c795df72c",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-003-0c7c006a01366d60.png",
+      "outputHash": "c0bd10c84a51067edbec0a95d621c50b0624cfec0a844aaa0167a2a04e87287c",
+      "status": "visually-reviewed",
+      "review": "Confronto visivo prima/dopo: corretti entrambi i loghi sui bracci, incluso quello parzialmente coperto dalla struttura. Full bianco, Muscle verde chiaro secondo riferimento G5, sottotitolo bianco. Preservati seduta, appoggio torace, impugnatura argento, piastre, telaio nero, leve verdi e fondo bianco; nessuna variazione funzionale visibile. Microtesti illustrativi.",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "assetId": "fm-gf-003-fff14cec795b2f9a",
+      "sku": "FM-GF-003",
+      "role": "gallery",
+      "sourceHash": "204f9f2604ed5e19572ee161a19d265cc70b0e90c071e782169e71fb06df8320",
+      "originalPath": "data/catalog-assets/originals/20/204f9f2604ed5e19572ee161a19d265cc70b0e90c071e782169e71fb06df8320.jpg",
+      "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-003-fff14cec795b2f9a.png",
+      "previousOutputHash": "78fd2d0fedf81a1d5b74a91414712ef034b69697ec1ffedca3254617b96ac661",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-003-fff14cec795b2f9a.png",
+      "outputHash": "062585095cd2dee4efb457640077e1fb8964194581c6797781d7eb81890752aa",
+      "status": "visually-reviewed",
+      "review": "Confronto visivo prima/dopo: entrambi i bracci mostrano il logo Full bianco e Muscle verde chiaro G5 con EQUIPMENT bianco. Conservati geometria e leve, telaio, seduta e appoggio torace, perno cromato, dischi e indicazione rossa 10 KG, pavimento e stanza. Nessuna variazione funzionale visibile. Microtesti illustrativi.",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "assetId": "fm-gf-004-2e22cfda7137a5fb",
+      "sku": "FM-GF-004",
+      "role": "gallery",
+      "sourceHash": "791ae779424f84732ba87eefc2ee31858c9fd55c76988bc2499f0b0a4b61d7b8",
+      "originalPath": "data/catalog-assets/originals/79/791ae779424f84732ba87eefc2ee31858c9fd55c76988bc2499f0b0a4b61d7b8.jpg",
+      "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-004-2e22cfda7137a5fb.png",
+      "previousOutputHash": "a5129c3a9f0881b0a369788d17ba97d4a1c5b40512c73795c5d25833382791b7",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-004-2e22cfda7137a5fb.png",
+      "outputHash": "63e4fafa088d7966fb406eae5dd2c6364e74a9fed170eca168929b9ae44e249d",
+      "status": "visually-reviewed",
+      "review": "Confronto visivo prima/dopo: logo sul braccio superiore vicino corretto Full bianco/Muscle verde chiaro G5/sottotitolo bianco. Conservati barra verde con impugnature nere e terminali argento, leve verdi, montanti neri, tiranti, rulli, seduta, dischi, persone e contesto fiera. Nessuna variazione funzionale visibile. Microtesti illustrativi.",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "assetId": "fm-gf-004-b843ca71e84f5106",
+      "sku": "FM-GF-004",
+      "role": "primary",
+      "sourceHash": "eb08a6661b61aee91b9ef1480f4fdbc48e2d6bf6e29597e93f8dcd7e54284538",
+      "originalPath": "data/catalog-assets/originals/eb/eb08a6661b61aee91b9ef1480f4fdbc48e2d6bf6e29597e93f8dcd7e54284538.jpg",
+      "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-004-b843ca71e84f5106.png",
+      "previousOutputHash": "bc37e44b04edb1df2825ce7d11db0040d2140bafcc982eab9a7104a94862e13f",
+      "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-004-b843ca71e84f5106.png",
+      "outputHash": "608452133cd6e0522fe80f40599768e701973e053ac7da1114aa3842ca65a5db",
+      "status": "visually-reviewed",
+      "review": "Confronto visivo prima/dopo: logo sul braccio superiore vicino corretto Full bianco/Muscle verde chiaro G5/sottotitolo bianco. Conservati barra di trazione nera, montanti neri, leve verdi, seduta e rulli, tiranti, perni cromati, proporzioni e fondo bianco. Nessuna variazione funzionale visibile. Microtesti illustrativi.",
+      "width": 1254,
+      "height": 1254
+    }
+  ]
+}

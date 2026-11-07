@@ -1,0 +1,12 @@
+{
+  "prompt": "Use case: precise-object-edit. FIRST IMAGE IS THE SOLE EDIT TARGET: GF-001 gallery in a trade show. Correct the single vertical decal on the outward face of the front right green arm. Preserve every person, pose, booth, table, yellow disk, gray flooring and background machine. SECOND IMAGE is the exact approved logo reference: Full is WHITE, Muscle is GREEN #79a64b (lighter than the frame), small EQUIPMENT is WHITE; bold italic wordmark. THIRD IMAGE is the G5 brand-application reference only, a different machine; never borrow its geometry. Replace ONLY the existing all-white Full Muscle Equipment decal on the target with this exact two-color wordmark, matching reference typography, retaining the target decal's current position, size, orientation and realistic surface perspective. In particular the letters M u s c l e must become visibly light green, the letters F u l l remain white, and EQUIPMENT remains white. Keep original forest-green paint unchanged. Apply as lettering directly on the green metal: no rectangle, no plaque, no black backing, no outline, no additional logo. Keep ALL other pixels and physical details as close to identical as possible: silhouette, camera, framing, dimensions, black structure and padding, green paint/shading, all grips, bolts, pivots, holes, chrome/silver parts, shadows and backdrop. Do not recolor the frame, alter geometry, redesign equipment or improve background. Return only the corrected complete first image.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-batch-01/fm-gf-001-a69cc69116af4561.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-logo-bicolor-01/references/fullmuscle-g5-white-green.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5001.png"
+  ],
+  "transparent_background": false,
+  "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-001-a69cc69116af4561.png",
+  "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-001-a69cc69116af4561.png",
+  "generator": "image_gen.imagegen"
+}

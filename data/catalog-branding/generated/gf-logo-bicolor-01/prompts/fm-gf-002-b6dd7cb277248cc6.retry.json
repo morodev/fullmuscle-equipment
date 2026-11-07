@@ -1,0 +1,10 @@
+{
+  "prompt": "Edit IMAGE 1 only. In its existing white Full Muscle Equipment decal on the foreground machine's right green arm, recolor ONLY the letters of the word 'Muscle' to light green #79a64b, matching the green letters in reference IMAGE 2. Keep the existing 'Full' and 'EQUIPMENT' white. Keep the exact existing typography, size, placement, perspective. Literally everything outside those six letters stays unchanged: all machine parts, every bolt and cap, frame colors, geometry, framing, background people and objects. No redesign, no new hardware, no text relocation. IMAGE 3 only confirms the brand color; ignore its machine. Return the complete original first image with only those letters recolored.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-batch-01/fm-gf-002-b6dd7cb277248cc6.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-logo-bicolor-01/references/fullmuscle-g5-white-green.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5001.png"
+  ],
+  "transparent_background": false,
+  "generator": "image_gen.imagegen"
+}

@@ -1,0 +1,9 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-completion-01/fm-gf-005-primary.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-logo-bicolor-01/references/fullmuscle-g5-white-green.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5001.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case precise-object-edit. Edit FIRST image only. Tiny localized brand decal correction on the near LEFT green lever of this GF-005 machine. Replace its ALL-WHITE Full Muscle Equipment logo with the exact TWO-COLOR wordmark from image2 and same G5 branding as image3: 'Full' WHITE, 'Muscle' LIGHT GREEN #79a64b, small spaced 'EQUIPMENT' WHITE. The entire word Muscle must be green, including its M. Keep italic typography, same physical decal size/location/orientation/perspective on the arm, no rectangle behind decal. All other pixels/composition must remain unchanged: dark forest-green painted arms, black frame/pads, yellow grip rings, chrome hardware, silhouette/mechanisms, lighting, pure white background, exact complete framing. Images2/3 are LOGO references only, never use image3's different machine shape. No new logos, no new parts, no crop or zoom. Return corrected original product image."
+}

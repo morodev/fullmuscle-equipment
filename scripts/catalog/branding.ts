@@ -8,11 +8,17 @@ import { normalizeInventory } from './normalize.js';
 import { generatePublicCatalog } from '../site/generate-public-catalog.js';
 import type { CatalogAssetManifest, SourceInventory } from './types.js';
 
+export type BrandingRevision = {
+  outputPath: string;
+  review?: string;
+  stagedPath?: string;
+};
 export type BrandingJob = {
   assetId: string; sku: string; role: string; sourceHash: string;
   inputPath: string; originalPath: string; categoryId: string; lineId?: string;
   outputPath: string; status: 'pending' | 'ready-for-review' | 'approved' | 'integrated';
   review?: string; stagedPath?: string;
+  history?: BrandingRevision[];
 };
 export type BrandingQueue = { schemaVersion: 1; referenceGreen: string; jobs: BrandingJob[] };
 const queuePath = path.resolve('data/catalog-branding/jobs.json');
@@ -23,7 +29,7 @@ export function importVisualReviews(queue: BrandingQueue, report: unknown): numb
   const document = report as { jobs?: unknown; items?: unknown };
   const entries = Array.isArray(report) ? report : document?.jobs ?? document?.items;
   if (!Array.isArray(entries) || !entries.length) throw new Error('Visual review report is empty or invalid.');
-  const changes: Array<{ job: BrandingJob; outputPath: string; review: string }> = [];
+  const changes: Array<{ job: BrandingJob; outputPath: string; review: string; previous?: BrandingRevision }> = [];
   const seen = new Set<string>();
   for (const entry of entries) {
     const job = queue.jobs.find(candidate => candidate.assetId === entry.assetId);
@@ -38,13 +44,28 @@ export function importVisualReviews(queue: BrandingQueue, report: unknown): numb
     const relative = path.relative(process.cwd(), path.resolve(entry.outputPath));
     if (relative.startsWith('..') || path.isAbsolute(relative)) throw new Error(`Output outside workspace: ${job.assetId}`);
     if (job.status === 'integrated') {
-      if (job.outputPath !== entry.outputPath) throw new Error(`Integrated image differs: ${job.assetId}`);
-      continue;
+      // A replay after integration must remain idempotent, including revision reports.
+      if (job.outputPath === entry.outputPath) continue;
+      if (entry.previousOutputPath !== job.outputPath) throw new Error(`Integrated revision requires matching previousOutputPath: ${job.assetId}`);
+      if (!path.relative(path.resolve(job.outputPath), path.resolve(entry.outputPath))) {
+        throw new Error(`Revision output must differ from the integrated file: ${job.assetId}`);
+      }
+      changes.push({ job, outputPath: entry.outputPath, review, previous: {
+        outputPath: job.outputPath,
+        ...(job.review !== undefined ? { review: job.review } : {}),
+        ...(job.stagedPath !== undefined ? { stagedPath: job.stagedPath } : {}),
+      } });
+    } else {
+      changes.push({ job, outputPath: entry.outputPath, review });
     }
-    changes.push({ job, outputPath: entry.outputPath, review });
   }
   // Validate the whole report before changing any queue entry.
-  for (const { job, outputPath, review } of changes) Object.assign(job, { outputPath, review, status: 'approved' });
+  for (const { job, outputPath, review, previous } of changes) {
+    Object.assign(job, {
+      outputPath, review, status: 'approved',
+      ...(previous ? { history: [...(job.history ?? []), previous] } : {}),
+    });
+  }
   return changes.length;
 }
 

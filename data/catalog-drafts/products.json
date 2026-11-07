@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T19:58:14.119Z",
+  "generatedAt": "2026-11-07T20:44:58.707Z",
   "status": "internal-drafts",
   "products": [
     {
@@ -28394,14 +28394,14 @@
           "alt": "",
           "role": "primary",
           "reviewStatus": "approved-provisional",
-          "localPath": "src/assets/catalog/FM-GF-001/primary-01-56dce695d64b.webp"
+          "localPath": "src/assets/catalog/FM-GF-001/primary-01-33f72376be96.webp"
         },
         {
           "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/04/Commercial-Gym-Fitness-Equipment-Strength-Flex-Plate-Loaded-Seated-Chest-Press.jpg",
           "alt": "Strength training Seated Chest Press Machine",
           "role": "gallery",
           "reviewStatus": "approved-provisional",
-          "localPath": "src/assets/catalog/FM-GF-001/gallery-02-b90ba9e8f996.webp"
+          "localPath": "src/assets/catalog/FM-GF-001/gallery-02-92b9618ed35c.webp"
         },
         {
           "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/10/call-action-11.png",
@@ -28473,14 +28473,14 @@
           "alt": "",
           "role": "primary",
           "reviewStatus": "approved-provisional",
-          "localPath": "src/assets/catalog/FM-GF-002/primary-01-9a82bca060f2.webp"
+          "localPath": "src/assets/catalog/FM-GF-002/primary-01-d191906a4af0.webp"
         },
         {
           "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/04/Strength-Seated-Flex-Shoulder-Press.jpg",
           "alt": "Exercise Machine Flex Leverage Shoulder Press",
           "role": "gallery",
           "reviewStatus": "approved-provisional",
-          "localPath": "src/assets/catalog/FM-GF-002/gallery-02-f3a764b6c7e7.webp"
+          "localPath": "src/assets/catalog/FM-GF-002/gallery-02-7faf8f239ff0.webp"
         }
       ],
       "sourceReference": {
@@ -28540,14 +28540,14 @@
           "alt": "",
           "role": "primary",
           "reviewStatus": "approved-provisional",
-          "localPath": "src/assets/catalog/FM-GF-003/primary-01-9631a324f159.webp"
+          "localPath": "src/assets/catalog/FM-GF-003/primary-01-bbe7ca3e4945.webp"
         },
         {
           "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/04/Wholesale-Gym-Leverage-Row-Trainer.jpg",
           "alt": "Plate Loaded Leverage Row Machine",
           "role": "gallery",
           "reviewStatus": "approved-provisional",
-          "localPath": "src/assets/catalog/FM-GF-003/gallery-02-813a7ac70582.webp"
+          "localPath": "src/assets/catalog/FM-GF-003/gallery-02-79208e3909e3.webp"
         }
       ],
       "sourceReference": {
@@ -28607,14 +28607,14 @@
           "alt": "",
           "role": "primary",
           "reviewStatus": "approved-provisional",
-          "localPath": "src/assets/catalog/FM-GF-004/primary-01-715e86dc94b3.webp"
+          "localPath": "src/assets/catalog/FM-GF-004/primary-01-99c8371ac2a7.webp"
         },
         {
           "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/04/Commercial-Fitness-Flex-Leverage-Lat-Pull.jpg",
           "alt": "Fitness Leverage Equipment Lat Pull Down",
           "role": "gallery",
           "reviewStatus": "approved-provisional",
-          "localPath": "src/assets/catalog/FM-GF-004/gallery-02-3a19a4630f51.webp"
+          "localPath": "src/assets/catalog/FM-GF-004/gallery-02-3e22cadac57b.webp"
         }
       ],
       "sourceReference": {
@@ -28675,14 +28675,14 @@
           "alt": "",
           "role": "primary",
           "reviewStatus": "approved-provisional",
-          "localPath": "src/assets/catalog/FM-GF-005/primary-01-e31da8cc70af.webp"
+          "localPath": "src/assets/catalog/FM-GF-005/primary-01-308515514c54.webp"
         },
         {
           "sourceUrl": "https://tzfit.com/wp-content/uploads/2025/04/Plate-Loaded-Seated-Incline-Chest-Press-Machine.jpg",
           "alt": "Commercial Gym Strength Flex Leverage Incline Chest Press",
           "role": "gallery",
           "reviewStatus": "approved-provisional",
-          "localPath": "src/assets/catalog/FM-GF-005/gallery-02-2e62e98b301c.webp"
+          "localPath": "src/assets/catalog/FM-GF-005/gallery-02-dba8011d66eb.webp"
         }
       ],
       "sourceReference": {

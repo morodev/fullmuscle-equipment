@@ -1,0 +1,9 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-completion-01/fm-gf-005-gallery.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-logo-bicolor-01/references/fullmuscle-g5-white-green.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5001.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case precise-object-edit. Edit FIRST image only: GF-005 showroom view. Make TWO tiny localized decal corrections: (1) Full Muscle Equipment on foreground RIGHT green arm; (2) Full Muscle Equipment sticker on CENTRAL REAR BLACK CROSSBAR above top of back pad. BOTH currently allwhite logos must match image2 exact TWO-COLOR G5 wordmark: 'Full' WHITE, ALL of 'Muscle' LIGHT GREEN #79a64b including capital M, tiny spaced 'EQUIPMENT' WHITE. Match the italic brand lettering from image2/image3. Preserve each original logo position, scale, perspective and orientation. Keep black backing only for original rear sticker, no added backing on green arm. Do NOT change anything else: exact machine geometry and framing, green paint, black pads/frame/linkage, all hardware/chrome/grips, surrounding showroom machines, floor, reflections and camera remain unchanged. Images2/3 are logo references only. Do not copy image3's machine. No new parts, no restyling, no crop/zoom, no new logos. Return corrected original photograph."
+}

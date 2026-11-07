@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-09-13T09:35:51.935Z",
-  "updatedAt": "2026-11-07T19:58:14.103Z",
+  "updatedAt": "2026-11-07T20:44:58.692Z",
   "sourceInventoryHash": "45fde16c81b51dd09e5113524b9d18af9e30b106548316661d6c01e6665139db",
   "items": [
     {
@@ -14585,18 +14585,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/67/671b24ddb87f67f203c60154c076e36fc799372050e44cd799d2ef131890e287.jpg",
-      "stagedPath": "src/assets/catalog/FM-GF-001/primary-01-56dce695d64b.webp",
+      "stagedPath": "src/assets/catalog/FM-GF-001/primary-01-33f72376be96.webp",
       "sourceHash": "671b24ddb87f67f203c60154c076e36fc799372050e44cd799d2ef131890e287",
-      "outputHash": "56dce695d64b95a526e1e68d394f8e8831c191ca047dd4cbfea91d2d31459171",
+      "outputHash": "33f72376be96f411030049753f9c237d22c23b58702ac973f9a44f48378918db",
       "mimeType": "image/jpeg",
       "bytes": 35542,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: GF-001: bracci anteriori bianchi resi verde scuro con logo verticale sul destro; seduta, schienale, telaio/linkage nero, pedana argento e cromature conservati. Vista principale e foto in fiera coerenti per posizione della finitura. Nella foto in fiera conservati persone, pose, disco giallo e ambiente; tolte solo lettere TZ dalla maglia blu."
+        "Full Muscle branding: GF-001: bracci anteriori bianchi resi verde scuro con logo verticale sul destro; seduta, schienale, telaio/linkage nero, pedana argento e cromature conservati. Vista principale e foto in fiera coerenti per posizione della finitura. Nella foto in fiera conservati persone, pose, disco giallo e ambiente; tolte solo lettere TZ dalla maglia blu.",
+        "Full Muscle branding: Vista principale: Full bianco, Muscle verde chiaro, EQUIPMENT bianco, stessa posizione verticale. Telaio, leve, pedana e meccanica confrontati con ingresso; nessuna variazione strutturale rilevata."
       ],
-      "editedPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-001-5286876353a3278b.png"
+      "editedPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-001-5286876353a3278b.png"
     },
     {
       "assetId": "fm-gf-001-a69cc69116af4561",
@@ -14608,18 +14609,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/e0/e0100339cde1d22edac67915509a8416e2f3a222b6a658d456bd5ce101fde8d9.jpg",
-      "stagedPath": "src/assets/catalog/FM-GF-001/gallery-02-b90ba9e8f996.webp",
+      "stagedPath": "src/assets/catalog/FM-GF-001/gallery-02-92b9618ed35c.webp",
       "sourceHash": "e0100339cde1d22edac67915509a8416e2f3a222b6a658d456bd5ce101fde8d9",
-      "outputHash": "b90ba9e8f9965dc4db7926986cc9f5290c93b4f634563ef5c002dbcadeb6c077",
+      "outputHash": "92b9618ed35c09e32c6df4384208e09d17b67f4d20682e4b6ef5dec8a337aa89",
       "mimeType": "image/jpeg",
       "bytes": 65255,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: GF-001: bracci anteriori bianchi resi verde scuro con logo verticale sul destro; seduta, schienale, telaio/linkage nero, pedana argento e cromature conservati. Vista principale e foto in fiera coerenti per posizione della finitura. Nella foto in fiera conservati persone, pose, disco giallo e ambiente; tolte solo lettere TZ dalla maglia blu."
+        "Full Muscle branding: GF-001: bracci anteriori bianchi resi verde scuro con logo verticale sul destro; seduta, schienale, telaio/linkage nero, pedana argento e cromature conservati. Vista principale e foto in fiera coerenti per posizione della finitura. Nella foto in fiera conservati persone, pose, disco giallo e ambiente; tolte solo lettere TZ dalla maglia blu.",
+        "Full Muscle branding: Gallery: selezionato retry dall?immagine precedente originale con sola ricolorazione della parola Muscle. Verifica finale a risoluzione originale: cappuccio argento in basso e occhiello centrale gi? presenti nella sorgente, conservati. Persone, fiera, pedana, telaio e finitura delle leve conservati."
       ],
-      "editedPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-001-a69cc69116af4561.png"
+      "editedPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-001-a69cc69116af4561.png"
     },
     {
       "assetId": "fm-gf-001-10928763d0e41f80",
@@ -14669,18 +14671,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/4d/4da4608d8ec550a15a28551a6020124fed61027e6965f22fcdb3b11253e361de.jpg",
-      "stagedPath": "src/assets/catalog/FM-GF-002/primary-01-9a82bca060f2.webp",
+      "stagedPath": "src/assets/catalog/FM-GF-002/primary-01-d191906a4af0.webp",
       "sourceHash": "4da4608d8ec550a15a28551a6020124fed61027e6965f22fcdb3b11253e361de",
-      "outputHash": "9a82bca060f2bb0ffe6c857fe999d22db7a84616bb6ef9d4ddbe2364ffa1955f",
+      "outputHash": "d191906a4af03ddeea08206cc1524cbc977d640097bc62b59f043128c7cbefb4",
       "mimeType": "image/jpeg",
       "bytes": 34561,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: GF-002 verificata per vista: press arms e collegamento inferiore verniciati verdi, logo sul braccio vicino; schienale inclinato, seduta, supporto metallico anteriore, telaio nero, cerniere e perno cromato mantenuti. Un collegamento basso nero riceve lieve finitura verde nella vista primaria, senza variazione geometrica. Contesto fiera e persone conservati nella gallery."
+        "Full Muscle branding: GF-002 verificata per vista: press arms e collegamento inferiore verniciati verdi, logo sul braccio vicino; schienale inclinato, seduta, supporto metallico anteriore, telaio nero, cerniere e perno cromato mantenuti. Un collegamento basso nero riceve lieve finitura verde nella vista primaria, senza variazione geometrica. Contesto fiera e persone conservati nella gallery.",
+        "Full Muscle branding: Vista principale: logo bicolore nella posizione esistente; refinement ripristina la traversa anteriore inferiore alla finitura verde molto scura originale. Confermati sagoma, seduta, leve, supporti e cromature."
       ],
-      "editedPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-002-f4682a47f2745fe4.png"
+      "editedPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-002-f4682a47f2745fe4.png"
     },
     {
       "assetId": "fm-gf-002-b6dd7cb277248cc6",
@@ -14692,18 +14695,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/a7/a710cc9d6b46b3ed21bf5f03b982ba703fa8cfcd391bba3657253516aa899ab6.jpg",
-      "stagedPath": "src/assets/catalog/FM-GF-002/gallery-02-f3a764b6c7e7.webp",
+      "stagedPath": "src/assets/catalog/FM-GF-002/gallery-02-7faf8f239ff0.webp",
       "sourceHash": "a710cc9d6b46b3ed21bf5f03b982ba703fa8cfcd391bba3657253516aa899ab6",
-      "outputHash": "f3a764b6c7e794bb151856ee6c885bc62a2ea4eb8e1830bf3aadcc65b42627e1",
+      "outputHash": "7faf8f239ff007f2afd519c8af4a105d18844f030c10b2d9ddbbc299fc8a9fdd",
       "mimeType": "image/jpeg",
       "bytes": 93113,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: GF-002 verificata per vista: press arms e collegamento inferiore verniciati verdi, logo sul braccio vicino; schienale inclinato, seduta, supporto metallico anteriore, telaio nero, cerniere e perno cromato mantenuti. Un collegamento basso nero riceve lieve finitura verde nella vista primaria, senza variazione geometrica. Contesto fiera e persone conservati nella gallery."
+        "Full Muscle branding: GF-002 verificata per vista: press arms e collegamento inferiore verniciati verdi, logo sul braccio vicino; schienale inclinato, seduta, supporto metallico anteriore, telaio nero, cerniere e perno cromato mantenuti. Un collegamento basso nero riceve lieve finitura verde nella vista primaria, senza variazione geometrica. Contesto fiera e persone conservati nella gallery.",
+        "Full Muscle branding: Gallery: selezionato retry dall?immagine precedente originale con sola ricolorazione della parola Muscle. Fissaggi sotto schienale, meccanica, colori delle travi, camera, persone e contesto fiera verificati rispetto alla sorgente."
       ],
-      "editedPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-002-b6dd7cb277248cc6.png"
+      "editedPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-002-b6dd7cb277248cc6.png"
     },
     {
       "assetId": "fm-gf-003-0c7c006a01366d60",
@@ -14715,18 +14719,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/42/42868927bc116d93242513c5f45ccc7dbb19ef9b0652552b7e94f21fb6f1f1c4.jpg",
-      "stagedPath": "src/assets/catalog/FM-GF-003/primary-01-9631a324f159.webp",
+      "stagedPath": "src/assets/catalog/FM-GF-003/primary-01-bbe7ca3e4945.webp",
       "sourceHash": "42868927bc116d93242513c5f45ccc7dbb19ef9b0652552b7e94f21fb6f1f1c4",
-      "outputHash": "9631a324f15981d30ff72ae386619b2eee483c8d7561cf97551c4cab60179801",
+      "outputHash": "bbe7ca3e494591f6f5fe8d903e3d5de8c90379b15464df48662dc5ec9f85be28",
       "mimeType": "image/jpeg",
       "bytes": 38082,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: GF-003 primaria: leve e traversa verdi, telaio e meccanica neri, seduta e supporto torace conservati. Manico metallico argento mantenuto. Eliminato secondo logo duplicato sul braccio vicino, mantenuto singolo logo su ogni braccio."
+        "Full Muscle branding: GF-003 primaria: leve e traversa verdi, telaio e meccanica neri, seduta e supporto torace conservati. Manico metallico argento mantenuto. Eliminato secondo logo duplicato sul braccio vicino, mantenuto singolo logo su ogni braccio.",
+        "Full Muscle branding: Confronto visivo prima/dopo: corretti entrambi i loghi sui bracci, incluso quello parzialmente coperto dalla struttura. Full bianco, Muscle verde chiaro secondo riferimento G5, sottotitolo bianco. Preservati seduta, appoggio torace, impugnatura argento, piastre, telaio nero, leve verdi e fondo bianco; nessuna variazione funzionale visibile. Microtesti illustrativi."
       ],
-      "editedPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-003-0c7c006a01366d60.png"
+      "editedPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-003-0c7c006a01366d60.png"
     },
     {
       "assetId": "fm-gf-003-fff14cec795b2f9a",
@@ -14738,18 +14743,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/20/204f9f2604ed5e19572ee161a19d265cc70b0e90c071e782169e71fb06df8320.jpg",
-      "stagedPath": "src/assets/catalog/FM-GF-003/gallery-02-813a7ac70582.webp",
+      "stagedPath": "src/assets/catalog/FM-GF-003/gallery-02-79208e3909e3.webp",
       "sourceHash": "204f9f2604ed5e19572ee161a19d265cc70b0e90c071e782169e71fb06df8320",
-      "outputHash": "813a7ac705826ab66c76602cf835e729d134900ac9db4be1d48f238abdc6983c",
+      "outputHash": "79208e3909e3145e1462bbb190f23c3fd28015c20b8281bffee17094a0ede428",
       "mimeType": "image/jpeg",
       "bytes": 52057,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: GF-003 gallery: bracci e traversa bianchi resi verdi, logo su entrambi i lati. Conservati dischi caricati, perno cromato, imbottiture, telaio, pavimento e stanza. Correzione del valore disco generato 20 KG riportato a 10 KG come originale; microtesti illustrativi."
+        "Full Muscle branding: GF-003 gallery: bracci e traversa bianchi resi verdi, logo su entrambi i lati. Conservati dischi caricati, perno cromato, imbottiture, telaio, pavimento e stanza. Correzione del valore disco generato 20 KG riportato a 10 KG come originale; microtesti illustrativi.",
+        "Full Muscle branding: Confronto visivo prima/dopo: entrambi i bracci mostrano il logo Full bianco e Muscle verde chiaro G5 con EQUIPMENT bianco. Conservati geometria e leve, telaio, seduta e appoggio torace, perno cromato, dischi e indicazione rossa 10 KG, pavimento e stanza. Nessuna variazione funzionale visibile. Microtesti illustrativi."
       ],
-      "editedPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-003-fff14cec795b2f9a.png"
+      "editedPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-003-fff14cec795b2f9a.png"
     },
     {
       "assetId": "fm-gf-004-b843ca71e84f5106",
@@ -14761,18 +14767,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/eb/eb08a6661b61aee91b9ef1480f4fdbc48e2d6bf6e29597e93f8dcd7e54284538.jpg",
-      "stagedPath": "src/assets/catalog/FM-GF-004/primary-01-715e86dc94b3.webp",
+      "stagedPath": "src/assets/catalog/FM-GF-004/primary-01-99c8371ac2a7.webp",
       "sourceHash": "eb08a6661b61aee91b9ef1480f4fdbc48e2d6bf6e29597e93f8dcd7e54284538",
-      "outputHash": "715e86dc94b34a1803c7b3dcbdeee2438f289721ebc5363a56fb0a5f0d013d46",
+      "outputHash": "99c8371ac2a71cc54bb8959f3696abe13291c213ae3bc1faea6a58b85c51cfd7",
       "mimeType": "image/jpeg",
       "bytes": 31367,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: GF-004 confrontata nella propria vista: leve superiori bianche rese verdi e logo sul braccio vicino. Conservati montanti neri, tiranti, seduta, rulli, cromature e meccanica. Barra primaria nera conservata; nella gallery barra centrale originariamente bianca verde con impugnature nere. Gallery mantiene fiera, persone e dischi; tolte lettere TZ dalle maglie."
+        "Full Muscle branding: GF-004 confrontata nella propria vista: leve superiori bianche rese verdi e logo sul braccio vicino. Conservati montanti neri, tiranti, seduta, rulli, cromature e meccanica. Barra primaria nera conservata; nella gallery barra centrale originariamente bianca verde con impugnature nere. Gallery mantiene fiera, persone e dischi; tolte lettere TZ dalle maglie.",
+        "Full Muscle branding: Confronto visivo prima/dopo: logo sul braccio superiore vicino corretto Full bianco/Muscle verde chiaro G5/sottotitolo bianco. Conservati barra di trazione nera, montanti neri, leve verdi, seduta e rulli, tiranti, perni cromati, proporzioni e fondo bianco. Nessuna variazione funzionale visibile. Microtesti illustrativi."
       ],
-      "editedPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-004-b843ca71e84f5106.png"
+      "editedPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-004-b843ca71e84f5106.png"
     },
     {
       "assetId": "fm-gf-004-2e22cfda7137a5fb",
@@ -14784,18 +14791,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/79/791ae779424f84732ba87eefc2ee31858c9fd55c76988bc2499f0b0a4b61d7b8.jpg",
-      "stagedPath": "src/assets/catalog/FM-GF-004/gallery-02-3a19a4630f51.webp",
+      "stagedPath": "src/assets/catalog/FM-GF-004/gallery-02-3e22cadac57b.webp",
       "sourceHash": "791ae779424f84732ba87eefc2ee31858c9fd55c76988bc2499f0b0a4b61d7b8",
-      "outputHash": "3a19a4630f5133b0eb67dee47e9ac8653ce7abce7750031cda0c61a4a6f7c397",
+      "outputHash": "3e22cadac57b238905d3f124c6e2d54b58babed2fbeb6c1e34e2bdd60dbf0943",
       "mimeType": "image/jpeg",
       "bytes": 102722,
       "width": 1122,
       "height": 1402,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: GF-004 confrontata nella propria vista: leve superiori bianche rese verdi e logo sul braccio vicino. Conservati montanti neri, tiranti, seduta, rulli, cromature e meccanica. Barra primaria nera conservata; nella gallery barra centrale originariamente bianca verde con impugnature nere. Gallery mantiene fiera, persone e dischi; tolte lettere TZ dalle maglie."
+        "Full Muscle branding: GF-004 confrontata nella propria vista: leve superiori bianche rese verdi e logo sul braccio vicino. Conservati montanti neri, tiranti, seduta, rulli, cromature e meccanica. Barra primaria nera conservata; nella gallery barra centrale originariamente bianca verde con impugnature nere. Gallery mantiene fiera, persone e dischi; tolte lettere TZ dalle maglie.",
+        "Full Muscle branding: Confronto visivo prima/dopo: logo sul braccio superiore vicino corretto Full bianco/Muscle verde chiaro G5/sottotitolo bianco. Conservati barra verde con impugnature nere e terminali argento, leve verdi, montanti neri, tiranti, rulli, seduta, dischi, persone e contesto fiera. Nessuna variazione funzionale visibile. Microtesti illustrativi."
       ],
-      "editedPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-004-2e22cfda7137a5fb.png"
+      "editedPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-004-2e22cfda7137a5fb.png"
     },
     {
       "assetId": "fm-gf-005-952ed3db0311d168",
@@ -14814,11 +14822,12 @@
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: Confrontata con originale GF-005: conservati silhouette, schienale inclinato, seduta, telaio nero, leveraggi, perno carico cromato, piedi e impugnature con anelli gialli. Solo le due leve superiori bianche sono verdi #356B35; logo Full Muscle Equipment bianco sul braccio vicino sinistro. Fondo bianco e inquadratura conservati."
+        "Full Muscle branding: Confrontata con originale GF-005: conservati silhouette, schienale inclinato, seduta, telaio nero, leveraggi, perno carico cromato, piedi e impugnature con anelli gialli. Solo le due leve superiori bianche sono verdi #356B35; logo Full Muscle Equipment bianco sul braccio vicino sinistro. Fondo bianco e inquadratura conservati.",
+        "Full Muscle branding: Compared full image with prior integrated GF-005 and G5 reference: Full remains white, all Muscle letters light green, EQUIPMENT white. Logo on near left arm retains position and perspective. Frame, hardware, upholstery, finish, silhouette and white background preserved."
       ],
-      "editedPath": "data/catalog-branding/generated/gf-completion-01/fm-gf-005-primary.png",
-      "stagedPath": "src/assets/catalog/FM-GF-005/primary-01-e31da8cc70af.webp",
-      "outputHash": "e31da8cc70af2de77605839807cfcf8a74c5a752fa6e329e0d9a0540ec38dfdf"
+      "editedPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-005-952ed3db0311d168.png",
+      "stagedPath": "src/assets/catalog/FM-GF-005/primary-01-308515514c54.webp",
+      "outputHash": "308515514c54fcce04f49b511490d4a45efb9c4129e931cfd17fc3a2777e4511"
     },
     {
       "assetId": "fm-gf-005-a7ad109144d95dcc",
@@ -14857,11 +14866,12 @@
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: Confrontata con originale GF-005 nella propria vista: leve superiori bianche rese verdi #356B35, logo sul braccio destro vicino e targhetta Full Muscle al posto del marchio fornitore sulla traversa posteriore. Conservati imbottiture, telaio nero, meccanismi, cromature, pavimento e macchine sullo sfondo."
+        "Full Muscle branding: Confrontata con originale GF-005 nella propria vista: leve superiori bianche rese verdi #356B35, logo sul braccio destro vicino e targhetta Full Muscle al posto del marchio fornitore sulla traversa posteriore. Conservati imbottiture, telaio nero, meccanismi, cromature, pavimento e macchine sullo sfondo.",
+        "Full Muscle branding: Both foreground right-arm decal and rear crossbar sticker now show Full white, Muscle light green and EQUIPMENT white, matching G5. Compared with prior image: exact machine, handles, joints, floor, background equipment and view preserved."
       ],
-      "editedPath": "data/catalog-branding/generated/gf-completion-01/fm-gf-005-gallery.png",
-      "stagedPath": "src/assets/catalog/FM-GF-005/gallery-02-2e62e98b301c.webp",
-      "outputHash": "2e62e98b301c9876043f3eba49e7971e6f5f3f29164d9065c6596f3299939646"
+      "editedPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-005-23e5bd86f06b0883.png",
+      "stagedPath": "src/assets/catalog/FM-GF-005/gallery-02-dba8011d66eb.webp",
+      "outputHash": "dba8011d66eb2885bd25f9c9a52348afb021864924ba9911a661e0779ecbf20c"
     },
     {
       "assetId": "fm-gf-005-afdd008a71740bf2",

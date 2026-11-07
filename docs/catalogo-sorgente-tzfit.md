@@ -13,6 +13,8 @@ La risoluzione revisionata di `GF-005` conserva entrambe le pagine sorgente e se
 
 Il [catalogo GF](../brochures/fullmuscle-gf/README.md) riprende la brochure G5 con cinque schede singole e prezzo di 1.870 € + IVA deciso dal titolare. Il sito conserva il flusso preventivo senza prezzi nelle schede.
 
+La revisione `gf-logo-bicolor-01` uniforma tutte le dieci viste GF al logo della brochure G5: Full bianco, Muscle verde chiaro del marchio, EQUIPMENT bianco. I prompt precedenti con logo monocromatico restano storici; soltanto le nuove versioni revisionate alimentano sito e PDF. La coda conserva le precedenti elaborazioni in `history`; i WebP superati sono archiviati internamente con mappa dei percorsi e hash, per escluderli anche dal bundle delle immagini.
+
 La generazione pubblica associa ora la descrizione alla coppia SKU e URL sorgente. Questo corregge anche 414 descrizioni preesistenti: la pulizia dei codici TZ le faceva collidere sulla stessa chiave e poteva assegnare un testo bicipiti/tricipiti a una bike. Nomi, SKU, specifiche, immagini e URL dei 744 prodotti già presenti rimangono invariati.
 
 ## Scopo e confini

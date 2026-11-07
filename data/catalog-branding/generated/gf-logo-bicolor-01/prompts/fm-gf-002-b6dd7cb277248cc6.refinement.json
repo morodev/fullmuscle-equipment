@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: precise-object-edit. FIRST IMAGE is the sole correction target, an already corrected Full Muscle GF machine photo. SECOND IMAGE is the same photo before the logo correction, used ONLY to restore the specified original detail. Restore the small fastener/adjustment-shaft details under the sloping backrest and above the front base using IMAGE 2 exactly: IMAGE 1 made the two round silver caps more prominent. Match their original size, material and orientation and the dark linkage around them. All existing chrome shafts and green paint remain as in IMAGE 2. Keep corrected bicolor decal unchanged. Change ONLY the specified local non-logo region to match IMAGE 2. Preserve the entire rest of IMAGE 1: the approved two-color Full white / Muscle green / EQUIPMENT white decal, exact framing and camera, all other equipment parts, existing forest-green arms and black frame/pads, shadows, people and entire background. No added components or text. Return complete corrected first image.",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-logo-bicolor-01/proofs/fm-gf-002-b6dd7cb277248cc6-v1.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-batch-01/fm-gf-002-b6dd7cb277248cc6.png"
+  ],
+  "transparent_background": false,
+  "generator": "image_gen.imagegen"
+}

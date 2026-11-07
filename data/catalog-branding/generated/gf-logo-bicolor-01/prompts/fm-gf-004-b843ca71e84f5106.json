@@ -1,0 +1,17 @@
+{
+  "assetId": "fm-gf-004-b843ca71e84f5106",
+  "sku": "FM-GF-004",
+  "role": "primary",
+  "tool": "image_gen.imagegen",
+  "previousOutputPath": "data/catalog-branding/generated/gf-batch-01/fm-gf-004-b843ca71e84f5106.png",
+  "outputPath": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-004-b843ca71e84f5106.png",
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-batch-01/fm-gf-004-b843ca71e84f5106.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/gf-logo-bicolor-01/references/fullmuscle-g5-white-green.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/products/FM-GC-5001.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case: precise-object-edit. Asset type: Full Muscle professional gym equipment catalogue product photograph.\nImage 1 is the ONLY edit target (FM-GF-004, primary). Image 2 is the exact G5 brand logo artwork reference. Image 3 is a G5 product photo to demonstrate the established bicolor logo treatment; do not transfer its machine or composition.\nPrimary request: correct ONLY the existing Full Muscle logo decals on image 1 from all-white to the exact two-color brand treatment shown in image 2: word 'Full' in WHITE; word 'Muscle' in the lighter logo GREEN #79a64b; small spaced 'EQUIPMENT' below in WHITE. The two words read 'FullMuscle' in bold italic type, with no new words. Match the reference artwork accurately, with perspective/rotation/scaling fitted to the exact existing decal positions. The green logo letters must visibly contrast with the darker painted machine arms. No logo background rectangle, no badge, no border, no extra decal and no added surface area.\nCorrect the single visible existing decal on the upper near/right long green lever. Keep the curved pull bar BLACK with black grips exactly as in target; preserve green arms, black columns, black seat and roller pads, silver loading horns, link rods and clean white background.\nStrict invariants: change ONLY logo ink/artwork. Preserve exact camera angle, framing, scale, aspect ratio, all machine geometry, all mechanical connections, all original green/black paint colors, padding, bolts, rods, chrome, textures, lighting, shadows and background. Do not improve or redesign anything else. Never recolor the machine itself, never replace the subject with the G5 reference, never add machinery or text. Return one full finished edited target image.",
+  "outputHash": "608452133cd6e0522fe80f40599768e701973e053ac7da1114aa3842ca65a5db",
+  "reviewedAt": "2026-11-07T20:39:56.304Z"
+}

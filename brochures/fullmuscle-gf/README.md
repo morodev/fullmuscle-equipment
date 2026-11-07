@@ -29,8 +29,10 @@ modificarla né eseguire il suo generatore. Usa esclusivamente le immagini
 Full Muscle personalizzate indicate nei contenuti; un'immagine mancante
 blocca l'esportazione, senza sostituzione con la fotografia del fornitore.
 
-Per GF-001–004 le immagini revisionate provengono dal batch `gf-batch-01`;
-GF-005 usa `gf-completion-01/fm-gf-005-primary.png`. Il catalogo dichiara che
+Le immagini correnti provengono dalla revisione `gf-logo-bicolor-01`: tutte
+le scritte sulle macchine usano il logo G5 con Full bianco, Muscle verde
+e EQUIPMENT bianco. I precedenti batch `gf-batch-01` e `gf-completion-01`
+restano come storico interno. Il catalogo dichiara che
 le immagini mostrano una proposta di personalizzazione: colori, finiture,
 accessori e dischi eventualmente raffigurati vanno confermati in preventivo.
 

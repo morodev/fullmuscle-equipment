@@ -1,50 +1,115 @@
 {
   "schemaVersion": 1,
-  "brand": { "name": "Full Muscle Equipment", "line": "GF", "green": "#356B35" },
+  "brand": {
+    "name": "Full Muscle Equipment",
+    "line": "GF",
+    "green": "#356B35"
+  },
   "edition": "2026-11-07",
-  "pricing": { "currency": "EUR", "vatIncluded": false, "fixedListPriceEur": 1870, "source": "Prezzo di vendita indicato dal committente; nessuna conversione o maggiorazione." },
-  "contact": { "name": "Matteo", "phone": "392 550 1779", "phoneLink": "+393925501779", "email": "info@fullmuscle-equipment.com", "website": "https://fullmuscle-equipment.com" },
+  "pricing": {
+    "currency": "EUR",
+    "vatIncluded": false,
+    "fixedListPriceEur": 1870,
+    "source": "Prezzo di vendita indicato dal committente; nessuna conversione o maggiorazione."
+  },
+  "contact": {
+    "name": "Matteo",
+    "phone": "392 550 1779",
+    "phoneLink": "+393925501779",
+    "email": "info@fullmuscle-equipment.com",
+    "website": "https://fullmuscle-equipment.com"
+  },
   "publicPdfUrl": "https://fullmuscle-equipment.com/cataloghi/fullmuscle-gf.pdf",
   "products": [
     {
-      "sku": "FM-GF-001", "sourceSku": "GF-001", "name": "Chest Press", "category": "Petto",
+      "sku": "FM-GF-001",
+      "sourceSku": "GF-001",
+      "name": "Chest Press",
+      "category": "Petto",
       "description": "Macchina a dischi per le spinte da seduti dedicate al petto. Seduta e schienale sostengono la posizione, mentre le impugnature anteriori accompagnano il movimento di spinta.",
-      "features": ["Spinta da seduti per il petto", "Seduta con schienale e pedana anteriore", "Resistenza tramite dischi"],
-      "dimensions": "1790 × 1360 × 1010 mm", "weight": "120 kg", "load": "A dischi", "listPriceEur": 1870,
+      "features": [
+        "Spinta da seduti per il petto",
+        "Seduta con schienale e pedana anteriore",
+        "Resistenza tramite dischi"
+      ],
+      "dimensions": "1790 × 1360 × 1010 mm",
+      "weight": "120 kg",
+      "load": "A dischi",
+      "listPriceEur": 1870,
       "sourceUrl": "https://tzfit.com/professional-gym-plate-loaded-chest-press-gf001/",
-      "brandedImage": "data/catalog-branding/generated/gf-batch-01/fm-gf-001-5286876353a3278b.png"
+      "brandedImage": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-001-5286876353a3278b.png"
     },
     {
-      "sku": "FM-GF-002", "sourceSku": "GF-002", "name": "Shoulder Press", "category": "Spalle",
+      "sku": "FM-GF-002",
+      "sourceSku": "GF-002",
+      "name": "Shoulder Press",
+      "category": "Spalle",
       "description": "Postazione a dischi per le spinte dedicate alle spalle. Lo schienale inclinato sostiene il busto e le impugnature laterali definiscono la posizione di partenza del movimento.",
-      "features": ["Spinta per l'allenamento delle spalle", "Seduta con schienale inclinato", "Resistenza tramite dischi"],
-      "dimensions": "1885 × 1125 × 1110 mm", "weight": "85 kg", "load": "A dischi", "listPriceEur": 1870,
+      "features": [
+        "Spinta per l'allenamento delle spalle",
+        "Seduta con schienale inclinato",
+        "Resistenza tramite dischi"
+      ],
+      "dimensions": "1885 × 1125 × 1110 mm",
+      "weight": "85 kg",
+      "load": "A dischi",
+      "listPriceEur": 1870,
       "sourceUrl": "https://tzfit.com/exercise-machine-seated-shoulder-press-gf002/",
-      "brandedImage": "data/catalog-branding/generated/gf-batch-01/fm-gf-002-f4682a47f2745fe4.png"
+      "brandedImage": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-002-f4682a47f2745fe4.png"
     },
     {
-      "sku": "FM-GF-003", "sourceSku": "GF-003", "name": "Seated Row", "category": "Schiena",
+      "sku": "FM-GF-003",
+      "sourceSku": "GF-003",
+      "name": "Seated Row",
+      "category": "Schiena",
       "description": "Rematore da seduti a dischi per il lavoro della schiena. L'appoggio toracico sostiene il busto durante la trazione delle impugnature verso il corpo.",
-      "features": ["Remata da seduti per la schiena", "Appoggio toracico imbottito", "Resistenza tramite dischi"],
-      "dimensions": "1750 × 1290 × 1090 mm", "weight": "110 kg", "load": "A dischi", "listPriceEur": 1870,
+      "features": [
+        "Remata da seduti per la schiena",
+        "Appoggio toracico imbottito",
+        "Resistenza tramite dischi"
+      ],
+      "dimensions": "1750 × 1290 × 1090 mm",
+      "weight": "110 kg",
+      "load": "A dischi",
+      "listPriceEur": 1870,
       "sourceUrl": "https://tzfit.com/workout-equipment-back-exercise-rowing-machine-gf003/",
-      "brandedImage": "data/catalog-branding/generated/gf-batch-01/fm-gf-003-0c7c006a01366d60.png"
+      "brandedImage": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-003-0c7c006a01366d60.png"
     },
     {
-      "sku": "FM-GF-004", "sourceSku": "GF-004", "name": "Lat Pulldown", "category": "Schiena",
+      "sku": "FM-GF-004",
+      "sourceSku": "GF-004",
+      "name": "Lat Pulldown",
+      "category": "Schiena",
       "description": "Macchina a dischi per la trazione dall'alto. La seduta e i rulli fermacosce aiutano a mantenere la posizione mentre la barra viene richiamata verso la parte superiore del busto.",
-      "features": ["Trazione verticale per la schiena", "Seduta con rulli fermacosce", "Resistenza tramite dischi"],
-      "dimensions": "1925 × 1120 × 2120 mm", "weight": "98 kg", "load": "A dischi", "listPriceEur": 1870,
+      "features": [
+        "Trazione verticale per la schiena",
+        "Seduta con rulli fermacosce",
+        "Resistenza tramite dischi"
+      ],
+      "dimensions": "1925 × 1120 × 2120 mm",
+      "weight": "98 kg",
+      "load": "A dischi",
+      "listPriceEur": 1870,
       "sourceUrl": "https://tzfit.com/upper-body-strength-training-lat-pull-down-gf004/",
-      "brandedImage": "data/catalog-branding/generated/gf-batch-01/fm-gf-004-b843ca71e84f5106.png"
+      "brandedImage": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-004-b843ca71e84f5106.png"
     },
     {
-      "sku": "FM-GF-005", "sourceSku": "GF-005", "name": "Incline Chest Press", "category": "Petto",
+      "sku": "FM-GF-005",
+      "sourceSku": "GF-005",
+      "name": "Incline Chest Press",
+      "category": "Petto",
       "description": "Chest press inclinata a dischi per le spinte del petto. La seduta con schienale inclinato offre una postazione dedicata a questa variante del movimento di spinta.",
-      "features": ["Spinta inclinata per il petto", "Seduta con schienale inclinato", "Resistenza tramite dischi"],
-      "dimensions": "1985 × 1140 × 1135 mm", "weight": "104 kg", "load": "A dischi", "listPriceEur": 1870,
+      "features": [
+        "Spinta inclinata per il petto",
+        "Seduta con schienale inclinato",
+        "Resistenza tramite dischi"
+      ],
+      "dimensions": "1985 × 1140 × 1135 mm",
+      "weight": "104 kg",
+      "load": "A dischi",
+      "listPriceEur": 1870,
       "sourceUrl": "https://tzfit.com/fitness-equipment-strength-incline-chest-press-gf005/",
-      "brandedImage": "data/catalog-branding/generated/gf-completion-01/fm-gf-005-primary.png"
+      "brandedImage": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-005-952ed3db0311d168.png"
     }
   ]
 }

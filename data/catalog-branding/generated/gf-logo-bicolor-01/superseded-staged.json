@@ -1,0 +1,96 @@
+{
+    "status":  "archived",
+    "reason":  "Old unbranded and all-white GF logos must not be emitted by the eager image glob. Historical files retained internally.",
+    "items":  [
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-001/gallery-02-458042da0a39.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-001/gallery-02-458042da0a39.webp",
+                      "sha256":  "458042da0a390c8c335759ef6268ad85fba98bf1e9a9a3ef93909afef6a5ff37"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-001/gallery-02-b90ba9e8f996.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-001/gallery-02-b90ba9e8f996.webp",
+                      "sha256":  "b90ba9e8f9965dc4db7926986cc9f5290c93b4f634563ef5c002dbcadeb6c077"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-001/primary-01-251d30d108d5.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-001/primary-01-251d30d108d5.webp",
+                      "sha256":  "251d30d108d5b296bff0ff292a83aed9869fb02e6c115a09d2f910921172f320"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-001/primary-01-56dce695d64b.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-001/primary-01-56dce695d64b.webp",
+                      "sha256":  "56dce695d64b95a526e1e68d394f8e8831c191ca047dd4cbfea91d2d31459171"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-002/gallery-02-27c73316b449.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-002/gallery-02-27c73316b449.webp",
+                      "sha256":  "27c73316b449865c495b9a37d193186f2fbc4ef4134d6a71c2abf2e2b7d7ab2c"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-002/gallery-02-f3a764b6c7e7.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-002/gallery-02-f3a764b6c7e7.webp",
+                      "sha256":  "f3a764b6c7e794bb151856ee6c885bc62a2ea4eb8e1830bf3aadcc65b42627e1"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-002/primary-01-9a82bca060f2.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-002/primary-01-9a82bca060f2.webp",
+                      "sha256":  "9a82bca060f2bb0ffe6c857fe999d22db7a84616bb6ef9d4ddbe2364ffa1955f"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-002/primary-01-ed8d1e062057.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-002/primary-01-ed8d1e062057.webp",
+                      "sha256":  "ed8d1e062057a6358517b6880e41484fba2e4de1740869e396f0477d10adf550"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-003/gallery-02-3a266c5908d8.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-003/gallery-02-3a266c5908d8.webp",
+                      "sha256":  "3a266c5908d8b42461a9b84d8abc80f002d595830ac24350d0a09673d5c50a22"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-003/gallery-02-813a7ac70582.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-003/gallery-02-813a7ac70582.webp",
+                      "sha256":  "813a7ac705826ab66c76602cf835e729d134900ac9db4be1d48f238abdc6983c"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-003/primary-01-87a009c75327.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-003/primary-01-87a009c75327.webp",
+                      "sha256":  "87a009c7532700bb83fa274314734bacea9a48692d41fc1bfb6d114829ede771"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-003/primary-01-9631a324f159.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-003/primary-01-9631a324f159.webp",
+                      "sha256":  "9631a324f15981d30ff72ae386619b2eee483c8d7561cf97551c4cab60179801"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-004/gallery-02-3a19a4630f51.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-004/gallery-02-3a19a4630f51.webp",
+                      "sha256":  "3a19a4630f5133b0eb67dee47e9ac8653ce7abce7750031cda0c61a4a6f7c397"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-004/gallery-02-63751db80fdd.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-004/gallery-02-63751db80fdd.webp",
+                      "sha256":  "63751db80fdd0824475d6c628a2beecfe1e2f7f8b03edbb58258ab79a1efdeba"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-004/primary-01-214694bf3566.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-004/primary-01-214694bf3566.webp",
+                      "sha256":  "214694bf3566f2b2daba22482c8a8ad60603470dd573ff922dfb03a94dd979ba"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-004/primary-01-715e86dc94b3.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-004/primary-01-715e86dc94b3.webp",
+                      "sha256":  "715e86dc94b34a1803c7b3dcbdeee2438f289721ebc5363a56fb0a5f0d013d46"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-005/gallery-02-2e62e98b301c.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-005/gallery-02-2e62e98b301c.webp",
+                      "sha256":  "2e62e98b301c9876043f3eba49e7971e6f5f3f29164d9065c6596f3299939646"
+                  },
+                  {
+                      "previousPath":  "src/assets/catalog/FM-GF-005/primary-01-e31da8cc70af.webp",
+                      "archivedPath":  "data/catalog-branding/generated/gf-logo-bicolor-01/superseded-staged/FM-GF-005/primary-01-e31da8cc70af.webp",
+                      "sha256":  "e31da8cc70af2de77605839807cfcf8a74c5a752fa6e329e0d9a0540ec38dfdf"
+                  }
+              ]
+}
