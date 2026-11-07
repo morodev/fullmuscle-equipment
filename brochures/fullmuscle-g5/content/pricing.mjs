@@ -6,7 +6,7 @@ function positiveNumber(value, label, allowZero = false) {
   }
 }
 
-// Keep decimal inputs exact until the final whole-euro rounding.
+// Keep decimal inputs exact between the two approved whole-euro rounding steps.
 function fraction(value) {
   const [coefficient, exponentText = '0'] = String(value).toLowerCase().split('e');
   const [whole, decimals = ''] = coefficient.split('.');
@@ -24,9 +24,17 @@ export function validatePricingConfig(config) {
   positiveNumber(config.exchangeRate.usdPerEur, 'Cambio USD per EUR');
   positiveNumber(config.surchargeEur, 'Maggiorazione EUR', true);
   positiveNumber(config.multiplier, 'Moltiplicatore');
+  positiveNumber(config.commercialDiscountRate, 'Sconto commerciale', true);
+  if (config.commercialDiscountRate >= 1) throw new Error('Sconto commerciale: deve essere inferiore al 100%.');
 }
 
-export function calculateListPrice(amountUsd, config) {
+function roundEuro(numerator, denominator) {
+  const result = Number((2n * numerator + denominator) / (2n * denominator));
+  if (!Number.isSafeInteger(result) || result <= 0) throw new Error('Prezzo di listino fuori intervallo.');
+  return result;
+}
+
+export function calculateBasePrice(amountUsd, config) {
   validatePricingConfig(config);
   positiveNumber(amountUsd, 'Prezzo di acquisto USD');
   const [purchase, purchaseScale] = fraction(amountUsd);
@@ -35,9 +43,15 @@ export function calculateListPrice(amountUsd, config) {
   const [multiplier, multiplierScale] = fraction(config.multiplier);
   const numerator = (purchase * rateScale * surchargeScale + surcharge * purchaseScale * rate) * multiplier;
   const denominator = purchaseScale * rate * surchargeScale * multiplierScale;
-  const result = Number((2n * numerator + denominator) / (2n * denominator));
-  if (!Number.isSafeInteger(result) || result <= 0) throw new Error('Prezzo di listino fuori intervallo.');
-  return result;
+  return roundEuro(numerator, denominator);
+}
+
+export function calculateListPrice(amountUsd, config) {
+  // Derive the original rounded price from the purchase cost on every build;
+  // never apply the adjustment to a previously generated full list price.
+  const basePrice = calculateBasePrice(amountUsd, config);
+  const [discount, discountScale] = fraction(config.commercialDiscountRate);
+  return roundEuro(BigInt(basePrice) * discountScale, discountScale - discount);
 }
 
 export function formatListPrice(value) {

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-07T14:06:59.658Z",
+  "generatedAt": "2026-11-07T14:16:56.271Z",
   "mode": "final-export",
   "catalogModels": 105,
   "pricingInputs": {
-    "content/catalog.json": "0e0e3cff596bbac708f32b4c4f71d35fdf160333cfa0832663ef52f89ccea2e7",
-    "content/pricing-config.json": "40b1e026637fd2a7d6e0978d09ef91b7a4b89be440fedf8bcefcf054f3e6fb36",
+    "content/catalog.json": "55624f4f63ef6dd6fef311f3836e441b1470bd2011a77269e19aa6735dc44bc6",
+    "content/pricing-config.json": "bee47b65c71637fc1e04b3d76731008f69cfb54be8bda303ec5fee3e668c1338",
     "content/purchase-prices.json": "42a50fb9030d858fed91b2c644b26f1d953bae7eca970c4afb2ad1458d88c244"
   },
   "brochureModels": [
@@ -161,51 +161,51 @@
       ],
       "overflow": [],
       "issues": [],
-      "sha256": "0d1bb3e8378901ad406736183a8f71df2c55d78a01a89d80bf859e0875a08829",
-      "bytes": 3869014,
+      "sha256": "01a2de0c9b902548818b229ef9df7dc5bb0f38c6050b8186911f3465136c18ab",
+      "bytes": 3869026,
       "priceChecks": {
         "expectedCount": 8,
         "renderedCount": 8,
         "entries": [
           {
             "sku": "FM-GC-5016",
-            "amountEur": 1662,
-            "text": "Prezzo di listino 1.662 € + IVA"
+            "amountEur": 2557,
+            "text": "Prezzo di listino 2.557 € + IVA"
           },
           {
             "sku": "FM-GC-5002",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5001",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5005",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5008",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5004",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5012",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5010",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           }
         ],
         "issues": []
@@ -1086,536 +1086,536 @@
       ],
       "overflow": [],
       "issues": [],
-      "sha256": "eeab95614c22b2c1c1b92a7c11d9f3e836c4f38a4479e97de99e4f16deadc31e",
-      "bytes": 23257018,
+      "sha256": "f76dcacc7fb3ba1d8709b2bd0030a1557d2218a6cb6508aacc70fb0e3c6514fc",
+      "bytes": 23257114,
       "priceChecks": {
         "expectedCount": 105,
         "renderedCount": 105,
         "entries": [
           {
             "sku": "FM-G-41",
-            "amountEur": 2822,
-            "text": "Prezzo di listino 2.822 € + IVA"
+            "amountEur": 4342,
+            "text": "Prezzo di listino 4.342 € + IVA"
           },
           {
             "sku": "FM-G-42",
-            "amountEur": 2589,
-            "text": "Prezzo di listino 2.589 € + IVA"
+            "amountEur": 3983,
+            "text": "Prezzo di listino 3.983 € + IVA"
           },
           {
             "sku": "FM-GC-5017",
-            "amountEur": 1559,
-            "text": "Prezzo di listino 1.559 € + IVA"
+            "amountEur": 2398,
+            "text": "Prezzo di listino 2.398 € + IVA"
           },
           {
             "sku": "FM-GC-5018",
-            "amountEur": 1965,
-            "text": "Prezzo di listino 1.965 € + IVA"
+            "amountEur": 3023,
+            "text": "Prezzo di listino 3.023 € + IVA"
           },
           {
             "sku": "FM-GC-5038",
-            "amountEur": 2542,
-            "text": "Prezzo di listino 2.542 € + IVA"
+            "amountEur": 3911,
+            "text": "Prezzo di listino 3.911 € + IVA"
           },
           {
             "sku": "FM-GC-5090",
-            "amountEur": 1844,
-            "text": "Prezzo di listino 1.844 € + IVA"
+            "amountEur": 2837,
+            "text": "Prezzo di listino 2.837 € + IVA"
           },
           {
             "sku": "FM-GC-5097",
-            "amountEur": 2589,
-            "text": "Prezzo di listino 2.589 € + IVA"
+            "amountEur": 3983,
+            "text": "Prezzo di listino 3.983 € + IVA"
           },
           {
             "sku": "FM-GC-5097A",
-            "amountEur": 2724,
-            "text": "Prezzo di listino 2.724 € + IVA"
+            "amountEur": 4191,
+            "text": "Prezzo di listino 4.191 € + IVA"
           },
           {
             "sku": "FM-GC-5098",
-            "amountEur": 3346,
-            "text": "Prezzo di listino 3.346 € + IVA"
+            "amountEur": 5148,
+            "text": "Prezzo di listino 5.148 € + IVA"
           },
           {
             "sku": "FM-GC-5098A-5200",
-            "amountEur": 1052,
-            "text": "Prezzo di listino 1.052 € + IVA"
+            "amountEur": 1618,
+            "text": "Prezzo di listino 1.618 € + IVA"
           },
           {
             "sku": "FM-GC-5098A-5202",
-            "amountEur": 3169,
-            "text": "Prezzo di listino 3.169 € + IVA"
+            "amountEur": 4875,
+            "text": "Prezzo di listino 4.875 € + IVA"
           },
           {
             "sku": "FM-GC-5098A-5203",
-            "amountEur": 3672,
-            "text": "Prezzo di listino 3.672 € + IVA"
+            "amountEur": 5649,
+            "text": "Prezzo di listino 5.649 € + IVA"
           },
           {
             "sku": "FM-GC-5099",
-            "amountEur": 4985,
-            "text": "Prezzo di listino 4.985 € + IVA"
+            "amountEur": 7669,
+            "text": "Prezzo di listino 7.669 € + IVA"
           },
           {
             "sku": "FM-GC-5003",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5006",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5015",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5019-1",
-            "amountEur": 584,
-            "text": "Prezzo di listino 584 € + IVA"
+            "amountEur": 898,
+            "text": "Prezzo di listino 898 € + IVA"
           },
           {
             "sku": "FM-GC-5019-2",
-            "amountEur": 807,
-            "text": "Prezzo di listino 807 € + IVA"
+            "amountEur": 1242,
+            "text": "Prezzo di listino 1.242 € + IVA"
           },
           {
             "sku": "FM-GC-5026",
-            "amountEur": 640,
-            "text": "Prezzo di listino 640 € + IVA"
+            "amountEur": 985,
+            "text": "Prezzo di listino 985 € + IVA"
           },
           {
             "sku": "FM-GC-5027",
-            "amountEur": 598,
-            "text": "Prezzo di listino 598 € + IVA"
+            "amountEur": 920,
+            "text": "Prezzo di listino 920 € + IVA"
           },
           {
             "sku": "FM-GC-5037",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5054",
-            "amountEur": 1247,
-            "text": "Prezzo di listino 1.247 € + IVA"
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
           },
           {
             "sku": "FM-GC-5088",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5113",
-            "amountEur": 831,
-            "text": "Prezzo di listino 831 € + IVA"
+            "amountEur": 1278,
+            "text": "Prezzo di listino 1.278 € + IVA"
           },
           {
             "sku": "FM-G-45",
-            "amountEur": 1820,
-            "text": "Prezzo di listino 1.820 € + IVA"
+            "amountEur": 2800,
+            "text": "Prezzo di listino 2.800 € + IVA"
           },
           {
             "sku": "FM-GC-5001",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5002",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5002-1",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5009",
-            "amountEur": 1247,
-            "text": "Prezzo di listino 1.247 € + IVA"
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
           },
           {
             "sku": "FM-GC-5014",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5016",
-            "amountEur": 1662,
-            "text": "Prezzo di listino 1.662 € + IVA"
+            "amountEur": 2557,
+            "text": "Prezzo di listino 2.557 € + IVA"
           },
           {
             "sku": "FM-GC-5022",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5022-1",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5033",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5039",
+            "amountEur": 1689,
+            "text": "Prezzo di listino 1.689 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5044",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5044-1",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5049",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5053",
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5053-1",
+            "amountEur": 1955,
+            "text": "Prezzo di listino 1.955 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5055",
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5055-1",
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5058",
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5061",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5062",
+            "amountEur": 1385,
+            "text": "Prezzo di listino 1.385 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5074",
+            "amountEur": 1468,
+            "text": "Prezzo di listino 1.468 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5079",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5081",
+            "amountEur": 2255,
+            "text": "Prezzo di listino 2.255 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5082",
+            "amountEur": 2255,
+            "text": "Prezzo di listino 2.255 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5083",
+            "amountEur": 2371,
+            "text": "Prezzo di listino 2.371 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5087",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5089",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5092",
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5115",
+            "amountEur": 1468,
+            "text": "Prezzo di listino 1.468 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5023",
+            "amountEur": 1085,
+            "text": "Prezzo di listino 1.085 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5024",
+            "amountEur": 966,
+            "text": "Prezzo di listino 966 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5024-1",
+            "amountEur": 848,
+            "text": "Prezzo di listino 848 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5024B",
+            "amountEur": 898,
+            "text": "Prezzo di listino 898 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5025",
+            "amountEur": 1085,
+            "text": "Prezzo di listino 1.085 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5025A",
+            "amountEur": 883,
+            "text": "Prezzo di listino 883 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5030",
+            "amountEur": 1152,
+            "text": "Prezzo di listino 1.152 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5031",
+            "amountEur": 643,
+            "text": "Prezzo di listino 643 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5034",
+            "amountEur": 1217,
+            "text": "Prezzo di listino 1.217 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5043",
+            "amountEur": 1152,
+            "text": "Prezzo di listino 1.152 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5052",
+            "amountEur": 632,
+            "text": "Prezzo di listino 632 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5091",
+            "amountEur": 1385,
+            "text": "Prezzo di listino 1.385 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5005",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5007",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5010",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5012",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5047",
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5056",
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5084",
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5085",
+            "amountEur": 2398,
+            "text": "Prezzo di listino 2.398 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5095",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5101",
+            "amountEur": 1797,
+            "text": "Prezzo di listino 1.797 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5103",
+            "amountEur": 1171,
+            "text": "Prezzo di listino 1.171 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5106",
+            "amountEur": 1618,
+            "text": "Prezzo di listino 1.618 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5107",
+            "amountEur": 1618,
+            "text": "Prezzo di listino 1.618 € + IVA"
+          },
+          {
+            "sku": "FM-GA-5073-1",
+            "amountEur": 2743,
+            "text": "Prezzo di listino 2.743 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5013",
             "amountEur": 1098,
             "text": "Prezzo di listino 1.098 € + IVA"
           },
           {
-            "sku": "FM-GC-5044",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5044-1",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5049",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5053",
-            "amountEur": 1247,
-            "text": "Prezzo di listino 1.247 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5053-1",
-            "amountEur": 1271,
-            "text": "Prezzo di listino 1.271 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5055",
-            "amountEur": 1247,
-            "text": "Prezzo di listino 1.247 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5055-1",
-            "amountEur": 1247,
-            "text": "Prezzo di listino 1.247 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5058",
-            "amountEur": 1247,
-            "text": "Prezzo di listino 1.247 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5061",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5062",
-            "amountEur": 900,
-            "text": "Prezzo di listino 900 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5074",
-            "amountEur": 954,
-            "text": "Prezzo di listino 954 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5079",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5081",
-            "amountEur": 1466,
-            "text": "Prezzo di listino 1.466 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5082",
-            "amountEur": 1466,
-            "text": "Prezzo di listino 1.466 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5083",
-            "amountEur": 1541,
-            "text": "Prezzo di listino 1.541 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5087",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5089",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5092",
-            "amountEur": 1247,
-            "text": "Prezzo di listino 1.247 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5115",
-            "amountEur": 954,
-            "text": "Prezzo di listino 954 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5023",
-            "amountEur": 705,
-            "text": "Prezzo di listino 705 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5024",
-            "amountEur": 628,
-            "text": "Prezzo di listino 628 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5024-1",
-            "amountEur": 551,
-            "text": "Prezzo di listino 551 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5024B",
-            "amountEur": 584,
-            "text": "Prezzo di listino 584 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5025",
-            "amountEur": 705,
-            "text": "Prezzo di listino 705 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5025A",
-            "amountEur": 574,
-            "text": "Prezzo di listino 574 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5030",
-            "amountEur": 749,
-            "text": "Prezzo di listino 749 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5031",
-            "amountEur": 418,
-            "text": "Prezzo di listino 418 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5034",
-            "amountEur": 791,
-            "text": "Prezzo di listino 791 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5043",
-            "amountEur": 749,
-            "text": "Prezzo di listino 749 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5052",
-            "amountEur": 411,
-            "text": "Prezzo di listino 411 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5091",
-            "amountEur": 900,
-            "text": "Prezzo di listino 900 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5005",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5007",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5010",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5012",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5047",
-            "amountEur": 1247,
-            "text": "Prezzo di listino 1.247 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5056",
-            "amountEur": 1247,
-            "text": "Prezzo di listino 1.247 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5084",
-            "amountEur": 1247,
-            "text": "Prezzo di listino 1.247 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5085",
-            "amountEur": 1559,
-            "text": "Prezzo di listino 1.559 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5095",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5101",
-            "amountEur": 1168,
-            "text": "Prezzo di listino 1.168 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5103",
-            "amountEur": 761,
-            "text": "Prezzo di listino 761 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5106",
-            "amountEur": 1052,
-            "text": "Prezzo di listino 1.052 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5107",
-            "amountEur": 1052,
-            "text": "Prezzo di listino 1.052 € + IVA"
-          },
-          {
-            "sku": "FM-GA-5073-1",
-            "amountEur": 1783,
-            "text": "Prezzo di listino 1.783 € + IVA"
-          },
-          {
-            "sku": "FM-GC-5013",
-            "amountEur": 714,
-            "text": "Prezzo di listino 714 € + IVA"
-          },
-          {
             "sku": "FM-GC-5028",
-            "amountEur": 451,
-            "text": "Prezzo di listino 451 € + IVA"
+            "amountEur": 694,
+            "text": "Prezzo di listino 694 € + IVA"
           },
           {
             "sku": "FM-GC-5029",
-            "amountEur": 574,
-            "text": "Prezzo di listino 574 € + IVA"
+            "amountEur": 883,
+            "text": "Prezzo di listino 883 € + IVA"
           },
           {
             "sku": "FM-GC-5032",
-            "amountEur": 602,
-            "text": "Prezzo di listino 602 € + IVA"
+            "amountEur": 926,
+            "text": "Prezzo di listino 926 € + IVA"
           },
           {
             "sku": "FM-GC-5035",
-            "amountEur": 1096,
-            "text": "Prezzo di listino 1.096 € + IVA"
+            "amountEur": 1686,
+            "text": "Prezzo di listino 1.686 € + IVA"
           },
           {
             "sku": "FM-GC-5045",
-            "amountEur": 721,
-            "text": "Prezzo di listino 721 € + IVA"
+            "amountEur": 1109,
+            "text": "Prezzo di listino 1.109 € + IVA"
           },
           {
             "sku": "FM-GC-5051",
-            "amountEur": 770,
-            "text": "Prezzo di listino 770 € + IVA"
+            "amountEur": 1185,
+            "text": "Prezzo di listino 1.185 € + IVA"
           },
           {
             "sku": "FM-GC-5073",
-            "amountEur": 1040,
-            "text": "Prezzo di listino 1.040 € + IVA"
+            "amountEur": 1600,
+            "text": "Prezzo di listino 1.600 € + IVA"
           },
           {
             "sku": "FM-GC-5096",
-            "amountEur": 467,
-            "text": "Prezzo di listino 467 € + IVA"
+            "amountEur": 718,
+            "text": "Prezzo di listino 718 € + IVA"
           },
           {
             "sku": "FM-GC-5105",
-            "amountEur": 325,
-            "text": "Prezzo di listino 325 € + IVA"
+            "amountEur": 500,
+            "text": "Prezzo di listino 500 € + IVA"
           },
           {
             "sku": "FM-GC-5114",
-            "amountEur": 423,
-            "text": "Prezzo di listino 423 € + IVA"
+            "amountEur": 651,
+            "text": "Prezzo di listino 651 € + IVA"
           },
           {
             "sku": "FM-GC-5004",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5008",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5011",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5019",
-            "amountEur": 1408,
-            "text": "Prezzo di listino 1.408 € + IVA"
+            "amountEur": 2166,
+            "text": "Prezzo di listino 2.166 € + IVA"
           },
           {
             "sku": "FM-GC-5020",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5021",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5046",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5050",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5057",
-            "amountEur": 1247,
-            "text": "Prezzo di listino 1.247 € + IVA"
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
           },
           {
             "sku": "FM-GC-5080",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5086",
-            "amountEur": 1247,
-            "text": "Prezzo di listino 1.247 € + IVA"
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
           },
           {
             "sku": "FM-GC-5093",
-            "amountEur": 1187,
-            "text": "Prezzo di listino 1.187 € + IVA"
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
           },
           {
             "sku": "FM-GC-5094",
-            "amountEur": 796,
-            "text": "Prezzo di listino 796 € + IVA"
+            "amountEur": 1225,
+            "text": "Prezzo di listino 1.225 € + IVA"
           },
           {
             "sku": "FM-GC-5102",
-            "amountEur": 1273,
-            "text": "Prezzo di listino 1.273 € + IVA"
+            "amountEur": 1958,
+            "text": "Prezzo di listino 1.958 € + IVA"
           }
         ],
         "issues": []

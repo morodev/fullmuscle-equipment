@@ -12,6 +12,7 @@
   },
   "surchargeEur": 100,
   "multiplier": 2.6,
+  "commercialDiscountRate": 0.35,
   "rounding": "nearest-euro-half-up",
   "aliases": {
     "G-45": {

@@ -186,6 +186,7 @@ for(const doc of docs){
   checks.priceChecks=inspected.priceChecks;
   checks.issues.push(...inspected.priceChecks.issues);
   if(/tzfit|tianzhan|\bTZ\s?FIT(?:NESS)?\b/i.test(inspected.text))checks.issues.push('Supplier identity present in customer text');
+  if(/\bscont\w*\b|\bdiscount\b|commercialDiscountRate|35\s*%/i.test(inspected.text))checks.issues.push('Internal commercial discount present in customer text');
   results.push(checks);await tab.close();
   await contactSheet(pagesDir,path.join(proofDir,`${doc.key}-contact-sheet.jpg`),doc.pages.length);
 }
