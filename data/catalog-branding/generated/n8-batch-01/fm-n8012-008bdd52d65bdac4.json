@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8012-008bdd52d65bdac4",
+  "sku": "FM-N8012",
+  "role": "primary",
+  "sourceHash": "9e19c4b9dce7be0a0aa1809ca2d26e2526f1b9751ac5ee74a95d28811a6ddbba",
+  "inputPath": "src/assets/catalog/FM-N8012/primary-01-a824e61c38bb.webp",
+  "originalPath": "data/catalog-assets/originals/9e/9e19c4b9dce7be0a0aa1809ca2d26e2526f1b9751ac5ee74a95d28811a6ddbba.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8012-008bdd52d65bdac4.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8012: recolor ONLY the existing shoulder-height long horizontal moving arm extending left and the matching near-right elbow-shaped handle lever body, DARK FOREST GREEN. Rubber grip sleeves and chrome end discs remain unchanged. Add one small logo on the left horizontal arm face. Preserve separate black headrest/backrest/seat, gray fixed frame and twin rear round pivot covers, transparent tower shroud and blue top instructions/red warning.",
+  "review": "N8012: confronto visivo positivo su geometria e vista, due leve orizzontali con impugnature, coperture perni posteriori, poggiatesta separato, schienale e seduta neri, meccanismo sedile e cavi/pulegge. Accento verde sulla leva sinistra e gomito destro, piccolo logo sulla prima. Torre grafite, shroud e pannelli blu/rosso preservati; microtesti illustrativi.",
+  "publicSku": "FM-N8012",
+  "editTarget": "src/assets/catalog/FM-N8012/primary-01-a824e61c38bb.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:44:54.402Z",
+  "outputHash": "53b63639604114733c105659b36d2f1785259faef75b15bc7a9b90233e917d88",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

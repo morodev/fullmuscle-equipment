@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8017-0bc62416f9a3420a",
+  "sku": "FM-8017",
+  "role": "primary",
+  "sourceHash": "47da50fdaa26749ab24facc02a33b07600f7818dcfd5cbb14f9d953a17df5c11",
+  "inputPath": "src/assets/catalog/FM-8017/primary-01-51e5d22f299f.webp",
+  "originalPath": "data/catalog-assets/originals/47/47da50fdaa26749ab24facc02a33b07600f7818dcfd5cbb14f9d953a17df5c11.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-8017-0bc62416f9a3420a.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-8017 Smith rack is BLACK rather than silver: recolor only the existing bent upper REAR crossbeam connecting rear uprights to forest green, add small physical logo on its visible central face. Keep all other black chassis unchanged, silver hook ladders and all chrome guide rods/barbell/loading-storage horns metallic. Preserve exact eight storage horns, bar sleeves, paired guides, curved upper frame and footplates. No new crossbeam.",
+  "review": "Smith rack source compared: bent upper rear crossbeam alone green with small physical logo; original black remaining chassis retained. Eight storage horns, barbell/sleeves, twin guide rods, metallic hook ladders, curved top frame and base feet preserved. Original view and principal geometry retained; no additional beam or panel.",
+  "publicSku": "FM-8017",
+  "editTarget": "src/assets/catalog/FM-8017/primary-01-51e5d22f299f.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:32:05.532Z",
+  "outputHash": "cdb72c6041588728f07e91c5ad326be2623d2a928c489baea366ec37e19131de",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

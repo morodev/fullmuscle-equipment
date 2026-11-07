@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8005-7932a275e9a0d7a6",
+  "sku": "FM-N8005",
+  "role": "primary",
+  "sourceHash": "d660b4787c70adb62a832b78cc8f3399035bb4dbbe417d3a33af538128e56105",
+  "inputPath": "src/assets/catalog/FM-N8005/primary-01-59fcccb13d25.webp",
+  "originalPath": "data/catalog-assets/originals/d6/d660b4787c70adb62a832b78cc8f3399035bb4dbbe417d3a33af538128e56105.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8005-7932a275e9a0d7a6.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8005 chest press graphite frame: recolor only the two long curved front moving press arms rising from low pivots to the chest-height grip shafts dark green. Logo small on near right arm's upper painted straight face. Keep black grips/silver ends, separate black headrest and shaped back/seat, graphite main tower/base and rear supports, plastic adjustment mechanism, visible foot assist lever and chrome pivots unchanged. Preserve semitransparent tower shroud, blue instruction panel and red warning.",
+  "review": "Chest-press source compared: two long curved front moving arms green, vertical modest logo on near upper arm. Black shaped seat/back/separate headrest, grip rubber and metallic ends, gray fixed base/tower/rear supports, foot-assist and complex lower seat mechanism retained. Semitransparent shroud and blue/red labels preserved; principal geometry consistent.",
+  "publicSku": "FM-N8005",
+  "editTarget": "src/assets/catalog/FM-N8005/primary-01-59fcccb13d25.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:40:33.016Z",
+  "outputHash": "843230c861b4ce2f631a0c03e330b3923ff6aa237bba01001067f30ad7dae39f",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

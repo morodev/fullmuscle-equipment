@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8056-7b77e353225ad0f6",
+  "sku": "FM-N8056",
+  "role": "primary",
+  "sourceHash": "867cd42d01cca773611d33cf980df7a84f9006d98d21fa7eea2b6f3a94cbae09",
+  "inputPath": "src/assets/catalog/FM-N8056/primary-01-e7e1dd92042d.webp",
+  "originalPath": "data/catalog-assets/originals/86/867cd42d01cca773611d33cf980df7a84f9006d98d21fa7eea2b6f3a94cbae09.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8056-7b77e353225ad0f6.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8056: recolor ONLY the existing paired long diagonal press arms and their small exposed upper moving links DARK FOREST GREEN. Add one modest physical logo on near-right broad moving arm. Keep all four rubber grip sleeves and chrome collars, long black backrest/seat, fixed tall rear chassis, lower parallelogram/seat mechanism, gas springs, pulleys, cables and yellow warning triangles unchanged. Preserve graphite tower and transparent shroud with blue/red labels.",
+  "review": "N8056: vista e geometria press conservate, due lunghi bracci diagonali, quattro grip con estremit? argento, articolazioni alte e leveraggi sedile bassi, pistone e cavi. Verde sui bracci e link superiori, logo sulla faccia destra; telaio fisso grafite e pad neri invariati. Shroud, pannello blu, rosso e triangolo giallo mantenuti. Microtesti illustrativi.",
+  "publicSku": "FM-N8056",
+  "editTarget": "src/assets/catalog/FM-N8056/primary-01-e7e1dd92042d.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:54:49.216Z",
+  "outputHash": "649bbe1fb1e3161a2c9ce50203091f804617bde01d688adad061df7af36ed68f",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8019-ddf71d3356ac6cd6",
+  "sku": "FM-N8019",
+  "role": "primary",
+  "sourceHash": "f608148ae55f9e65a2f14d2df7f6d2c1cd5a663d010b7c70e1c61f712ff1bc86",
+  "inputPath": "src/assets/catalog/FM-N8019/primary-01-5c8fdd6e4521.webp",
+  "originalPath": "data/catalog-assets/originals/f6/f608148ae55f9e65a2f14d2df7f6d2c1cd5a663d010b7c70e1c61f712ff1bc86.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8019-ddf71d3356ac6cd6.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8019: recolor ONLY the existing highest horizontal pull-up crossbeam bridge, DARK FOREST GREEN, leaving every attached black rubber handgrip and its chrome endcap unchanged. Small physical FullMuscle logo centered on the existing front face of this top beam. Tall fixed uprights, four step pads, dipping handles, knee-assist pad, chrome vertical slider rods, tower/shroud and blue/red labels stay exactly as original.",
+  "review": "N8019: confronto visivo positivo: altezza e vista, traversa multi-grip con tutte le impugnature/anelli, montanti curvi, maniglie dip, piattaforma imbottita, quattro gradini e doppia guida cromata mantenuti. Unica traversa alta verde con logo piccolo centrato. Torre grafite e pannelli blu/rosso, shroud e pulegge conservati; microtesti illustrativi.",
+  "publicSku": "FM-N8019",
+  "editTarget": "src/assets/catalog/FM-N8019/primary-01-5c8fdd6e4521.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:48:38.639Z",
+  "outputHash": "b8b1b5a402023c6e71cd1e3652ecf48594d83f1c3c3963cc888b74331ab77f76",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

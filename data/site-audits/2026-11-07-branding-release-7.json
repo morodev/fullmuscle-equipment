@@ -1,0 +1,24 @@
+{
+  "commit": "ae65bf7",
+  "integrated": 595,
+  "samples": [
+    {
+      "sku": "FM-GT-5092",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/hip-thrust-e-glute-machine-fm-gt-5092/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-MP-8170",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/row-machine-fm-mp-8170/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-GC-5104",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/step-up-machine-fm-gc-5104/",
+      "status": 200,
+      "updatedImage": true
+    }
+  ]
+}

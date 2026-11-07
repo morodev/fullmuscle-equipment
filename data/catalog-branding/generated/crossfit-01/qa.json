@@ -1,0 +1,123 @@
+{
+  "tool": "image_gen.imagegen",
+  "referenceGreen": "#356B35",
+  "items": [
+    {
+      "assetId": "fm-360s-6b9a785c94fec1fc",
+      "sku": "FM-360S",
+      "role": "primary",
+      "sourceHash": "21095e7845621342b19beb92e4bebe232fcb3adb2fcbcf6b54a0e2ad571735ff",
+      "inputPath": "src/assets/catalog/FM-360S/primary-01-4cd6e1d9b49d.webp",
+      "originalPath": "data/catalog-assets/originals/21/21095e7845621342b19beb92e4bebe232fcb3adb2fcbcf6b54a0e2ad571735ff.jpg",
+      "categoryId": "crossfit-multi-station",
+      "outputPath": "data/catalog-branding/generated/crossfit-01/fm-360s-6b9a785c94fec1fc.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/crossfit-01/prompts/fm-360s-6b9a785c94fec1fc.json",
+      "review": "Telaio rosso trasformato in verde, unica colonna cavi a sinistra, rebounder, sbarra diagonale con disco tripresa, anelli portaccessori e piattaforme conservati. Logo singolo su pannello alto sinistro."
+    },
+    {
+      "assetId": "fm-360t-8f6299906d3d4f9a",
+      "sku": "FM-360T",
+      "role": "primary",
+      "sourceHash": "e427db470b26bffade45d9eec92d0c62351908a2d5952c6ff6cf0bfaeae9883d",
+      "inputPath": "src/assets/catalog/FM-360T/primary-01-1e636e4df2e6.webp",
+      "originalPath": "data/catalog-assets/originals/e4/e427db470b26bffade45d9eec92d0c62351908a2d5952c6ff6cf0bfaeae9883d.jpg",
+      "categoryId": "crossfit-multi-station",
+      "outputPath": "data/catalog-branding/generated/crossfit-01/fm-360t-8f6299906d3d4f9a.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/crossfit-01/prompts/fm-360t-8f6299906d3d4f9a.json",
+      "review": "Due colonne cavi con guide argento e pacchi pesi grigi conservate. Telaio e carrelli verdi, comandi gialli, sfere blu/gialla/verde e accessori neri coerenti. Sostituite due targhe fornitore con due loghi sui pannelli esistenti."
+    },
+    {
+      "assetId": "fm-360xl-1555a22d6f78d68d",
+      "sku": "FM-360XL",
+      "role": "primary",
+      "sourceHash": "2926a699a1e5a8237309ea3eb71938cc2e435ee1dc446d34ec6ec95b1d290aa9",
+      "inputPath": "src/assets/catalog/FM-360XL/primary-01-d67748f62d87.webp",
+      "originalPath": "data/catalog-assets/originals/29/2926a699a1e5a8237309ea3eb71938cc2e435ee1dc446d34ec6ec95b1d290aa9.jpg",
+      "categoryId": "crossfit-multi-station",
+      "outputPath": "data/catalog-branding/generated/crossfit-01/fm-360xl-1555a22d6f78d68d.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/crossfit-01/prompts/fm-360xl-1555a22d6f78d68d.json",
+      "review": "Struttura XL verde, ponte lungo e sbarre neri, sacco e catena a destra, rebounder a sinistra, colonne cavi e rastrelliere coerenti con originale. Sostituiti loghi nei pannelli esistenti; nessuna nuova stazione."
+    },
+    {
+      "assetId": "fm-360xm-f89b17a6109f265e",
+      "sku": "FM-360XM",
+      "role": "primary",
+      "sourceHash": "63251cc189649fe49f1e86b4f983cfc5f5c6352b185e36022d8b2b82508163e1",
+      "inputPath": "src/assets/catalog/FM-360XM/primary-01-90ed84bfcec5.webp",
+      "originalPath": "data/catalog-assets/originals/63/63251cc189649fe49f1e86b4f983cfc5f5c6352b185e36022d8b2b82508163e1.jpg",
+      "categoryId": "crossfit-multi-station",
+      "outputPath": "data/catalog-branding/generated/crossfit-01/fm-360xm-f89b17a6109f265e.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/crossfit-01/prompts/fm-360xm-f89b17a6109f265e.json",
+      "review": "Struttura XM verde, ponte compatto nero, guide e anelli cromati, mensole/accessori e palline con colori/quantit? coerenti, rebounder posteriore e pedana anteriore mantenuti. Loghi sostituiti sui cinque pannelli esistenti, alcune lettere naturalmente occluse dalle sbarre."
+    },
+    {
+      "assetId": "fm-360xs-ae3b266bb4333061",
+      "sku": "FM-360XS",
+      "role": "primary",
+      "sourceHash": "65939f5c566366efede723c6f150619d82b81d8fa1241fdb2816a6d53b069694",
+      "inputPath": "src/assets/catalog/FM-360XS/primary-01-80f10f526641.webp",
+      "originalPath": "data/catalog-assets/originals/65/65939f5c566366efede723c6f150619d82b81d8fa1241fdb2816a6d53b069694.jpg",
+      "categoryId": "crossfit-multi-station",
+      "outputPath": "data/catalog-branding/generated/crossfit-01/fm-360xs-ae3b266bb4333061.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/crossfit-01/prompts/fm-360xs-ae3b266bb4333061.json",
+      "review": "Versione XS compatta: telaio verde, una colonna cavi, mensole centrali, dischi, manubri e kettlebell, barre dip a destra e anelli cromati conservati. Logo sui due pannelli leggibili; pannelli laterali stretti privi di marchio fornitore."
+    },
+    {
+      "assetId": "fm-4009-1a0c66d0fa5fb340",
+      "sku": "FM-4009",
+      "role": "primary",
+      "sourceHash": "a63cbac1aeeeae5266a8b7fc40418e498131d252f5c96f6ad32b92060f6d3423",
+      "inputPath": "src/assets/catalog/FM-4009/primary-01-671337aeb1cd.webp",
+      "originalPath": "data/catalog-assets/originals/a6/a63cbac1aeeeae5266a8b7fc40418e498131d252f5c96f6ad32b92060f6d3423.jpg",
+      "categoryId": "crossfit-multi-station",
+      "outputPath": "data/catalog-branding/generated/crossfit-01/fm-4009-1a0c66d0fa5fb340.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/crossfit-01/prompts/fm-4009-1a0c66d0fa5fb340.json",
+      "review": "Ponte superiore e due montanti frontali verdi, restanti telai grigio argento. Sedute e rulli bordeaux, cavi, guide, pesi e maniglie conservati. Logo piccolo sul montante sinistro; geometria del crossover e stazioni laterali coerente."
+    },
+    {
+      "assetId": "fm-4019-bc32413e60037704",
+      "sku": "FM-4019",
+      "role": "primary",
+      "sourceHash": "617301a4bb02fb382a0fbae845132e5d72fad1d45f0189b44d968a885baa06ec",
+      "inputPath": "src/assets/catalog/FM-4019/primary-01-e11e21706c53.webp",
+      "originalPath": "data/catalog-assets/originals/61/617301a4bb02fb382a0fbae845132e5d72fad1d45f0189b44d968a885baa06ec.jpg",
+      "categoryId": "crossfit-multi-station",
+      "outputPath": "data/catalog-branding/generated/crossfit-01/fm-4019-bc32413e60037704.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/crossfit-01/prompts/fm-4019-bc32413e60037704.json",
+      "review": "Montanti strutturali centrali verdi, guide cromate e colonna regolabile laterale argento, sedute bordeaux, cavi e pacchi peso conservati. Logo sulla traversa grigia esistente davanti al pacco pesi."
+    },
+    {
+      "assetId": "fm-4029-e5c3b280366c7e3a",
+      "sku": "FM-4029",
+      "role": "primary",
+      "sourceHash": "fe4b086434bd54ab41b3a09fcc01aa5d45d5c23be32b58136f08286c2bf7b04d",
+      "inputPath": "src/assets/catalog/FM-4029/primary-01-1212ceb95b62.webp",
+      "originalPath": "data/catalog-assets/originals/fe/fe4b086434bd54ab41b3a09fcc01aa5d45d5c23be32b58136f08286c2bf7b04d.jpg",
+      "categoryId": "crossfit-multi-station",
+      "outputPath": "data/catalog-branding/generated/crossfit-01/fm-4029-e5c3b280366c7e3a.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/crossfit-01/prompts/fm-4029-e5c3b280366c7e3a.json",
+      "review": "Ponte e quattro montanti principali verdi, telai e guide argento, sedute bordeaux, due torri e accessori mantenuti. Due loghi sulle testate grigie originali, nessun nuovo pannello."
+    },
+    {
+      "assetId": "fm-g-5099-654e20f25b4bca0b",
+      "sku": "FM-G-5099",
+      "role": "primary",
+      "sourceHash": "d9e3cd7ead38da2ea62a0d6fcc2d35c74389fc7d12635269003f0e8a4c20ad39",
+      "inputPath": "src/assets/catalog/FM-G-5099/primary-01-53e63f4ae3de.webp",
+      "originalPath": "data/catalog-assets/originals/d9/d9e3cd7ead38da2ea62a0d6fcc2d35c74389fc7d12635269003f0e8a4c20ad39.jpg",
+      "categoryId": "crossfit-multi-station",
+      "outputPath": "data/catalog-branding/generated/crossfit-01/fm-g-5099-654e20f25b4bca0b.png",
+      "status": "visually-reviewed",
+      "promptPath": "data/catalog-branding/generated/crossfit-01/prompts/fm-g-5099-654e20f25b4bca0b.json",
+      "review": "Ponte e montanti principali verdi, geometria delle due torri e delle stazioni panche/lat conservata. Guide argento, sedute e restanti strutture nere. Loghi sulle due traverse nere esistenti."
+    }
+  ]
+}

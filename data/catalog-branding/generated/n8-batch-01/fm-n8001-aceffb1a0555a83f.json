@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8001-aceffb1a0555a83f",
+  "sku": "FM-N8001",
+  "role": "primary",
+  "sourceHash": "c81e21e88564ec593c703bceac15ee10ed12abb08e13f8ce1bbec51bbe7dbddb",
+  "inputPath": "src/assets/catalog/FM-N8001/primary-01-ade512642bc4.webp",
+  "originalPath": "data/catalog-assets/originals/c8/c81e21e88564ec593c703bceac15ee10ed12abb08e13f8ce1bbec51bbe7dbddb.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8001-aceffb1a0555a83f.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8001 seated leg curl has graphite-gray main frame and black molded upholstery: recolor only long front moving diagonal ankle-roller lever and the small painted top link of its pivot assembly dark green; modest physical FullMuscle logo on visible face of this lever. Keep gray fixed base/tower and curved support, ALL black thigh/ankle rollers, black seat/shaped backrest and grips, chrome discs/index plate unchanged. Preserve semi-transparent dark tower shroud, blue-bordered original instruction panel at top and red warning; don't replace instruction panel with logo.",
+  "review": "N8001 leg-curl source compared: molded black backrest, seat, thigh and ankle rollers, grip arrangement, rear adjustment linkage and curved graphite support retained. Green on near moving lever, adjacent pivot cover and short upper painted link, physical logo on lever. Graphite fixed chassis and semitransparent tower shroud preserved; original blue-bordered instructions/red warning remain. Main mechanisms unchanged.",
+  "publicSku": "FM-N8001",
+  "editTarget": "src/assets/catalog/FM-N8001/primary-01-ade512642bc4.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:37:31.086Z",
+  "outputHash": "095d31c116dda8b976cbdd454724f78ef85e357fda42511836b3f70e419e2b03",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

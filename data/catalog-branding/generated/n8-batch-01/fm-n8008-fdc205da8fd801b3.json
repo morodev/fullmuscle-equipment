@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8008-fdc205da8fd801b3",
+  "sku": "FM-N8008",
+  "role": "primary",
+  "sourceHash": "d679928021e4dcf9c3115dd4462c90e3277d8419227e9201ecd94ca5f72d393a",
+  "inputPath": "src/assets/catalog/FM-N8008/primary-01-4427f4cdf4ad.webp",
+  "originalPath": "data/catalog-assets/originals/d6/d679928021e4dcf9c3115dd4462c90e3277d8419227e9201ecd94ca5f72d393a.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8008-fdc205da8fd801b3.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8008: recolor the existing long straight diagonal upper moving beam from the left tower pivot to the upper-right linkage, and its existing bent paired upper handle lever bodies, DARK FOREST GREEN. Keep black handgrip sleeves, pulley/cam discs, twin large padded rollers, seat, gray fixed curved central support and all cables unchanged. Place small physical logo on the broad long upper diagonal beam face. Preserve blue top instruction panel and red tower warning.",
+  "review": "Confronto visivo: vista e geometria principali N8008 preservate, inclusi doppio rullo nero, seduta, cavi, pulegge e camme sagomate, shroud trasparente e torre grafite con pannelli blu/rosso. Verde sul lungo braccio superiore e sui leveraggi piegati associati; piccola estensione sul tratto superiore inclinato del supporto verniciato, senza variazione geometrica. Logo fisico contenuto sulla trave diagonale. Microtesti delle etichette illustrativi.",
+  "publicSku": "FM-N8008",
+  "editTarget": "src/assets/catalog/FM-N8008/primary-01-4427f4cdf4ad.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:43:37.899Z",
+  "outputHash": "9b5da926827a97a810fcf586a43d4f32c57a90d31411b9573be017bac461ad88",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

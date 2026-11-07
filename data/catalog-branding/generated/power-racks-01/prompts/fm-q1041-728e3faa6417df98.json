@@ -1,0 +1,28 @@
+{
+  "previous": {
+    "initial": {
+      "referenced_image_paths": [
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-Q1041/primary-01-10e8df74b420.webp",
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+      ],
+      "transparent_background": false,
+      "prompt": "Edit FIRST exact model photograph. Second image only brand color inspiration. Preserve geometry, hardware count, arrangements, original perspective/proportions, white background. Paint ONLY the two low forward projecting angled base feet/beams and the two horizontal mid-low safety catcher arms satin dark forest green #356B35. Keep the two tall front uprights BLACK including all original tiny numbered scales and drilled holes unchanged; keep rear posts, top pull-up handles, side attachments, crossbeams black, all loading horns and metal guide pole chrome. Original yellow collars on top handles remain yellow. Replace TZ-FITNESS on original upper black rear panel with one modest white italic Full Muscle logo / tiny EQUIPMENT. Do not add any numbers. Strict recoloring of existing surfaces and logo replacement only. No redesigned shapes, no missing/added components, no people."
+    },
+    "correction": {
+      "referenced_image_paths": [
+        "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-5cbd202a-cb71-4def-8a63-167a431d580b.png",
+        "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-Q1041/primary-01-10e8df74b420.webp"
+      ],
+      "transparent_background": false,
+      "prompt": "Make a narrowly localized correction to FIRST edited rack photograph. Keep its Full Muscle logo and green safety arms/base feet and every shape EXACTLY unchanged. SECOND is original source: restore the subtle small WHITE printed height-adjustment scale numerals alongside holes on the outer face of the left front tall BLACK upright, in the same locations and range as visible in SECOND. The scale was lost in editing. It must be tiny factory printed white marks, not large bold labels, not a new design. Copy original visible scale only, do not invent extra numbers or change holes. Keep all other surfaces, components and background untouched."
+    }
+  },
+  "correction": {
+    "referenced_image_paths": [
+      "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-a5e84a5a-d3ad-401b-a506-2f230e1af625.png",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-Q1041/primary-01-10e8df74b420.webp"
+    ],
+    "transparent_background": false,
+    "prompt": "Localized correction to FIRST image, keep all green areas, Full Muscle branding, hardware and photo exactly unchanged. The white numbered height scale added on left upright is incorrectly large and inconsistent. Restore this scale's visual treatment from SECOND original photo: extremely tiny, faint low-contrast gray microprinting on the narrow dark face, barely legible at full machine view, only in its original mid-height region. Remove the oversized high-contrast white numbers currently extending to the bottom. Do NOT invent a large new numbered scale; replicate original subtle microprinting rather than readable fabricated digits. Every hole, hook and other component unchanged."
+  }
+}

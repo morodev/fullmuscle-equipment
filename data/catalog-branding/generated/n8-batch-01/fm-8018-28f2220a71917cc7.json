@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8018-28f2220a71917cc7",
+  "sku": "FM-8018",
+  "role": "primary",
+  "sourceHash": "1cbea56c8baca6431086fab866fc6009bff10847ed9bbaf9a5814af1e871ed1e",
+  "inputPath": "src/assets/catalog/FM-8018/primary-01-793d1b24ec03.webp",
+  "originalPath": "data/catalog-assets/originals/1c/1cbea56c8baca6431086fab866fc6009bff10847ed9bbaf9a5814af1e871ed1e.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-8018-28f2220a71917cc7.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-8018 wide silver cable crossover: only existing central top curved bridging beam between towers becomes green; small logo centered on existing bridge face. Keep both silver curved tower frames, long vertical adjustment rails, both black pulley/handle assemblies, rear visible weight stack and chrome guides, all black chin-up grips and top fittings unchanged. Do not add shrouds or panels or alter wide span/proportions.",
+  "review": "Wide crossover source compared: full broad span and both silver curved towers retained, central top bridge painted green with modest physical logo. Black multi-grip sections, both adjustable pulleys/triangular handles, cables, long silver adjustment rails and rear visible weight stack preserved. No shrouds/panels added; principal framing and mechanism match.",
+  "publicSku": "FM-8018",
+  "editTarget": "src/assets/catalog/FM-8018/primary-01-793d1b24ec03.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:32:44.631Z",
+  "outputHash": "0fd687b65cbc6de76cd70fe16c2e4961180120e0678c830dedad1670ba3c57e8",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

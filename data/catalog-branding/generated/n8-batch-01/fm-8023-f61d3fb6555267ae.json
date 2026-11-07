@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8023-f61d3fb6555267ae",
+  "sku": "FM-8023",
+  "role": "primary",
+  "sourceHash": "1f3cc80c03f71076bf866af9453150f64e0ea1d7968a2ab11398ce4705cd69c8",
+  "inputPath": "src/assets/catalog/FM-8023/primary-01-81eb34bd17cd.webp",
+  "originalPath": "data/catalog-assets/originals/1f/1f3cc80c03f71076bf866af9453150f64e0ea1d7968a2ab11398ce4705cd69c8.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-8023-f61d3fb6555267ae.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-8023 flat Olympic bench: only long existing painted bench-support tube directly UNDER the long burgundy pad becomes green, including its small visible side face for modest logo. Keep burgundy long flat pad and short rear pad, all silver curved rack uprights/braces/base/crossbars and black barbell-hook protectors/endcaps exactly original. No pad recoloring and no added barbell.",
+  "review": "Flat Olympic-bench source compared: long burgundy pad and small rear pad preserved, only existing support tube beneath pads green with physical logo. Silver curved rack posts/braces, lower crossbars, center support and front foot retained. Black hook guards/endcaps unchanged; principal geometry and camera maintained.",
+  "publicSku": "FM-8023",
+  "editTarget": "src/assets/catalog/FM-8023/primary-01-81eb34bd17cd.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:33:14.883Z",
+  "outputHash": "601d091dc79c0858bf949da1e05e71868ece50b78ff8ef3dc4d82a0ef43c18ce",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

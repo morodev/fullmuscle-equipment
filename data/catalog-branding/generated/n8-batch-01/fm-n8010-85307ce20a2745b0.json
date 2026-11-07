@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8010-85307ce20a2745b0",
+  "sku": "FM-N8010",
+  "role": "primary",
+  "sourceHash": "04cd6591ef93355f04675336cab20d9d20c0628816c1dd2922b3900aa556c792",
+  "inputPath": "src/assets/catalog/FM-N8010/primary-01-24cf4f7a8f8e.webp",
+  "originalPath": "data/catalog-assets/originals/04/04cd6591ef93355f04675336cab20d9d20c0628816c1dd2922b3900aa556c792.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8010-85307ce20a2745b0.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8010: recolor ONLY the existing paired sloping shoulder-level moving arms and their broad horizontal forearm lever beams immediately below the paired round black upper pads, DARK FOREST GREEN. Keep all pads black, grips black, main fixed frame graphite, cables/pulleys identical. Add small logo on the near broad horizontal arm beam, between bolts. Preserve top instruction panel and red warning.",
+  "review": "N8010 confrontato con originale: doppio pad circolare alto, appoggi laterali, pettorale/seduta, tiranti e pulegge conservati; telaio grafite e shroud trasparente invariati. Verde solo bracci inclinati e travi mobili alle spalle, logo compatto sul braccio orizzontale vicino fra le viti. Istruzioni e avviso originali restano nelle posizioni; microtesti illustrativi.",
+  "publicSku": "FM-N8010",
+  "editTarget": "src/assets/catalog/FM-N8010/primary-01-24cf4f7a8f8e.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:44:18.940Z",
+  "outputHash": "dae916bfec54e8522e31d18055fe28afcd1b1cc1fd1749d1ffdc0e565cfcdf03",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

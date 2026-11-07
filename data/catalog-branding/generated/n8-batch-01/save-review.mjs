@@ -1,0 +1,18 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import sharp from 'sharp';
+let input=''; for await (const chunk of process.stdin) input+=chunk;
+const record=JSON.parse(input);
+const folder='data/catalog-branding/generated/n8-batch-01';
+record.outputPath=`${folder}/${record.assetId}.png`;
+fs.copyFileSync(record.generatedPath,record.outputPath);
+delete record.generatedPath;
+const bytes=fs.readFileSync(record.outputPath);
+const info=await sharp(bytes).metadata();
+Object.assign(record,{publicSku:record.sku,editTarget:record.inputPath,status:'visually-reviewed',tool:'image_gen.imagegen',checkedAt:new Date().toISOString(),outputHash:crypto.createHash('sha256').update(bytes).digest('hex'),width:info.width,height:info.height,hasAlpha:info.hasAlpha});
+fs.writeFileSync(`${folder}/${record.assetId}.json`,JSON.stringify(record,null,2)+'\n');
+const items=fs.readdirSync(folder).filter(f=>/^fm-.*\.json$/.test(f)).map(f=>JSON.parse(fs.readFileSync(path.join(folder,f),'utf8')));
+const qa={schemaVersion:1,tool:'image_gen.imagegen',status:items.length===34?'complete':'in-progress',count:items.length,expectedCount:34,referencePaint:'brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png',referenceLogo:'brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg',limitations:'AI-edited catalogue illustrations. Every source viewed before editing and every output visually compared for principal geometry, materials, components and framing. Tiny instructional lettering is illustrative, not technical documentation.',items};
+fs.writeFileSync(`${folder}/qa.json`,JSON.stringify(qa,null,2)+'\n');
+console.log(JSON.stringify({count:items.length,sku:record.sku,assetId:record.assetId,outputPath:record.outputPath,width:info.width,height:info.height}));

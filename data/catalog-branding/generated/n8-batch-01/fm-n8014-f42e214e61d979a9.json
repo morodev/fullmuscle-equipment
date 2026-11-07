@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8014-f42e214e61d979a9",
+  "sku": "FM-N8014",
+  "role": "primary",
+  "sourceHash": "10dfb021a9791869d541f9ed562bc302486c8dbad76e968a27c4313e63bac536",
+  "inputPath": "src/assets/catalog/FM-N8014/primary-01-3d5536b24ebc.webp",
+  "originalPath": "data/catalog-assets/originals/10/10dfb021a9791869d541f9ed562bc302486c8dbad76e968a27c4313e63bac536.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8014-f42e214e61d979a9.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8014: recolor ONLY the two existing straight angled upright moving supports directly beneath the paired black thigh pads, DARK FOREST GREEN, stopping at the original joints. Keep black pads, gray base and fixed chassis, black rotary adjustment platform and chrome details unchanged. Small vertical physical logo on the near thigh-pad support tube; preserve transparent shroud, blue top instructions, red warning.",
+  "review": "N8014: geometria, prospettiva, schienale sagomato, seduta e pad cosce neri, telaio/telaio rotante e pulegge identici nel confronto visivo. Due soli supporti inclinati dei pad verdi e logo verticale modesto su quello vicino. Torre grafite e shroud trasparente, istruzioni blu e avviso rosso conservati; microtesti illustrativi.",
+  "publicSku": "FM-N8014",
+  "editTarget": "src/assets/catalog/FM-N8014/primary-01-3d5536b24ebc.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:46:18.438Z",
+  "outputHash": "870c5d303595d5d10091279733ac61001b559a630f541018352b0d0aa051d377",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

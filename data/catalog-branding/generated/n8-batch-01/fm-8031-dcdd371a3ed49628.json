@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8031-dcdd371a3ed49628",
+  "sku": "FM-8031",
+  "role": "primary",
+  "sourceHash": "0d7396ad363820a12d361c8531a5a46482cf083acb91a9b535cab1cb9cdac02d",
+  "inputPath": "src/assets/catalog/FM-8031/primary-01-43c7793de6d4.webp",
+  "originalPath": "data/catalog-assets/originals/0d/0d7396ad363820a12d361c8531a5a46482cf083acb91a9b535cab1cb9cdac02d.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-8031-dcdd371a3ed49628.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-8031 flat standalone bench: only existing long horizontal support tube directly beneath two burgundy pads becomes dark green, modest physical logo on its near side. Preserve both separate burgundy pads and silver metal trim, two silver vertical legs and wide cross-feet, black tube endcaps and bolts exactly. Keep original top-down three-quarter view and proportions.",
+  "review": "Standalone flat-bench source compared: two burgundy pads and silver perimeter trim preserved, original long support tube alone green with compact logo. Two silver legs/cross-feet, black caps and bolts retained. Same high three-quarter view and overall proportions, no extra hardware.",
+  "publicSku": "FM-8031",
+  "editTarget": "src/assets/catalog/FM-8031/primary-01-43c7793de6d4.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:35:23.087Z",
+  "outputHash": "709a8305d78b999fda59f20f281b97642cd87dbe8f9862f66640d498b72f619a",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8004-0f5148c491d9aa8c",
+  "sku": "FM-N8004",
+  "role": "primary",
+  "sourceHash": "67792ef75ac9882c4a443096f5414db354821dd9fd599fe3b2b5fea0f8777a65",
+  "inputPath": "src/assets/catalog/FM-N8004/primary-01-a85737ac1dd1.webp",
+  "originalPath": "data/catalog-assets/originals/67/67792ef75ac9882c4a443096f5414db354821dd9fd599fe3b2b5fea0f8777a65.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8004-0f5148c491d9aa8c.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8004 seated row graphite frame: recolor only paired large curved moving arms on RIGHT which lead up from low pivots to the handgrips dark green. Put small physical FullMuscle logo along near curved arm's upper straight face. Preserve black grips/chrome tips, black chest pad and seat, graphite stationary base/tower, horizontal slider bar, plastic adjustment covers and all silver bolts. Preserve semitransparent shroud, original blue instruction panel/red warning. Exact arm curves/view unchanged.",
+  "review": "Seated-row source compared: original paired curved moving arms green, modest logo on near upper face. Black seat/chest pad and grips, silver ends, horizontal slider bar, complex lower adjustment covers and graphite fixed chassis/tower retained. Semitransparent shroud and blue instruction/red warning panels preserved; principal geometry unchanged.",
+  "publicSku": "FM-N8004",
+  "editTarget": "src/assets/catalog/FM-N8004/primary-01-a85737ac1dd1.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:39:49.696Z",
+  "outputHash": "2f5617ddfb4ba1e29078dfcad817582e732910f09a71cb8557a9f032d667611c",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

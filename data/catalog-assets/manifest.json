@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-09-13T09:35:51.935Z",
-  "updatedAt": "2026-11-07T12:43:27.864Z",
+  "updatedAt": "2026-11-07T13:02:03.444Z",
   "sourceInventoryHash": "45fde16c81b51dd09e5113524b9d18af9e30b106548316661d6c01e6665139db",
   "items": [
     {
@@ -1351,16 +1351,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/21/21095e7845621342b19beb92e4bebe232fcb3adb2fcbcf6b54a0e2ad571735ff.jpg",
-      "stagedPath": "src/assets/catalog/FM-360S/primary-01-4cd6e1d9b49d.webp",
+      "stagedPath": "src/assets/catalog/FM-360S/primary-01-8e3b31db8d66.webp",
       "sourceHash": "21095e7845621342b19beb92e4bebe232fcb3adb2fcbcf6b54a0e2ad571735ff",
-      "outputHash": "4cd6e1d9b49d6310f6e42aa5e682da71b64211d509d60bbe344c4259d30b7a96",
+      "outputHash": "8e3b31db8d66cd3e0902c610af22c7d5a42b74654cc09b045f7584fcf7327726",
       "mimeType": "image/jpeg",
       "bytes": 35941,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Telaio rosso trasformato in verde, unica colonna cavi a sinistra, rebounder, sbarra diagonale con disco tripresa, anelli portaccessori e piattaforme conservati. Logo singolo su pannello alto sinistro."
+      ],
+      "editedPath": "data/catalog-branding/generated/crossfit-01/fm-360s-6b9a785c94fec1fc.png"
     },
     {
       "assetId": "fm-360t-8f6299906d3d4f9a",
@@ -1372,16 +1374,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/e4/e427db470b26bffade45d9eec92d0c62351908a2d5952c6ff6cf0bfaeae9883d.jpg",
-      "stagedPath": "src/assets/catalog/FM-360T/primary-01-1e636e4df2e6.webp",
+      "stagedPath": "src/assets/catalog/FM-360T/primary-01-02d4c5df4bf7.webp",
       "sourceHash": "e427db470b26bffade45d9eec92d0c62351908a2d5952c6ff6cf0bfaeae9883d",
-      "outputHash": "1e636e4df2e6cb0c0998a34234218b99c70db4c9e20fcc38678de7afd85905fb",
+      "outputHash": "02d4c5df4bf7870b61b0227431ec9673583833024c49cfdb5fc966d605f4b459",
       "mimeType": "image/jpeg",
       "bytes": 32235,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Due colonne cavi con guide argento e pacchi pesi grigi conservate. Telaio e carrelli verdi, comandi gialli, sfere blu/gialla/verde e accessori neri coerenti. Sostituite due targhe fornitore con due loghi sui pannelli esistenti."
+      ],
+      "editedPath": "data/catalog-branding/generated/crossfit-01/fm-360t-8f6299906d3d4f9a.png"
     },
     {
       "assetId": "fm-360xl-1555a22d6f78d68d",
@@ -1393,16 +1397,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/29/2926a699a1e5a8237309ea3eb71938cc2e435ee1dc446d34ec6ec95b1d290aa9.jpg",
-      "stagedPath": "src/assets/catalog/FM-360XL/primary-01-d67748f62d87.webp",
+      "stagedPath": "src/assets/catalog/FM-360XL/primary-01-1597ab11d06c.webp",
       "sourceHash": "2926a699a1e5a8237309ea3eb71938cc2e435ee1dc446d34ec6ec95b1d290aa9",
-      "outputHash": "d67748f62d87e67609eecde223e00fe2c880420d8766fb6ef6590d561606a576",
+      "outputHash": "1597ab11d06c756196c71e2d9c72e7fc3e08f427ed93b835b07189725691e5af",
       "mimeType": "image/jpeg",
       "bytes": 36353,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Struttura XL verde, ponte lungo e sbarre neri, sacco e catena a destra, rebounder a sinistra, colonne cavi e rastrelliere coerenti con originale. Sostituiti loghi nei pannelli esistenti; nessuna nuova stazione."
+      ],
+      "editedPath": "data/catalog-branding/generated/crossfit-01/fm-360xl-1555a22d6f78d68d.png"
     },
     {
       "assetId": "fm-360xm-f89b17a6109f265e",
@@ -1414,16 +1420,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/63/63251cc189649fe49f1e86b4f983cfc5f5c6352b185e36022d8b2b82508163e1.jpg",
-      "stagedPath": "src/assets/catalog/FM-360XM/primary-01-90ed84bfcec5.webp",
+      "stagedPath": "src/assets/catalog/FM-360XM/primary-01-b229b7012c1f.webp",
       "sourceHash": "63251cc189649fe49f1e86b4f983cfc5f5c6352b185e36022d8b2b82508163e1",
-      "outputHash": "90ed84bfcec5445698fb1036c735fa1624824523966db76bb2cd1ee09fde5218",
+      "outputHash": "b229b7012c1fccf21e7214b95643fd08d824a9f9249322051ad23eb819678a64",
       "mimeType": "image/jpeg",
       "bytes": 40913,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Struttura XM verde, ponte compatto nero, guide e anelli cromati, mensole/accessori e palline con colori/quantit? coerenti, rebounder posteriore e pedana anteriore mantenuti. Loghi sostituiti sui cinque pannelli esistenti, alcune lettere naturalmente occluse dalle sbarre."
+      ],
+      "editedPath": "data/catalog-branding/generated/crossfit-01/fm-360xm-f89b17a6109f265e.png"
     },
     {
       "assetId": "fm-360xs-ae3b266bb4333061",
@@ -1435,16 +1443,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/65/65939f5c566366efede723c6f150619d82b81d8fa1241fdb2816a6d53b069694.jpg",
-      "stagedPath": "src/assets/catalog/FM-360XS/primary-01-80f10f526641.webp",
+      "stagedPath": "src/assets/catalog/FM-360XS/primary-01-208c4bd66e44.webp",
       "sourceHash": "65939f5c566366efede723c6f150619d82b81d8fa1241fdb2816a6d53b069694",
-      "outputHash": "80f10f5266417281b6b1f51be86e9c0c7f2380cc7366a254a3753e99063059ab",
+      "outputHash": "208c4bd66e441734b90d7c41e450fef9b23a17357d944e9cb752cc9b7f75d792",
       "mimeType": "image/jpeg",
       "bytes": 35932,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Versione XS compatta: telaio verde, una colonna cavi, mensole centrali, dischi, manubri e kettlebell, barre dip a destra e anelli cromati conservati. Logo sui due pannelli leggibili; pannelli laterali stretti privi di marchio fornitore."
+      ],
+      "editedPath": "data/catalog-branding/generated/crossfit-01/fm-360xs-ae3b266bb4333061.png"
     },
     {
       "assetId": "fm-4009-1a0c66d0fa5fb340",
@@ -1456,16 +1466,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/a6/a63cbac1aeeeae5266a8b7fc40418e498131d252f5c96f6ad32b92060f6d3423.jpg",
-      "stagedPath": "src/assets/catalog/FM-4009/primary-01-671337aeb1cd.webp",
+      "stagedPath": "src/assets/catalog/FM-4009/primary-01-a7723fb00975.webp",
       "sourceHash": "a63cbac1aeeeae5266a8b7fc40418e498131d252f5c96f6ad32b92060f6d3423",
-      "outputHash": "671337aeb1cddc07b6f7fcd54a6c4c30a43492b760723c6097a4c437b763d74a",
+      "outputHash": "a7723fb0097500dafa91329d5c3dc56ba9f1f6246e51cb3a3488f7052b1fa683",
       "mimeType": "image/jpeg",
       "bytes": 36816,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Ponte superiore e due montanti frontali verdi, restanti telai grigio argento. Sedute e rulli bordeaux, cavi, guide, pesi e maniglie conservati. Logo piccolo sul montante sinistro; geometria del crossover e stazioni laterali coerente."
+      ],
+      "editedPath": "data/catalog-branding/generated/crossfit-01/fm-4009-1a0c66d0fa5fb340.png"
     },
     {
       "assetId": "fm-4019-bc32413e60037704",
@@ -1477,16 +1489,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/61/617301a4bb02fb382a0fbae845132e5d72fad1d45f0189b44d968a885baa06ec.jpg",
-      "stagedPath": "src/assets/catalog/FM-4019/primary-01-e11e21706c53.webp",
+      "stagedPath": "src/assets/catalog/FM-4019/primary-01-86020e39f89e.webp",
       "sourceHash": "617301a4bb02fb382a0fbae845132e5d72fad1d45f0189b44d968a885baa06ec",
-      "outputHash": "e11e21706c539fcc4b7b92d7ce71dc05b6b60548c5ec7eb072c198e661eb89fc",
+      "outputHash": "86020e39f89e54fcf565a47134c31b9a92718ae34e981c23e28ec04fb8df70a1",
       "mimeType": "image/jpeg",
       "bytes": 44769,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Montanti strutturali centrali verdi, guide cromate e colonna regolabile laterale argento, sedute bordeaux, cavi e pacchi peso conservati. Logo sulla traversa grigia esistente davanti al pacco pesi."
+      ],
+      "editedPath": "data/catalog-branding/generated/crossfit-01/fm-4019-bc32413e60037704.png"
     },
     {
       "assetId": "fm-4029-e5c3b280366c7e3a",
@@ -1498,16 +1512,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/fe/fe4b086434bd54ab41b3a09fcc01aa5d45d5c23be32b58136f08286c2bf7b04d.jpg",
-      "stagedPath": "src/assets/catalog/FM-4029/primary-01-1212ceb95b62.webp",
+      "stagedPath": "src/assets/catalog/FM-4029/primary-01-7663f26cb517.webp",
       "sourceHash": "fe4b086434bd54ab41b3a09fcc01aa5d45d5c23be32b58136f08286c2bf7b04d",
-      "outputHash": "1212ceb95b62c5591cbb5298c456d0a39936eb3f2d5c15114c78d637731820cb",
+      "outputHash": "7663f26cb5174308b3f3829696f512a72c2c859cb724a9b69cf0352808fef769",
       "mimeType": "image/jpeg",
       "bytes": 43498,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Ponte e quattro montanti principali verdi, telai e guide argento, sedute bordeaux, due torri e accessori mantenuti. Due loghi sulle testate grigie originali, nessun nuovo pannello."
+      ],
+      "editedPath": "data/catalog-branding/generated/crossfit-01/fm-4029-e5c3b280366c7e3a.png"
     },
     {
       "assetId": "fm-5000a-b20f7ac0eba45317",
@@ -6110,16 +6126,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/47/47da50fdaa26749ab24facc02a33b07600f7818dcfd5cbb14f9d953a17df5c11.jpg",
-      "stagedPath": "src/assets/catalog/FM-8017/primary-01-51e5d22f299f.webp",
+      "stagedPath": "src/assets/catalog/FM-8017/primary-01-b2d2bf2d0540.webp",
       "sourceHash": "47da50fdaa26749ab24facc02a33b07600f7818dcfd5cbb14f9d953a17df5c11",
-      "outputHash": "51e5d22f299f6a3250df2ee56f6e36e5f036846d36b705b518b2399ad5079bf4",
+      "outputHash": "b2d2bf2d05404924d2d673af94099a74b699c12c96de0234fe236bcf02073690",
       "mimeType": "image/jpeg",
       "bytes": 36056,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Smith rack source compared: bent upper rear crossbeam alone green with small physical logo; original black remaining chassis retained. Eight storage horns, barbell/sleeves, twin guide rods, metallic hook ladders, curved top frame and base feet preserved. Original view and principal geometry retained; no additional beam or panel."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-8017-0bc62416f9a3420a.png"
     },
     {
       "assetId": "fm-8018-28f2220a71917cc7",
@@ -6131,16 +6149,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/1c/1cbea56c8baca6431086fab866fc6009bff10847ed9bbaf9a5814af1e871ed1e.jpg",
-      "stagedPath": "src/assets/catalog/FM-8018/primary-01-793d1b24ec03.webp",
+      "stagedPath": "src/assets/catalog/FM-8018/primary-01-bc6f441ea298.webp",
       "sourceHash": "1cbea56c8baca6431086fab866fc6009bff10847ed9bbaf9a5814af1e871ed1e",
-      "outputHash": "793d1b24ec03a7be7d8fe3aba0c66892146d9f2a8dab69273c920c23a7f5ea93",
+      "outputHash": "bc6f441ea298b8e63ca4213301d997905488e42ae145d50e9b8f5248503cb69b",
       "mimeType": "image/jpeg",
       "bytes": 34642,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Wide crossover source compared: full broad span and both silver curved towers retained, central top bridge painted green with modest physical logo. Black multi-grip sections, both adjustable pulleys/triangular handles, cables, long silver adjustment rails and rear visible weight stack preserved. No shrouds/panels added; principal framing and mechanism match."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-8018-28f2220a71917cc7.png"
     },
     {
       "assetId": "fm-8023-f61d3fb6555267ae",
@@ -6152,16 +6172,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/1f/1f3cc80c03f71076bf866af9453150f64e0ea1d7968a2ab11398ce4705cd69c8.jpg",
-      "stagedPath": "src/assets/catalog/FM-8023/primary-01-81eb34bd17cd.webp",
+      "stagedPath": "src/assets/catalog/FM-8023/primary-01-89baefc17467.webp",
       "sourceHash": "1f3cc80c03f71076bf866af9453150f64e0ea1d7968a2ab11398ce4705cd69c8",
-      "outputHash": "81eb34bd17cd3a6d43a6cce5d6c779ea29c0b1b3c4f24d6afa48d77756b53f7c",
+      "outputHash": "89baefc17467b3b9f68e4bab6a26283e0e8e75b52bdfbbddad016a1b396f0ca6",
       "mimeType": "image/jpeg",
       "bytes": 32130,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Flat Olympic-bench source compared: long burgundy pad and small rear pad preserved, only existing support tube beneath pads green with physical logo. Silver curved rack posts/braces, lower crossbars, center support and front foot retained. Black hook guards/endcaps unchanged; principal geometry and camera maintained."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-8023-f61d3fb6555267ae.png"
     },
     {
       "assetId": "fm-8025-377967e0cd39a667",
@@ -6173,16 +6195,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/d0/d00a820d722706214d5643caf41360b0b1402dd0e4914cc7d9ff8afb415b6833.jpg",
-      "stagedPath": "src/assets/catalog/FM-8025/primary-01-09bbed8d5eec.webp",
+      "stagedPath": "src/assets/catalog/FM-8025/primary-01-ef918dc2bb0f.webp",
       "sourceHash": "d00a820d722706214d5643caf41360b0b1402dd0e4914cc7d9ff8afb415b6833",
-      "outputHash": "09bbed8d5eec79dc25cb8eb66161040174765293ebd358d36efd04eac22b9358",
+      "outputHash": "ef918dc2bb0f36c66e77171d15a024abc0650676c26abe280d1ba651ae7be547",
       "mimeType": "image/jpeg",
       "bytes": 35372,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Standing-preacher source compared: burgundy sloping pad and exact silver curved frame/adjustment posts retained. Only existing front crossbeam face green with modest physical logo replacing blue vendor sticker; its black top rest strips/endcap preserved. Rear rest beams and all base members remain original silver. No geometry changes or extra panel."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-8025-377967e0cd39a667.png"
     },
     {
       "assetId": "fm-8027-069f43412bcd3430",
@@ -6232,16 +6256,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/a0/a02d3ef734a1303e149cb5da22599314f551c23b9e7377d5ac03d2df273ac47f.jpg",
-      "stagedPath": "src/assets/catalog/FM-8030/primary-01-52ae0ac524ec.webp",
+      "stagedPath": "src/assets/catalog/FM-8030/primary-01-44e5ee5a29b4.webp",
       "sourceHash": "a02d3ef734a1303e149cb5da22599314f551c23b9e7377d5ac03d2df273ac47f",
-      "outputHash": "52ae0ac524ec199e3b3275d80741bdd0e6b75518f43f9a4db95c819d8237bf66",
+      "outputHash": "44e5ee5a29b4f293d2b672766237c34fbe9183611ae189c044c4fbcaf9d4fe37",
       "mimeType": "image/jpeg",
       "bytes": 35272,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Incline Olympic-bench source compared: original burgundy seat/back/head pads and bench slope retained. Existing long diagonal support tube green with small physical logo; silver rack uprights/curved braces, lower adjustment support and black hook guards/endcaps unchanged. Principal geometry and viewpoint preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-8030-a1f2a51a18a98183.png"
     },
     {
       "assetId": "fm-8031-dcdd371a3ed49628",
@@ -6253,16 +6279,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/0d/0d7396ad363820a12d361c8531a5a46482cf083acb91a9b535cab1cb9cdac02d.jpg",
-      "stagedPath": "src/assets/catalog/FM-8031/primary-01-43c7793de6d4.webp",
+      "stagedPath": "src/assets/catalog/FM-8031/primary-01-9cab448c45a8.webp",
       "sourceHash": "0d7396ad363820a12d361c8531a5a46482cf083acb91a9b535cab1cb9cdac02d",
-      "outputHash": "43c7793de6d4e6d64bba8a6460b65a799d9bce5d845496dce016d89e1f27d2ea",
+      "outputHash": "9cab448c45a863d6192419834d19ca28aea7e71cf555b7215d9b1438a95a1ed8",
       "mimeType": "image/jpeg",
       "bytes": 25692,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Standalone flat-bench source compared: two burgundy pads and silver perimeter trim preserved, original long support tube alone green with compact logo. Two silver legs/cross-feet, black caps and bolts retained. Same high three-quarter view and overall proportions, no extra hardware."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-8031-dcdd371a3ed49628.png"
     },
     {
       "assetId": "fm-8032-f2283a09ddb5c075",
@@ -6274,16 +6302,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/b5/b58a0c9512cdce011a1878db3c293eb0904e349728f8d8601cc71ac4360ca817.jpg",
-      "stagedPath": "src/assets/catalog/FM-8032/primary-01-640e5cb9a1e4.webp",
+      "stagedPath": "src/assets/catalog/FM-8032/primary-01-886d9a318627.webp",
       "sourceHash": "b58a0c9512cdce011a1878db3c293eb0904e349728f8d8601cc71ac4360ca817",
-      "outputHash": "640e5cb9a1e46d0dafb5fac73086e66760a7c23a6b10389b9fb1e7d5f29fcd88",
+      "outputHash": "886d9a31862703a3627b241c04eb6ad3dff76d80553e89e28dc432351b597428",
       "mimeType": "image/jpeg",
       "bytes": 27360,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Adjustable-bench source compared: all three separate burgundy pads and flat pose retained; existing central triangular adjustment side plate and adjacent painted short side link green. Silver pad-support tubes, lower base/legs, adjustment arm/cylinder and metallic pivots preserved; black caps retained. Modest logo on existing plate, no geometry or segmentation change."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-8032-f2283a09ddb5c075.png"
     },
     {
       "assetId": "fm-8043-c99072d65b93b99c",
@@ -6295,16 +6325,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/68/688968c2109587271cfa493c6818cc739630fe43f0975ca735c7a1dff85fdedf.jpg",
-      "stagedPath": "src/assets/catalog/FM-8043/primary-01-974d47cbfb42.webp",
+      "stagedPath": "src/assets/catalog/FM-8043/primary-01-e6df24ea205d.webp",
       "sourceHash": "688968c2109587271cfa493c6818cc739630fe43f0975ca735c7a1dff85fdedf",
-      "outputHash": "974d47cbfb42f8b01c2a5c63765aed24bd614065c864d7f06bb72ab4b233d088",
+      "outputHash": "e6df24ea205d2f71f686981f1b29a2b3bba5fdef8e459db263598c3f16579105",
       "mimeType": "image/jpeg",
       "bytes": 30270,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Decline Olympic-bench source compared: long burgundy declined pad, shaped raised hip cushion and paired burgundy rollers with black ends retained. Existing under-pad support tube green with compact physical logo. Silver curved rack/braces, handle/adjustment shaft, legs and black hook protectors remain; original decline angle/view preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-8043-c99072d65b93b99c.png"
     },
     {
       "assetId": "fm-8101-e84865bbcf0da046",
@@ -9541,16 +9573,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/d9/d9e3cd7ead38da2ea62a0d6fcc2d35c74389fc7d12635269003f0e8a4c20ad39.jpg",
-      "stagedPath": "src/assets/catalog/FM-G-5099/primary-01-53e63f4ae3de.webp",
+      "stagedPath": "src/assets/catalog/FM-G-5099/primary-01-a7124bd6aaed.webp",
       "sourceHash": "d9e3cd7ead38da2ea62a0d6fcc2d35c74389fc7d12635269003f0e8a4c20ad39",
-      "outputHash": "53e63f4ae3de943643a53707d9ee2e975f64b703564e64a7ca256a3ba98d5b59",
+      "outputHash": "a7124bd6aaed11433bef8811733f0f04548a1353d9c90d70d444fb8c673d7af2",
       "mimeType": "image/jpeg",
       "bytes": 32580,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Ponte e montanti principali verdi, geometria delle due torri e delle stazioni panche/lat conservata. Guide argento, sedute e restanti strutture nere. Loghi sulle due traverse nere esistenti."
+      ],
+      "editedPath": "data/catalog-branding/generated/crossfit-01/fm-g-5099-654e20f25b4bca0b.png"
     },
     {
       "assetId": "fm-ga-5073-1-6cf589f6fe27a6fa",
@@ -20430,16 +20464,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/c8/c81e21e88564ec593c703bceac15ee10ed12abb08e13f8ce1bbec51bbe7dbddb.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8001/primary-01-ade512642bc4.webp",
+      "stagedPath": "src/assets/catalog/FM-N8001/primary-01-37e0c3b328e7.webp",
       "sourceHash": "c81e21e88564ec593c703bceac15ee10ed12abb08e13f8ce1bbec51bbe7dbddb",
-      "outputHash": "ade512642bc431f322fbfc7ec23ffad7c55bf897b932f7e17256c979a75e748b",
+      "outputHash": "37e0c3b328e71f1766bc98ee0133caa99a3b223eea0d534b2f6e1b988efb770f",
       "mimeType": "image/jpeg",
       "bytes": 40776,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8001 leg-curl source compared: molded black backrest, seat, thigh and ankle rollers, grip arrangement, rear adjustment linkage and curved graphite support retained. Green on near moving lever, adjacent pivot cover and short upper painted link, physical logo on lever. Graphite fixed chassis and semitransparent tower shroud preserved; original blue-bordered instructions/red warning remain. Main mechanisms unchanged."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8001-aceffb1a0555a83f.png"
     },
     {
       "assetId": "fm-n8002-d8283442f9db1334",
@@ -20451,16 +20487,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/0b/0b95a6dbae729896d3c308cf3ed9d7610c0b093fb350dc72f9dc1f200a7c8bd4.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8002/primary-01-aaf11f01ca91.webp",
+      "stagedPath": "src/assets/catalog/FM-N8002/primary-01-db234d110824.webp",
       "sourceHash": "0b95a6dbae729896d3c308cf3ed9d7610c0b093fb350dc72f9dc1f200a7c8bd4",
-      "outputHash": "aaf11f01ca9135e26c891dbe04eb58f02ae5178f0a5cb99ad0dde5a3f3c42fb7",
+      "outputHash": "db234d110824a5113214197eee5f25567464774a1ec12268de5db7b0f83b5a6a",
       "mimeType": "image/jpeg",
       "bytes": 39233,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8002 leg-extension source compared: long near moving lever green with compact physical logo, black round guards and cam cover preserved. Shaped black backrest/seat/roller, gray fixed chassis and curved support, rear seat linkage/gas strut and metallic pivots retained. Semitransparent shroud and blue-bordered instruction panel remain; main geometry unchanged."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8002-d8283442f9db1334.png"
     },
     {
       "assetId": "fm-n8002-f93211f207d4bb22",
@@ -20567,16 +20605,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/9d/9d225084394827e531c6e3b8bc1fb464c35de92faaf9b20ee30c48e744650003.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8003/primary-01-29f91c4a49dd.webp",
+      "stagedPath": "src/assets/catalog/FM-N8003/primary-01-56b1b6925024.webp",
       "sourceHash": "9d225084394827e531c6e3b8bc1fb464c35de92faaf9b20ee30c48e744650003",
-      "outputHash": "29f91c4a49dd814b3fbcf8d094122c0d6c03e6bed4bd3678983a1183d78f7248",
+      "outputHash": "56b1b692502497578607cea5d7ce726a4e51297f7982ca3bf1b054ce41ab886f",
       "mimeType": "image/jpeg",
       "bytes": 34284,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Rotary-torso source compared: upper paired pad crossbeam and two short right-side pivot links green; compact logo fits between pads. All black pads/grips, lower rotary seat/platform, yellow selector, graphite fixed uprights/base/tower and chrome pivots retained. Semitransparent shroud, blue instruction panel and red warning unchanged in position; main geometry preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8003-bb83ab762a54932b.png"
     },
     {
       "assetId": "fm-n8003-aceffb1a0555a83f",
@@ -20645,16 +20685,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/67/67792ef75ac9882c4a443096f5414db354821dd9fd599fe3b2b5fea0f8777a65.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8004/primary-01-a85737ac1dd1.webp",
+      "stagedPath": "src/assets/catalog/FM-N8004/primary-01-2487a0679e14.webp",
       "sourceHash": "67792ef75ac9882c4a443096f5414db354821dd9fd599fe3b2b5fea0f8777a65",
-      "outputHash": "a85737ac1dd171ad732a45534770c1688d6979fdaecfa50236cae79b2b7195cb",
+      "outputHash": "2487a0679e1412e59be651d3801de6ca832df7b4bbcb9a2503127729df2f56eb",
       "mimeType": "image/jpeg",
       "bytes": 36835,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Seated-row source compared: original paired curved moving arms green, modest logo on near upper face. Black seat/chest pad and grips, silver ends, horizontal slider bar, complex lower adjustment covers and graphite fixed chassis/tower retained. Semitransparent shroud and blue instruction/red warning panels preserved; principal geometry unchanged."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8004-0f5148c491d9aa8c.png"
     },
     {
       "assetId": "fm-n8004-f6eef18430a0bd25",
@@ -20742,16 +20784,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/d6/d660b4787c70adb62a832b78cc8f3399035bb4dbbe417d3a33af538128e56105.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8005/primary-01-59fcccb13d25.webp",
+      "stagedPath": "src/assets/catalog/FM-N8005/primary-01-ff098884197d.webp",
       "sourceHash": "d660b4787c70adb62a832b78cc8f3399035bb4dbbe417d3a33af538128e56105",
-      "outputHash": "59fcccb13d25a1459a5246c2779e0ba90f4099372549a60e203288ad86857e5e",
+      "outputHash": "ff098884197d8aeacde6b6d55129f1f85f352dc291a8478ff058ab50ef97750e",
       "mimeType": "image/jpeg",
       "bytes": 44653,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Chest-press source compared: two long curved front moving arms green, vertical modest logo on near upper arm. Black shaped seat/back/separate headrest, grip rubber and metallic ends, gray fixed base/tower/rear supports, foot-assist and complex lower seat mechanism retained. Semitransparent shroud and blue/red labels preserved; principal geometry consistent."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8005-7932a275e9a0d7a6.png"
     },
     {
       "assetId": "fm-n8006-74fe5911e94b0e4c",
@@ -20763,16 +20807,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/a6/a6d5117709ea23058f2aa2e5fa6b83779bec5afee29bb970d2a2dc406c404fda.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8006/primary-01-b3595e3d30ed.webp",
+      "stagedPath": "src/assets/catalog/FM-N8006/primary-01-15cf896c2d8a.webp",
       "sourceHash": "a6d5117709ea23058f2aa2e5fa6b83779bec5afee29bb970d2a2dc406c404fda",
-      "outputHash": "b3595e3d30edce6b575477f17b277934475da71a713891c582ae97d04644bd89",
+      "outputHash": "15cf896c2d8a0b2935fed6e38869ddc20e562ccaea014cbc41b85bdd2a5521c6",
       "mimeType": "image/jpeg",
       "bytes": 37926,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Back-extension source compared: tall straight moving roller lever green with modest vertical logo; upper black roller, independent lumbar/seat cushions, black cam cover and fixed low foot bars retained. Gray U-shaped support/base/tower and chrome pivots preserved. Original translucent shroud, top instructions and red warning remain; principal geometry unchanged."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8006-74fe5911e94b0e4c.png"
     },
     {
       "assetId": "fm-n8006-aceffb1a0555a83f",
@@ -20860,16 +20906,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/4d/4d5070c9ad86387e8e05e671a14d104f0a11233a29535187dcb02a1e845eccd5.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8007/primary-01-230e5831b668.webp",
+      "stagedPath": "src/assets/catalog/FM-N8007/primary-01-927c222c5107.webp",
       "sourceHash": "4d5070c9ad86387e8e05e671a14d104f0a11233a29535187dcb02a1e845eccd5",
-      "outputHash": "230e5831b668c9797765c4243112e1a6f342365be86d6e32fda48789c77f8a60",
+      "outputHash": "927c222c5107a85f604ccca8735005ed3b0ef25b635e169a94e304812a08d0a0",
       "mimeType": "image/jpeg",
       "bytes": 34799,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Pec/chest-fly source compared: curved lower moving arm tubes and painted upper handle shafts green. Separate black head/back/seat and grip rubber with silver caps retained; gray fixed supports/tower, black lower adjustment covers and chrome pivots unchanged. Original empty top trapezoid carries modest logo, red warning and semitransparent shroud retained. Main geometry/view preserved."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8007-463f69321bd50350.png"
     },
     {
       "assetId": "fm-n8007-aceffb1a0555a83f",
@@ -20957,16 +21005,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/d6/d679928021e4dcf9c3115dd4462c90e3277d8419227e9201ecd94ca5f72d393a.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8008/primary-01-4427f4cdf4ad.webp",
+      "stagedPath": "src/assets/catalog/FM-N8008/primary-01-70a491b2feef.webp",
       "sourceHash": "d679928021e4dcf9c3115dd4462c90e3277d8419227e9201ecd94ca5f72d393a",
-      "outputHash": "4427f4cdf4ad8c1690fcaa62a24670dccc4add151a3f903f7d05157a05bea879",
+      "outputHash": "70a491b2feefee84717c6ae76f86982ac665c17cc75f717cfb08782d47902786",
       "mimeType": "image/jpeg",
       "bytes": 42659,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Confronto visivo: vista e geometria principali N8008 preservate, inclusi doppio rullo nero, seduta, cavi, pulegge e camme sagomate, shroud trasparente e torre grafite con pannelli blu/rosso. Verde sul lungo braccio superiore e sui leveraggi piegati associati; piccola estensione sul tratto superiore inclinato del supporto verniciato, senza variazione geometrica. Logo fisico contenuto sulla trave diagonale. Microtesti delle etichette illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8008-fdc205da8fd801b3.png"
     },
     {
       "assetId": "fm-n8010-85307ce20a2745b0",
@@ -20978,16 +21028,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/04/04cd6591ef93355f04675336cab20d9d20c0628816c1dd2922b3900aa556c792.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8010/primary-01-24cf4f7a8f8e.webp",
+      "stagedPath": "src/assets/catalog/FM-N8010/primary-01-726317af3898.webp",
       "sourceHash": "04cd6591ef93355f04675336cab20d9d20c0628816c1dd2922b3900aa556c792",
-      "outputHash": "24cf4f7a8f8ed0230032baa573887f565bc775984c5001497c04bd717d84811f",
+      "outputHash": "726317af389868cda1782974cf3a2a0ec481282d7b8d3a8b4ad4affcccce26b2",
       "mimeType": "image/jpeg",
       "bytes": 35560,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8010 confrontato con originale: doppio pad circolare alto, appoggi laterali, pettorale/seduta, tiranti e pulegge conservati; telaio grafite e shroud trasparente invariati. Verde solo bracci inclinati e travi mobili alle spalle, logo compatto sul braccio orizzontale vicino fra le viti. Istruzioni e avviso originali restano nelle posizioni; microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8010-85307ce20a2745b0.png"
     },
     {
       "assetId": "fm-n8012-008bdd52d65bdac4",
@@ -20999,16 +21051,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/9e/9e19c4b9dce7be0a0aa1809ca2d26e2526f1b9751ac5ee74a95d28811a6ddbba.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8012/primary-01-a824e61c38bb.webp",
+      "stagedPath": "src/assets/catalog/FM-N8012/primary-01-35e34a068c0e.webp",
       "sourceHash": "9e19c4b9dce7be0a0aa1809ca2d26e2526f1b9751ac5ee74a95d28811a6ddbba",
-      "outputHash": "a824e61c38bbd2e440be060b84addb6e839e740a843c64441c32c441117e75f9",
+      "outputHash": "35e34a068c0ed612d568198ec21dfb70933ac9564beeb370ab1001eccb4757c7",
       "mimeType": "image/jpeg",
       "bytes": 39934,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8012: confronto visivo positivo su geometria e vista, due leve orizzontali con impugnature, coperture perni posteriori, poggiatesta separato, schienale e seduta neri, meccanismo sedile e cavi/pulegge. Accento verde sulla leva sinistra e gomito destro, piccolo logo sulla prima. Torre grafite, shroud e pannelli blu/rosso preservati; microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8012-008bdd52d65bdac4.png"
     },
     {
       "assetId": "fm-n8012-aceffb1a0555a83f",
@@ -21096,16 +21150,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/ca/cafb23547b2865eb7f2e2b80b20450f3e05f505f93bfb272767161a89197b8a9.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8013/primary-01-4882bd68fd94.webp",
+      "stagedPath": "src/assets/catalog/FM-N8013/primary-01-60bc83c359d7.webp",
       "sourceHash": "cafb23547b2865eb7f2e2b80b20450f3e05f505f93bfb272767161a89197b8a9",
-      "outputHash": "4882bd68fd941f61d99c03c28b998f6b43195272d0cd4692783777a44fc22ae7",
+      "outputHash": "60bc83c359d79de1be6a6e4cb3998266870aca1af78a8daf9dc60a74e7aab4cd",
       "mimeType": "image/jpeg",
       "bytes": 44082,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8013: silhouette e articolazioni principali conservate, poggiatesta/schienale/seat/pad laterali neri, impugnature curve e pulegge/cavi mantenuti. Verde sulle due leve laterali inferiori; logo collocato sulla copertura sagomata esistente del meccanismo seduta, anch'essa verde, invece della piastra curva laterale rimasta grafite. Nessuna nuova superficie o modifica strutturale. Shroud e avviso rosso presenti; pannello blu mantiene posizione/aspetto ma testi generati illustrativi, non documentazione tecnica."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8013-284d5471648d32f5.png"
     },
     {
       "assetId": "fm-n8013-aceffb1a0555a83f",
@@ -21193,16 +21249,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/10/10dfb021a9791869d541f9ed562bc302486c8dbad76e968a27c4313e63bac536.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8014/primary-01-3d5536b24ebc.webp",
+      "stagedPath": "src/assets/catalog/FM-N8014/primary-01-32aa53a4941c.webp",
       "sourceHash": "10dfb021a9791869d541f9ed562bc302486c8dbad76e968a27c4313e63bac536",
-      "outputHash": "3d5536b24ebc105763c5aaedb0b12d16362cccefcfb1138cc8ea3dd04061b89c",
+      "outputHash": "32aa53a4941c10e5db357525a3a5a78e5ea8b302e0524b5ea55cc4b333beb4d7",
       "mimeType": "image/jpeg",
       "bytes": 35622,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8014: geometria, prospettiva, schienale sagomato, seduta e pad cosce neri, telaio/telaio rotante e pulegge identici nel confronto visivo. Due soli supporti inclinati dei pad verdi e logo verticale modesto su quello vicino. Torre grafite e shroud trasparente, istruzioni blu e avviso rosso conservati; microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8014-f42e214e61d979a9.png"
     },
     {
       "assetId": "fm-n8015-064b4fd4fb19e6b2",
@@ -21214,16 +21272,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/80/80b533be265a150676129d14ed747eba7f48c4b9e6cbfbd4ae260e0836a8a900.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8015/primary-01-4ebce4507bcd.webp",
+      "stagedPath": "src/assets/catalog/FM-N8015/primary-01-f8ca793bf2e1.webp",
       "sourceHash": "80b533be265a150676129d14ed747eba7f48c4b9e6cbfbd4ae260e0836a8a900",
-      "outputHash": "4ebce4507bcd8ada395bbf3c16f10e077c53d2ebc0f1e4a2773c778593de3a1f",
+      "outputHash": "f8ca793bf2e198a888f8baa5e6e06d94afcde15e1d6676f5a0fbe9e54dc9e4c7",
       "mimeType": "image/jpeg",
       "bytes": 43380,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8015: confronto visivo conferma struttura principale, braccio mobile superiore, doppio appoggio gomiti nero, impugnature alte e anelli cromati, supporto centrale nero, seduta e poggiaschiena bassi, meccanismo e pedana. Verde sull'arco alto e culla dei gomiti con piccolo logo verticale sul tubo vicino; torre/shroud/pannelli conservati. Microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8015-064b4fd4fb19e6b2.png"
     },
     {
       "assetId": "fm-n8015-a40ccb6f5bfb7ba7",
@@ -21311,16 +21371,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/7c/7ce8e4d6c4c97e98491eabe54cba78e0a3a81ee99eb1526e382c37239b66cff6.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8016/primary-01-1750fe43acb3.webp",
+      "stagedPath": "src/assets/catalog/FM-N8016/primary-01-b19c5c82c5d3.webp",
       "sourceHash": "7ce8e4d6c4c97e98491eabe54cba78e0a3a81ee99eb1526e382c37239b66cff6",
-      "outputHash": "1750fe43acb34578782b2099801613cf4775435dcab4d33b6948dd26f5a56381",
+      "outputHash": "b19c5c82c5d390fb217d007e01a2dc4df34e60e0ab0f46ad1aa6b8f96778fed4",
       "mimeType": "image/jpeg",
       "bytes": 40849,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8016: confronto visivo della pressa conferma guide inclinate cromate, carrello e piastra sagomata, rail schienale con bulloni, poggiatesta/schienale/seduta neri, grande pedana forata grigia e gradino metallico, telaio fisso grigio e pulegge. Verde limitato al rail schienale e piastra del carrello, con logo sulla piastra. Vista e fondo bianco conservati; microtesti pannello illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8016-40835f8656d63242.png"
     },
     {
       "assetId": "fm-n8019-ddf71d3356ac6cd6",
@@ -21332,16 +21394,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/f6/f608148ae55f9e65a2f14d2df7f6d2c1cd5a663d010b7c70e1c61f712ff1bc86.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8019/primary-01-5c8fdd6e4521.webp",
+      "stagedPath": "src/assets/catalog/FM-N8019/primary-01-352d35b71c23.webp",
       "sourceHash": "f608148ae55f9e65a2f14d2df7f6d2c1cd5a663d010b7c70e1c61f712ff1bc86",
-      "outputHash": "5c8fdd6e45211069b3eda37f8319c456414e0b7d5ce5c56e36ce62b7505b9e4f",
+      "outputHash": "352d35b71c2365a6163885fe0c37503a9364af15c8fa0385bca97cd154373605",
       "mimeType": "image/jpeg",
       "bytes": 37000,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8019: confronto visivo positivo: altezza e vista, traversa multi-grip con tutte le impugnature/anelli, montanti curvi, maniglie dip, piattaforma imbottita, quattro gradini e doppia guida cromata mantenuti. Unica traversa alta verde con logo piccolo centrato. Torre grafite e pannelli blu/rosso, shroud e pulegge conservati; microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8019-ddf71d3356ac6cd6.png"
     },
     {
       "assetId": "fm-n8022-28203a361701a508",
@@ -21353,16 +21417,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/0c/0c73a2e9406bd6198cd052ef04ea5de52247df1a652591781326e19c76f3c170.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8022/primary-01-3f5440d699cb.webp",
+      "stagedPath": "src/assets/catalog/FM-N8022/primary-01-9f20bf5e1aad.webp",
       "sourceHash": "0c73a2e9406bd6198cd052ef04ea5de52247df1a652591781326e19c76f3c170",
-      "outputHash": "3f5440d699cbe8e810c699f59f5be180d321570f0a0c536cc4068c4af2f250f2",
+      "outputHash": "9f20bf5e1aad735ee7fda03498b92a71723d4a8d7a5896f06901fdcfb481e7c9",
       "mimeType": "image/jpeg",
       "bytes": 38496,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8022: geometria e componenti mantenuti nel confronto: parallelogramma sotto appoggio torace nero, quattro perni argento, impugnature e pistone, due guide cromate lunghe, carrello/pad piede e pedana forata metallica. Verde sui leveraggi superiori e corpi verniciati del carrello/supporto terminale basso; logo piccolo sul leveraggio superiore. Telaio e torre grafite, shroud e pannelli restano coerenti; microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8022-28203a361701a508.png"
     },
     {
       "assetId": "fm-n8033-dd660518104604ee",
@@ -21374,16 +21440,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/71/7128708d5e0bf105198d8e64058fed3cd08fa58b85ccf2dfadc223988af6c880.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8033/primary-01-10ff04c22a35.webp",
+      "stagedPath": "src/assets/catalog/FM-N8033/primary-01-9b28c4b3ecb2.webp",
       "sourceHash": "7128708d5e0bf105198d8e64058fed3cd08fa58b85ccf2dfadc223988af6c880",
-      "outputHash": "10ff04c22a35c1f53e109b968f176f35d69d1901727c5a12ffb768c0661821f1",
+      "outputHash": "9b28c4b3ecb22f95e39428c7e92298d6ca80ba276934aaa0d83f35b9b710b109",
       "mimeType": "image/jpeg",
       "bytes": 34942,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8033: confronto visivo positivo su doppio pad cosce e rispettive piastre scure, telaio aperto basso, schienale sagomato/seduta, cromature impugnature, giunti e regolazione. Due supporti inclinati verdi con logo verticale sul vicino, tutto il telaio fisso grafite mantenuto. Shroud e pannelli blu/rosso conservati; microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8033-dd660518104604ee.png"
     },
     {
       "assetId": "fm-n8033-6337c133874263ac",
@@ -21471,16 +21539,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/36/3645f934f948c1f2cf277b41328015d15ca5a450c4d327aa014f337d4b63a951.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8036/primary-01-7001133a1033.webp",
+      "stagedPath": "src/assets/catalog/FM-N8036/primary-01-dcb112d0d1e9.webp",
       "sourceHash": "3645f934f948c1f2cf277b41328015d15ca5a450c4d327aa014f337d4b63a951",
-      "outputHash": "7001133a10333a49b29b0fb2f9416101c3bcc1d7b0c350e52c147c8cd4baa341",
+      "outputHash": "dcb112d0d1e9078ba15bd8a37c1fbae008e5e75c45dc16b819814d47c1c14598",
       "mimeType": "image/jpeg",
       "bytes": 33874,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8036: confronto visivo mantiene schienale sagomato e seduta neri, parallelogramma posteriore con barre e perni metallici, supporto pedale anteriore, cavi e struttura curva bassa. Barre diagonali mobili verdi e piccolo logo su barra esterna; perni argento conservati. Torre/shroud/pannelli e triangolo avviso giallo mantenuti, microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8036-1bd56993942ab2dd.png"
     },
     {
       "assetId": "fm-n8036-aceffb1a0555a83f",
@@ -21568,16 +21638,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/36/36c4c976364f721794d6ddb664e1d827330d00647a8c27a9d1891619d8ef59b1.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8044/primary-01-bb906d693dd7.webp",
+      "stagedPath": "src/assets/catalog/FM-N8044/primary-01-92e78d2068be.webp",
       "sourceHash": "36c4c976364f721794d6ddb664e1d827330d00647a8c27a9d1891619d8ef59b1",
-      "outputHash": "bb906d693dd7e8bc1a96cfe8da348cad8568dfa1690f8ce13d2fdaeb708791c7",
+      "outputHash": "92e78d2068bedc0769b5b05fa2e18a662561d03398995edabbd1b7eaacc77c3b",
       "mimeType": "image/jpeg",
       "bytes": 32784,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8044: rullo nero lungo, pad della panca prona, leve regolabili e impugnature verticali cromate/nere, copertura camma e cavi preservati nel confronto con originale. Verde sul solo braccio mobile principale e segmento piegato del rullo, logo piccolo sul braccio. Telaio e torre grigi, shroud e pannello istruzioni mantenuti. Microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8044-105b0c1fc09ff32b.png"
     },
     {
       "assetId": "fm-n8044-562a4dc01b02a5c1",
@@ -21665,16 +21737,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/c1/c12f4a0b6c317ee28b62acc644c433ef3f4e6b6b84a034bf5e4600ef9d02bec7.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8047/primary-01-577a61788980.webp",
+      "stagedPath": "src/assets/catalog/FM-N8047/primary-01-fa5eb4db7721.webp",
       "sourceHash": "c12f4a0b6c317ee28b62acc644c433ef3f4e6b6b84a034bf5e4600ef9d02bec7",
-      "outputHash": "577a617889805cc58d5bc4c2ce795d303089333e641962e8ee1c3a318749c86f",
+      "outputHash": "fa5eb4db7721fe51499d16635cf78d61b09c80d3c877a7ffe3404f66972a41dd",
       "mimeType": "image/jpeg",
       "bytes": 34749,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8047: confronto conferma vista frontale obliqua, doppio braccio pendente articolato, camme/regolazioni alte, impugnature con due direzioni e terminali argento, mast centrale, schienale/seduta neri e regolazioni sedile. Verde sui soli bracci e link alti, piccolo logo verticale su sinistro. Torre e shroud, etichette/cavi mantenuti; microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8047-334be78aceccbca5.png"
     },
     {
       "assetId": "fm-n8050-bc399c274c5fd742",
@@ -21686,16 +21760,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/6b/6bfd0e95d68e4fa2ed458d2c52bc606a6c0dde0655e97db3051fdb098ed313e4.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8050/primary-01-963706f5f7cd.webp",
+      "stagedPath": "src/assets/catalog/FM-N8050/primary-01-6eb78bcc0410.webp",
       "sourceHash": "6bfd0e95d68e4fa2ed458d2c52bc606a6c0dde0655e97db3051fdb098ed313e4",
-      "outputHash": "963706f5f7cd92b014f9f0ac84c4b55ddb0777374836721e8d6175a92a00b4e2",
+      "outputHash": "6eb78bcc0410173f488fe59392cf624d980a6990528156fa806f381e2a3d3710",
       "mimeType": "image/jpeg",
       "bytes": 41160,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8050: struttura e vista preservate; due bracci diagonali con supporti maniglie verdi e logo su vicino, grip neri e collari argento invariati. Schienale sagomato/seduta e regolazioni nere, arco fisso posteriore grigio, pulegge e cavi mantenuti. Torre/shroud/pannelli coerenti; microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8050-bc399c274c5fd742.png"
     },
     {
       "assetId": "fm-n8053-c3643bedcb59981e",
@@ -21707,16 +21783,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/3f/3fa38ed117ceaf4a14b1e09d76a56c95da03be96f5e29e985fba0106eab28c87.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8053/primary-01-ce99761cda80.webp",
+      "stagedPath": "src/assets/catalog/FM-N8053/primary-01-312d84c824f8.webp",
       "sourceHash": "3fa38ed117ceaf4a14b1e09d76a56c95da03be96f5e29e985fba0106eab28c87",
-      "outputHash": "ce99761cda804c4209ddeaf189e0b0e1f7194cf98be51d908159c4991c446208",
+      "outputHash": "312d84c824f8c9903ccfd30b0a5f80111ea75ef644fe815e70ad9170211ca812",
       "mimeType": "image/jpeg",
       "bytes": 34653,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8053: confronto visivo mantiene piastrine/pedane metalliche, montanti regolabili, coppia di pad neri, seduta/schienale inclinato e arco fisso posteriore. Verde sulla trave curva mobile anteriore e supporti dei pad; logo modesto sulla trave. Base, pacco pesi e shroud grafite preservati. Etichette nelle posizioni originali; microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8053-c3643bedcb59981e.png"
     },
     {
       "assetId": "fm-n8053-aceffb1a0555a83f",
@@ -21804,16 +21882,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/59/590b8435b21f83d1156a189634705b658fffa95f8830dcfb7f9fb7933256d44e.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8054/primary-01-dd3ffba84932.webp",
+      "stagedPath": "src/assets/catalog/FM-N8054/primary-01-cdc9a2886c5f.webp",
       "sourceHash": "590b8435b21f83d1156a189634705b658fffa95f8830dcfb7f9fb7933256d44e",
-      "outputHash": "dd3ffba849320c1b0df3a260ac889924454c03f06f888a684e8b1ce3d4c417b2",
+      "outputHash": "cdc9a2886c5f87d402d7cdb30e958bc25157836788e646d018cc03167cc63220",
       "mimeType": "image/jpeg",
       "bytes": 35841,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8054: confronto mantiene seduta e appoggio superiore sagomati neri, doppi rulli bassi, arco forato argento, selettore giallo e avvisi originali. Verde limitato al lungo tubo curvo davanti alla torre; logo nel trapezio alto gi? vuoto nell'originale, senza sostituire istruzioni. Shroud, telaio e vista preservati. Microtesti avvisi illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8054-5d01056ab40048a2.png"
     },
     {
       "assetId": "fm-n8056-7b77e353225ad0f6",
@@ -21825,16 +21905,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/86/867cd42d01cca773611d33cf980df7a84f9006d98d21fa7eea2b6f3a94cbae09.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8056/primary-01-e7e1dd92042d.webp",
+      "stagedPath": "src/assets/catalog/FM-N8056/primary-01-5b1784f09f12.webp",
       "sourceHash": "867cd42d01cca773611d33cf980df7a84f9006d98d21fa7eea2b6f3a94cbae09",
-      "outputHash": "e7e1dd92042dddf0abca6079f6ebdec430e00d9b669a8ee7b93467ecde2e37c8",
+      "outputHash": "5b1784f09f12dd1dd653f3e874d2814037bb8b990dab1e7525d32fe378fcc04f",
       "mimeType": "image/jpeg",
       "bytes": 46987,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8056: vista e geometria press conservate, due lunghi bracci diagonali, quattro grip con estremit? argento, articolazioni alte e leveraggi sedile bassi, pistone e cavi. Verde sui bracci e link superiori, logo sulla faccia destra; telaio fisso grafite e pad neri invariati. Shroud, pannello blu, rosso e triangolo giallo mantenuti. Microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8056-7b77e353225ad0f6.png"
     },
     {
       "assetId": "fm-n8056-aceffb1a0555a83f",
@@ -21922,16 +22004,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/21/216a2db3be03c4912eb6d636c9a03869f965c3b04f8f927da8ef29e8f5bf4b4c.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8057/primary-01-455c0a0f19f3.webp",
+      "stagedPath": "src/assets/catalog/FM-N8057/primary-01-9644f6df5c5f.webp",
       "sourceHash": "216a2db3be03c4912eb6d636c9a03869f965c3b04f8f927da8ef29e8f5bf4b4c",
-      "outputHash": "455c0a0f19f34d7af05395391bee0cecb61f566a0bef86fff8fdd99ac125beac",
+      "outputHash": "9644f6df5c5f8899192db7165193d418f5e17710cd2900dc09ec91a94fe77a1d",
       "mimeType": "image/jpeg",
       "bytes": 30768,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8057: confronto visivo mantiene panca lunga con pad nero, doppi rulli inclinati, barra lat e barra rematore, carrucola doppia sospesa, cavi e piedi stabilizzatori. Solo braccio alto diagonale verde con logo sulla faccia; pulegge nere e perni metallici. Torre/shroud grafite, blu istruzioni e rosso avviso preservati; microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8057-70a75b2cc18376e3.png"
     },
     {
       "assetId": "fm-n8057-aceffb1a0555a83f",
@@ -22019,16 +22103,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/b3/b3ae94713b5cc2629e223bb28863c587f01851a79cfaa2bd10a93bec40b91442.jpg",
-      "stagedPath": "src/assets/catalog/FM-N8058/primary-01-6a23c5c04d20.webp",
+      "stagedPath": "src/assets/catalog/FM-N8058/primary-01-3c1254214c10.webp",
       "sourceHash": "b3ae94713b5cc2629e223bb28863c587f01851a79cfaa2bd10a93bec40b91442",
-      "outputHash": "6a23c5c04d203d0263e7ef26dc75a3daf8b7c28675dff9ec7f07d8274d1e0842",
+      "outputHash": "3c1254214c10756c51780ce15b65567c7bbdeaf60e8eba0b9f631b03087f7b0f",
       "mimeType": "image/jpeg",
       "bytes": 35952,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: N8058: confronto visivo conferma quattro rulli neri, doppi supporti regolabili cromati, seduta/schienale e impugnature nere, geometria delle camme e dei leveraggi, avvisi triangolari e cavi. Verde sulla trave rulli superiore e braccio curvo inferiore con logo sul tratto orizzontale. Telaio fisso grafite, shroud e pannelli conservati. Microtesti illustrativi."
+      ],
+      "editedPath": "data/catalog-branding/generated/n8-batch-01/fm-n8058-0fcc5dc15fad5578.png"
     },
     {
       "assetId": "fm-n8058-aceffb1a0555a83f",
@@ -22565,16 +22651,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/76/765b0646a6826da4dd4ed69cb60cef5a8cc6a0866d190d408a7fda604ae625a2.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1014/primary-01-1201c91abd1b.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1014/primary-01-816343da61df.webp",
       "sourceHash": "765b0646a6826da4dd4ed69cb60cef5a8cc6a0866d190d408a7fda604ae625a2",
-      "outputHash": "1201c91abd1b10deac0ced2a1b00d32beebeec708c6d8fcd67dd5d05f1689ab1",
+      "outputHash": "816343da61df2bf48dec22da379fcecce018cd0ce3ac4206cef7bc0356ddfa68",
       "mimeType": "image/jpeg",
       "bytes": 25219,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Ganci e due sicurezze da blu a verde, montanti e base neri. Conservati fori, perni rossi e fissaggi argentati. Logo sul traverso basso, senza coprire le regolazioni."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1014-7115c18f97004b72.png"
     },
     {
       "assetId": "fm-q1015-40af0f10907f6a9e",
@@ -22586,16 +22674,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/03/038a9490ff2c2b4746781f993b96157e8c9c9e186f5fd9b5e04fb98d11a6b153.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1015/primary-01-c64052532a32.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1015/primary-01-bdaf21d87452.webp",
       "sourceHash": "038a9490ff2c2b4746781f993b96157e8c9c9e186f5fd9b5e04fb98d11a6b153",
-      "outputHash": "c64052532a326607d1429eacdbac4bb03a530b0475e517215f8c98fa372839e9",
+      "outputHash": "bdaf21d874528fd49257b8012ebcecd714ab0baf718d38f33eb220ee512ce123",
       "mimeType": "image/jpeg",
       "bytes": 28510,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Supporti a gradini, dip e sicurezze da blu a verde, telai neri e perni cromati conservati. Logo singolo sul traverso alto, tutte le regolazioni e impugnature originali presenti."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1015-40af0f10907f6a9e.png"
     },
     {
       "assetId": "fm-q1016-4299c540adf1e439",
@@ -23116,16 +23206,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/61/6141dc54ecfbaf64a91a4ef1cf8a5f1641a06c3fa7c0a8e0a2d330ab68af1a57.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1031/primary-01-ee6b172e9448.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1031/primary-01-fa2e9ae16472.webp",
       "sourceHash": "6141dc54ecfbaf64a91a4ef1cf8a5f1641a06c3fa7c0a8e0a2d330ab68af1a57",
-      "outputHash": "ee6b172e9448b633ae3de4b055914806f0ae74f07f1a1ad7f09ac9c0083bb5a9",
+      "outputHash": "fa2e9ae16472162b8dd24dc6f5c922a900486704b7c123c5897008e7c50b74e8",
       "mimeType": "image/jpeg",
       "bytes": 57809,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Montanti anteriori verdi, ganci, sicurezze, rulli, pedana e cavi mantenuti. Guide/perni cromati conservati, due marchi fornitore sostituiti sui pannelli originali. Motivi forati a X restano presenti, nessuna numerazione introdotta."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1031-31378fe92c4a69a8.png"
     },
     {
       "assetId": "fm-q1032-4190ecbbd1e7daf4",
@@ -23447,16 +23539,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/4c/4ca8b48734f72999fc782834cc1e18f31fd12f80ffb0a4f32c0477c63ac26039.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1037/primary-01-67081f84af36.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1037/primary-01-696689295644.webp",
       "sourceHash": "4ca8b48734f72999fc782834cc1e18f31fd12f80ffb0a4f32c0477c63ac26039",
-      "outputHash": "67081f84af369b9ab10c8e57ee68fad756a19bee39544ed9ab0a54fcd28982bd",
+      "outputHash": "6966892956440abcc2b227e30c276cab8e7b2360dc9d10866e671b3c4ac7dbe0",
       "mimeType": "image/jpeg",
       "bytes": 35950,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Due montanti anteriori verdi; anche la piastra esistente di fissaggio della sicurezza destra ? verde. Cinghie gialle, bilanciere cromato, retro e traversi neri conservati. Logo sostituito sul pannello alto."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1037-139b9f0bef7ef7f9.png"
     },
     {
       "assetId": "fm-q1038a-2690e0d02a46e379",
@@ -23468,16 +23562,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/a0/a0f3953a216686eff2a4889c0d0e2bcac35f8dc27e2fb07b344fa944eb3df096.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1038A/primary-01-e5385ab4694a.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1038A/primary-01-aba5ecdbf97b.webp",
       "sourceHash": "a0f3953a216686eff2a4889c0d0e2bcac35f8dc27e2fb07b344fa944eb3df096",
-      "outputHash": "e5385ab4694a15b46b877c2c65b69a7ffc3d07953f69720c70ae32487e485240",
+      "outputHash": "aba5ecdbf97b4eeb6c7696908e13de197874a42f1531ba01c4822fd09c643bbb",
       "mimeType": "image/jpeg",
       "bytes": 30002,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Montanti verdi, pannelli e ganci neri, perni rossi conservati. Due loghi sui pannelli originali superiore/inferiore, aperture e fissaggi mantenuti. Nessun elemento aggiunto."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1038a-2690e0d02a46e379.png"
     },
     {
       "assetId": "fm-q1038b-c828b7e25466cc31",
@@ -23489,16 +23585,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/bb/bb27a8e52dd4a13d5177b3cd7f59172277ac7451aa811c20638650848f514936.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1038B/primary-01-1d968e116248.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1038B/primary-01-6eedd7aa0f38.webp",
       "sourceHash": "bb27a8e52dd4a13d5177b3cd7f59172277ac7451aa811c20638650848f514936",
-      "outputHash": "1d968e11624888ddb54dc88655dbe69a0236cd2c43201a6edda48d5159d99bef",
+      "outputHash": "6eedd7aa0f383013d009e4786c916ba0e817ca14afad0e385a07011992212c22",
       "mimeType": "image/jpeg",
       "bytes": 27408,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Montanti verdi, telaio di fissaggio nero, perni rossi e bulloni argentati conservati. Profondit? e disposizione dei bracci specifiche della variante Q1038B mantenute. Marchi sostituiti sulle due traverse posteriori senza coprire aperture."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1038b-c828b7e25466cc31.png"
     },
     {
       "assetId": "fm-q1038c-074cec659932c5cd",
@@ -23510,16 +23608,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/4a/4ab34959c59c54bd471b04d7c0f1ec14c0676271aaf85945057bbc678871d178.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1038C/primary-01-edb585f8e532.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1038C/primary-01-63ba7d1b824a.webp",
       "sourceHash": "4ab34959c59c54bd471b04d7c0f1ec14c0676271aaf85945057bbc678871d178",
-      "outputHash": "edb585f8e532a25df5994bd3cb34c5a06e66b550c4c835e74894d8c06da1d0dd",
+      "outputHash": "63ba7d1b824a5fabe2d107dfe2cb91aed354be06ef0756698628ae7ce14d325e",
       "mimeType": "image/jpeg",
       "bytes": 29608,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Montanti verdi, telaio di fissaggio nero, perni rossi e bulloni argentati conservati. Profondit? e disposizione dei bracci specifiche della variante Q1038C mantenute. Marchi sostituiti sulle due traverse posteriori senza coprire aperture."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1038c-074cec659932c5cd.png"
     },
     {
       "assetId": "fm-q1040-cd4675019346277b",
@@ -23552,16 +23652,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/1f/1f780f81d277e5ea66aae80bcb5558af46a258fbb8da530b2fbd70e7feb2b59c.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1041/primary-01-10e8df74b420.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1041/primary-01-ed085e91c165.webp",
       "sourceHash": "1f780f81d277e5ea66aae80bcb5558af46a258fbb8da530b2fbd70e7feb2b59c",
-      "outputHash": "10e8df74b420d6466919be6f1aa144789005ab88fe89b584232f98afd2a35360",
+      "outputHash": "ed085e91c165ac0d5c7c455895591a91a0f3aa94f0ce18283b5de2c5c641fcf4",
       "mimeType": "image/jpeg",
       "bytes": 39992,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Sicurezze e piedi anteriori verdi, resto nero/cromato e collari gialli conservati. Due correzioni localizzate della scala: eliminata numerazione grande artificiale e riportata a microstampa tenue come fonte. Microtesti illustrativi, non valori tecnici certificati. Logo superiore singolo."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1041-728e3faa6417df98.png"
     },
     {
       "assetId": "fm-q1046-52a30945602cc8ce",
@@ -23594,16 +23696,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/06/06299539d5b9f95fe5cb216ff3f39ba039bb1185133a6895a70429b4539be0ac.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1048/primary-01-2daabe157216.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1048/primary-01-c6dbfdbb799a.webp",
       "sourceHash": "06299539d5b9f95fe5cb216ff3f39ba039bb1185133a6895a70429b4539be0ac",
-      "outputHash": "2daabe1572160fc425e7941c8f1ff2d12b98b47634626d9388d2895aa1e87bb3",
+      "outputHash": "c6dbfdbb799a2decedde31a323a70ab302e49d9562fc9f657cd95517ae2c8b18",
       "mimeType": "image/jpeg",
       "bytes": 22032,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Bracci inclinati superiori e sicurezze verdi, montanti e attacchi a parete neri. Logo piccolo sul braccio sinistro; fori, ganci, geometria e fissaggi conservati."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1048-ee4a071eade9aaba.png"
     },
     {
       "assetId": "fm-q1051-ff6c68c1bf1b7295",
@@ -24002,16 +24106,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/44/44fe6523246ba79f812b53549f84fa7387468d398951b14264aa91cdc05dcf06.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1067/primary-01-5f7839b09316.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1067/primary-01-9e16cdc7c11a.webp",
       "sourceHash": "44fe6523246ba79f812b53549f84fa7387468d398951b14264aa91cdc05dcf06",
-      "outputHash": "5f7839b093167492d6ec7d6d560caabf0b45af173ea94c610167a4a0563226d1",
+      "outputHash": "9e16cdc7c11a57524f00b223312f87c48acbfc8eac1afbaac62a29d4056e7457",
       "mimeType": "image/jpeg",
       "bytes": 41716,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Montanti verdi, tutte le barre, dip, ganci, sicurezze e carrello cavi conservati. Guide e perni cromati, unico logo sul traverso alto; scritte fornitore sulle sicurezze rimosse."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1067-d09ecfa4469886d3.png"
     },
     {
       "assetId": "fm-q1070-9fd03d8e6579a156",
@@ -24086,16 +24192,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/9e/9ec6328c9844fc93d66cecbedec6b504056a67f766c70d6274974c3bf609e007.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1076/primary-01-edac56633185.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1076/primary-01-aea42510ab31.webp",
       "sourceHash": "9ec6328c9844fc93d66cecbedec6b504056a67f766c70d6274974c3bf609e007",
-      "outputHash": "edac566331853866a92721d1146043fa835cad83a64c88d68597b2695bdb164e",
+      "outputHash": "aea42510ab316b85f61b28de1f0efba72e19b51d702844ddb46488ae29f2031c",
       "mimeType": "image/jpeg",
       "bytes": 46996,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Due montanti anteriori verdi, originali pannelli e accessori conservati. Rimangono visibili i quattro accessori separati a destra (la barra superiore era gi? nella fonte), pedana diamantata metallica e supporti neri. Due loghi sui carter, nessun marchio fornitore residuo."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1076-196feff11b59fc8a.png"
     },
     {
       "assetId": "fm-q1078a-742aca1e764e5316",
@@ -24107,16 +24215,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/ec/ec4d5f19bfb5c052da3742fb774c481b4751ff3ec2f3daed1cf102fb7b5d5c45.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1078A/primary-01-73cc9539c151.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1078A/primary-01-ae136c40e959.webp",
       "sourceHash": "ec4d5f19bfb5c052da3742fb774c481b4751ff3ec2f3daed1cf102fb7b5d5c45",
-      "outputHash": "73cc9539c15127a5e7e8a0ed8f7b5c2f6d4bccdc985533f365edb647c4db585a",
+      "outputHash": "ae136c40e959adea8eb7b5f25e769cd54bb688ab3a76691395bc88b5887579d3",
       "mimeType": "image/jpeg",
       "bytes": 38308,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Parti originariamente blu (traversa superiore e base) verdi; montanti e ganci neri, otto perni laterali cromati e geometria conservati. Logo singolo sul traverso alto."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1078a-742aca1e764e5316.png"
     },
     {
       "assetId": "fm-q1079-67f0040d9d8763bc",
@@ -24229,16 +24339,18 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/48/48f51640838b4eabc45ee14d70b48c4420b545f69fb40719a7a6539e83f1b581.jpg",
-      "stagedPath": "src/assets/catalog/FM-Q1106/primary-01-ef4a13ac021b.webp",
+      "stagedPath": "src/assets/catalog/FM-Q1106/primary-01-510872dff5a1.webp",
       "sourceHash": "48f51640838b4eabc45ee14d70b48c4420b545f69fb40719a7a6539e83f1b581",
-      "outputHash": "ef4a13ac021b03c152c4481692e92f15f32ca19d9448a6a02f3bdd52d0fd13fa",
+      "outputHash": "510872dff5a1e7f2d1d996b63524c650c67cc4ca2470cd5f2307ee08f9d44ef1",
       "mimeType": "image/jpeg",
       "bytes": 26436,
-      "width": 1000,
-      "height": 1000,
+      "width": 1254,
+      "height": 1254,
       "reviewNotes": [
-        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file."
-      ]
+        "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
+        "Full Muscle branding: Due montanti strutturali verdi; guide cromate separate, molle, perni e manicotti metallici conservati. Bilanciere nero, base e traversi neri; logo superiore singolo."
+      ],
+      "editedPath": "data/catalog-branding/generated/power-racks-01/fm-q1106-dcb526c404cdefc9.png"
     },
     {
       "assetId": "fm-q1108-0d9552003d6c1de6",

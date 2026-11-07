@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-8032-f2283a09ddb5c075",
+  "sku": "FM-8032",
+  "role": "primary",
+  "sourceHash": "b58a0c9512cdce011a1878db3c293eb0904e349728f8d8601cc71ac4360ca817",
+  "inputPath": "src/assets/catalog/FM-8032/primary-01-640e5cb9a1e4.webp",
+  "originalPath": "data/catalog-assets/originals/b5/b58a0c9512cdce011a1878db3c293eb0904e349728f8d8601cc71ac4360ca817.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-8032-f2283a09ddb5c075.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-8032 adjustable standalone bench: only central existing broad triangular painted adjustment side plate beneath the middle pad becomes green, small logo on its existing visible face. Preserve ALL THREE separate burgundy pads, silver rounded pad-support tubes, all silver base/legs/feet, pivot bolts and lower adjustment arm/cylinder, black endcaps and tiny wheels. Do not change pad segmentation or flat pose.",
+  "review": "Adjustable-bench source compared: all three separate burgundy pads and flat pose retained; existing central triangular adjustment side plate and adjacent painted short side link green. Silver pad-support tubes, lower base/legs, adjustment arm/cylinder and metallic pivots preserved; black caps retained. Modest logo on existing plate, no geometry or segmentation change.",
+  "publicSku": "FM-8032",
+  "editTarget": "src/assets/catalog/FM-8032/primary-01-640e5cb9a1e4.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:36:04.344Z",
+  "outputHash": "c6c02b8dc4580f3bbd71905f1a827bad10db424b6751caefea3d76e0cbd2c1d7",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

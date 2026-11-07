@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8057-70a75b2cc18376e3",
+  "sku": "FM-N8057",
+  "role": "primary",
+  "sourceHash": "216a2db3be03c4912eb6d636c9a03869f965c3b04f8f927da8ef29e8f5bf4b4c",
+  "inputPath": "src/assets/catalog/FM-N8057/primary-01-455c0a0f19f3.webp",
+  "originalPath": "data/catalog-assets/originals/21/216a2db3be03c4912eb6d636c9a03869f965c3b04f8f927da8ef29e8f5bf4b4c.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8057-70a75b2cc18376e3.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8057: recolor ONLY the existing upper diagonal pulley boom projecting up-left from the tower DARK FOREST GREEN. Small physical FullMuscle logo on its broad side face. Keep all pulley wheels black, bolts silver, suspended lat bar and row bar black with silver ends, dual floating pulleys, seat and thigh rollers black, full bench support and tower graphite, transparent shroud, instruction panel and red warning. Do not change long bench or low foot supports.",
+  "review": "N8057: confronto visivo mantiene panca lunga con pad nero, doppi rulli inclinati, barra lat e barra rematore, carrucola doppia sospesa, cavi e piedi stabilizzatori. Solo braccio alto diagonale verde con logo sulla faccia; pulegge nere e perni metallici. Torre/shroud grafite, blu istruzioni e rosso avviso preservati; microtesti illustrativi.",
+  "publicSku": "FM-N8057",
+  "editTarget": "src/assets/catalog/FM-N8057/primary-01-455c0a0f19f3.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:55:27.986Z",
+  "outputHash": "528e4e1347169865311d379fb7c53d869095cc73ce31b12ff672ca6fa3894dd8",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

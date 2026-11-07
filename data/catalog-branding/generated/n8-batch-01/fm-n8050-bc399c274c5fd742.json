@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8050-bc399c274c5fd742",
+  "sku": "FM-N8050",
+  "role": "primary",
+  "sourceHash": "6bfd0e95d68e4fa2ed458d2c52bc606a6c0dde0655e97db3051fdb098ed313e4",
+  "inputPath": "src/assets/catalog/FM-N8050/primary-01-963706f5f7cd.webp",
+  "originalPath": "data/catalog-assets/originals/6b/6bfd0e95d68e4fa2ed458d2c52bc606a6c0dde0655e97db3051fdb098ed313e4.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8050-bc399c274c5fd742.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8050: recolor ONLY the existing long diagonal moving arm beams flanking the seat and their short exposed painted handle supports, DARK FOREST GREEN. Keep black grip sleeves/chrome collars, black sculpted backrest/seat, gray rear curved fixed arch, pulleys, cables, seat adjustment covers and entire main graphite chassis unchanged. Place one modest physical logo on the near-right broad diagonal moving beam. Tower translucent shroud and blue/red labels unchanged.",
+  "review": "N8050: struttura e vista preservate; due bracci diagonali con supporti maniglie verdi e logo su vicino, grip neri e collari argento invariati. Schienale sagomato/seduta e regolazioni nere, arco fisso posteriore grigio, pulegge e cavi mantenuti. Torre/shroud/pannelli coerenti; microtesti illustrativi.",
+  "publicSku": "FM-N8050",
+  "editTarget": "src/assets/catalog/FM-N8050/primary-01-963706f5f7cd.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:52:39.433Z",
+  "outputHash": "e498c8093bd4ccf2e08f8858e42ffb497ac7ec3f34298e79f13ebd61628517ad",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

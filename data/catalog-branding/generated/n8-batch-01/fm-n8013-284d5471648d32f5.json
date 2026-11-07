@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8013-284d5471648d32f5",
+  "sku": "FM-N8013",
+  "role": "primary",
+  "sourceHash": "cafb23547b2865eb7f2e2b80b20450f3e05f505f93bfb272767161a89197b8a9",
+  "inputPath": "src/assets/catalog/FM-N8013/primary-01-4882bd68fd94.webp",
+  "originalPath": "data/catalog-assets/originals/ca/cafb23547b2865eb7f2e2b80b20450f3e05f505f93bfb272767161a89197b8a9.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8013-284d5471648d32f5.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8013: recolor ONLY the existing moving side arm linkage tubes on both sides of the seat and the broad curved near-right moving elbow lever plate, DARK FOREST GREEN. Keep fixed graphite frame/rails, black handgrip sleeves, chrome bits, round cam covers, pulleys/cables and all pads unchanged. Add one modest logo on the broad near-right curved lever plate face without covering hardware. Preserve blue instruction panel and red warning on tower.",
+  "review": "N8013: silhouette e articolazioni principali conservate, poggiatesta/schienale/seat/pad laterali neri, impugnature curve e pulegge/cavi mantenuti. Verde sulle due leve laterali inferiori; logo collocato sulla copertura sagomata esistente del meccanismo seduta, anch'essa verde, invece della piastra curva laterale rimasta grafite. Nessuna nuova superficie o modifica strutturale. Shroud e avviso rosso presenti; pannello blu mantiene posizione/aspetto ma testi generati illustrativi, non documentazione tecnica.",
+  "publicSku": "FM-N8013",
+  "editTarget": "src/assets/catalog/FM-N8013/primary-01-4882bd68fd94.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:45:41.011Z",
+  "outputHash": "ee00ccdbd6820bab962a415cb520991e956b5730d09e2e4614ad5577d49e1160",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

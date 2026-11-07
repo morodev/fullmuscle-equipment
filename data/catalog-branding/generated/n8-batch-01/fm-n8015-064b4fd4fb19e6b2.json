@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8015-064b4fd4fb19e6b2",
+  "sku": "FM-N8015",
+  "role": "primary",
+  "sourceHash": "80b533be265a150676129d14ed747eba7f48c4b9e6cbfbd4ae260e0836a8a900",
+  "inputPath": "src/assets/catalog/FM-N8015/primary-01-4ebce4507bcd.webp",
+  "originalPath": "data/catalog-assets/originals/80/80b533be265a150676129d14ed747eba7f48c4b9e6cbfbd4ae260e0836a8a900.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8015-064b4fd4fb19e6b2.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8015: recolor ONLY the existing upper moving arm cradle support tubes directly beneath the two elbow pads and the bare painted sections of the tall curved overhead handle bar, DARK FOREST GREEN. Rubber grips and chrome endrings stay black/chrome. One small physical logo vertically on the near-side descending elbow-pad support tube. Keep all black upholstery, fixed graphite frame, lower footbar, cams, cables, transparent shroud and blue/red tower labels.",
+  "review": "N8015: confronto visivo conferma struttura principale, braccio mobile superiore, doppio appoggio gomiti nero, impugnature alte e anelli cromati, supporto centrale nero, seduta e poggiaschiena bassi, meccanismo e pedana. Verde sull'arco alto e culla dei gomiti con piccolo logo verticale sul tubo vicino; torre/shroud/pannelli conservati. Microtesti illustrativi.",
+  "publicSku": "FM-N8015",
+  "editTarget": "src/assets/catalog/FM-N8015/primary-01-4ebce4507bcd.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:47:21.354Z",
+  "outputHash": "4e22c751bd817958b5a3c60a3290856e0939678b1b44cab7aa348e987d7447c6",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

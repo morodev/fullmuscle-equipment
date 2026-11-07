@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8022-28203a361701a508",
+  "sku": "FM-N8022",
+  "role": "primary",
+  "sourceHash": "0c73a2e9406bd6198cd052ef04ea5de52247df1a652591781326e19c76f3c170",
+  "inputPath": "src/assets/catalog/FM-N8022/primary-01-3f5440d699cb.webp",
+  "originalPath": "data/catalog-assets/originals/0c/0c73a2e9406bd6198cd052ef04ea5de52247df1a652591781326e19c76f3c170.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8022-28203a361701a508.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8022: recolor ONLY the existing compact parallelogram upper moving pad-support linkage immediately behind/below the black chest pad and the painted body of the low sliding foot-lever carriage between the chrome rails DARK FOREST GREEN. One tiny physical logo on the broad upper pad support side face. Do not recolor chrome rails, chrome discs, gas spring, black chest pad, black handle sleeves or slotted metallic footstep. Main graphite frame, shroud, tower instructions and warning unchanged.",
+  "review": "N8022: geometria e componenti mantenuti nel confronto: parallelogramma sotto appoggio torace nero, quattro perni argento, impugnature e pistone, due guide cromate lunghe, carrello/pad piede e pedana forata metallica. Verde sui leveraggi superiori e corpi verniciati del carrello/supporto terminale basso; logo piccolo sul leveraggio superiore. Telaio e torre grafite, shroud e pannelli restano coerenti; microtesti illustrativi.",
+  "publicSku": "FM-N8022",
+  "editTarget": "src/assets/catalog/FM-N8022/primary-01-3f5440d699cb.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:49:17.374Z",
+  "outputHash": "17b14ff6ec61b514fb6747d40ca2bd5a48655a844adfcfeb990108eb1bb20938",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

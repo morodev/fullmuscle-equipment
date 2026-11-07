@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8006-74fe5911e94b0e4c",
+  "sku": "FM-N8006",
+  "role": "primary",
+  "sourceHash": "a6d5117709ea23058f2aa2e5fa6b83779bec5afee29bb970d2a2dc406c404fda",
+  "inputPath": "src/assets/catalog/FM-N8006/primary-01-b3595e3d30ed.webp",
+  "originalPath": "data/catalog-assets/originals/a6/a6d5117709ea23058f2aa2e5fa6b83779bec5afee29bb970d2a2dc406c404fda.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8006-74fe5911e94b0e4c.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8006 back extension graphite frame: recolor only the tall straight moving lever supporting top cylindrical roller and its small painted pivot sleeve dark green. Small vertical physical FullMuscle logo on existing lever face. Preserve black upper roller, separate contoured lumbar pad/seat, black cam guard, two low foot bars, gray U-shaped fixed frame/tower/base and all chrome adjustments. Keep translucent shroud and original top blue instructions/red warning unchanged.",
+  "review": "Back-extension source compared: tall straight moving roller lever green with modest vertical logo; upper black roller, independent lumbar/seat cushions, black cam cover and fixed low foot bars retained. Gray U-shaped support/base/tower and chrome pivots preserved. Original translucent shroud, top instructions and red warning remain; principal geometry unchanged.",
+  "publicSku": "FM-N8006",
+  "editTarget": "src/assets/catalog/FM-N8006/primary-01-b3595e3d30ed.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:41:03.237Z",
+  "outputHash": "e327dd22c2231b51ef80b756d497deff1c2cfdb6e0050d15574248f0fed9d459",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

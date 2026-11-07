@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8033-dd660518104604ee",
+  "sku": "FM-N8033",
+  "role": "primary",
+  "sourceHash": "7128708d5e0bf105198d8e64058fed3cd08fa58b85ccf2dfadc223988af6c880",
+  "inputPath": "src/assets/catalog/FM-N8033/primary-01-10ff04c22a35.webp",
+  "originalPath": "data/catalog-assets/originals/71/7128708d5e0bf105198d8e64058fed3cd08fa58b85ccf2dfadc223988af6c880.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8033-dd660518104604ee.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8033: recolor ONLY the two existing angled moving thigh-pad support tubes directly beneath the paired black pads, DARK FOREST GREEN. Place one modest vertical physical logo on the near support tube. Preserve both black pads and their dark backing plates, shaped black backrest and seat, fixed graphite base/frame, rotational adjustment and chrome details. Keep translucent tower shroud and blue/red labels.",
+  "review": "N8033: confronto visivo positivo su doppio pad cosce e rispettive piastre scure, telaio aperto basso, schienale sagomato/seduta, cromature impugnature, giunti e regolazione. Due supporti inclinati verdi con logo verticale sul vicino, tutto il telaio fisso grafite mantenuto. Shroud e pannelli blu/rosso conservati; microtesti illustrativi.",
+  "publicSku": "FM-N8033",
+  "editTarget": "src/assets/catalog/FM-N8033/primary-01-10ff04c22a35.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:49:54.872Z",
+  "outputHash": "40cfdff761784ce70d059301c5e735de5e7899173637ade05c07498aeec6765c",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

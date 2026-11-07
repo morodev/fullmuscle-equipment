@@ -1,0 +1,8 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-Q1078A/primary-01-73cc9539c151.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Edit FIRST machine photograph. Second is color/brand reference only. Preserve exact geometry, component quantities and shapes, all holes/mechanisms, viewpoint, proportions and white background. Change ONLY all existing BLUE painted metal components to satin dark forest green #356B35: top horizontal beam and its side fastening plates, bottom base rails/feet, lower horizontal connecting rails and their blue brackets. Keep ALL black vertical posts, diagonal black rear supports, safety rails, J-hooks and pull-up grips BLACK; chrome storage horns stay SILVER. Preserve all holes and bolts. Add one small white italic Full Muscle / tiny EQUIPMENT centered on existing green upper front crossbeam, not overlapping grips. Paint/branding edit only. No new machine parts."
+}

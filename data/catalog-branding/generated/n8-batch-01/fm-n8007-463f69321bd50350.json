@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8007-463f69321bd50350",
+  "sku": "FM-N8007",
+  "role": "primary",
+  "sourceHash": "4d5070c9ad86387e8e05e671a14d104f0a11233a29535187dcb02a1e845eccd5",
+  "inputPath": "src/assets/catalog/FM-N8007/primary-01-230e5831b668.webp",
+  "originalPath": "data/catalog-assets/originals/4d/4d5070c9ad86387e8e05e671a14d104f0a11233a29535187dcb02a1e845eccd5.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8007-463f69321bd50350.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8007 pec/chest fly graphite frame: recolor only pair of large curved lower moving arm tubes which rise from low seat-side pivots toward chest-height grips dark green. Keep black grip rubber/silver caps, black separate head/back/seat pads, gray fixed supports/base/tower, black seat adjustment covers and chrome parts unchanged. Place one compact physical FullMuscle logo on existing EMPTY top trapezoid panel (it has no instruction decal in this source); do not add panel or instructions. Preserve red tower warning and semitransparent shroud.",
+  "review": "Pec/chest-fly source compared: curved lower moving arm tubes and painted upper handle shafts green. Separate black head/back/seat and grip rubber with silver caps retained; gray fixed supports/tower, black lower adjustment covers and chrome pivots unchanged. Original empty top trapezoid carries modest logo, red warning and semitransparent shroud retained. Main geometry/view preserved.",
+  "publicSku": "FM-N8007",
+  "editTarget": "src/assets/catalog/FM-N8007/primary-01-230e5831b668.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:41:34.541Z",
+  "outputHash": "2b918a771b10477fa78cf4b24d32c495adc168fc960a96d58a1156d7a475aa7e",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}

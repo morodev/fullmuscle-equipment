@@ -1,0 +1,22 @@
+{
+  "assetId": "fm-n8054-5d01056ab40048a2",
+  "sku": "FM-N8054",
+  "role": "primary",
+  "sourceHash": "590b8435b21f83d1156a189634705b658fffa95f8830dcfb7f9fb7933256d44e",
+  "inputPath": "src/assets/catalog/FM-N8054/primary-01-dd3ffba84932.webp",
+  "originalPath": "data/catalog-assets/originals/59/590b8435b21f83d1156a189634705b658fffa95f8830dcfb7f9fb7933256d44e.jpg",
+  "categoryId": "pin-loaded-machine",
+  "lineId": "fm-n8-series",
+  "outputPath": "data/catalog-branding/generated/n8-batch-01/fm-n8054-5d01056ab40048a2.png",
+  "status": "visually-reviewed",
+  "prompt": "Precise source-faithful Full Muscle catalogue product edit. Image 1 is ONLY edit target; images 2/3 reference ONLY satin DARK FOREST GREEN paint ~#356B35 and compact italic white 'Full'/green 'Muscle' with tiny 'EQUIPMENT' logo. Preserve exact original camera, view, composition, square opaque white background, silhouette, dimensions and every mechanism. Keep all original silver/gray main chassis and all black parts unchanged EXCEPT the explicit painted metal zones below; keep original BURGUNDY or black upholstery color, rubber grip/pad textures, silver/chrome rods/rails/loading horns, bolts, pivots, holes, endcaps and warnings exactly. Recolor only the specified plausibly powder-coated existing metal faces to satin dark forest green, retaining highlights and precise geometry. Add ONE modest readable physical FullMuscle logo directly on the named existing face, perspective aligned; no added/enlarged panel, no floating branding, no invented labels or hardware, no people. Replace vendor mark only when one is present; preserve safety/instruction labels. FM-N8054: recolor ONLY the existing tall curved upper handle support tube that rises in front of the tower and bends horizontally toward the black grips, DARK FOREST GREEN. Keep grip sleeves and metallic collars unchanged. Place one modest physical FullMuscle logo on the existing blank trapezoid header face at top of tower (this source has NO blue instruction label there; do not invent one). Preserve all black pads/rollers, perforated silver adjustment arc, yellow selector and warning triangles, red warning on transparent shroud, main graphite frame and mechanisms.",
+  "review": "N8054: confronto mantiene seduta e appoggio superiore sagomati neri, doppi rulli bassi, arco forato argento, selettore giallo e avvisi originali. Verde limitato al lungo tubo curvo davanti alla torre; logo nel trapezio alto gi? vuoto nell'originale, senza sostituire istruzioni. Shroud, telaio e vista preservati. Microtesti avvisi illustrativi.",
+  "publicSku": "FM-N8054",
+  "editTarget": "src/assets/catalog/FM-N8054/primary-01-dd3ffba84932.webp",
+  "tool": "image_gen.imagegen",
+  "checkedAt": "2026-11-07T12:54:07.803Z",
+  "outputHash": "e1ccbaa271c4caee892061d8d8d3d7d11c65bdca06aed952225b2dcca41395de",
+  "width": 1254,
+  "height": 1254,
+  "hasAlpha": false
+}
