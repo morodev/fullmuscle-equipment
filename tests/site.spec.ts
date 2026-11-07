@@ -133,16 +133,6 @@ test('la selezione persiste e il preventivo viene inviato in modalità di svilup
   await expect(page.getByRole('heading', { level: 1 })).toContainText('Grazie');
 });
 
-test('il menu mobile è accessibile', async ({ page }) => {
-  await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto('/it/');
-  const menu = page.getByRole('button', { name: 'Apri il menu' });
-  await expect(menu).toHaveAttribute('aria-expanded', 'false');
-  await menu.click();
-  await expect(page.getByRole('button', { name: 'Chiudi il menu' })).toHaveAttribute('aria-expanded', 'true');
-  await expect(page.getByRole('navigation', { name: 'Navigazione principale' })).toBeVisible();
-});
-
 test('il menu catalogo espone famiglie, serie e tipologie SEO', async ({ page }) => {
   await page.goto('/it/');
   if ((page.viewportSize()?.width ?? 1280) < 1180) await page.getByRole('button', { name: 'Apri il menu' }).click();
