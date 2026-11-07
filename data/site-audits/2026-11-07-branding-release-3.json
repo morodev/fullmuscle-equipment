@@ -1,0 +1,30 @@
+{
+  "commit": "0a0fe11",
+  "integrated": 265,
+  "samples": [
+    {
+      "sku": "FM-5052",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/lat-pulldown-fm-5052/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-5113",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/deadlift-e-shrug-fm-5113/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-7721",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/multi-press-fm-7721/",
+      "status": 200,
+      "updatedImage": true
+    },
+    {
+      "sku": "FM-7819",
+      "url": "https://fullmuscle-equipment.com/it/prodotti/chest-e-back-machine-fm-7819/",
+      "status": 200,
+      "updatedImage": true
+    }
+  ]
+}

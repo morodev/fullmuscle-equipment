@@ -1,0 +1,9 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-N7000B/primary-01-5c414afdfd0c.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case precise-object-edit. Image 1 ONLY target FM-N7000B treadmill. Image 2 ONLY dark forest green satin paint #356B35; image 3 ONLY compact italic Full Muscle Equipment logo style. Preserve exact equipment shape, broad flat black side handrails, black running belt and BLACK deck-edge foot rails, curved console housing, red safety control, cup holders, lower black motor cover, black chassis, round silver/black feet, wheels and perspective. Keep the raised LED-style console with central blank grey screen unchanged. Recolor ONLY the two tall flat black painted upright columns forest green, bounded by their existing joints at top and base; keep console and lower housing black. Add a modest physical italic white/green 'Full Muscle' logo and tiny 'EQUIPMENT' below on the near-side black deck body, centered along the side. Also replace any supplier mark in the small front motor-cover badge recess with the same restrained logo. No new components, no silver deck rails, no altered controls, invented labels, floating text or crop. Keep white background."
+}

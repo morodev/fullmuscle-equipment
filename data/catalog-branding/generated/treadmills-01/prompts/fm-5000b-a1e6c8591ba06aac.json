@@ -1,0 +1,19 @@
+{
+  "initial": {
+    "referenced_image_paths": [
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-5000B/primary-01-34a99316c08c.webp",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+    ],
+    "transparent_background": false,
+    "prompt": "Use case precise-object-edit. Image 1 sole target: FM-5000B commercial treadmill. Image 2 ONLY dark satin forest green reference (#356B35); image 3 ONLY small italic Full Muscle Equipment logo reference. Preserve exact shape, viewpoint, white background and raised LED-style console with central grey display and surrounding buttons unchanged, including all screen content and the red safety button. Recolor ONLY the two broad flat painted light-grey upright columns forest green, keeping their bolts and edges/shading. These are painted structural panels, not the silver running-deck edge strips, which must remain silver. Keep belt, angular double side handrails, motor cover, all base/end covers and feet black. Replace all supplier badges on the front motor cover and side body with a modest physical white/green italic 'Full Muscle' logo and tiny 'EQUIPMENT' below; do not add giant logos, use the same restrained size at original supplier positions. No modification to the number, shape or position of components, no extra console, no changed controls, no floating text or crop."
+  },
+  "correction": {
+    "referenced_image_paths": [
+      "C:\\Users\\lucam\\.codex\\generated_images\\01a1b52d-059e-75c0-b1b9-464bc759cc99\\exec-189a55f9-e340-40bf-addb-19b2f8d422f1.png",
+      "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-5000B/primary-01-34a99316c08c.webp"
+    ],
+    "transparent_background": false,
+    "prompt": "Precise correction to image 1 only, image 2 is original material reference. In image 1, restore the TWO long bright silver side strips directly beside the running belt to the original matte BLACK/dark charcoal finish shown in image 2. These deck edge foot rails must be dark, not silver. Preserve their exact dimensions and texture. Keep all green upright panels, Full Muscle logos, console, red button, angular handles, belt, chassis and everything else unchanged. No other edit, no redesign or change of camera/framing/background."
+  }
+}

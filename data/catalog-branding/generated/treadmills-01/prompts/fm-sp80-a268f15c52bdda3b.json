@@ -1,0 +1,9 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-SP80/primary-01-7547d0c79f14.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case precise-object-edit. Image 1 ONLY target: SP80 treadmill with silver curving tubular supports/handrails. Recolor ONLY the broad long near-side silver decorative lower deck panel forest green, following its existing perimeter. Keep ALL curved handrail/upright tubes silver, red collars red, console's red stripe/safety key red, silver grip sensors, console interface, belt with white chevrons, black foot rails, motor cover, end caps and feet unchanged. Add a modest centered physical italic white/green Full Muscle logo with tiny EQUIPMENT below on this new green side panel. Do not recolor any other surface or change tube shapes. Image 2 ONLY dark satin forest green paint reference (~#356B35), image 3 ONLY compact italic Full Muscle Equipment logo reference. Preserve exact machine geometry, proportions, materials, original white background, shadows and framing. No additional components, warning labels, decorative lights or floating text. This is only branding and selected surface color editing."
+}

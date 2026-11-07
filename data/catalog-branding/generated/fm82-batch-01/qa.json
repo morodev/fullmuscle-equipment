@@ -1,0 +1,168 @@
+{
+  "batch": "fm82-batch-01",
+  "tool": "image_gen.imagegen",
+  "referenceGreen": "#356B35",
+  "items": [
+    {
+      "sku": "FM-8201",
+      "assetId": "fm-8201-6911da237f3c9ef0",
+      "sourceHash": "794a03419c155bf787e7f1d2b7d3fa6e96225e937a7f1d4ef860fd57a25a9c79",
+      "inputPath": "src/assets/catalog/FM-8201/primary-01-0eebcf46bf8c.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8201.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8201.json",
+      "review": "Source and result visually inspected: hip machine geometry and knee pads retained; paired lower painted moving arms forest green; fixed frame and tower charcoal, pads black, selector orange; instruction panel retained with Full Muscle replacing TZ.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8202",
+      "assetId": "fm-8202-134a82842b9c3e3b",
+      "sourceHash": "9db03d99f9e3e72dbdcb9e6b1e0afb93262b32b4a154d51aead1be433c3b5cd0",
+      "inputPath": "src/assets/catalog/FM-8202/primary-01-21e87ea13955.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8202.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8202.json",
+      "review": "Source and result visually inspected: shoulder press silhouette and arm geometry retained; upper painted pressing levers forest green; fixed frame and tower dark, black grips/pads, silver caps and orange controls preserved; Full Muscle panel branding.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8204",
+      "assetId": "fm-8204-e4cbe951f49a6bcf",
+      "sourceHash": "4dd75c495c3392d21a2aedd4a9ef71019e7c752bfcae5a6b965cf21103fd412f",
+      "inputPath": "src/assets/catalog/FM-8204/primary-01-e18f86d8ce40.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8204.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8204.json",
+      "review": "Source and result visually inspected: curved front press arms forest green, rear fixed frame charcoal; black pads/grips, orange controls, silver endcaps and hazard label preserved; Full Muscle panel logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8205",
+      "assetId": "fm-8205-3b757bb739e66c76",
+      "sourceHash": "0e3c6af45c395608902c6bb57839a8cb890aad4b20d644e595df0d216743dce7",
+      "inputPath": "src/assets/catalog/FM-8205/primary-01-4129fa5bdedd.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8205.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8205.json",
+      "review": "Source and result visually inspected: overhead boom forest green; long bench, rollers, cables, hanging handle and lat bar geometry retained; black grips, orange selector, chrome and warning plate preserved; Full Muscle panel logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8206",
+      "assetId": "fm-8206-084340cae5795da3",
+      "sourceHash": "57517779e95189fd6d85af0fe569519be05659a3102e9c8cc5ba511907852feb",
+      "inputPath": "src/assets/catalog/FM-8206/primary-01-a296f67ab069.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8206.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8206.json",
+      "review": "Source and result visually inspected: tall pec-fly silhouette and handle arms retained; painted arm and upper arm section green; pulley discs, black grips/pads, silver caps, tower and orange controls preserved; Full Muscle replaces TZ.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8207",
+      "assetId": "fm-8207-6aeff3b0fa0e4c28",
+      "sourceHash": "6425ed39530cf2ca83a3fc56fc189d754a565df71ce9547cbfc4a7ffdb1d2e77",
+      "inputPath": "src/assets/catalog/FM-8207/primary-01-c214364e4317.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8207.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8207.json",
+      "review": "Source and result visually inspected: multi-press geometry retained; paired long upper painted arms forest green; black pads/grips, silver caps, fixed frame, cables and all orange controls preserved; Full Muscle panel branding.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8209",
+      "assetId": "fm-8209-34ec8fe479eb63be",
+      "sourceHash": "627383cff286566fe58c0c9349a1ea35f6b340f1b045b4b4015412ed1b2726c8",
+      "inputPath": "src/assets/catalog/FM-8209/primary-01-8088d85f4c8b.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8209.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8209.json",
+      "review": "Source and result visually inspected: leg-extension moving lever plate forest green; hazard decal and yellow knobs retained, circular pivot black; original roller geometry, rear chrome slide, cables and black pads/frame preserved; Full Muscle panel logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8210",
+      "assetId": "fm-8210-49b615bb805b4fbb",
+      "sourceHash": "a7ba7a86271338a93e99def6992ebafe20b5ca43187e33e9e1ed99d10a308251",
+      "inputPath": "src/assets/catalog/FM-8210/primary-01-4523b9661e25.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8210.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8210.json",
+      "review": "Source and result visually inspected: prone leg curl geometry and contoured bench retained; short ankle-roller support lever green; black roller/pivot, yellow pin, chrome fittings, cables and dark fixed frame preserved; Full Muscle panel logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8211",
+      "assetId": "fm-8211-b1d24d78fcd7b866",
+      "sourceHash": "1a96fb65f0b0e46233db0724261a9ef91f58a155feb003619e0b732bbb69af4a",
+      "inputPath": "src/assets/catalog/FM-8211/primary-01-98be05e59d95.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8211.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8211.json",
+      "review": "Source and result visually inspected: curved triceps moving lever forest green; grip bars, silver caps, black guard discs and pivot retained; yellow seat pin, black pads and gray fixed supports preserved; Full Muscle panel logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8212",
+      "assetId": "fm-8212-f805e3b9d56662df",
+      "sourceHash": "39b172ded5452d4f9cbd599eea28e59e9abae7edc926d8958fb48abb09230d40",
+      "inputPath": "src/assets/catalog/FM-8212/primary-01-a5aa2f0c37a1.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8212.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8212.json",
+      "review": "Source and result visually inspected: long pulldown upper lever arms forest green; original black grip sections, silver caps, pivot, cables, thigh rollers and yellow seat knob retained; charcoal fixed frame and red safety label preserved; Full Muscle panel logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8213",
+      "assetId": "fm-8213-fe41c4450d1a1fa8",
+      "sourceHash": "0328181c4ef3eafaffe8cc8079d3ff91155d6d3ecb29dc96c3c2ff1e738cb83e",
+      "inputPath": "src/assets/catalog/FM-8213/primary-01-a05a54a64815.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8213.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8213.json",
+      "review": "Source and result visually inspected: biceps lever assembly forest green; black grip, polished handle linkage, side pivot cover and original hardware retained; black pads, yellow seat pin and fixed gray frame preserved; Full Muscle panel logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8214",
+      "assetId": "fm-8214-8f292d7f452463d1",
+      "sourceHash": "be6ad217e3f7986f0be09afd0e0432c31e0406131e7f72bd7acb6b13e67d2cb9",
+      "inputPath": "src/assets/catalog/FM-8214/primary-01-0a48f55b4f95.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8214.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8214.json",
+      "review": "Source and result visually inspected: abdominal rear support upright forest green; black overhead grips/pads and pivot retained; yellow controls, cables/pulleys, hazard label and dark tower preserved; small Full Muscle logo without invented front instruction panel.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8215",
+      "assetId": "fm-8215-7a12cd2a1638b759",
+      "sourceHash": "f33886fa77cf1b7e1a6769d71d090175c7c638cabfb6b3a2aac8be30c5579c99",
+      "inputPath": "src/assets/catalog/FM-8215/primary-01-9a62916e7cde.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8215.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8215.json",
+      "review": "Source and result visually inspected: central painted curved support green; black grips, pads, rollers and range plate retained; yellow knob, silver endcaps and charcoal fixed frame/tower preserved; small Full Muscle tower logo without invented panel.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8216",
+      "assetId": "fm-8216-3fb91e4b739df9f8",
+      "sourceHash": "99a30293427421abc1758a47a04c668c84d8dbb09e724360abca328bc00305a3",
+      "inputPath": "src/assets/catalog/FM-8216/primary-01-48491ffad1a4.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8216.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8216.json",
+      "review": "Source and result visually inspected: front leg-press linkage green; footplate, seat carriage, backrest support and lower rails retained charcoal; silver adjustment bar/pivots, black upholstery and hazard label preserved; Full Muscle panel logo.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8217",
+      "assetId": "fm-8217-38ee3795015e7dfc",
+      "sourceHash": "b5d18bd38e94a686e4be3b870b7b0ecb407833ecb5251658f58c5e046f3d8209",
+      "inputPath": "src/assets/catalog/FM-8217/primary-01-25b2fb3f2a04.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8217.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8217.json",
+      "review": "Source and result visually inspected: leg-curl diagonal roller linkage green with small front painted support accent; both black rollers, range/pulley plates and all yellow controls retained; silver backrest slide and black upholstery preserved; Full Muscle on blank tower.",
+      "status": "approved"
+    },
+    {
+      "sku": "FM-8218",
+      "assetId": "fm-8218-c315243311da25a7",
+      "sourceHash": "43d57e1cb540cba212773e4d97969bd0614838aeaca6c2dcde032339eaea86a9",
+      "inputPath": "src/assets/catalog/FM-8218/primary-01-49bc758c7010.webp",
+      "outputPath": "data/catalog-branding/generated/fm82-batch-01/FM-8218.png",
+      "promptPath": "data/catalog-branding/generated/fm82-batch-01/prompts/FM-8218.json",
+      "review": "Source and result visually inspected: curved moving linkage beneath arm pad forest green; thin silver handle bars, black collars/pivots/counterweight and yellow seat knob retained; charcoal fixed frame and black padding preserved; Full Muscle on blank tower.",
+      "status": "approved"
+    }
+  ],
+  "count": 16
+}

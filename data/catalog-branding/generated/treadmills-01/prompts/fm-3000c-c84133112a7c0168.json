@@ -1,0 +1,8 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-3000C/primary-01-86c740a0b951.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/data/catalog-branding/generated/featured/FM-3000A.png"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case precise-object-edit. Image 1 is the ONLY target, FM-3000C curved treadmill. Image 2 is finished FM-3000A for COLOR AND LOGO STYLE REFERENCE ONLY, not geometry. Preserve target image 1 exact layout: single elevated central console, continuous front upper crossbar, curved side handrails and low front transport bar; this variant has NO extra vertical grip posts. Recolor the two broad painted main uprights dark satin forest green matching reference 2 (~#356B35); recolor existing cyan-blue decorative stripe along the lower side housing and small cyan pivot ring the same green. Keep ALL rails/grips, slatted curved belt, foot surfaces, chassis, front transport bar and console black; preserve silver collars/sensors, bolts and all controls exactly. Replace the small supplier badge if present with a modest physical italic white/green 'Full Muscle' logo and tiny 'EQUIPMENT' below on the side body above the green lower strip, as reference 2. Do not add the reference's upright front push handles or any new components. Keep original view, geometry, white background, shadow and framing. No redesign or floating text."
+}

@@ -1,0 +1,9 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-7100C/primary-01-4be244a271d5.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case precise-object-edit. Image 1 ONLY target FM-7100C treadmill; image 2 ONLY dark forest green satin paint reference (#356B35), image 3 ONLY italic white/green Full Muscle Equipment logo reference. Preserve target's exact structure, straight tubular side handrails and silver end caps, thin deck, black belt and BLACK deck-edge strips, feet, console controls, original view and white background. Keep the touchscreen showing a blue interface with human silhouette, plus the original red/yellow safety control, unchanged. Recolor ONLY the two broad upright painted columns forest green, stopping at their original joint above the lower motor-cover housing. Replace both supplier badges on the motor cover and near side body with modest physical italic 'Full Muscle' logos with tiny 'EQUIPMENT' below, matching existing badge positions and perspective. Every other black and silver surface stays as original. No new components, no changed console variant, no silver deck rails, no floating text."
+}

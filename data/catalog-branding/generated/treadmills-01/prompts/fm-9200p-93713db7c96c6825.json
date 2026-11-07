@@ -1,0 +1,9 @@
+{
+  "referenced_image_paths": [
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/src/assets/catalog/FM-9200P/primary-01-85af9ea153ef.webp",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/colore-lat-pulldown.png",
+    "C:/Users/lucam/WebstormProjects/fullmuscle-equipment/brochures/fullmuscle-g5/assets/references/fullmuscle-delt.jpeg"
+  ],
+  "transparent_background": false,
+  "prompt": "Use case precise-object-edit. Image 1 ONLY target FM-9200P treadmill; image 2 ONLY dark satin forest green reference #356B35, image 3 ONLY compact italic Full Muscle Equipment logo reference. Recolor ONLY the two broad silver-grey painted upright columns forest green. Retain original exact shape and edges. Preserve the distinct target perspective, black tubular rounded side handrails, black upper console bar with red safety key, silver hand sensors, blue human-silhouette touchscreen, lower colored controls, black belt with white chevrons, silver deck rails, black base/end caps and round silver feet. Replace supplier near-side body badge with a modest physical white/green italic 'Full Muscle' logo and tiny 'EQUIPMENT' beneath in the original badge position. Keep all other materials, console content and colors unchanged. No added lights, stripes, labels or components, no altered screen or geometry, no floating text. White background and original framing preserved."
+}
