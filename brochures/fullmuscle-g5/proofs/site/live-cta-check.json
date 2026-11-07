@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-11-07T09:43:46.164Z",
+  "passed": true,
+  "result": [
+    {
+      "path": "/it/",
+      "status": 200,
+      "pdfLinkCount": 1
+    },
+    {
+      "path": "/it/catalogo/linee/fm-g5-series/",
+      "status": 200,
+      "pdfLinkCount": 2
+    },
+    {
+      "path": "/it/catalogo/linee/fm-g5-series/pagina/2/",
+      "status": 200,
+      "pdfLinkCount": 2
+    }
+  ]
+}
