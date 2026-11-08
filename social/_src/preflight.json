@@ -1,0 +1,552 @@
+{
+  "generatedAt": "2026-11-08T11:27:19.113Z",
+  "posts": 12,
+  "slides": 48,
+  "issues": [],
+  "inputs": {
+    "posts.json": "a2af21e072d1b8990e7dc50dd5a3ef40e9d7972d64b0c174a8bfb952da3efb25",
+    "products.json": "c1872f3bdcf0a2ac633c560ef3d5ff174363085d2f1575a6b7c28f19cca2b164",
+    "style.css": "98e99d9a0569b2c3c7e7ee6007663d48075d7e9f00189db7896e14477994f449",
+    "build.mjs": "d94f565308d1b7e975901eedf5fbedffeebef241a05e9b697f0b1242a879dca3"
+  },
+  "assets": [
+    {
+      "sku": "FM-GF-001",
+      "path": "src/assets/catalog/FM-GF-001/primary-01-33f72376be96.webp",
+      "sha256": "33f72376be96f411030049753f9c237d22c23b58702ac973f9a44f48378918db",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "sku": "FM-GF-004",
+      "path": "src/assets/catalog/FM-GF-004/primary-01-99c8371ac2a7.webp",
+      "sha256": "99c8371ac2a71cc54bb8959f3696abe13291c213ae3bc1faea6a58b85c51cfd7",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "sku": "FM-GC-5002",
+      "path": "src/assets/catalog/FM-GC-5002/primary-01-24b55ca7ab37.webp",
+      "sha256": "24b55ca7ab37d87542fee05592e5427e8a249f2e40283afe110902a113c422cf",
+      "width": 1527,
+      "height": 1030
+    },
+    {
+      "sku": "FM-GC-5001",
+      "path": "src/assets/catalog/FM-GC-5001/primary-01-1980860cedf8.webp",
+      "sha256": "1980860cedf879ca3b2d3695aac7b66295f633596750bd30510e4c7cf7c66780",
+      "width": 1527,
+      "height": 1030
+    },
+    {
+      "sku": "FM-GC-5092",
+      "path": "src/assets/catalog/FM-GC-5092/primary-01-973dcf94708a.webp",
+      "sha256": "973dcf94708a456900d009c42dd136ec699c1bad5e89642d633e570f403315bf",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "sku": "FM-X8202",
+      "path": "src/assets/catalog/FM-X8202/primary-01-9411a34d6cab.webp",
+      "sha256": "9411a34d6cab77fc21a6cdaf3adfe4f946fc7fc263e7986f0a50f863cfae477d",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "sku": "FM-2000B",
+      "path": "src/assets/catalog/FM-2000B/primary-01-d18118dce644.webp",
+      "sha256": "d18118dce6445fe2394e59068474a991924294921e0737dc27f51b09fc88bca2",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "sku": "FM-GC-5090",
+      "path": "src/assets/catalog/FM-GC-5090/primary-01-c238a2490d1f.webp",
+      "sha256": "c238a2490d1fc6a51bace80f59577cc4c6ffd3c258c8e962f215bd57e6b22245",
+      "width": 1254,
+      "height": 1254
+    }
+  ],
+  "checks": [
+    {
+      "post": "01",
+      "slide": 1,
+      "file": "01-chest-press-gf/01.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "ef951ab51f5c58026c91b86f779360075fdd88d5f2fc0c09b6dae469f2377eb3"
+    },
+    {
+      "post": "01",
+      "slide": 2,
+      "file": "01-chest-press-gf/02.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "bba7f3bab0799f9b93d83bf72dc07b35d77a613e61041ff71c0df79b549c6fae"
+    },
+    {
+      "post": "01",
+      "slide": 3,
+      "file": "01-chest-press-gf/03.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "018a66f37f79733d255d495511b758f0501df51a0c9b74eb8a44679d2da37877"
+    },
+    {
+      "post": "01",
+      "slide": 4,
+      "file": "01-chest-press-gf/04.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "bf291a8fa9792e26e1398a7d77794155bfa9bf57deb317bb6523cd646c45fcdc"
+    },
+    {
+      "post": "02",
+      "slide": 1,
+      "file": "02-pacco-pesi-o-dischi/01.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "e8145f596fe8a4853b6402acc2231af2f065462a5ca059774ae7aad7372d31cb"
+    },
+    {
+      "post": "02",
+      "slide": 2,
+      "file": "02-pacco-pesi-o-dischi/02.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "5327dfadae8228dfd16c5198ee41b210f4130787dbb7c087eb059b8c61efe022"
+    },
+    {
+      "post": "02",
+      "slide": 3,
+      "file": "02-pacco-pesi-o-dischi/03.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "343c7c9be392ce34706268891c39e0d50621921f9e40e532c0bff6656af3710e"
+    },
+    {
+      "post": "02",
+      "slide": 4,
+      "file": "02-pacco-pesi-o-dischi/04.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "2c008835644710efdc1a5afb573e7d34ee866af1015052c0ad10f709f46d00a2"
+    },
+    {
+      "post": "03",
+      "slide": 1,
+      "file": "03-leg-extension-g5/01.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "d2f7b4c4a7dcc1d9dcc881852d37f5c46df105752eee40e32b30a56d509b05ae"
+    },
+    {
+      "post": "03",
+      "slide": 2,
+      "file": "03-leg-extension-g5/02.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "ea102b38807d6653d0bf248f8cfb07de71b4ee729b80dfbe79c64d1da395c262"
+    },
+    {
+      "post": "03",
+      "slide": 3,
+      "file": "03-leg-extension-g5/03.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "e4f9283aa0ecf93b307e776919d3edc14e1508844d291da82ac8d5396859c652"
+    },
+    {
+      "post": "03",
+      "slide": 4,
+      "file": "03-leg-extension-g5/04.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "a602efc7d8d23a8cde26e9db2649418013fd3b102f10a081fda0467de2a86220"
+    },
+    {
+      "post": "04",
+      "slide": 1,
+      "file": "04-leg-extension-leg-curl/01.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "8ef397eb25bf0919bc41d79f88b5ae9bb8ddc49cf4302baf86b2ef34b9ef7e61"
+    },
+    {
+      "post": "04",
+      "slide": 2,
+      "file": "04-leg-extension-leg-curl/02.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "754872808c689a5f3fa171cf7f2051ca76ccffeca0ed73496d9a1575008d9d47"
+    },
+    {
+      "post": "04",
+      "slide": 3,
+      "file": "04-leg-extension-leg-curl/03.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "cdc9820ad84097e1cc6b5bac0b597459ebe965bc5d6dd22a41ba40c76e414b81"
+    },
+    {
+      "post": "04",
+      "slide": 4,
+      "file": "04-leg-extension-leg-curl/04.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "a6a4ee35de1088d210f760c4585742443b043cbb88ea252a43daee02ca9f8824"
+    },
+    {
+      "post": "05",
+      "slide": 1,
+      "file": "05-lat-pulldown-gf/01.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "2845f94751b6925454bb41a622e4bc4f5c9aee72e16cb47957555f26f51812b5"
+    },
+    {
+      "post": "05",
+      "slide": 2,
+      "file": "05-lat-pulldown-gf/02.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "28962f7ba9103276133776bf7d61c9c128ef74bca0cc75c2624d9a13d6f79da0"
+    },
+    {
+      "post": "05",
+      "slide": 3,
+      "file": "05-lat-pulldown-gf/03.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "c616c35c5b6f8a6a6c80fea415caf259bdb9caacb4e500fcc2b6cea80205f18e"
+    },
+    {
+      "post": "05",
+      "slide": 4,
+      "file": "05-lat-pulldown-gf/04.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "f974231c5cdd6adf8f6bf3cdcb56d91483e0e88a5dd8c18a5dd31cda6046434a"
+    },
+    {
+      "post": "06",
+      "slide": 1,
+      "file": "06-macchina-guidata-cavi/01.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "b0ee2e5ce916366ef1897720f4a435d4af3f8cf41b30024413638071c14b429b"
+    },
+    {
+      "post": "06",
+      "slide": 2,
+      "file": "06-macchina-guidata-cavi/02.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "d615bc545ebd6b35eefa23cad2956847cca68f06f02bb4bfef89ab9172cdafc5"
+    },
+    {
+      "post": "06",
+      "slide": 3,
+      "file": "06-macchina-guidata-cavi/03.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "b402026013d72533c054f5e5af8a3ff0ffcc85c9a2cec090daee17db5174c40b"
+    },
+    {
+      "post": "06",
+      "slide": 4,
+      "file": "06-macchina-guidata-cavi/04.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "2179c9b6619bc2f33b17eecacf40a05c0df13767db296ee6c01050b2b0cf1e2a"
+    },
+    {
+      "post": "07",
+      "slide": 1,
+      "file": "07-hip-thrust-g5/01.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "eac19d0ac960f518fa527ef1595c842f11ec47a1491c80e25fbaba679693d2fe"
+    },
+    {
+      "post": "07",
+      "slide": 2,
+      "file": "07-hip-thrust-g5/02.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "8fc42bf534e92b6a7930448cd8babc9fe4502339bcde01f0a790d213f39f6d50"
+    },
+    {
+      "post": "07",
+      "slide": 3,
+      "file": "07-hip-thrust-g5/03.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "b4937c0fb3074b1882900b80a1276c20bb6f925a6287e2215b5d99555d6f392a"
+    },
+    {
+      "post": "07",
+      "slide": 4,
+      "file": "07-hip-thrust-g5/04.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "dcac88d6ec72e1e3559d340b02b3b1edebd81761359717d00c3afa724c0d7e2c"
+    },
+    {
+      "post": "08",
+      "slide": 1,
+      "file": "08-ingombro-spazio-utilizzo/01.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "12faab8077b092e7866fbaac8946971e25559cbb3eba1fbb34713cc2d6edbbdb"
+    },
+    {
+      "post": "08",
+      "slide": 2,
+      "file": "08-ingombro-spazio-utilizzo/02.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "b914c435aa1e859804c46f26d17a848fa2023243f69e6c79033a93c7904efee1"
+    },
+    {
+      "post": "08",
+      "slide": 3,
+      "file": "08-ingombro-spazio-utilizzo/03.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "ce7171ff8ed1fc106b3a1413a3f25a87f25812c328e0596171802aceb3e9ee0b"
+    },
+    {
+      "post": "08",
+      "slide": 4,
+      "file": "08-ingombro-spazio-utilizzo/04.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "b9054cd408b352695cc76b29c626386f61c4f3ac6b7313c47352d8c30572fc22"
+    },
+    {
+      "post": "09",
+      "slide": 1,
+      "file": "09-shoulder-press-x82/01.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "8eeb2f1b409aee83732fea24dd05dc5c9f3a7abd660c0e3b6f1a36a23de3ed3d"
+    },
+    {
+      "post": "09",
+      "slide": 2,
+      "file": "09-shoulder-press-x82/02.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "0f5914602157e85b8ea2cbdddc946f2b4de74e7f8e7ee0e70920030240f6f857"
+    },
+    {
+      "post": "09",
+      "slide": 3,
+      "file": "09-shoulder-press-x82/03.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "3b53392d358fe39b5b086b3a8a6cbbdee6ae7701ebb129c3e0bf184acbf288cd"
+    },
+    {
+      "post": "09",
+      "slide": 4,
+      "file": "09-shoulder-press-x82/04.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "bd672958125d7fd36511de3c8bfbd725c97d93f2bb7cac23b659f04056a3f24d"
+    },
+    {
+      "post": "10",
+      "slide": 1,
+      "file": "10-leggere-scheda-tecnica/01.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "21f666f82e0759f5a4687d53f19f27011292ed3e68d7aabd8439929c9095b36e"
+    },
+    {
+      "post": "10",
+      "slide": 2,
+      "file": "10-leggere-scheda-tecnica/02.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "1e8abde8209777763cea0699eeac02ae4999ff1e20cfc0ba8336b562e121342d"
+    },
+    {
+      "post": "10",
+      "slide": 3,
+      "file": "10-leggere-scheda-tecnica/03.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "322e5189be215ce6001bf87b79aa32c9d15a8d6ff816850f497e6394163a8396"
+    },
+    {
+      "post": "10",
+      "slide": 4,
+      "file": "10-leggere-scheda-tecnica/04.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "1184e38c6479309eb0d3b8734b1b12a6d6ea91b3f446620bf4b3fefb47cf048a"
+    },
+    {
+      "post": "11",
+      "slide": 1,
+      "file": "11-tapis-roulant-2000b/01.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "2aa48b93c084ae790c2bebd65c4546caeccb15b83cd713831443e19b7c07abca"
+    },
+    {
+      "post": "11",
+      "slide": 2,
+      "file": "11-tapis-roulant-2000b/02.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "c2a890e5707b4f45fa0494726eec25d093b929fbcdd55297aa550011a1e81ac7"
+    },
+    {
+      "post": "11",
+      "slide": 3,
+      "file": "11-tapis-roulant-2000b/03.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "2c490590c18e0fb21bd4a96b1a9ef4f82c4dd91dca9b9a76bdb7c22675c237d9"
+    },
+    {
+      "post": "11",
+      "slide": 4,
+      "file": "11-tapis-roulant-2000b/04.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "30752c615c4612585a48275af1970d5d5e3d31e44b16fc87326a1b564d6feb5e"
+    },
+    {
+      "post": "12",
+      "slide": 1,
+      "file": "12-cardio-forza-functional/01.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "c382a73b7bf21438519129453076359d8a746417cd57c5ec37c4e7c4f4e47d8c"
+    },
+    {
+      "post": "12",
+      "slide": 2,
+      "file": "12-cardio-forza-functional/02.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "e6801087ee2e64e50d5a9233f938a959e076d3a95b72a594f9fae9e664107ab9"
+    },
+    {
+      "post": "12",
+      "slide": 3,
+      "file": "12-cardio-forza-functional/03.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "22cd83a7f11b17bd2e8ce9e26710903be4cbd1724adffab13e4d6787cc0d6733"
+    },
+    {
+      "post": "12",
+      "slide": 4,
+      "file": "12-cardio-forza-functional/04.png",
+      "issues": [],
+      "fontsLoaded": true,
+      "width": 1080,
+      "height": 1350,
+      "sha256": "53d4c113df077084939ae357f1c796c02c3c2ab1a4aa0386fff4b0a4f36b0fd6"
+    }
+  ]
+}

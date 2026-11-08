@@ -1,0 +1,22 @@
+{
+  "asset": "assets/scenes/gym-renewal.png",
+  "createdAt": "2026-11-08",
+  "mode": "built-in image_gen",
+  "tool": "image_gen.imagegen",
+  "intent": "illustrative scene edit derived from existing gym and supporting product references",
+  "sourceGeneratedFile": "C:/Users/lucam/.codex/generated_images/01a1baef-e4d9-7010-8919-81d641ddf3ea/exec-9d42ad65-6334-4063-81ca-aa6ca1501965.png",
+  "referenceImages": [
+    "assets/scenes/gym.png",
+    "assets/products/FM-GC-5090.png",
+    "assets/products/FM-GC-5024.png"
+  ],
+  "transparentBackground": false,
+  "caption": "Rendering illustrativo",
+  "prompt": "Use case: ads-marketing.\nAsset type: high-resolution photorealistic illustrative gym interior for an Italian Full Muscle Equipment printed brochure, not a documentary photograph of a client installation.\nEdit target: first reference, gym.png. Reimagine another zone in this coherent professional gym interior as a functional and free-weight extension after a thoughtful renewal. Create a clearly different view and composition from the first reference: looking diagonally across an open training zone toward a mirrored rear wall, with tall black-framed windows visible on the left instead of the right.\nSupporting product references: second image is the accurate Full Muscle dual cable functional trainer, third image the accurate adjustable bench. Respect black steel frame geometry, forest-green adjustment elements (#356B35), black upholstery and credible construction. These are visual machine references, not white backgrounds to reproduce.\nComposition: horizontal 3:2 landscape, ideally 3072 by 2048 pixels or highest available native resolution, minimum 1536 by 1024. Eye-level architectural photography with straight verticals and realistic scale. Show a complete dual cable trainer slightly to the right in the middle ground, an adjustable bench in three-quarter view as the foreground subject, a neatly organised dumbbell rack along the rear wall, and a simple squat rack farther away. Generous unobstructed paths and clearly organised distinct exercise zones; do not overcrowd the room. A restrained narrow green functional floor strip may connect the zones but never intersect a machine's working clearance.\nMaterials and light: warm pale concrete, natural oak wall detail at the edge, black rubber flooring, matte black ceiling, linear ceiling lights and soft bright daylight from the left. The visual story is a considered usable extension of a real gym, comfortable, refined and practical. Keep restrained green accents on equipment.\nNo people, no visible writing on walls, no promotional text, no labels, no diagram, no watermark. Small existing machine branding can remain only faithfully and unobtrusively. No warped mirror reflections, no floating parts, no impossible cable paths. Clean image only: all brochure typography will be added separately.",
+  "review": {
+    "visuallyInspected": true,
+    "identity": "Black steel frames, forest-green moving or adjustment components, black upholstery.",
+    "claimLimit": "Illustrative proposal; not evidence of a real customer installation."
+  }
+}
+

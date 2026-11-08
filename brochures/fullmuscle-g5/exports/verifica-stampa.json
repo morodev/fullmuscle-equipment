@@ -1,0 +1,372 @@
+{
+  "generatedAt": "2026-11-08T11:37:41.555Z",
+  "pdf": "brochure-stampa.pdf",
+  "sha256": "bfc7a04a8d67dac045d2779b0a8686f4bc1430104d7cb4053e9272b370a2ce61",
+  "pages": 16,
+  "models": 24,
+  "minImagePpi": 240,
+  "issues": 0,
+  "checks": {
+    "pricingAndPrintPlanTests": 17,
+    "printOnlyPreflight": "passed",
+    "combinedPreflight": "passed",
+    "visualReview": "All 16 page previews reviewed; six-product page spacing corrected",
+    "technicalData": "24/24 models match catalogue, shared specifications verified",
+    "typography": "Technical text >= 9 pt, prices >= 13 pt",
+    "print": "A4 trim 210 x 297 mm, 3 mm bleed, 12 mm safety margin, embedded fonts",
+    "colorProfile": "sRGB; printer-specific CMYK/PDF-X conversion not performed"
+  },
+  "generatedScenes": [
+    {
+      "asset": "assets/scenes/gym-project.png",
+      "prompt": "prompts/gym-project.json",
+      "mode": "built-in image_gen"
+    },
+    {
+      "asset": "assets/scenes/gym-renewal.png",
+      "prompt": "prompts/gym-renewal.json",
+      "mode": "built-in image_gen"
+    }
+  ],
+  "preservation": {
+    "passed": true,
+    "checkedFiles": 67,
+    "files": [
+      {
+        "path": "brochures/fullmuscle-g5/exports/catalogo-completo.pdf",
+        "sha256Before": "f76dcacc7fb3ba1d8709b2bd0030a1557d2218a6cb6508aacc70fb0e3c6514fc",
+        "sha256After": "f76dcacc7fb3ba1d8709b2bd0030a1557d2218a6cb6508aacc70fb0e3c6514fc"
+      },
+      {
+        "path": "brochures/fullmuscle-g5/exports/listino-rivendita.csv",
+        "sha256Before": "4669848c96d8ca61b2b7bf530784962b31c2c0882a6e8f7c2e3692f3c3ef692e",
+        "sha256After": "4669848c96d8ca61b2b7bf530784962b31c2c0882a6e8f7c2e3692f3c3ef692e"
+      },
+      {
+        "path": "brochures/fullmuscle-g5/exports/preflight.json",
+        "sha256Before": "ab5c9bc2985a4eb28f4a3754bc568bfcb15d2bbb49c315f437225150ad9a0381",
+        "sha256After": "ab5c9bc2985a4eb28f4a3754bc568bfcb15d2bbb49c315f437225150ad9a0381"
+      },
+      {
+        "path": "brochures/fullmuscle-g5/layout/catalogo.html",
+        "sha256Before": "40f95c4df609e60a04ad68f42de31d1405e6d720a12a7769fd7903b534f53130",
+        "sha256After": "40f95c4df609e60a04ad68f42de31d1405e6d720a12a7769fd7903b534f53130"
+      },
+      {
+        "path": "brochures/fullmuscle-g5/layout/editorial.css",
+        "sha256Before": "b19a0058f50f4d4194320196ab8a049e813cf1b2312f8e11e3d662e37d9db60d",
+        "sha256After": "b19a0058f50f4d4194320196ab8a049e813cf1b2312f8e11e3d662e37d9db60d"
+      },
+      {
+        "path": "brochures/fullmuscle-g5/content/catalog.json",
+        "sha256Before": "55624f4f63ef6dd6fef311f3836e441b1470bd2011a77269e19aa6735dc44bc6",
+        "sha256After": "55624f4f63ef6dd6fef311f3836e441b1470bd2011a77269e19aa6735dc44bc6"
+      },
+      {
+        "path": "brochures/fullmuscle-g5/content/pricing-config.json",
+        "sha256Before": "bee47b65c71637fc1e04b3d76731008f69cfb54be8bda303ec5fee3e668c1338",
+        "sha256After": "bee47b65c71637fc1e04b3d76731008f69cfb54be8bda303ec5fee3e668c1338"
+      },
+      {
+        "path": "brochures/fullmuscle-g5/content/purchase-prices.json",
+        "sha256Before": "42a50fb9030d858fed91b2c644b26f1d953bae7eca970c4afb2ad1458d88c244",
+        "sha256After": "42a50fb9030d858fed91b2c644b26f1d953bae7eca970c4afb2ad1458d88c244"
+      },
+      {
+        "path": "public/cataloghi/fullmuscle-g5.pdf",
+        "sha256Before": "f76dcacc7fb3ba1d8709b2bd0030a1557d2218a6cb6508aacc70fb0e3c6514fc",
+        "sha256After": "f76dcacc7fb3ba1d8709b2bd0030a1557d2218a6cb6508aacc70fb0e3c6514fc"
+      },
+      {
+        "path": "public/cataloghi/fullmuscle-gf.pdf",
+        "sha256Before": "58a69ebc1d5779cf3657e073dce85fd5caea59397683b743e23e267b8ce5db58",
+        "sha256After": "58a69ebc1d5779cf3657e073dce85fd5caea59397683b743e23e267b8ce5db58"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/README.md",
+        "sha256Before": "ad5d753d78e13ef252fe9d7044d4a245569dc5c6fabdbe07bd3ef5d19ad919c0",
+        "sha256After": "ad5d753d78e13ef252fe9d7044d4a245569dc5c6fabdbe07bd3ef5d19ad919c0"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/brand/fullmuscle-wordmark-white.svg",
+        "sha256Before": "baf9dd6c63f5fc556ac4521a2c68733fedd7d9a373365e175ad68b388b7dbfbe",
+        "sha256After": "baf9dd6c63f5fc556ac4521a2c68733fedd7d9a373365e175ad68b388b7dbfbe"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/brand/fullmuscle-wordmark.svg",
+        "sha256Before": "87a7f4bbbddbd0f9f0a61de8c3b0a390af2e20dea8c31a1fbc4d7b97bce5582f",
+        "sha256After": "87a7f4bbbddbd0f9f0a61de8c3b0a390af2e20dea8c31a1fbc4d7b97bce5582f"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/brand/qr-catalogo.svg",
+        "sha256Before": "3f16b6131bfb7933b6ece16eb883f4e85dcb79b0560766b234489d8c754d127d",
+        "sha256After": "3f16b6131bfb7933b6ece16eb883f4e85dcb79b0560766b234489d8c754d127d"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/fonts/bold.ttf",
+        "sha256Before": "4d59199834e7439c67ea4949407639961060b21b173833f566eb60ac6fd8f5af",
+        "sha256After": "4d59199834e7439c67ea4949407639961060b21b173833f566eb60ac6fd8f5af"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/fonts/display.ttf",
+        "sha256Before": "6c4a4b643461def5411e0217b74a625dcf2fb681252ef5da1db0af4eae80aa7e",
+        "sha256After": "6c4a4b643461def5411e0217b74a625dcf2fb681252ef5da1db0af4eae80aa7e"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/fonts/regular.ttf",
+        "sha256Before": "edfbd22a3d088fc2f5d7c79b8c9c732df6dc878a60f0a80be0f92a3c7a634404",
+        "sha256After": "edfbd22a3d088fc2f5d7c79b8c9c732df6dc878a60f0a80be0f92a3c7a634404"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/products/FM-GF-001.png",
+        "sha256Before": "df3e164db6695e37f3fdcf7fa1a6c19e3a3ab9f5a3698def50991d8db43846da",
+        "sha256After": "df3e164db6695e37f3fdcf7fa1a6c19e3a3ab9f5a3698def50991d8db43846da"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/products/FM-GF-002.png",
+        "sha256Before": "f90e164a5a07d83e5d7ee140e0d9de66a5e53421d3bc0e78a1f3e03cc0755cf1",
+        "sha256After": "f90e164a5a07d83e5d7ee140e0d9de66a5e53421d3bc0e78a1f3e03cc0755cf1"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/products/FM-GF-003.png",
+        "sha256Before": "c0bd10c84a51067edbec0a95d621c50b0624cfec0a844aaa0167a2a04e87287c",
+        "sha256After": "c0bd10c84a51067edbec0a95d621c50b0624cfec0a844aaa0167a2a04e87287c"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/products/FM-GF-004.png",
+        "sha256Before": "608452133cd6e0522fe80f40599768e701973e053ac7da1114aa3842ca65a5db",
+        "sha256After": "608452133cd6e0522fe80f40599768e701973e053ac7da1114aa3842ca65a5db"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/products/FM-GF-005.png",
+        "sha256Before": "3e19b56f3e74732cfb1dbe01ac597fdc41c92352ee097ddcd2a416622c77f3a1",
+        "sha256After": "3e19b56f3e74732cfb1dbe01ac597fdc41c92352ee097ddcd2a416622c77f3a1"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/scenes/chest-training.png",
+        "sha256Before": "e3acabd65977596d85e17393f7a9832ef904b39f4d5ebad5b794bd8ead0c2066",
+        "sha256After": "e3acabd65977596d85e17393f7a9832ef904b39f4d5ebad5b794bd8ead0c2066"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/scenes/gym.png",
+        "sha256Before": "b87dffb4b6c584763cd0443ba9d1a75df90d6a6a63ebe76710d510f9068b9ece",
+        "sha256After": "b87dffb4b6c584763cd0443ba9d1a75df90d6a6a63ebe76710d510f9068b9ece"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/assets/scenes/lat-training.png",
+        "sha256Before": "0d40c401d43cc3bfc13e892cb4835952f1b1d3e77fc12c44c3bacf2780bb853e",
+        "sha256After": "0d40c401d43cc3bfc13e892cb4835952f1b1d3e77fc12c44c3bacf2780bb853e"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/content/catalog.json",
+        "sha256Before": "78620bd240701aa4ce248d53f26893ac48af9ed41c61aa2a0a03e8aedf77a758",
+        "sha256After": "78620bd240701aa4ce248d53f26893ac48af9ed41c61aa2a0a03e8aedf77a758"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/exports/brochure-stampa.pdf",
+        "sha256Before": "e76d6e6e34c6a793fe361410bce5db816dbb4e2ae61b49ca1c8695116469f5e8",
+        "sha256After": "e76d6e6e34c6a793fe361410bce5db816dbb4e2ae61b49ca1c8695116469f5e8"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/exports/catalogo-completo.pdf",
+        "sha256Before": "58a69ebc1d5779cf3657e073dce85fd5caea59397683b743e23e267b8ce5db58",
+        "sha256After": "58a69ebc1d5779cf3657e073dce85fd5caea59397683b743e23e267b8ce5db58"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/exports/listino-rivendita.csv",
+        "sha256Before": "656afb2aa187786782af10162a22650d698c65cfecd27f928b733cfc092ebefb",
+        "sha256After": "656afb2aa187786782af10162a22650d698c65cfecd27f928b733cfc092ebefb"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/exports/preflight.json",
+        "sha256Before": "ba0bcd728fae727614d36d82b12960b98e4bd96544189a93d64a0c4e660cac8c",
+        "sha256After": "ba0bcd728fae727614d36d82b12960b98e4bd96544189a93d64a0c4e660cac8c"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/layout/brochure.html",
+        "sha256Before": "a82f9208b3355337385991752d887e33f95fee9e3947e7330aecef08daaf2e45",
+        "sha256After": "a82f9208b3355337385991752d887e33f95fee9e3947e7330aecef08daaf2e45"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/layout/catalogo.html",
+        "sha256Before": "bdbecc0f7c3b2343558cb2ec18885a4aa3ae72dc18ebb2ff1dab4b43218c125a",
+        "sha256After": "bdbecc0f7c3b2343558cb2ec18885a4aa3ae72dc18ebb2ff1dab4b43218c125a"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/layout/editorial.css",
+        "sha256Before": "b19a0058f50f4d4194320196ab8a049e813cf1b2312f8e11e3d662e37d9db60d",
+        "sha256After": "b19a0058f50f4d4194320196ab8a049e813cf1b2312f8e11e3d662e37d9db60d"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/layout/prepared/FM-GF-001.jpg",
+        "sha256Before": "c7f72f0e96b52e77ed13da28e9eadf0a93f3e4a8b7b80acb6dc6383f6283ec2d",
+        "sha256After": "c7f72f0e96b52e77ed13da28e9eadf0a93f3e4a8b7b80acb6dc6383f6283ec2d"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/layout/prepared/FM-GF-002.jpg",
+        "sha256Before": "7abd1e66a45f48a99f9aad1f0ed3e0472452ecb385266da4b9e926dbfb3a1afe",
+        "sha256After": "7abd1e66a45f48a99f9aad1f0ed3e0472452ecb385266da4b9e926dbfb3a1afe"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/layout/prepared/FM-GF-003.jpg",
+        "sha256Before": "487fa6abf5fddc3c61da39223c9bd9fa6e7b31f807531286f9d0f7c60d75983f",
+        "sha256After": "487fa6abf5fddc3c61da39223c9bd9fa6e7b31f807531286f9d0f7c60d75983f"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/layout/prepared/FM-GF-004.jpg",
+        "sha256Before": "00a1f3bbc96ced24e003b33c420ae68642304e57c0378acbc1735e5942aec2da",
+        "sha256After": "00a1f3bbc96ced24e003b33c420ae68642304e57c0378acbc1735e5942aec2da"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/layout/prepared/FM-GF-005.jpg",
+        "sha256Before": "219cea691159de4174ce9fc92316d0b8f6d44f4590a73de58eeb96c7b51a1217",
+        "sha256After": "219cea691159de4174ce9fc92316d0b8f6d44f4590a73de58eeb96c7b51a1217"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/layout/prepared/scene-chest-training.jpg",
+        "sha256Before": "0a5d79f6b36153ef1fb2eda65c9735e83fd02af97c43f91d45580f2ec84775db",
+        "sha256After": "0a5d79f6b36153ef1fb2eda65c9735e83fd02af97c43f91d45580f2ec84775db"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/layout/prepared/scene-gym.jpg",
+        "sha256Before": "3128eac423feb206ebb2047032580d65044f61645317ebeed2821916c107e22a",
+        "sha256After": "3128eac423feb206ebb2047032580d65044f61645317ebeed2821916c107e22a"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/layout/prepared/scene-lat-training.jpg",
+        "sha256Before": "085dccb7e63a9d663939a912074e0e8c12413d3571689fc3df3c06157c49c694",
+        "sha256After": "085dccb7e63a9d663939a912074e0e8c12413d3571689fc3df3c06157c49c694"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/prompts/scene-chest-training.json",
+        "sha256Before": "ef33e84ef730bd2690e63f3638b33d98469dea59c6f7c37051dfa9e559631356",
+        "sha256After": "ef33e84ef730bd2690e63f3638b33d98469dea59c6f7c37051dfa9e559631356"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/prompts/scene-gym.json",
+        "sha256Before": "dc8fad476b748dcb4a804c953130bdd6f06e371609cecc8bca19fcb24acf2ef7",
+        "sha256After": "dc8fad476b748dcb4a804c953130bdd6f06e371609cecc8bca19fcb24acf2ef7"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/prompts/scene-lat-training.json",
+        "sha256Before": "e9d659c131ce978f1675a7060cfd6b15937ecb72c57ad1bed6e7b6b2b12201ae",
+        "sha256After": "e9d659c131ce978f1675a7060cfd6b15937ecb72c57ad1bed6e7b6b2b12201ae"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/brochure-contact-sheet.jpg",
+        "sha256Before": "0d08944b58003b0567883b736aa8bff791ed67c0da3c48679b4bc9d76fd7bd97",
+        "sha256After": "0d08944b58003b0567883b736aa8bff791ed67c0da3c48679b4bc9d76fd7bd97"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/catalogo-contact-sheet.jpg",
+        "sha256Before": "9f4c6f00e90d219613fc7dc1d9cd7628989039af5367946f9709b8ba8114a016",
+        "sha256After": "9f4c6f00e90d219613fc7dc1d9cd7628989039af5367946f9709b8ba8114a016"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/visual-review.json",
+        "sha256Before": "aa8375a97122408ac99e567c2bc66752714970e826af1a1fd2cb4adb163adac0",
+        "sha256After": "aa8375a97122408ac99e567c2bc66752714970e826af1a1fd2cb4adb163adac0"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/brochure/01.png",
+        "sha256Before": "3b01f5ffefc86c6e8f8a3cb3439de237f245cad0db4c7f8d6c96e1f384642f1f",
+        "sha256After": "3b01f5ffefc86c6e8f8a3cb3439de237f245cad0db4c7f8d6c96e1f384642f1f"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/brochure/02.png",
+        "sha256Before": "3a0da730979cfd8b806d0e865b17b0f453c6fd584d4db400f865d3a40f103010",
+        "sha256After": "3a0da730979cfd8b806d0e865b17b0f453c6fd584d4db400f865d3a40f103010"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/brochure/03.png",
+        "sha256Before": "d44561624927c486bc4b8b7e0a106604ad9eb7b46ed5cca941a10ae1479eb78c",
+        "sha256After": "d44561624927c486bc4b8b7e0a106604ad9eb7b46ed5cca941a10ae1479eb78c"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/brochure/04.png",
+        "sha256Before": "c62e51017b7c9c007e1f89e5b85020e7d14252fabb3bd8b0fb37f1e710f64928",
+        "sha256After": "c62e51017b7c9c007e1f89e5b85020e7d14252fabb3bd8b0fb37f1e710f64928"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/brochure/05.png",
+        "sha256Before": "5e35d6d163294fc06eb3021d2a6436d5657e9aa983ee024fdeeb3bef3361cdda",
+        "sha256After": "5e35d6d163294fc06eb3021d2a6436d5657e9aa983ee024fdeeb3bef3361cdda"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/brochure/06.png",
+        "sha256Before": "7ffb52e8db3d9eb90caad5131223924167460cd6a7f6280ebd49a40592a787e6",
+        "sha256After": "7ffb52e8db3d9eb90caad5131223924167460cd6a7f6280ebd49a40592a787e6"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/brochure/07.png",
+        "sha256Before": "5019c8ad0441bff0273690e9370d608bce5fa29a4cfe016cdc3b2d0a22f9ef8c",
+        "sha256After": "5019c8ad0441bff0273690e9370d608bce5fa29a4cfe016cdc3b2d0a22f9ef8c"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/brochure/08.png",
+        "sha256Before": "f2d96fe902131c1d186ce4f7f6ba2a2ad94a3c7d58f20aae54babac963dc8219",
+        "sha256After": "f2d96fe902131c1d186ce4f7f6ba2a2ad94a3c7d58f20aae54babac963dc8219"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/catalogo/01.png",
+        "sha256Before": "370358c99e0d8322858991b5daff171e2059a629781f47989dbc1189a185f077",
+        "sha256After": "370358c99e0d8322858991b5daff171e2059a629781f47989dbc1189a185f077"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/catalogo/02.png",
+        "sha256Before": "12855733821268b0cbb7090b077044055c3c4f474502783b58ec26b30f9918dd",
+        "sha256After": "12855733821268b0cbb7090b077044055c3c4f474502783b58ec26b30f9918dd"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/catalogo/03.png",
+        "sha256Before": "6ff965c49d0810d04e717989fe8e32137506c13192d72a5677aff4ad7dd2edf9",
+        "sha256After": "6ff965c49d0810d04e717989fe8e32137506c13192d72a5677aff4ad7dd2edf9"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/catalogo/04.png",
+        "sha256Before": "5bfbd375cc0d100b75fcd42b5b662e3350f7cf23276e7e3b1bc87c049422f100",
+        "sha256After": "5bfbd375cc0d100b75fcd42b5b662e3350f7cf23276e7e3b1bc87c049422f100"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/catalogo/05.png",
+        "sha256Before": "d18fb69c5efa8547e2ee7480daa8f4e994761707aae05b14e5db7b503dc18b95",
+        "sha256After": "d18fb69c5efa8547e2ee7480daa8f4e994761707aae05b14e5db7b503dc18b95"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/catalogo/06.png",
+        "sha256Before": "3a54e43da122c0062b9ca592fe51e7c4a28bbb30e42fb7ed99bf580bee3cc715",
+        "sha256After": "3a54e43da122c0062b9ca592fe51e7c4a28bbb30e42fb7ed99bf580bee3cc715"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/catalogo/07.png",
+        "sha256Before": "f780202a9b8bbd10b266cab64dfc11ba690186cc2aa7d6716351d1bb40367333",
+        "sha256After": "f780202a9b8bbd10b266cab64dfc11ba690186cc2aa7d6716351d1bb40367333"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/proofs/catalogo/08.png",
+        "sha256Before": "40974fb302a6f65389f212ac089cb93f075ea4bfbb95b5273bfa343a2447002e",
+        "sha256After": "40974fb302a6f65389f212ac089cb93f075ea4bfbb95b5273bfa343a2447002e"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/scripts/build.mjs",
+        "sha256Before": "b5976916cb3109ea02b29a8427e5427633c05a5b716493800d9246f7c2ad1d68",
+        "sha256After": "b5976916cb3109ea02b29a8427e5427633c05a5b716493800d9246f7c2ad1d68"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/scripts/check.mjs",
+        "sha256Before": "d648d0bc24b34408979b5a881bdd76503e69715756250e357dcde056b656c44f",
+        "sha256After": "d648d0bc24b34408979b5a881bdd76503e69715756250e357dcde056b656c44f"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/scripts/validation.mjs",
+        "sha256Before": "636b9a4d4d22236f61a62dc6fbb43d8c497976c19cfe3ad12b9798a91ef0c32d",
+        "sha256After": "636b9a4d4d22236f61a62dc6fbb43d8c497976c19cfe3ad12b9798a91ef0c32d"
+      },
+      {
+        "path": "brochures/fullmuscle-gf/scripts/validation.test.mjs",
+        "sha256Before": "a5f446cd63e0c24ccb225e528daac30f137e751453a6428a5fd952820c938d2c",
+        "sha256After": "a5f446cd63e0c24ccb225e528daac30f137e751453a6428a5fd952820c938d2c"
+      }
+    ]
+  }
+}

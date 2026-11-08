@@ -1,0 +1,1027 @@
+{
+  "version": 1,
+  "posts": [
+    {
+      "id": "01",
+      "slug": "01-chest-press-gf",
+      "kind": "product",
+      "title": "Chest Press GF-001",
+      "objective": "Presentare una postazione a dischi attraverso funzione, configurazione e dati utili alla selezione.",
+      "caption": "La Chest Press FM-GF-001 porta il movimento di spinta da seduti nell’area petto. È una macchina a dischi: il carico viene predisposto sulle sedi dedicate, mentre seduta e schienale sostengono la posizione.\n\nLa scheda riporta dimensioni di 1790 × 1360 × 1010 mm e un peso macchina di 120 kg. Sono dati da leggere insieme allo spazio necessario per accedere alla postazione, utilizzarla e gestire i dischi.\n\nQuando confronti due macchine, parti dal movimento e dalla configurazione che cerchi. Salva il post oppure scrivici «FM-GF-001» per approfondire la scheda.\n\nImmagini illustrative. Configurazioni e accessori da confermare.",
+      "hashtags": [
+        "#FullMuscleEquipment",
+        "#ChestPress",
+        "#AttrezzatureFitness",
+        "#SalaPesi"
+      ],
+      "productSkus": [
+        "FM-GF-001"
+      ],
+      "sources": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-gf/content/catalog.json"
+      ],
+      "slides": [
+        {
+          "layout": "cover",
+          "kicker": "SERIE GF · A DISCHI",
+          "title": "CHEST PRESS\nGF-001",
+          "body": "La spinta da seduti, nella configurazione a dischi.",
+          "productSkus": [
+            "FM-GF-001"
+          ],
+          "alt": "Copertina scura con Chest Press FM-GF-001, titolo bianco e indicazione della configurazione a dischi."
+        },
+        {
+          "layout": "feature",
+          "kicker": "COME È CONFIGURATA",
+          "title": "SPINTA, SEDUTA, SCHIENALE",
+          "productSkus": [
+            "FM-GF-001"
+          ],
+          "items": [
+            {
+              "title": "Spinta da seduti",
+              "text": "Una postazione dedicata al movimento di spinta per il petto."
+            },
+            {
+              "title": "Resistenza a dischi",
+              "text": "Il carico viene predisposto sulle sedi dedicate della macchina."
+            }
+          ],
+          "alt": "Chest Press GF-001 affiancata da due riquadri sulla spinta da seduti e sul caricamento a dischi."
+        },
+        {
+          "layout": "feature",
+          "kicker": "DATI DI SCHEDA",
+          "title": "DUE NUMERI DA CONFRONTARE",
+          "productSkus": [
+            "FM-GF-001"
+          ],
+          "items": [
+            {
+              "title": "1790 × 1360 × 1010 mm",
+              "text": "Dimensioni dichiarate della macchina: non equivalgono all’intera area di utilizzo."
+            },
+            {
+              "title": "120 kg",
+              "text": "Peso della macchina, distinto dai dischi utilizzati per il carico."
+            }
+          ],
+          "alt": "Immagine della GF-001 con dimensioni 1790 per 1360 per 1010 millimetri e peso macchina di 120 chilogrammi."
+        },
+        {
+          "layout": "closing",
+          "kicker": "PRIMA DELLA SCELTA",
+          "title": "VALUTA ANCHE LO SPAZIO ATTORNO",
+          "body": "Oltre all’ingombro, considera accesso alla seduta, movimento e gestione dei dischi.",
+          "productSkus": [
+            "FM-GF-001"
+          ],
+          "cta": "Salva il modello · DM «FM-GF-001»",
+          "alt": "Chest Press GF-001 con promemoria sullo spazio di utilizzo e invito a salvare il modello o richiedere la scheda in DM."
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "slug": "02-pacco-pesi-o-dischi",
+      "kind": "guide",
+      "title": "Pacco pesi o dischi?",
+      "objective": "Chiarire la differenza tra due modalità di carico senza dichiarare un sistema superiore.",
+      "caption": "Pacco pesi o dischi? La differenza riguarda prima di tutto il modo in cui imposti il carico.\n\nUna macchina con pacco pesi consente di selezionare una quota del carico integrato. Una macchina a dischi richiede di aggiungere o rimuovere i dischi dalle sedi previste. La scelta incide anche sulla gestione degli accessori e sull’organizzazione delle postazioni.\n\nLa Leg Extension FM-GC-5002 e la Chest Press FM-GF-001 illustrano i due sistemi: allenano movimenti differenti, quindi non sono alternative per lo stesso esercizio.\n\nSalva questa distinzione per leggere meglio il catalogo e confrontare configurazioni realmente pertinenti.\n\nImmagini illustrative del catalogo Full Muscle.",
+      "hashtags": [
+        "#FullMuscleEquipment",
+        "#PaccoPesi",
+        "#PlateLoaded",
+        "#AttrezzatureFitness"
+      ],
+      "productSkus": [
+        "FM-GC-5002",
+        "FM-GF-001"
+      ],
+      "sources": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-gf/content/catalog.json",
+        "brochures/fullmuscle-g5/content/catalog.json",
+        "src/lib/guides.ts"
+      ],
+      "slides": [
+        {
+          "layout": "cover",
+          "kicker": "GUIDA ALLA SCELTA",
+          "title": "PACCO PESI\nO DISCHI?",
+          "body": "Due modi diversi di impostare il carico.",
+          "productSkus": [
+            "FM-GC-5002",
+            "FM-GF-001"
+          ],
+          "alt": "Copertina con Leg Extension G5 e Chest Press GF, su fondo scuro, per introdurre pacco pesi e dischi."
+        },
+        {
+          "layout": "compare",
+          "kicker": "IL SISTEMA DI CARICO",
+          "title": "COME CAMBIA LA SELEZIONE",
+          "productSkus": [
+            "FM-GC-5002",
+            "FM-GF-001"
+          ],
+          "items": [
+            {
+              "title": "Pacco pesi · GC-5002",
+              "text": "Il carico integrato si seleziona tramite il perno del pacco pesi."
+            },
+            {
+              "title": "Dischi · GF-001",
+              "text": "Il carico si prepara aggiungendo o rimuovendo i dischi dalle sedi previste."
+            }
+          ],
+          "alt": "Due immagini affiancate: Leg Extension GC-5002 con spiegazione del pacco pesi e Chest Press GF-001 con spiegazione del carico a dischi."
+        },
+        {
+          "layout": "list",
+          "kicker": "NELLA GESTIONE DELLA SALA",
+          "title": "TRE ASPETTI DA VALUTARE",
+          "items": [
+            {
+              "title": "Cambio del carico",
+              "text": "Considera come viene impostato il carico sulla singola postazione."
+            },
+            {
+              "title": "Accessori e spazio",
+              "text": "Per le macchine a dischi valuta anche gestione e collocazione dei dischi."
+            },
+            {
+              "title": "Confronto corretto",
+              "text": "Paragona modelli destinati allo stesso movimento e controlla le singole schede."
+            }
+          ],
+          "alt": "Tre riquadri testuali su cambio del carico, spazio per gli accessori e confronto tra movimenti equivalenti."
+        },
+        {
+          "layout": "closing",
+          "kicker": "DA TENERE A MENTE",
+          "title": "IL SISTEMA NON DEFINISCE L’ESERCIZIO",
+          "body": "I modelli mostrati spiegano due sistemi di carico, ma sono dedicati a movimenti diversi.",
+          "productSkus": [
+            "FM-GC-5002",
+            "FM-GF-001"
+          ],
+          "cta": "Salva la guida per il prossimo confronto",
+          "alt": "Leg Extension e Chest Press insieme al promemoria che sistemi di carico ed esercizi sono aspetti distinti."
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "slug": "03-leg-extension-g5",
+      "kind": "product",
+      "title": "Leg Extension G5",
+      "objective": "Presentare funzione e dati essenziali della Leg Extension FM-GC-5002.",
+      "caption": "Estensione del ginocchio da seduti e resistenza tramite pacco pesi: questa è la configurazione della Leg Extension FM-GC-5002, serie G5.\n\nLa postazione comprende seduta, schienale, impugnature laterali e rullo tibiale. La scheda riporta un pacco pesi da 80 kg, dimensioni di 1300 × 980 × 1550 mm e peso macchina di 174 kg.\n\nPacco pesi e peso macchina descrivono due cose diverse: il primo riguarda il carico integrato, il secondo la macchina stessa. Per inserirla in una selezione, considera anche accesso alla seduta e spazio per il movimento.\n\nSalva i dati oppure scrivici «FM-GC-5002» per la scheda.\n\nImmagini illustrative. Configurazioni e accessori da confermare.",
+      "hashtags": [
+        "#FullMuscleEquipment",
+        "#LegExtension",
+        "#SerieG5",
+        "#AttrezzatureFitness"
+      ],
+      "productSkus": [
+        "FM-GC-5002"
+      ],
+      "sources": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-g5/content/catalog.json"
+      ],
+      "slides": [
+        {
+          "layout": "cover",
+          "kicker": "SERIE G5 · PACCO PESI",
+          "title": "LEG EXTENSION\nGC-5002",
+          "body": "Una postazione per l’estensione del ginocchio da seduti.",
+          "productSkus": [
+            "FM-GC-5002"
+          ],
+          "alt": "Copertina con Leg Extension FM-GC-5002 e titolo bianco su fondo scuro."
+        },
+        {
+          "layout": "feature",
+          "kicker": "IL MOVIMENTO",
+          "title": "ESTENSIONE DA SEDUTI",
+          "productSkus": [
+            "FM-GC-5002"
+          ],
+          "items": [
+            {
+              "title": "Rullo tibiale",
+              "text": "Trasmette il movimento alla resistenza del pacco pesi."
+            },
+            {
+              "title": "Seduta e appoggi",
+              "text": "Schienale e impugnature laterali completano la postazione."
+            }
+          ],
+          "alt": "Immagine della Leg Extension con due riquadri dedicati al rullo tibiale e agli appoggi."
+        },
+        {
+          "layout": "feature",
+          "kicker": "DATI DI SCHEDA",
+          "title": "CARICO E DIMENSIONI",
+          "productSkus": [
+            "FM-GC-5002"
+          ],
+          "items": [
+            {
+              "title": "Pacco pesi · 80 kg",
+              "text": "Carico integrato indicato in scheda; peso macchina: 174 kg."
+            },
+            {
+              "title": "1300 × 980 × 1550 mm",
+              "text": "Dimensioni dichiarate della macchina."
+            }
+          ],
+          "alt": "Immagine della Leg Extension G5 con due riquadri: pacco pesi da 80 chilogrammi e peso macchina di 174 chilogrammi; dimensioni dichiarate."
+        },
+        {
+          "layout": "closing",
+          "kicker": "NELLA TUA SELEZIONE",
+          "title": "UN MOVIMENTO DA IDENTIFICARE BENE",
+          "body": "La Leg Extension lavora sull’estensione del ginocchio. Non confonderla con la Leg Curl.",
+          "productSkus": [
+            "FM-GC-5002"
+          ],
+          "cta": "Salva i dati · DM «FM-GC-5002»",
+          "alt": "Leg Extension con richiamo alla distinzione dalla Leg Curl e codice per richiedere la scheda."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "slug": "04-leg-extension-leg-curl",
+      "kind": "guide",
+      "title": "Leg Extension e Leg Curl",
+      "objective": "Spiegare due movimenti differenti usando modelli della stessa serie con dati confrontabili.",
+      "caption": "Leg Extension e Leg Curl: nomi simili, movimenti differenti.\n\nLa FM-GC-5002 è dedicata all’estensione del ginocchio da seduti. La Seated Leg Curl FM-GC-5001 è dedicata alla flessione. Entrambe appartengono alla serie G5 e riportano in scheda un pacco pesi da 80 kg, dimensioni di 1300 × 980 × 1550 mm e peso macchina di 174 kg.\n\nDati uguali non rendono due postazioni equivalenti. Per leggere una selezione di attrezzature, parti dal movimento previsto e osserva la disposizione di rulli, seduta e appoggi.\n\nSalva il confronto: è utile quando prepari l’elenco delle postazioni per l’area gambe.\n\nImmagini illustrative del catalogo Full Muscle.",
+      "hashtags": [
+        "#FullMuscleEquipment",
+        "#LegExtension",
+        "#LegCurl",
+        "#SalaPesi"
+      ],
+      "productSkus": [
+        "FM-GC-5002",
+        "FM-GC-5001"
+      ],
+      "sources": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-g5/content/catalog.json"
+      ],
+      "slides": [
+        {
+          "layout": "cover",
+          "kicker": "CONFRONTO · SERIE G5",
+          "title": "LEG EXTENSION\nE LEG CURL",
+          "body": "Stessa area della sala. Due movimenti differenti.",
+          "productSkus": [
+            "FM-GC-5002",
+            "FM-GC-5001"
+          ],
+          "alt": "Copertina con Leg Extension e Seated Leg Curl G5 affiancate su fondo scuro."
+        },
+        {
+          "layout": "compare",
+          "kicker": "IL MOVIMENTO CAMBIA",
+          "title": "ESTENSIONE E FLESSIONE",
+          "productSkus": [
+            "FM-GC-5002",
+            "FM-GC-5001"
+          ],
+          "items": [
+            {
+              "title": "GC-5002 · Leg Extension",
+              "text": "Postazione per l’estensione del ginocchio da seduti."
+            },
+            {
+              "title": "GC-5001 · Seated Leg Curl",
+              "text": "Postazione per la flessione del ginocchio da seduti."
+            }
+          ],
+          "alt": "Due immagini affiancate: GC-5002 con spiegazione dell’estensione e GC-5001 con spiegazione della flessione del ginocchio."
+        },
+        {
+          "layout": "list",
+          "kicker": "LE SCHEDE A CONFRONTO",
+          "title": "DATI UGUALI, FUNZIONI DIFFERENTI",
+          "items": [
+            {
+              "title": "Pacco pesi",
+              "text": "80 kg dichiarati per ciascuno dei due modelli."
+            },
+            {
+              "title": "Dimensioni",
+              "text": "1300 × 980 × 1550 mm per ciascuna macchina."
+            },
+            {
+              "title": "Peso macchina",
+              "text": "174 kg per ciascun modello: non è il valore del pacco pesi."
+            }
+          ],
+          "alt": "Tre riquadri riportano i dati comuni delle macchine: pacco pesi 80 chilogrammi, dimensioni e peso di 174 chilogrammi."
+        },
+        {
+          "layout": "closing",
+          "kicker": "IL CRITERIO DI SCELTA",
+          "title": "PARTI DAL MOVIMENTO",
+          "body": "Dimensioni e carico non bastano a descrivere una macchina: identifica prima la funzione della postazione.",
+          "productSkus": [
+            "FM-GC-5002",
+            "FM-GC-5001"
+          ],
+          "cta": "Salva il confronto · Rileggi le due schede",
+          "alt": "I due modelli G5 con conclusione sull’importanza di distinguere funzione, dimensioni e carico."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "slug": "05-lat-pulldown-gf",
+      "kind": "product",
+      "title": "Lat Pulldown GF-004",
+      "objective": "Far conoscere la configurazione della Lat Pulldown a dischi senza attribuirle prestazioni non documentate.",
+      "caption": "La Lat Pulldown FM-GF-004 della serie GF è una postazione a dischi per la trazione dall’alto. La configurazione comprende una seduta con rulli fermacosce.\n\nLa scheda riporta dimensioni di 1925 × 1120 × 2120 mm e un peso macchina di 98 kg. Quando valuti la collocazione, leggi tutte e tre le dimensioni e considera anche accesso, movimento e gestione dei dischi.\n\nIl peso della macchina non indica il carico di allenamento né una portata massima: sono informazioni diverse, da verificare separatamente quando necessarie.\n\nSalva il modello o scrivici «FM-GF-004» per approfondire la scheda e la configurazione.\n\nImmagini illustrative. Configurazioni e accessori da confermare.",
+      "hashtags": [
+        "#FullMuscleEquipment",
+        "#LatPulldown",
+        "#PlateLoaded",
+        "#AttrezzatureFitness"
+      ],
+      "productSkus": [
+        "FM-GF-004"
+      ],
+      "sources": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-gf/content/catalog.json"
+      ],
+      "slides": [
+        {
+          "layout": "cover",
+          "kicker": "SERIE GF · A DISCHI",
+          "title": "LAT PULLDOWN\nGF-004",
+          "body": "Una postazione per la trazione dall’alto.",
+          "productSkus": [
+            "FM-GF-004"
+          ],
+          "alt": "Copertina scura con Lat Pulldown FM-GF-004 e titolo bianco."
+        },
+        {
+          "layout": "feature",
+          "kicker": "LA CONFIGURAZIONE",
+          "title": "TRAZIONE CON APPOGGI DEDICATI",
+          "productSkus": [
+            "FM-GF-004"
+          ],
+          "items": [
+            {
+              "title": "Seduta e rulli fermacosce",
+              "text": "Appoggi che accompagnano il posizionamento sulla macchina."
+            },
+            {
+              "title": "Caricamento a dischi",
+              "text": "La resistenza si prepara tramite le sedi dedicate ai dischi."
+            }
+          ],
+          "alt": "Lat Pulldown GF-004 con due riquadri su seduta, rulli fermacosce e sistema a dischi."
+        },
+        {
+          "layout": "feature",
+          "kicker": "DATI DI SCHEDA",
+          "title": "LEGGI TUTTE E TRE LE DIMENSIONI",
+          "productSkus": [
+            "FM-GF-004"
+          ],
+          "items": [
+            {
+              "title": "1925 × 1120 × 2120 mm",
+              "text": "Dimensioni dichiarate della macchina."
+            },
+            {
+              "title": "Peso macchina · 98 kg",
+              "text": "Un dato distinto dal carico di allenamento e dalla portata."
+            }
+          ],
+          "alt": "Immagine della GF-004 con dimensioni 1925 per 1120 per 2120 millimetri e peso macchina di 98 chilogrammi."
+        },
+        {
+          "layout": "closing",
+          "kicker": "PRIMA DI POSIZIONARLA",
+          "title": "L’ALTEZZA FA PARTE DEL CONFRONTO",
+          "body": "Verifica lo spazio in altezza insieme a ingombro a terra, accesso e movimento previsto.",
+          "productSkus": [
+            "FM-GF-004"
+          ],
+          "cta": "Salva il modello · DM «FM-GF-004»",
+          "alt": "Lat Pulldown GF-004 con promemoria su altezza e spazio di utilizzo e invito al contatto tramite codice."
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "slug": "06-macchina-guidata-cavi",
+      "kind": "guide",
+      "title": "Macchina guidata e cavi",
+      "objective": "Confrontare una postazione dedicata e una stazione a doppio cavo in base a movimento e spazio.",
+      "caption": "Una macchina dedicata e una stazione a cavi organizzano il movimento in modo diverso.\n\nLa Chest Press FM-GF-001 è una postazione per la spinta da seduti, con resistenza a dischi. Il Functional Trainer FM-GC-5090 è una stazione a doppio cavo con due pacchi pesi da 100 kg ciascuno e permette di impostare trazioni e spinte da diversi punti di lavoro.\n\nIl confronto parte dagli esercizi previsti, dalle regolazioni e dallo spazio durante l’utilizzo. Il numero sul pacco pesi, da solo, non permette di confrontare la resistenza percepita tra macchine differenti.\n\nSalva la guida per costruire una selezione più consapevole.\n\nImmagini illustrative del catalogo Full Muscle.",
+      "hashtags": [
+        "#FullMuscleEquipment",
+        "#FunctionalTrainer",
+        "#ChestPress",
+        "#SalaPesi"
+      ],
+      "productSkus": [
+        "FM-GF-001",
+        "FM-GC-5090"
+      ],
+      "sources": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-gf/content/catalog.json",
+        "brochures/fullmuscle-g5/content/catalog.json",
+        "src/lib/guides.ts"
+      ],
+      "slides": [
+        {
+          "layout": "cover",
+          "kicker": "GUIDA ALLA SCELTA",
+          "title": "MACCHINA GUIDATA\nE CAVI",
+          "body": "Confronta il movimento, poi la configurazione.",
+          "productSkus": [
+            "FM-GF-001",
+            "FM-GC-5090"
+          ],
+          "alt": "Copertina con Chest Press GF-001 e Functional Trainer GC-5090 per introdurre il confronto."
+        },
+        {
+          "layout": "compare",
+          "kicker": "DUE IMPOSTAZIONI",
+          "title": "POSTAZIONE DEDICATA O DOPPIO CAVO",
+          "productSkus": [
+            "FM-GF-001",
+            "FM-GC-5090"
+          ],
+          "items": [
+            {
+              "title": "GF-001 · Chest Press",
+              "text": "Spinta da seduti su una macchina dedicata, con resistenza a dischi."
+            },
+            {
+              "title": "GC-5090 · Functional Trainer",
+              "text": "Doppio cavo per impostare trazioni e spinte da diversi punti di lavoro."
+            }
+          ],
+          "alt": "Due immagini affiancate con descrizioni: Chest Press GF-001 a dischi e Functional Trainer GC-5090 a doppio cavo."
+        },
+        {
+          "layout": "list",
+          "kicker": "PRIMA DELLA SELEZIONE",
+          "title": "TRE DOMANDE UTILI",
+          "items": [
+            {
+              "title": "Quali movimenti?",
+              "text": "Individua gli esercizi che la postazione deve permettere."
+            },
+            {
+              "title": "Quale configurazione?",
+              "text": "Verifica regolazioni e accessori previsti per il modello."
+            },
+            {
+              "title": "Quale spazio di lavoro?",
+              "text": "Considera la posizione dell’utilizzatore e il movimento, oltre alla struttura."
+            }
+          ],
+          "alt": "Lista di tre domande su movimenti, configurazione e spazio di lavoro."
+        },
+        {
+          "layout": "closing",
+          "kicker": "IL DATO DA CONTESTUALIZZARE",
+          "title": "I CHILOGRAMMI NON DICONO TUTTO",
+          "body": "Pacchi pesi e dischi non bastano a confrontare la resistenza di macchine con sistemi differenti.",
+          "productSkus": [
+            "FM-GF-001",
+            "FM-GC-5090"
+          ],
+          "cta": "Salva la guida · Confronta le configurazioni",
+          "alt": "Chest Press e Functional Trainer con promemoria sul confronto dei sistemi di resistenza."
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "slug": "07-hip-thrust-g5",
+      "kind": "product",
+      "title": "Hip Thrust G5",
+      "objective": "Presentare il modello dedicato all’hip thrust e separare dati tecnici da valutazione dello spazio.",
+      "caption": "La FM-GC-5092 della serie G5 è una macchina dedicata all’hip thrust, con pacco pesi selezionabile. Appoggi del corpo e pedana definiscono la postazione per il movimento di estensione dell’anca.\n\nLa scheda riporta un pacco pesi da 80 kg, dimensioni di 1950 × 1235 × 1550 mm e peso macchina di 178 kg.\n\nPer valutarla nell’area forza, considera dove collocarla e come accedere alla postazione. Le dimensioni della struttura sono il punto di partenza: la verifica dello spazio deve comprendere anche l’utilizzo.\n\nSalva questi dati oppure scrivici «FM-GC-5092» per approfondire la scheda del modello.\n\nImmagini illustrative. Configurazioni e accessori da confermare.",
+      "hashtags": [
+        "#FullMuscleEquipment",
+        "#HipThrust",
+        "#SerieG5",
+        "#AttrezzatureFitness"
+      ],
+      "productSkus": [
+        "FM-GC-5092"
+      ],
+      "sources": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-g5/content/catalog.json"
+      ],
+      "slides": [
+        {
+          "layout": "cover",
+          "kicker": "SERIE G5 · PACCO PESI",
+          "title": "HIP THRUST\nGC-5092",
+          "body": "Una postazione dedicata all’estensione dell’anca.",
+          "productSkus": [
+            "FM-GC-5092"
+          ],
+          "alt": "Copertina con macchina Hip Thrust FM-GC-5092 su fondo scuro e titolo bianco."
+        },
+        {
+          "layout": "feature",
+          "kicker": "LA CONFIGURAZIONE",
+          "title": "APPOGGI, PEDANA, CARICO",
+          "productSkus": [
+            "FM-GC-5092"
+          ],
+          "items": [
+            {
+              "title": "Postazione dedicata",
+              "text": "Gli appoggi del corpo e la pedana definiscono la posizione di lavoro."
+            },
+            {
+              "title": "Pacco pesi · 80 kg",
+              "text": "Carico integrato selezionabile, secondo la scheda del modello."
+            }
+          ],
+          "alt": "Immagine della Hip Thrust G5 con due riquadri dedicati agli appoggi e al pacco pesi da 80 chilogrammi."
+        },
+        {
+          "layout": "feature",
+          "kicker": "DATI DI SCHEDA",
+          "title": "DIMENSIONI E PESO MACCHINA",
+          "productSkus": [
+            "FM-GC-5092"
+          ],
+          "items": [
+            {
+              "title": "1950 × 1235 × 1550 mm",
+              "text": "Dimensioni dichiarate della macchina."
+            },
+            {
+              "title": "178 kg",
+              "text": "Peso della macchina, distinto dal pacco pesi da 80 kg."
+            }
+          ],
+          "alt": "Macchina Hip Thrust con dimensioni dichiarate e peso macchina di 178 chilogrammi."
+        },
+        {
+          "layout": "closing",
+          "kicker": "NELLA TUA AREA FORZA",
+          "title": "PENSA ANCHE ALL’ACCESSO",
+          "body": "Valuta la collocazione della struttura insieme allo spazio per raggiungere e utilizzare la postazione.",
+          "productSkus": [
+            "FM-GC-5092"
+          ],
+          "cta": "Salva i dati · DM «FM-GC-5092»",
+          "alt": "Hip Thrust G5 con indicazione di considerare accesso e utilizzo oltre all’ingombro."
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "slug": "08-ingombro-spazio-utilizzo",
+      "kind": "guide",
+      "title": "Ingombro e spazio di utilizzo",
+      "objective": "Spiegare perché le dimensioni dichiarate non costituiscono da sole una misura dell’area operativa.",
+      "caption": "Una macchina entra nello spazio disponibile: basta questo per decidere dove collocarla? Serve anche valutare come verrà utilizzata.\n\nL’ingombro dichiarato descrive la macchina. L’area di utilizzo deve considerare accesso alla postazione, movimento dell’utente e delle parti mobili, regolazioni e gestione degli eventuali accessori.\n\nLa Chest Press FM-GF-001, ad esempio, ha dimensioni dichiarate di 1790 × 1360 × 1010 mm. Questi numeri non indicano da soli quanto spazio lasciare attorno. Per una valutazione concreta servono indicazioni del modello e caratteristiche dell’ambiente.\n\nSalva questa checklist prima di confrontare le misure della stanza con quelle del catalogo.\n\nImmagini illustrative del catalogo Full Muscle.",
+      "hashtags": [
+        "#FullMuscleEquipment",
+        "#LayoutPalestra",
+        "#AttrezzatureFitness",
+        "#SalaPesi"
+      ],
+      "productSkus": [
+        "FM-GF-001"
+      ],
+      "sources": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-gf/content/catalog.json",
+        "src/lib/guides.ts"
+      ],
+      "slides": [
+        {
+          "layout": "cover",
+          "kicker": "GUIDA AGLI SPAZI",
+          "title": "INGOMBRO E\nSPAZIO DI UTILIZZO",
+          "body": "La misura della macchina è solo il punto di partenza.",
+          "productSkus": [
+            "FM-GF-001"
+          ],
+          "alt": "Copertina con Chest Press GF-001 e titolo che distingue ingombro e spazio di utilizzo."
+        },
+        {
+          "layout": "list",
+          "kicker": "PARTIAMO DALLA SCHEDA",
+          "title": "CHE COSA DESCRIVONO LE MISURE",
+          "productSkus": [
+            "FM-GF-001"
+          ],
+          "items": [
+            {
+              "title": "Il modello",
+              "text": "Chest Press FM-GF-001, configurazione a dischi."
+            },
+            {
+              "title": "Le dimensioni",
+              "text": "1790 × 1360 × 1010 mm: misure dichiarate della macchina."
+            },
+            {
+              "title": "Il limite del dato",
+              "text": "Queste misure non definiscono da sole l’area completa di utilizzo."
+            }
+          ],
+          "alt": "Chest Press GF-001 con tre riquadri su modello, dimensioni e limite del dato di ingombro."
+        },
+        {
+          "layout": "list",
+          "kicker": "ATTORNO ALLA STRUTTURA",
+          "title": "COSA AGGIUNGERE ALLA VERIFICA",
+          "items": [
+            {
+              "title": "Accesso e regolazioni",
+              "text": "Considera come raggiungere e preparare la postazione."
+            },
+            {
+              "title": "Movimento",
+              "text": "Valuta lo spazio occupato da utilizzatore e parti mobili durante l’esercizio."
+            },
+            {
+              "title": "Accessori e passaggi",
+              "text": "Prevedi la gestione dei dischi e verifica le indicazioni applicabili al modello."
+            }
+          ],
+          "alt": "Tre riquadri evidenziano accesso, movimento e gestione di accessori e passaggi."
+        },
+        {
+          "layout": "closing",
+          "kicker": "UNA VERIFICA CONCRETA",
+          "title": "EVITA LE DISTANZE COPIATE A CASO",
+          "body": "Lo spazio necessario va valutato per modello, modalità d’uso e ambiente. Non esiste un margine unico da aggiungere.",
+          "productSkus": [
+            "FM-GF-001"
+          ],
+          "cta": "Salva la checklist per confrontare gli spazi",
+          "alt": "Chest Press con conclusione sulla necessità di valutare lo spazio caso per caso senza margini universali."
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "slug": "09-shoulder-press-x82",
+      "kind": "product",
+      "title": "Shoulder Press X82",
+      "objective": "Presentare la Shoulder Press FM-X8202 attraverso destinazione e dati dichiarati.",
+      "caption": "La Shoulder Press FM-X8202 appartiene alla serie X82 ed è una postazione con pacco pesi per le spinte dedicate alle spalle. Seduta e schienale fanno parte della configurazione della macchina.\n\nLa scheda riporta un pacco pesi da 90 kg, dimensioni di 1550 × 1400 × 1360 mm e peso macchina di 242 kg.\n\nPrima di confrontarla con un altro modello, separa i dati: il pacco pesi indica il carico integrato, il peso macchina descrive la postazione, le dimensioni aiutano a valutarne la collocazione.\n\nSalva il modello oppure scrivici «FM-X8202» per approfondire la scheda e la configurazione.\n\nImmagini illustrative. Configurazioni e accessori da confermare.",
+      "hashtags": [
+        "#FullMuscleEquipment",
+        "#ShoulderPress",
+        "#SerieX82",
+        "#AttrezzatureFitness"
+      ],
+      "productSkus": [
+        "FM-X8202"
+      ],
+      "sources": [
+        "data/catalog-public/products.json"
+      ],
+      "slides": [
+        {
+          "layout": "cover",
+          "kicker": "SERIE X82 · PACCO PESI",
+          "title": "SHOULDER PRESS\nX8202",
+          "body": "Una postazione dedicata alle spinte per le spalle.",
+          "productSkus": [
+            "FM-X8202"
+          ],
+          "alt": "Copertina con Shoulder Press FM-X8202, titolo bianco e indicazione della serie X82."
+        },
+        {
+          "layout": "feature",
+          "kicker": "LA CONFIGURAZIONE",
+          "title": "SPINTE CON SEDUTA E SCHIENALE",
+          "productSkus": [
+            "FM-X8202"
+          ],
+          "items": [
+            {
+              "title": "Postazione per le spalle",
+              "text": "Macchina dedicata al movimento di spinta da seduti."
+            },
+            {
+              "title": "Pacco pesi · 90 kg",
+              "text": "Il carico integrato dichiarato per questo modello."
+            }
+          ],
+          "alt": "Immagine della Shoulder Press X8202 con due riquadri sulla funzione e sul pacco pesi da 90 chilogrammi."
+        },
+        {
+          "layout": "feature",
+          "kicker": "DATI DI SCHEDA",
+          "title": "INGOMBRO E PESO SONO DATI DISTINTI",
+          "productSkus": [
+            "FM-X8202"
+          ],
+          "items": [
+            {
+              "title": "1550 × 1400 × 1360 mm",
+              "text": "Dimensioni dichiarate della macchina."
+            },
+            {
+              "title": "Peso macchina · 242 kg",
+              "text": "Non va confuso con il valore del pacco pesi."
+            }
+          ],
+          "alt": "Shoulder Press con dimensioni dichiarate e peso macchina di 242 chilogrammi."
+        },
+        {
+          "layout": "closing",
+          "kicker": "PER CONFRONTARE I MODELLI",
+          "title": "LEGGI OGNI NUMERO CON LA SUA VOCE",
+          "body": "90 kg di pacco pesi e 242 kg di peso macchina descrivono aspetti diversi della stessa postazione.",
+          "productSkus": [
+            "FM-X8202"
+          ],
+          "cta": "Salva la scheda · DM «FM-X8202»",
+          "alt": "Shoulder Press X8202 con confronto tra pacco pesi e peso macchina e codice per richiedere informazioni."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "slug": "10-leggere-scheda-tecnica",
+      "kind": "guide",
+      "title": "Come leggere una scheda tecnica",
+      "objective": "Insegnare a distinguere identità del prodotto, dimensioni, carico e peso macchina.",
+      "caption": "Una scheda tecnica diventa più utile quando sai che cosa stai confrontando.\n\nParti dal codice del modello e dalla funzione della macchina. Passa alle dimensioni, controllando unità di misura e ordine delle voci. Distingui poi il peso della macchina dal pacco pesi e da un’eventuale portata dichiarata: non sono valori intercambiabili.\n\nLa Shoulder Press FM-X8202 offre un esempio concreto: dimensioni 1550 × 1400 × 1360 mm, pacco pesi 90 kg, peso macchina 242 kg.\n\nSe un’informazione non è presente, chiedila: non ricavarla dalla fotografia o dal dato di un altro modello. Salva la guida per il prossimo confronto.\n\nImmagini illustrative del catalogo Full Muscle.",
+      "hashtags": [
+        "#FullMuscleEquipment",
+        "#SchedaTecnica",
+        "#AttrezzatureFitness",
+        "#SalaPesi"
+      ],
+      "productSkus": [
+        "FM-X8202"
+      ],
+      "sources": [
+        "data/catalog-public/products.json",
+        "src/lib/guides.ts"
+      ],
+      "slides": [
+        {
+          "layout": "cover",
+          "kicker": "GUIDA AL CATALOGO",
+          "title": "COME LEGGERE\nUNA SCHEDA TECNICA",
+          "body": "Modello, dimensioni, carico: ogni dato ha un significato.",
+          "productSkus": [
+            "FM-X8202"
+          ],
+          "alt": "Copertina con Shoulder Press X8202 e introduzione alla lettura delle schede tecniche."
+        },
+        {
+          "layout": "list",
+          "kicker": "UN ESEMPIO CONCRETO",
+          "title": "TRE VOCI DELLA FM-X8202",
+          "productSkus": [
+            "FM-X8202"
+          ],
+          "items": [
+            {
+              "title": "Dimensioni",
+              "text": "1550 × 1400 × 1360 mm: verifica unità e ordine indicati nella scheda."
+            },
+            {
+              "title": "Pacco pesi",
+              "text": "90 kg: il carico integrato dichiarato."
+            },
+            {
+              "title": "Peso macchina",
+              "text": "242 kg: il peso della postazione, non il suo carico di allenamento."
+            }
+          ],
+          "alt": "Shoulder Press X8202 con tre voci tecniche: dimensioni, pacco pesi da 90 chilogrammi e peso macchina di 242 chilogrammi."
+        },
+        {
+          "layout": "list",
+          "kicker": "PRIMA DI CONFRONTARE",
+          "title": "CONTROLLA ANCHE QUESTO",
+          "items": [
+            {
+              "title": "Codice esatto",
+              "text": "Modelli dal nome simile possono avere configurazioni differenti."
+            },
+            {
+              "title": "Configurazione",
+              "text": "Verifica quali elementi e accessori sono previsti."
+            },
+            {
+              "title": "Dati mancanti",
+              "text": "Richiedi l’informazione: non dedurla da una foto o da un’altra macchina."
+            }
+          ],
+          "alt": "Checklist di tre controlli: codice esatto, configurazione e informazioni mancanti."
+        },
+        {
+          "layout": "closing",
+          "kicker": "IL METODO DA SALVARE",
+          "title": "CONFRONTA VOCI EQUIVALENTI",
+          "body": "Metti a confronto la stessa informazione su due schede. Un numero senza etichetta può portare fuori strada.",
+          "productSkus": [
+            "FM-X8202"
+          ],
+          "cta": "Salva la guida accanto ai modelli che valuti",
+          "alt": "Shoulder Press con conclusione sull’importanza di confrontare voci equivalenti tra schede tecniche."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "slug": "11-tapis-roulant-2000b",
+      "kind": "product",
+      "title": "Tapis roulant FM-2000B",
+      "objective": "Presentare il modello cardio distinguendo area di corsa, ingombro e intervalli dichiarati.",
+      "caption": "Per leggere la scheda di un tapis roulant, separa superficie di corsa, dimensioni della macchina e intervalli di funzionamento.\n\nIl FM-2000B riporta un’area di corsa di 1550 × 585 mm, velocità da 1 a 20 km/h e inclinazione da 0 a 20%. Le dimensioni dichiarate della macchina sono 2110 × 860 × 1725 mm.\n\nL’area di corsa descrive la superficie utilizzabile sul nastro; non coincide con l’ingombro dell’attrezzatura. Anche lo spazio attorno va valutato seguendo le indicazioni del modello e il contesto di installazione.\n\nSalva i dati o scrivici «FM-2000B» per approfondire la scheda.\n\nImmagini illustrative. Configurazioni e accessori da confermare.",
+      "hashtags": [
+        "#FullMuscleEquipment",
+        "#TapisRoulant",
+        "#Cardio",
+        "#AttrezzatureFitness"
+      ],
+      "productSkus": [
+        "FM-2000B"
+      ],
+      "sources": [
+        "data/catalog-public/products.json"
+      ],
+      "slides": [
+        {
+          "layout": "cover",
+          "kicker": "AREA CARDIO",
+          "title": "TAPIS ROULANT\nFM-2000B",
+          "body": "Superficie di corsa e intervalli di funzionamento, in scheda.",
+          "productSkus": [
+            "FM-2000B"
+          ],
+          "alt": "Copertina scura con tapis roulant FM-2000B e titolo bianco dedicato all’area cardio."
+        },
+        {
+          "layout": "feature",
+          "kicker": "DATI DI SCHEDA",
+          "title": "CORSA E VELOCITÀ",
+          "productSkus": [
+            "FM-2000B"
+          ],
+          "items": [
+            {
+              "title": "Area di corsa",
+              "text": "1550 × 585 mm: superficie dichiarata per la corsa sul nastro."
+            },
+            {
+              "title": "Velocità",
+              "text": "Intervallo dichiarato da 1 a 20 km/h."
+            }
+          ],
+          "alt": "Tapis roulant con area di corsa 1550 per 585 millimetri e velocità da 1 a 20 chilometri orari."
+        },
+        {
+          "layout": "feature",
+          "kicker": "DATI DI SCHEDA",
+          "title": "INCLINAZIONE E DIMENSIONI",
+          "productSkus": [
+            "FM-2000B"
+          ],
+          "items": [
+            {
+              "title": "Inclinazione",
+              "text": "Intervallo dichiarato da 0 a 20%."
+            },
+            {
+              "title": "2110 × 860 × 1725 mm",
+              "text": "Dimensioni della macchina, distinte dall’area di corsa."
+            }
+          ],
+          "alt": "FM-2000B con inclinazione da zero al 20 per cento e dimensioni della macchina."
+        },
+        {
+          "layout": "closing",
+          "kicker": "PER LA COLLOCAZIONE",
+          "title": "NASTRO E INGOMBRO NON COINCIDONO",
+          "body": "Confronta la superficie di corsa e le dimensioni dell’attrezzatura come due informazioni separate.",
+          "productSkus": [
+            "FM-2000B"
+          ],
+          "cta": "Salva i dati · DM «FM-2000B»",
+          "alt": "Tapis roulant FM-2000B con riepilogo della differenza tra area di corsa e ingombro."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "slug": "12-cardio-forza-functional",
+      "kind": "guide",
+      "title": "Cardio, forza e functional",
+      "objective": "Collegare tre famiglie di attrezzature alla scelta delle attività e all’organizzazione degli spazi.",
+      "caption": "Cardio, forza e functional possono convivere nella stessa sala, ma la selezione parte dalle attività che vuoi offrire.\n\nIl tapis roulant FM-2000B, la Shoulder Press FM-X8202 e il Functional Trainer FM-GC-5090 mostrano tre configurazioni differenti: nastro per camminata e corsa, postazione dedicata di spinta e stazione a doppio cavo.\n\nLe etichette aiutano a orientarsi, senza creare confini rigidi: anche una stazione a cavi rientra nel lavoro di forza. Per comporre le aree, considera esercizi previsti, spazio durante l’utilizzo e distribuzione delle postazioni.\n\nSalva questa mappa e usala per elencare le funzioni che vuoi inserire nella tua selezione.\n\nImmagini illustrative del catalogo Full Muscle.",
+      "hashtags": [
+        "#FullMuscleEquipment",
+        "#Cardio",
+        "#SalaPesi",
+        "#FunctionalTraining"
+      ],
+      "productSkus": [
+        "FM-2000B",
+        "FM-X8202",
+        "FM-GC-5090"
+      ],
+      "sources": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-g5/content/catalog.json",
+        "src/lib/guides.ts"
+      ],
+      "slides": [
+        {
+          "layout": "cover",
+          "kicker": "UNA SALA, PIÙ ATTIVITÀ",
+          "title": "CARDIO, FORZA\nE FUNCTIONAL",
+          "body": "Tre esempi per ragionare sulle funzioni delle postazioni.",
+          "productSkus": [
+            "FM-2000B",
+            "FM-X8202",
+            "FM-GC-5090"
+          ],
+          "alt": "Copertina con tapis roulant FM-2000B, Shoulder Press X8202 e Functional Trainer GC-5090."
+        },
+        {
+          "layout": "list",
+          "kicker": "PARTI DALLE ATTIVITÀ",
+          "title": "TRE ESEMPI DI CONFIGURAZIONE",
+          "items": [
+            {
+              "title": "Cardio · FM-2000B",
+              "text": "Tapis roulant con nastro per camminata e corsa."
+            },
+            {
+              "title": "Forza · FM-X8202",
+              "text": "Shoulder Press: una postazione dedicata al movimento di spinta."
+            },
+            {
+              "title": "Functional · FM-GC-5090",
+              "text": "Stazione a doppio cavo per impostare trazioni e spinte."
+            }
+          ],
+          "alt": "Tre riquadri associano cardio, forza e functional ai rispettivi modelli di esempio."
+        },
+        {
+          "layout": "list",
+          "kicker": "PER COMPORRE LE AREE",
+          "title": "TRE CRITERI PRIMA DEI NUMERI",
+          "items": [
+            {
+              "title": "Attività previste",
+              "text": "Elenca quali esercizi e modalità di utilizzo vuoi rendere disponibili."
+            },
+            {
+              "title": "Spazio durante l’uso",
+              "text": "Valuta accessi, movimento e gestione degli accessori di ciascuna postazione."
+            },
+            {
+              "title": "Distribuzione",
+              "text": "Ragiona su collocazione e passaggi insieme alla selezione delle macchine."
+            }
+          ],
+          "alt": "Tre criteri per organizzare le aree: attività previste, spazio di utilizzo e distribuzione delle postazioni."
+        },
+        {
+          "layout": "closing",
+          "kicker": "LA MAPPA DA PORTARE CON TE",
+          "title": "LE CATEGORIE AIUTANO, NON DIVIDONO",
+          "body": "Una stazione a cavi può far parte del lavoro di forza. Scegli le attrezzature per funzione, non solo per etichetta.",
+          "productSkus": [
+            "FM-2000B",
+            "FM-X8202",
+            "FM-GC-5090"
+          ],
+          "cta": "Salva la mappa · Elenca le funzioni che cerchi",
+          "alt": "Tre macchine rappresentano aree complementari con una conclusione sul valore della funzione rispetto all’etichetta."
+        }
+      ]
+    }
+  ]
+}
+

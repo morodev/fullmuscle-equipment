@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "products": [
+    {
+      "sku": "FM-GF-001",
+      "name": "Chest Press",
+      "line": "GF",
+      "category": "Petto",
+      "image": "src/assets/catalog/FM-GF-001/primary-01-33f72376be96.webp",
+      "width": 1254,
+      "height": 1254,
+      "sourceFiles": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-gf/content/catalog.json"
+      ],
+      "facts": [
+        { "label": "Movimento", "value": "Spinta da seduti" },
+        { "label": "Sistema di carico", "value": "A dischi" },
+        { "label": "Postazione", "value": "Seduta, schienale e pedana anteriore" },
+        { "label": "Dimensioni (L × P × H)", "value": "1790 × 1360 × 1010 mm" },
+        { "label": "Peso macchina", "value": "120 kg" }
+      ],
+      "description": "Chest press a dischi per la spinta da seduti. La postazione comprende seduta, schienale, impugnature anteriori e pedana.",
+      "assetStatus": "approved-provisional",
+      "url": "https://fullmuscle-equipment.com/it/catalogo/"
+    },
+    {
+      "sku": "FM-GF-004",
+      "name": "Lat Pulldown",
+      "line": "GF",
+      "category": "Schiena",
+      "image": "src/assets/catalog/FM-GF-004/primary-01-99c8371ac2a7.webp",
+      "width": 1254,
+      "height": 1254,
+      "sourceFiles": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-gf/content/catalog.json"
+      ],
+      "facts": [
+        { "label": "Movimento", "value": "Trazione verticale" },
+        { "label": "Sistema di carico", "value": "A dischi" },
+        { "label": "Postazione", "value": "Seduta con rulli fermacosce" },
+        { "label": "Dimensioni (L × P × H)", "value": "1925 × 1120 × 2120 mm" },
+        { "label": "Peso macchina", "value": "98 kg" }
+      ],
+      "description": "Macchina a dischi per la trazione dall'alto, con barra, seduta e rulli fermacosce.",
+      "assetStatus": "approved-provisional",
+      "url": "https://fullmuscle-equipment.com/it/catalogo/"
+    },
+    {
+      "sku": "FM-GC-5002",
+      "name": "Leg Extension",
+      "line": "G5",
+      "category": "Gambe e glutei",
+      "image": "src/assets/catalog/FM-GC-5002/primary-01-24b55ca7ab37.webp",
+      "width": 1527,
+      "height": 1030,
+      "sourceFiles": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-g5/content/catalog.json"
+      ],
+      "facts": [
+        { "label": "Movimento", "value": "Estensione del ginocchio da seduti" },
+        { "label": "Postazione", "value": "Seduta, schienale e rullo tibiale" },
+        { "label": "Pacco pesi", "value": "80 kg" },
+        { "label": "Dimensioni (L × P × H)", "value": "1300 × 980 × 1550 mm" },
+        { "label": "Peso macchina", "value": "174 kg" }
+      ],
+      "description": "Macchina per l'estensione del ginocchio da seduti, dedicata ai quadricipiti. Il rullo tibiale è collegato alla resistenza del pacco pesi.",
+      "assetStatus": "approved-provisional",
+      "url": "https://fullmuscle-equipment.com/it/catalogo/"
+    },
+    {
+      "sku": "FM-GC-5001",
+      "name": "Seated Leg Curl",
+      "line": "G5",
+      "category": "Gambe e glutei",
+      "image": "src/assets/catalog/FM-GC-5001/primary-01-1980860cedf8.webp",
+      "width": 1527,
+      "height": 1030,
+      "sourceFiles": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-g5/content/catalog.json"
+      ],
+      "facts": [
+        { "label": "Movimento", "value": "Flessione del ginocchio da seduti" },
+        { "label": "Postazione", "value": "Seduta, schienale e rulli di appoggio" },
+        { "label": "Pacco pesi", "value": "80 kg" },
+        { "label": "Dimensioni (L × P × H)", "value": "1300 × 980 × 1550 mm" },
+        { "label": "Peso macchina", "value": "174 kg" }
+      ],
+      "description": "Leg curl da seduti per la flessione del ginocchio contro il carico selezionato. La postazione comprende seduta, schienale, rulli e impugnature laterali.",
+      "assetStatus": "approved-provisional",
+      "url": "https://fullmuscle-equipment.com/it/catalogo/"
+    },
+    {
+      "sku": "FM-GC-5092",
+      "name": "Hip Thrust",
+      "line": "G5",
+      "category": "Gambe e glutei",
+      "image": "src/assets/catalog/FM-GC-5092/primary-01-973dcf94708a.webp",
+      "width": 1254,
+      "height": 1254,
+      "sourceFiles": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-g5/content/catalog.json"
+      ],
+      "facts": [
+        { "label": "Movimento", "value": "Estensione dell'anca" },
+        { "label": "Postazione", "value": "Appoggi per il corpo e pedana" },
+        { "label": "Pacco pesi", "value": "80 kg" },
+        { "label": "Dimensioni (L × P × H)", "value": "1950 × 1235 × 1550 mm" },
+        { "label": "Peso macchina", "value": "178 kg" }
+      ],
+      "description": "Macchina per hip thrust con pacco pesi selezionabile, appoggi per il corpo e pedana dedicata al movimento di estensione dell'anca.",
+      "assetStatus": "approved-provisional",
+      "url": "https://fullmuscle-equipment.com/it/catalogo/"
+    },
+    {
+      "sku": "FM-X8202",
+      "name": "Shoulder Press",
+      "line": "X82",
+      "category": "Spalle",
+      "image": "src/assets/catalog/FM-X8202/primary-01-9411a34d6cab.webp",
+      "width": 1254,
+      "height": 1254,
+      "sourceFiles": [
+        "data/catalog-public/products.json"
+      ],
+      "facts": [
+        { "label": "Postazione", "value": "Seduta con schienale" },
+        { "label": "Sistema di carico", "value": "Pacco pesi con selettore" },
+        { "label": "Pacco pesi", "value": "90 kg" },
+        { "label": "Dimensioni (L × P × H)", "value": "1550 × 1400 × 1360 mm" },
+        { "label": "Peso macchina", "value": "242 kg" }
+      ],
+      "description": "Shoulder press con seduta, schienale e pacco pesi selezionabile. Il modello appartiene alla linea X82.",
+      "assetStatus": "approved-provisional",
+      "url": "https://fullmuscle-equipment.com/it/catalogo/"
+    },
+    {
+      "sku": "FM-2000B",
+      "name": "Tapis roulant",
+      "line": null,
+      "category": "Cardio",
+      "image": "src/assets/catalog/FM-2000B/primary-01-d18118dce644.webp",
+      "width": 1254,
+      "height": 1254,
+      "sourceFiles": [
+        "data/catalog-public/products.json",
+        "data/catalog-editorial/descriptions.json"
+      ],
+      "facts": [
+        { "label": "Superficie di corsa", "value": "1550 × 585 mm" },
+        { "label": "Velocità", "value": "1–20 km/h" },
+        { "label": "Inclinazione", "value": "0–20%" },
+        { "label": "Dimensioni (L × P × H)", "value": "2110 × 860 × 1725 mm" },
+        { "label": "Peso netto", "value": "190 kg" }
+      ],
+      "description": "Tapis roulant con superficie di corsa di 1550 × 585 mm, velocità regolabile da 1 a 20 km/h e inclinazione da 0 a 20%.",
+      "assetStatus": "approved-provisional",
+      "url": "https://fullmuscle-equipment.com/it/catalogo/"
+    },
+    {
+      "sku": "FM-GC-5090",
+      "name": "Functional Trainer",
+      "line": "G5",
+      "category": "Cavi e multifunzione",
+      "image": "src/assets/catalog/FM-GC-5090/primary-01-c238a2490d1f.webp",
+      "width": 1254,
+      "height": 1254,
+      "sourceFiles": [
+        "data/catalog-public/products.json",
+        "brochures/fullmuscle-g5/content/catalog.json"
+      ],
+      "facts": [
+        { "label": "Configurazione", "value": "Stazione a doppio cavo" },
+        { "label": "Movimenti", "value": "Trazioni e spinte da diversi punti di lavoro" },
+        { "label": "Pacchi pesi", "value": "100 kg × 2" },
+        { "label": "Dimensioni (L × P × H)", "value": "760 × 1530 × 2250 mm" },
+        { "label": "Peso macchina", "value": "350 kg" }
+      ],
+      "description": "Stazione funzionale a doppio cavo con due pacchi pesi. Consente di impostare trazioni e spinte da diversi punti di lavoro.",
+      "assetStatus": "approved-provisional",
+      "url": "https://fullmuscle-equipment.com/it/catalogo/"
+    }
+  ]
+}

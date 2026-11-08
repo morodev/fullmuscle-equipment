@@ -1,0 +1,130 @@
+/* These rules belong exclusively to the print brochure. */
+.print-brochure .print-page-heading{margin-top:9mm}
+.print-brochure .print-page-heading h1{font-size:38pt;line-height:1.04;margin-top:4mm;max-width:175mm}
+.print-brochure .print-subtitle{font-size:10pt;line-height:1.4;color:var(--muted);margin-top:3mm}
+.print-brochure .print-spec{font-size:9pt;line-height:1.25}
+.print-brochure .print-spec>span{color:var(--muted)}
+.print-brochure .print-spec>strong{font-weight:700}
+.print-brochure .product-price strong{font-size:18pt}
+.print-brochure .render-caption{font-size:7pt}
+
+/* Cover */
+.print-cover .inner{top:17mm}
+.print-cover .print-edition{position:absolute;right:0;top:2mm;font-size:8pt;line-height:1.8;letter-spacing:.1em;text-align:right;text-transform:uppercase;color:#becabb}
+.print-cover .print-cover-kicker{margin-top:17mm}
+.print-cover .print-cover-title{font-size:90pt;line-height:.95;margin-top:3mm}
+.print-cover .print-cover-subtitle{font-size:29pt;margin-top:5mm}
+.print-cover .print-cover-image{position:absolute;top:105mm;left:2mm;right:2mm}
+.print-cover .print-cover-image img{margin:0 auto}
+.print-cover .print-cover-image:before{content:'';position:absolute;left:-2mm;top:-5mm;width:28mm;height:34mm;border-left:1mm solid var(--green-light);border-top:1mm solid var(--green-light)}
+.print-cover .print-cover-bottom{position:absolute;top:230mm;left:0;right:0;display:flex;justify-content:space-between;gap:8mm;align-items:center}
+.print-cover .print-cover-bottom p{font-size:12pt;line-height:1.6;color:#dbe5d8}
+.print-cover .print-count{font-family:FM Display,sans-serif;font-size:43pt;line-height:1;color:var(--green-light);text-align:right}
+.print-cover .print-count span{font-family:FM Sans,sans-serif;display:block;font-size:8pt;line-height:1.4;letter-spacing:.08em;text-transform:uppercase;color:#dbe5d8;margin-top:2mm}
+
+/* Introduction and area index */
+.print-intro .print-page-heading h1{max-width:150mm;font-size:42pt}
+.print-intro .print-intro-lead{font-size:11pt;line-height:1.55;color:#4b584c;max-width:168mm;margin-top:7mm}
+.print-intro .print-service-band{margin-top:8mm;padding:6mm;background:var(--paper);border-left:1mm solid var(--green)}
+.print-intro .print-service-band b{font-size:13pt}
+.print-intro .print-service-band p{font-size:10pt;line-height:1.5;max-width:153mm;margin-top:2mm}
+.print-intro .print-index{margin-top:7mm}
+.print-intro .print-index a{display:flex;justify-content:space-between;align-items:center;gap:6mm;padding:4mm 0;border-bottom:.2mm solid var(--line)}
+.print-intro .print-index b{font-family:FM Display,sans-serif;font-size:17pt;line-height:1.1;display:block}
+.print-intro .print-index span{font-size:9pt;line-height:1.3;color:var(--muted);display:block;margin-top:1mm}
+.print-intro .print-index> a>strong{font-family:FM Display,sans-serif;font-size:22pt;color:var(--green)}
+.print-intro .print-intro-note{margin-top:7mm;font-size:9pt;line-height:1.45;color:var(--muted)}
+
+/* Full-page product */
+.print-featured .spec-panel{padding:4mm;min-height:0}
+.print-featured .print-spec{padding:1.2mm 0;border-bottom:.2mm solid #d7dfd2}
+.print-featured .print-spec:last-child{border-bottom:0}
+.print-featured .print-spec>span{display:block;font-size:9pt;line-height:1.2;margin-bottom:.7mm}
+.print-featured .print-spec>strong{display:block;font-size:10.5pt;line-height:1.2}
+.print-featured .print-spec[data-spec-label="Dimensioni (L × P × H)"]>strong{font-size:10pt;white-space:nowrap}
+.print-featured .print-feature-strip{margin-top:8mm;padding-top:4mm;border-top:.3mm solid var(--green);display:grid;grid-template-columns:38mm 1fr;gap:8mm;align-items:start}
+.print-featured .print-feature-strip>span{font-size:8pt;letter-spacing:.12em;line-height:1.5;color:var(--green);font-weight:700}
+.print-featured .print-feature-strip p{font-size:9.5pt;line-height:1.5;color:#52624d;max-width:129mm}
+
+/* Product grids: all variable technical data stays with its own model. */
+.print-grid .print-page-heading{margin-top:5mm}
+.print-grid .print-page-heading h1{font-size:28pt;line-height:1.05;margin-top:2mm;white-space:nowrap;letter-spacing:-.035em}
+.print-grid .print-subtitle{font-size:9pt;line-height:1.35;margin-top:2mm;max-width:176mm}
+.print-grid .print-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:8mm;row-gap:5mm;margin-top:5mm}
+.print-grid .print-card{border-top:.4mm solid var(--green);padding-top:3mm;min-width:0;position:relative}
+.print-grid .print-card-heading{height:14mm}
+.print-grid .print-card-heading .product-code{font-size:8pt;line-height:1.15;letter-spacing:.08em}
+.print-grid .print-card-heading h2{font-family:FM Display,sans-serif;font-size:18pt;line-height:1.05;letter-spacing:-.025em;margin-top:1.2mm;max-width:86mm}
+.print-grid .print-card-image{display:flex;align-items:center;justify-content:center;height:43mm}
+.print-grid .print-card-description{height:8mm;font-size:9pt;line-height:1.25;color:#52624d;margin-top:1mm}
+.print-grid .print-card-specs{display:grid;grid-template-columns:1fr 1fr;column-gap:4mm;row-gap:1mm}
+.print-grid .print-spec{font-size:9pt;line-height:1.2}
+.print-grid .print-dimensions{grid-column:1/-1;display:flex;justify-content:space-between;align-items:baseline;gap:1mm}
+.print-grid .print-dimensions>span{font-size:9pt;letter-spacing:-.03em;white-space:nowrap}
+.print-grid .print-dimensions>strong{font-size:9pt;white-space:nowrap;letter-spacing:-.02em}
+.print-grid .print-load{border-top:.2mm solid var(--line);padding-top:1mm}
+.print-grid .print-load>span{display:block;font-size:9pt}
+.print-grid .print-load>strong{display:block;font-size:9pt;margin-top:.5mm}
+.print-grid .print-material{grid-column:1/-1;display:flex;justify-content:space-between;gap:2mm}
+.print-grid .print-material>span,.print-grid .print-material>strong{font-size:9pt;white-space:nowrap}
+.print-grid .product-price{padding-top:1.7mm;margin-top:2mm;display:flex;align-items:baseline;justify-content:space-between;gap:2mm}
+.print-grid .product-price span{font-size:8pt;letter-spacing:0;line-height:1.2;margin:0}
+.print-grid .product-price strong{font-size:15pt;line-height:1.1}
+.print-four .print-card{height:108mm}
+
+/* Six compact products, with genuinely identical specifications grouped once. */
+.print-six .print-cards{row-gap:3mm;margin-top:4mm}
+.print-six .print-card{height:63mm;padding-top:2mm}
+.print-six .print-card-heading{height:12mm}
+.print-six .print-card-heading h2{font-size:16pt;max-width:86mm}
+.print-six .print-card-image{height:25mm}
+.print-six .print-card-description{height:5mm;margin-top:1mm;font-size:9pt;line-height:1.2;white-space:nowrap;letter-spacing:-.015em}
+.print-six .print-card-specs{display:block}
+.print-six .print-load{display:flex;justify-content:space-between;align-items:baseline;border:0;padding-top:1mm}
+.print-six .print-load>strong{margin-top:0}
+.print-six .product-price{margin-top:1.5mm;padding-top:1.5mm}
+.print-six .product-price strong{font-size:14pt}
+.print-six .print-common-specs{margin-top:5mm;padding:3mm 4mm;background:var(--paper)}
+.print-six .print-common-specs h2{font-size:9pt;line-height:1.2;font-weight:700;color:var(--green);margin-bottom:2mm}
+.print-six .print-common-specs>div{display:grid;grid-template-columns:1fr 1.3fr 1.2fr;gap:5mm}
+.print-six .print-common-specs .print-spec>span{display:block;font-size:9pt}
+.print-six .print-common-specs .print-spec>strong{display:block;font-size:9pt;margin-top:.8mm;white-space:nowrap}
+
+/* Two visual pauses, each tied to a commercial need. */
+.print-ambient .inner{top:16mm}
+.print-ambient .print-ambient-kicker{margin-top:13mm}
+.print-ambient .print-ambient-title{font-size:41pt;line-height:1.03;max-width:172mm;margin-top:6mm}
+.print-ambient .print-ambient-image{margin-top:10mm}
+.print-ambient .print-ambient-image img{margin:0 auto}
+.print-ambient .print-ambient-text{margin-top:10mm;border-top:.3mm solid #56694f;padding-top:6mm}
+.print-ambient .print-ambient-text p{font-size:12pt;line-height:1.6;color:#d4e0cf;max-width:174mm}
+.print-ambient .print-ambient-text b{display:block;font-family:FM Display,sans-serif;font-size:21pt;color:var(--green-light);margin-top:5mm}
+.print-renewal{background:#263a29}
+.print-renewal .print-ambient-title{max-width:160mm;font-size:40pt}
+.print-renewal .print-ambient-image{margin-top:12mm}
+
+/* Project conversation and contact. */
+.print-process .print-page-heading h1{max-width:167mm;font-size:40pt}
+.print-process .print-process-lead{font-size:11pt;line-height:1.6;color:#52624d;margin-top:7mm;max-width:170mm}
+.print-process .print-process-steps{margin-top:10mm}
+.print-process .print-process-steps section{display:grid;grid-template-columns:25mm 1fr;gap:7mm;padding:7mm 0;border-top:.3mm solid var(--line)}
+.print-process .print-process-steps section>span{font-family:FM Display,sans-serif;font-size:37pt;line-height:1;color:var(--green)}
+.print-process .print-process-steps h2{font-family:FM Display,sans-serif;font-size:22pt;line-height:1.1}
+.print-process .print-process-steps p{font-size:10.5pt;line-height:1.5;margin-top:3mm;color:#52624d;max-width:143mm}
+.print-process .print-process-callout{margin-top:8mm;padding:6mm;background:var(--paper);border-left:1mm solid var(--green)}
+.print-process .print-process-callout h2{font-size:15pt;line-height:1.2}
+.print-process .print-process-callout p{font-size:10pt;line-height:1.5;margin-top:3mm}
+.print-contact:before{content:'';position:absolute;left:0;top:0;bottom:0;width:9mm;background:var(--green)}
+.print-contact .inner{left:21mm;right:18mm;top:19mm}
+.print-contact .print-contact-kicker{margin-top:19mm}
+.print-contact .print-contact-title{font-size:48pt;line-height:1.04;max-width:150mm;margin-top:11mm}
+.print-contact .print-contact-copy{font-size:12pt;line-height:1.6;color:#52624d;margin-top:7mm;max-width:150mm}
+.print-contact .print-contact-person{margin-top:13mm;padding-top:6mm;border-top:.3mm solid var(--green)}
+.print-contact .print-contact-person h2{font-family:FM Display,sans-serif;font-size:25pt;line-height:1.1}
+.print-contact .print-contact-person a{display:block;font-size:12pt;line-height:1.3;margin-top:3mm}
+.print-contact .print-contact-person .print-contact-phone{font-size:25pt;font-weight:700;margin-top:2mm}
+.print-contact .print-contact-qr{display:grid;grid-template-columns:35mm 1fr;gap:8mm;align-items:center;padding:6mm;background:var(--paper);margin-top:12mm}
+.print-contact .print-contact-qr img{display:block;width:34mm;height:34mm}
+.print-contact .print-contact-qr h2{font-size:14pt;line-height:1.25}
+.print-contact .print-contact-qr p{font-size:9pt;line-height:1.5;color:var(--muted);margin-top:3mm}
+.print-contact .print-contact-note{font-size:9pt;line-height:1.5;color:var(--muted);margin-top:7mm}

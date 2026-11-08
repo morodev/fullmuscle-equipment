@@ -4,6 +4,8 @@ Sito corporate e catalogo B2B per attrezzature fitness professionali. Il catalog
 
 La priorità commerciale è acquisire richieste per nuove aperture di palestre e forniture complete, seguite da rinnovi e ampliamenti. Centri medicali, fisioterapia e riabilitazione completano l'offerta; gli altri contesti restano accessibili nelle pagine Soluzioni.
 
+Il [piano marketing e social](docs/piano-marketing-social.md) definisce posizionamento, progettazione inclusa nella fornitura, calendario Instagram iniziale e attività commerciali dei primi 90 giorni, con ruoli e criteri di misurazione.
+
 ## Avvio locale
 
 Richiede Node.js 24.x. Il requisito evita versioni Node 22 precedenti alla `22.19.0`, incompatibili con `undici 8` usato dalla toolchain Astro.

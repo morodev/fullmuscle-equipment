@@ -1,0 +1,1391 @@
+{
+  "generatedAt": "2026-11-08T11:37:41.555Z",
+  "mode": "final-export",
+  "catalogModels": 105,
+  "pricingInputs": {
+    "content/catalog.json": "55624f4f63ef6dd6fef311f3836e441b1470bd2011a77269e19aa6735dc44bc6",
+    "content/pricing-config.json": "bee47b65c71637fc1e04b3d76731008f69cfb54be8bda303ec5fee3e668c1338",
+    "content/purchase-prices.json": "42a50fb9030d858fed91b2c644b26f1d953bae7eca970c4afb2ad1458d88c244"
+  },
+  "brochureModels": [
+    "FM-GC-5016",
+    "FM-GC-5001",
+    "FM-GC-5002",
+    "FM-GC-5014",
+    "FM-GC-5033",
+    "FM-GC-5092",
+    "FM-GC-5005",
+    "FM-GC-5012",
+    "FM-GC-5010",
+    "FM-GC-5007",
+    "FM-GC-5047",
+    "FM-GC-5008",
+    "FM-GC-5004",
+    "FM-GC-5019",
+    "FM-GC-5046",
+    "FM-GC-5011",
+    "FM-GC-5090",
+    "FM-GC-5024",
+    "FM-GC-5023",
+    "FM-GC-5031",
+    "FM-GC-5051",
+    "FM-GC-5013",
+    "FM-GC-5028",
+    "FM-GC-5015"
+  ],
+  "originalSourcesModified": false,
+  "pendingImages": [],
+  "qr": {
+    "destination": "https://fullmuscle-equipment.com/cataloghi/fullmuscle-g5.pdf",
+    "encoded": true,
+    "publicHttpStatus": "not-verified",
+    "physicalPrintScan": "not-performed"
+  },
+  "print": {
+    "trimMm": [
+      210,
+      297
+    ],
+    "bleedMm": 3,
+    "safeMarginMm": 12,
+    "minimumImagePpi": 240,
+    "targetImagePpi": 300,
+    "profile": "sRGB; printer-specific CMYK/PDF-X conversion pending printer requirements",
+    "imposition": "single pages in reading order"
+  },
+  "documents": [
+    {
+      "filename": "brochure-stampa.pdf",
+      "pages": 16,
+      "expectedPages": 16,
+      "format": "A4 trim 210 × 297 mm / bleed 216 × 303 mm",
+      "colorSpace": "RGB / sRGB image assets; not certified PDF/X",
+      "embeddedFonts": [
+        {
+          "reference": "1199 0 R",
+          "name": "/AAAAAA+Arial-BoldMT",
+          "embedded": true
+        },
+        {
+          "reference": "1203 0 R",
+          "name": "/BAAAAA+ArialNarrow-Bold",
+          "embedded": true
+        },
+        {
+          "reference": "1207 0 R",
+          "name": "/CAAAAA+ArialMT",
+          "embedded": true
+        }
+      ],
+      "images": [
+        {
+          "asset": "gym-project",
+          "page": 1,
+          "loaded": true,
+          "ppi": 240,
+          "widthMm": 162.56,
+          "heightMm": 108.37
+        },
+        {
+          "asset": "FM-GC-5016",
+          "page": 3,
+          "loaded": true,
+          "ppi": 242,
+          "widthMm": 105,
+          "heightMm": 119.67
+        },
+        {
+          "asset": "legpress-training",
+          "page": 3,
+          "loaded": true,
+          "ppi": 813,
+          "widthMm": 62,
+          "heightMm": 32
+        },
+        {
+          "asset": "FM-GC-5001",
+          "page": 4,
+          "loaded": true,
+          "ppi": 567,
+          "widthMm": 37.84,
+          "heightMm": 42
+        },
+        {
+          "asset": "FM-GC-5002",
+          "page": 4,
+          "loaded": true,
+          "ppi": 581,
+          "widthMm": 34.52,
+          "heightMm": 42
+        },
+        {
+          "asset": "FM-GC-5014",
+          "page": 4,
+          "loaded": true,
+          "ppi": 675,
+          "widthMm": 34.77,
+          "heightMm": 42
+        },
+        {
+          "asset": "FM-GC-5033",
+          "page": 4,
+          "loaded": true,
+          "ppi": 673,
+          "widthMm": 37.05,
+          "heightMm": 42
+        },
+        {
+          "asset": "FM-GC-5092",
+          "page": 5,
+          "loaded": true,
+          "ppi": 273,
+          "widthMm": 105,
+          "heightMm": 98.12
+        },
+        {
+          "asset": "gym-project",
+          "page": 6,
+          "loaded": true,
+          "ppi": 240,
+          "widthMm": 162.56,
+          "heightMm": 108.37
+        },
+        {
+          "asset": "FM-GC-5005",
+          "page": 7,
+          "loaded": true,
+          "ppi": 240,
+          "widthMm": 81.07,
+          "heightMm": 99.17
+        },
+        {
+          "asset": "chest-training",
+          "page": 7,
+          "loaded": true,
+          "ppi": 813,
+          "widthMm": 62,
+          "heightMm": 32
+        },
+        {
+          "asset": "FM-GC-5012",
+          "page": 8,
+          "loaded": true,
+          "ppi": 669,
+          "widthMm": 36.19,
+          "heightMm": 42
+        },
+        {
+          "asset": "FM-GC-5010",
+          "page": 8,
+          "loaded": true,
+          "ppi": 599,
+          "widthMm": 36.19,
+          "heightMm": 42
+        },
+        {
+          "asset": "FM-GC-5007",
+          "page": 8,
+          "loaded": true,
+          "ppi": 706,
+          "widthMm": 31.42,
+          "heightMm": 42
+        },
+        {
+          "asset": "FM-GC-5047",
+          "page": 8,
+          "loaded": true,
+          "ppi": 712,
+          "widthMm": 26.9,
+          "heightMm": 42
+        },
+        {
+          "asset": "FM-GC-5008",
+          "page": 9,
+          "loaded": true,
+          "ppi": 240,
+          "widthMm": 67.94,
+          "heightMm": 98.74
+        },
+        {
+          "asset": "FM-GC-5004",
+          "page": 10,
+          "loaded": true,
+          "ppi": 585,
+          "widthMm": 29.15,
+          "heightMm": 42
+        },
+        {
+          "asset": "FM-GC-5019",
+          "page": 10,
+          "loaded": true,
+          "ppi": 706,
+          "widthMm": 26.86,
+          "heightMm": 42
+        },
+        {
+          "asset": "FM-GC-5046",
+          "page": 10,
+          "loaded": true,
+          "ppi": 650,
+          "widthMm": 29.61,
+          "heightMm": 42
+        },
+        {
+          "asset": "FM-GC-5011",
+          "page": 10,
+          "loaded": true,
+          "ppi": 653,
+          "widthMm": 34.91,
+          "heightMm": 42
+        },
+        {
+          "asset": "gym-renewal",
+          "page": 11,
+          "loaded": true,
+          "ppi": 240,
+          "widthMm": 162.56,
+          "heightMm": 108.37
+        },
+        {
+          "asset": "FM-GC-5090",
+          "page": 12,
+          "loaded": true,
+          "ppi": 240,
+          "widthMm": 92.18,
+          "heightMm": 113.35
+        },
+        {
+          "asset": "FM-GC-5024",
+          "page": 13,
+          "loaded": true,
+          "ppi": 934,
+          "widthMm": 22.17,
+          "heightMm": 25
+        },
+        {
+          "asset": "FM-GC-5023",
+          "page": 13,
+          "loaded": true,
+          "ppi": 1019,
+          "widthMm": 28.81,
+          "heightMm": 25
+        },
+        {
+          "asset": "FM-GC-5031",
+          "page": 13,
+          "loaded": true,
+          "ppi": 986,
+          "widthMm": 25.05,
+          "heightMm": 25
+        },
+        {
+          "asset": "FM-GC-5051",
+          "page": 13,
+          "loaded": true,
+          "ppi": 1002,
+          "widthMm": 25.45,
+          "heightMm": 25
+        },
+        {
+          "asset": "FM-GC-5013",
+          "page": 13,
+          "loaded": true,
+          "ppi": 798,
+          "widthMm": 33.06,
+          "heightMm": 25
+        },
+        {
+          "asset": "FM-GC-5028",
+          "page": 13,
+          "loaded": true,
+          "ppi": 1113,
+          "widthMm": 19.89,
+          "heightMm": 25
+        },
+        {
+          "asset": "FM-GC-5015",
+          "page": 14,
+          "loaded": true,
+          "ppi": 240,
+          "widthMm": 94.4,
+          "heightMm": 121.28
+        }
+      ],
+      "overflow": [],
+      "issues": [],
+      "sha256": "bfc7a04a8d67dac045d2779b0a8686f4bc1430104d7cb4053e9272b370a2ce61",
+      "bytes": 8199640,
+      "priceChecks": {
+        "expectedCount": 24,
+        "renderedCount": 24,
+        "entries": [
+          {
+            "sku": "FM-GC-5016",
+            "amountEur": 2557,
+            "text": "Prezzo di listino 2.557 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5001",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5002",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5014",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5033",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5092",
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5005",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5012",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5010",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5007",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5047",
+            "amountEur": 1918,
+            "text": "Prezzo di listino 1.918 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5008",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5004",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5019",
+            "amountEur": 2166,
+            "text": "Prezzo di listino 2.166 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5046",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5011",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5090",
+            "amountEur": 2837,
+            "text": "Prezzo di listino 2.837 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5024",
+            "amountEur": 966,
+            "text": "Prezzo di listino 966 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5023",
+            "amountEur": 1085,
+            "text": "Prezzo di listino 1.085 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5031",
+            "amountEur": 643,
+            "text": "Prezzo di listino 643 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5051",
+            "amountEur": 1185,
+            "text": "Prezzo di listino 1.185 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5013",
+            "amountEur": 1098,
+            "text": "Prezzo di listino 1.098 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5028",
+            "amountEur": 694,
+            "text": "Prezzo di listino 694 € + IVA"
+          },
+          {
+            "sku": "FM-GC-5015",
+            "amountEur": 1826,
+            "text": "Prezzo di listino 1.826 € + IVA"
+          }
+        ],
+        "issues": []
+      },
+      "technicalChecks": {
+        "expectedCount": 24,
+        "renderedCount": 24,
+        "entries": [
+          {
+            "sku": "FM-GC-5016",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1800 × 1120 × 1550 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "191 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5001",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1300 × 980 × 1550 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "174 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5002",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1300 × 980 × 1550 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "174 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5014",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1520 × 610 × 1550 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "179 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5033",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1520 × 610 × 1550 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "179 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5092",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1950 × 1235 × 1550 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "178 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5005",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1640 × 1000 × 1550 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "179 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5012",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1350 × 1350 × 1550 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "169 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5010",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "840 × 1160 × 1550 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "161 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5007",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1500 × 930 × 1980 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "179 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "100 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5047",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1175 × 1300 × 2080 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "204 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "100 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5008",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1350 × 1370 × 1850 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "171 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5004",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1205 × 880 × 1700 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "184 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5019",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1140 × 1120 × 2275 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "229 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "100 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5046",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1040 × 1000 × 1550 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "164 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5011",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1040 × 1000 × 1550 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "164 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5090",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "760 × 1530 × 2250 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "350 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "100 kg × 2"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5024",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1330 × 625 × 1325 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "45 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5023",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1640 × 1885 × 1755 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "66,4 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5031",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1410 × 560 × 430 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "22 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5051",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1820 × 1870 × 1850 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "96,5 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5013",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1820 × 900 × 1100 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "109 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5028",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "730 × 725 × 1040 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "33 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          },
+          {
+            "sku": "FM-GC-5015",
+            "rows": [
+              {
+                "label": "Dimensioni (L × P × H)",
+                "value": "1520 × 950 × 1550 mm"
+              },
+              {
+                "label": "Peso macchina",
+                "value": "164 kg"
+              },
+              {
+                "label": "Pacco pesi",
+                "value": "80 kg"
+              },
+              {
+                "label": "Struttura",
+                "value": "Acciaio Q235"
+              },
+              {
+                "label": "Tubolare principale",
+                "value": "50 × 100 × 2,5 mm"
+              },
+              {
+                "label": "Finitura",
+                "value": "Verniciatura a polvere"
+              }
+            ]
+          }
+        ],
+        "issues": []
+      },
+      "layoutChecks": {
+        "issues": []
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "FM-GC-5001",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5001.png",
+      "prepared": "layout/prepared/FM-GC-5001.jpg",
+      "width": 845,
+      "height": 938,
+      "inputHash": "2371ee956ac46435893bd7777723a034a740c9b6803300ad6ed331301d31c78e",
+      "outputHash": "ecd7d8cf5807e40041f8df0d8bb5b96f45acfde9f4e177a4e5ca01edd462ea91"
+    },
+    {
+      "id": "FM-GC-5002",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5002.png",
+      "prepared": "layout/prepared/FM-GC-5002.jpg",
+      "width": 789,
+      "height": 960,
+      "inputHash": "3afac35f275c98a1a80f9dfac4aa7bb02e7f3facbdd5a9f6d02ac60856da16ef",
+      "outputHash": "54e911635db87db4799169629bfe85843d29804bfc55825fef1c1cdfcc3011e7"
+    },
+    {
+      "id": "FM-GC-5004",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5004.png",
+      "prepared": "layout/prepared/FM-GC-5004.jpg",
+      "width": 672,
+      "height": 968,
+      "inputHash": "bf14b323ab337951ecf2d0f5b27ee3a97c62e58c9dd14e4b2094022dac934da1",
+      "outputHash": "df82cc17ab7f9d8fce0c3dfa726f92d943855f08b3dd57683e2a34df35ae01b8"
+    },
+    {
+      "id": "FM-GC-5005",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5005.png",
+      "prepared": "layout/prepared/FM-GC-5005.jpg",
+      "width": 766,
+      "height": 937,
+      "inputHash": "2dc490ca29a3f8bcefa36a897582814d451bf8eb129244e25f210b45b857911f",
+      "outputHash": "97a83f946b83bacb448d7df7c38ebf55424e6779ae947113096978d797aae602"
+    },
+    {
+      "id": "FM-GC-5007",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5007.png",
+      "prepared": "layout/prepared/FM-GC-5007.jpg",
+      "width": 873,
+      "height": 1167,
+      "inputHash": "4228a88c43b8990c2d4d89b4cdfc8e0a32f323451282554d246340674c95088f",
+      "outputHash": "ce2f4a4d98ac70fe299d6bbdf025c0bcc2b23c4f30ff3f3107c090495fd4dadf"
+    },
+    {
+      "id": "FM-GC-5008",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5008.png",
+      "prepared": "layout/prepared/FM-GC-5008.jpg",
+      "width": 642,
+      "height": 933,
+      "inputHash": "94c8f918906ed3be8e94e21923cc18633504978f43b61bf0f06c22cf96f2bead",
+      "outputHash": "e333486da17bab02c126894137e483d1ec9a9361a128b634f15e75121fb5f555"
+    },
+    {
+      "id": "FM-GC-5010",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5010.png",
+      "prepared": "layout/prepared/FM-GC-5010.jpg",
+      "width": 853,
+      "height": 990,
+      "inputHash": "2b8b77570ca1a8e283d484ffc275a648549aa486c990aa7db590b483c0a13048",
+      "outputHash": "7c54517bbf34a91be04edcda261044b1060e0bc763fdb9f8e6597af958d0bc04"
+    },
+    {
+      "id": "FM-GC-5011",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5011.png",
+      "prepared": "layout/prepared/FM-GC-5011.jpg",
+      "width": 897,
+      "height": 1079,
+      "inputHash": "414500349d27b5180882ba13c370c1978a5f0c3ea6bfc47ec5896fc9e6de6b6f",
+      "outputHash": "6cfabcceeae6687408a7feadfdfbb2eb9ce618b0a0f4dcbfcd8be5e724442183"
+    },
+    {
+      "id": "FM-GC-5012",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5012.png",
+      "prepared": "layout/prepared/FM-GC-5012.jpg",
+      "width": 954,
+      "height": 1107,
+      "inputHash": "07ce6791d907aab2d5e8d082d619ab79a437fae88cdb3c7aa80fba83429d6843",
+      "outputHash": "568eb5cf31a414c6d20b32ab1cfc5c52069cbd2d7abe91b9548a96f350e7e263"
+    },
+    {
+      "id": "FM-GC-5013",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5013.png",
+      "prepared": "layout/prepared/FM-GC-5013.jpg",
+      "width": 1038,
+      "height": 785,
+      "inputHash": "a6c6f8240aad77299260f7d8f065249a73f3de1152c8d6fe15770bc9a50ab86c",
+      "outputHash": "7f92f1d29f000ec6f0dcce93443e4234b0335cd46c1325a260e5845ac066cd2d"
+    },
+    {
+      "id": "FM-GC-5014",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5014.png",
+      "prepared": "layout/prepared/FM-GC-5014.jpg",
+      "width": 924,
+      "height": 1116,
+      "inputHash": "e612111c18b42365a29df1e525d6a2f842cc462010c3513588424cc792b1cb9d",
+      "outputHash": "3fbc0470bbdc2514184a5dd043f0b6cd543f9c4593b94837efd727883f8f526a"
+    },
+    {
+      "id": "FM-GC-5015",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5015.png",
+      "prepared": "layout/prepared/FM-GC-5015.jpg",
+      "width": 892,
+      "height": 1146,
+      "inputHash": "6c9f931a429854841a099fc290b943514fe7a02eabf65ec3a7155991d19de56b",
+      "outputHash": "1cd571048bcdb97a33f7d8b1c2e52331eba49d4e38fb96e9c928bdbf5f1859b0"
+    },
+    {
+      "id": "FM-GC-5016",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5016.png",
+      "prepared": "layout/prepared/FM-GC-5016.jpg",
+      "width": 1002,
+      "height": 1142,
+      "inputHash": "442fed89602317c95b158e6e320c03def6a0a952f9c5684d788b185022f41a01",
+      "outputHash": "d0d1f8517a5ee04c41a8851c19cd339728805b09d57de2339deccb8b32df3979"
+    },
+    {
+      "id": "FM-GC-5019",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5019.png",
+      "prepared": "layout/prepared/FM-GC-5019.jpg",
+      "width": 747,
+      "height": 1168,
+      "inputHash": "7f9c057dc48d6d95bd5944cc1485e562065acb6a947c6a71f5065a9f243a4a74",
+      "outputHash": "069f9becf0f7564a79c6c3c9f0a03a47c812cfc9d468f4806703896661035d94"
+    },
+    {
+      "id": "FM-GC-5023",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5023.png",
+      "prepared": "layout/prepared/FM-GC-5023.jpg",
+      "width": 1156,
+      "height": 1003,
+      "inputHash": "d7cd3f6d7314b69bc22549131d96d0e1b8d511ae357a9a6ae65bff5c0b38066e",
+      "outputHash": "e16dffc63af984a7da564e57b7689cf5ed0b856c5b2cd2eb4ab5967521eec25c"
+    },
+    {
+      "id": "FM-GC-5024",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5024.png",
+      "prepared": "layout/prepared/FM-GC-5024.jpg",
+      "width": 815,
+      "height": 919,
+      "inputHash": "a29e1906514321cb496f0a79526f844b3c36a6f272d083cc4c48e1b59d586d98",
+      "outputHash": "f11d52197c21444fa3e734c0d6db15b39106d490b807eb634e9feba46d49229d"
+    },
+    {
+      "id": "FM-GC-5028",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5028.png",
+      "prepared": "layout/prepared/FM-GC-5028.jpg",
+      "width": 871,
+      "height": 1095,
+      "inputHash": "515e41374d1284c17d42c55c7f04bee890763e4aa7fc19e5a39a74559c26e34d",
+      "outputHash": "3d160fd66d103238db2d2a1c0d35f5525901318e4f03c6ae13f9b0a22b9cf02a"
+    },
+    {
+      "id": "FM-GC-5031",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5031.png",
+      "prepared": "layout/prepared/FM-GC-5031.jpg",
+      "width": 972,
+      "height": 970,
+      "inputHash": "3df9cadf4c8721d55745be43d80b61dab5fdb9b3fb6d14ee6c07e3de5e2657ed",
+      "outputHash": "bdfbec4e971fb57796e88a60fd7bdda00cee934b3f9494dc5710cecb1efa2363"
+    },
+    {
+      "id": "FM-GC-5033",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5033.png",
+      "prepared": "layout/prepared/FM-GC-5033.jpg",
+      "width": 982,
+      "height": 1113,
+      "inputHash": "3a3eb6797c7c882a1648e9a879ef39462f1c8347857025c75704eb6aa6a48b99",
+      "outputHash": "fbbfe7f9182f47f2a530dbce025bfd619de5ed93be891219c83ad1afcdedd308"
+    },
+    {
+      "id": "FM-GC-5046",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5046.png",
+      "prepared": "layout/prepared/FM-GC-5046.jpg",
+      "width": 758,
+      "height": 1075,
+      "inputHash": "247fee1ba4414122be137abcc52e63e067f13aa2d1974c912f094c8a413eb0a8",
+      "outputHash": "ced744acd98f44d29ec360d7b9889c639033aeb8238266f6a6db93f56455b09f"
+    },
+    {
+      "id": "FM-GC-5047",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5047.png",
+      "prepared": "layout/prepared/FM-GC-5047.jpg",
+      "width": 754,
+      "height": 1177,
+      "inputHash": "9a866742e912502588c2c56ad0ea1055fc5f3866771cad15cf5f7ffc72baabd2",
+      "outputHash": "f42bdc08910fbbc43627f8f9697fcc651e095cbeab6bff2e7d91be9773a5ab03"
+    },
+    {
+      "id": "FM-GC-5051",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5051.png",
+      "prepared": "layout/prepared/FM-GC-5051.jpg",
+      "width": 1004,
+      "height": 986,
+      "inputHash": "98ac6f975b0babf17615c40cc9c73c8a7f7c51cdbf5fc662a7a453a9e7be7753",
+      "outputHash": "bd894ed670770905a7a7ea7dff157b00ab5ca3b8626e8e269a630bbdca359446"
+    },
+    {
+      "id": "FM-GC-5090",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5090.png",
+      "prepared": "layout/prepared/FM-GC-5090.jpg",
+      "width": 871,
+      "height": 1071,
+      "inputHash": "c711a6c32327fa0bfabd558a9d10112ce1b5c0caaf858bede16efa7209feb866",
+      "outputHash": "d79e931cf21582f9f3ab08470ae67d303b8565e792a3f9a595a7c93d7e288dc9"
+    },
+    {
+      "id": "FM-GC-5092",
+      "source": "brochures/fullmuscle-g5/assets/products/FM-GC-5092.png",
+      "prepared": "layout/prepared/FM-GC-5092.jpg",
+      "width": 1130,
+      "height": 1056,
+      "inputHash": "da5a9ef8fab4d90f5a50148e546e2780382ade20890b4d55b8ebd7ee908cd424",
+      "outputHash": "f9711e1f7194ffa749e965d444819534ca553c800cb7a211a52105c87505142a"
+    },
+    {
+      "id": "chest-training",
+      "source": "brochures/fullmuscle-g5/assets/scenes/chest-training.png",
+      "prepared": "layout/prepared/chest-training.jpg",
+      "width": 1536,
+      "height": 1024,
+      "inputHash": "20dbc43365c1f7b6d8eff84a99cb3d9e78fd61748445dfe7ac97293a382e8562",
+      "outputHash": "f4120c11e4f17d567ec2acb197586cb98db4ac0a8f8c584875258f1ef0336fb4"
+    },
+    {
+      "id": "legpress-training",
+      "source": "brochures/fullmuscle-g5/assets/scenes/legpress-training.png",
+      "prepared": "layout/prepared/legpress-training.jpg",
+      "width": 1536,
+      "height": 1024,
+      "inputHash": "b2c93a3e27b390e900f5df310667d3db6f4a275d3c8dbf1a1c0be90aeeff1db2",
+      "outputHash": "5d1cf9cddc7d337fc690bbda4e59aec8c2e6e09914c1c030281881558343eaec"
+    },
+    {
+      "id": "gym-project",
+      "source": "brochures/fullmuscle-g5/assets/scenes/gym-project.png",
+      "prepared": "layout/prepared/gym-project.jpg",
+      "width": 1536,
+      "height": 1024,
+      "inputHash": "9bbba89543a1fab3a055d7c602ed7b29238580ff5ec05ade5b3229c2261507a6",
+      "outputHash": "bbb2d0783ac75e60354672423e0b96027919ea45ffdff4aea16043f8a62027a3"
+    },
+    {
+      "id": "gym-renewal",
+      "source": "brochures/fullmuscle-g5/assets/scenes/gym-renewal.png",
+      "prepared": "layout/prepared/gym-renewal.jpg",
+      "width": 1536,
+      "height": 1024,
+      "inputHash": "0bbe17c361fb8759823112886c9352e24fc2c912cdbb49ade9992ccd4d8d2d03",
+      "outputHash": "5d8fbf88dab1a0c0dff2ac1e92d7b1edbf01bbbbd3e8877f5f96f9f4f07ebde5"
+    }
+  ],
+  "issues": [],
+  "editorialInputs": {
+    "content/print-plan.mjs": "07adce5a0b8f8a2d4c076d1981231bb985d4237d6cadfaf52759d0ca247687f8",
+    "layout/print-brochure.mjs": "f969a1662335228ee3c823d5490edc8aad2b4a06cfe67b7512c1e24c704afb8d",
+    "layout/print-brochure.css": "188927086ed029dd0e41267938af92275e1137fa6977c57457d3dc79b83b66e5",
+    "scripts/build.mjs": "4e990db4d76104f0aa40dd60f995fc39abac2bc9fbca2edcb5ee0babefde87d7"
+  },
+  "expectedPages": 16
+}

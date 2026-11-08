@@ -7,15 +7,22 @@ import { PDFDocument, PDFName, PDFString, PDFNumber, PDFDict } from 'pdf-lib';
 import QRCode from 'qrcode';
 import opentype from 'opentype.js';
 import sharp from 'sharp';
-import { formatListPrice } from '../content/pricing.mjs';
+import { formatListPrice, validateCatalogPrices } from '../content/pricing.mjs';
+import { printPages, printSkus, validatePrintPlan } from '../content/print-plan.mjs';
+import { renderPrintBrochure } from '../layout/print-brochure.mjs';
 
 const base = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const root = path.resolve(base, '../..');
 const proof = process.argv.includes('--proof');
 const onlyBrochure = process.argv.includes('--brochure-only');
-await import('../content/build-catalog.mjs');
+if (!onlyBrochure) await import('../content/build-catalog.mjs');
 const catalogue = JSON.parse(await fs.readFile(path.join(base, 'content/catalog.json'), 'utf8'));
+validatePrintPlan(catalogue);
+validateCatalogPrices(catalogue.products,
+  JSON.parse(await fs.readFile(path.join(base, 'content/purchase-prices.json'), 'utf8')),
+  JSON.parse(await fs.readFile(path.join(base, 'content/pricing-config.json'), 'utf8')));
 const css = await fs.readFile(path.join(base, 'layout/editorial.css'), 'utf8');
+const printCss = await fs.readFile(path.join(base, 'layout/print-brochure.css'), 'utf8');
 const outputs = path.join(base, 'exports');
 const proofDir = path.join(base, 'proofs');
 const preparedDir = path.join(base, 'layout/prepared');
@@ -27,6 +34,10 @@ const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const pricingInputs = Object.fromEntries(await Promise.all(
   ['content/catalog.json','content/pricing-config.json','content/purchase-prices.json']
     .map(async file => [file, hash(await fs.readFile(path.join(base,file)))]),
+));
+const editorialInputs = Object.fromEntries(await Promise.all(
+  ['content/print-plan.mjs', 'layout/print-brochure.mjs', 'layout/print-brochure.css', 'scripts/build.mjs']
+    .map(async file => [file, hash(await fs.readFile(path.join(base, file)))]),
 ));
 const url = 'https://fullmuscle-equipment.com/cataloghi/fullmuscle-g5.pdf';
 const sourcePaths = [];
@@ -64,7 +75,7 @@ async function prepareAsset(id,source,trim){
   const record={id,source:path.relative(root,source).replaceAll('\\','/'),prepared:path.relative(base,target).replaceAll('\\','/'),width:info.width,height:info.height,inputHash:hash(input),outputHash:hash(data)};
   media.set(id,record);sourcePaths.push(record);return record;
 }
-const products=onlyBrochure?catalogue.products.filter(p=>catalogue.featuredSkus.includes(p.sku)):catalogue.products;
+const products=onlyBrochure?catalogue.products.filter(p=>printSkus.includes(p.sku)):catalogue.products;
 for(const product of products){
   const expected=path.join(base,product.image);
   let input=expected;
@@ -75,7 +86,7 @@ for(const product of products){
   }
   await prepareAsset(product.sku,input,true);
 }
-for(const id of ['gym','chest-training','legpress-training']){
+for(const id of ['gym','chest-training','legpress-training','gym-project','gym-renewal']){
   const input=path.join(base,'assets/scenes',`${id}.png`);
   if(await exists(input)) await prepareAsset(id,input,false);
   else pending.push({scene:id,expected:`assets/scenes/${id}.png`});
@@ -117,9 +128,9 @@ const categoryPages=new Map();grouped.forEach((p,i)=>{if(!categoryPages.has(p.ca
 function catalogueIntro(){return page(`<div class="inner">${top()}<p class="eyebrow" style="margin-top:13mm">Catalogo completo G5</p><h1 class="display intro-title">Trova il modello<br>per il tuo progetto.</h1><p class="intro-copy">${catalogue.products.length} modelli della linea G5, organizzati per tipologia. Ogni scheda riunisce codice, descrizione, caratteristiche e dati tecnici disponibili.</p><nav class="catalogue-index">${[...categoryPages].map(([name,data])=>`<a href="#page-${data.page}"><b>${esc(name)}</b><span>${data.count} modelli · p. ${data.page}</span></a>`).join('')}</nav><div class="catalogue-info"><p><strong>Come leggere le schede</strong><br>Le dimensioni sono indicate in millimetri, nell’ordine lunghezza × profondità × altezza. Il peso macchina è distinto dal pacco pesi. Per le stazioni multifunzione i carichi sono riportati per singola stazione quando disponibili.</p><p>I valori indicati come “su richiesta” sono da confermare in fase di preventivo. Le immagini mostrano una proposta di personalizzazione Full Muscle. Finiture, accessori e carichi raffigurati vanno verificati nella configurazione richiesta.</p><p><strong>Un riferimento semplice.</strong><br>Comunica il codice Full Muscle del modello e la quantità desiderata: Matteo · 392 550 1779 · info@fullmuscle-equipment.com.</p></div></div>`,2,{digital:true,cls:'catalogue-intro'});}
 function catalogueCard(p){if(!p)return `<div class="catalogue-card empty-card">La tua selezione<br>comincia da qui.</div>`;const rows=technicalRows(p);const features=p.features.filter(f=>!p.description.toLocaleLowerCase('it').includes(f.toLocaleLowerCase('it')));return `<article class="catalogue-card ${rows.length>7?'many-specs':''}" data-sku="${esc(p.sku)}"><header class="catalogue-card-head"><div><p class="product-code">${esc(p.sku)}</p><h2>${esc(p.name)}</h2></div><span class="category-chip">${esc(p.category)}</span></header><div class="catalogue-card-body"><div class="catalogue-visual"><div class="catalogue-image">${img(p.sku,63,60,'product-photo')}</div>${priceBlock(p)}</div><div><p class="catalogue-description">${esc(p.description)}</p><div class="catalogue-specs">${rows.map(r=>`<div class="catalogue-spec"><span>${esc(r.label)}</span><b>${esc(r.value)}</b></div>`).join('')}</div><p class="catalogue-features">${esc(features.slice(0,2).join(' · '))}</p></div></div></article>`;}
 function cataloguePages(){const out=[];for(let i=0;i<grouped.length;i+=2)out.push(page(`<div class="inner">${top()}<div class="catalogue-cards">${catalogueCard(grouped[i])}${catalogueCard(grouped[i+1])}</div></div>`,3+i/2,{digital:true,cls:'catalogue-products'}));return out;}
-const brochure=[cover(),brochureIntro(),...catalogue.featuredSkus.map((sku,i)=>featured(catalogue.products.find(p=>p.sku===sku),3+i)),project(),contact(12)];
+const brochure=renderPrintBrochure({catalogue,page,top,logo,img,scene,priceBlock,technicalRows,esc,url});
 const full=[cover(true),catalogueIntro(),...cataloguePages(),contact(3+Math.ceil(grouped.length/2),true)];
-const html=(pages,title,digital)=>`<!doctype html><html lang="it"><head><meta charset="utf-8"><title>${esc(title)}</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>@page{size:${digital?'210mm 297mm':'216mm 303mm'};margin:0}${css}\n.mini-logo svg,.cover-logo svg{width:100%;height:100%;display:block}.many-specs .catalogue-spec{padding:1mm 0;font-size:7.4pt}.many-specs .catalogue-description{font-size:8.5pt;margin-bottom:2mm}.many-specs .catalogue-features{font-size:7.4pt;margin-top:2mm}</style></head><body>${proof?'<div class="proof-banner">BOZZA INTERNA · immagini in completamento</div>':''}${pages.join('\n')}</body></html>`;
+const html=(pages,title,digital)=>`<!doctype html><html lang="it"><head><meta charset="utf-8"><title>${esc(title)}</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>@page{size:${digital?'210mm 297mm':'216mm 303mm'};margin:0}${css}\n.mini-logo svg,.cover-logo svg{width:100%;height:100%;display:block}.many-specs .catalogue-spec{padding:1mm 0;font-size:7.4pt}.many-specs .catalogue-description{font-size:8.5pt;margin-bottom:2mm}.many-specs .catalogue-features{font-size:7.4pt;margin-top:2mm}\n${digital?'':printCss}</style></head><body>${proof?'<div class="proof-banner">BOZZA INTERNA · immagini in completamento</div>':''}${pages.join('\n')}</body></html>`;
 const docs=[{key:'brochure',name:'brochure-stampa',title:'Full Muscle G5 · Selezione professionale',pages:brochure,digital:false}];
 if(!onlyBrochure)docs.push({key:'catalogo',name:'catalogo-completo',title:'Full Muscle G5 · Catalogo completo',pages:full,digital:true});
 const browser=await chromium.launch({executablePath:process.env.CHROME_EXECUTABLE||'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--allow-file-access-from-files']});
@@ -131,12 +142,12 @@ for(const doc of docs){
   await tab.goto(pathToFileURL(htmlPath).href,{waitUntil:'networkidle'});
   await tab.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));});
   await tab.emulateMedia({media:'print'});
-  const expectedProducts=doc.digital?catalogue.products:catalogue.featuredSkus.map(sku=>catalogue.products.find(p=>p.sku===sku));
+  const expectedProducts=doc.digital?catalogue.products:printSkus.map(sku=>catalogue.products.find(p=>p.sku===sku));
   const inspected=await tab.evaluate((expectedPrices)=>{
     const imageChecks=[...document.querySelectorAll('img[data-asset]')].map(img=>{const r=img.getBoundingClientRect(),contain=getComputedStyle(img).objectFit==='contain';const scale=(contain?Math.min:Math.max)(r.width/img.naturalWidth,r.height/img.naturalHeight);return {asset:img.dataset.asset,page:Number(img.closest('.page').dataset.page),loaded:img.complete&&img.naturalWidth>0,ppi:Math.round(96/scale),widthMm:Number((r.width*25.4/96).toFixed(2)),heightMm:Number((r.height*25.4/96).toFixed(2))};});
     const overflow=[];
     for(const page of document.querySelectorAll('.page')){const trim=page.querySelector('.trim').getBoundingClientRect();for(const el of page.querySelectorAll('.inner p,.inner h1,.inner h2,.inner h3,.contents,.feature-grid,.catalogue-card-body,.qr-area,.steps')){const r=el.getBoundingClientRect();if(r.bottom>trim.bottom-12*96/25.4||r.left<trim.left+10*96/25.4||r.right>trim.right-10*96/25.4)overflow.push({page:page.dataset.page,tag:el.className||el.tagName,text:el.textContent.slice(0,100),bottomMm:(r.bottom-trim.top)*25.4/96});}}
-    for(const page of document.querySelectorAll('.featured')){const aside=page.querySelector('.product-stage aside').getBoundingClientRect();const text=page.querySelector('.product-description').getBoundingClientRect();if(aside.bottom>text.top-5)overflow.push({page:page.dataset.page,tag:'product-stage aside',text:'Technical panel or scene overlaps description'});}
+    for(const page of document.querySelectorAll('.featured')){const aside=page.querySelector('.product-stage aside')?.getBoundingClientRect();const text=page.querySelector('.product-description')?.getBoundingClientRect();if(aside&&text&&aside.bottom>text.top-5)overflow.push({page:page.dataset.page,tag:'product-stage aside',text:'Technical panel or scene overlaps description'});}
     for(const card of document.querySelectorAll('.catalogue-card')){const body=card.querySelector('.catalogue-card-body');if(body&&body.getBoundingClientRect().bottom>card.getBoundingClientRect().bottom-2)overflow.push({page:card.closest('.page').dataset.page,tag:'catalogue-card-body',text:card.dataset.sku+' card content exceeds allotted space'});}
     const priceElements=[...document.querySelectorAll('[data-price-sku]')];
     const normalize=text=>text.replace(/\s+/g,' ').trim();
@@ -151,7 +162,7 @@ for(const doc of docs){
     }
     for(const [index,el] of priceElements.entries()){
       const entry=entries[index];
-      const container=el.closest('.catalogue-card,.featured');
+      const container=el.closest('.catalogue-card,.print-product,.featured');
       const containerSku=container?.dataset.sku||container?.querySelector('.product-code')?.textContent;
       if(!expectedPrices.some(expected=>expected.sku===entry.sku)||entry.sku!==containerSku)priceIssues.push(`Unexpected price association: ${entry.sku}`);
       const r=el.getBoundingClientRect();
@@ -167,8 +178,60 @@ for(const doc of docs){
       }
     }
     const priceChecks={expectedCount:expectedPrices.length,renderedCount:entries.length,entries,issues:priceIssues};
-    return {pages:document.querySelectorAll('.page').length,images:imageChecks,overflow,priceChecks,fontStatus:document.fonts.status,text:document.body.textContent};
-  },expectedProducts.map(p=>({sku:p.sku,amountEur:p.listPriceEur,text:formatListPrice(p.listPriceEur)})));
+    const technicalIssues=[];
+    const layoutIssues=[];
+    const printProducts=[...document.querySelectorAll('.print-product')];
+    const technicalEntries=printProducts.map(product=>{
+      const common=product.closest('.page').querySelectorAll('.print-common-specs [data-spec-label]');
+      const elements=[...product.querySelectorAll('[data-spec-label]'),...common];
+      const rows=elements.map(el=>({label:el.dataset.specLabel,value:el.dataset.specValue}));
+      const sku=product.dataset.sku;
+      for(const el of elements){
+        const content=normalize(el.textContent);
+        if(!content.includes(normalize(el.dataset.specLabel))||!content.includes(normalize(el.dataset.specValue)))technicalIssues.push(`${sku}: technical metadata differs from visible text (${el.dataset.specLabel})`);
+        for(const node of [el,...el.querySelectorAll('*')]){
+          if(node.textContent.trim()&&parseFloat(getComputedStyle(node).fontSize)<11.99)layoutIssues.push(`${sku}: technical text below 9 pt`);
+        }
+      }
+      const expected=expectedPrices.find(p=>p.sku===sku);
+      if(!expected||rows.length!==expected.rows.length||expected.rows.some(row=>!rows.some(actual=>actual.label===row.label&&actual.value===row.value)))technicalIssues.push(`${sku}: missing, changed or duplicated technical data`);
+      return {sku,rows};
+    });
+    if(document.querySelector('.print-brochure')){
+      if(technicalEntries.length!==expectedPrices.length)technicalIssues.push('Unexpected number of print product cards');
+      for(const expected of expectedPrices)if(technicalEntries.filter(p=>p.sku===expected.sku).length!==1)technicalIssues.push(`${expected.sku}: expected one product card`);
+      for(const page of document.querySelectorAll('.print-brochure')){
+        const trim=page.querySelector('.trim').getBoundingClientRect();
+        const footerTop=page.querySelector('.page-footer').getBoundingClientRect().top;
+        const safe=12*96/25.4;
+        for(const el of page.querySelectorAll('.inner p,.inner h1,.inner h2,.inner h3,.inner a,[data-spec-label],.print-product')){
+          const r=el.getBoundingClientRect();
+          if(r.width&&(r.left<trim.left+safe-1||r.right>trim.right-safe+1||r.top<trim.top+safe-1||r.bottom>trim.bottom-safe+1))layoutIssues.push(`Page ${page.dataset.page}: content outside 12 mm safety area (${el.className})`);
+          if(el.clientWidth&&el.scrollWidth>el.clientWidth+1)layoutIssues.push(`Page ${page.dataset.page}: horizontal text overflow (${el.className})`);
+          if(r.width&&r.bottom>footerTop-2*96/25.4)layoutIssues.push(`Page ${page.dataset.page}: content enters footer clearance (${el.className})`);
+        }
+      }
+      for(const product of printProducts){
+        const bounds=product.getBoundingClientRect();
+        for(const el of product.querySelectorAll('h1,h2,p,img,[data-spec-label]')){
+          const r=el.getBoundingClientRect();
+          if(r.width&&(r.left<bounds.left-1||r.right>bounds.right+1||r.top<bounds.top-1||r.bottom>bounds.bottom+1))layoutIssues.push(`${product.dataset.sku}: content exceeds product container (${el.className})`);
+        }
+        const price=product.querySelector('.product-price strong');
+        if(price&&parseFloat(getComputedStyle(price).fontSize)<17.32)layoutIssues.push(`${product.dataset.sku}: price below 13 pt`);
+        if(product.matches('.print-card')){
+          const blocks=[...product.children].map(el=>({el,rect:el.getBoundingClientRect()}));
+          for(let index=1;index<blocks.length;index++)if(blocks[index].rect.top<blocks[index-1].rect.bottom-1)layoutIssues.push(`${product.dataset.sku}: card blocks overlap`);
+          const heading=product.querySelector('.print-card-heading');
+          const title=heading?.querySelector('h2');
+          if(title&&title.getBoundingClientRect().bottom>heading.getBoundingClientRect().bottom+1)layoutIssues.push(`${product.dataset.sku}: title exceeds heading area`);
+        }
+      }
+      for(const link of document.querySelectorAll('a[href^="#page-"]'))if(!document.querySelector(link.getAttribute('href')))layoutIssues.push('Broken page index link: '+link.getAttribute('href'));
+    }
+    const technicalChecks={expectedCount:expectedPrices.length,renderedCount:technicalEntries.length,entries:technicalEntries,issues:[...new Set(technicalIssues)]};
+    return {pages:document.querySelectorAll('.page').length,images:imageChecks,overflow,priceChecks,technicalChecks,layoutChecks:{issues:[...new Set(layoutIssues)]},fontStatus:document.fonts.status,text:document.body.textContent};
+  },expectedProducts.map(p=>({sku:p.sku,amountEur:p.listPriceEur,text:formatListPrice(p.listPriceEur),rows:technicalRows(p)})));
   const raw=await tab.pdf({preferCSSPageSize:true,printBackground:true,displayHeaderFooter:false,tagged:true,outline:true});
   const pdf=await PDFDocument.load(raw);
   pdf.setTitle(doc.title);pdf.setAuthor('FullMuscle Equipment');pdf.setSubject('Attrezzature professionali · Serie G5');pdf.setCreator('FullMuscle · impaginazione editoriale');pdf.setProducer('FullMuscle / Chromium + pdf-lib');pdf.setLanguage('it-IT');
@@ -185,14 +248,23 @@ for(const doc of docs){
   if(embeddedFonts.some(f=>!f.embedded))checks.issues.push('Unembedded fonts found');
   checks.priceChecks=inspected.priceChecks;
   checks.issues.push(...inspected.priceChecks.issues);
+  if(!doc.digital){
+    checks.technicalChecks=inspected.technicalChecks;
+    checks.layoutChecks=inspected.layoutChecks;
+    checks.issues.push(...inspected.technicalChecks.issues,...inspected.layoutChecks.issues);
+  }
   if(/tzfit|tianzhan|\bTZ\s?FIT(?:NESS)?\b/i.test(inspected.text))checks.issues.push('Supplier identity present in customer text');
   if(/\bscont\w*\b|\bdiscount\b|commercialDiscountRate|35\s*%/i.test(inspected.text))checks.issues.push('Internal commercial discount present in customer text');
   results.push(checks);await tab.close();
   await contactSheet(pagesDir,path.join(proofDir,`${doc.key}-contact-sheet.jpg`),doc.pages.length);
 }
 }finally{await browser.close();}
-const report={generatedAt:new Date().toISOString(),mode:proof?'internal-proof':'final-export',catalogModels:catalogue.products.length,pricingInputs,brochureModels:catalogue.featuredSkus,originalSourcesModified:false,pendingImages:pending,qr:{destination:url,encoded:true,publicHttpStatus:'not-verified',physicalPrintScan:'not-performed'},print:{trimMm:[210,297],bleedMm:3,safeMarginMm:12,minimumImagePpi:240,targetImagePpi:300,profile:'sRGB; printer-specific CMYK/PDF-X conversion pending printer requirements',imposition:'single pages in reading order'},documents:results,assets:sourcePaths,issues:results.flatMap(d=>d.issues.map(s=>`${d.filename}: ${s}`))};
-await fs.writeFile(path.join(outputs,`preflight${proof?'-bozza':''}.json`),JSON.stringify(report,null,2));
+const report={generatedAt:new Date().toISOString(),mode:proof?'internal-proof':'final-export',catalogModels:catalogue.products.length,pricingInputs,brochureModels:printSkus,originalSourcesModified:false,pendingImages:pending,qr:{destination:url,encoded:true,publicHttpStatus:'not-verified',physicalPrintScan:'not-performed'},print:{trimMm:[210,297],bleedMm:3,safeMarginMm:12,minimumImagePpi:240,targetImagePpi:300,profile:'sRGB; printer-specific CMYK/PDF-X conversion pending printer requirements',imposition:'single pages in reading order'},documents:results,assets:sourcePaths,issues:results.flatMap(d=>d.issues.map(s=>`${d.filename}: ${s}`))};
+const printDocument=results.find(d=>d.filename.startsWith('brochure-stampa'));
+const printAssetIds=new Set(printDocument.images.map(image=>image.asset));
+const printReport={...report,editorialInputs,expectedPages:printPages.length,documents:[printDocument],assets:sourcePaths.filter(asset=>printAssetIds.has(asset.id)),issues:printDocument.issues.map(issue=>`${printDocument.filename}: ${issue}`)};
+await fs.writeFile(path.join(outputs,`preflight-stampa${proof?'-bozza':''}.json`),JSON.stringify(printReport,null,2));
+if(!onlyBrochure)await fs.writeFile(path.join(outputs,`preflight${proof?'-bozza':''}.json`),JSON.stringify(report,null,2));
 if(!proof&&report.issues.length===0&&!onlyBrochure){await fs.mkdir(path.join(root,'public/cataloghi'),{recursive:true});await fs.copyFile(path.join(outputs,'catalogo-completo.pdf'),path.join(root,'public/cataloghi/fullmuscle-g5.pdf'));}
 console.log(JSON.stringify({mode:report.mode,documents:results.map(d=>({file:d.filename,pages:d.pages,bytes:d.bytes,issues:d.issues})),pendingImages:pending.length},null,2));
 if(report.issues.length&&!proof)process.exitCode=1;

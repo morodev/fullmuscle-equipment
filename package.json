@@ -23,9 +23,11 @@
     "test": "tsx --test scripts/catalog/**/*.test.ts",
     "test:output": "tsx --test scripts/site/output.test.ts",
     "test:e2e": "playwright test",
-    "brochure:test": "node --test brochures/fullmuscle-g5/scripts/pricing.test.mjs",
+    "brochure:test": "node --test brochures/fullmuscle-g5/scripts/pricing.test.mjs brochures/fullmuscle-g5/scripts/print-plan.test.mjs",
     "brochure:build": "node brochures/fullmuscle-g5/scripts/build.mjs",
     "brochure:check": "node brochures/fullmuscle-g5/scripts/check.mjs",
+    "brochure:print:build": "node brochures/fullmuscle-g5/scripts/build.mjs --brochure-only",
+    "brochure:print:check": "node brochures/fullmuscle-g5/scripts/check.mjs --brochure-only",
     "brochure:gf:build": "node brochures/fullmuscle-gf/scripts/build.mjs",
     "brochure:gf:check": "node brochures/fullmuscle-gf/scripts/check.mjs"
   },

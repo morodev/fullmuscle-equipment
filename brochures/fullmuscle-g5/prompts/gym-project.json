@@ -1,0 +1,22 @@
+{
+  "asset": "assets/scenes/gym-project.png",
+  "createdAt": "2026-11-08",
+  "mode": "built-in image_gen",
+  "tool": "image_gen.imagegen",
+  "intent": "illustrative scene edit derived from existing gym and supporting product references",
+  "sourceGeneratedFile": "C:/Users/lucam/.codex/generated_images/01a1baef-e4d9-7010-8919-81d641ddf3ea/exec-2c262a1a-733d-4317-8264-edef0e3e7a77.png",
+  "referenceImages": [
+    "assets/scenes/gym.png",
+    "assets/products/FM-GC-5016.png",
+    "assets/products/FM-GC-5090.png"
+  ],
+  "transparentBackground": false,
+  "caption": "Rendering illustrativo",
+  "prompt": "Use case: ads-marketing.\nAsset type: high-resolution photorealistic illustrative gym interior for an Italian Full Muscle Equipment printed brochure, not a documentary client installation.\nEdit target: the first image gym.png. Transform it into a new wider architectural view showing the organisation of an entire premium professional strength-training room, keeping its authentic photographic style and material palette.\nSupporting product references: the leg press and dual cable trainer show the accurate equipment construction, black steel frames, muted forest-green moving elements (#356B35), black upholstery and subtle existing Full Muscle branding. Preserve these design details when showing them in the room. Do not copy white product backgrounds.\nComposition: horizontal landscape 3:2, ideally 3072 by 2048 pixels or the highest available native resolution, minimum 1536 by 1024. Camera at human eye level, architectural perspective with straight verticals, deeper room view than the reference. Six or seven credible selectorized exercise stations placed logically in rows, generous clear central circulation, equipment fully supported on rubber flooring. A foreground seated leg press readable in three-quarter view and compact stations farther back. No duplicated impossible mechanisms.\nInterior: tall black metal windows with warm daylight, pale warm concrete walls, charcoal rubber tile floor, dark ceiling with linear lights, a restrained timber accent. Attractive real materials and balanced light, premium but plausible professional gym design. Modest green components echo the supplied machines without saturating the room.\nNo people, no editorial text, no labels, no charts, no added wall logos, no watermark. Small existing machine brand markings may remain only unobtrusively and faithfully. Rendering should look like a refined architectural photograph. Leave the complete scene clean for typography to be laid out outside the image.",
+  "review": {
+    "visuallyInspected": true,
+    "identity": "Black steel frames, forest-green moving or adjustment components, black upholstery.",
+    "claimLimit": "Illustrative proposal; not evidence of a real customer installation."
+  }
+}
+

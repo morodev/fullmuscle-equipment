@@ -1,8 +1,45 @@
 # Brochure e listino G5
 
-I documenti comprendono la brochure di 12 pagine con 8 prodotti e il catalogo
+I documenti comprendono la brochure di 16 pagine con 24 prodotti e il catalogo
 completo di 56 pagine con 105 prodotti. Ogni scheda riporta il prezzo di listino
 in euro, IVA esclusa.
+
+## Brochure stampa: selezione e progetto palestra
+
+La selezione stampa conserva gli otto modelli iniziali e alterna sei schede a
+pagina intera, tre griglie da quattro macchine e una griglia da sei panche,
+rack e accessori. Due ambientazioni illustrative presentano la progettazione
+inclusa nella fornitura e il rinnovo/ampliamento della palestra, coerentemente
+con `docs/piano-marketing-social.md`. Copertina, indice, percorso commerciale
+e contatti completano le 16 pagine.
+
+`content/print-plan.mjs` definisce sequenza, modelli e numerazione della sola
+stampa. `layout/print-brochure.mjs` e `layout/print-brochure.css` ne contengono
+impaginazione e stile. Le griglie mantengono i dati tecnici e i prezzi del
+catalogo; nella pagina da sei, struttura, tubolare e finitura identici sono
+riportati una volta nella fascia «Caratteristiche comuni ai sei modelli».
+
+Per rigenerare **soltanto la brochure stampa**:
+
+```powershell
+npm.cmd run brochure:test
+npm.cmd run brochure:print:build
+npm.cmd run brochure:print:check
+```
+
+Questa modalità legge il catalogo già verificato e non rigenera `catalog.json`,
+CSV, catalogo completo, PDF pubblico o serie GF. Aggiorna `brochure-stampa.pdf`,
+le anteprime della stampa e `exports/preflight-stampa.json`. Il verificatore
+controlla prezzi, copertura dei dati tecnici, SKU unici, pagine, immagini,
+font, dimensioni di taglio/abbondanza e impronte dei sorgenti. La verifica
+ordinaria `npm.cmd run brochure:check` usa il nuovo rapporto per la stampa e
+`exports/preflight.json` per il catalogo completo, ignorando l'eventuale
+vecchia edizione stampa registrata in quel rapporto.
+
+Il PDF resta A4 verticale con abbondanza di 3 mm, immagini di almeno 240 ppi
+e font incorporati. Il profilo rimane sRGB: l'eventuale conversione CMYK/PDF-X
+dipende dalle specifiche della tipografia. Le ambientazioni sono rendering
+illustrativi, non fotografie documentarie di installazioni reali.
 
 ## Prezzi dell'edizione del 7 novembre 2026
 
@@ -29,7 +66,7 @@ numeri di riga e hash del file originale. Solo i 105 modelli già presenti nel
 catalogo vengono esportati. Questi dati sono interni: PDF e CSV espongono
 soltanto i prezzi di rivendita.
 
-## Rigenerazione
+## Rigenerazione completa e aggiornamento prezzi
 
 Dalla root del progetto, per importare nuovamente l'Excel dopo un aggiornamento:
 
@@ -48,10 +85,11 @@ npm.cmd run brochure:build
 npm.cmd run brochure:check
 ```
 
-La build rigenera prima `content/catalog.json` e `exports/listino-rivendita.csv`,
+La build completa rigenera prima `content/catalog.json` e `exports/listino-rivendita.csv`,
 poi i PDF e le anteprime. I controlli verificano abbinamenti, formula, copertura
 dei prezzi, impaginazione, font e immagini; `brochure:check` rileva anche file
-di prezzo modificati dopo l'esportazione.
+di prezzo modificati dopo l'esportazione. La build completa aggiorna sia il
+rapporto generale sia `exports/preflight-stampa.json`.
 
 Gli output finali sono `exports/brochure-stampa.pdf`, `exports/catalogo-completo.pdf`
 e `exports/listino-rivendita.csv` (UTF-8 con BOM, separatore punto e virgola,
