@@ -30,6 +30,7 @@ export interface CatalogProduct {
   seoTitle: LocalizedValue;
   seoDescription: LocalizedValue;
   imageAlt: LocalizedValue;
+  imageNote?: LocalizedValue;
   description: { it: string[]; en: string[] };
   features: { it: string[]; en: string[] };
   selectionNotes: { it: string[]; en: string[] };

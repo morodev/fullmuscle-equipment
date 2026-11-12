@@ -1,0 +1,72 @@
+{
+  "model": "FM-GF-001",
+  "workflow": "Built-in image_gen, transparent edits; illustrative fixed-view assembly",
+  "references": [
+    "img-animations/WhatsApp Image 2026-11-12 at 21.22.06 (2).jpeg",
+    "img-animations/WhatsApp Image 2026-11-12 at 21.22.06 (1).jpeg",
+    "img-animations/WhatsApp Image 2026-11-12 at 21.22.06.jpeg"
+  ],
+  "prompts": {
+    "master": "Edit the FIRST reference image (filename ending '(2).jpeg') into a precise transparent-background hero asset for the FullMuscle FM-GF-001 chest press. The other two references show the same machine from front and side and are ONLY geometry references; do not change the first image's camera. Preserve the identical front three-quarter view, complete silhouette, exact physical construction, placements, dimensions, black steel frame, two green long lever arms, silver perforated foot platform, black seat and tall backrest, grips, and existing FullMuscle label on the front green arm. Remove only the white background and white gaps between all parts to genuine alpha transparency. Add a very subtle neutral studio rim light to black steel edges so they are readable over charcoal, without changing materials or color and without inventing new parts. All components fully assembled. Center the full machine uncropped with modest clear transparent margins; no background, no floor, no cast backdrop shadow, no gradients behind machine, no extra text, no new logo, no decorative elements. Deliver one high-resolution clean isolated product cutout. Faithfulness is much more important than redesign or enhancement.",
+    "colorCorrection": "Edit only the color and cutout edge quality of the first image, the transparent cutout. The second image is the original FM-GF-001 reference. Keep ALL geometry, framing, camera, pixel positions, materials and the FullMuscle label exactly unchanged. Change the two currently bright saturated green lever arms to the original muted dark forest green paint, base color #356B35, matching the second original reference. Keep realistic highlights but no neon/lime/fluorescent green, no glowing green outlines. Clean stray green/white speckles outside the silhouette to transparent alpha while preserving smooth antialiased edges and transparent gaps. Maintain the same canvas and placement. Everything else must remain unchanged, no new parts, no background, no shadows outside the machine.",
+    "layers": [
+      {
+        "id": "frame",
+        "prompt": "Make one transparent PNG animation layer from this exact reference image. STRICT REGISTRATION: keep exactly the same canvas aspect ratio, same camera, same SCALE and PIXEL POSITIONS as the reference. Do not center the isolated part, do not enlarge it, do not crop the canvas. Leave it at its current position inside a mostly empty transparent canvas so the layers can overlay the original machine. Remove all other components to genuine alpha transparency. Preserve original colors, shapes, surface finish, sharp edges and soft studio illumination; green paint is dark forest green #356B35. No background, ground, shadows, labels, arrows or added text. Reconstruct only small hidden sections of the retained component where necessary, without changing visible geometry. RETAIN ONLY the black steel structural frame/base of the chest press, including its feet, posts under the seat and footplate, rear black linkage mechanism and silver joints, rear weight-loading sleeves and linkage rods. REMOVE both entire green lever arms AND their hand grips/pivot collars, REMOVE the tall black backrest cushion and black seat cushion (keep their structural support posts), REMOVE the silver perforated footplate (keep its black support). Reconstruct missing black frame surfaces formerly hidden by removed parts. The result must look like the bare black chassis at precisely the same on-canvas position, NOT a complete gym machine."
+      },
+      {
+        "id": "seat",
+        "prompt": "Make one transparent PNG animation layer from this exact reference image. STRICT REGISTRATION: keep exactly the same canvas aspect ratio, same camera, same SCALE and PIXEL POSITIONS as the reference. Do not center the isolated part, do not enlarge it, do not crop the canvas. Leave it at its current position inside a mostly empty transparent canvas so the layers can overlay the original machine. Remove all other components to genuine alpha transparency. Preserve original colors, shapes, surface finish, sharp edges and soft studio illumination; green paint is dark forest green #356B35. No background, ground, shadows, labels, arrows or added text. Reconstruct only small hidden sections of the retained component where necessary, without changing visible geometry. RETAIN ONLY the two black upholstered cushions: the tall reclining backrest and the horizontal seat pad as one layer. Remove ALL frame bars, posts, knobs, linkage, green arms, hand grips, plates and background. Reconstruct the narrow portion of the backrest cushion occluded by the foreground green arm, preserving its rectangular outline, thickness and perspective. Keep the cushions in their EXACT original locations, angle and scale relative to each other. No metal support structure in this layer."
+      },
+      {
+        "id": "arm-left",
+        "prompt": "Make one transparent PNG animation layer from this exact reference image. STRICT REGISTRATION: keep exactly the same canvas aspect ratio, same camera, same SCALE and PIXEL POSITIONS as the reference. Do not center the isolated part, do not enlarge it, do not crop the canvas. Leave it at its current position inside a mostly empty transparent canvas so the layers can overlay the original machine. Remove all other components to genuine alpha transparency. Preserve original colors, shapes, surface finish, sharp edges and soft studio illumination; green paint is dark forest green #356B35. No background, ground, shadows, labels, arrows or added text. Reconstruct only small hidden sections of the retained component where necessary, without changing visible geometry. RETAIN ONLY the farther, image-LEFT long green lever arm, which runs from near x=25% y=18% down to x=22% y=88%, including its attached black/silver upper hand grip and its own circular pivot collars/caps. Remove the other nearer green arm and every other machine component including black linkage rods crossing behind this arm. Reconstruct tiny hidden portions of this green arm behind the footplate. Preserve its exact silhouette, dark forest green and position. This is one left-side lever, not a pair."
+      },
+      {
+        "id": "arm-right",
+        "prompt": "Make one transparent PNG animation layer from this exact reference image. STRICT REGISTRATION: keep exactly the same canvas aspect ratio, same camera, same SCALE and PIXEL POSITIONS as the reference. Do not center the isolated part, do not enlarge it, do not crop the canvas. Leave it at its current position inside a mostly empty transparent canvas so the layers can overlay the original machine. Remove all other components to genuine alpha transparency. Preserve original colors, shapes, surface finish, sharp edges and soft studio illumination; green paint is dark forest green #356B35. No background, ground, shadows, labels, arrows or added text. Reconstruct only small hidden sections of the retained component where necessary, without changing visible geometry. RETAIN ONLY the nearer, image-RIGHT long green lever arm with the FullMuscle brand label, running diagonally from around x=60% y=6% to x=40% y=97%, including its upper black/silver hand grip and its own circular pivot collars/caps. Preserve the original label on the green arm exactly. Remove the farther image-left green arm, all black frame, cushions, platform and the long linkage rod that runs backwards from the mid pivot. Only this near green arm and its integral hand grip/pivots remain. Maintain exact original position/scale."
+      },
+      {
+        "id": "platform",
+        "prompt": "Make one transparent PNG animation layer from this exact reference image. STRICT REGISTRATION: keep exactly the same canvas aspect ratio, same camera, same SCALE and PIXEL POSITIONS as the reference. Do not center the isolated part, do not enlarge it, do not crop the canvas. Leave it at its current position inside a mostly empty transparent canvas so the layers can overlay the original machine. Remove all other components to genuine alpha transparency. Preserve original colors, shapes, surface finish, sharp edges and soft studio illumination; green paint is dark forest green #356B35. No background, ground, shadows, labels, arrows or added text. Reconstruct only small hidden sections of the retained component where necessary, without changing visible geometry. RETAIN ONLY the silver/gray slotted rectangular footplate at the lower image-LEFT, around x=18%-47% y=77%-91%, including its dark thin beveled rim, slot holes and visible mounting bolt heads. Remove every other component including the black support post beneath it, both green arms, all frame and cushions. Reconstruct the small portion of the plate hidden behind the near green arm, without changing the plate's size or angle. Slot holes must be transparent where appropriate. Keep the plate in exactly its current lower-left position, not recentered."
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "poster",
+      "source": "source/poster.png",
+      "generatedFile": "exec-762b46cd-65d1-4316-9bdb-aa4356a58bd3.png"
+    },
+    {
+      "id": "frame",
+      "source": "source/frame.png",
+      "generatedFile": "exec-39dc8d93-df20-4112-aade-90803f8b6d4d.png"
+    },
+    {
+      "id": "seat",
+      "source": "source/seat.png",
+      "generatedFile": "exec-e425ee1b-14ec-4391-8f44-e93acfbedcf1.png"
+    },
+    {
+      "id": "arm-left",
+      "source": "source/arm-left.png",
+      "generatedFile": "exec-a2e61073-66fd-4992-988b-42ef2f4256f2.png"
+    },
+    {
+      "id": "arm-right",
+      "source": "source/arm-right.png",
+      "generatedFile": "exec-7c0cd1ec-e013-40a7-bf3a-8ea91e72a9b7.png"
+    },
+    {
+      "id": "platform",
+      "source": "source/platform.png",
+      "generatedFile": "exec-2fe6fcf5-f08e-4bc6-8829-88301f92b38c.png"
+    }
+  ],
+  "notes": [
+    "Reconstructed hidden surfaces are illustrative, not a technical assembly procedure.",
+    "Final cutout selected after dark green correction. Original input images retained.",
+    "Build web assets with node scripts/site/build-gf-media.mjs; no live generation is needed."
+  ]
+}

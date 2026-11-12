@@ -1,0 +1,175 @@
+{
+  "generatedAt": "2026-11-11T13:06:33.795Z",
+  "status": "passed",
+  "stories": 5,
+  "issues": [],
+  "inputs": {
+    "locandine/_src/campaign.json": "115067fe8751a7d69b5fbfaba6e2867182e5bbecfbc7a910289ba6dcdc28881b",
+    "locandine/_src/style.css": "0e6f08b798fb8176f70c3c2e3440dd61b02d48ab44029d0a5878f74f0a6cf25e",
+    "locandine/_src/build.mjs": "0e9797c04f6489150751cdee003f3558676e8a442f65f1d3c440910dff6f582b",
+    "brochures/fullmuscle-gf/content/catalog.json": "78620bd240701aa4ce248d53f26893ac48af9ed41c61aa2a0a03e8aedf77a758",
+    "brochures/fullmuscle-g5/assets/brand/fullmuscle-wordmark-white.svg": "baf9dd6c63f5fc556ac4521a2c68733fedd7d9a373365e175ad68b388b7dbfbe",
+    "brochures/fullmuscle-g5/assets/fonts/regular.ttf": "edfbd22a3d088fc2f5d7c79b8c9c732df6dc878a60f0a80be0f92a3c7a634404",
+    "brochures/fullmuscle-g5/assets/fonts/bold.ttf": "4d59199834e7439c67ea4949407639961060b21b173833f566eb60ac6fd8f5af",
+    "brochures/fullmuscle-g5/assets/fonts/display.ttf": "6c4a4b643461def5411e0217b74a625dcf2fb681252ef5da1db0af4eae80aa7e"
+  },
+  "assets": [
+    {
+      "sku": "FM-GF-001",
+      "path": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-001-5286876353a3278b.png",
+      "sha256": "df3e164db6695e37f3fdcf7fa1a6c19e3a3ab9f5a3698def50991d8db43846da",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "sku": "FM-GF-002",
+      "path": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-002-f4682a47f2745fe4.png",
+      "sha256": "f90e164a5a07d83e5d7ee140e0d9de66a5e53421d3bc0e78a1f3e03cc0755cf1",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "sku": "FM-GF-003",
+      "path": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-003-0c7c006a01366d60.png",
+      "sha256": "c0bd10c84a51067edbec0a95d621c50b0624cfec0a844aaa0167a2a04e87287c",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "sku": "FM-GF-004",
+      "path": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-004-b843ca71e84f5106.png",
+      "sha256": "608452133cd6e0522fe80f40599768e701973e053ac7da1114aa3842ca65a5db",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "sku": "FM-GF-005",
+      "path": "data/catalog-branding/generated/gf-logo-bicolor-01/fm-gf-005-952ed3db0311d168.png",
+      "sha256": "3e19b56f3e74732cfb1dbe01ac597fdc41c92352ee097ddcd2a416622c77f3a1",
+      "width": 1254,
+      "height": 1254
+    }
+  ],
+  "checks": [
+    {
+      "sku": "FM-GF-001",
+      "file": "01-gf-001-chest-press.png",
+      "listCents": 187000,
+      "saleCents": 130900,
+      "issues": [],
+      "fontsLoaded": true,
+      "imageFit": "contain",
+      "safeArea": {
+        "left": 64,
+        "right": 1016,
+        "top": 250,
+        "bottom": 1620
+      },
+      "displayed": {
+        "model": "GF-001",
+        "listPrice": "Da 1.870 € + IVA",
+        "salePrice": "1.309 € + IVA",
+        "discount": "−30%"
+      },
+      "width": 1080,
+      "height": 1920,
+      "sha256": "55690248747d92142d751e20e5a51ac5d75c1c04aeaba39e618f7aaca0148f7c"
+    },
+    {
+      "sku": "FM-GF-002",
+      "file": "02-gf-002-shoulder-press.png",
+      "listCents": 187000,
+      "saleCents": 130900,
+      "issues": [],
+      "fontsLoaded": true,
+      "imageFit": "contain",
+      "safeArea": {
+        "left": 64,
+        "right": 1016,
+        "top": 250,
+        "bottom": 1620
+      },
+      "displayed": {
+        "model": "GF-002",
+        "listPrice": "Da 1.870 € + IVA",
+        "salePrice": "1.309 € + IVA",
+        "discount": "−30%"
+      },
+      "width": 1080,
+      "height": 1920,
+      "sha256": "66825f55470359cdfbd8eb6d277059f2dd7d8bad08b02354bb07fcd2e1c520ca"
+    },
+    {
+      "sku": "FM-GF-003",
+      "file": "03-gf-003-seated-row.png",
+      "listCents": 187000,
+      "saleCents": 130900,
+      "issues": [],
+      "fontsLoaded": true,
+      "imageFit": "contain",
+      "safeArea": {
+        "left": 64,
+        "right": 1016,
+        "top": 250,
+        "bottom": 1620
+      },
+      "displayed": {
+        "model": "GF-003",
+        "listPrice": "Da 1.870 € + IVA",
+        "salePrice": "1.309 € + IVA",
+        "discount": "−30%"
+      },
+      "width": 1080,
+      "height": 1920,
+      "sha256": "c019c8ab17699db9202ebfcb58a277ce696aa0ba53a85a6cea2a48d3c542b9d5"
+    },
+    {
+      "sku": "FM-GF-004",
+      "file": "04-gf-004-lat-pulldown.png",
+      "listCents": 187000,
+      "saleCents": 130900,
+      "issues": [],
+      "fontsLoaded": true,
+      "imageFit": "contain",
+      "safeArea": {
+        "left": 64,
+        "right": 1016,
+        "top": 250,
+        "bottom": 1620
+      },
+      "displayed": {
+        "model": "GF-004",
+        "listPrice": "Da 1.870 € + IVA",
+        "salePrice": "1.309 € + IVA",
+        "discount": "−30%"
+      },
+      "width": 1080,
+      "height": 1920,
+      "sha256": "2df76c5a1a3dc04348abac9beb66eb816097990428905f0a45436ac80444d571"
+    },
+    {
+      "sku": "FM-GF-005",
+      "file": "05-gf-005-incline-chest-press.png",
+      "listCents": 187000,
+      "saleCents": 130900,
+      "issues": [],
+      "fontsLoaded": true,
+      "imageFit": "contain",
+      "safeArea": {
+        "left": 64,
+        "right": 1016,
+        "top": 250,
+        "bottom": 1620
+      },
+      "displayed": {
+        "model": "GF-005",
+        "listPrice": "Da 1.870 € + IVA",
+        "salePrice": "1.309 € + IVA",
+        "discount": "−30%"
+      },
+      "width": 1080,
+      "height": 1920,
+      "sha256": "af9d9b1c2bd47e3b0a21c744c7b3d86a44f1167ab8534163d16daa7d1a7f0851"
+    }
+  ]
+}

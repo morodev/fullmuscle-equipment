@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test';
 test('un errore del servizio non conferma la richiesta e conserva prodotti e quantità', async ({ page }) => {
   await page.addInitScript(() => {
     if (!localStorage.getItem('fullmuscle-quote-v1')) {
-      localStorage.setItem('fullmuscle-quote-v1', JSON.stringify([{ sku: 'FM-2000B', quantity: 2 }]));
+      localStorage.setItem('fullmuscle-quote-v1', JSON.stringify([{ sku: 'FM-9100A', quantity: 2 }]));
     }
   });
   let intercepted = false;
@@ -16,7 +16,7 @@ test('un errore del servizio non conferma la richiesta e conserva prodotti e qua
     });
   });
   await page.goto('/it/richiesta/');
-  await expect(page.getByRole('heading', { name: /Tapis roulant professionale FM-2000B/ })).toBeVisible();
+  await expect(page.getByRole('heading', { name: /Tapis roulant professionale FM-9100A/ })).toBeVisible();
   await expect(page.getByRole('spinbutton')).toHaveValue('2');
   await page.getByLabel('Nome *', { exact: true }).fill('Mario');
   await page.getByLabel('Cognome *').fill('Rossi');
@@ -28,8 +28,8 @@ test('un errore del servizio non conferma la richiesta e conserva prodotti e qua
   await expect(page.getByRole('alert')).toContainText('Il servizio richieste non è disponibile');
   await expect(page).toHaveURL('/it/richiesta/');
   await expect(page.getByRole('button', { name: 'Invia richiesta di preventivo' })).toBeEnabled();
-  expect(await page.evaluate(() => JSON.parse(localStorage.getItem('fullmuscle-quote-v1') ?? 'null'))).toEqual([{ sku: 'FM-2000B', quantity: 2 }]);
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem('fullmuscle-quote-v1') ?? 'null'))).toEqual([{ sku: 'FM-9100A', quantity: 2 }]);
   await page.reload();
-  await expect(page.getByRole('heading', { name: /Tapis roulant professionale FM-2000B/ })).toBeVisible();
+  await expect(page.getByRole('heading', { name: /Tapis roulant professionale FM-9100A/ })).toBeVisible();
   await expect(page.getByRole('spinbutton')).toHaveValue('2');
 });

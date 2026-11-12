@@ -282,10 +282,10 @@ In caso di successo, la lista viene svuotata soltanto dopo la conferma del serve
 
 ## 6. Multilingua e mercato europeo
 
-Le pagine useranno prefissi coerenti:
+L’italiano è la lingua predefinita. La homepage italiana usa la radice e le pagine interne mantengono i prefissi esistenti:
 
 ```text
-/it/
+/
 /it/catalogo/
 /it/prodotti/{slug}/
 /it/soluzioni/{slug}/
@@ -296,7 +296,7 @@ Le pagine useranno prefissi coerenti:
 /en/solutions/{slug}/
 ```
 
-La radice `/` sarà una pagina neutra per la scelta della lingua, associata a `hreflang="x-default"`. Non verranno eseguiti redirect obbligatori basati sull’indirizzo IP. Ogni pagina avrà:
+La radice `/` mostra direttamente la homepage italiana completa, con canonical autoreferenziale, `hreflang="it-IT"` e `hreflang="x-default"` sulla radice; la versione inglese resta su `/en/`. Le due homepage hanno alternates reciproci e un collegamento visibile per cambiare lingua. I vecchi indirizzi `/it` e `/it/` rispondono con HTTP 301 verso `/`, conservando la query; le pagine interne `/it/...` non cambiano. La sitemap include le due homepage canoniche una sola volta ed esclude la vecchia homepage. La lingua non dipende da IP, cookie o impostazioni del browser. Ogni pagina avrà:
 
 - attributo `lang` corretto;
 - canonical autoreferenziale;

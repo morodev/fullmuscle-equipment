@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "excludedSkus": [
+    "FM-3003",
+    "FM-3004",
+    "FM-3004A",
+    "FM-3006",
+    "FM-3010D",
+    "FM-3016",
+    "FM-3018",
+    "FM-3020",
+    "FM-3021",
+    "FM-3028",
+    "FM-3029",
+    "FM-3031",
+    "FM-3031A",
+    "FM-3032",
+    "FM-3033",
+    "FM-3035",
+    "FM-3038",
+    "FM-3039",
+    "FM-3048",
+    "FM-3055",
+    "FM-3056",
+    "FM-3062",
+    "FM-5015",
+    "FM-5018",
+    "FM-5019",
+    "FM-5028",
+    "FM-5035",
+    "FM-5037"
+  ],
+  "categorySkus": {
+    "exercise-bike": [
+      "FM-7023",
+      "FM-2030A",
+      "FM-2030B",
+      "FM-7045B",
+      "FM-7045A",
+      "FM-7036"
+    ],
+    "stair-climber": [
+      "FM-2060",
+      "FM-2050",
+      "FM-L100B"
+    ],
+    "elliptical": [
+      "FM-7043A",
+      "FM-7043B"
+    ]
+  },
+  "retiredCategoryIds": [
+    "ab-coaster",
+    "surfing-machine"
+  ],
+  "treadmillSkus": [
+    "FM-9100A",
+    "FM-9100B",
+    "FM-9100C",
+    "FM-7100A",
+    "FM-7100B",
+    "FM-7100C",
+    "FM-3000B",
+    "FM-3000C"
+  ],
+  "strengthLineIds": [
+    "fm-g5-series",
+    "fm-gf-series",
+    "fm-gs-series",
+    "fm-52-series",
+    "fm-83-series",
+    "fm-mp-series"
+  ],
+  "independentProducts": {
+    "FM-5029": {
+      "categoryId": "multi-functional-smith-machine-trainer",
+      "slug": {
+        "it": "functional-trainer-fm-5029",
+        "en": "functional-trainer-fm-5029"
+      }
+    },
+    "FM-5030": {
+      "categoryId": "multi-functional-smith-machine-trainer",
+      "slug": {
+        "it": "cable-crossover-fm-5030",
+        "en": "cable-crossover-fm-5030"
+      }
+    },
+    "FM-5034": {
+      "categoryId": "multi-functional-smith-machine-trainer",
+      "slug": {
+        "it": "smith-machine-multifunzione-fm-5034",
+        "en": "multi-function-smith-machine-fm-5034"
+      }
+    },
+    "FM-8017": {
+      "categoryId": "multi-functional-smith-machine-trainer",
+      "slug": {
+        "it": "smith-machine-multifunzione-fm-8017",
+        "en": "multi-function-smith-machine-fm-8017"
+      }
+    },
+    "FM-8018": {
+      "categoryId": "multi-functional-smith-machine-trainer",
+      "slug": {
+        "it": "cable-crossover-fm-8018",
+        "en": "cable-crossover-fm-8018"
+      }
+    },
+    "FM-8161": {
+      "categoryId": "multi-functional-smith-machine-trainer",
+      "slug": {
+        "it": "smith-machine-multifunzione-fm-8161",
+        "en": "multi-function-smith-machine-fm-8161"
+      }
+    },
+    "FM-GB-5090": {
+      "categoryId": "multi-functional-smith-machine-trainer",
+      "slug": {
+        "it": "functional-trainer-fm-gb-5090",
+        "en": "functional-trainer-fm-gb-5090"
+      }
+    },
+    "FM-GT-5090": {
+      "categoryId": "multi-functional-smith-machine-trainer",
+      "slug": {
+        "it": "functional-trainer-fm-gt-5090",
+        "en": "functional-trainer-fm-gt-5090"
+      }
+    },
+    "FM-GC-5040": {
+      "categoryId": "free-weight",
+      "slug": {
+        "it": "split-squat-stand-fm-gc-5040",
+        "en": "split-squat-stand-fm-gc-5040"
+      }
+    },
+    "FM-GC-5041": {
+      "categoryId": "free-weight",
+      "slug": {
+        "it": "macchina-isotonica-fm-gc-5041",
+        "en": "pin-loaded-machine-fm-gc-5041"
+      }
+    }
+  }
+}

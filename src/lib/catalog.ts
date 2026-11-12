@@ -1,4 +1,5 @@
 import draftsDocument from '../../data/catalog-public/products.json';
+import { catalogImages } from './generated/catalog-images';
 import { categoryUrl, lineUrl, productUrl, typeUrl } from './site';
 import type { CatalogListItem, CatalogProduct, CatalogTaxonomy, Locale, LocalizedValue, ProductSpecification, TaxonomyKind } from './types';
 
@@ -11,13 +12,9 @@ type DraftProduct = {
   assets: DraftAsset[];
   descriptor: string;
   technicalDescription: string;
+  slug?: LocalizedValue;
+  imageNote?: LocalizedValue;
 };
-
-const imageModules = import.meta.glob('/src/assets/catalog/**/*.webp', {
-  eager: true,
-  query: '?url',
-  import: 'default',
-}) as Record<string, string>;
 
 const APPROVED_ASSETS = new Set(['approved', 'approved-provisional', 'approved-oem']);
 
@@ -100,18 +97,6 @@ const CATEGORY_DEFINITIONS: Record<string, CategoryDefinition> = {
     description: { it: 'Ergometri verticali per potenza, resistenza e coordinazione.', en: 'Vertical ergometers for power, endurance and coordination.' },
     use: { it: 'preparazione atletica e functional training', en: 'athletic preparation and functional training' },
   },
-  'ab-coaster': {
-    name: { it: 'Ab trainer', en: 'Ab trainers' }, singular: { it: 'Ab trainer professionale', en: 'Professional ab trainer' },
-    slug: { it: 'ab-trainer', en: 'ab-trainers' },
-    description: { it: 'Attrezzature dedicate al lavoro controllato della zona addominale.', en: 'Equipment dedicated to controlled abdominal training.' },
-    use: { it: 'allenamento mirato del core', en: 'focused core training' },
-  },
-  'surfing-machine': {
-    name: { it: 'Surf trainer', en: 'Surf trainers' }, singular: { it: 'Surf trainer', en: 'Surf trainer' },
-    slug: { it: 'surf-trainer', en: 'surf-trainers' },
-    description: { it: 'Una soluzione dinamica per equilibrio, coordinazione e allenamento funzionale.', en: 'A dynamic solution for balance, coordination and functional training.' },
-    use: { it: 'equilibrio e preparazione funzionale', en: 'balance and functional preparation' },
-  },
 };
 
 const CATEGORY_ORDER = [
@@ -125,14 +110,13 @@ const CATEGORY_ORDER = [
   'crossfit-multi-station',
   'rowing-machine',
   'ski-machine',
-  'surfing-machine',
-  'ab-coaster',
   'free-weight',
 ] as const;
 
 const CATEGORY_RANK = new Map<string, number>(CATEGORY_ORDER.map((id, index) => [id, index]));
 
 const TYPE_RULES: Array<{ pattern: RegExp; name: LocalizedValue }> = [
+  { pattern: /dual\s*45.*hip extension/, name: { it: 'Hip extension a 45°', en: 'Dual 45° hip extension' } },
   { pattern: /recumbent.*bike|bike.*recumbent/, name: { it: 'Bike reclinata', en: 'Recumbent bike' } },
   { pattern: /upright.*bike/, name: { it: 'Bike verticale', en: 'Upright bike' } },
   { pattern: /spin(?:ning)?.*bike|indoor cycl/, name: { it: 'Indoor cycle', en: 'Indoor cycle' } },
@@ -283,7 +267,7 @@ const FEATURED_TYPE_DEFINITIONS: Array<Omit<CatalogTaxonomy, 'count'>> = [
 ];
 
 const FEATURED_TYPE_PATTERNS: Record<string, RegExp> = {
-  'back-extension': /back extension/i,
+  'back-extension': /back extension|dual\s*45.*hip extension/i,
   'leg-press': /leg press/i,
   'chest-press': /chest press|bench press|incline press|decline press/i,
 };
@@ -384,14 +368,6 @@ function selectionNotes(categoryId: string): { it: string[]; en: string[] } {
       it: ['Verifica altezza utile e modalità di fissaggio.', 'Lascia spazio per la completa escursione delle braccia.', 'Inserisci la stazione vicino alle aree functional o cardio.'],
       en: ['Check usable height and the mounting method.', 'Leave room for the complete arm movement.', 'Place the station near functional or cardio training areas.'],
     },
-    'ab-coaster': {
-      it: ['Valuta facilità di accesso e regolazioni della postazione.', 'Verifica ingombro operativo e area libera intorno alla macchina.', 'Abbina la stazione ad altri movimenti per il core.'],
-      en: ['Consider access and adjustment of the training position.', 'Check the working footprint and clearance around the machine.', 'Combine the station with complementary core movements.'],
-    },
-    'surfing-machine': {
-      it: ['Prevedi un’area libera adeguata al movimento dinamico.', 'Verifica livelli di resistenza e modalità di arresto.', 'Definisci supervisione e progressione in base agli utenti.'],
-      en: ['Provide enough clear space for the dynamic movement.', 'Check resistance levels and stopping controls.', 'Define supervision and progression for the expected users.'],
-    },
   };
   return notes[categoryId] ?? {
     it: ['Verifica ingombro e spazio operativo.', 'Confronta regolazioni e capacità con gli utenti previsti.', 'Inserisci il modello in una selezione coerente con il progetto.'],
@@ -417,7 +393,7 @@ function safeSpecifications(values: Record<string, string>, locale: Locale): Pro
 
 function resolveImage(localPath: string | undefined): string | undefined {
   if (!localPath) return undefined;
-  return imageModules[`/${localPath.replaceAll('\\', '/')}`];
+  return catalogImages[`/${localPath.replaceAll('\\', '/')}`];
 }
 
 function buildProduct(draft: DraftProduct): CatalogProduct {
@@ -471,12 +447,13 @@ function buildProduct(draft: DraftProduct): CatalogProduct {
     categoryId: draft.categoryId,
     ...(draft.lineId ? { lineId: draft.lineId } : {}),
     featuredTypeIds: featuredTypeIds(rawName),
-    slug: { it: slugify(name.it), en: slugify(name.en) },
+    slug: draft.slug ?? { it: slugify(name.it), en: slugify(name.en) },
     name,
     summary,
     seoTitle,
     seoDescription,
     imageAlt: { it: `${name.it}, vista prodotto`, en: `${name.en}, product view` },
+    ...(draft.imageNote ? { imageNote: { it: cleanText(draft.imageNote.it), en: cleanText(draft.imageNote.en) } } : {}),
     description,
     features,
     selectionNotes: selectionNotes(draft.categoryId),
@@ -492,10 +469,10 @@ function buildProduct(draft: DraftProduct): CatalogProduct {
 export const PRODUCTS: CatalogProduct[] = (draftsDocument.products as DraftProduct[]).map(buildProduct);
 
 const CATALOG_LEAD_SKUS = new Map([
-  ['FM-X6053', 0],
-  ['FM-X8202', 1],
+  ['FM-GF-001', 0],
+  ['FM-GC-5005', 1],
 ]);
-const PROMOTED_LINES = new Set(['fm-x6-series', 'fm-x82-series']);
+const PROMOTED_LINES = new Set(['fm-g5-series', 'fm-gf-series']);
 
 function catalogPriority(product: CatalogProduct): number {
   const lead = CATALOG_LEAD_SKUS.get(product.sku);
@@ -520,8 +497,8 @@ function productsBySku(skus: string[], placement: string): CatalogProduct[] {
   });
 }
 
-const HOME_HERO_SKUS = ['FM-X6053', 'FM-X8202', 'FM-2000B'];
-const HOME_FEATURED_SKUS = ['FM-X6053', 'FM-X8202', 'FM-X6005', 'FM-X8204', 'FM-2000B', 'FM-3000A'];
+const HOME_HERO_SKUS = ['FM-5201', 'FM-5204', 'FM-MP-8144'];
+const HOME_FEATURED_SKUS = ['FM-GS-5002', 'FM-GS-5008', 'FM-GS-5016', 'FM-5201', 'FM-5204', 'FM-MP-8144'];
 
 export const HOME_HERO_PRODUCTS = productsBySku(HOME_HERO_SKUS, 'hero');
 export const HOME_FEATURED_PRODUCTS = productsBySku(HOME_FEATURED_SKUS, 'in evidenza');

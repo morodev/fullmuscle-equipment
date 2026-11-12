@@ -20,7 +20,7 @@ export const SITE = {
 
 export const ROUTES = {
   it: {
-    home: '/it/', catalog: '/it/catalogo/', categories: '/it/catalogo/categorie', lines: '/it/catalogo/linee', types: '/it/catalogo/tipologie',
+    home: '/', catalog: '/it/catalogo/', categories: '/it/catalogo/categorie', lines: '/it/catalogo/linee', types: '/it/catalogo/tipologie',
     products: '/it/prodotti', solutions: '/it/soluzioni', company: '/it/azienda/', contact: '/it/contatti/',
     guides: '/it/guide', showroom: '/it/showroom/', quote: '/it/richiesta/', privacy: '/it/privacy/', confirmation: '/it/conferma/',
   },

@@ -1,0 +1,343 @@
+---
+import Breadcrumbs from './Breadcrumbs.astro';
+import { GF_MEDIA } from '../lib/gf-presentation';
+import { CATALOG_DOWNLOADS } from '../lib/brochures';
+import { productUrl, route } from '../lib/site';
+import type { CatalogProduct, CatalogTaxonomy, Locale } from '../lib/types';
+
+interface Props { locale: Locale; taxonomy: CatalogTaxonomy; featuredProduct: CatalogProduct }
+const { locale, taxonomy, featuredProduct } = Astro.props;
+const isIt = locale === 'it';
+const r = route(locale);
+const download = isIt ? CATALOG_DOWNLOADS.find((item) => item.lineId === taxonomy.id) : undefined;
+const posterSources = `${GF_MEDIA.posterMobile} 768w, ${GF_MEDIA.poster} ${GF_MEDIA.width}w`;
+const heroSizes = '(max-width: 700px) calc(110vw - 2.2rem), (max-width: 1000px) 63vw, 760px';
+const stageSizes = '(max-width: 700px) calc(100vw - 2rem), (max-width: 1000px) calc(100vw - 310px), 855px';
+const steps = isIt ? [
+  { title: 'La struttura.', text: 'Il telaio definisce la forma. Ogni elemento trova il proprio posto.' },
+  { title: 'Il punto di appoggio.', text: 'Seduta e schienale entrano nella composizione.' },
+  { title: 'Il movimento.', text: 'I due bracci e le impugnature completano il profilo della chest press.' },
+  { title: 'L’ultimo elemento.', text: 'La pedana si unisce alla struttura.' },
+  { title: 'La forma completa.', text: 'Chest Press FM-GF-001. Uno dei cinque modelli della linea GF.' },
+] : [
+  { title: 'The structure.', text: 'The frame defines the shape. Every element finds its place.' },
+  { title: 'The support.', text: 'The seat and backrest come into the composition.' },
+  { title: 'The movement.', text: 'The two arms and handles complete the chest press silhouette.' },
+  { title: 'The final element.', text: 'The platform joins the structure.' },
+  { title: 'The complete form.', text: 'Chest Press FM-GF-001. One of the five models in the GF line.' },
+];
+---
+<div class="gf-presentation" data-gf-presentation>
+  <section class="page-hero gf-hero">
+    <div class="shell gf-hero-shell">
+      <Breadcrumbs items={[{ label: 'Home', href: r.home }, { label: isIt ? 'Catalogo' : 'Catalogue', href: r.catalog }, { label: taxonomy.name[locale] }]} />
+      <div class="gf-intro">
+        <div class="gf-intro-copy">
+          <p class="gf-eyebrow">FullMuscle Equipment <span aria-hidden="true">/</span> {isIt ? 'Serie GF' : 'GF Series'}</p>
+          <h1><span class="gf-series">FM-GF.</span>{isIt ? <>La forza<br /><em>prende forma.</em></> : <>Strength<br /><em>takes shape.</em></>}</h1>
+          <p class="gf-intro-text">{isIt ? 'Cinque modelli. Un linguaggio comune. Scopri la linea plate loaded GF attraverso la Chest Press FM-GF-001.' : 'Five models. A shared design language. Discover the GF plate-loaded line through the FM-GF-001 Chest Press.'}</p>
+          <div class="gf-hero-actions">
+            <a class="gf-primary-link" href="#gf-models">{isIt ? 'Esplora la linea' : 'Explore the line'} <span aria-hidden="true">↗</span></a>
+            <a class="gf-secondary-link" href={`${r.quote}?project=gym`}>{isIt ? 'Richiedi un preventivo' : 'Request a quotation'}</a>
+          </div>
+          {download && <a class="gf-download" href={download.href} download>Scarica il catalogo GF (PDF) <span aria-hidden="true">↓</span></a>}
+        </div>
+        <div class="gf-hero-visual">
+          <span class="gf-ghost-type" aria-hidden="true">GF</span>
+          <div class="gf-hero-floor" aria-hidden="true"></div>
+          <img class="gf-hero-machine" src={GF_MEDIA.poster} srcset={posterSources} sizes={heroSizes} width={GF_MEDIA.width} height={GF_MEDIA.height} alt={isIt ? 'Chest Press FM-GF-001, vista a tre quarti' : 'FM-GF-001 Chest Press, three-quarter view'} loading="eager" fetchpriority="high" decoding="async" />
+          <div class="gf-machine-caption"><span>01 <i aria-hidden="true"></i> 05</span><a href={productUrl(locale, featuredProduct.slug[locale])}>Chest Press <strong>FM-GF-001</strong><span aria-hidden="true">↗</span></a></div>
+        </div>
+      </div>
+      <a class="gf-scroll-cue" href="#gf-assembly"><span aria-hidden="true">↓</span>{isIt ? 'Ogni elemento, al suo posto.' : 'Every element in its place.'}</a>
+    </div>
+  </section>
+
+  <section id="gf-assembly" class="gf-assembly" data-gf-assembly data-motion="static" aria-labelledby="gf-assembly-title">
+    <div class="gf-sticky" data-gf-stage>
+      <div class="shell gf-stage-shell">
+        <div class="gf-stage-heading">
+          <div><p class="gf-eyebrow">{isIt ? 'Dentro la forma' : 'Inside the form'}</p><h2 id="gf-assembly-title">{isIt ? 'Un insieme. In equilibrio.' : 'Every part. In balance.'}</h2></div>
+          <span class="gf-scroll-instruction">{isIt ? 'Scorri per comporre' : 'Scroll to assemble'} <span aria-hidden="true">↓</span></span>
+        </div>
+        <div class="gf-assembly-layout">
+          <div class="gf-scene" style={`--gf-aspect: ${GF_MEDIA.width} / ${GF_MEDIA.height}`}>
+            <div class="gf-scene-glow" aria-hidden="true"></div>
+            <div class="gf-scene-floor" aria-hidden="true"></div>
+            <img class="gf-poster" data-gf-poster src={GF_MEDIA.poster} srcset={posterSources} sizes={stageSizes} width={GF_MEDIA.width} height={GF_MEDIA.height} loading="lazy" decoding="async" alt={isIt ? 'Chest Press FM-GF-001 assemblata, con telaio, seduta, bracci verdi e pedana' : 'Assembled FM-GF-001 Chest Press with frame, seat, green arms and platform'} />
+            <div class="gf-parts" aria-hidden="true">
+              {GF_MEDIA.parts.map((part) => <div class="gf-part" data-gf-part={part.id} style={`left:${part.x / GF_MEDIA.width * 100}%;top:${part.y / GF_MEDIA.height * 100}%;width:${part.width / GF_MEDIA.width * 100}%;height:${part.height / GF_MEDIA.height * 100}%`}><img data-src={part.src} data-srcset={`${part.srcMobile} 768w, ${part.src} ${part.width}w`} data-sizes={stageSizes} width={part.width} height={part.height} alt="" decoding="async" /></div>)}
+            </div>
+          </div>
+          <ol class="gf-steps" aria-label={isIt ? 'Gli elementi della chest press' : 'The elements of the chest press'}>
+            {steps.map((step, index) => <li class="gf-step" data-gf-step data-active={index === 0 ? 'true' : 'false'}><span class="gf-step-number">0{index + 1}</span><div><h3>{step.title}</h3><p>{step.text}</p></div></li>)}
+          </ol>
+        </div>
+        <div class="gf-stage-footer"><span>Chest Press <strong>FM-GF-001</strong></span><div class="gf-progress" aria-hidden="true"><span data-gf-progress></span></div><a href={productUrl(locale, featuredProduct.slug[locale])}>{isIt ? 'Scopri il modello' : 'Explore the model'} <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </div>
+  </section>
+  <section class="gf-outro">
+    <div class="shell gf-outro-inner"><p class="gf-eyebrow">{isIt ? 'La stessa identità. Cinque espressioni.' : 'One identity. Five expressions.'}</p><h2>{isIt ? <>Dalla singola macchina.<br /><span>Alla tua sala pesi.</span></> : <>From a single machine.<br /><span>To your strength floor.</span></>}</h2><p>{isIt ? 'La Chest Press è il punto di partenza. Esplora tutti i modelli GF e costruisci la selezione per la tua palestra.' : 'The Chest Press is the starting point. Explore every GF model and build the selection for your gym.'}</p><a class="gf-primary-link" href="#gf-models">{isIt ? 'Tutti i modelli GF' : 'All GF models'} <span aria-hidden="true">↓</span></a></div>
+  </section>
+</div>
+
+<script>
+  const roots = document.querySelectorAll<HTMLElement>('[data-gf-assembly]');
+  roots.forEach((assembly) => {
+    const scene = assembly.querySelector<HTMLElement>('.gf-scene');
+    const parts = Array.from(assembly.querySelectorAll<HTMLElement>('[data-gf-part]'));
+    const images = Array.from(assembly.querySelectorAll<HTMLImageElement>('[data-gf-part] img'));
+    const poster = assembly.querySelector<HTMLImageElement>('[data-gf-poster]');
+    const progressBar = assembly.querySelector<HTMLElement>('[data-gf-progress]');
+    const steps = Array.from(assembly.querySelectorAll<HTMLElement>('[data-gf-step]'));
+    if (!scene || !poster || parts.length !== 5 || images.length !== 5) return;
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let nearby = false;
+    let version = 0;
+    let disposeAnimation: (() => void) | undefined;
+    let resizeObserver: ResizeObserver | undefined;
+
+    function reset() {
+      version += 1;
+      disposeAnimation?.();
+      disposeAnimation = undefined;
+      resizeObserver?.disconnect();
+      resizeObserver = undefined;
+      assembly.dataset.motion = 'static';
+      poster?.style.removeProperty('opacity');
+      steps.forEach((step, index) => { step.dataset.active = index === 0 ? 'true' : 'false'; });
+    }
+
+    async function enhance() {
+      reset();
+      if (!nearby || reducedMotion.matches || !poster) return;
+      const token = version;
+      delete assembly.dataset.motionError;
+      try {
+        const [{ gsap }, { ScrollTrigger }] = await Promise.all([import('gsap'), import('gsap/ScrollTrigger')]);
+        if (token !== version || reducedMotion.matches || !assembly.isConnected) return;
+        poster.loading = 'eager';
+        await Promise.all([
+          poster.decode(),
+          ...images.map(async (image) => {
+            image.sizes = image.dataset.sizes!;
+            image.srcset = image.dataset.srcset!;
+            image.src = image.dataset.src!;
+            await image.decode();
+            if (!image.naturalWidth) throw new Error('GF image unavailable');
+          }),
+        ]);
+        if (token !== version || reducedMotion.matches || !assembly.isConnected) return;
+        gsap.registerPlugin(ScrollTrigger);
+        const header = document.querySelector<HTMLElement>('[data-header]');
+        const updateHeader = () => assembly.style.setProperty('--gf-header', `${Math.ceil(header?.getBoundingClientRect().height ?? 80)}px`);
+        updateHeader();
+        assembly.dataset.motion = 'ready';
+        const motions: Record<string, { x: number; y: number; start: number; duration: number }> = {
+          frame: { x: 0, y: .06, start: 0, duration: .2 },
+          seat: { x: 0, y: -.14, start: .2, duration: .25 },
+          'arm-left': { x: -.13, y: .015, start: .42, duration: .25 },
+          'arm-right': { x: .13, y: -.015, start: .48, duration: .25 },
+          platform: { x: 0, y: .14, start: .7, duration: .23 },
+        };
+        const context = gsap.context(() => {}, assembly);
+        disposeAnimation = () => {
+          context.revert();
+          progressBar?.style.removeProperty('transform');
+        };
+        context.add(() => {
+          const timeline = gsap.timeline({
+            scrollTrigger: {
+              trigger: assembly,
+              start: () => `top top+=${Math.ceil(header?.getBoundingClientRect().height ?? 80)}`,
+              end: () => `+=${Math.max(1, assembly.offsetHeight - (assembly.querySelector<HTMLElement>('[data-gf-stage]')?.offsetHeight ?? 0))}`,
+              scrub: .35,
+              invalidateOnRefresh: true,
+              onRefreshInit: updateHeader,
+            },
+            onUpdate(this: { progress(): number }) {
+              const progress = this.progress();
+              const index = progress < .2 ? 0 : progress < .43 ? 1 : progress < .7 ? 2 : progress < .94 ? 3 : 4;
+              steps.forEach((step, stepIndex) => { step.dataset.active = stepIndex === index ? 'true' : 'false'; });
+              if (progressBar) progressBar.style.transform = `scaleX(${progress})`;
+            },
+          });
+          for (const part of parts) {
+            const motion = motions[part.dataset.gfPart ?? ''];
+            if (!motion) continue;
+            timeline.fromTo(part, { x: () => scene!.clientWidth * motion.x, y: () => scene!.clientHeight * motion.y }, { x: 0, y: 0, duration: motion.duration, ease: 'power2.inOut' }, motion.start);
+          }
+          timeline.fromTo(poster, { opacity: 0 }, { opacity: 1, duration: .07, ease: 'none' }, .93);
+          timeline.fromTo('.gf-parts', { opacity: 1 }, { opacity: 0, duration: .07, ease: 'none' }, .93);
+        });
+        if (header) {
+          resizeObserver = new ResizeObserver(() => {
+            updateHeader();
+            ScrollTrigger.refresh();
+          });
+          resizeObserver.observe(header);
+        }
+        ScrollTrigger.refresh();
+      } catch (error) {
+        if (token !== version) return;
+        reset();
+        assembly.dataset.motionError = 'true';
+        if (import.meta.env.DEV) console.warn('[GF] Impossibile avviare il montaggio durante lo scroll.', error);
+      }
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      if (!entries.some((entry) => entry.isIntersecting)) return;
+      nearby = true;
+      observer.disconnect();
+      void enhance();
+    }, { rootMargin: '500px 0px' });
+    observer.observe(assembly);
+    const onMotionPreference = () => { void enhance(); };
+    reducedMotion.addEventListener('change', onMotionPreference);
+    document.addEventListener('astro:before-swap', () => {
+      observer.disconnect();
+      reducedMotion.removeEventListener('change', onMotionPreference);
+      reset();
+    }, { once: true });
+  });
+</script>
+
+<style>
+  .gf-presentation { --gf-white: #eef2ed; --gf-dim: #939d95; --gf-line: rgba(226,239,222,.14); background: #0b0e0c; color: var(--gf-white); overflow: clip; }
+  .gf-hero { padding: 1.5rem 0 2rem; background: radial-gradient(ellipse at 78% 48%,#1e2a20 0,rgba(16,23,18,.5) 33%,transparent 66%),#0b0e0c; }
+  .gf-hero::after { display: none; }
+  .gf-hero-shell { position: relative; }
+  .gf-hero :global(.breadcrumbs) { margin-bottom: 0; color: #8b968e; font-size: .7rem; }
+  .gf-intro { display: grid; min-height: min(760px,calc(100svh - 11rem)); grid-template-columns: .95fr 1.05fr; align-items: center; gap: 1.5rem; }
+  .gf-intro-copy { position: relative; z-index: 2; padding: 3.75rem 0 3rem; }
+  .gf-presentation .gf-eyebrow { margin: 0 0 1.4rem; color: #a2b19f; font-size: .65rem; font-weight: 700; line-height: 1.4; letter-spacing: .18em; text-transform: uppercase; }
+  .gf-eyebrow span { margin-inline: .5rem; color: #59685b; }
+  .gf-hero h1 { max-width: none; font-size: clamp(3rem,5.4vw,5.5rem); line-height: .99; font-weight: 750; letter-spacing: -.065em; }
+  .gf-series { display: block; margin-bottom: .65em; color: #95a38f; font-size: .22em; font-weight: 650; letter-spacing: .02em; }
+  .gf-hero h1 em { color: #a7dc87; font-style: normal; }
+  .gf-hero .gf-intro-text { max-width: 33ch; margin: 1.75rem 0 0; color: #a3afa6; font-size: clamp(.95rem,1.3vw,1.08rem); line-height: 1.65; }
+  .gf-hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.8rem; margin-top: 2rem; }
+  .gf-primary-link { display: inline-flex; gap: 1.25rem; align-items: center; border-bottom: 1px solid #92bd76; padding-block: .55rem; color: #b4e78e; font-size: .86rem; font-weight: 650; }
+  .gf-primary-link span { font-size: 1.2rem; transition: transform .2s ease; }
+  .gf-primary-link:hover span { transform: translate(2px,-2px); }
+  .gf-secondary-link { color: #c7d0c9; font-size: .78rem; }
+  .gf-secondary-link:hover, .gf-download:hover { color: #b4e78e; }
+  .gf-download { display: inline-flex; align-items: center; gap: .8rem; margin-top: 1.4rem; color: #8b998f; font-size: .7rem; }
+  .gf-hero-visual { position: relative; isolation: isolate; width: 119%; margin-left: -10%; padding: 2rem 0; }
+  .gf-ghost-type { position: absolute; z-index: -2; top: -8%; left: 5%; color: rgba(177,207,166,.045); font-size: clamp(13rem,26vw,29rem); font-weight: 850; line-height: 1; letter-spacing: -.1em; }
+  .gf-hero-machine { position: relative; width: 100%; height: auto; filter: drop-shadow(0 2rem 2rem rgba(0,0,0,.35)); }
+  .gf-hero-floor { position: absolute; z-index: -1; right: 4%; bottom: 8%; left: 13%; height: 16%; border-radius: 50%; background: radial-gradient(ellipse,#43523a 0,rgba(35,49,32,.3) 46%,transparent 70%); filter: blur(14px); }
+  .gf-machine-caption { display: flex; align-items: center; justify-content: space-between; margin: 1rem 9% 0 13%; color: #8c9a8f; font-size: .62rem; }
+  .gf-machine-caption > span { display: flex; align-items: center; gap: .55rem; letter-spacing: .1em; }
+  .gf-machine-caption i { width: 2.2rem; height: 1px; background: #3e4b40; }
+  .gf-machine-caption a { display: flex; gap: .45rem; align-items: center; }
+  .gf-machine-caption strong { color: #c0cec3; font-weight: 550; }
+  .gf-machine-caption a > span { margin-left: .35rem; color: #b4e78e; }
+  .gf-scroll-cue { display: flex; align-items: center; justify-content: center; gap: .7rem; padding-top: 1.6rem; border-top: 1px solid var(--gf-line); color: #849187; font-size: .64rem; letter-spacing: .04em; }
+  .gf-scroll-cue > span { color: #b4e78e; font-size: 1rem; }
+  .gf-assembly { --gf-header: 80px; position: relative; scroll-margin-top: 5rem; background: radial-gradient(ellipse at 36% 55%,#1e2920 0,#101612 40%,#0b0e0c 76%); }
+  .gf-sticky { position: relative; padding-block: clamp(3rem,6vw,6rem); }
+  .gf-stage-heading { display: flex; justify-content: space-between; align-items: end; gap: 2rem; }
+  .gf-stage-heading .gf-eyebrow { margin-bottom: .6rem; }
+  .gf-stage-heading h2 { margin: 0; font-size: clamp(1.7rem,3.5vw,3.2rem); font-weight: 600; line-height: 1.08; letter-spacing: -.045em; }
+  .gf-scroll-instruction { display: none; color: #9ead9f; font-size: .65rem; }
+  .gf-scroll-instruction span { margin-left: .8rem; color: #b4e78e; }
+  .gf-assembly-layout { display: grid; grid-template-columns: minmax(0,1fr) 290px; align-items: center; gap: clamp(2rem,5vw,5rem); margin-top: 2rem; }
+  .gf-scene { position: relative; isolation: isolate; width: 100%; aspect-ratio: var(--gf-aspect); }
+  .gf-scene-glow { position: absolute; z-index: -2; inset: 4% -3%; border-radius: 50%; background: radial-gradient(ellipse,rgba(131,162,117,.12),transparent 64%); }
+  .gf-scene-floor { position: absolute; z-index: -1; bottom: -3%; left: 13%; width: 79%; height: 15%; border-radius: 50%; background: radial-gradient(ellipse,rgba(0,0,0,.8),transparent 70%); filter: blur(9px); }
+  .gf-poster { position: relative; z-index: 2; width: 100%; height: 100%; object-fit: contain; }
+  .gf-parts { position: absolute; z-index: 1; inset: 0; visibility: hidden; }
+  .gf-part { position: absolute; }
+  .gf-part[data-gf-part="frame"] { z-index: 1; }
+  .gf-part[data-gf-part="arm-left"] { z-index: 2; }
+  .gf-part[data-gf-part="seat"] { z-index: 3; }
+  .gf-part[data-gf-part="platform"] { z-index: 4; }
+  .gf-part[data-gf-part="arm-right"] { z-index: 5; }
+  .gf-part img { width: 100%; height: 100%; object-fit: contain; }
+  .gf-steps { display: grid; gap: 1rem; list-style: none; margin: 0; padding: 0; }
+  .gf-step { display: grid; grid-template-columns: 1.4rem 1fr; gap: .65rem; padding-block: .55rem; }
+  .gf-step-number { padding-top: .2rem; color: #7fa66a; font-size: .6rem; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .gf-step h3 { margin: 0; color: #dce5dd; font-size: 1.05rem; font-weight: 600; letter-spacing: -.025em; line-height: 1.2; }
+  .gf-step p { margin: .45rem 0 0; color: #93a096; font-size: .77rem; line-height: 1.6; }
+  .gf-stage-footer { display: flex; justify-content: space-between; align-items: center; gap: 2rem; margin-top: 2.5rem; border-top: 1px solid var(--gf-line); padding-top: 1.1rem; color: #8c9a8e; font-size: .65rem; }
+  .gf-stage-footer strong { margin-left: .4rem; color: #c4cec5; font-weight: 500; }
+  .gf-stage-footer a { color: #b4e78e; }
+  .gf-stage-footer a span { margin-left: .6rem; }
+  .gf-progress { display: none; width: 18%; height: 1px; overflow: hidden; background: #354237; }
+  .gf-progress span { display: block; width: 100%; height: 100%; transform: scaleX(0); transform-origin: left; background: #b4e78e; }
+  .gf-assembly[data-motion="ready"] { height: 300svh; }
+  .gf-assembly[data-motion="ready"] .gf-sticky { position: sticky; top: var(--gf-header); display: grid; align-items: center; height: calc(100svh - var(--gf-header)); padding-block: 1.8rem; }
+  .gf-assembly[data-motion="ready"] .gf-stage-shell { width: min(100% - 3rem,1240px); }
+  .gf-assembly[data-motion="ready"] .gf-scene { max-width: calc((100svh - var(--gf-header) - 15rem) * 1.39); margin-inline: auto; }
+  .gf-assembly[data-motion="ready"] .gf-assembly-layout { margin-top: 1.5rem; }
+  .gf-assembly[data-motion="ready"] .gf-parts { visibility: visible; }
+  .gf-assembly[data-motion="ready"] .gf-poster,
+  .gf-assembly[data-motion="ready"] .gf-parts { transform: scale(.88); transform-origin: center; }
+  .gf-assembly[data-motion="ready"] .gf-poster { opacity: 0; }
+  .gf-assembly[data-motion="ready"] .gf-scroll-instruction { display: inline; }
+  .gf-assembly[data-motion="ready"] .gf-progress { display: block; }
+  .gf-assembly[data-motion="ready"] .gf-step { opacity: .28; transition: opacity .2s ease; }
+  .gf-assembly[data-motion="ready"] .gf-step[data-active="true"] { opacity: 1; }
+  .gf-assembly[data-motion="ready"] .gf-step[data-active="true"] .gf-step-number { color: #b4e78e; }
+  .gf-outro { position: relative; border-top: 1px solid var(--gf-line); padding-block: clamp(5rem,11vw,10rem); text-align: center; background: #0b0e0c; }
+  .gf-outro h2 { margin: 0; font-size: clamp(2rem,5.2vw,4.6rem); font-weight: 600; line-height: 1.07; letter-spacing: -.055em; }
+  .gf-outro h2 span { color: #7f8b81; }
+  .gf-outro p:not(.gf-eyebrow) { max-width: 45ch; margin: 1.6rem auto 1.7rem; color: #9ca89e; font-size: .95rem; }
+  @media (max-width: 1000px) { .gf-intro { grid-template-columns: 1fr 1fr; gap: 0; } .gf-hero h1 { font-size: clamp(2.8rem,5.4vw,4rem); } .gf-hero-visual { width: 125%; margin-left: -13%; } .gf-assembly-layout { grid-template-columns: minmax(0,1fr) 245px; gap: 1.5rem; } }
+  @media (max-width: 700px) {
+    .gf-hero { padding-top: 1.2rem; }
+    .gf-intro { grid-template-columns: 1fr; }
+    .gf-intro-copy { padding: 3rem 0 .5rem; text-align: center; }
+    .gf-hero h1 { font-size: clamp(3.3rem,12vw,5rem); }
+    .gf-hero .gf-intro-text { max-width: 35ch; margin: 1.4rem auto 0; font-size: .88rem; }
+    .gf-hero-actions { justify-content: center; margin-top: 1.2rem; gap: .6rem 1.2rem; }
+    .gf-primary-link { font-size: .8rem; }
+    .gf-secondary-link { font-size: .72rem; }
+    .gf-download { margin-top: 1rem; }
+    .gf-hero-visual { width: 110%; margin: 0 -5%; padding: 1.4rem 0 1rem; }
+    .gf-ghost-type { top: 0; left: 13%; font-size: 64vw; }
+    .gf-machine-caption { margin-top: .5rem; font-size: .58rem; }
+    .gf-machine-caption a { gap: .3rem; }
+    .gf-scroll-cue { margin-top: 1rem; padding-top: 1.2rem; }
+    .gf-stage-heading { align-items: start; gap: .75rem; }
+    .gf-stage-heading h2 { font-size: clamp(1.6rem,6.2vw,2.2rem); }
+    .gf-stage-heading .gf-eyebrow { font-size: .58rem; }
+    .gf-assembly-layout { grid-template-columns: 1fr; gap: 1.8rem; }
+    .gf-steps { grid-template-columns: 1fr 1fr; gap: .8rem; }
+    .gf-step { gap: .35rem; grid-template-columns: 1.2rem 1fr; }
+    .gf-step h3 { font-size: .94rem; }
+    .gf-step p { font-size: .7rem; }
+    .gf-stage-footer { gap: .6rem; font-size: .6rem; }
+    .gf-stage-footer > span { display: grid; }
+    .gf-stage-footer strong { margin-left: 0; }
+    .gf-assembly[data-motion="ready"] { height: 220svh; }
+    .gf-assembly[data-motion="ready"] .gf-sticky { padding-block: 1.3rem; }
+    .gf-assembly[data-motion="ready"] .gf-stage-shell { width: calc(100% - 2rem); }
+    .gf-assembly[data-motion="ready"] .gf-assembly-layout { gap: 1.15rem; margin-top: 1.6rem; }
+    .gf-assembly[data-motion="ready"] .gf-scene { max-width: min(100%,calc((100svh - var(--gf-header) - 17rem) * 1.39)); }
+    .gf-assembly[data-motion="ready"] .gf-poster,
+    .gf-assembly[data-motion="ready"] .gf-parts { transform: scale(.92); }
+    .gf-assembly[data-motion="ready"] .gf-scroll-instruction { max-width: 5rem; padding-top: .2rem; font-size: .56rem; text-align: right; }
+    .gf-assembly[data-motion="ready"] .gf-scroll-instruction span { display: block; margin: .3rem 0 0; }
+    .gf-assembly[data-motion="ready"] .gf-steps { position: relative; display: block; min-height: 4.8rem; }
+    .gf-assembly[data-motion="ready"] .gf-step { position: absolute; inset: 0; grid-template-columns: 1.6rem 1fr; padding: .1rem 0; opacity: 0; pointer-events: none; }
+    .gf-assembly[data-motion="ready"] .gf-step h3 { font-size: 1.15rem; }
+    .gf-assembly[data-motion="ready"] .gf-step p { max-width: 45ch; font-size: .74rem; }
+    .gf-assembly[data-motion="ready"] .gf-stage-footer { margin-top: .6rem; padding-top: .8rem; }
+    .gf-outro { padding-block: 4.5rem; }
+    .gf-outro .gf-eyebrow { font-size: .58rem; }
+  }
+  @media (max-height: 600px) and (min-width: 701px) {
+    .gf-assembly[data-motion="ready"] .gf-sticky { padding-block: .8rem; }
+    .gf-assembly[data-motion="ready"] .gf-stage-heading h2 { font-size: 1.55rem; }
+    .gf-assembly[data-motion="ready"] .gf-stage-heading .gf-eyebrow { display: none; }
+    .gf-assembly[data-motion="ready"] .gf-scene { max-width: calc((100svh - var(--gf-header) - 8rem) * 1.39); }
+    .gf-assembly[data-motion="ready"] .gf-steps { position: relative; display: block; min-height: 5rem; }
+    .gf-assembly[data-motion="ready"] .gf-step { position: absolute; inset: 0; opacity: 0; }
+    .gf-assembly[data-motion="ready"] .gf-stage-footer { margin-top: 1rem; padding-top: .6rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { .gf-primary-link span, .gf-step { transition: none; } }
+</style>

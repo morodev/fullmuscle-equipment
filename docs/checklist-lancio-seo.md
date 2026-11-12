@@ -45,6 +45,9 @@ Il rapporto distingue metadati e risposte HTTP osservabili dalle verifiche che r
 - completare la privacy in italiano e inglese sulla base dei dati e dei trattamenti reali; la build di rilascio blocca la nota di bozza;
 - configurare Turnstile e SMTP, quindi collaudare una richiesta concordata con e senza prodotti su una casella interna;
 - impostare `PUBLIC_SITE_READY=true` ed eseguire `npm run build:release`;
+- verificare dopo il deploy che `/` mostri direttamente la homepage italiana e `/en/` quella inglese, entrambe con risposta 200;
+- verificare HTTP 301 da `/it` e `/it/` a `/`, con query conservata, e accesso invariato alle pagine interne `/it/...`;
+- verificare canonical, alternates reciproci e `x-default` delle homepage, con `/` presente una sola volta nella sitemap e `/it/` esclusa;
 - verificare su produzione canonical, redirect, `robots.txt` e `sitemap-index.xml`.
 
 ## Google

@@ -2,6 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
+  testIgnore: '**/gf-dev.spec.ts',
   fullyParallel: true,
   retries: 0,
   reporter: 'list',
@@ -16,7 +17,7 @@ export default defineConfig({
   ],
   webServer: {
     command: 'npm start',
-    url: 'http://127.0.0.1:4321/it/',
+    url: 'http://127.0.0.1:4321/',
     env: { ...process.env, HOST: '127.0.0.1', NODE_ENV: 'test', FULLMUSCLE_QUOTE_TEST_MODE: 'true', PUBLIC_SITE_READY: 'false' },
     reuseExistingServer: false,
     timeout: 120_000,

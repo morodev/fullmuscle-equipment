@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "colorPolicy": "preserve-original",
+  "logoReference": "data/catalog-branding/generated/treadmills-original-colors-01/logo-reference.png",
+  "items": [
+    {
+      "sku": "FM-9100A",
+      "originalPath": "data/catalog-assets/originals/0e/0eea52148b72fb75d5ce004968b9ab8e697b3ae1b0b5a28f3107a67eb0edcef1.jpg",
+      "promptPath": "data/catalog-branding/generated/treadmills-original-colors-01/prompts/FM-9100A.txt",
+      "outputPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-9100A.png"
+    },
+    {
+      "sku": "FM-9100B",
+      "originalPath": "data/catalog-assets/originals/a6/a6cf2c3ad4e048420793090b882331c84da9494b2d545688e62983a63f10bb44.jpg",
+      "promptPath": "data/catalog-branding/generated/treadmills-original-colors-01/prompts/FM-9100B.txt",
+      "outputPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-9100B.png"
+    },
+    {
+      "sku": "FM-9100C",
+      "originalPath": "data/catalog-assets/originals/16/16bd04fb85b72343767533fbcaf57154968b67853088db48ac76f26ec47370a7.jpg",
+      "promptPath": "data/catalog-branding/generated/treadmills-original-colors-01/prompts/FM-9100C.txt",
+      "outputPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-9100C.png"
+    },
+    {
+      "sku": "FM-7100B",
+      "originalPath": "data/catalog-assets/originals/b2/b2d5cfe306ac3b70390eb803c38575954d4213c72beee83721d989397632355a.jpg",
+      "promptPath": "data/catalog-branding/generated/treadmills-original-colors-01/prompts/FM-7100B.txt",
+      "outputPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-7100B.png"
+    },
+    {
+      "sku": "FM-7100C",
+      "originalPath": "data/catalog-assets/originals/80/80c97a577120103242682340e26b38c29a8f4a2f6c8f7779baaf5423ee0119fd.jpg",
+      "promptPath": "data/catalog-branding/generated/treadmills-original-colors-01/prompts/FM-7100C.txt",
+      "outputPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-7100C.png"
+    },
+    {
+      "sku": "FM-3000B",
+      "originalPath": "data/catalog-assets/originals/6a/6aada6739028b071d9d615545248431694a039c2dfafdafe0acc877df4183ac3.jpg",
+      "promptPath": "data/catalog-branding/generated/treadmills-original-colors-01/prompts/FM-3000B-final.txt",
+      "outputPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-3000B.png"
+    },
+    {
+      "sku": "FM-3000C",
+      "originalPath": "data/catalog-assets/originals/b6/b6c1e9a3a7b16ff3d80b630f14aae40eaa45d71c57bb8bd046fc2bd4ce877346.jpg",
+      "promptPath": "data/catalog-branding/generated/treadmills-original-colors-01/prompts/FM-3000C.txt",
+      "outputPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-3000C.png"
+    }
+  ],
+  "hero": {
+    "outputPath": "src/assets/home/FM-9100A.png",
+    "promptPath": "data/catalog-branding/generated/treadmills-original-colors-01/prompts/hero.txt"
+  },
+  "editorialReuse": {
+    "FM-7100A": "FM-7100C"
+  }
+}

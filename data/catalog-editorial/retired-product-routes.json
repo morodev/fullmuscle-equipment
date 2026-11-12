@@ -1,0 +1,2022 @@
+[
+  {
+    "sku": "FM-5001",
+    "it": "/it/prodotti/chest-press-fm-5001/",
+    "en": "/en/products/chest-press-fm-5001/"
+  },
+  {
+    "sku": "FM-5002",
+    "it": "/it/prodotti/shoulder-press-fm-5002/",
+    "en": "/en/products/shoulder-press-fm-5002/"
+  },
+  {
+    "sku": "FM-5003",
+    "it": "/it/prodotti/leg-extension-fm-5003/",
+    "en": "/en/products/leg-extension-fm-5003/"
+  },
+  {
+    "sku": "FM-5004",
+    "it": "/it/prodotti/leg-press-fm-5004/",
+    "en": "/en/products/leg-press-fm-5004/"
+  },
+  {
+    "sku": "FM-5005",
+    "it": "/it/prodotti/biceps-curl-fm-5005/",
+    "en": "/en/products/biceps-curl-fm-5005/"
+  },
+  {
+    "sku": "FM-5006",
+    "it": "/it/prodotti/macchina-isotonica-fm-5006/",
+    "en": "/en/products/pin-loaded-machine-fm-5006/"
+  },
+  {
+    "sku": "FM-5007",
+    "it": "/it/prodotti/lateral-raise-fm-5007/",
+    "en": "/en/products/lateral-raise-fm-5007/"
+  },
+  {
+    "sku": "FM-5008",
+    "it": "/it/prodotti/triceps-machine-fm-5008/",
+    "en": "/en/products/triceps-machine-fm-5008/"
+  },
+  {
+    "sku": "FM-5009",
+    "it": "/it/prodotti/macchina-isotonica-fm-5009/",
+    "en": "/en/products/pin-loaded-machine-fm-5009/"
+  },
+  {
+    "sku": "FM-5010",
+    "it": "/it/prodotti/leg-curl-fm-5010/",
+    "en": "/en/products/leg-curl-fm-5010/"
+  },
+  {
+    "sku": "FM-5011",
+    "it": "/it/prodotti/pectoral-fly-fm-5011/",
+    "en": "/en/products/pec-fly-fm-5011/"
+  },
+  {
+    "sku": "FM-5012",
+    "it": "/it/prodotti/lat-pulldown-fm-5012/",
+    "en": "/en/products/lat-pulldown-fm-5012/"
+  },
+  {
+    "sku": "FM-5013",
+    "it": "/it/prodotti/abdominal-crunch-fm-5013/",
+    "en": "/en/products/abdominal-crunch-fm-5013/"
+  },
+  {
+    "sku": "FM-5014",
+    "it": "/it/prodotti/macchina-isotonica-fm-5014/",
+    "en": "/en/products/pin-loaded-machine-fm-5014/"
+  },
+  {
+    "sku": "FM-5031",
+    "it": "/it/prodotti/lat-pulldown-fm-5031/",
+    "en": "/en/products/lat-pulldown-fm-5031/"
+  },
+  {
+    "sku": "FM-5032",
+    "it": "/it/prodotti/dual-pulley-row-fm-5032/",
+    "en": "/en/products/dual-pulley-row-fm-5032/"
+  },
+  {
+    "sku": "FM-5038",
+    "it": "/it/prodotti/t-bar-row-fm-5038/",
+    "en": "/en/products/t-bar-row-fm-5038/"
+  },
+  {
+    "sku": "FM-5039",
+    "it": "/it/prodotti/leg-sled-fm-5039/",
+    "en": "/en/products/leg-sled-fm-5039/"
+  },
+  {
+    "sku": "FM-5040",
+    "it": "/it/prodotti/deadlift-e-shrug-fm-5040/",
+    "en": "/en/products/deadlift-shrug-fm-5040/"
+  },
+  {
+    "sku": "FM-5041",
+    "it": "/it/prodotti/row-machine-fm-5041/",
+    "en": "/en/products/row-machine-fm-5041/"
+  },
+  {
+    "sku": "FM-5042",
+    "it": "/it/prodotti/multi-press-fm-5042/",
+    "en": "/en/products/multi-press-fm-5042/"
+  },
+  {
+    "sku": "FM-5043",
+    "it": "/it/prodotti/leg-press-fm-5043/",
+    "en": "/en/products/leg-press-fm-5043/"
+  },
+  {
+    "sku": "FM-5044",
+    "it": "/it/prodotti/biceps-curl-fm-5044/",
+    "en": "/en/products/biceps-curl-fm-5044/"
+  },
+  {
+    "sku": "FM-5048",
+    "it": "/it/prodotti/seated-dip-fm-5048/",
+    "en": "/en/products/seated-dip-fm-5048/"
+  },
+  {
+    "sku": "FM-5049",
+    "it": "/it/prodotti/overhead-press-fm-5049/",
+    "en": "/en/products/overhead-press-fm-5049/"
+  },
+  {
+    "sku": "FM-5050",
+    "it": "/it/prodotti/calf-machine-fm-5050/",
+    "en": "/en/products/calf-machine-fm-5050/"
+  },
+  {
+    "sku": "FM-5051",
+    "it": "/it/prodotti/leg-extension-fm-5051/",
+    "en": "/en/products/leg-extension-fm-5051/"
+  },
+  {
+    "sku": "FM-5052",
+    "it": "/it/prodotti/lat-pulldown-fm-5052/",
+    "en": "/en/products/lat-pulldown-fm-5052/"
+  },
+  {
+    "sku": "FM-5053",
+    "it": "/it/prodotti/triceps-machine-fm-5053/",
+    "en": "/en/products/triceps-machine-fm-5053/"
+  },
+  {
+    "sku": "FM-5056",
+    "it": "/it/prodotti/leg-curl-fm-5056/",
+    "en": "/en/products/leg-curl-fm-5056/"
+  },
+  {
+    "sku": "FM-5057",
+    "it": "/it/prodotti/t-bar-row-fm-5057/",
+    "en": "/en/products/t-bar-row-fm-5057/"
+  },
+  {
+    "sku": "FM-5059",
+    "it": "/it/prodotti/hack-squat-fm-5059/",
+    "en": "/en/products/hack-squat-fm-5059/"
+  },
+  {
+    "sku": "FM-5060",
+    "it": "/it/prodotti/hack-squat-fm-5060/",
+    "en": "/en/products/hack-squat-fm-5060/"
+  },
+  {
+    "sku": "FM-5061",
+    "it": "/it/prodotti/power-rack-fm-5061/",
+    "en": "/en/products/power-rack-fm-5061/"
+  },
+  {
+    "sku": "FM-5101",
+    "it": "/it/prodotti/chest-press-fm-5101/",
+    "en": "/en/products/chest-press-fm-5101/"
+  },
+  {
+    "sku": "FM-5102",
+    "it": "/it/prodotti/shoulder-press-fm-5102/",
+    "en": "/en/products/shoulder-press-fm-5102/"
+  },
+  {
+    "sku": "FM-5103",
+    "it": "/it/prodotti/incline-chest-press-fm-5103/",
+    "en": "/en/products/incline-chest-press-fm-5103/"
+  },
+  {
+    "sku": "FM-5104",
+    "it": "/it/prodotti/low-row-fm-5104/",
+    "en": "/en/products/low-row-fm-5104/"
+  },
+  {
+    "sku": "FM-5105",
+    "it": "/it/prodotti/leg-press-fm-5105/",
+    "en": "/en/products/leg-press-fm-5105/"
+  },
+  {
+    "sku": "FM-5106",
+    "it": "/it/prodotti/hack-squat-fm-5106/",
+    "en": "/en/products/hack-squat-fm-5106/"
+  },
+  {
+    "sku": "FM-5107",
+    "it": "/it/prodotti/high-row-fm-5107/",
+    "en": "/en/products/high-row-fm-5107/"
+  },
+  {
+    "sku": "FM-5108",
+    "it": "/it/prodotti/lat-pulldown-fm-5108/",
+    "en": "/en/products/lat-pulldown-fm-5108/"
+  },
+  {
+    "sku": "FM-5109",
+    "it": "/it/prodotti/hip-thrust-e-glute-machine-fm-5109/",
+    "en": "/en/products/hip-thrust-glute-machine-fm-5109/"
+  },
+  {
+    "sku": "FM-5110",
+    "it": "/it/prodotti/biceps-curl-fm-5110/",
+    "en": "/en/products/biceps-curl-fm-5110/"
+  },
+  {
+    "sku": "FM-5111",
+    "it": "/it/prodotti/abdominal-crunch-fm-5111/",
+    "en": "/en/products/abdominal-crunch-fm-5111/"
+  },
+  {
+    "sku": "FM-5112",
+    "it": "/it/prodotti/decline-chest-press-fm-5112/",
+    "en": "/en/products/decline-chest-press-fm-5112/"
+  },
+  {
+    "sku": "FM-5113",
+    "it": "/it/prodotti/deadlift-e-shrug-fm-5113/",
+    "en": "/en/products/deadlift-shrug-fm-5113/"
+  },
+  {
+    "sku": "FM-7701",
+    "it": "/it/prodotti/chest-press-fm-7701/",
+    "en": "/en/products/chest-press-fm-7701/"
+  },
+  {
+    "sku": "FM-7703",
+    "it": "/it/prodotti/incline-chest-press-fm-7703/",
+    "en": "/en/products/incline-chest-press-fm-7703/"
+  },
+  {
+    "sku": "FM-7704",
+    "it": "/it/prodotti/low-row-fm-7704/",
+    "en": "/en/products/low-row-fm-7704/"
+  },
+  {
+    "sku": "FM-7706",
+    "it": "/it/prodotti/leg-extension-fm-7706/",
+    "en": "/en/products/leg-extension-fm-7706/"
+  },
+  {
+    "sku": "FM-7707",
+    "it": "/it/prodotti/leg-extension-fm-7707/",
+    "en": "/en/products/leg-extension-fm-7707/"
+  },
+  {
+    "sku": "FM-7708",
+    "it": "/it/prodotti/lat-pulldown-fm-7708/",
+    "en": "/en/products/lat-pulldown-fm-7708/"
+  },
+  {
+    "sku": "FM-7710",
+    "it": "/it/prodotti/wide-chest-press-fm-7710/",
+    "en": "/en/products/wide-chest-press-fm-7710/"
+  },
+  {
+    "sku": "FM-7711",
+    "it": "/it/prodotti/rotary-torso-fm-7711/",
+    "en": "/en/products/rotary-torso-fm-7711/"
+  },
+  {
+    "sku": "FM-7712",
+    "it": "/it/prodotti/lat-pulldown-fm-7712/",
+    "en": "/en/products/lat-pulldown-fm-7712/"
+  },
+  {
+    "sku": "FM-7719",
+    "it": "/it/prodotti/chest-e-back-machine-fm-7719/",
+    "en": "/en/products/chest-back-machine-fm-7719/"
+  },
+  {
+    "sku": "FM-7721",
+    "it": "/it/prodotti/multi-press-fm-7721/",
+    "en": "/en/products/multi-press-fm-7721/"
+  },
+  {
+    "sku": "FM-7803",
+    "it": "/it/prodotti/incline-chest-press-fm-7803/",
+    "en": "/en/products/incline-chest-press-fm-7803/"
+  },
+  {
+    "sku": "FM-7804",
+    "it": "/it/prodotti/low-row-fm-7804/",
+    "en": "/en/products/low-row-fm-7804/"
+  },
+  {
+    "sku": "FM-7807",
+    "it": "/it/prodotti/leg-extension-fm-7807/",
+    "en": "/en/products/leg-extension-fm-7807/"
+  },
+  {
+    "sku": "FM-7819",
+    "it": "/it/prodotti/chest-e-back-machine-fm-7819/",
+    "en": "/en/products/chest-back-machine-fm-7819/"
+  },
+  {
+    "sku": "FM-8101",
+    "it": "/it/prodotti/chest-press-fm-8101/",
+    "en": "/en/products/chest-press-fm-8101/"
+  },
+  {
+    "sku": "FM-8102",
+    "it": "/it/prodotti/leg-press-fm-8102/",
+    "en": "/en/products/leg-press-fm-8102/"
+  },
+  {
+    "sku": "FM-8103",
+    "it": "/it/prodotti/incline-chest-press-fm-8103/",
+    "en": "/en/products/incline-chest-press-fm-8103/"
+  },
+  {
+    "sku": "FM-8104",
+    "it": "/it/prodotti/low-row-fm-8104/",
+    "en": "/en/products/low-row-fm-8104/"
+  },
+  {
+    "sku": "FM-8105",
+    "it": "/it/prodotti/macchina-a-carico-libero-fm-8105/",
+    "en": "/en/products/plate-loaded-machine-fm-8105/"
+  },
+  {
+    "sku": "FM-8106",
+    "it": "/it/prodotti/macchina-a-carico-libero-fm-8106/",
+    "en": "/en/products/plate-loaded-machine-fm-8106/"
+  },
+  {
+    "sku": "FM-8107",
+    "it": "/it/prodotti/leg-extension-fm-8107/",
+    "en": "/en/products/leg-extension-fm-8107/"
+  },
+  {
+    "sku": "FM-8108",
+    "it": "/it/prodotti/lat-pulldown-fm-8108/",
+    "en": "/en/products/lat-pulldown-fm-8108/"
+  },
+  {
+    "sku": "FM-8109",
+    "it": "/it/prodotti/hack-squat-fm-8109/",
+    "en": "/en/products/hack-squat-fm-8109/"
+  },
+  {
+    "sku": "FM-8110",
+    "it": "/it/prodotti/wide-chest-press-fm-8110/",
+    "en": "/en/products/wide-chest-press-fm-8110/"
+  },
+  {
+    "sku": "FM-8111",
+    "it": "/it/prodotti/rotary-torso-fm-8111/",
+    "en": "/en/products/rotary-torso-fm-8111/"
+  },
+  {
+    "sku": "FM-8112",
+    "it": "/it/prodotti/lat-pulldown-fm-8112/",
+    "en": "/en/products/lat-pulldown-fm-8112/"
+  },
+  {
+    "sku": "FM-8113",
+    "it": "/it/prodotti/shoulder-press-fm-8113/",
+    "en": "/en/products/shoulder-press-fm-8113/"
+  },
+  {
+    "sku": "FM-8114",
+    "it": "/it/prodotti/chest-press-fm-8114/",
+    "en": "/en/products/chest-press-fm-8114/"
+  },
+  {
+    "sku": "FM-8115",
+    "it": "/it/prodotti/leg-curl-fm-8115/",
+    "en": "/en/products/leg-curl-fm-8115/"
+  },
+  {
+    "sku": "FM-8116",
+    "it": "/it/prodotti/squat-e-lunge-machine-fm-8116/",
+    "en": "/en/products/squat-lunge-machine-fm-8116/"
+  },
+  {
+    "sku": "FM-8117",
+    "it": "/it/prodotti/power-rack-fm-8117/",
+    "en": "/en/products/power-rack-fm-8117/"
+  },
+  {
+    "sku": "FM-8118",
+    "it": "/it/prodotti/leg-press-fm-8118/",
+    "en": "/en/products/leg-press-fm-8118/"
+  },
+  {
+    "sku": "FM-8119",
+    "it": "/it/prodotti/chest-e-back-machine-fm-8119/",
+    "en": "/en/products/chest-back-machine-fm-8119/"
+  },
+  {
+    "sku": "FM-8121",
+    "it": "/it/prodotti/multi-press-fm-8121/",
+    "en": "/en/products/multi-press-fm-8121/"
+  },
+  {
+    "sku": "FM-8123",
+    "it": "/it/prodotti/tibialis-machine-fm-8123/",
+    "en": "/en/products/tibialis-machine-fm-8123/"
+  },
+  {
+    "sku": "FM-8125",
+    "it": "/it/prodotti/abdominal-oblique-crunch-fm-8125/",
+    "en": "/en/products/abdominal-oblique-crunch-fm-8125/"
+  },
+  {
+    "sku": "FM-8126",
+    "it": "/it/prodotti/hip-abductor-fm-8126/",
+    "en": "/en/products/hip-abductor-fm-8126/"
+  },
+  {
+    "sku": "FM-8127",
+    "it": "/it/prodotti/hip-adductor-fm-8127/",
+    "en": "/en/products/hip-adductor-fm-8127/"
+  },
+  {
+    "sku": "FM-8128",
+    "it": "/it/prodotti/triceps-machine-fm-8128/",
+    "en": "/en/products/triceps-machine-fm-8128/"
+  },
+  {
+    "sku": "FM-8129",
+    "it": "/it/prodotti/macchina-a-carico-libero-fm-8129/",
+    "en": "/en/products/plate-loaded-machine-fm-8129/"
+  },
+  {
+    "sku": "FM-8130",
+    "it": "/it/prodotti/calf-machine-fm-8130/",
+    "en": "/en/products/calf-machine-fm-8130/"
+  },
+  {
+    "sku": "FM-8131",
+    "it": "/it/prodotti/pectoral-fly-fm-8131/",
+    "en": "/en/products/pec-fly-fm-8131/"
+  },
+  {
+    "sku": "FM-8132",
+    "it": "/it/prodotti/shoulder-press-fm-8132/",
+    "en": "/en/products/shoulder-press-fm-8132/"
+  },
+  {
+    "sku": "FM-8133",
+    "it": "/it/prodotti/hip-thrust-e-glute-machine-fm-8133/",
+    "en": "/en/products/hip-thrust-glute-machine-fm-8133/"
+  },
+  {
+    "sku": "FM-8135",
+    "it": "/it/prodotti/wrist-curl-machine-fm-8135/",
+    "en": "/en/products/wrist-curl-machine-fm-8135/"
+  },
+  {
+    "sku": "FM-8164",
+    "it": "/it/prodotti/leg-press-fm-8164/",
+    "en": "/en/products/leg-press-fm-8164/"
+  },
+  {
+    "sku": "FM-8201",
+    "it": "/it/prodotti/abductor-e-adductor-fm-8201/",
+    "en": "/en/products/abductor-adductor-fm-8201/"
+  },
+  {
+    "sku": "FM-8202",
+    "it": "/it/prodotti/shoulder-press-fm-8202/",
+    "en": "/en/products/shoulder-press-fm-8202/"
+  },
+  {
+    "sku": "FM-8204",
+    "it": "/it/prodotti/chest-press-fm-8204/",
+    "en": "/en/products/chest-press-fm-8204/"
+  },
+  {
+    "sku": "FM-8205",
+    "it": "/it/prodotti/lat-pulldown-fm-8205/",
+    "en": "/en/products/lat-pulldown-fm-8205/"
+  },
+  {
+    "sku": "FM-8206",
+    "it": "/it/prodotti/chest-press-fm-8206/",
+    "en": "/en/products/chest-press-fm-8206/"
+  },
+  {
+    "sku": "FM-8207",
+    "it": "/it/prodotti/multi-press-fm-8207/",
+    "en": "/en/products/multi-press-fm-8207/"
+  },
+  {
+    "sku": "FM-8209",
+    "it": "/it/prodotti/leg-extension-fm-8209/",
+    "en": "/en/products/leg-extension-fm-8209/"
+  },
+  {
+    "sku": "FM-8210",
+    "it": "/it/prodotti/leg-curl-fm-8210/",
+    "en": "/en/products/leg-curl-fm-8210/"
+  },
+  {
+    "sku": "FM-8211",
+    "it": "/it/prodotti/triceps-machine-fm-8211/",
+    "en": "/en/products/triceps-machine-fm-8211/"
+  },
+  {
+    "sku": "FM-8212",
+    "it": "/it/prodotti/lat-pulldown-fm-8212/",
+    "en": "/en/products/lat-pulldown-fm-8212/"
+  },
+  {
+    "sku": "FM-8213",
+    "it": "/it/prodotti/biceps-curl-fm-8213/",
+    "en": "/en/products/biceps-curl-fm-8213/"
+  },
+  {
+    "sku": "FM-8214",
+    "it": "/it/prodotti/abdominal-machine-fm-8214/",
+    "en": "/en/products/abdominal-machine-fm-8214/"
+  },
+  {
+    "sku": "FM-8215",
+    "it": "/it/prodotti/back-extension-fm-8215/",
+    "en": "/en/products/back-extension-fm-8215/"
+  },
+  {
+    "sku": "FM-8216",
+    "it": "/it/prodotti/leg-press-fm-8216/",
+    "en": "/en/products/leg-press-fm-8216/"
+  },
+  {
+    "sku": "FM-8217",
+    "it": "/it/prodotti/leg-curl-fm-8217/",
+    "en": "/en/products/leg-curl-fm-8217/"
+  },
+  {
+    "sku": "FM-8218",
+    "it": "/it/prodotti/biceps-curl-fm-8218/",
+    "en": "/en/products/biceps-curl-fm-8218/"
+  },
+  {
+    "sku": "FM-8801",
+    "it": "/it/prodotti/incline-chest-press-fm-8801/",
+    "en": "/en/products/incline-chest-press-fm-8801/"
+  },
+  {
+    "sku": "FM-8802",
+    "it": "/it/prodotti/decline-chest-press-fm-8802/",
+    "en": "/en/products/decline-chest-press-fm-8802/"
+  },
+  {
+    "sku": "FM-8803",
+    "it": "/it/prodotti/high-row-fm-8803/",
+    "en": "/en/products/high-row-fm-8803/"
+  },
+  {
+    "sku": "FM-8804",
+    "it": "/it/prodotti/lat-pulldown-fm-8804/",
+    "en": "/en/products/lat-pulldown-fm-8804/"
+  },
+  {
+    "sku": "FM-8806",
+    "it": "/it/prodotti/shoulder-press-fm-8806/",
+    "en": "/en/products/shoulder-press-fm-8806/"
+  },
+  {
+    "sku": "FM-8810",
+    "it": "/it/prodotti/leg-extension-fm-8810/",
+    "en": "/en/products/leg-extension-fm-8810/"
+  },
+  {
+    "sku": "FM-GB-5001",
+    "it": "/it/prodotti/leg-curl-fm-gb-5001/",
+    "en": "/en/products/leg-curl-fm-gb-5001/"
+  },
+  {
+    "sku": "FM-GB-5002",
+    "it": "/it/prodotti/leg-extension-fm-gb-5002/",
+    "en": "/en/products/leg-extension-fm-gb-5002/"
+  },
+  {
+    "sku": "FM-GB-5002-1",
+    "it": "/it/prodotti/leg-extension-fm-gb-5002-1/",
+    "en": "/en/products/leg-extension-fm-gb-5002-1/"
+  },
+  {
+    "sku": "FM-GB-5003",
+    "it": "/it/prodotti/rotary-torso-fm-gb-5003/",
+    "en": "/en/products/rotary-torso-fm-gb-5003/"
+  },
+  {
+    "sku": "FM-GB-5004",
+    "it": "/it/prodotti/seated-row-fm-gb-5004/",
+    "en": "/en/products/seated-row-fm-gb-5004/"
+  },
+  {
+    "sku": "FM-GB-5005",
+    "it": "/it/prodotti/chest-press-fm-gb-5005/",
+    "en": "/en/products/chest-press-fm-gb-5005/"
+  },
+  {
+    "sku": "FM-GB-5006",
+    "it": "/it/prodotti/back-extension-fm-gb-5006/",
+    "en": "/en/products/back-extension-fm-gb-5006/"
+  },
+  {
+    "sku": "FM-GB-5007",
+    "it": "/it/prodotti/chest-press-fm-gb-5007/",
+    "en": "/en/products/chest-press-fm-gb-5007/"
+  },
+  {
+    "sku": "FM-GB-5008",
+    "it": "/it/prodotti/lat-pulldown-fm-gb-5008/",
+    "en": "/en/products/lat-pulldown-fm-gb-5008/"
+  },
+  {
+    "sku": "FM-GB-5009",
+    "it": "/it/prodotti/multi-hip-fm-gb-5009/",
+    "en": "/en/products/multi-hip-fm-gb-5009/"
+  },
+  {
+    "sku": "FM-GB-5010",
+    "it": "/it/prodotti/deltoid-machine-fm-gb-5010/",
+    "en": "/en/products/deltoid-machine-fm-gb-5010/"
+  },
+  {
+    "sku": "FM-GB-5011",
+    "it": "/it/prodotti/triceps-machine-fm-gb-5011/",
+    "en": "/en/products/triceps-machine-fm-gb-5011/"
+  },
+  {
+    "sku": "FM-GB-5012",
+    "it": "/it/prodotti/shoulder-press-fm-gb-5012/",
+    "en": "/en/products/shoulder-press-fm-gb-5012/"
+  },
+  {
+    "sku": "FM-GB-5014",
+    "it": "/it/prodotti/hip-adductor-fm-gb-5014/",
+    "en": "/en/products/hip-adductor-fm-gb-5014/"
+  },
+  {
+    "sku": "FM-GB-5015",
+    "it": "/it/prodotti/abdominal-machine-fm-gb-5015/",
+    "en": "/en/products/abdominal-machine-fm-gb-5015/"
+  },
+  {
+    "sku": "FM-GB-5016",
+    "it": "/it/prodotti/leg-press-fm-gb-5016/",
+    "en": "/en/products/leg-press-fm-gb-5016/"
+  },
+  {
+    "sku": "FM-GB-5019",
+    "it": "/it/prodotti/chin-up-e-dip-assistita-fm-gb-5019/",
+    "en": "/en/products/assisted-chin-up-dip-fm-gb-5019/"
+  },
+  {
+    "sku": "FM-GB-5020",
+    "it": "/it/prodotti/lat-pulldown-fm-gb-5020/",
+    "en": "/en/products/lat-pulldown-fm-gb-5020/"
+  },
+  {
+    "sku": "FM-GB-5021",
+    "it": "/it/prodotti/low-row-fm-gb-5021/",
+    "en": "/en/products/low-row-fm-gb-5021/"
+  },
+  {
+    "sku": "FM-GB-5022",
+    "it": "/it/prodotti/glute-machine-fm-gb-5022/",
+    "en": "/en/products/glute-machine-fm-gb-5022/"
+  },
+  {
+    "sku": "FM-GB-5022-1",
+    "it": "/it/prodotti/glute-machine-fm-gb-5022-1/",
+    "en": "/en/products/glute-machine-fm-gb-5022-1/"
+  },
+  {
+    "sku": "FM-GB-5033",
+    "it": "/it/prodotti/hip-abductor-fm-gb-5033/",
+    "en": "/en/products/hip-abductor-fm-gb-5033/"
+  },
+  {
+    "sku": "FM-GB-5037",
+    "it": "/it/prodotti/abdominal-crunch-fm-gb-5037/",
+    "en": "/en/products/abdominal-crunch-fm-gb-5037/"
+  },
+  {
+    "sku": "FM-GB-5044",
+    "it": "/it/prodotti/leg-curl-fm-gb-5044/",
+    "en": "/en/products/leg-curl-fm-gb-5044/"
+  },
+  {
+    "sku": "FM-GB-5044-1",
+    "it": "/it/prodotti/leg-curl-fm-gb-5044-1/",
+    "en": "/en/products/leg-curl-fm-gb-5044-1/"
+  },
+  {
+    "sku": "FM-GB-5046",
+    "it": "/it/prodotti/biceps-curl-fm-gb-5046/",
+    "en": "/en/products/biceps-curl-fm-gb-5046/"
+  },
+  {
+    "sku": "FM-GB-5047",
+    "it": "/it/prodotti/pectoral-fly-fm-gb-5047/",
+    "en": "/en/products/pec-fly-fm-gb-5047/"
+  },
+  {
+    "sku": "FM-GB-5049",
+    "it": "/it/prodotti/calf-machine-fm-gb-5049/",
+    "en": "/en/products/calf-machine-fm-gb-5049/"
+  },
+  {
+    "sku": "FM-GB-5050",
+    "it": "/it/prodotti/triceps-machine-fm-gb-5050/",
+    "en": "/en/products/triceps-machine-fm-gb-5050/"
+  },
+  {
+    "sku": "FM-GB-5053",
+    "it": "/it/prodotti/abductor-e-adductor-fm-gb-5053/",
+    "en": "/en/products/abductor-adductor-fm-gb-5053/"
+  },
+  {
+    "sku": "FM-GB-5054",
+    "it": "/it/prodotti/back-e-abdominal-combo-fm-gb-5054/",
+    "en": "/en/products/back-abdominal-combo-fm-gb-5054/"
+  },
+  {
+    "sku": "FM-GB-5055",
+    "it": "/it/prodotti/leg-curl-fm-gb-5055/",
+    "en": "/en/products/leg-curl-fm-gb-5055/"
+  },
+  {
+    "sku": "FM-GB-5055-1",
+    "it": "/it/prodotti/leg-extension-e-leg-curl-fm-gb-5055-1/",
+    "en": "/en/products/leg-extension-leg-curl-fm-gb-5055-1/"
+  },
+  {
+    "sku": "FM-GB-5056",
+    "it": "/it/prodotti/chest-press-fm-gb-5056/",
+    "en": "/en/products/chest-press-fm-gb-5056/"
+  },
+  {
+    "sku": "FM-GB-5057",
+    "it": "/it/prodotti/lat-pulldown-fm-gb-5057/",
+    "en": "/en/products/lat-pulldown-fm-gb-5057/"
+  },
+  {
+    "sku": "FM-GB-5084",
+    "it": "/it/prodotti/macchina-isotonica-fm-gb-5084/",
+    "en": "/en/products/pin-loaded-machine-fm-gb-5084/"
+  },
+  {
+    "sku": "FM-GB-5086",
+    "it": "/it/prodotti/biceps-curl-fm-gb-5086/",
+    "en": "/en/products/biceps-curl-fm-gb-5086/"
+  },
+  {
+    "sku": "FM-GB-5092",
+    "it": "/it/prodotti/hip-thrust-e-glute-machine-fm-gb-5092/",
+    "en": "/en/products/hip-thrust-glute-machine-fm-gb-5092/"
+  },
+  {
+    "sku": "FM-GB-5095",
+    "it": "/it/prodotti/shoulder-press-fm-gb-5095/",
+    "en": "/en/products/shoulder-press-fm-gb-5095/"
+  },
+  {
+    "sku": "FM-GC-5042",
+    "it": "/it/prodotti/squat-e-lunge-machine-fm-gc-5042/",
+    "en": "/en/products/squat-lunge-machine-fm-gc-5042/"
+  },
+  {
+    "sku": "FM-GC-5064",
+    "it": "/it/prodotti/hip-thrust-e-glute-machine-fm-gc-5064/",
+    "en": "/en/products/hip-thrust-glute-machine-fm-gc-5064/"
+  },
+  {
+    "sku": "FM-GC-5065",
+    "it": "/it/prodotti/squat-machine-fm-gc-5065/",
+    "en": "/en/products/squat-machine-fm-gc-5065/"
+  },
+  {
+    "sku": "FM-GC-5066",
+    "it": "/it/prodotti/hack-squat-fm-gc-5066/",
+    "en": "/en/products/hack-squat-fm-gc-5066/"
+  },
+  {
+    "sku": "FM-GC-5068",
+    "it": "/it/prodotti/back-extension-fm-gc-5068/",
+    "en": "/en/products/back-extension-fm-gc-5068/"
+  },
+  {
+    "sku": "FM-GC-5069",
+    "it": "/it/prodotti/hip-thrust-e-glute-machine-fm-gc-5069/",
+    "en": "/en/products/hip-thrust-glute-machine-fm-gc-5069/"
+  },
+  {
+    "sku": "FM-GC-5070",
+    "it": "/it/prodotti/glute-machine-fm-gc-5070/",
+    "en": "/en/products/glute-machine-fm-gc-5070/"
+  },
+  {
+    "sku": "FM-GC-5071",
+    "it": "/it/prodotti/hip-abductor-fm-gc-5071/",
+    "en": "/en/products/hip-abductor-fm-gc-5071/"
+  },
+  {
+    "sku": "FM-GC-5075",
+    "it": "/it/prodotti/hip-thrust-e-glute-machine-fm-gc-5075/",
+    "en": "/en/products/hip-thrust-glute-machine-fm-gc-5075/"
+  },
+  {
+    "sku": "FM-GC-5076",
+    "it": "/it/prodotti/hip-thrust-e-glute-machine-fm-gc-5076/",
+    "en": "/en/products/hip-thrust-glute-machine-fm-gc-5076/"
+  },
+  {
+    "sku": "FM-GC-5077",
+    "it": "/it/prodotti/reverse-hyper-fm-gc-5077/",
+    "en": "/en/products/reverse-hyper-fm-gc-5077/"
+  },
+  {
+    "sku": "FM-GC-5104",
+    "it": "/it/prodotti/step-up-machine-fm-gc-5104/",
+    "en": "/en/products/step-up-machine-fm-gc-5104/"
+  },
+  {
+    "sku": "FM-GM-5001",
+    "it": "/it/prodotti/leg-curl-fm-gm-5001/",
+    "en": "/en/products/leg-curl-fm-gm-5001/"
+  },
+  {
+    "sku": "FM-GM-5002",
+    "it": "/it/prodotti/leg-extension-fm-gm-5002/",
+    "en": "/en/products/leg-extension-fm-gm-5002/"
+  },
+  {
+    "sku": "FM-GM-5002-1",
+    "it": "/it/prodotti/leg-extension-fm-gm-5002-1/",
+    "en": "/en/products/leg-extension-fm-gm-5002-1/"
+  },
+  {
+    "sku": "FM-GM-5003",
+    "it": "/it/prodotti/rotary-torso-fm-gm-5003/",
+    "en": "/en/products/rotary-torso-fm-gm-5003/"
+  },
+  {
+    "sku": "FM-GM-5004",
+    "it": "/it/prodotti/seated-row-fm-gm-5004/",
+    "en": "/en/products/seated-row-fm-gm-5004/"
+  },
+  {
+    "sku": "FM-GM-5005",
+    "it": "/it/prodotti/chest-press-fm-gm-5005/",
+    "en": "/en/products/chest-press-fm-gm-5005/"
+  },
+  {
+    "sku": "FM-GM-5006",
+    "it": "/it/prodotti/back-extension-fm-gm-5006/",
+    "en": "/en/products/back-extension-fm-gm-5006/"
+  },
+  {
+    "sku": "FM-GM-5007",
+    "it": "/it/prodotti/chest-press-fm-gm-5007/",
+    "en": "/en/products/chest-press-fm-gm-5007/"
+  },
+  {
+    "sku": "FM-GM-5008",
+    "it": "/it/prodotti/lat-pulldown-fm-gm-5008/",
+    "en": "/en/products/lat-pulldown-fm-gm-5008/"
+  },
+  {
+    "sku": "FM-GM-5009",
+    "it": "/it/prodotti/multi-hip-fm-gm-5009/",
+    "en": "/en/products/multi-hip-fm-gm-5009/"
+  },
+  {
+    "sku": "FM-GM-5010",
+    "it": "/it/prodotti/deltoid-machine-fm-gm-5010/",
+    "en": "/en/products/deltoid-machine-fm-gm-5010/"
+  },
+  {
+    "sku": "FM-GM-5011",
+    "it": "/it/prodotti/triceps-machine-fm-gm-5011/",
+    "en": "/en/products/triceps-machine-fm-gm-5011/"
+  },
+  {
+    "sku": "FM-GM-5012",
+    "it": "/it/prodotti/shoulder-press-fm-gm-5012/",
+    "en": "/en/products/shoulder-press-fm-gm-5012/"
+  },
+  {
+    "sku": "FM-GM-5014",
+    "it": "/it/prodotti/hip-adductor-fm-gm-5014/",
+    "en": "/en/products/hip-adductor-fm-gm-5014/"
+  },
+  {
+    "sku": "FM-GM-5015",
+    "it": "/it/prodotti/abdominal-machine-fm-gm-5015/",
+    "en": "/en/products/abdominal-machine-fm-gm-5015/"
+  },
+  {
+    "sku": "FM-GM-5016",
+    "it": "/it/prodotti/leg-press-fm-gm-5016/",
+    "en": "/en/products/leg-press-fm-gm-5016/"
+  },
+  {
+    "sku": "FM-GM-5020",
+    "it": "/it/prodotti/lat-pulldown-fm-gm-5020/",
+    "en": "/en/products/lat-pulldown-fm-gm-5020/"
+  },
+  {
+    "sku": "FM-GM-5021",
+    "it": "/it/prodotti/low-row-fm-gm-5021/",
+    "en": "/en/products/low-row-fm-gm-5021/"
+  },
+  {
+    "sku": "FM-GM-5022",
+    "it": "/it/prodotti/glute-machine-fm-gm-5022/",
+    "en": "/en/products/glute-machine-fm-gm-5022/"
+  },
+  {
+    "sku": "FM-GM-5022-1",
+    "it": "/it/prodotti/glute-machine-fm-gm-5022-1/",
+    "en": "/en/products/glute-machine-fm-gm-5022-1/"
+  },
+  {
+    "sku": "FM-GM-5033",
+    "it": "/it/prodotti/hip-abductor-fm-gm-5033/",
+    "en": "/en/products/hip-abductor-fm-gm-5033/"
+  },
+  {
+    "sku": "FM-GM-5037",
+    "it": "/it/prodotti/abdominal-crunch-fm-gm-5037/",
+    "en": "/en/products/abdominal-crunch-fm-gm-5037/"
+  },
+  {
+    "sku": "FM-GM-5044",
+    "it": "/it/prodotti/leg-curl-fm-gm-5044/",
+    "en": "/en/products/leg-curl-fm-gm-5044/"
+  },
+  {
+    "sku": "FM-GM-5044-1",
+    "it": "/it/prodotti/leg-curl-fm-gm-5044-1/",
+    "en": "/en/products/leg-curl-fm-gm-5044-1/"
+  },
+  {
+    "sku": "FM-GM-5046",
+    "it": "/it/prodotti/biceps-curl-fm-gm-5046/",
+    "en": "/en/products/biceps-curl-fm-gm-5046/"
+  },
+  {
+    "sku": "FM-GM-5047",
+    "it": "/it/prodotti/pectoral-fly-fm-gm-5047/",
+    "en": "/en/products/pec-fly-fm-gm-5047/"
+  },
+  {
+    "sku": "FM-GM-5049",
+    "it": "/it/prodotti/calf-machine-fm-gm-5049/",
+    "en": "/en/products/calf-machine-fm-gm-5049/"
+  },
+  {
+    "sku": "FM-GM-5050",
+    "it": "/it/prodotti/triceps-machine-fm-gm-5050/",
+    "en": "/en/products/triceps-machine-fm-gm-5050/"
+  },
+  {
+    "sku": "FM-GM-5053-1",
+    "it": "/it/prodotti/abductor-e-adductor-fm-gm-5053-1/",
+    "en": "/en/products/abductor-adductor-fm-gm-5053-1/"
+  },
+  {
+    "sku": "FM-GM-5054",
+    "it": "/it/prodotti/back-e-abdominal-combo-fm-gm-5054/",
+    "en": "/en/products/back-abdominal-combo-fm-gm-5054/"
+  },
+  {
+    "sku": "FM-GM-5055-1",
+    "it": "/it/prodotti/leg-curl-fm-gm-5055-1/",
+    "en": "/en/products/leg-curl-fm-gm-5055-1/"
+  },
+  {
+    "sku": "FM-GM-5056",
+    "it": "/it/prodotti/chest-press-fm-gm-5056/",
+    "en": "/en/products/chest-press-fm-gm-5056/"
+  },
+  {
+    "sku": "FM-GM-5057",
+    "it": "/it/prodotti/lat-pulldown-fm-gm-5057/",
+    "en": "/en/products/lat-pulldown-fm-gm-5057/"
+  },
+  {
+    "sku": "FM-GM-5058",
+    "it": "/it/prodotti/macchina-isotonica-fm-gm-5058/",
+    "en": "/en/products/pin-loaded-machine-fm-gm-5058/"
+  },
+  {
+    "sku": "FM-GM-5067-1",
+    "it": "/it/prodotti/hip-thrust-e-glute-machine-fm-gm-5067-1/",
+    "en": "/en/products/hip-thrust-glute-machine-fm-gm-5067-1/"
+  },
+  {
+    "sku": "FM-GM-5068",
+    "it": "/it/prodotti/back-extension-fm-gm-5068/",
+    "en": "/en/products/back-extension-fm-gm-5068/"
+  },
+  {
+    "sku": "FM-GM-5086",
+    "it": "/it/prodotti/biceps-curl-fm-gm-5086/",
+    "en": "/en/products/biceps-curl-fm-gm-5086/"
+  },
+  {
+    "sku": "FM-GM-5092",
+    "it": "/it/prodotti/hip-thrust-e-glute-machine-fm-gm-5092/",
+    "en": "/en/products/hip-thrust-glute-machine-fm-gm-5092/"
+  },
+  {
+    "sku": "FM-GM-5095",
+    "it": "/it/prodotti/shoulder-press-fm-gm-5095/",
+    "en": "/en/products/shoulder-press-fm-gm-5095/"
+  },
+  {
+    "sku": "FM-GT-5001",
+    "it": "/it/prodotti/leg-curl-fm-gt-5001/",
+    "en": "/en/products/leg-curl-fm-gt-5001/"
+  },
+  {
+    "sku": "FM-GT-5002",
+    "it": "/it/prodotti/leg-extension-fm-gt-5002/",
+    "en": "/en/products/leg-extension-fm-gt-5002/"
+  },
+  {
+    "sku": "FM-GT-5002-1",
+    "it": "/it/prodotti/leg-extension-fm-gt-5002-1/",
+    "en": "/en/products/leg-extension-fm-gt-5002-1/"
+  },
+  {
+    "sku": "FM-GT-5003",
+    "it": "/it/prodotti/rotary-torso-fm-gt-5003/",
+    "en": "/en/products/rotary-torso-fm-gt-5003/"
+  },
+  {
+    "sku": "FM-GT-5006",
+    "it": "/it/prodotti/back-extension-fm-gt-5006/",
+    "en": "/en/products/back-extension-fm-gt-5006/"
+  },
+  {
+    "sku": "FM-GT-5007",
+    "it": "/it/prodotti/chest-press-fm-gt-5007/",
+    "en": "/en/products/chest-press-fm-gt-5007/"
+  },
+  {
+    "sku": "FM-GT-5008",
+    "it": "/it/prodotti/lat-pulldown-fm-gt-5008/",
+    "en": "/en/products/lat-pulldown-fm-gt-5008/"
+  },
+  {
+    "sku": "FM-GT-5010",
+    "it": "/it/prodotti/deltoid-machine-fm-gt-5010/",
+    "en": "/en/products/deltoid-machine-fm-gt-5010/"
+  },
+  {
+    "sku": "FM-GT-5011",
+    "it": "/it/prodotti/triceps-machine-fm-gt-5011/",
+    "en": "/en/products/triceps-machine-fm-gt-5011/"
+  },
+  {
+    "sku": "FM-GT-5012",
+    "it": "/it/prodotti/shoulder-press-fm-gt-5012/",
+    "en": "/en/products/shoulder-press-fm-gt-5012/"
+  },
+  {
+    "sku": "FM-GT-5014",
+    "it": "/it/prodotti/hip-adductor-fm-gt-5014/",
+    "en": "/en/products/hip-adductor-fm-gt-5014/"
+  },
+  {
+    "sku": "FM-GT-5015",
+    "it": "/it/prodotti/abdominal-machine-fm-gt-5015/",
+    "en": "/en/products/abdominal-machine-fm-gt-5015/"
+  },
+  {
+    "sku": "FM-GT-5016",
+    "it": "/it/prodotti/leg-press-fm-gt-5016/",
+    "en": "/en/products/leg-press-fm-gt-5016/"
+  },
+  {
+    "sku": "FM-GT-5019",
+    "it": "/it/prodotti/chin-up-e-dip-assistita-fm-gt-5019/",
+    "en": "/en/products/assisted-chin-up-dip-fm-gt-5019/"
+  },
+  {
+    "sku": "FM-GT-5020",
+    "it": "/it/prodotti/lat-pulldown-fm-gt-5020/",
+    "en": "/en/products/lat-pulldown-fm-gt-5020/"
+  },
+  {
+    "sku": "FM-GT-5021",
+    "it": "/it/prodotti/low-row-fm-gt-5021/",
+    "en": "/en/products/low-row-fm-gt-5021/"
+  },
+  {
+    "sku": "FM-GT-5022",
+    "it": "/it/prodotti/glute-machine-fm-gt-5022/",
+    "en": "/en/products/glute-machine-fm-gt-5022/"
+  },
+  {
+    "sku": "FM-GT-5022-1",
+    "it": "/it/prodotti/glute-machine-fm-gt-5022-1/",
+    "en": "/en/products/glute-machine-fm-gt-5022-1/"
+  },
+  {
+    "sku": "FM-GT-5033",
+    "it": "/it/prodotti/hip-abductor-fm-gt-5033/",
+    "en": "/en/products/hip-abductor-fm-gt-5033/"
+  },
+  {
+    "sku": "FM-GT-5037",
+    "it": "/it/prodotti/abdominal-crunch-fm-gt-5037/",
+    "en": "/en/products/abdominal-crunch-fm-gt-5037/"
+  },
+  {
+    "sku": "FM-GT-5044",
+    "it": "/it/prodotti/leg-curl-fm-gt-5044/",
+    "en": "/en/products/leg-curl-fm-gt-5044/"
+  },
+  {
+    "sku": "FM-GT-5044-1",
+    "it": "/it/prodotti/leg-curl-fm-gt-5044-1/",
+    "en": "/en/products/leg-curl-fm-gt-5044-1/"
+  },
+  {
+    "sku": "FM-GT-5046",
+    "it": "/it/prodotti/biceps-curl-fm-gt-5046/",
+    "en": "/en/products/biceps-curl-fm-gt-5046/"
+  },
+  {
+    "sku": "FM-GT-5047",
+    "it": "/it/prodotti/pectoral-fly-fm-gt-5047/",
+    "en": "/en/products/pec-fly-fm-gt-5047/"
+  },
+  {
+    "sku": "FM-GT-5049",
+    "it": "/it/prodotti/calf-machine-fm-gt-5049/",
+    "en": "/en/products/calf-machine-fm-gt-5049/"
+  },
+  {
+    "sku": "FM-GT-5050",
+    "it": "/it/prodotti/triceps-machine-fm-gt-5050/",
+    "en": "/en/products/triceps-machine-fm-gt-5050/"
+  },
+  {
+    "sku": "FM-GT-5053",
+    "it": "/it/prodotti/abductor-e-adductor-fm-gt-5053/",
+    "en": "/en/products/abductor-adductor-fm-gt-5053/"
+  },
+  {
+    "sku": "FM-GT-5053-1",
+    "it": "/it/prodotti/abductor-e-adductor-fm-gt-5053-1/",
+    "en": "/en/products/abductor-adductor-fm-gt-5053-1/"
+  },
+  {
+    "sku": "FM-GT-5054",
+    "it": "/it/prodotti/back-e-abdominal-combo-fm-gt-5054/",
+    "en": "/en/products/back-abdominal-combo-fm-gt-5054/"
+  },
+  {
+    "sku": "FM-GT-5055",
+    "it": "/it/prodotti/leg-curl-fm-gt-5055/",
+    "en": "/en/products/leg-curl-fm-gt-5055/"
+  },
+  {
+    "sku": "FM-GT-5055-1",
+    "it": "/it/prodotti/leg-curl-fm-gt-5055-1/",
+    "en": "/en/products/leg-curl-fm-gt-5055-1/"
+  },
+  {
+    "sku": "FM-GT-5056",
+    "it": "/it/prodotti/chest-press-fm-gt-5056/",
+    "en": "/en/products/chest-press-fm-gt-5056/"
+  },
+  {
+    "sku": "FM-GT-5057",
+    "it": "/it/prodotti/lat-pulldown-fm-gt-5057/",
+    "en": "/en/products/lat-pulldown-fm-gt-5057/"
+  },
+  {
+    "sku": "FM-GT-5058",
+    "it": "/it/prodotti/macchina-isotonica-fm-gt-5058/",
+    "en": "/en/products/pin-loaded-machine-fm-gt-5058/"
+  },
+  {
+    "sku": "FM-GT-5067-1",
+    "it": "/it/prodotti/hip-thrust-e-glute-machine-fm-gt-5067-1/",
+    "en": "/en/products/hip-thrust-glute-machine-fm-gt-5067-1/"
+  },
+  {
+    "sku": "FM-GT-5068",
+    "it": "/it/prodotti/back-extension-fm-gt-5068/",
+    "en": "/en/products/back-extension-fm-gt-5068/"
+  },
+  {
+    "sku": "FM-GT-5070",
+    "it": "/it/prodotti/glute-machine-fm-gt-5070/",
+    "en": "/en/products/glute-machine-fm-gt-5070/"
+  },
+  {
+    "sku": "FM-GT-5071",
+    "it": "/it/prodotti/hip-abductor-fm-gt-5071/",
+    "en": "/en/products/hip-abductor-fm-gt-5071/"
+  },
+  {
+    "sku": "FM-GT-5086",
+    "it": "/it/prodotti/biceps-curl-fm-gt-5086/",
+    "en": "/en/products/biceps-curl-fm-gt-5086/"
+  },
+  {
+    "sku": "FM-GT-5092",
+    "it": "/it/prodotti/hip-thrust-e-glute-machine-fm-gt-5092/",
+    "en": "/en/products/hip-thrust-glute-machine-fm-gt-5092/"
+  },
+  {
+    "sku": "FM-N8001",
+    "it": "/it/prodotti/leg-curl-fm-n8001/",
+    "en": "/en/products/leg-curl-fm-n8001/"
+  },
+  {
+    "sku": "FM-N8002",
+    "it": "/it/prodotti/leg-extension-fm-n8002/",
+    "en": "/en/products/leg-extension-fm-n8002/"
+  },
+  {
+    "sku": "FM-N8003",
+    "it": "/it/prodotti/rotary-torso-fm-n8003/",
+    "en": "/en/products/rotary-torso-fm-n8003/"
+  },
+  {
+    "sku": "FM-N8004",
+    "it": "/it/prodotti/seated-row-fm-n8004/",
+    "en": "/en/products/seated-row-fm-n8004/"
+  },
+  {
+    "sku": "FM-N8005",
+    "it": "/it/prodotti/chest-press-fm-n8005/",
+    "en": "/en/products/chest-press-fm-n8005/"
+  },
+  {
+    "sku": "FM-N8006",
+    "it": "/it/prodotti/back-extension-fm-n8006/",
+    "en": "/en/products/back-extension-fm-n8006/"
+  },
+  {
+    "sku": "FM-N8007",
+    "it": "/it/prodotti/chest-press-fm-n8007/",
+    "en": "/en/products/chest-press-fm-n8007/"
+  },
+  {
+    "sku": "FM-N8008",
+    "it": "/it/prodotti/lat-pulldown-fm-n8008/",
+    "en": "/en/products/lat-pulldown-fm-n8008/"
+  },
+  {
+    "sku": "FM-N8010",
+    "it": "/it/prodotti/deltoid-machine-fm-n8010/",
+    "en": "/en/products/deltoid-machine-fm-n8010/"
+  },
+  {
+    "sku": "FM-N8012",
+    "it": "/it/prodotti/shoulder-press-fm-n8012/",
+    "en": "/en/products/shoulder-press-fm-n8012/"
+  },
+  {
+    "sku": "FM-N8013",
+    "it": "/it/prodotti/biceps-curl-fm-n8013/",
+    "en": "/en/products/biceps-curl-fm-n8013/"
+  },
+  {
+    "sku": "FM-N8014",
+    "it": "/it/prodotti/hip-adductor-fm-n8014/",
+    "en": "/en/products/hip-adductor-fm-n8014/"
+  },
+  {
+    "sku": "FM-N8015",
+    "it": "/it/prodotti/abdominal-machine-fm-n8015/",
+    "en": "/en/products/abdominal-machine-fm-n8015/"
+  },
+  {
+    "sku": "FM-N8016",
+    "it": "/it/prodotti/leg-press-fm-n8016/",
+    "en": "/en/products/leg-press-fm-n8016/"
+  },
+  {
+    "sku": "FM-N8019",
+    "it": "/it/prodotti/chin-up-e-dip-assistita-fm-n8019/",
+    "en": "/en/products/assisted-chin-up-dip-fm-n8019/"
+  },
+  {
+    "sku": "FM-N8022",
+    "it": "/it/prodotti/glute-machine-fm-n8022/",
+    "en": "/en/products/glute-machine-fm-n8022/"
+  },
+  {
+    "sku": "FM-N8033",
+    "it": "/it/prodotti/hip-abductor-fm-n8033/",
+    "en": "/en/products/hip-abductor-fm-n8033/"
+  },
+  {
+    "sku": "FM-N8036",
+    "it": "/it/prodotti/calf-machine-fm-n8036/",
+    "en": "/en/products/calf-machine-fm-n8036/"
+  },
+  {
+    "sku": "FM-N8044",
+    "it": "/it/prodotti/leg-curl-fm-n8044/",
+    "en": "/en/products/leg-curl-fm-n8044/"
+  },
+  {
+    "sku": "FM-N8047",
+    "it": "/it/prodotti/functional-trainer-fm-n8047/",
+    "en": "/en/products/functional-trainer-fm-n8047/"
+  },
+  {
+    "sku": "FM-N8050",
+    "it": "/it/prodotti/triceps-machine-fm-n8050/",
+    "en": "/en/products/triceps-machine-fm-n8050/"
+  },
+  {
+    "sku": "FM-N8053",
+    "it": "/it/prodotti/abductor-e-adductor-fm-n8053/",
+    "en": "/en/products/abductor-adductor-fm-n8053/"
+  },
+  {
+    "sku": "FM-N8054",
+    "it": "/it/prodotti/back-extension-fm-n8054/",
+    "en": "/en/products/back-extension-fm-n8054/"
+  },
+  {
+    "sku": "FM-N8056",
+    "it": "/it/prodotti/multi-press-fm-n8056/",
+    "en": "/en/products/multi-press-fm-n8056/"
+  },
+  {
+    "sku": "FM-N8057",
+    "it": "/it/prodotti/lat-pulldown-fm-n8057/",
+    "en": "/en/products/lat-pulldown-fm-n8057/"
+  },
+  {
+    "sku": "FM-N8058",
+    "it": "/it/prodotti/leg-extension-e-leg-curl-fm-n8058/",
+    "en": "/en/products/leg-extension-leg-curl-fm-n8058/"
+  },
+  {
+    "sku": "FM-X6003",
+    "it": "/it/prodotti/rotary-torso-fm-x6003/",
+    "en": "/en/products/rotary-torso-fm-x6003/"
+  },
+  {
+    "sku": "FM-X6005",
+    "it": "/it/prodotti/chest-press-fm-x6005/",
+    "en": "/en/products/chest-press-fm-x6005/"
+  },
+  {
+    "sku": "FM-X6006",
+    "it": "/it/prodotti/back-extension-fm-x6006/",
+    "en": "/en/products/back-extension-fm-x6006/"
+  },
+  {
+    "sku": "FM-X6007",
+    "it": "/it/prodotti/chest-press-fm-x6007/",
+    "en": "/en/products/chest-press-fm-x6007/"
+  },
+  {
+    "sku": "FM-X6008",
+    "it": "/it/prodotti/lat-pulldown-fm-x6008/",
+    "en": "/en/products/lat-pulldown-fm-x6008/"
+  },
+  {
+    "sku": "FM-X6010",
+    "it": "/it/prodotti/deltoid-machine-fm-x6010/",
+    "en": "/en/products/deltoid-machine-fm-x6010/"
+  },
+  {
+    "sku": "FM-X6011",
+    "it": "/it/prodotti/triceps-machine-fm-x6011/",
+    "en": "/en/products/triceps-machine-fm-x6011/"
+  },
+  {
+    "sku": "FM-X6012",
+    "it": "/it/prodotti/shoulder-press-fm-x6012/",
+    "en": "/en/products/shoulder-press-fm-x6012/"
+  },
+  {
+    "sku": "FM-X6013",
+    "it": "/it/prodotti/biceps-curl-fm-x6013/",
+    "en": "/en/products/biceps-curl-fm-x6013/"
+  },
+  {
+    "sku": "FM-X6014",
+    "it": "/it/prodotti/hip-adductor-fm-x6014/",
+    "en": "/en/products/hip-adductor-fm-x6014/"
+  },
+  {
+    "sku": "FM-X6015",
+    "it": "/it/prodotti/abdominal-machine-fm-x6015/",
+    "en": "/en/products/abdominal-machine-fm-x6015/"
+  },
+  {
+    "sku": "FM-X6016",
+    "it": "/it/prodotti/leg-press-fm-x6016/",
+    "en": "/en/products/leg-press-fm-x6016/"
+  },
+  {
+    "sku": "FM-X6020",
+    "it": "/it/prodotti/lat-pulldown-fm-x6020/",
+    "en": "/en/products/lat-pulldown-fm-x6020/"
+  },
+  {
+    "sku": "FM-X6021",
+    "it": "/it/prodotti/low-row-fm-x6021/",
+    "en": "/en/products/low-row-fm-x6021/"
+  },
+  {
+    "sku": "FM-X6033",
+    "it": "/it/prodotti/hip-abductor-fm-x6033/",
+    "en": "/en/products/hip-abductor-fm-x6033/"
+  },
+  {
+    "sku": "FM-X6035",
+    "it": "/it/prodotti/upper-back-machine-fm-x6035/",
+    "en": "/en/products/upper-back-machine-fm-x6035/"
+  },
+  {
+    "sku": "FM-X6036",
+    "it": "/it/prodotti/calf-machine-fm-x6036/",
+    "en": "/en/products/calf-machine-fm-x6036/"
+  },
+  {
+    "sku": "FM-X6037",
+    "it": "/it/prodotti/ab-trainer-professionale-fm-x6037/",
+    "en": "/en/products/professional-ab-trainer-fm-x6037/"
+  },
+  {
+    "sku": "FM-X6040",
+    "it": "/it/prodotti/macchina-isotonica-fm-x6040/",
+    "en": "/en/products/pin-loaded-machine-fm-x6040/"
+  },
+  {
+    "sku": "FM-X6041",
+    "it": "/it/prodotti/upper-back-machine-fm-x6041/",
+    "en": "/en/products/upper-back-machine-fm-x6041/"
+  },
+  {
+    "sku": "FM-X6044",
+    "it": "/it/prodotti/leg-curl-fm-x6044/",
+    "en": "/en/products/leg-curl-fm-x6044/"
+  },
+  {
+    "sku": "FM-X6046",
+    "it": "/it/prodotti/biceps-curl-fm-x6046/",
+    "en": "/en/products/biceps-curl-fm-x6046/"
+  },
+  {
+    "sku": "FM-X6047",
+    "it": "/it/prodotti/pectoral-fly-fm-x6047/",
+    "en": "/en/products/pec-fly-fm-x6047/"
+  },
+  {
+    "sku": "FM-X6049",
+    "it": "/it/prodotti/calf-machine-fm-x6049/",
+    "en": "/en/products/calf-machine-fm-x6049/"
+  },
+  {
+    "sku": "FM-X6050",
+    "it": "/it/prodotti/triceps-machine-fm-x6050/",
+    "en": "/en/products/triceps-machine-fm-x6050/"
+  },
+  {
+    "sku": "FM-X6053",
+    "it": "/it/prodotti/abductor-e-adductor-fm-x6053/",
+    "en": "/en/products/abductor-adductor-fm-x6053/"
+  },
+  {
+    "sku": "FM-X6054",
+    "it": "/it/prodotti/back-e-abdominal-combo-fm-x6054/",
+    "en": "/en/products/back-abdominal-combo-fm-x6054/"
+  },
+  {
+    "sku": "FM-X6055",
+    "it": "/it/prodotti/leg-curl-fm-x6055/",
+    "en": "/en/products/leg-curl-fm-x6055/"
+  },
+  {
+    "sku": "FM-X6056",
+    "it": "/it/prodotti/chest-press-fm-x6056/",
+    "en": "/en/products/chest-press-fm-x6056/"
+  },
+  {
+    "sku": "FM-X6057",
+    "it": "/it/prodotti/lat-pulldown-fm-x6057/",
+    "en": "/en/products/lat-pulldown-fm-x6057/"
+  },
+  {
+    "sku": "FM-X6058",
+    "it": "/it/prodotti/macchina-isotonica-fm-x6058/",
+    "en": "/en/products/pin-loaded-machine-fm-x6058/"
+  },
+  {
+    "sku": "FM-X8201",
+    "it": "/it/prodotti/abductor-e-adductor-fm-x8201/",
+    "en": "/en/products/abductor-adductor-fm-x8201/"
+  },
+  {
+    "sku": "FM-X8202",
+    "it": "/it/prodotti/shoulder-press-fm-x8202/",
+    "en": "/en/products/shoulder-press-fm-x8202/"
+  },
+  {
+    "sku": "FM-X8203",
+    "it": "/it/prodotti/leg-extension-e-leg-curl-fm-x8203/",
+    "en": "/en/products/leg-extension-leg-curl-fm-x8203/"
+  },
+  {
+    "sku": "FM-X8204",
+    "it": "/it/prodotti/chest-press-fm-x8204/",
+    "en": "/en/products/chest-press-fm-x8204/"
+  },
+  {
+    "sku": "FM-X8205",
+    "it": "/it/prodotti/lat-pulldown-fm-x8205/",
+    "en": "/en/products/lat-pulldown-fm-x8205/"
+  },
+  {
+    "sku": "FM-X8206",
+    "it": "/it/prodotti/chest-press-fm-x8206/",
+    "en": "/en/products/chest-press-fm-x8206/"
+  },
+  {
+    "sku": "FM-X8207",
+    "it": "/it/prodotti/multi-press-fm-x8207/",
+    "en": "/en/products/multi-press-fm-x8207/"
+  },
+  {
+    "sku": "FM-X8208",
+    "it": "/it/prodotti/seated-row-fm-x8208/",
+    "en": "/en/products/seated-row-fm-x8208/"
+  },
+  {
+    "sku": "FM-X8209",
+    "it": "/it/prodotti/leg-extension-fm-x8209/",
+    "en": "/en/products/leg-extension-fm-x8209/"
+  },
+  {
+    "sku": "FM-X8210",
+    "it": "/it/prodotti/leg-curl-fm-x8210/",
+    "en": "/en/products/leg-curl-fm-x8210/"
+  },
+  {
+    "sku": "FM-X8211",
+    "it": "/it/prodotti/triceps-machine-fm-x8211/",
+    "en": "/en/products/triceps-machine-fm-x8211/"
+  },
+  {
+    "sku": "FM-X8212",
+    "it": "/it/prodotti/lat-pulldown-fm-x8212/",
+    "en": "/en/products/lat-pulldown-fm-x8212/"
+  },
+  {
+    "sku": "FM-X8213",
+    "it": "/it/prodotti/biceps-curl-fm-x8213/",
+    "en": "/en/products/biceps-curl-fm-x8213/"
+  },
+  {
+    "sku": "FM-X8214",
+    "it": "/it/prodotti/abdominal-machine-fm-x8214/",
+    "en": "/en/products/abdominal-machine-fm-x8214/"
+  },
+  {
+    "sku": "FM-X8215",
+    "it": "/it/prodotti/back-extension-fm-x8215/",
+    "en": "/en/products/back-extension-fm-x8215/"
+  },
+  {
+    "sku": "FM-X8216",
+    "it": "/it/prodotti/leg-press-fm-x8216/",
+    "en": "/en/products/leg-press-fm-x8216/"
+  },
+  {
+    "sku": "FM-X8217",
+    "it": "/it/prodotti/leg-curl-fm-x8217/",
+    "en": "/en/products/leg-curl-fm-x8217/"
+  },
+  {
+    "sku": "FM-X8218",
+    "it": "/it/prodotti/biceps-curl-fm-x8218/",
+    "en": "/en/products/biceps-curl-fm-x8218/"
+  },
+  {
+    "sku": "FM-2000B",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-2000b/",
+    "en": "/en/products/professional-treadmill-fm-2000b/"
+  },
+  {
+    "sku": "FM-3000A",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-3000a/",
+    "en": "/en/products/professional-treadmill-fm-3000a/"
+  },
+  {
+    "sku": "FM-5000A",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-5000a/",
+    "en": "/en/products/professional-treadmill-fm-5000a/"
+  },
+  {
+    "sku": "FM-5000B",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-5000b/",
+    "en": "/en/products/professional-treadmill-fm-5000b/"
+  },
+  {
+    "sku": "FM-5000C",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-5000c/",
+    "en": "/en/products/professional-treadmill-fm-5000c/"
+  },
+  {
+    "sku": "FM-8000A",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-8000a/",
+    "en": "/en/products/professional-treadmill-fm-8000a/"
+  },
+  {
+    "sku": "FM-8000B",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-8000b/",
+    "en": "/en/products/professional-treadmill-fm-8000b/"
+  },
+  {
+    "sku": "FM-9100P",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-9100p/",
+    "en": "/en/products/professional-treadmill-fm-9100p/"
+  },
+  {
+    "sku": "FM-9200A",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-9200a/",
+    "en": "/en/products/professional-treadmill-fm-9200a/"
+  },
+  {
+    "sku": "FM-9200B",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-9200b/",
+    "en": "/en/products/professional-treadmill-fm-9200b/"
+  },
+  {
+    "sku": "FM-9200C",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-9200c/",
+    "en": "/en/products/professional-treadmill-fm-9200c/"
+  },
+  {
+    "sku": "FM-9200P",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-9200p/",
+    "en": "/en/products/professional-treadmill-fm-9200p/"
+  },
+  {
+    "sku": "FM-N7000A",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-n7000a/",
+    "en": "/en/products/professional-treadmill-fm-n7000a/"
+  },
+  {
+    "sku": "FM-N7000B",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-n7000b/",
+    "en": "/en/products/professional-treadmill-fm-n7000b/"
+  },
+  {
+    "sku": "FM-N7000C",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-n7000c/",
+    "en": "/en/products/professional-treadmill-fm-n7000c/"
+  },
+  {
+    "sku": "FM-SP80",
+    "it": "/it/prodotti/tapis-roulant-professionale-fm-sp80/",
+    "en": "/en/products/professional-treadmill-fm-sp80/"
+  },
+  {
+    "sku": "FM-2020A",
+    "it": "/it/prodotti/bike-reclinata-fm-2020a/",
+    "en": "/en/products/recumbent-bike-fm-2020a/"
+  },
+  {
+    "sku": "FM-2020B",
+    "it": "/it/prodotti/bike-reclinata-fm-2020b/",
+    "en": "/en/products/recumbent-bike-fm-2020b/"
+  },
+  {
+    "sku": "FM-7010A",
+    "it": "/it/prodotti/indoor-cycle-fm-7010a/",
+    "en": "/en/products/indoor-cycle-fm-7010a/"
+  },
+  {
+    "sku": "FM-7020",
+    "it": "/it/prodotti/indoor-cycle-fm-7020/",
+    "en": "/en/products/indoor-cycle-fm-7020/"
+  },
+  {
+    "sku": "FM-7038",
+    "it": "/it/prodotti/air-bike-fm-7038/",
+    "en": "/en/products/air-bike-fm-7038/"
+  },
+  {
+    "sku": "FM-7041A",
+    "it": "/it/prodotti/stair-climber-professionale-fm-7041a/",
+    "en": "/en/products/professional-stair-climber-fm-7041a/"
+  },
+  {
+    "sku": "FM-7041B",
+    "it": "/it/prodotti/stair-climber-professionale-fm-7041b/",
+    "en": "/en/products/professional-stair-climber-fm-7041b/"
+  },
+  {
+    "sku": "FM-7042",
+    "it": "/it/prodotti/stair-climber-professionale-fm-7042/",
+    "en": "/en/products/professional-stair-climber-fm-7042/"
+  },
+  {
+    "sku": "FM-L600B",
+    "it": "/it/prodotti/stair-climber-professionale-fm-l600b/",
+    "en": "/en/products/professional-stair-climber-fm-l600b/"
+  },
+  {
+    "sku": "FM-L600C",
+    "it": "/it/prodotti/stair-climber-professionale-fm-l600c/",
+    "en": "/en/products/professional-stair-climber-fm-l600c/"
+  },
+  {
+    "sku": "FM-N2040A",
+    "it": "/it/prodotti/stair-climber-professionale-fm-n2040a/",
+    "en": "/en/products/professional-stair-climber-fm-n2040a/"
+  },
+  {
+    "sku": "FM-N2040B",
+    "it": "/it/prodotti/stair-climber-professionale-fm-n2040b/",
+    "en": "/en/products/professional-stair-climber-fm-n2040b/"
+  },
+  {
+    "sku": "FM-7015",
+    "it": "/it/prodotti/ellittica-professionale-fm-7015/",
+    "en": "/en/products/professional-elliptical-fm-7015/"
+  },
+  {
+    "sku": "FM-7026",
+    "it": "/it/prodotti/ab-trainer-professionale-fm-7026/",
+    "en": "/en/products/professional-ab-trainer-fm-7026/"
+  },
+  {
+    "sku": "FM-SP-20",
+    "it": "/it/prodotti/surf-trainer-fm-sp-20/",
+    "en": "/en/products/surf-trainer-fm-sp-20/"
+  },
+  {
+    "sku": "FM-5016",
+    "it": "/it/prodotti/panca-utility-fm-5016/",
+    "en": "/en/products/utility-bench-fm-5016/"
+  },
+  {
+    "sku": "FM-5017",
+    "it": "/it/prodotti/panca-utility-fm-5017/",
+    "en": "/en/products/utility-bench-fm-5017/"
+  },
+  {
+    "sku": "FM-5021",
+    "it": "/it/prodotti/panca-inclinata-fm-5021/",
+    "en": "/en/products/incline-bench-fm-5021/"
+  },
+  {
+    "sku": "FM-5022",
+    "it": "/it/prodotti/panca-military-fm-5022/",
+    "en": "/en/products/military-bench-fm-5022/"
+  },
+  {
+    "sku": "FM-5023",
+    "it": "/it/prodotti/macchina-a-carico-libero-fm-5023/",
+    "en": "/en/products/plate-loaded-machine-fm-5023/"
+  },
+  {
+    "sku": "FM-5024",
+    "it": "/it/prodotti/panca-olimpionica-declinata-fm-5024/",
+    "en": "/en/products/olympic-decline-bench-fm-5024/"
+  },
+  {
+    "sku": "FM-5025",
+    "it": "/it/prodotti/panca-regolabile-fm-5025/",
+    "en": "/en/products/adjustable-bench-fm-5025/"
+  },
+  {
+    "sku": "FM-5026",
+    "it": "/it/prodotti/macchina-a-carico-libero-fm-5026/",
+    "en": "/en/products/plate-loaded-machine-fm-5026/"
+  },
+  {
+    "sku": "FM-5027",
+    "it": "/it/prodotti/biceps-curl-fm-5027/",
+    "en": "/en/products/biceps-curl-fm-5027/"
+  },
+  {
+    "sku": "FM-5047",
+    "it": "/it/prodotti/panca-regolabile-fm-5047/",
+    "en": "/en/products/adjustable-bench-fm-5047/"
+  },
+  {
+    "sku": "FM-8023",
+    "it": "/it/prodotti/panca-piana-fm-8023/",
+    "en": "/en/products/flat-bench-fm-8023/"
+  },
+  {
+    "sku": "FM-8025",
+    "it": "/it/prodotti/biceps-curl-fm-8025/",
+    "en": "/en/products/biceps-curl-fm-8025/"
+  },
+  {
+    "sku": "FM-8030",
+    "it": "/it/prodotti/incline-chest-press-fm-8030/",
+    "en": "/en/products/incline-chest-press-fm-8030/"
+  },
+  {
+    "sku": "FM-8031",
+    "it": "/it/prodotti/panca-piana-fm-8031/",
+    "en": "/en/products/flat-bench-fm-8031/"
+  },
+  {
+    "sku": "FM-8032",
+    "it": "/it/prodotti/panca-regolabile-fm-8032/",
+    "en": "/en/products/adjustable-bench-fm-8032/"
+  },
+  {
+    "sku": "FM-8043",
+    "it": "/it/prodotti/incline-chest-press-fm-8043/",
+    "en": "/en/products/incline-chest-press-fm-8043/"
+  },
+  {
+    "sku": "FM-X6023",
+    "it": "/it/prodotti/panca-piana-fm-x6023/",
+    "en": "/en/products/flat-bench-fm-x6023/"
+  },
+  {
+    "sku": "FM-X6025",
+    "it": "/it/prodotti/biceps-curl-fm-x6025/",
+    "en": "/en/products/biceps-curl-fm-x6025/"
+  },
+  {
+    "sku": "FM-X6027",
+    "it": "/it/prodotti/panca-regolabile-fm-x6027/",
+    "en": "/en/products/adjustable-bench-fm-x6027/"
+  },
+  {
+    "sku": "FM-X6030",
+    "it": "/it/prodotti/panca-inclinata-fm-x6030/",
+    "en": "/en/products/incline-bench-fm-x6030/"
+  },
+  {
+    "sku": "FM-X6031",
+    "it": "/it/prodotti/panca-piana-fm-x6031/",
+    "en": "/en/products/flat-bench-fm-x6031/"
+  },
+  {
+    "sku": "FM-X6034",
+    "it": "/it/prodotti/vertical-bench-fm-x6034/",
+    "en": "/en/products/vertical-bench-fm-x6034/"
+  },
+  {
+    "sku": "FM-X6043",
+    "it": "/it/prodotti/panca-olimpionica-declinata-fm-x6043/",
+    "en": "/en/products/olympic-decline-bench-fm-x6043/"
+  },
+  {
+    "sku": "FM-X6052",
+    "it": "/it/prodotti/panca-utility-fm-x6052/",
+    "en": "/en/products/utility-bench-fm-x6052/"
+  },
+  {
+    "sku": "FM-3003",
+    "it": "/it/prodotti/manubrio-professionale-fm-3003/",
+    "en": "/en/products/professional-dumbbell-fm-3003/"
+  },
+  {
+    "sku": "FM-3004",
+    "it": "/it/prodotti/manubrio-professionale-fm-3004/",
+    "en": "/en/products/professional-dumbbell-fm-3004/"
+  },
+  {
+    "sku": "FM-3004A",
+    "it": "/it/prodotti/porta-manubri-fm-3004a/",
+    "en": "/en/products/dumbbell-rack-fm-3004a/"
+  },
+  {
+    "sku": "FM-3006",
+    "it": "/it/prodotti/porta-manubri-fm-3006/",
+    "en": "/en/products/dumbbell-rack-fm-3006/"
+  },
+  {
+    "sku": "FM-3010D",
+    "it": "/it/prodotti/disco-olimpionico-fm-3010d/",
+    "en": "/en/products/olympic-weight-plate-fm-3010d/"
+  },
+  {
+    "sku": "FM-3016",
+    "it": "/it/prodotti/materassino-fitness-fm-3016/",
+    "en": "/en/products/exercise-mat-fm-3016/"
+  },
+  {
+    "sku": "FM-3018",
+    "it": "/it/prodotti/porta-palle-mediche-fm-3018/",
+    "en": "/en/products/medicine-ball-rack-fm-3018/"
+  },
+  {
+    "sku": "FM-3020",
+    "it": "/it/prodotti/fitball-fm-3020/",
+    "en": "/en/products/exercise-ball-fm-3020/"
+  },
+  {
+    "sku": "FM-3021",
+    "it": "/it/prodotti/fitball-fm-3021/",
+    "en": "/en/products/exercise-ball-fm-3021/"
+  },
+  {
+    "sku": "FM-3028",
+    "it": "/it/prodotti/step-professionale-fm-3028/",
+    "en": "/en/products/professional-step-fm-3028/"
+  },
+  {
+    "sku": "FM-3029",
+    "it": "/it/prodotti/step-professionale-fm-3029/",
+    "en": "/en/products/professional-step-fm-3029/"
+  },
+  {
+    "sku": "FM-3031",
+    "it": "/it/prodotti/pavimentazione-fitness-fm-3031/",
+    "en": "/en/products/gym-flooring-fm-3031/"
+  },
+  {
+    "sku": "FM-3031A",
+    "it": "/it/prodotti/pavimentazione-fitness-fm-3031a/",
+    "en": "/en/products/gym-flooring-fm-3031a/"
+  },
+  {
+    "sku": "FM-3032",
+    "it": "/it/prodotti/anelli-ginnici-fm-3032/",
+    "en": "/en/products/gymnastic-rings-fm-3032/"
+  },
+  {
+    "sku": "FM-3033",
+    "it": "/it/prodotti/disco-olimpionico-fm-3033/",
+    "en": "/en/products/olympic-weight-plate-fm-3033/"
+  },
+  {
+    "sku": "FM-3035",
+    "it": "/it/prodotti/parallettes-fm-3035/",
+    "en": "/en/products/parallettes-fm-3035/"
+  },
+  {
+    "sku": "FM-3038",
+    "it": "/it/prodotti/farmer-walk-handle-fm-3038/",
+    "en": "/en/products/farmer-walk-handle-fm-3038/"
+  },
+  {
+    "sku": "FM-3039",
+    "it": "/it/prodotti/leg-curl-fm-3039/",
+    "en": "/en/products/leg-curl-fm-3039/"
+  },
+  {
+    "sku": "FM-3048",
+    "it": "/it/prodotti/ruota-addominali-fm-3048/",
+    "en": "/en/products/ab-wheel-fm-3048/"
+  },
+  {
+    "sku": "FM-3055",
+    "it": "/it/prodotti/manubrio-professionale-fm-3055/",
+    "en": "/en/products/professional-dumbbell-fm-3055/"
+  },
+  {
+    "sku": "FM-3056",
+    "it": "/it/prodotti/disco-olimpionico-fm-3056/",
+    "en": "/en/products/olympic-weight-plate-fm-3056/"
+  },
+  {
+    "sku": "FM-3062",
+    "it": "/it/prodotti/materassino-fitness-fm-3062/",
+    "en": "/en/products/exercise-mat-fm-3062/"
+  },
+  {
+    "sku": "FM-5015",
+    "it": "/it/prodotti/porta-bilancieri-fm-5015/",
+    "en": "/en/products/barbell-rack-fm-5015/"
+  },
+  {
+    "sku": "FM-5018",
+    "it": "/it/prodotti/porta-dischi-fm-5018/",
+    "en": "/en/products/weight-plate-storage-fm-5018/"
+  },
+  {
+    "sku": "FM-5019",
+    "it": "/it/prodotti/chin-up-e-dip-assistita-fm-5019/",
+    "en": "/en/products/assisted-chin-up-dip-fm-5019/"
+  },
+  {
+    "sku": "FM-5028",
+    "it": "/it/prodotti/power-cage-fm-5028/",
+    "en": "/en/products/power-cage-fm-5028/"
+  },
+  {
+    "sku": "FM-5035",
+    "it": "/it/prodotti/power-rack-fm-5035/",
+    "en": "/en/products/power-rack-fm-5035/"
+  },
+  {
+    "sku": "FM-5037",
+    "it": "/it/prodotti/porta-manubri-fm-5037/",
+    "en": "/en/products/dumbbell-rack-fm-5037/"
+  }
+]

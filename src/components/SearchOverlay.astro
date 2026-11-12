@@ -1,5 +1,6 @@
 ---
 import type { Locale } from '../lib/types';
+import { route } from '../lib/site';
 interface Props { locale: Locale }
 const { locale } = Astro.props;
 const isIt = locale === 'it';
@@ -13,7 +14,7 @@ const isIt = locale === 'it';
   </div>
 </dialog>
 
-<script is:inline define:vars={{ locale, emptyLabel: isIt ? 'Nessun risultato.' : 'No results.', hintLabel: isIt ? 'Scrivi almeno due caratteri.' : 'Enter at least two characters.', errorLabel: isIt ? 'La ricerca sarà disponibile dopo la build del sito.' : 'Search will be available after the site build.' }}>
+<script is:inline define:vars={{ locale, homeUrl: route(locale).home, emptyLabel: isIt ? 'Nessun risultato.' : 'No results.', hintLabel: isIt ? 'Scrivi almeno due caratteri.' : 'Enter at least two characters.', errorLabel: isIt ? 'La ricerca sarà disponibile dopo la build del sito.' : 'Search will be available after the site build.' }}>
   const dialog = document.querySelector('[data-search-dialog]');
   const close = document.querySelector('[data-search-close]');
   const input = document.querySelector('[data-search-input]');
@@ -34,10 +35,18 @@ const isIt = locale === 'it';
       if (query.length < 2) { results.innerHTML = `<p>${hintLabel}</p>`; return; }
       try {
         const pagefind = await import(/* @vite-ignore */ '/pagefind/pagefind.js');
-        const search = await pagefind.search(query);
-        const resolved = await Promise.all(search.results.slice(0, 24).map((item) => item.data()));
-        const localized = resolved.filter((item) => item.url.startsWith(`/${locale}/`)).slice(0, 8);
-        results.innerHTML = localized.length ? localized.map((item) => `<a href="${item.url}"><strong>${item.meta.title}</strong><span>${item.excerpt}</span></a>`).join('') : `<p>${emptyLabel}</p>`;
+        // Match a complete product code exactly; keep normal matching for free text.
+        const isProductCode = /^FM-(?=[A-Z0-9-]*\d)[A-Z0-9]+(?:-[A-Z0-9]+)*$/i.test(query);
+        const search = await pagefind.search(isProductCode ? `"${query}"` : query);
+        // Related-product mentions can rank above the product page for an exact code.
+        const candidates = isProductCode ? search.results : search.results.slice(0, 24);
+        const resolved = await Promise.all(candidates.map((item) => item.data()));
+        const localized = resolved.filter((item) => item.url === homeUrl || item.url.startsWith(`/${locale}/`));
+        if (isProductCode) {
+          const productSuffix = `-${query.toLowerCase()}/`;
+          localized.sort((a, b) => Number(b.url.toLowerCase().endsWith(productSuffix)) - Number(a.url.toLowerCase().endsWith(productSuffix)));
+        }
+        results.innerHTML = localized.length ? localized.slice(0, 8).map((item) => `<a href="${item.url}"><strong>${item.meta.title}</strong><span>${item.excerpt}</span></a>`).join('') : `<p>${emptyLabel}</p>`;
       } catch { results.innerHTML = `<p>${errorLabel}</p>`; }
     }, 180);
   });

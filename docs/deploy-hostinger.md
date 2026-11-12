@@ -19,6 +19,8 @@ Usare queste impostazioni:
 
 Hostinger installa le dipendenze dal `package-lock.json`. Non caricare `node_modules` o `dist` nel repository.
 
+Quando vengono ritirati prodotti o linee, distribuire una build completa sostituendo l'output precedente: non sovrapporre i nuovi file a una vecchia copia di `dist`. Le schede eliminate devono restituire 404 e scomparire anche dall'indice Pagefind, rigenerato da `npm run build`. Eventuali HTML residui continuerebbero a essere serviti come file statici.
+
 ## 2. Variabili d’ambiente
 
 Importare in hPanel i nomi presenti in `.env.example`. Non committare un file `.env` e non inserire password nel codice.
@@ -55,7 +57,10 @@ Al 7 novembre 2026 il sito è già distribuito sul dominio pubblico in questa mo
 
 Il primo deploy usa `npm run build` e `PUBLIC_SITE_READY=false`. Verificare sul dominio:
 
-- HTTPS valido e risposta `200` su `/`, `/it/` e `/en/`;
+- HTTPS valido e risposta `200` su `/` con la homepage italiana completa e su `/en/` con quella inglese;
+- risposta HTTP `301` da `/it` e `/it/` verso `/`, anche con parametri: `/it/?project=gym` deve portare a `/?project=gym`;
+- cambio lingua dal menu in entrambe le direzioni, canonical e alternates delle homepage su `/` e `/en/`, `x-default` su `/`;
+- sitemap con una sola voce per ciascuna homepage canonica, senza la vecchia homepage `/it/`;
 - catalogo, paginazione, ricerca, immagini e schede prodotto;
 - selezione prodotti e ricezione reale di una richiesta preventivo;
 - `https://fullmuscle-equipment.com/robots.txt` con `Disallow: /`;
@@ -66,7 +71,7 @@ Il primo deploy usa `npm run build` e `PUBLIC_SITE_READY=false`. Verificare sul 
 
 Configurare in Hostinger i redirect permanenti da HTTP a HTTPS e da `www.fullmuscle-equipment.com` al dominio senza `www`. Se verrà collegato `fullmuscle-equipment.it`, configurare anche il relativo redirect permanente verso il dominio `.com`.
 
-Il redirect deve conservare percorso e parametri: `https://www.fullmuscle-equipment.com/it/?project=gym` deve rispondere 301 con destinazione `https://fullmuscle-equipment.com/it/?project=gym`. La sola presenza del canonical non sostituisce il redirect. Il controllo pubblico è ripetibile con `node scripts/site/audit-live-seo.mjs`.
+Il redirect del dominio deve conservare percorso e parametri: `https://www.fullmuscle-equipment.com/it/catalogo/?project=gym` deve rispondere 301 con destinazione `https://fullmuscle-equipment.com/it/catalogo/?project=gym`. Il redirect della vecchia homepage `/it/` verso `/` è gestito separatamente dall’applicazione e non riguarda le pagine interne. La sola presenza del canonical non sostituisce il redirect. Il controllo pubblico è ripetibile con `node scripts/site/audit-live-seo.mjs`.
 
 La presenza delle credenziali SMTP e Turnstile consente di collaudare il form anche mentre il sito è in `noindex`.
 

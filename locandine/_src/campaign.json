@@ -1,0 +1,16 @@
+{
+  "title": "Full Muscle · Promozione serie GF",
+  "catalog": "brochures/fullmuscle-gf/content/catalog.json",
+  "approvedListPriceEur": 1870,
+  "discountPercent": 30,
+  "cta": "Scrivici in DM per informazioni",
+  "instagram": "@fullmuscle.equipment",
+  "disclosure": "Immagini illustrative · Configurazioni e accessori da confermare",
+  "products": [
+    { "sku": "FM-GF-001", "slug": "chest-press", "titleLines": ["Chest", "Press"] },
+    { "sku": "FM-GF-002", "slug": "shoulder-press", "titleLines": ["Shoulder", "Press"] },
+    { "sku": "FM-GF-003", "slug": "seated-row", "titleLines": ["Seated", "Row"] },
+    { "sku": "FM-GF-004", "slug": "lat-pulldown", "titleLines": ["Lat", "Pulldown"] },
+    { "sku": "FM-GF-005", "slug": "incline-chest-press", "titleLines": ["Incline", "Chest Press"] }
+  ]
+}

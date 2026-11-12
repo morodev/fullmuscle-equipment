@@ -48,14 +48,14 @@ export function navigation(locale: Locale) {
       label: 'Pin Loaded Machine',
       links: [
         { ...categoryLink(locale, 'pin-loaded-machine'), label: allLabel },
-        ...['fm-n8-series', 'fm-82-series', 'fm-x82-series', 'fm-g5-series', 'fm-gm-series', 'fm-gs-series', 'fm-gt-series', 'fm-hip-glute-machine', 'fm-gb-5-series', 'fm-x6-series', 'fm-5-series'].map((id) => lineLink(locale, id)),
+        ...['fm-g5-series', 'fm-gs-series'].map((id) => lineLink(locale, id)),
       ],
     },
     {
       label: 'Plate Loaded Machine',
       links: [
         { ...categoryLink(locale, 'plate-loaded-machine'), label: allLabel },
-        ...['fm-51-series', 'fm-52-series', 'fm-83-series', 'fm-88-series', 'fm-mp-series', 'fm-8xp-series', 'fm-77-series', 'fm-78-series', 'fm-5xp-series', 'fm-gf-series'].map((id) => lineLink(locale, id)),
+        ...['fm-gf-series', 'fm-52-series', 'fm-83-series', 'fm-mp-series'].map((id) => lineLink(locale, id)),
       ],
     },
     {
@@ -82,10 +82,10 @@ export function navigation(locale: Locale) {
     ['exercise-bike', isIt ? 'Exercise Bike' : 'Exercise Bikes'],
     ['rowing-machine', isIt ? 'Rowing Machine' : 'Rowing Machines'],
     ['ski-machine', isIt ? 'Ski Machine' : 'Ski Machines'],
-    ['surfing-machine', isIt ? 'Surfing Machine' : 'Surfing Machines'],
-    ['ab-coaster', isIt ? 'AB Coaster' : 'AB Coasters'],
   ];
-  const cardio = cardioIds.map(([id, label]) => ({ ...categoryLink(locale, id), label }));
+  const cardio = cardioIds
+    .filter(([id]) => CATEGORY_BY_ID.has(id))
+    .map(([id, label]) => ({ ...categoryLink(locale, id), label }));
   const solutions: NavigationGroup[] = [
     {
       label: isIt ? 'Progetti' : 'Projects',

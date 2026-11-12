@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "products": [
+    {
+      "publicSku": "FM-7100A",
+      "categoryId": "treadmill",
+      "descriptor": "Commercial Treadmill",
+      "technicalDescription": "Commercial treadmill. Configuration and technical specifications to be confirmed.",
+      "specifications": {},
+      "imageNote": {
+        "it": "Immagine illustrativa. Display Android touch screen previsto; configurazione da confermare.",
+        "en": "Illustrative image. Android touch screen planned; configuration to be confirmed."
+      },
+      "assets": [
+        {
+          "role": "primary",
+          "reviewStatus": "approved-provisional",
+          "localPath": "src/assets/catalog/FM-7100C/primary-01-1d2979e87b33.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    },
+    {
+      "publicSku": "FM-7045A",
+      "categoryId": "exercise-bike",
+      "descriptor": "Recumbent Bike",
+      "technicalDescription": "Recumbent bike. Configuration and technical specifications to be confirmed.",
+      "specifications": {},
+      "imageNote": {
+        "it": "Immagine illustrativa. Configurazione e dati tecnici da confermare.",
+        "en": "Illustrative image. Configuration and technical specifications to be confirmed."
+      },
+      "assets": [
+        {
+          "role": "primary",
+          "reviewStatus": "approved-provisional",
+          "localPath": "src/assets/catalog/FM-7045B/primary-01-8ae5f98c20b7.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    }
+  ]
+}

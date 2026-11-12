@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-09-13T09:35:51.935Z",
-  "updatedAt": "2026-11-07T20:44:58.692Z",
+  "updatedAt": "2026-11-12T22:31:40.004Z",
   "sourceInventoryHash": "45fde16c81b51dd09e5113524b9d18af9e30b106548316661d6c01e6665139db",
   "items": [
     {
@@ -299,18 +299,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/6a/6aada6739028b071d9d615545248431694a039c2dfafdafe0acc877df4183ac3.jpg",
-      "stagedPath": "src/assets/catalog/FM-3000B/primary-01-e22d00bd4da2.webp",
+      "stagedPath": "src/assets/catalog/FM-3000B/primary-01-6bf880bdd2f5.webp",
       "sourceHash": "6aada6739028b071d9d615545248431694a039c2dfafdafe0acc877df4183ac3",
-      "outputHash": "e22d00bd4da2c13725ca3af059a208451e518643556098560f8b26160b2f0caf",
+      "outputHash": "6bf880bdd2f575454e14cf6de757df19cacf65e73964f47d8a0ebbf0936d0fc0",
       "mimeType": "image/jpeg",
       "bytes": 41705,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: Original and edit compared: B variant keeps two vertical grip posts, low console, side rails, curved slat belt and low transport bar. Main painted uprights and decorative cyan trim changed to forest green; physical Full Muscle logo added. No front push handles from A reference introduced."
+        "Full Muscle branding: Original and edit compared: B variant keeps two vertical grip posts, low console, side rails, curved slat belt and low transport bar. Main painted uprights and decorative cyan trim changed to forest green; physical Full Muscle logo added. No front push handles from A reference introduced.",
+        "Full Muscle branding: Compared with the archived original: original black/anthracite factory finish, silver parts and blue/cyan accents retained; original screen type and structural components retained. Supplier marks removed; monochrome white FullMuscle Equipment wordmark on visible side near rear belt end. No green body repaint. This original-colour revision supersedes the previous green repaint."
       ],
-      "editedPath": "data/catalog-branding/generated/treadmills-01/fm-3000b-8b4c2802f9d009b5.png"
+      "editedPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-3000B.png"
     },
     {
       "assetId": "fm-3000c-c84133112a7c0168",
@@ -322,18 +323,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/b6/b6c1e9a3a7b16ff3d80b630f14aae40eaa45d71c57bb8bd046fc2bd4ce877346.jpg",
-      "stagedPath": "src/assets/catalog/FM-3000C/primary-01-8f6b652128eb.webp",
+      "stagedPath": "src/assets/catalog/FM-3000C/primary-01-acf64e2fcda0.webp",
       "sourceHash": "b6c1e9a3a7b16ff3d80b630f14aae40eaa45d71c57bb8bd046fc2bd4ce877346",
-      "outputHash": "8f6b652128eb1f34eb0b4c8e479c499f5601500b99c9d555425071e74d31dbe2",
+      "outputHash": "acf64e2fcda0f6ca37939055a68c8e4623d06f121b84cd569d1301b5e93ec18d",
       "mimeType": "image/jpeg",
       "bytes": 41317,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: Original and edit compared: C variant keeps central raised console, upper crossbar, side rails and curved belt without extra grip posts. Main uprights and cyan trim green; supplier badge replaced by Full Muscle. Sensors, collars, controls, frame geometry and background retained."
+        "Full Muscle branding: Original and edit compared: C variant keeps central raised console, upper crossbar, side rails and curved belt without extra grip posts. Main uprights and cyan trim green; supplier badge replaced by Full Muscle. Sensors, collars, controls, frame geometry and background retained.",
+        "Full Muscle branding: Compared with the archived original: original black/anthracite factory finish, silver parts and blue/cyan accents retained; original screen type and structural components retained. Supplier marks removed; monochrome white FullMuscle Equipment wordmark on visible side near rear belt end. No green body repaint. This original-colour revision supersedes the previous green repaint."
       ],
-      "editedPath": "data/catalog-branding/generated/treadmills-01/fm-3000c-c84133112a7c0168.png"
+      "editedPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-3000C.png"
     },
     {
       "assetId": "fm-3000c-3a0327261bd07971",
@@ -5175,18 +5177,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/b2/b2d5cfe306ac3b70390eb803c38575954d4213c72beee83721d989397632355a.jpg",
-      "stagedPath": "src/assets/catalog/FM-7100B/primary-01-911a4e59c158.webp",
+      "stagedPath": "src/assets/catalog/FM-7100B/primary-01-7cf0ab14ac39.webp",
       "sourceHash": "b2d5cfe306ac3b70390eb803c38575954d4213c72beee83721d989397632355a",
-      "outputHash": "911a4e59c158f264b358d1a6a19766d692a6757f576dbb505a48dd518c629af0",
+      "outputHash": "7cf0ab14ac39b6ab2c37a8e314e4a83b3ab14ab28152b3136dc125d0b1dca77f",
       "mimeType": "image/jpeg",
       "bytes": 26302,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: Original and output compared: exact console variant, straight handrails with silver caps, red/yellow safety control, black deck edges and belt retained. Only upright panels green; supplier badges replaced by Full Muscle. Same frame, feet, camera and white background; microtext illustrative."
+        "Full Muscle branding: Original and output compared: exact console variant, straight handrails with silver caps, red/yellow safety control, black deck edges and belt retained. Only upright panels green; supplier badges replaced by Full Muscle. Same frame, feet, camera and white background; microtext illustrative.",
+        "Full Muscle branding: Compared with the archived original: original black/anthracite factory finish, silver parts and blue/cyan accents retained; original screen type and structural components retained. Supplier marks removed; monochrome white FullMuscle Equipment wordmark on visible side near rear belt end. No green body repaint. This original-colour revision supersedes the previous green repaint."
       ],
-      "editedPath": "data/catalog-branding/generated/treadmills-01/fm-7100b-1030c72708549820.png"
+      "editedPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-7100B.png"
     },
     {
       "assetId": "fm-7100b-b1fa6a114eb7b36e",
@@ -5217,18 +5220,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/80/80c97a577120103242682340e26b38c29a8f4a2f6c8f7779baaf5423ee0119fd.jpg",
-      "stagedPath": "src/assets/catalog/FM-7100C/primary-01-c65a8d71deeb.webp",
+      "stagedPath": "src/assets/catalog/FM-7100C/primary-01-1d2979e87b33.webp",
       "sourceHash": "80c97a577120103242682340e26b38c29a8f4a2f6c8f7779baaf5423ee0119fd",
-      "outputHash": "c65a8d71deeb7c3ea79b1ca82db755e415e77bb1922604a3f21af77d94f28c67",
+      "outputHash": "1d2979e87b33a0c4a992dde0fd3cd53330888255e08e109d996efc9a464140d4",
       "mimeType": "image/jpeg",
       "bytes": 26249,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: Original and output compared: exact console variant, straight handrails with silver caps, red/yellow safety control, black deck edges and belt retained. Only upright panels green; supplier badges replaced by Full Muscle. Same frame, feet, camera and white background; microtext illustrative."
+        "Full Muscle branding: Original and output compared: exact console variant, straight handrails with silver caps, red/yellow safety control, black deck edges and belt retained. Only upright panels green; supplier badges replaced by Full Muscle. Same frame, feet, camera and white background; microtext illustrative.",
+        "Full Muscle branding: Compared with the archived original: original black/anthracite factory finish, silver parts and blue/cyan accents retained; original screen type and structural components retained. Supplier marks removed; monochrome white FullMuscle Equipment wordmark on visible side near rear belt end. No green body repaint. This original-colour revision supersedes the previous green repaint."
       ],
-      "editedPath": "data/catalog-branding/generated/treadmills-01/fm-7100c-59b8a85a440b9bb7.png"
+      "editedPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-7100C.png"
     },
     {
       "assetId": "fm-7100c-34fbe745b0174a5c",
@@ -9313,18 +9317,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/0e/0eea52148b72fb75d5ce004968b9ab8e697b3ae1b0b5a28f3107a67eb0edcef1.jpg",
-      "stagedPath": "src/assets/catalog/FM-9100A/primary-01-f92128b872e7.webp",
+      "stagedPath": "src/assets/catalog/FM-9100A/primary-01-f555107d82c6.webp",
       "sourceHash": "0eea52148b72fb75d5ce004968b9ab8e697b3ae1b0b5a28f3107a67eb0edcef1",
-      "outputHash": "f92128b872e71dc99251f86c21b861d285d088941f46932f1d7ce4be5164ac16",
+      "outputHash": "f555107d82c6453c6559bbc58543a5686a0fa72e2a7806d4b66f14f09c7c02d1",
       "mimeType": "image/jpeg",
       "bytes": 36189,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: Original and output compared: respective console variant, handrails, silver deck foot rails, belt chevrons, feet and safety controls retained. Uprights dark green and existing decorative side strips changed from blue to green, keeping original flat/illuminated finish; supplier side badge replaced. Same geometry and camera."
+        "Full Muscle branding: Original and output compared: respective console variant, handrails, silver deck foot rails, belt chevrons, feet and safety controls retained. Uprights dark green and existing decorative side strips changed from blue to green, keeping original flat/illuminated finish; supplier side badge replaced. Same geometry and camera.",
+        "Full Muscle branding: Compared with the archived original: original black/anthracite factory finish, silver parts and blue/cyan accents retained; original screen type and structural components retained. Supplier marks removed; monochrome white FullMuscle Equipment wordmark on visible side near rear belt end. No green body repaint. This original-colour revision supersedes the previous green repaint."
       ],
-      "editedPath": "data/catalog-branding/generated/treadmills-01/fm-9100a-e8fecb5539b17524.png"
+      "editedPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-9100A.png"
     },
     {
       "assetId": "fm-9100b-94b378aa51c5bcc6",
@@ -9336,18 +9341,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/a6/a6cf2c3ad4e048420793090b882331c84da9494b2d545688e62983a63f10bb44.jpg",
-      "stagedPath": "src/assets/catalog/FM-9100B/primary-01-ad0606312771.webp",
+      "stagedPath": "src/assets/catalog/FM-9100B/primary-01-3f5d0d52921c.webp",
       "sourceHash": "a6cf2c3ad4e048420793090b882331c84da9494b2d545688e62983a63f10bb44",
-      "outputHash": "ad060631277130895ec20b11e0b5de6c27df6c8dd2c66685b028450f64e1668b",
+      "outputHash": "3f5d0d52921c20333f67eabc3836935bd5f74e2d28ca474e1c98475f5ae3ebb1",
       "mimeType": "image/jpeg",
       "bytes": 33977,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: Original and output compared: respective console variant, handrails, silver deck foot rails, belt chevrons, feet and safety controls retained. Uprights dark green and existing decorative side strips changed from blue to green, keeping original flat/illuminated finish; supplier side badge replaced. Same geometry and camera."
+        "Full Muscle branding: Original and output compared: respective console variant, handrails, silver deck foot rails, belt chevrons, feet and safety controls retained. Uprights dark green and existing decorative side strips changed from blue to green, keeping original flat/illuminated finish; supplier side badge replaced. Same geometry and camera.",
+        "Full Muscle branding: Compared with the archived original: original black/anthracite factory finish, silver parts and blue/cyan accents retained; original screen type and structural components retained. Supplier marks removed; monochrome white FullMuscle Equipment wordmark on visible side near rear belt end. No green body repaint. This original-colour revision supersedes the previous green repaint. Original green console pictograms retained."
       ],
-      "editedPath": "data/catalog-branding/generated/treadmills-01/fm-9100b-94b378aa51c5bcc6.png"
+      "editedPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-9100B.png"
     },
     {
       "assetId": "fm-9100b-c3f0af0d8eb12468",
@@ -9416,18 +9422,19 @@
       "status": "approved-provisional",
       "supplierMarks": [],
       "originalPath": "data/catalog-assets/originals/16/16bd04fb85b72343767533fbcaf57154968b67853088db48ac76f26ec47370a7.jpg",
-      "stagedPath": "src/assets/catalog/FM-9100C/primary-01-95bb2f78bbc2.webp",
+      "stagedPath": "src/assets/catalog/FM-9100C/primary-01-33392953e7de.webp",
       "sourceHash": "16bd04fb85b72343767533fbcaf57154968b67853088db48ac76f26ec47370a7",
-      "outputHash": "95bb2f78bbc219c3a8fa37ac9adb07f254f18d62970a6695c99ebac0b1fa1e25",
+      "outputHash": "33392953e7ded5e1176b12161fdd469db9488676750d4bac230a6b73d0d7698c",
       "mimeType": "image/jpeg",
       "bytes": 34979,
       "width": 1254,
       "height": 1254,
       "reviewNotes": [
         "Revisione provvisoria: nessun nome del fornitore visibile nella tavola e nel controllo del file.",
-        "Full Muscle branding: Source and result compared: respective console/control layout and camera angle retained; black belt with original white chevrons, silver rails, black handrails and round feet preserved. Painted uprights and decorative strips green, Full Muscle side badge. Original illuminated or flat strip appearance retained, screen microtext illustrative."
+        "Full Muscle branding: Source and result compared: respective console/control layout and camera angle retained; black belt with original white chevrons, silver rails, black handrails and round feet preserved. Painted uprights and decorative strips green, Full Muscle side badge. Original illuminated or flat strip appearance retained, screen microtext illustrative.",
+        "Full Muscle branding: Compared with the archived original: original black/anthracite factory finish, silver parts and blue/cyan accents retained; original screen type and structural components retained. Supplier marks removed; monochrome white FullMuscle Equipment wordmark on visible side near rear belt end. No green body repaint. This original-colour revision supersedes the previous green repaint."
       ],
-      "editedPath": "data/catalog-branding/generated/treadmills-01/fm-9100c-562a4dc01b02a5c1.png"
+      "editedPath": "data/catalog-branding/generated/treadmills-original-colors-01/FM-9100C.png"
     },
     {
       "assetId": "fm-9100c-18671ba5b3c6a251",

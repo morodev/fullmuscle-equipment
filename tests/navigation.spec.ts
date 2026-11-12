@@ -24,7 +24,7 @@ const mobileViewports = [
 for (const viewport of mobileViewports) {
   test(`il menu occupa il viewport e permette di raggiungere gli ultimi link a ${viewport.width}x${viewport.height}`, async ({ page }) => {
     await page.setViewportSize(viewport);
-    await page.goto('/it/');
+    await page.goto('/');
     const toggle = page.getByRole('button', { name: 'Apri il menu' });
     await expect(toggle).toHaveAttribute('aria-expanded', 'false');
     await toggle.click();
@@ -61,7 +61,9 @@ test('il menu blocca la pagina, scorre internamente e ripristina il focus con Es
   const navigation = page.getByRole('navigation', { name: 'Main navigation' });
   const strength = navigation.getByRole('button', { name: 'Strength', exact: true });
   await strength.click();
-  await navigation.locator('summary').filter({ hasText: 'Pin Loaded Machine' }).click();
+  for (const summary of await navigation.locator('#strength-menu summary').all()) {
+    await summary.click();
+  }
   await page.mouse.move(200, 500);
   await page.mouse.wheel(0, 600);
   await expect.poll(() => navigation.evaluate((element) => element.scrollTop)).toBeGreaterThan(0);
@@ -89,19 +91,19 @@ test('il menu blocca la pagina, scorre internamente e ripristina il focus con Es
 
   await toggle.click();
   await strength.click();
-  const series = navigation.locator('a[href="/en/catalogue/lines/fm-5-series/"]');
+  const series = navigation.locator('a[href="/en/catalogue/lines/fm-g5-series/"]');
   await series.click();
-  await expect(page).toHaveURL('/en/catalogue/lines/fm-5-series/');
+  await expect(page).toHaveURL('/en/catalogue/lines/fm-g5-series/');
   await expect(page.getByRole('button', { name: 'Open menu' })).toHaveAttribute('aria-expanded', 'false');
 });
 
 test('il menu ripristina navigazione e accordion attraversando il breakpoint desktop', async ({ page }) => {
   await page.setViewportSize({ width: 1179, height: 844 });
-  await page.goto('/it/');
+  await page.goto('/');
   const toggle = page.locator('[data-menu-toggle]');
   const navigation = page.getByRole('navigation', { name: 'Navigazione principale' });
   const strength = navigation.getByRole('button', { name: 'Strength', exact: true });
-  const series = navigation.getByRole('link', { name: 'Serie FM N8', exact: true });
+  const series = navigation.getByRole('link', { name: 'Serie FM G5', exact: true });
   await toggle.click();
   await strength.click();
   await navigation.locator('summary').filter({ hasText: 'Pin Loaded Machine' }).click();
